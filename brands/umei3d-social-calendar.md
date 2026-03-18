@@ -581,4 +581,4 @@ Angles used: Pattern Interrupt · Authority · Contrarian · Curiosity Gap · Ou
 - Emotional aspiration posts (no product mention) = highest brand affinity, lowest effort
 - Post 14 (Colorway name) and Post 15 (Drop date) need real info filled in before posting
 
-*Generated March 2026 — based on benchmark analysis of 245 posts across @umei_3d, @arkkyofficial, @nike, @cubework_official*
+*Generated March 2026 — based on benchmark analysis of posts across @umei_3d, @arkkyofficial, and @nike*
