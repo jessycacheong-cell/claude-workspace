@@ -52,6 +52,12 @@
 - Sync all file copies after every edit
 - Deployment target: Netlify Drop
 
+## GitHub Save Command
+- When J says **"save this to GitHub"** → commit and push only the files we worked on in this session
+- When J says **"save this to GitHub under [brand]"** → commit and push to that brand's repo
+- Never push everything blindly — only what was explicitly worked on
+- Repos: claude-workspace → jessycacheong-cell/claude-workspace | umei3d app → jessycacheong-cell/umei3d-app
+
 ---
 
 ## Folder Rules
