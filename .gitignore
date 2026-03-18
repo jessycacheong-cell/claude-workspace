@@ -1,0 +1,14 @@
+# Secrets — never commit these
+.env
+*.key
+*.pem
+secrets/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor folders
+.vscode/
+.idea/
