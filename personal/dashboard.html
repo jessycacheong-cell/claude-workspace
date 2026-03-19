@@ -539,6 +539,55 @@
   .session-log-inner { display:flex; flex-direction:column; gap:14px; }
   .session-log-top { display:flex; align-items:center; justify-content:space-between; }
   #last-sync-bento { font-size:11px; color:var(--text-3); }
+
+  /* ── WHAT'S RUNNING ── */
+  .running-list { display:flex; flex-direction:column; gap:10px; }
+  .running-item { display:flex; align-items:center; gap:10px; padding:8px 0; border-bottom:1px solid var(--border); }
+  .running-item:last-child { border-bottom:none; }
+  .running-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+  .running-info { flex:1; min-width:0; }
+  .running-name { font-size:13px; font-weight:600; color:var(--text-1); }
+  .running-sub  { font-size:11px; color:var(--text-3); margin-top:1px; }
+
+  /* ── MILESTONES (new layout) ── */
+  .ms-item { display:flex; align-items:center; gap:12px; padding:12px 0; border-bottom:1px solid var(--border); }
+  .ms-item:last-child { border-bottom:none; }
+  .ms-active { background:rgba(253,105,105,0.03); border-radius:10px; padding:12px; margin:-12px; }
+  .ms-num { width:26px; height:26px; border-radius:50%; background:var(--bg-raised); border:1px solid var(--border); display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:700; color:var(--text-2); flex-shrink:0; }
+  .ms-body { flex:1; min-width:0; }
+  .ms-name { font-size:13px; font-weight:600; color:var(--text-1); margin-bottom:2px; }
+  .ms-dates { font-size:11px; color:var(--text-3); margin-bottom:6px; }
+  .ms-bar-wrap { height:6px; background:var(--bg-raised); border-radius:4px; overflow:hidden; }
+  .ms-bar { height:100%; border-radius:4px; transition:width 1s ease; }
+  .ms-right { display:flex; flex-direction:column; align-items:flex-end; gap:4px; flex-shrink:0; }
+  .ms-pct { font-size:13px; font-weight:700; color:var(--text-1); }
+
+  /* ── AGENT FLOW ── */
+  .agent-flow-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  @media(max-width:768px){ .agent-flow-grid{ grid-template-columns:1fr; } }
+  .af-agent {
+    background:var(--bg-raised); border:1px solid var(--border);
+    border-radius:14px; padding:16px;
+    transition:all 0.2s;
+  }
+  .af-agent:hover { border-color:rgba(253,105,105,0.25); box-shadow:0 4px 20px rgba(0,0,0,0.3); }
+  .af-header { display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+  .af-emoji { font-size:22px; width:38px; height:38px; background:var(--bg-card); border-radius:10px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .af-name { font-size:14px; font-weight:700; color:var(--text-1); }
+  .af-handle { font-size:11px; color:var(--text-3); }
+  .af-badge { margin-left:auto; flex-shrink:0; }
+  .af-pipeline { display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+  .af-step {
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:10px; padding:8px 12px; text-align:center; min-width:90px;
+  }
+  .af-step-result { border-color:rgba(253,105,105,0.2); background:rgba(253,105,105,0.04); }
+  .af-step-icon { font-size:16px; margin-bottom:3px; }
+  .af-step-label { font-size:9px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--text-3); margin-bottom:2px; }
+  .af-step-val { font-size:11px; color:var(--text-2); font-weight:500; }
+  .af-arrow { color:var(--text-3); font-size:16px; flex-shrink:0; }
+  .af-lastrun { font-size:11px; color:var(--text-3); margin-top:12px; }
+  .af-lastrun span { color:var(--text-2); }
 </style>
 </head>
 <body>
@@ -626,13 +675,50 @@
     </div>
   </div>
 
-  <!-- Clock -->
-  <div class="bc bc-4" style="text-align:center;">
-    <div class="bc-label">Local Time</div>
-    <div class="bc-clock-wrap">
-      <div id="clock">—</div>
-      <div class="bc-clock-date" id="clock-date">—</div>
-      <div class="bc-clock-loc">Glendale, CA</div>
+  <!-- What's Running -->
+  <div class="bc bc-4">
+    <div class="bc-label">What's Running</div>
+    <div class="running-list">
+      <div class="running-item">
+        <span class="running-dot" style="background:var(--green)"></span>
+        <div class="running-info">
+          <div class="running-name">Post-Purchase App</div>
+          <div class="running-sub">UMEI3D · Netlify Live</div>
+        </div>
+        <span class="badge badge-green" style="font-size:10px;">Live</span>
+      </div>
+      <div class="running-item">
+        <span class="running-dot" style="background:var(--green)"></span>
+        <div class="running-info">
+          <div class="running-name">serve-static.js</div>
+          <div class="running-sub">Preview Server · Port 3401</div>
+        </div>
+        <span class="badge badge-green" style="font-size:10px;">Active</span>
+      </div>
+      <div class="running-item">
+        <span class="running-dot" style="background:var(--blue);animation:pulse 1.5s infinite"></span>
+        <div class="running-info">
+          <div class="running-name">Claude Code</div>
+          <div class="running-sub">Active Session · Building</div>
+        </div>
+        <span class="badge badge-blue" style="font-size:10px;">Running</span>
+      </div>
+      <div class="running-item">
+        <span class="running-dot" style="background:var(--blue)"></span>
+        <div class="running-info">
+          <div class="running-name">Finance Tracker</div>
+          <div class="running-sub">Local · Desktop</div>
+        </div>
+        <span class="badge badge-gray" style="font-size:10px;">Local</span>
+      </div>
+      <div class="running-item">
+        <span class="running-dot" style="background:var(--text-3)"></span>
+        <div class="running-info">
+          <div class="running-name">Figma</div>
+          <div class="running-sub">MCP Connected · Design</div>
+        </div>
+        <span class="badge badge-gray" style="font-size:10px;">Connected</span>
+      </div>
     </div>
   </div>
 
@@ -674,20 +760,6 @@
     </div>
   </div>
 
-  <!-- Weekly Chart -->
-  <div class="bc bc-8 fade-up">
-    <div class="bc-label">Weekly Activity</div>
-    <div class="chart-header">
-      <div class="chart-title">This Week</div>
-      <span class="badge badge-gray" id="chart-week-label">Mar 16 – 22</span>
-    </div>
-    <div class="chart-bars" id="weekly-bars">
-      <!-- rendered by JS -->
-    </div>
-    <div style="font-size:11px; color:var(--text-3); margin-top:12px;">
-      📊 Activity score (0–100) based on session logs written by WrapBot each evening at 8 PM. Updated automatically — today's bar grows as the day progresses.
-    </div>
-  </div>
 
   <!-- Row 3 cont: Today Agenda (bc-4) | Today Email (bc-4) -->
 
@@ -773,109 +845,224 @@
   <div class="bc bc-8 fade-up" id="milestones">
     <div class="bc-label">Active Milestones — UMEI3D Post-Purchase App</div>
     <div class="ms-compact" id="milestone-list">
-      <div style="padding:16px; text-align:center; color:var(--text-3); font-size:12px;">Loading...</div>
+      <div class="ms-item ms-active">
+        <div class="ms-num">1</div>
+        <div class="ms-body">
+          <div class="ms-name">Feedback &amp; Fixes</div>
+          <div class="ms-dates">Mar 17 → Mar 22, 2026</div>
+          <div class="ms-bar-wrap"><div class="ms-bar" style="width:40%;background:var(--blue)"></div></div>
+        </div>
+        <div class="ms-right">
+          <div class="ms-pct">40%</div>
+          <span class="badge badge-blue">In Progress</span>
+        </div>
+      </div>
+      <div class="ms-item">
+        <div class="ms-num">2</div>
+        <div class="ms-body">
+          <div class="ms-name">Visual Polish (Figma)</div>
+          <div class="ms-dates">Mar 23 → Apr 5, 2026</div>
+          <div class="ms-bar-wrap"><div class="ms-bar" style="width:0%;background:var(--blue)"></div></div>
+        </div>
+        <div class="ms-right">
+          <div class="ms-pct">0%</div>
+          <span class="badge badge-gray">Not Started</span>
+        </div>
+      </div>
+      <div class="ms-item">
+        <div class="ms-num">3</div>
+        <div class="ms-body">
+          <div class="ms-name">Voice &amp; Sound (ElevenLabs)</div>
+          <div class="ms-dates">Apr 6 → Apr 19, 2026</div>
+          <div class="ms-bar-wrap"><div class="ms-bar" style="width:0%;background:var(--blue)"></div></div>
+        </div>
+        <div class="ms-right">
+          <div class="ms-pct">0%</div>
+          <span class="badge badge-gray">Not Started</span>
+        </div>
+      </div>
+      <div class="ms-item">
+        <div class="ms-num">4</div>
+        <div class="ms-body">
+          <div class="ms-name">Analytics</div>
+          <div class="ms-dates">Apr 20 → May 3, 2026</div>
+          <div class="ms-bar-wrap"><div class="ms-bar" style="width:0%;background:var(--blue)"></div></div>
+        </div>
+        <div class="ms-right">
+          <div class="ms-pct">0%</div>
+          <span class="badge badge-gray">Not Started</span>
+        </div>
+      </div>
+      <div class="ms-item">
+        <div class="ms-num">5</div>
+        <div class="ms-body">
+          <div class="ms-name">Pilot &amp; Roll Out</div>
+          <div class="ms-dates">May 4 → May 17, 2026</div>
+          <div class="ms-bar-wrap"><div class="ms-bar" style="width:0%;background:var(--blue)"></div></div>
+        </div>
+        <div class="ms-right">
+          <div class="ms-pct">0%</div>
+          <span class="badge badge-gray">Not Started</span>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- AI Agents (spans 2 rows) -->
-  <div class="bc bc-4 br-2" id="agents">
-    <div class="bc-label">My Agents</div>
-    <div class="agent-grid-bento" id="agent-grid">
+  <!-- Agent Flow (bc-12 full width) -->
+  <div class="bc bc-12 fade-up" id="agents">
+    <div class="bc-label">Agent Pipeline — What Each Agent Does</div>
+    <div class="agent-flow-grid">
 
-      <!-- Agent 1: GitBot -->
-      <div class="agent-card sleeping" id="agent-github"
-           style="--agent-glow: radial-gradient(ellipse at top left, rgba(69,131,253,0.07), transparent 70%)">
-        <div class="agent-top">
-          <div class="agent-avatar" style="background:rgba(69,131,253,0.15);">
-            🔄
-            <div class="status-ring"></div>
-            <div class="zzz">z z</div>
+      <!-- GitBot -->
+      <div class="af-agent">
+        <div class="af-header">
+          <span class="af-emoji">🔄</span>
+          <div>
+            <div class="af-name">GitBot</div>
+            <div class="af-handle">@github-sync</div>
           </div>
-          <div class="agent-info">
-            <div class="agent-name">GitBot <span class="agent-handle">@github-sync</span></div>
-            <div class="agent-role">Watches both GitHub repos. Keeps dashboard fresh every 6 hours.</div>
+          <span class="badge badge-gray af-badge" id="state-github">😴 Sleeping</span>
+        </div>
+        <div class="af-pipeline">
+          <div class="af-step">
+            <div class="af-step-icon">⏰</div>
+            <div class="af-step-label">Trigger</div>
+            <div class="af-step-val">Every 6 hrs</div>
+          </div>
+          <div class="af-arrow">→</div>
+          <div class="af-step">
+            <div class="af-step-icon">🔍</div>
+            <div class="af-step-label">Action</div>
+            <div class="af-step-val">Scan GitHub repos</div>
+          </div>
+          <div class="af-arrow">→</div>
+          <div class="af-step">
+            <div class="af-step-icon">📄</div>
+            <div class="af-step-label">Output</div>
+            <div class="af-step-val">Updates data.json</div>
+          </div>
+          <div class="af-arrow">→</div>
+          <div class="af-step af-step-result">
+            <div class="af-step-icon">📊</div>
+            <div class="af-step-label">Result</div>
+            <div class="af-step-val">Dashboard refreshes</div>
           </div>
         </div>
-        <div class="agent-status-row">
-          <span class="agent-state sleeping" id="state-github">😴 Sleeping</span>
-          <span class="agent-schedule">⏱ Every 6 hrs</span>
-        </div>
-        <div class="agent-last-run">
-          <div>Last run</div>
-          <span id="lastrun-github">Not yet</span>
-        </div>
+        <div class="af-lastrun">Last run: <span id="lastrun-github">Not yet</span></div>
       </div>
 
-      <!-- Agent 2: MilestoneBot -->
-      <div class="agent-card sleeping" id="agent-milestone"
-           style="--agent-glow: radial-gradient(ellipse at top left, rgba(245,200,66,0.07), transparent 70%)">
-        <div class="agent-top">
-          <div class="agent-avatar" style="background:rgba(245,200,66,0.12);">
-            🎯
-            <div class="status-ring"></div>
-            <div class="zzz">z z</div>
+      <!-- MilestoneBot -->
+      <div class="af-agent">
+        <div class="af-header">
+          <span class="af-emoji">🎯</span>
+          <div>
+            <div class="af-name">MilestoneBot</div>
+            <div class="af-handle">@milestone-notion</div>
           </div>
-          <div class="agent-info">
-            <div class="agent-name">MilestoneBot <span class="agent-handle">@milestone-notion</span></div>
-            <div class="agent-role">Reads Notion milestone tracker every 9 AM and updates progress.</div>
+          <span class="badge badge-gray af-badge" id="state-milestone">😴 Sleeping</span>
+        </div>
+        <div class="af-pipeline">
+          <div class="af-step">
+            <div class="af-step-icon">⏰</div>
+            <div class="af-step-label">Trigger</div>
+            <div class="af-step-val">9:00 AM daily</div>
+          </div>
+          <div class="af-arrow">→</div>
+          <div class="af-step">
+            <div class="af-step-icon">📖</div>
+            <div class="af-step-label">Action</div>
+            <div class="af-step-val">Read Notion tracker</div>
+          </div>
+          <div class="af-arrow">→</div>
+          <div class="af-step">
+            <div class="af-step-icon">📄</div>
+            <div class="af-step-label">Output</div>
+            <div class="af-step-val">Updates milestones</div>
+          </div>
+          <div class="af-arrow">→</div>
+          <div class="af-step af-step-result">
+            <div class="af-step-icon">📊</div>
+            <div class="af-step-label">Result</div>
+            <div class="af-step-val">Progress bars update</div>
           </div>
         </div>
-        <div class="agent-status-row">
-          <span class="agent-state sleeping" id="state-milestone">😴 Sleeping</span>
-          <span class="agent-schedule">⏱ 9:00 AM daily</span>
-        </div>
-        <div class="agent-last-run">
-          <div>Last run</div>
-          <span id="lastrun-milestone">Not yet</span>
-        </div>
+        <div class="af-lastrun">Last run: <span id="lastrun-milestone">Not yet</span></div>
       </div>
 
-      <!-- Agent 3: WrapBot -->
-      <div class="agent-card sleeping" id="agent-wrapup"
-           style="--agent-glow: radial-gradient(ellipse at top left, rgba(167,139,250,0.07), transparent 70%)">
-        <div class="agent-top">
-          <div class="agent-avatar" style="background:rgba(167,139,250,0.12);">
-            📝
-            <div class="status-ring"></div>
-            <div class="zzz">z z</div>
+      <!-- WrapBot -->
+      <div class="af-agent">
+        <div class="af-header">
+          <span class="af-emoji">📝</span>
+          <div>
+            <div class="af-name">WrapBot</div>
+            <div class="af-handle">@daily-wrapup</div>
           </div>
-          <div class="agent-info">
-            <div class="agent-name">WrapBot <span class="agent-handle">@daily-wrapup</span></div>
-            <div class="agent-role">Clocks in at 8 PM. Writes session summary and logs it.</div>
+          <span class="badge badge-gray af-badge" id="state-wrapup">😴 Sleeping</span>
+        </div>
+        <div class="af-pipeline">
+          <div class="af-step">
+            <div class="af-step-icon">⏰</div>
+            <div class="af-step-label">Trigger</div>
+            <div class="af-step-val">8:00 PM daily</div>
+          </div>
+          <div class="af-arrow">→</div>
+          <div class="af-step">
+            <div class="af-step-icon">🧠</div>
+            <div class="af-step-label">Action</div>
+            <div class="af-step-val">Review session work</div>
+          </div>
+          <div class="af-arrow">→</div>
+          <div class="af-step">
+            <div class="af-step-icon">✍️</div>
+            <div class="af-step-label">Output</div>
+            <div class="af-step-val">Writes daily summary</div>
+          </div>
+          <div class="af-arrow">→</div>
+          <div class="af-step af-step-result">
+            <div class="af-step-icon">📄</div>
+            <div class="af-step-label">Result</div>
+            <div class="af-step-val">Logs to data.json</div>
           </div>
         </div>
-        <div class="agent-status-row">
-          <span class="agent-state sleeping" id="state-wrapup">😴 Sleeping</span>
-          <span class="agent-schedule">⏱ 8:00 PM daily</span>
-        </div>
-        <div class="agent-last-run">
-          <div>Last run</div>
-          <span id="lastrun-wrapup">Not yet</span>
-        </div>
+        <div class="af-lastrun">Last run: <span id="lastrun-wrapup">Not yet</span></div>
       </div>
 
-      <!-- Agent 4: LogBot -->
-      <div class="agent-card sleeping" id="agent-sessionlog"
-           style="--agent-glow: radial-gradient(ellipse at top left, rgba(34,212,122,0.07), transparent 70%)">
-        <div class="agent-top">
-          <div class="agent-avatar" style="background:rgba(34,212,122,0.12);">
-            🗒️
-            <div class="status-ring"></div>
-            <div class="zzz">z z</div>
+      <!-- LogBot -->
+      <div class="af-agent">
+        <div class="af-header">
+          <span class="af-emoji">🗒️</span>
+          <div>
+            <div class="af-name">LogBot</div>
+            <div class="af-handle">@session-logger</div>
           </div>
-          <div class="agent-info">
-            <div class="agent-name">LogBot <span class="agent-handle">@session-logger</span></div>
-            <div class="agent-role">Summarizes Claude session at 8:10 PM, writes to Notion workspace.</div>
+          <span class="badge badge-gray af-badge" id="state-logger">😴 Sleeping</span>
+        </div>
+        <div class="af-pipeline">
+          <div class="af-step">
+            <div class="af-step-icon">⏰</div>
+            <div class="af-step-label">Trigger</div>
+            <div class="af-step-val">8:10 PM daily</div>
+          </div>
+          <div class="af-arrow">→</div>
+          <div class="af-step">
+            <div class="af-step-icon">💬</div>
+            <div class="af-step-label">Action</div>
+            <div class="af-step-val">Summarize Claude session</div>
+          </div>
+          <div class="af-arrow">→</div>
+          <div class="af-step">
+            <div class="af-step-icon">📓</div>
+            <div class="af-step-label">Output</div>
+            <div class="af-step-val">Write to Notion</div>
+          </div>
+          <div class="af-arrow">→</div>
+          <div class="af-step af-step-result">
+            <div class="af-step-icon">✅</div>
+            <div class="af-step-label">Result</div>
+            <div class="af-step-val">Workspace updated</div>
           </div>
         </div>
-        <div class="agent-status-row">
-          <span class="agent-state sleeping" id="state-sessionlog">😴 Sleeping</span>
-          <span class="agent-schedule">⏱ 8:10 PM daily</span>
-        </div>
-        <div class="agent-last-run">
-          <div>Last run</div>
-          <span id="lastrun-sessionlog">Not yet</span>
-        </div>
+        <div class="af-lastrun">Last run: <span id="lastrun-logger">Not yet</span></div>
       </div>
 
     </div>
@@ -1058,12 +1245,6 @@
       </div>
       <div class="prod-track" style="margin-bottom:14px;">
         <div class="prod-row">
-          <div class="prod-label">Day Progress</div>
-          <div class="prod-bar"><div class="prod-fill" id="bar-day" style="background:var(--blue); width:0%"></div></div>
-          <div class="prod-pct" id="pct-day">0%</div>
-        </div>
-        <div class="prod-note">How much of today has passed (time elapsed out of 24 hrs)</div>
-        <div class="prod-row">
           <div class="prod-label">M1 Progress</div>
           <div class="prod-bar"><div class="prod-fill" id="bar-ms" style="background:var(--yellow); width:0%"></div></div>
           <div class="prod-pct" id="pct-ms">0%</div>
@@ -1088,6 +1269,7 @@
 </div><!-- end .bento-grid -->
 
 <div class="footer">J's Command Center · Built with Claude Code · <span id="footer-date"></span></div>
+<div style="display:none"><span id="clock"></span><span id="clock-date"></span></div>
 
 <script>
 // ── ENTRANCE ANIMATIONS (IntersectionObserver) ────
@@ -1290,11 +1472,6 @@ setInterval(updateCountdown, 30000);
 // ── PRODUCTIVITY BARS ──────────────────────────────
 function updateProductivity(msProg) {
   const now   = new Date();
-  const start = 9, end = 18; // 9am–6pm workday
-  const h = now.getHours() + now.getMinutes() / 60;
-  const dayPct = Math.max(0, Math.min(100, Math.round((h - start) / (end - start) * 100)));
-  document.getElementById('bar-day').style.width = dayPct + '%';
-  document.getElementById('pct-day').textContent = dayPct + '%';
   document.getElementById('bar-ms').style.width  = msProg + '%';
   document.getElementById('pct-ms').textContent  = msProg + '%';
   document.getElementById('prod-date').textContent =
@@ -1302,10 +1479,9 @@ function updateProductivity(msProg) {
   updateTodoBar();
 }
 function updateProdScore() {
-  const dayPct  = parseFloat(document.getElementById('bar-day').style.width) || 0;
   const msPct   = parseFloat(document.getElementById('bar-ms').style.width)  || 0;
   const todoPct = parseFloat(document.getElementById('bar-todo').style.width) || 0;
-  const score   = Math.round((dayPct * 0.3 + msPct * 0.4 + todoPct * 0.3));
+  const score   = Math.round((msPct * 0.6 + todoPct * 0.4));
   document.getElementById('prod-score').textContent = score + '%';
 }
 
