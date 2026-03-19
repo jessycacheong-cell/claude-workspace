@@ -1,0 +1,1591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>J's Command Center</title>
+<style>
+  :root {
+    --bg:        #0f0f0f;
+    --bg-card:   #1a1a1a;
+    --bg-raised: #222222;
+    --bg-hover:  #252525;
+    --border:    #2e2e2e;
+    --border-blue: rgba(253,105,105,0.28);
+    --blue:      #FD6969;
+    --blue-dim:  rgba(253,105,105,0.12);
+    --text-1:    #f0f0f0;
+    --text-2:    #888888;
+    --text-3:    #555555;
+    --green:     #4ade80;
+    --green-dim: rgba(74,222,128,0.12);
+    --red:       #ff4743;
+    --red-dim:   rgba(255,71,67,0.12);
+    --yellow:    #facc15;
+    --yellow-dim:rgba(250,204,21,0.12);
+    --purple:    #a78bfa;
+    --purple-dim:rgba(167,139,250,0.10);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text-1);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    min-height: 100vh;
+    padding-bottom: 60px;
+  }
+
+  /* HEADER */
+  .header {
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 20px 0;
+    position: sticky; top: 0; z-index: 100;
+  }
+  .header-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
+  .logo { display:flex; align-items:center; gap:10px; }
+  .logo-mark {
+    width:32px; height:32px; background:var(--blue); border-radius:8px;
+    display:flex; align-items:center; justify-content:center;
+    font-weight:800; font-size:13px; color:#fff;
+  }
+  .logo-text { font-size:16px; font-weight:700; }
+  .logo-sub { font-size:11px; color:var(--text-2); margin-top:1px; }
+  .header-date { text-align:right; font-size:12px; color:var(--text-2); }
+  .header-date span { display:block; color:var(--blue); font-weight:600; font-size:13px; }
+  .nav { display:flex; gap:6px; padding-bottom:0; overflow-x:auto; scrollbar-width:none; }
+  .nav::-webkit-scrollbar { display:none; }
+  .nav-pill {
+    flex-shrink:0; padding:7px 13px; border-radius:8px 8px 0 0;
+    border:1px solid transparent; border-bottom:none;
+    background:transparent; color:var(--text-2);
+    font-size:12px; cursor:pointer; transition:all 0.2s; text-decoration:none;
+  }
+  .nav-pill:hover { color:var(--text-1); background:var(--bg-raised); }
+  .nav-pill.active { background:var(--bg); color:var(--blue); border-color:var(--border); font-weight:600; }
+
+  /* LAYOUT */
+  .page { padding:20px; max-width:900px; margin:0 auto; }
+  .section { margin-bottom:28px; }
+  .section-title {
+    font-size:11px; font-weight:600; letter-spacing:.08em; text-transform:uppercase;
+    color:var(--text-3); margin-bottom:10px;
+    display:flex; align-items:center; gap:8px;
+  }
+  .section-title::after { content:''; flex:1; height:1px; background:var(--border); }
+
+  /* BADGES */
+  .badge {
+    display:inline-flex; align-items:center; gap:4px;
+    padding:3px 8px; border-radius:20px; font-size:11px; font-weight:600; flex-shrink:0;
+  }
+  .badge-green  { background:var(--green-dim);  color:var(--green); }
+  .badge-yellow { background:var(--yellow-dim); color:var(--yellow); }
+  .badge-blue   { background:var(--blue-dim);   color:var(--blue); }
+  .badge-red    { background:var(--red-dim);     color:var(--red); }
+  .badge-gray   { background:rgba(255,255,255,0.05); color:var(--text-2); }
+  .dot { width:6px; height:6px; border-radius:50%; background:currentColor; flex-shrink:0; }
+  .pulse { animation:pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.35} }
+
+  /* ── STATS ROW ── */
+  .stat-row { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
+  @media(max-width:600px){ .stat-row{ grid-template-columns:repeat(2,1fr); } }
+  .stat-card {
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:12px; padding:14px 14px 12px;
+  }
+  .stat-val { font-size:13px; font-weight:700; color:var(--blue); margin-bottom:3px; line-height:1.3; }
+  .stat-label { font-size:10px; color:var(--text-2); text-transform:uppercase; letter-spacing:.05em; }
+  .stat-app-name { font-size:15px; font-weight:800; color:var(--blue); }
+  .stat-app-sub  { font-size:10px; color:var(--text-2); margin-top:2px; }
+
+  /* ── PRODUCTIVITY BAR ── */
+  .productivity-wrap {
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:12px; padding:14px 16px; margin-top:10px;
+  }
+  .prod-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
+  .prod-title { font-size:12px; font-weight:600; color:var(--text-1); }
+  .prod-score { font-size:20px; font-weight:800; color:var(--green); }
+  .prod-track { display:flex; flex-direction:column; gap:6px; }
+  .prod-row { display:flex; align-items:center; gap:10px; }
+  .prod-label { font-size:11px; color:var(--text-2); width:80px; flex-shrink:0; }
+  .prod-bar { flex:1; height:6px; background:var(--bg-raised); border-radius:4px; overflow:hidden; }
+  .prod-fill { height:100%; border-radius:4px; transition:width 1s ease; }
+  .prod-pct { font-size:11px; color:var(--text-3); width:30px; text-align:right; flex-shrink:0; }
+
+  /* ── COMPACT MILESTONES ── */
+  .ms-compact { display:flex; flex-direction:column; gap:6px; }
+  .ms-row {
+    display:flex; align-items:center; gap:10px;
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:10px; padding:10px 14px;
+    transition:all 0.2s;
+  }
+  .ms-row:hover { border-color:var(--border-blue); background:var(--bg-hover); }
+  .ms-row.active { border-color:rgba(245,200,66,0.3); background:rgba(245,200,66,0.03); }
+  .ms-row.done   { opacity:.6; }
+  .ms-badge {
+    width:24px; height:24px; border-radius:6px; font-size:11px; font-weight:700;
+    display:flex; align-items:center; justify-content:center; flex-shrink:0;
+    background:var(--bg-raised); color:var(--text-2);
+  }
+  .ms-row.active .ms-badge { background:var(--yellow-dim); color:var(--yellow); }
+  .ms-row.done   .ms-badge { background:var(--green-dim);  color:var(--green); }
+  .ms-row-name { font-size:12px; font-weight:600; color:var(--text-1); flex:1; min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .ms-bar { width:100px; height:5px; background:var(--bg-raised); border-radius:4px; overflow:hidden; flex-shrink:0; }
+  .ms-bar-fill { height:100%; border-radius:4px; background:var(--blue); transition:width 1s ease; }
+  .ms-row.active .ms-bar-fill { background:var(--yellow); }
+  .ms-row.done   .ms-bar-fill { background:var(--green); }
+  .ms-pct { font-size:11px; color:var(--text-3); width:28px; text-align:right; flex-shrink:0; }
+  @media(max-width:480px){ .ms-bar{ width:60px; } }
+
+  /* ── MCP FLOW DIAGRAM ── */
+  .mcp-flow {
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:14px; padding:20px; position:relative; overflow:hidden;
+  }
+  .mcp-flow-inner {
+    display:flex; align-items:center; gap:0;
+    min-height:220px;
+  }
+  .mcp-center {
+    display:flex; flex-direction:column; align-items:center; gap:6px;
+    flex-shrink:0; width:90px;
+  }
+  .mcp-center-icon {
+    width:52px; height:52px; border-radius:14px;
+    background:var(--blue); display:flex; align-items:center; justify-content:center;
+    font-size:22px; box-shadow:0 0 24px rgba(69,131,253,0.35);
+  }
+  .mcp-center-label { font-size:11px; font-weight:700; color:var(--blue); text-align:center; letter-spacing:.04em; }
+  .mcp-center-sub   { font-size:10px; color:var(--text-3); text-align:center; }
+  .mcp-lines { flex:1; position:relative; align-self:stretch; min-width:60px; }
+  .mcp-lines svg { position:absolute; inset:0; width:100%; height:100%; overflow:visible; }
+  .mcp-nodes { display:flex; flex-direction:column; justify-content:space-around; gap:6px; flex-shrink:0; width:160px; }
+  .mcp-node {
+    display:flex; align-items:center; gap:8px;
+    background:var(--bg-raised); border:1px solid var(--border);
+    border-radius:10px; padding:8px 10px; cursor:default;
+    transition:all 0.2s; position:relative;
+  }
+  .mcp-node:hover { border-color:var(--border-blue); background:var(--bg-hover); transform:translateX(2px); }
+  .mcp-node-icon { font-size:16px; flex-shrink:0; }
+  .mcp-node-name { font-size:12px; font-weight:600; color:var(--text-1); }
+  .mcp-node-role { font-size:10px; color:var(--text-2); }
+  .mcp-node-dot {
+    width:6px; height:6px; border-radius:50%; background:var(--green);
+    position:absolute; top:8px; right:8px;
+    box-shadow:0 0 6px var(--green);
+    animation:pulse 2s infinite;
+  }
+  @media(max-width:520px){
+    .mcp-flow-inner { flex-direction:column; align-items:center; gap:16px; }
+    .mcp-lines { display:none; }
+    .mcp-nodes { width:100%; flex-direction:row; flex-wrap:wrap; justify-content:center; }
+    .mcp-node { width:calc(50% - 4px); }
+  }
+
+  /* ── GITHUB REPOS (collapse/expand) ── */
+  .gh-repo {
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:14px; overflow:hidden; margin-bottom:10px;
+    transition:border-color 0.2s;
+  }
+  .gh-repo:hover { border-color:var(--border-blue); }
+  .gh-header {
+    padding:12px 16px; display:flex; align-items:center; gap:10px;
+    cursor:pointer; user-select:none;
+  }
+  .gh-name { font-size:13px; font-weight:600; color:var(--blue); flex:1; display:flex; align-items:center; gap:6px; }
+  .gh-meta { font-size:11px; color:var(--text-2); }
+  .gh-chevron { font-size:12px; color:var(--text-3); transition:transform 0.25s; }
+  .gh-repo.open .gh-chevron { transform:rotate(180deg); }
+  .gh-body { display:none; border-top:1px solid var(--border); }
+  .gh-repo.open .gh-body { display:block; }
+  .tree-item {
+    padding:7px 16px; display:flex; align-items:center; gap:8px;
+    font-size:12px; color:var(--text-1); transition:background 0.15s;
+  }
+  .tree-item:hover { background:var(--bg-hover); }
+  .tree-item .icon { font-size:13px; width:18px; text-align:center; flex-shrink:0; }
+  .tree-item .name { flex:1; }
+  .tree-item .meta { font-size:11px; color:var(--text-3); }
+  .tree-indent { padding-left:34px; }
+  .tree-folder { color:var(--blue); font-weight:600; }
+  .gh-commit-strip {
+    padding:8px 16px; border-top:1px solid var(--border);
+    font-size:11px; color:var(--text-2); background:var(--bg-raised);
+  }
+
+  /* ── BUILT LIST ── */
+  .built-item {
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:12px; padding:13px 16px;
+    display:flex; align-items:flex-start; gap:12px; margin-bottom:8px; transition:all 0.2s;
+  }
+  .built-item:hover { border-color:var(--border-blue); background:var(--bg-hover); }
+  .built-check {
+    width:20px; height:20px; border-radius:6px; background:var(--green-dim);
+    color:var(--green); display:flex; align-items:center; justify-content:center;
+    font-size:11px; flex-shrink:0; margin-top:1px;
+  }
+  .built-name { font-size:13px; font-weight:600; color:var(--text-1); }
+  .built-detail { font-size:11px; color:var(--text-2); margin-top:3px; line-height:1.5; }
+
+  /* ── TODO ── */
+  .todo-list { display:flex; flex-direction:column; gap:7px; }
+  .todo-item {
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:10px; padding:11px 14px;
+    display:flex; align-items:center; gap:10px; cursor:pointer; transition:all 0.2s;
+  }
+  .todo-item:hover { background:var(--bg-hover); border-color:var(--border-blue); }
+  .todo-item.done { opacity:.4; }
+  .todo-item.done .todo-text { text-decoration:line-through; }
+  .todo-check {
+    width:18px; height:18px; border-radius:5px; border:2px solid var(--border);
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0; font-size:10px; color:transparent; transition:all 0.2s;
+  }
+  .todo-item.done .todo-check { background:var(--green); border-color:var(--green); color:#fff; }
+  .todo-text { flex:1; font-size:13px; color:var(--text-1); }
+  .todo-priority { font-size:10px; font-weight:700; padding:2px 7px; border-radius:10px; }
+  .p-high   { background:var(--red-dim);    color:var(--red); }
+  .p-medium { background:var(--yellow-dim); color:var(--yellow); }
+  .p-low    { background:var(--blue-dim);   color:var(--blue); }
+
+  /* ── AUTOMATION ── */
+  .auto-card {
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:12px; padding:14px 16px;
+    display:flex; align-items:flex-start; gap:12px; margin-bottom:8px;
+  }
+  .auto-icon {
+    width:36px; height:36px; border-radius:9px; background:var(--green-dim);
+    display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;
+  }
+  .auto-name { font-size:13px; font-weight:600; color:var(--text-1); }
+  .auto-desc { font-size:11px; color:var(--text-2); margin-top:2px; line-height:1.5; }
+  .auto-meta { margin-top:8px; display:flex; gap:6px; flex-wrap:wrap; }
+
+  /* ── POMODORO TIMER ── */
+  .pomodoro-wrap {
+    background:var(--bg-card); border:1px solid var(--border-blue);
+    border-radius:14px; padding:20px; display:flex; align-items:center; gap:24px;
+  }
+  @media(max-width:480px){ .pomodoro-wrap{ flex-direction:column; align-items:center; } }
+  .pomo-ring { position:relative; width:100px; height:100px; flex-shrink:0; }
+  .pomo-ring svg { transform:rotate(-90deg); }
+  .pomo-ring-bg  { fill:none; stroke:var(--bg-raised); stroke-width:6; }
+  .pomo-ring-fill{ fill:none; stroke:var(--blue); stroke-width:6; stroke-linecap:round; transition:stroke-dashoffset 1s linear, stroke 0.3s; }
+  .pomo-ring-fill.break { stroke:var(--green); }
+  .pomo-time {
+    position:absolute; inset:0; display:flex; flex-direction:column;
+    align-items:center; justify-content:center;
+  }
+  .pomo-digits { font-size:22px; font-weight:800; color:var(--text-1); letter-spacing:-1px; }
+  .pomo-mode   { font-size:9px; text-transform:uppercase; letter-spacing:.08em; color:var(--text-2); margin-top:1px; }
+  .pomo-right  { flex:1; }
+  .pomo-title  { font-size:14px; font-weight:700; color:var(--text-1); margin-bottom:4px; }
+  .pomo-sub    { font-size:11px; color:var(--text-2); margin-bottom:14px; }
+  .pomo-btns   { display:flex; gap:8px; flex-wrap:wrap; }
+  .pomo-btn {
+    padding:8px 16px; border-radius:8px; border:1px solid var(--border);
+    background:var(--bg-raised); color:var(--text-1); font-size:12px; font-weight:600;
+    cursor:pointer; transition:all 0.2s;
+  }
+  .pomo-btn:hover { background:var(--bg-hover); border-color:var(--border-blue); }
+  .pomo-btn.primary { background:var(--blue); border-color:var(--blue); color:#fff; }
+  .pomo-btn.primary:hover { background:#3a74f5; }
+  .pomo-sessions { display:flex; gap:5px; margin-top:12px; }
+  .pomo-dot {
+    width:8px; height:8px; border-radius:50%;
+    background:var(--bg-raised); border:1px solid var(--border); transition:all 0.3s;
+  }
+  .pomo-dot.done { background:var(--blue); border-color:var(--blue); }
+
+  /* ── GLOBAL GLOW & MOTION ── */
+  body::before {
+    content:''; position:fixed; inset:0; pointer-events:none; z-index:0;
+    background:
+      radial-gradient(ellipse at 15% 30%, rgba(253,105,105,0.04) 0%, transparent 55%),
+      radial-gradient(ellipse at 85% 70%, rgba(253,105,105,0.025) 0%, transparent 50%);
+    animation: bgBreath 8s ease-in-out infinite alternate;
+  }
+  @keyframes bgBreath {
+    from { opacity:0.6; }
+    to   { opacity:1; }
+  }
+  .page, .header, .footer { position:relative; z-index:1; }
+
+  /* Entrance animations */
+  .fade-up {
+    opacity:0; transform:translateY(20px);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+  }
+  .fade-up.visible { opacity:1; transform:translateY(0); }
+
+  /* Glow utilities */
+  .glow-red   { box-shadow:0 0 24px rgba(253,105,105,0.18); }
+  .glow-green { box-shadow:0 0 20px rgba(74,222,128,0.15); }
+  .glow-card:hover { box-shadow:0 8px 40px rgba(253,105,105,0.12), 0 2px 8px rgba(0,0,0,0.4); }
+
+  /* Logo glow */
+  .logo-mark { box-shadow:0 0 16px rgba(253,105,105,0.4); }
+
+  /* Animated number counter */
+  .count-up { display:inline-block; }
+
+  /* ── TODAY SECTION ── */
+  .today-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  @media(max-width:580px){ .today-grid{ grid-template-columns:1fr; } }
+
+  .today-card {
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:14px; overflow:hidden;
+    transition:all 0.25s;
+  }
+  .today-card:hover { border-color:var(--border-blue); box-shadow:0 8px 32px rgba(253,105,105,0.08); }
+  .today-card-header {
+    padding:12px 14px; border-bottom:1px solid var(--border);
+    display:flex; align-items:center; justify-content:space-between;
+    background:var(--bg-raised);
+  }
+  .today-card-title { font-size:12px; font-weight:700; color:var(--text-1); display:flex; align-items:center; gap:6px; }
+  .today-events { padding:6px 0; }
+  .today-event {
+    padding:9px 14px; display:flex; align-items:flex-start; gap:10px;
+    border-bottom:1px solid var(--border); transition:background 0.15s;
+  }
+  .today-event:last-child { border-bottom:none; }
+  .today-event:hover { background:var(--bg-hover); }
+  .event-time {
+    font-size:10px; font-weight:700; color:var(--blue);
+    background:var(--blue-dim); border-radius:5px;
+    padding:2px 6px; flex-shrink:0; margin-top:1px; white-space:nowrap;
+  }
+  .event-time.allday { background:rgba(255,255,255,0.05); color:var(--text-3); }
+  .event-title { font-size:12px; color:var(--text-1); line-height:1.4; }
+  .event-desc { font-size:10px; color:var(--text-3); margin-top:2px; }
+
+  .email-item {
+    padding:9px 14px; display:flex; align-items:flex-start; gap:8px;
+    border-bottom:1px solid var(--border); transition:background 0.15s;
+  }
+  .email-item:last-child { border-bottom:none; }
+  .email-item:hover { background:var(--bg-hover); }
+  .email-dot { width:6px; height:6px; border-radius:50%; background:var(--blue); flex-shrink:0; margin-top:5px; }
+  .email-from { font-size:11px; font-weight:600; color:var(--text-1); }
+  .email-subject { font-size:11px; color:var(--text-2); margin-top:1px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:180px; }
+
+  /* ── WEEKLY CHART ── */
+  .weekly-chart {
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:14px; padding:16px; margin-top:10px;
+  }
+  .chart-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; }
+  .chart-title { font-size:12px; font-weight:700; color:var(--text-1); }
+  .chart-bars { display:flex; align-items:flex-end; gap:8px; height:80px; }
+  .chart-col { display:flex; flex-direction:column; align-items:center; gap:6px; flex:1; }
+  .chart-bar-wrap { flex:1; display:flex; align-items:flex-end; width:100%; }
+  .chart-bar {
+    width:100%; border-radius:5px 5px 0 0;
+    background:var(--bg-raised); min-height:4px;
+    transition:height 1s cubic-bezier(.34,1.56,.64,1);
+    position:relative; overflow:hidden;
+  }
+  .chart-bar::after {
+    content:''; position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(255,255,255,0.08) 0%, transparent 100%);
+  }
+  .chart-bar.active {
+    background:linear-gradient(180deg, var(--blue) 0%, rgba(253,105,105,0.6) 100%);
+    box-shadow:0 0 12px rgba(253,105,105,0.35);
+  }
+  .chart-bar.filled { background:linear-gradient(180deg, rgba(253,105,105,0.5) 0%, rgba(253,105,105,0.25) 100%); }
+  .chart-day { font-size:10px; color:var(--text-3); font-weight:600; }
+  .chart-day.today { color:var(--blue); }
+
+  /* ── AGENT TEAM CARDS ── */
+  .agent-grid {
+    display:grid; grid-template-columns:repeat(2,1fr); gap:10px;
+  }
+  @media(max-width:520px){ .agent-grid{ grid-template-columns:1fr; } }
+
+  .agent-card {
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:16px; padding:16px; position:relative; overflow:hidden;
+    transition:all 0.25s; cursor:default;
+  }
+  .agent-card:hover { transform:translateY(-2px); box-shadow:0 8px 32px rgba(0,0,0,0.4); }
+  .agent-card::before {
+    content:''; position:absolute; inset:0;
+    background:var(--agent-glow,transparent);
+    opacity:0; transition:opacity 0.3s; pointer-events:none; border-radius:16px;
+  }
+  .agent-card:hover::before { opacity:1; }
+
+  .agent-top { display:flex; align-items:flex-start; gap:12px; margin-bottom:12px; }
+  .agent-avatar {
+    width:48px; height:48px; border-radius:14px; flex-shrink:0;
+    display:flex; align-items:center; justify-content:center; font-size:24px;
+    position:relative;
+  }
+  .agent-avatar .status-ring {
+    position:absolute; inset:-2px; border-radius:16px;
+    border:2px solid transparent; transition:border-color 0.3s;
+  }
+  .agent-card.awake .agent-avatar .status-ring { border-color:var(--green); box-shadow:0 0 10px rgba(34,212,122,0.4); }
+  .agent-card.sleeping .agent-avatar .status-ring { border-color:var(--text-3); }
+
+  .agent-info { flex:1; min-width:0; }
+  .agent-name { font-size:14px; font-weight:700; color:var(--text-1); display:flex; align-items:center; gap:6px; }
+  .agent-handle { font-size:10px; color:var(--text-3); font-weight:400; }
+  .agent-role { font-size:11px; color:var(--text-2); margin-top:3px; line-height:1.4; }
+
+  .agent-status-row { display:flex; align-items:center; gap:6px; margin-bottom:10px; }
+  .agent-state {
+    font-size:10px; font-weight:700; padding:3px 8px; border-radius:20px;
+    display:inline-flex; align-items:center; gap:4px;
+  }
+  .agent-state.awake   { background:var(--green-dim); color:var(--green); }
+  .agent-state.sleeping{ background:rgba(255,255,255,0.04); color:var(--text-3); }
+  .agent-state.running { background:var(--blue-dim); color:var(--blue); }
+
+  .agent-schedule {
+    font-size:10px; color:var(--text-3);
+    display:inline-flex; align-items:center; gap:4px;
+  }
+
+  .agent-last-run {
+    font-size:10px; color:var(--text-3); padding:6px 10px;
+    background:var(--bg-raised); border-radius:8px;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .agent-last-run span { color:var(--text-2); }
+
+  /* Sleeping zzz animation */
+  .zzz {
+    position:absolute; top:0; right:4px;
+    font-size:10px; color:var(--text-3); letter-spacing:1px;
+    animation:floatZzz 2.5s ease-in-out infinite;
+    pointer-events:none;
+  }
+  @keyframes floatZzz {
+    0%   { opacity:0;   transform:translateY(0px); }
+    30%  { opacity:0.8; }
+    100% { opacity:0;   transform:translateY(-14px); }
+  }
+
+  /* Thinking dots for when agent is running */
+  .thinking { display:inline-flex; gap:3px; align-items:center; }
+  .thinking span {
+    width:4px; height:4px; border-radius:50%; background:var(--blue);
+    animation:think 1.2s ease-in-out infinite;
+  }
+  .thinking span:nth-child(2){ animation-delay:.2s; }
+  .thinking span:nth-child(3){ animation-delay:.4s; }
+  @keyframes think { 0%,80%,100%{transform:scale(0.6);opacity:0.4} 40%{transform:scale(1);opacity:1} }
+
+  /* CARD */
+  .card {
+    background:var(--bg-card); border:1px solid var(--border);
+    border-radius:12px; padding:14px 16px; margin-bottom:8px; transition:all 0.2s;
+  }
+  .card:hover { border-color:var(--border-blue); }
+
+  /* FOOTER / MISC */
+  .footer { text-align:center; padding:30px 20px 10px; font-size:11px; color:var(--text-3); }
+  a { color:var(--blue); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+  .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+  @media(max-width:600px){ .grid-2{ grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-top">
+    <div class="logo">
+      <div class="logo-mark">J</div>
+      <div>
+        <div class="logo-text">Command Center</div>
+        <div class="logo-sub">J · Austin, TX</div>
+      </div>
+    </div>
+    <div class="header-date">
+      <span id="live-time">—</span>
+      <div id="live-date">—</div>
+    </div>
+  </div>
+  <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;padding:0 0 10px;">
+    <nav class="nav" style="padding:0;flex:1;">
+      <a class="nav-pill active" href="#overview">Overview</a>
+      <a class="nav-pill" href="#today">Today</a>
+      <a class="nav-pill" href="#milestones">Milestones</a>
+      <a class="nav-pill" href="#mcp">MCP Flow</a>
+      <a class="nav-pill" href="#github">GitHub</a>
+      <a class="nav-pill" href="#agents">My Agents</a>
+      <a class="nav-pill" href="#built">Built</a>
+      <a class="nav-pill" href="#todo">To-Do</a>
+      <a class="nav-pill" href="#automations">Automations</a>
+    </nav>
+    <div style="display:flex;align-items:center;gap:12px;flex-shrink:0;font-size:11px;color:var(--text-3);padding-right:2px;">
+      <span id="next-agent-run" style="color:var(--text-3);">—</span>
+      <span style="display:flex;gap:6px;">
+        <kbd style="background:var(--bg-raised);border:1px solid var(--border);border-radius:4px;padding:1px 5px;font-size:10px;color:var(--text-2);">P</kbd><span>timer</span>
+        <kbd style="background:var(--bg-raised);border:1px solid var(--border);border-radius:4px;padding:1px 5px;font-size:10px;color:var(--text-2);">T</kbd><span>todos</span>
+        <kbd style="background:var(--bg-raised);border:1px solid var(--border);border-radius:4px;padding:1px 5px;font-size:10px;color:var(--text-2);">R</kbd><span>refresh</span>
+      </span>
+    </div>
+  </div>
+</div>
+
+<div class="page">
+
+  <!-- ── OVERVIEW ── -->
+  <div class="section" id="overview" style="margin-top:20px">
+    <div class="section-title">Overview</div>
+
+    <!-- Stats -->
+    <div class="stat-row" style="margin-bottom:10px">
+      <div class="stat-card glow-card" style="border-color:rgba(253,105,105,0.2)">
+        <div class="stat-app-name" id="stat-app-name">Post-Purchase App</div>
+        <div class="stat-app-sub">UMEI3D · Active</div>
+        <span class="badge badge-green" style="margin-top:6px;box-shadow:0 0 10px rgba(74,222,128,0.25)"><span class="dot pulse"></span> Live</span>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val" id="stat-mcp">6</div>
+        <div class="stat-label">MCP Agents</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val" id="stat-auto">4</div>
+        <div class="stat-label">Automations</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-val" style="color:var(--yellow)" id="stat-milestone">M1</div>
+        <div class="stat-label">Current Milestone</div>
+      </div>
+    </div>
+
+    <div style="text-align:right; font-size:11px; margin-bottom:14px;">
+      <span id="last-sync" style="color:var(--text-3)">Loading live data...</span>
+    </div>
+
+    <!-- Productivity Bar -->
+    <div class="productivity-wrap">
+      <div class="prod-header">
+        <div>
+          <div class="prod-title">Today's Productivity</div>
+          <div style="font-size:11px; color:var(--text-2); margin-top:2px;" id="prod-date">—</div>
+        </div>
+        <div class="prod-score" id="prod-score">—%</div>
+      </div>
+      <div class="prod-track">
+        <div class="prod-row">
+          <div class="prod-label">Day progress</div>
+          <div class="prod-bar"><div class="prod-fill" id="bar-day" style="background:var(--blue); width:0%"></div></div>
+          <div class="prod-pct" id="pct-day">0%</div>
+        </div>
+        <div class="prod-row">
+          <div class="prod-label">Milestone</div>
+          <div class="prod-bar"><div class="prod-fill" id="bar-ms" style="background:var(--yellow); width:0%"></div></div>
+          <div class="prod-pct" id="pct-ms">0%</div>
+        </div>
+        <div class="prod-row">
+          <div class="prod-label">To-do done</div>
+          <div class="prod-bar"><div class="prod-fill" id="bar-todo" style="background:var(--green); width:0%"></div></div>
+          <div class="prod-pct" id="pct-todo">0%</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pomodoro -->
+    <div style="margin-top:10px;">
+      <div class="pomodoro-wrap">
+        <div class="pomo-ring">
+          <svg width="100" height="100" viewBox="0 0 100 100">
+            <circle class="pomo-ring-bg"   cx="50" cy="50" r="44"/>
+            <circle class="pomo-ring-fill" id="pomo-arc" cx="50" cy="50" r="44"
+              stroke-dasharray="276.46" stroke-dashoffset="0"/>
+          </svg>
+          <div class="pomo-time">
+            <div class="pomo-digits" id="pomo-display">25:00</div>
+            <div class="pomo-mode"   id="pomo-mode-label">Focus</div>
+          </div>
+        </div>
+        <div class="pomo-right">
+          <div class="pomo-title">Pomodoro Timer</div>
+          <div class="pomo-sub">25 min focus · 5 min break</div>
+          <div class="pomo-btns">
+            <button class="pomo-btn primary" id="pomo-start" onclick="pomoToggle()">Start</button>
+            <button class="pomo-btn" onclick="pomoReset()">Reset</button>
+            <button class="pomo-btn" onclick="pomoSkip()">Skip</button>
+          </div>
+          <div class="pomo-sessions" id="pomo-dots">
+            <div class="pomo-dot"></div>
+            <div class="pomo-dot"></div>
+            <div class="pomo-dot"></div>
+            <div class="pomo-dot"></div>
+          </div>
+          <div style="font-size:10px; color:var(--text-3); margin-top:6px;" id="pomo-session-label">Session 1 of 4</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Weekly Chart -->
+  <div class="weekly-chart fade-up">
+    <div class="chart-header">
+      <div class="chart-title">Weekly Activity</div>
+      <span class="badge badge-gray" id="chart-week-label">Mar 16 – 22</span>
+    </div>
+    <div class="chart-bars" id="weekly-bars">
+      <!-- rendered by JS -->
+    </div>
+  </div>
+
+  <!-- ── TODAY ── -->
+  <div class="section fade-up" id="today" style="margin-top:28px">
+    <div class="section-title">Today — <span id="today-date-label">Wed, Mar 18</span></div>
+    <div class="today-grid">
+
+      <!-- Calendar -->
+      <div class="today-card">
+        <div class="today-card-header">
+          <div class="today-card-title">📅 Agenda</div>
+          <span class="badge badge-blue" id="event-count-badge">3 events</span>
+        </div>
+        <div class="today-events" id="today-events">
+          <div class="today-event">
+            <span class="event-time allday">ALL DAY</span>
+            <div>
+              <div class="event-title">💼 Daily Job Search Results</div>
+            </div>
+          </div>
+          <div class="today-event">
+            <span class="event-time allday">ALL DAY</span>
+            <div>
+              <div class="event-title">📦 Follow up — CherelynnB TikTok Order</div>
+            </div>
+          </div>
+          <div class="today-event">
+            <span class="event-time">2:05 PM</span>
+            <div>
+              <div class="event-title">💼 Daily Job List Ready</div>
+              <div class="event-desc">14 total qualifying jobs found</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Email -->
+      <div class="today-card">
+        <div class="today-card-header">
+          <div class="today-card-title">📧 Inbox</div>
+          <span class="badge badge-red">201 unread</span>
+        </div>
+        <div class="today-events" id="today-emails">
+          <div class="email-item">
+            <div class="email-dot"></div>
+            <div style="min-width:0">
+              <div class="email-from">CC Strategic AI (Skool)</div>
+              <div class="email-subject">1 new notification since 6:14 pm</div>
+            </div>
+          </div>
+          <div class="email-item">
+            <div class="email-dot"></div>
+            <div style="min-width:0">
+              <div class="email-from">JobCopilot</div>
+              <div class="email-subject">Fresh job openings this week 🔎</div>
+            </div>
+          </div>
+          <div class="email-item">
+            <div class="email-dot"></div>
+            <div style="min-width:0">
+              <div class="email-from">Phil @ ZipRecruiter</div>
+              <div class="email-subject">Aston Carter is looking for candidates like you!</div>
+            </div>
+          </div>
+          <div class="email-item">
+            <div class="email-dot"></div>
+            <div style="min-width:0">
+              <div class="email-from">Glassdoor Jobs</div>
+              <div class="email-subject">New jobs in Glendale, CA. Apply Now.</div>
+            </div>
+          </div>
+          <div class="email-item" style="justify-content:center; padding:8px;">
+            <a href="https://mail.google.com" target="_blank" style="font-size:11px; color:var(--text-3);">View all in Gmail →</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── MILESTONES (compact) ── -->
+  <div class="section fade-up" id="milestones">
+    <div class="section-title">Active Milestones — UMEI3D Post-Purchase App</div>
+    <div class="ms-compact" id="milestone-list">
+      <div style="padding:16px; text-align:center; color:var(--text-3); font-size:12px;">Loading...</div>
+    </div>
+  </div>
+
+  <!-- ── MCP FLOW DIAGRAM ── -->
+  <div class="section fade-up" id="mcp">
+    <div class="section-title">MCP Agent Connections</div>
+    <div class="mcp-flow">
+      <div class="mcp-flow-inner">
+
+        <!-- Center node -->
+        <div class="mcp-center">
+          <div class="mcp-center-icon">🤖</div>
+          <div class="mcp-center-label">CLAUDE</div>
+          <div class="mcp-center-sub">+ J</div>
+        </div>
+
+        <!-- SVG lines -->
+        <div class="mcp-lines" id="mcp-lines-container">
+          <svg id="mcp-svg" preserveAspectRatio="none">
+            <!-- Lines drawn by JS -->
+          </svg>
+        </div>
+
+        <!-- MCP nodes -->
+        <div class="mcp-nodes" id="mcp-nodes">
+          <div class="mcp-node" id="node-notion">
+            <div class="mcp-node-icon">🗒️</div>
+            <div><div class="mcp-node-name">Notion</div><div class="mcp-node-role">Read / write workspace</div></div>
+            <div class="mcp-node-dot"></div>
+          </div>
+          <div class="mcp-node" id="node-gmail">
+            <div class="mcp-node-icon">📧</div>
+            <div><div class="mcp-node-name">Gmail</div><div class="mcp-node-role">Draft & search emails</div></div>
+            <div class="mcp-node-dot"></div>
+          </div>
+          <div class="mcp-node" id="node-gcal">
+            <div class="mcp-node-icon">📅</div>
+            <div><div class="mcp-node-name">Google Calendar</div><div class="mcp-node-role">Events & scheduling</div></div>
+            <div class="mcp-node-dot"></div>
+          </div>
+          <div class="mcp-node" id="node-klaviyo">
+            <div class="mcp-node-icon">📊</div>
+            <div><div class="mcp-node-name">Klaviyo</div><div class="mcp-node-role">Email marketing</div></div>
+            <div class="mcp-node-dot"></div>
+          </div>
+          <div class="mcp-node" id="node-canva">
+            <div class="mcp-node-icon">🎨</div>
+            <div><div class="mcp-node-name">Canva</div><div class="mcp-node-role">Design assets</div></div>
+            <div class="mcp-node-dot"></div>
+          </div>
+          <div class="mcp-node" id="node-blotato">
+            <div class="mcp-node-icon">📱</div>
+            <div><div class="mcp-node-name">Blotato</div><div class="mcp-node-role">Social media posts</div></div>
+            <div class="mcp-node-dot"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ── GITHUB REPOS (hover/click expand) ── -->
+  <div class="section fade-up" id="github">
+    <div class="section-title">GitHub Repos</div>
+
+    <!-- claude-workspace -->
+    <div class="gh-repo open" id="gh-cw-repo">
+      <div class="gh-header" onclick="toggleRepo('gh-cw-repo')">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="var(--blue)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        <div class="gh-name">jessycacheong-cell / claude-workspace</div>
+        <div class="gh-meta" id="gh-cw-date">—</div>
+        <a href="https://github.com/jessycacheong-cell/claude-workspace" target="_blank" onclick="e=>e.stopPropagation()">
+          <span class="badge badge-blue" style="margin-right:6px">↗</span>
+        </a>
+        <span class="gh-chevron">▾</span>
+      </div>
+      <div class="gh-body">
+        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">brands/</span></div>
+        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">umei3d.md</span><span class="meta">brand brief</span></div>
+        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">apps/</span></div>
+        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">umei3d-post-purchase.md</span><span class="meta">app brief</span></div>
+        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">personal/</span></div>
+        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">about-me.md</span></div>
+        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">projects.md</span></div>
+        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">templates/</span><span class="meta" style="margin-left:auto">empty</span></div>
+        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">assets/</span><span class="meta" style="margin-left:auto">empty</span></div>
+        <div class="tree-item"><span class="icon">⚙️</span><span class="name">CLAUDE.md</span><span class="meta">master brief</span></div>
+        <div class="gh-commit-strip" id="gh-cw-commit">Last commit: syncing...</div>
+      </div>
+    </div>
+
+    <!-- umei3d-app -->
+    <div class="gh-repo" id="gh-ua-repo">
+      <div class="gh-header" onclick="toggleRepo('gh-ua-repo')">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="var(--blue)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        <div class="gh-name">jessycacheong-cell / umei3d-app</div>
+        <div class="gh-meta" id="gh-ua-date">—</div>
+        <a href="https://github.com/jessycacheong-cell/umei3d-app" target="_blank" onclick="e=>e.stopPropagation()">
+          <span class="badge badge-blue" style="margin-right:6px">↗</span>
+        </a>
+        <span class="gh-chevron">▾</span>
+      </div>
+      <div class="gh-body">
+        <div class="tree-item"><span class="icon">🏠</span><span class="name">returns-popup.html</span><span class="meta">main app</span></div>
+        <div class="tree-item"><span class="icon">🗺️</span><span class="name">umei-workflow.html</span><span class="meta">workflow map</span></div>
+        <div class="tree-item"><span class="icon">⚙️</span><span class="name">CLAUDE.md</span><span class="meta">working brief</span></div>
+        <div style="padding:6px 12px 4px; border-top:1px solid var(--border)">
+          <div style="font-size:10px; text-transform:uppercase; letter-spacing:.06em; color:var(--text-3); padding:4px 4px 6px;">Local Key Files</div>
+          <div class="tree-item"><span class="icon">🖥️</span><span class="name">serve-static.js</span><span class="meta">port 3401</span></div>
+          <div class="tree-item"><span class="icon">💰</span><span class="name">finance-tracker/index.html</span><span class="meta">local</span></div>
+          <div class="tree-item"><span class="icon">📊</span><span class="name">UMEI3D Workflow Map.html</span><span class="meta">local</span></div>
+        </div>
+        <div class="gh-commit-strip" id="gh-ua-commit">Last commit: syncing...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── AGENT TEAM ── -->
+  <div class="section" id="agents">
+    <div class="section-title">My AI Agent Team</div>
+    <div class="agent-grid" id="agent-grid">
+
+      <!-- Agent 1: GitBot -->
+      <div class="agent-card sleeping" id="agent-github"
+           style="--agent-glow: radial-gradient(ellipse at top left, rgba(69,131,253,0.07), transparent 70%)">
+        <div class="agent-top">
+          <div class="agent-avatar" style="background:rgba(69,131,253,0.15);">
+            🔄
+            <div class="status-ring"></div>
+            <div class="zzz">z z</div>
+          </div>
+          <div class="agent-info">
+            <div class="agent-name">GitBot <span class="agent-handle">@github-sync</span></div>
+            <div class="agent-role">Watches both GitHub repos. Fetches the latest commit info and keeps your dashboard fresh every 6 hours.</div>
+          </div>
+        </div>
+        <div class="agent-status-row">
+          <span class="agent-state sleeping" id="state-github">😴 Sleeping</span>
+          <span class="agent-schedule">⏱ Every 6 hrs</span>
+        </div>
+        <div class="agent-last-run">
+          <div>Last run</div>
+          <span id="lastrun-github">Not yet</span>
+        </div>
+      </div>
+
+      <!-- Agent 2: MilestoneBot -->
+      <div class="agent-card sleeping" id="agent-milestone"
+           style="--agent-glow: radial-gradient(ellipse at top left, rgba(245,200,66,0.07), transparent 70%)">
+        <div class="agent-top">
+          <div class="agent-avatar" style="background:rgba(245,200,66,0.12);">
+            🎯
+            <div class="status-ring"></div>
+            <div class="zzz">z z</div>
+          </div>
+          <div class="agent-info">
+            <div class="agent-name">MilestoneBot <span class="agent-handle">@milestone-notion</span></div>
+            <div class="agent-role">Reads your Notion milestone tracker every morning at 9 AM and updates progress on the dashboard.</div>
+          </div>
+        </div>
+        <div class="agent-status-row">
+          <span class="agent-state sleeping" id="state-milestone">😴 Sleeping</span>
+          <span class="agent-schedule">⏱ 9:00 AM daily</span>
+        </div>
+        <div class="agent-last-run">
+          <div>Last run</div>
+          <span id="lastrun-milestone">Not yet</span>
+        </div>
+      </div>
+
+      <!-- Agent 3: WrapBot -->
+      <div class="agent-card sleeping" id="agent-wrapup"
+           style="--agent-glow: radial-gradient(ellipse at top left, rgba(167,139,250,0.07), transparent 70%)">
+        <div class="agent-top">
+          <div class="agent-avatar" style="background:rgba(167,139,250,0.12);">
+            📝
+            <div class="status-ring"></div>
+            <div class="zzz">z z</div>
+          </div>
+          <div class="agent-info">
+            <div class="agent-name">WrapBot <span class="agent-handle">@daily-wrapup</span></div>
+            <div class="agent-role">Clocks in at 8 PM every night. Reads what files changed, writes a session summary, and logs it to the dashboard.</div>
+          </div>
+        </div>
+        <div class="agent-status-row">
+          <span class="agent-state sleeping" id="state-wrapup">😴 Sleeping</span>
+          <span class="agent-schedule">⏱ 8:00 PM daily</span>
+        </div>
+        <div class="agent-last-run">
+          <div>Last run</div>
+          <span id="lastrun-wrapup">Not yet</span>
+        </div>
+      </div>
+
+      <!-- Agent 4: LogBot -->
+      <div class="agent-card sleeping" id="agent-sessionlog"
+           style="--agent-glow: radial-gradient(ellipse at top left, rgba(34,212,122,0.07), transparent 70%)">
+        <div class="agent-top">
+          <div class="agent-avatar" style="background:rgba(34,212,122,0.12);">
+            🗒️
+            <div class="status-ring"></div>
+            <div class="zzz">z z</div>
+          </div>
+          <div class="agent-info">
+            <div class="agent-name">LogBot <span class="agent-handle">@session-logger</span></div>
+            <div class="agent-role">Summarizes your entire Claude session at 8:10 PM and writes a clean daily log into your Notion workspace.</div>
+          </div>
+        </div>
+        <div class="agent-status-row">
+          <span class="agent-state sleeping" id="state-sessionlog">😴 Sleeping</span>
+          <span class="agent-schedule">⏱ 8:10 PM daily</span>
+        </div>
+        <div class="agent-last-run">
+          <div>Last run</div>
+          <span id="lastrun-sessionlog">Not yet</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── WHAT'S BUILT ── -->
+  <div class="section" id="built">
+    <div class="section-title">What's Been Built</div>
+    <div class="built-item">
+      <div class="built-check">✓</div>
+      <div><div class="built-name">UMEI3D Post-Purchase App</div><div class="built-detail">Single-file HTML/CSS/JS. 4 action cards, Web Audio sounds, Canvas confetti, return timeline, chat bubble. Netlify-ready.</div></div>
+    </div>
+    <div class="built-item">
+      <div class="built-check">✓</div>
+      <div><div class="built-name">UMEI Workflow Map</div><div class="built-detail">Interactive HTML visual of the full UMEI3D ops workflow. PDF exported.</div></div>
+    </div>
+    <div class="built-item">
+      <div class="built-check">✓</div>
+      <div><div class="built-name">Claude Workspace</div><div class="built-detail">Master command center — brand briefs, app specs, personal notes. GitHub-backed.</div></div>
+    </div>
+    <div class="built-item">
+      <div class="built-check">✓</div>
+      <div><div class="built-name">Finance Tracker</div><div class="built-detail">Local HTML finance tracker with its own server.js at Desktop/finance-tracker/.</div></div>
+    </div>
+    <div class="built-item">
+      <div class="built-check">✓</div>
+      <div><div class="built-name">Static Preview Server</div><div class="built-detail">Node.js file server (serve-static.js) on port 3401, integrated with Claude Preview MCP.</div></div>
+    </div>
+    <div class="built-item">
+      <div class="built-check">✓</div>
+      <div><div class="built-name">Personal Dashboard + 3 Agents</div><div class="built-detail">This dashboard, plus GitHub Sync, Milestone & Notion, and Daily Wrap-Up scheduled agents.</div></div>
+    </div>
+  </div>
+
+  <!-- ── TO-DO ── -->
+  <div class="section" id="todo">
+    <div class="section-title">Next To-Do List</div>
+    <div class="todo-list">
+      <div class="todo-item" data-id="todo-1" onclick="toggleTodo(this)">
+        <div class="todo-check">✓</div>
+        <span class="todo-text">Fix GitHub umeibrand page — update copy (no foot scanning, data-driven comfort)</span>
+        <span class="todo-priority p-high">High</span>
+      </div>
+      <div class="todo-item" data-id="todo-2" onclick="toggleTodo(this)">
+        <div class="todo-check">✓</div>
+        <span class="todo-text">Build personal dashboard</span>
+        <span class="todo-priority p-high">High</span>
+      </div>
+      <div class="todo-item" data-id="todo-3" onclick="toggleTodo(this)">
+        <div class="todo-check">✓</div>
+        <span class="todo-text">Complete Milestone 1 — Feedback &amp; Fixes on Post-Purchase App by Mar 22</span>
+        <span class="todo-priority p-high">High</span>
+      </div>
+      <div class="todo-item" style="border-style:dashed; opacity:.35; cursor:default;">
+        <div class="todo-check" style="border-style:dashed"></div>
+        <span class="todo-text" style="color:var(--text-3)">Tell Claude what to add here...</span>
+        <span class="todo-priority p-low">TBD</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── AUTOMATIONS ── -->
+  <div class="section" id="automations">
+    <div class="section-title">Active Automations</div>
+    <div id="automations-list">
+      <div style="padding:16px; text-align:center; color:var(--text-3); font-size:12px;">Loading...</div>
+    </div>
+  </div>
+
+  <!-- ── TODAY LOG ── -->
+  <div class="section" id="todaylog">
+    <div class="section-title">Today's Session Log</div>
+    <div class="card" style="border-color:var(--border-blue)">
+      <div style="font-size:13px; color:var(--text-2); line-height:1.7;" id="today-log">Loading today's log...</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">J's Command Center · Built with Claude Code · <span id="footer-date"></span></div>
+
+<script>
+// ── ENTRANCE ANIMATIONS (IntersectionObserver) ────
+const fadeObserver = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); fadeObserver.unobserve(e.target); } });
+}, { threshold: 0.08 });
+document.querySelectorAll('.fade-up').forEach(el => fadeObserver.observe(el));
+
+// ── ANIMATED STAT COUNTERS ─────────────────────────
+function animateCount(el, target, duration = 800) {
+  const start = performance.now();
+  const from  = 0;
+  function step(now) {
+    const p   = Math.min((now - start) / duration, 1);
+    const val = Math.round(from + (target - from) * (p < 0.5 ? 2*p*p : -1+(4-2*p)*p));
+    el.textContent = val;
+    if (p < 1) requestAnimationFrame(step);
+  }
+  requestAnimationFrame(step);
+}
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    [['stat-mcp',6],['stat-auto',4]].forEach(([id,val]) => {
+      const el = document.getElementById(id);
+      if (el) animateCount(el, val);
+    });
+  }, 400);
+});
+
+// ── WEEKLY CHART ───────────────────────────────────
+function renderWeeklyChart(activityData) {
+  const bars  = document.getElementById('weekly-bars');
+  if (!bars) return;
+  const days  = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
+  const today = new Date().getDay(); // 0=Sun
+  const todayIdx = today === 0 ? 6 : today - 1;
+  // Default activity levels (0-100), updated from data.json later
+  const defaults = activityData || [60, 45, 85, 0, 0, 0, 0];
+  bars.innerHTML = days.map((d, i) => {
+    const h    = defaults[i] || 0;
+    const cls  = i === todayIdx ? 'active' : (h > 0 ? 'filled' : '');
+    const isT  = i === todayIdx;
+    return `
+      <div class="chart-col">
+        <div class="chart-bar-wrap">
+          <div class="chart-bar ${cls}" data-height="${h}" style="height:4px"></div>
+        </div>
+        <div class="chart-day ${isT?'today':''}">${d}</div>
+      </div>`;
+  }).join('');
+  // Animate bars growing
+  setTimeout(() => {
+    bars.querySelectorAll('.chart-bar').forEach(bar => {
+      const h = parseInt(bar.dataset.height) || 0;
+      bar.style.height = (h * 0.72) + 'px';
+    });
+  }, 300);
+}
+renderWeeklyChart([60, 45, 85, 0, 0, 0, 0]);
+
+// ── POMODORO GLOW WHEN RUNNING ─────────────────────
+function updatePomoGlow() {
+  const wrap = document.querySelector('.pomodoro-wrap');
+  if (!wrap) return;
+  if (pomoRunning && !pomoIsBreak) {
+    wrap.style.boxShadow = '0 0 40px rgba(253,105,105,0.2), 0 0 80px rgba(253,105,105,0.08)';
+    wrap.style.borderColor = 'rgba(253,105,105,0.4)';
+  } else if (pomoRunning && pomoIsBreak) {
+    wrap.style.boxShadow = '0 0 40px rgba(74,222,128,0.2)';
+    wrap.style.borderColor = 'rgba(74,222,128,0.3)';
+  } else {
+    wrap.style.boxShadow = '';
+    wrap.style.borderColor = '';
+  }
+}
+
+// ── TODAY DATE LABEL ───────────────────────────────
+document.getElementById('today-date-label').textContent =
+  new Date().toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+
+// ── CLOCK ──────────────────────────────────────────
+function updateTime() {
+  const now = new Date();
+  document.getElementById('live-time').textContent =
+    now.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+  document.getElementById('live-date').textContent =
+    now.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'});
+  document.getElementById('footer-date').textContent =
+    now.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+}
+updateTime(); setInterval(updateTime, 1000);
+
+// ── NAV PILLS ──────────────────────────────────────
+const navSections = document.querySelectorAll('.section');
+const navPills    = document.querySelectorAll('.nav-pill');
+window.addEventListener('scroll', () => {
+  let cur = '';
+  navSections.forEach(s => { if (window.scrollY >= s.offsetTop - 120) cur = s.id; });
+  navPills.forEach(p => p.classList.toggle('active', p.getAttribute('href') === '#' + cur));
+});
+
+// ── TOAST NOTIFICATIONS ────────────────────────────
+function showToast(msg, type = 'info') {
+  let wrap = document.getElementById('toast-wrap');
+  if (!wrap) {
+    wrap = document.createElement('div');
+    wrap.id = 'toast-wrap';
+    wrap.style.cssText = 'position:fixed;bottom:24px;right:20px;z-index:9999;display:flex;flex-direction:column;gap:8px;pointer-events:none;';
+    document.body.appendChild(wrap);
+  }
+  const t = document.createElement('div');
+  const color = type === 'success' ? 'var(--green)' : type === 'error' ? 'var(--red)' : 'var(--blue)';
+  t.style.cssText = `background:var(--bg-card);border:1px solid ${color};border-left:3px solid ${color};
+    border-radius:10px;padding:10px 16px;font-size:12px;color:var(--text-1);
+    box-shadow:0 4px 20px rgba(0,0,0,0.4);opacity:0;transform:translateY(8px);
+    transition:all 0.25s ease;max-width:260px;pointer-events:none;`;
+  t.textContent = msg;
+  wrap.appendChild(t);
+  requestAnimationFrame(() => { t.style.opacity = '1'; t.style.transform = 'translateY(0)'; });
+  setTimeout(() => {
+    t.style.opacity = '0'; t.style.transform = 'translateY(8px)';
+    setTimeout(() => t.remove(), 300);
+  }, 3000);
+}
+
+// ── TODO TOGGLE + LOCALSTORAGE ──────────────────────
+const TODO_KEY = 'j-dashboard-todos';
+function saveTodos() {
+  const states = {};
+  document.querySelectorAll('.todo-item[data-id]').forEach(el => {
+    states[el.dataset.id] = el.classList.contains('done');
+  });
+  localStorage.setItem(TODO_KEY, JSON.stringify(states));
+}
+function loadTodos() {
+  try {
+    const states = JSON.parse(localStorage.getItem(TODO_KEY) || '{}');
+    document.querySelectorAll('.todo-item[data-id]').forEach(el => {
+      if (states[el.dataset.id]) el.classList.add('done');
+    });
+  } catch {}
+  updateTodoBar();
+}
+function toggleTodo(el) {
+  el.classList.toggle('done');
+  const isDone = el.classList.contains('done');
+  const label  = el.querySelector('.todo-text')?.textContent?.slice(0, 32) || 'Task';
+  showToast(isDone ? `✓ Done: ${label}...` : `↩ Unchecked`, isDone ? 'success' : 'info');
+  saveTodos();
+  updateTodoBar();
+}
+function updateTodoBar() {
+  const all  = document.querySelectorAll('.todo-item[data-id]');
+  const done = document.querySelectorAll('.todo-item[data-id].done');
+  const pct  = all.length ? Math.round(done.length / all.length * 100) : 0;
+  document.getElementById('bar-todo').style.width = pct + '%';
+  document.getElementById('pct-todo').textContent = pct + '%';
+  updateProdScore();
+}
+
+// ── NEXT AGENT COUNTDOWN ───────────────────────────
+const AGENT_SCHEDULES = [
+  { name: 'GitBot',        hours: [0,6,12,18], min: 0  },
+  { name: 'MilestoneBot',  hours: [9],          min: 0  },
+  { name: 'WrapBot',       hours: [20],         min: 0  },
+  { name: 'LogBot',        hours: [20],         min: 10 },
+];
+function getNextAgentRun() {
+  const now   = new Date();
+  let minDiff = Infinity, nextName = '';
+  AGENT_SCHEDULES.forEach(agent => {
+    agent.hours.forEach(h => {
+      let next = new Date(now);
+      next.setHours(h, agent.min, 0, 0);
+      if (next <= now) next.setDate(next.getDate() + 1);
+      const diff = next - now;
+      if (diff < minDiff) { minDiff = diff; nextName = agent.name; }
+    });
+  });
+  const totalMin = Math.floor(minDiff / 60000);
+  const hh = Math.floor(totalMin / 60), mm = totalMin % 60;
+  return { name: nextName, label: hh > 0 ? `${hh}h ${mm}m` : `${mm}m` };
+}
+function updateCountdown() {
+  const el = document.getElementById('next-agent-run');
+  if (!el) return;
+  const { name, label } = getNextAgentRun();
+  el.textContent = `${name} runs in ${label}`;
+}
+updateCountdown();
+setInterval(updateCountdown, 30000);
+
+// ── PRODUCTIVITY BARS ──────────────────────────────
+function updateProductivity(msProg) {
+  const now   = new Date();
+  const start = 9, end = 18; // 9am–6pm workday
+  const h = now.getHours() + now.getMinutes() / 60;
+  const dayPct = Math.max(0, Math.min(100, Math.round((h - start) / (end - start) * 100)));
+  document.getElementById('bar-day').style.width = dayPct + '%';
+  document.getElementById('pct-day').textContent = dayPct + '%';
+  document.getElementById('bar-ms').style.width  = msProg + '%';
+  document.getElementById('pct-ms').textContent  = msProg + '%';
+  document.getElementById('prod-date').textContent =
+    now.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
+  updateTodoBar();
+}
+function updateProdScore() {
+  const dayPct  = parseFloat(document.getElementById('bar-day').style.width) || 0;
+  const msPct   = parseFloat(document.getElementById('bar-ms').style.width)  || 0;
+  const todoPct = parseFloat(document.getElementById('bar-todo').style.width) || 0;
+  const score   = Math.round((dayPct * 0.3 + msPct * 0.4 + todoPct * 0.3));
+  document.getElementById('prod-score').textContent = score + '%';
+}
+
+// ── GITHUB TOGGLE ──────────────────────────────────
+function toggleRepo(id) {
+  document.getElementById(id).classList.toggle('open');
+}
+
+// ── MCP SVG LINES ──────────────────────────────────
+function drawMcpLines() {
+  const container = document.getElementById('mcp-lines-container');
+  const svg       = document.getElementById('mcp-svg');
+  const center    = document.querySelector('.mcp-center');
+  const nodes     = document.querySelectorAll('.mcp-node');
+  if (!container || !svg || !center || nodes.length === 0) return;
+
+  const cRect    = container.getBoundingClientRect();
+  const ctrRect  = center.getBoundingClientRect();
+  svg.innerHTML  = '';
+
+  // Start point: right edge of center node relative to container
+  const x1 = ctrRect.right - cRect.left;
+  const y1 = ctrRect.top + ctrRect.height / 2 - cRect.top;
+
+  nodes.forEach(node => {
+    const nRect = node.getBoundingClientRect();
+    const x2 = nRect.left - cRect.left;
+    const y2 = nRect.top + nRect.height / 2 - cRect.top;
+
+    const line = document.createElementNS('http://www.w3.org/2000/svg','path');
+    const mx   = (x1 + x2) / 2;
+    line.setAttribute('d', `M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);
+    line.setAttribute('stroke', 'rgba(253,105,105,0.2)');
+    line.setAttribute('stroke-width', '1.5');
+    line.setAttribute('fill', 'none');
+    line.setAttribute('stroke-dasharray', '4,3');
+    svg.appendChild(line);
+
+    // Animated dot
+    const dot = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    dot.setAttribute('r', '3');
+    dot.setAttribute('fill', '#FD6969');
+    dot.setAttribute('opacity', '0.8');
+    const anim = document.createElementNS('http://www.w3.org/2000/svg','animateMotion');
+    anim.setAttribute('dur', (1.5 + Math.random()).toFixed(1) + 's');
+    anim.setAttribute('repeatCount', 'indefinite');
+    anim.setAttribute('path', `M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);
+    dot.appendChild(anim);
+    svg.appendChild(dot);
+  });
+}
+window.addEventListener('load', () => { setTimeout(drawMcpLines, 200); });
+window.addEventListener('resize', drawMcpLines);
+
+// ── POMODORO ───────────────────────────────────────
+const POMO_WORK  = 25 * 60;
+const POMO_BREAK =  5 * 60;
+const CIRCUMFERENCE = 2 * Math.PI * 44; // ~276.46
+
+let pomoRunning = false;
+let pomoTime    = POMO_WORK;
+let pomoIsBreak = false;
+let pomoSessions = 0;
+let pomoInterval = null;
+
+function pomoRender() {
+  const m = String(Math.floor(pomoTime / 60)).padStart(2,'0');
+  const s = String(pomoTime % 60).padStart(2,'0');
+  document.getElementById('pomo-display').textContent = `${m}:${s}`;
+  document.getElementById('pomo-mode-label').textContent = pomoIsBreak ? 'Break' : 'Focus';
+
+  const total  = pomoIsBreak ? POMO_BREAK : POMO_WORK;
+  const offset = CIRCUMFERENCE * (1 - pomoTime / total);
+  const arc    = document.getElementById('pomo-arc');
+  arc.style.strokeDashoffset = offset;
+  arc.classList.toggle('break', pomoIsBreak);
+
+  // Session dots
+  const dots = document.querySelectorAll('.pomo-dot');
+  dots.forEach((d,i) => d.classList.toggle('done', i < pomoSessions));
+  document.getElementById('pomo-session-label').textContent =
+    `Session ${Math.min(pomoSessions + 1, 4)} of 4`;
+}
+
+function pomoToggle() {
+  const btn = document.getElementById('pomo-start');
+  if (pomoRunning) {
+    clearInterval(pomoInterval);
+    pomoRunning = false;
+    btn.textContent = 'Resume';
+    updatePomoGlow();
+  } else {
+    pomoRunning = true;
+    btn.textContent = 'Pause';
+    updatePomoGlow();
+    pomoInterval = setInterval(() => {
+      pomoTime--;
+      if (pomoTime <= 0) {
+        clearInterval(pomoInterval);
+        pomoRunning = false;
+        if (!pomoIsBreak) {
+          pomoSessions = Math.min(pomoSessions + 1, 4);
+          pomoIsBreak  = true;
+          pomoTime     = POMO_BREAK;
+          btn.textContent = 'Start Break';
+          if (Notification.permission === 'granted')
+            new Notification('Focus session done! Time for a break.');
+        } else {
+          pomoIsBreak = false;
+          pomoTime    = POMO_WORK;
+          btn.textContent = 'Start Focus';
+          if (Notification.permission === 'granted')
+            new Notification('Break over. Back to focus!');
+        }
+      }
+      pomoRender();
+    }, 1000);
+  }
+}
+
+function pomoReset() {
+  clearInterval(pomoInterval);
+  pomoRunning = false;
+  pomoIsBreak = false;
+  pomoTime    = POMO_WORK;
+  document.getElementById('pomo-start').textContent = 'Start';
+  pomoRender();
+}
+
+function pomoSkip() {
+  clearInterval(pomoInterval);
+  pomoRunning = false;
+  if (!pomoIsBreak) { pomoSessions = Math.min(pomoSessions + 1, 4); pomoIsBreak = true; pomoTime = POMO_BREAK; }
+  else              { pomoIsBreak = false; pomoTime = POMO_WORK; }
+  document.getElementById('pomo-start').textContent = pomoIsBreak ? 'Start Break' : 'Start Focus';
+  pomoRender();
+}
+
+// Request notification permission
+if ('Notification' in window && Notification.permission === 'default') {
+  Notification.requestPermission();
+}
+pomoRender();
+
+// ── KEYBOARD SHORTCUTS ─────────────────────────────
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT' || e.target.tagName === 'TEXTAREA') return;
+  if (e.key === 'p' || e.key === 'P') {
+    pomoToggle();
+    showToast(pomoRunning ? '▶ Pomodoro started' : '⏸ Pomodoro paused', 'info');
+  }
+  if (e.key === 't' || e.key === 'T') {
+    document.getElementById('todo')?.scrollIntoView({behavior:'smooth',block:'start'});
+    showToast('📋 To-Do list', 'info');
+  }
+  if (e.key === 'r' || e.key === 'R') {
+    loadData();
+    showToast('🔄 Refreshing data...', 'info');
+  }
+  if (e.key === 'm' || e.key === 'M') {
+    document.getElementById('milestones')?.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  if (e.key === 'Escape') {
+    document.getElementById('overview')?.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+});
+
+// ── DATA.JSON FETCH ────────────────────────────────
+async function loadData() {
+  try {
+    const res  = await fetch('/data.json?t=' + Date.now());
+    if (!res.ok) throw new Error();
+    const data = await res.json();
+    renderData(data);
+    const el = document.getElementById('last-sync');
+    const d  = new Date(data.lastUpdated);
+    el.textContent  = 'Live · updated ' + d.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
+    el.style.color  = 'var(--green)';
+    showToast('Dashboard refreshed', 'success');
+  } catch {
+    const el = document.getElementById('last-sync');
+    el.textContent = 'Live data unavailable';
+    el.style.color = 'var(--red)';
+    updateProductivity(40);
+  }
+}
+
+function renderData(data) {
+  // Stats
+  if (data.stats) {
+    setEl('stat-mcp',       data.stats.mcpAgents);
+    setEl('stat-auto',      data.stats.automationsRunning);
+    setEl('stat-milestone', data.stats.currentMilestone);
+  }
+
+  // Active app name
+  if (data.activeApp) {
+    setEl('stat-app-name', data.activeApp.name);
+    document.querySelector('.stat-app-sub').textContent = data.activeApp.brand + ' · Active';
+  }
+
+  // Milestones
+  if (data.milestones) {
+    const activeProg = (data.milestones.find(m=>m.status==='in-progress')||{}).progress || 40;
+    updateProductivity(activeProg);
+
+    const list = document.getElementById('milestone-list');
+    list.innerHTML = data.milestones.map(ms => {
+      const map = {
+        'done':        { cls:'done',   label:'Done',        bc:'badge-green' },
+        'in-progress': { cls:'active', label:'In Progress', bc:'badge-yellow' },
+        'blocked':     { cls:'',       label:'Blocked',     bc:'badge-red' },
+        'not-started': { cls:'',       label:'Not Started', bc:'badge-gray' }
+      };
+      const s   = map[ms.status] || map['not-started'];
+      const pct = ms.status === 'done' ? 100 : (ms.status === 'not-started' ? 0 : ms.progress);
+      const dot = ms.status === 'in-progress' ? '<span class="dot pulse"></span> ' : '';
+      return `
+        <div class="ms-row ${s.cls}">
+          <div class="ms-badge">${ms.id}</div>
+          <div class="ms-row-name">${ms.name}</div>
+          <div class="ms-bar"><div class="ms-bar-fill" style="width:${pct}%"></div></div>
+          <div class="ms-pct">${pct}%</div>
+          <span class="badge ${s.bc}">${dot}${s.label}</span>
+        </div>`;
+    }).join('');
+  }
+
+  // GitHub
+  if (data.github) {
+    const repos = { 'claude-workspace':'gh-cw', 'umei3d-app':'gh-ua' };
+    Object.entries(repos).forEach(([repo, id]) => {
+      const info = data.github[repo]; if (!info) return;
+      const dateEl   = document.getElementById(id + '-date');
+      const commitEl = document.getElementById(id + '-commit');
+      if (info.lastCommitDate && dateEl) {
+        const d = new Date(info.lastCommitDate);
+        dateEl.textContent = d.toLocaleDateString('en-US',{month:'short',day:'numeric'});
+      }
+      if (commitEl && info.lastCommit) {
+        commitEl.textContent = 'Last commit: ' + info.lastCommit;
+      }
+    });
+  }
+
+  // Automations
+  if (data.automations) {
+    document.getElementById('automations-list').innerHTML = data.automations.map(a => {
+      const lastRun = a.lastRun
+        ? new Date(a.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'})
+        : 'Not yet run';
+      const status = a.status === 'ok'
+        ? `<span class="badge badge-green"><span class="dot pulse"></span> Running</span>`
+        : `<span class="badge badge-red"><span class="dot"></span> Error</span>`;
+      return `
+        <div class="auto-card">
+          <div class="auto-icon">🤖</div>
+          <div style="flex:1">
+            <div class="auto-name">${a.name}</div>
+            <div class="auto-desc">Last run: ${lastRun}</div>
+            <div class="auto-meta">${status}
+              <span class="badge badge-gray">🕐 ${a.schedule}</span>
+              <span class="badge badge-blue">→ ${a.target}</span>
+            </div>
+          </div>
+        </div>`;
+    }).join('');
+  }
+
+  // Today's log
+  if (data.todayLog) setEl('today-log', data.todayLog);
+
+  // Agent states
+  if (data.automations) updateAgentStates(data.automations);
+}
+
+function setEl(id, val) {
+  const el = document.getElementById(id);
+  if (el && val !== undefined) el.textContent = val;
+}
+
+loadData();
+setInterval(loadData, 5 * 60 * 1000);
+window.addEventListener('load', loadTodos);
+
+// ── AGENT STATES ───────────────────────────────────
+// Agents "wake up" around their scheduled run time (±15 min window)
+const AGENTS = [
+  { id: 'github',     card: 'agent-github',     state: 'state-github',
+    lastrun: 'lastrun-github',     scheduleHours: [0,6,12,18], scheduleMin: 0 },
+  { id: 'milestone',  card: 'agent-milestone',   state: 'state-milestone',
+    lastrun: 'lastrun-milestone',  scheduleHours: [9],          scheduleMin: 0 },
+  { id: 'wrapup',     card: 'agent-wrapup',      state: 'state-wrapup',
+    lastrun: 'lastrun-wrapup',     scheduleHours: [20],         scheduleMin: 0 },
+  { id: 'sessionlog', card: 'agent-sessionlog',  state: 'state-sessionlog',
+    lastrun: 'lastrun-sessionlog', scheduleHours: [20],         scheduleMin: 10 },
+];
+
+function updateAgentStates(automations) {
+  const now = new Date();
+  const h   = now.getHours(), m = now.getMinutes();
+
+  AGENTS.forEach(agent => {
+    const card      = document.getElementById(agent.card);
+    const stateEl   = document.getElementById(agent.state);
+    const lastRunEl = document.getElementById(agent.lastrun);
+    if (!card) return;
+
+    // Find matching automation data
+    const autoData = (automations || []).find(a =>
+      a.name.toLowerCase().includes(agent.id === 'github'     ? 'github'    :
+                                    agent.id === 'milestone'  ? 'milestone' :
+                                    agent.id === 'wrapup'     ? 'wrap'      : 'session'));
+
+    // Last run
+    if (lastRunEl && autoData && autoData.lastRun) {
+      const d = new Date(autoData.lastRun);
+      lastRunEl.textContent = d.toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});
+    }
+
+    // Determine if agent is in its active window (±15 min of scheduled time)
+    const isActiveNow = agent.scheduleHours.some(sh => {
+      const diffMin = (h * 60 + m) - (sh * 60 + agent.scheduleMin);
+      return diffMin >= -2 && diffMin <= 15;
+    });
+
+    // Remove state classes
+    card.classList.remove('awake','sleeping','running');
+    const zzz = card.querySelector('.zzz');
+
+    if (isActiveNow) {
+      card.classList.add('running');
+      if (zzz) zzz.style.display = 'none';
+      stateEl.className = 'agent-state running';
+      stateEl.innerHTML = '<span class="thinking"><span></span><span></span><span></span></span> Working...';
+    } else {
+      card.classList.add('sleeping');
+      if (zzz) zzz.style.display = '';
+      stateEl.className = 'agent-state sleeping';
+      stateEl.textContent = '😴 Sleeping';
+    }
+  });
+}
+
+// Run once now, then every minute
+updateAgentStates([]);
+setInterval(() => updateAgentStates([]), 60 * 1000);
+</script>
+</body>
+</html>
