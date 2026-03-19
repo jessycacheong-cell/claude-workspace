@@ -33,47 +33,34 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     font-size: 14px;
     min-height: 100vh;
-    padding-bottom: 60px;
   }
 
   /* HEADER */
   .header {
     background: var(--bg-card);
     border-bottom: 1px solid var(--border);
-    padding: 16px 20px 0;
+    padding: 14px 20px;
     position: sticky; top: 0; z-index: 100;
   }
-  .header-top { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
+  .header-top { display:flex; align-items:center; justify-content:space-between; }
   .logo { display:flex; align-items:center; gap:10px; }
   .logo-mark {
     width:32px; height:32px; background:var(--blue); border-radius:8px;
     display:flex; align-items:center; justify-content:center;
     font-weight:800; font-size:13px; color:#fff;
+    box-shadow:0 0 16px rgba(253,105,105,0.4);
   }
   .logo-text { font-size:16px; font-weight:700; }
   .logo-sub { font-size:11px; color:var(--text-2); margin-top:1px; }
+  .header-right { display:flex; align-items:center; gap:16px; }
   .header-date { text-align:right; font-size:12px; color:var(--text-2); }
   .header-date span { display:block; color:var(--blue); font-weight:600; font-size:13px; }
-  .nav { display:flex; gap:6px; padding-bottom:0; overflow-x:auto; scrollbar-width:none; }
-  .nav::-webkit-scrollbar { display:none; }
-  .nav-pill {
-    flex-shrink:0; padding:7px 13px; border-radius:8px 8px 0 0;
-    border:1px solid transparent; border-bottom:none;
-    background:transparent; color:var(--text-2);
-    font-size:12px; cursor:pointer; transition:all 0.2s; text-decoration:none;
+  .header-shortcuts { display:flex; align-items:center; gap:6px; font-size:11px; color:var(--text-3); }
+  .header-shortcuts kbd {
+    background:var(--bg-raised); border:1px solid var(--border);
+    border-radius:4px; padding:1px 5px; font-size:10px; color:var(--text-2);
   }
-  .nav-pill:hover { color:var(--text-1); background:var(--bg-raised); }
-  .nav-pill.active { background:var(--bg); color:var(--blue); border-color:var(--border); font-weight:600; }
-
-  /* LAYOUT */
-  .page { padding:20px; max-width:900px; margin:0 auto; }
-  .section { margin-bottom:28px; }
-  .section-title {
-    font-size:11px; font-weight:600; letter-spacing:.08em; text-transform:uppercase;
-    color:var(--text-3); margin-bottom:10px;
-    display:flex; align-items:center; gap:8px;
-  }
-  .section-title::after { content:''; flex:1; height:1px; background:var(--border); }
+  #next-agent-run { font-size:11px; color:var(--text-3); }
 
   /* BADGES */
   .badge {
@@ -89,38 +76,113 @@
   .pulse { animation:pulse 2s infinite; }
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.35} }
 
-  /* ── STATS ROW ── */
-  .stat-row { display:grid; grid-template-columns:repeat(4,1fr); gap:10px; }
-  @media(max-width:600px){ .stat-row{ grid-template-columns:repeat(2,1fr); } }
-  .stat-card {
-    background:var(--bg-card); border:1px solid var(--border);
-    border-radius:12px; padding:14px 14px 12px;
+  /* ── BENTO GRID ── */
+  .bento-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 12px;
+    padding: 16px 20px 80px;
   }
-  .stat-val { font-size:13px; font-weight:700; color:var(--blue); margin-bottom:3px; line-height:1.3; }
-  .stat-label { font-size:10px; color:var(--text-2); text-transform:uppercase; letter-spacing:.05em; }
-  .stat-app-name { font-size:15px; font-weight:800; color:var(--blue); }
-  .stat-app-sub  { font-size:10px; color:var(--text-2); margin-top:2px; }
+  .bc {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+  .bc:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 40px rgba(0,0,0,0.4);
+    border-color: rgba(253,105,105,0.15);
+  }
+  .bc-label {
+    font-size: 12px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--text-2); margin-bottom: 16px;
+  }
+  .bc-2  { grid-column: span 2; }
+  .bc-3  { grid-column: span 3; }
+  .bc-4  { grid-column: span 4; }
+  .bc-6  { grid-column: span 6; }
+  .bc-8  { grid-column: span 8; }
+  .bc-12 { grid-column: span 12; }
+  .br-2  { grid-row: span 2; }
+  @media(max-width:768px){
+    .bc-2,.bc-3,.bc-4,.bc-6,.bc-8,.bc-12 { grid-column: span 12 !important; }
+    .br-2 { grid-row: span 1; }
+  }
 
-  /* ── PRODUCTIVITY BAR ── */
+  /* ── APP STATUS CARD ── */
+  .bc-app-status-deco {
+    position:absolute; top:0; right:0; width:160px; height:160px; pointer-events:none;
+    background: radial-gradient(circle at 80% 20%, rgba(253,105,105,0.08) 0%, transparent 60%);
+    border-radius: 0 20px 0 0;
+  }
+  .bc-app-name { font-size:26px; font-weight:800; color:var(--blue); line-height:1.2; margin-bottom:6px; }
+  .bc-app-sub  { font-size:13px; color:var(--text-2); margin-bottom:12px; }
+
+  /* ── ACTIVE APP MOTION ── */
+  @keyframes borderPulse {
+    0%,100% { box-shadow: 0 0 0 0 rgba(253,105,105,0), 0 0 20px rgba(253,105,105,0.12); border-color: rgba(253,105,105,0.18); }
+    50%      { box-shadow: 0 0 0 4px rgba(253,105,105,0.08), 0 0 40px rgba(253,105,105,0.22); border-color: rgba(253,105,105,0.45); }
+  }
+  .bc-app-live { animation: borderPulse 2.5s ease-in-out infinite; }
+  .activity-ring {
+    display:flex; gap:5px; align-items:center; margin-top:12px;
+  }
+  .activity-ring-dot {
+    width:8px; height:8px; border-radius:50%; background:var(--blue); opacity:0.3;
+    animation: actDot 1.4s ease-in-out infinite;
+  }
+  .activity-ring-dot:nth-child(2) { animation-delay:0.2s; }
+  .activity-ring-dot:nth-child(3) { animation-delay:0.4s; }
+  .activity-ring-dot:nth-child(4) { animation-delay:0.6s; }
+  @keyframes actDot {
+    0%,100% { opacity:0.2; transform:scale(1); }
+    50%     { opacity:1;   transform:scale(1.4); }
+  }
+  .activity-ring-label { font-size:11px; color:var(--text-3); margin-left:4px; }
+
+  /* ── MINI STATS CARD ── */
+  .mini-stats-row { display:flex; align-items:stretch; gap:0; height:100%; }
+  .mini-stat-item {
+    flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    padding:6px 0; text-align:center;
+  }
+  .mini-stat-item + .mini-stat-item {
+    border-left: 1px solid var(--border);
+    margin-left:0; padding-left:0;
+  }
+  .mini-stat-num { font-size:36px; font-weight:800; color:var(--blue); line-height:1.1; }
+  .mini-stat-lbl { font-size:11px; color:var(--text-2); margin-top:6px; text-transform:uppercase; letter-spacing:.05em; }
+
+  /* ── CLOCK CARD ── */
+  .bc-clock-wrap { display:flex; flex-direction:column; align-items:center; justify-content:center; height:calc(100% - 28px); text-align:center; }
+  #clock { font-size:40px; font-weight:800; color:var(--blue); letter-spacing:-1px; font-variant-numeric:tabular-nums; }
+  .bc-clock-date { font-size:14px; color:var(--text-2); margin-top:8px; }
+  .bc-clock-loc  { font-size:12px; color:var(--text-3); margin-top:4px; }
+
+  /* ── PRODUCTIVITY BAR (in session log) ── */
   .productivity-wrap {
-    background:var(--bg-card); border:1px solid var(--border);
-    border-radius:12px; padding:14px 16px; margin-top:10px;
+    border-radius:12px; margin-bottom:14px;
   }
   .prod-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:10px; }
   .prod-title { font-size:12px; font-weight:600; color:var(--text-1); }
   .prod-score { font-size:20px; font-weight:800; color:var(--green); }
   .prod-track { display:flex; flex-direction:column; gap:6px; }
-  .prod-row { display:flex; align-items:center; gap:10px; }
-  .prod-label { font-size:11px; color:var(--text-2); width:80px; flex-shrink:0; }
-  .prod-bar { flex:1; height:6px; background:var(--bg-raised); border-radius:4px; overflow:hidden; }
-  .prod-fill { height:100%; border-radius:4px; transition:width 1s ease; }
-  .prod-pct { font-size:11px; color:var(--text-3); width:30px; text-align:right; flex-shrink:0; }
+  .prod-row { display:flex; align-items:center; gap:12px; margin-bottom:2px; }
+  .prod-label { font-size:13px; color:var(--text-1); width:110px; flex-shrink:0; font-weight:600; }
+  .prod-bar { flex:1; height:10px; background:var(--bg-raised); border-radius:6px; overflow:hidden; }
+  .prod-fill { height:100%; border-radius:6px; transition:width 1s ease; }
+  .prod-pct { font-size:13px; color:var(--text-2); width:38px; text-align:right; flex-shrink:0; font-weight:700; }
+  .prod-note { font-size:11px; color:var(--text-3); margin-left:122px; margin-bottom:10px; margin-top:2px; }
 
   /* ── COMPACT MILESTONES ── */
   .ms-compact { display:flex; flex-direction:column; gap:6px; }
   .ms-row {
     display:flex; align-items:center; gap:10px;
-    background:var(--bg-card); border:1px solid var(--border);
+    background:var(--bg-raised); border:1px solid var(--border);
     border-radius:10px; padding:10px 14px;
     transition:all 0.2s;
   }
@@ -130,59 +192,55 @@
   .ms-badge {
     width:24px; height:24px; border-radius:6px; font-size:11px; font-weight:700;
     display:flex; align-items:center; justify-content:center; flex-shrink:0;
-    background:var(--bg-raised); color:var(--text-2);
+    background:var(--bg-raised); color:var(--text-2); border:1px solid var(--border);
   }
-  .ms-row.active .ms-badge { background:var(--yellow-dim); color:var(--yellow); }
-  .ms-row.done   .ms-badge { background:var(--green-dim);  color:var(--green); }
+  .ms-row.active .ms-badge { background:var(--yellow-dim); color:var(--yellow); border-color:rgba(250,204,21,0.3); }
+  .ms-row.done   .ms-badge { background:var(--green-dim);  color:var(--green); border-color:rgba(74,222,128,0.3); }
   .ms-row-name { font-size:12px; font-weight:600; color:var(--text-1); flex:1; min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-  .ms-bar { width:100px; height:5px; background:var(--bg-raised); border-radius:4px; overflow:hidden; flex-shrink:0; }
+  .ms-bar { width:80px; height:5px; background:var(--bg); border-radius:4px; overflow:hidden; flex-shrink:0; }
   .ms-bar-fill { height:100%; border-radius:4px; background:var(--blue); transition:width 1s ease; }
   .ms-row.active .ms-bar-fill { background:var(--yellow); }
   .ms-row.done   .ms-bar-fill { background:var(--green); }
   .ms-pct { font-size:11px; color:var(--text-3); width:28px; text-align:right; flex-shrink:0; }
-  @media(max-width:480px){ .ms-bar{ width:60px; } }
+  @media(max-width:480px){ .ms-bar{ width:50px; } }
 
   /* ── MCP FLOW DIAGRAM ── */
-  .mcp-flow {
-    background:var(--bg-card); border:1px solid var(--border);
-    border-radius:14px; padding:20px; position:relative; overflow:hidden;
-  }
   .mcp-flow-inner {
     display:flex; align-items:center; gap:0;
-    min-height:220px;
+    min-height:200px;
   }
   .mcp-center {
     display:flex; flex-direction:column; align-items:center; gap:6px;
-    flex-shrink:0; width:90px;
+    flex-shrink:0; width:80px;
   }
   .mcp-center-icon {
-    width:52px; height:52px; border-radius:14px;
+    width:46px; height:46px; border-radius:12px;
     background:var(--blue); display:flex; align-items:center; justify-content:center;
-    font-size:22px; box-shadow:0 0 24px rgba(69,131,253,0.35);
+    font-size:20px; box-shadow:0 0 20px rgba(253,105,105,0.3);
   }
-  .mcp-center-label { font-size:11px; font-weight:700; color:var(--blue); text-align:center; letter-spacing:.04em; }
-  .mcp-center-sub   { font-size:10px; color:var(--text-3); text-align:center; }
-  .mcp-lines { flex:1; position:relative; align-self:stretch; min-width:60px; }
+  .mcp-center-label { font-size:10px; font-weight:700; color:var(--blue); text-align:center; letter-spacing:.04em; }
+  .mcp-center-sub   { font-size:9px; color:var(--text-3); text-align:center; }
+  .mcp-lines { flex:1; position:relative; align-self:stretch; min-width:30px; }
   .mcp-lines svg { position:absolute; inset:0; width:100%; height:100%; overflow:visible; }
-  .mcp-nodes { display:flex; flex-direction:column; justify-content:space-around; gap:6px; flex-shrink:0; width:160px; }
+  .mcp-nodes { display:flex; flex-direction:column; justify-content:space-around; gap:4px; flex-shrink:0; width:140px; }
   .mcp-node {
-    display:flex; align-items:center; gap:8px;
+    display:flex; align-items:center; gap:6px;
     background:var(--bg-raised); border:1px solid var(--border);
-    border-radius:10px; padding:8px 10px; cursor:default;
+    border-radius:8px; padding:6px 8px; cursor:default;
     transition:all 0.2s; position:relative;
   }
   .mcp-node:hover { border-color:var(--border-blue); background:var(--bg-hover); transform:translateX(2px); }
-  .mcp-node-icon { font-size:16px; flex-shrink:0; }
-  .mcp-node-name { font-size:12px; font-weight:600; color:var(--text-1); }
-  .mcp-node-role { font-size:10px; color:var(--text-2); }
+  .mcp-node-icon { font-size:13px; flex-shrink:0; }
+  .mcp-node-name { font-size:11px; font-weight:600; color:var(--text-1); }
+  .mcp-node-role { font-size:9px; color:var(--text-2); }
   .mcp-node-dot {
-    width:6px; height:6px; border-radius:50%; background:var(--green);
-    position:absolute; top:8px; right:8px;
-    box-shadow:0 0 6px var(--green);
+    width:5px; height:5px; border-radius:50%; background:var(--green);
+    position:absolute; top:6px; right:6px;
+    box-shadow:0 0 5px var(--green);
     animation:pulse 2s infinite;
   }
   @media(max-width:520px){
-    .mcp-flow-inner { flex-direction:column; align-items:center; gap:16px; }
+    .mcp-flow-inner { flex-direction:column; align-items:center; gap:12px; }
     .mcp-lines { display:none; }
     .mcp-nodes { width:100%; flex-direction:row; flex-wrap:wrap; justify-content:center; }
     .mcp-node { width:calc(50% - 4px); }
@@ -190,94 +248,93 @@
 
   /* ── GITHUB REPOS (collapse/expand) ── */
   .gh-repo {
-    background:var(--bg-card); border:1px solid var(--border);
-    border-radius:14px; overflow:hidden; margin-bottom:10px;
+    background:var(--bg-raised); border:1px solid var(--border);
+    border-radius:12px; overflow:hidden; margin-bottom:8px;
     transition:border-color 0.2s;
   }
   .gh-repo:hover { border-color:var(--border-blue); }
   .gh-header {
-    padding:12px 16px; display:flex; align-items:center; gap:10px;
+    padding:10px 14px; display:flex; align-items:center; gap:8px;
     cursor:pointer; user-select:none;
   }
-  .gh-name { font-size:13px; font-weight:600; color:var(--blue); flex:1; display:flex; align-items:center; gap:6px; }
-  .gh-meta { font-size:11px; color:var(--text-2); }
-  .gh-chevron { font-size:12px; color:var(--text-3); transition:transform 0.25s; }
+  .gh-name { font-size:12px; font-weight:600; color:var(--blue); flex:1; display:flex; align-items:center; gap:6px; }
+  .gh-meta { font-size:10px; color:var(--text-2); }
+  .gh-chevron { font-size:11px; color:var(--text-3); transition:transform 0.25s; }
   .gh-repo.open .gh-chevron { transform:rotate(180deg); }
   .gh-body { display:none; border-top:1px solid var(--border); }
   .gh-repo.open .gh-body { display:block; }
   .tree-item {
-    padding:7px 16px; display:flex; align-items:center; gap:8px;
-    font-size:12px; color:var(--text-1); transition:background 0.15s;
+    padding:6px 14px; display:flex; align-items:center; gap:7px;
+    font-size:11px; color:var(--text-1); transition:background 0.15s;
   }
   .tree-item:hover { background:var(--bg-hover); }
-  .tree-item .icon { font-size:13px; width:18px; text-align:center; flex-shrink:0; }
+  .tree-item .icon { font-size:12px; width:16px; text-align:center; flex-shrink:0; }
   .tree-item .name { flex:1; }
-  .tree-item .meta { font-size:11px; color:var(--text-3); }
-  .tree-indent { padding-left:34px; }
+  .tree-item .meta { font-size:10px; color:var(--text-3); }
+  .tree-indent { padding-left:30px; }
   .tree-folder { color:var(--blue); font-weight:600; }
   .gh-commit-strip {
-    padding:8px 16px; border-top:1px solid var(--border);
-    font-size:11px; color:var(--text-2); background:var(--bg-raised);
+    padding:6px 14px; border-top:1px solid var(--border);
+    font-size:10px; color:var(--text-2); background:var(--bg-raised);
   }
 
   /* ── BUILT LIST ── */
   .built-item {
-    background:var(--bg-card); border:1px solid var(--border);
-    border-radius:12px; padding:13px 16px;
-    display:flex; align-items:flex-start; gap:12px; margin-bottom:8px; transition:all 0.2s;
+    background:var(--bg-raised); border:1px solid var(--border);
+    border-radius:10px; padding:11px 14px;
+    display:flex; align-items:flex-start; gap:10px; margin-bottom:7px; transition:all 0.2s;
   }
   .built-item:hover { border-color:var(--border-blue); background:var(--bg-hover); }
   .built-check {
-    width:20px; height:20px; border-radius:6px; background:var(--green-dim);
+    width:18px; height:18px; border-radius:5px; background:var(--green-dim);
     color:var(--green); display:flex; align-items:center; justify-content:center;
-    font-size:11px; flex-shrink:0; margin-top:1px;
+    font-size:10px; flex-shrink:0; margin-top:1px;
   }
-  .built-name { font-size:13px; font-weight:600; color:var(--text-1); }
-  .built-detail { font-size:11px; color:var(--text-2); margin-top:3px; line-height:1.5; }
+  .built-name { font-size:12px; font-weight:600; color:var(--text-1); }
+  .built-detail { font-size:10px; color:var(--text-2); margin-top:2px; line-height:1.5; }
 
   /* ── TODO ── */
-  .todo-list { display:flex; flex-direction:column; gap:7px; }
+  .todo-list { display:flex; flex-direction:column; gap:6px; }
   .todo-item {
-    background:var(--bg-card); border:1px solid var(--border);
-    border-radius:10px; padding:11px 14px;
-    display:flex; align-items:center; gap:10px; cursor:pointer; transition:all 0.2s;
+    background:var(--bg-raised); border:1px solid var(--border);
+    border-radius:10px; padding:10px 12px;
+    display:flex; align-items:center; gap:8px; cursor:pointer; transition:all 0.2s;
   }
   .todo-item:hover { background:var(--bg-hover); border-color:var(--border-blue); }
   .todo-item.done { opacity:.4; }
   .todo-item.done .todo-text { text-decoration:line-through; }
   .todo-check {
-    width:18px; height:18px; border-radius:5px; border:2px solid var(--border);
+    width:16px; height:16px; border-radius:4px; border:2px solid var(--border);
     display:flex; align-items:center; justify-content:center;
-    flex-shrink:0; font-size:10px; color:transparent; transition:all 0.2s;
+    flex-shrink:0; font-size:9px; color:transparent; transition:all 0.2s;
   }
   .todo-item.done .todo-check { background:var(--green); border-color:var(--green); color:#fff; }
-  .todo-text { flex:1; font-size:13px; color:var(--text-1); }
-  .todo-priority { font-size:10px; font-weight:700; padding:2px 7px; border-radius:10px; }
+  .todo-text { flex:1; font-size:12px; color:var(--text-1); line-height:1.4; }
+  .todo-priority { font-size:10px; font-weight:700; padding:2px 6px; border-radius:8px; flex-shrink:0; }
   .p-high   { background:var(--red-dim);    color:var(--red); }
   .p-medium { background:var(--yellow-dim); color:var(--yellow); }
   .p-low    { background:var(--blue-dim);   color:var(--blue); }
 
   /* ── AUTOMATION ── */
   .auto-card {
-    background:var(--bg-card); border:1px solid var(--border);
-    border-radius:12px; padding:14px 16px;
-    display:flex; align-items:flex-start; gap:12px; margin-bottom:8px;
+    background:var(--bg-raised); border:1px solid var(--border);
+    border-radius:10px; padding:12px 14px;
+    display:flex; align-items:flex-start; gap:10px; margin-bottom:7px;
   }
   .auto-icon {
-    width:36px; height:36px; border-radius:9px; background:var(--green-dim);
-    display:flex; align-items:center; justify-content:center; font-size:18px; flex-shrink:0;
+    width:32px; height:32px; border-radius:8px; background:var(--green-dim);
+    display:flex; align-items:center; justify-content:center; font-size:16px; flex-shrink:0;
   }
-  .auto-name { font-size:13px; font-weight:600; color:var(--text-1); }
-  .auto-desc { font-size:11px; color:var(--text-2); margin-top:2px; line-height:1.5; }
-  .auto-meta { margin-top:8px; display:flex; gap:6px; flex-wrap:wrap; }
+  .auto-name { font-size:12px; font-weight:600; color:var(--text-1); }
+  .auto-desc { font-size:10px; color:var(--text-2); margin-top:2px; line-height:1.5; }
+  .auto-meta { margin-top:6px; display:flex; gap:5px; flex-wrap:wrap; }
 
   /* ── POMODORO TIMER ── */
-  .pomodoro-wrap {
-    background:var(--bg-card); border:1px solid var(--border-blue);
-    border-radius:14px; padding:20px; display:flex; align-items:center; gap:24px;
+  .pomo-inner {
+    display:flex; flex-direction:column; align-items:center; gap:14px; height:calc(100% - 28px);
+    justify-content:center;
   }
-  @media(max-width:480px){ .pomodoro-wrap{ flex-direction:column; align-items:center; } }
-  .pomo-ring { position:relative; width:100px; height:100px; flex-shrink:0; }
+  .pomo-ring { position:relative; width:110px; height:110px; flex-shrink:0; }
   .pomo-ring svg { transform:rotate(-90deg); }
   .pomo-ring-bg  { fill:none; stroke:var(--bg-raised); stroke-width:6; }
   .pomo-ring-fill{ fill:none; stroke:var(--blue); stroke-width:6; stroke-linecap:round; transition:stroke-dashoffset 1s linear, stroke 0.3s; }
@@ -286,110 +343,32 @@
     position:absolute; inset:0; display:flex; flex-direction:column;
     align-items:center; justify-content:center;
   }
-  .pomo-digits { font-size:22px; font-weight:800; color:var(--text-1); letter-spacing:-1px; }
+  .pomo-digits { font-size:24px; font-weight:800; color:var(--text-1); letter-spacing:-1px; }
   .pomo-mode   { font-size:9px; text-transform:uppercase; letter-spacing:.08em; color:var(--text-2); margin-top:1px; }
-  .pomo-right  { flex:1; }
-  .pomo-title  { font-size:14px; font-weight:700; color:var(--text-1); margin-bottom:4px; }
-  .pomo-sub    { font-size:11px; color:var(--text-2); margin-bottom:14px; }
-  .pomo-btns   { display:flex; gap:8px; flex-wrap:wrap; }
+  .pomo-btns   { display:flex; gap:7px; flex-wrap:wrap; justify-content:center; }
   .pomo-btn {
-    padding:8px 16px; border-radius:8px; border:1px solid var(--border);
-    background:var(--bg-raised); color:var(--text-1); font-size:12px; font-weight:600;
+    padding:7px 14px; border-radius:8px; border:1px solid var(--border);
+    background:var(--bg-raised); color:var(--text-1); font-size:11px; font-weight:600;
     cursor:pointer; transition:all 0.2s;
   }
   .pomo-btn:hover { background:var(--bg-hover); border-color:var(--border-blue); }
   .pomo-btn.primary { background:var(--blue); border-color:var(--blue); color:#fff; }
-  .pomo-btn.primary:hover { background:#3a74f5; }
-  .pomo-sessions { display:flex; gap:5px; margin-top:12px; }
+  .pomo-btn.primary:hover { opacity:0.88; }
+  .pomo-sessions { display:flex; gap:5px; }
   .pomo-dot {
     width:8px; height:8px; border-radius:50%;
     background:var(--bg-raised); border:1px solid var(--border); transition:all 0.3s;
   }
   .pomo-dot.done { background:var(--blue); border-color:var(--blue); }
-
-  /* ── GLOBAL GLOW & MOTION ── */
-  body::before {
-    content:''; position:fixed; inset:0; pointer-events:none; z-index:0;
-    background:
-      radial-gradient(ellipse at 15% 30%, rgba(253,105,105,0.04) 0%, transparent 55%),
-      radial-gradient(ellipse at 85% 70%, rgba(253,105,105,0.025) 0%, transparent 50%);
-    animation: bgBreath 8s ease-in-out infinite alternate;
-  }
-  @keyframes bgBreath {
-    from { opacity:0.6; }
-    to   { opacity:1; }
-  }
-  .page, .header, .footer { position:relative; z-index:1; }
-
-  /* Entrance animations */
-  .fade-up {
-    opacity:0; transform:translateY(20px);
-    transition: opacity 0.55s ease, transform 0.55s ease;
-  }
-  .fade-up.visible { opacity:1; transform:translateY(0); }
-
-  /* Glow utilities */
-  .glow-red   { box-shadow:0 0 24px rgba(253,105,105,0.18); }
-  .glow-green { box-shadow:0 0 20px rgba(74,222,128,0.15); }
-  .glow-card:hover { box-shadow:0 8px 40px rgba(253,105,105,0.12), 0 2px 8px rgba(0,0,0,0.4); }
-
-  /* Logo glow */
-  .logo-mark { box-shadow:0 0 16px rgba(253,105,105,0.4); }
-
-  /* Animated number counter */
-  .count-up { display:inline-block; }
-
-  /* ── TODAY SECTION ── */
-  .today-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
-  @media(max-width:580px){ .today-grid{ grid-template-columns:1fr; } }
-
-  .today-card {
-    background:var(--bg-card); border:1px solid var(--border);
-    border-radius:14px; overflow:hidden;
-    transition:all 0.25s;
-  }
-  .today-card:hover { border-color:var(--border-blue); box-shadow:0 8px 32px rgba(253,105,105,0.08); }
-  .today-card-header {
-    padding:12px 14px; border-bottom:1px solid var(--border);
-    display:flex; align-items:center; justify-content:space-between;
-    background:var(--bg-raised);
-  }
-  .today-card-title { font-size:12px; font-weight:700; color:var(--text-1); display:flex; align-items:center; gap:6px; }
-  .today-events { padding:6px 0; }
-  .today-event {
-    padding:9px 14px; display:flex; align-items:flex-start; gap:10px;
-    border-bottom:1px solid var(--border); transition:background 0.15s;
-  }
-  .today-event:last-child { border-bottom:none; }
-  .today-event:hover { background:var(--bg-hover); }
-  .event-time {
-    font-size:10px; font-weight:700; color:var(--blue);
-    background:var(--blue-dim); border-radius:5px;
-    padding:2px 6px; flex-shrink:0; margin-top:1px; white-space:nowrap;
-  }
-  .event-time.allday { background:rgba(255,255,255,0.05); color:var(--text-3); }
-  .event-title { font-size:12px; color:var(--text-1); line-height:1.4; }
-  .event-desc { font-size:10px; color:var(--text-3); margin-top:2px; }
-
-  .email-item {
-    padding:9px 14px; display:flex; align-items:flex-start; gap:8px;
-    border-bottom:1px solid var(--border); transition:background 0.15s;
-  }
-  .email-item:last-child { border-bottom:none; }
-  .email-item:hover { background:var(--bg-hover); }
-  .email-dot { width:6px; height:6px; border-radius:50%; background:var(--blue); flex-shrink:0; margin-top:5px; }
-  .email-from { font-size:11px; font-weight:600; color:var(--text-1); }
-  .email-subject { font-size:11px; color:var(--text-2); margin-top:1px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:180px; }
+  .pomo-sub-info { text-align:center; }
+  .pomo-title-txt { font-size:13px; font-weight:700; color:var(--text-1); }
+  .pomo-sub-txt   { font-size:10px; color:var(--text-2); margin-top:2px; }
 
   /* ── WEEKLY CHART ── */
-  .weekly-chart {
-    background:var(--bg-card); border:1px solid var(--border);
-    border-radius:14px; padding:16px; margin-top:10px;
-  }
-  .chart-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; }
+  .chart-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:14px; }
   .chart-title { font-size:12px; font-weight:700; color:var(--text-1); }
-  .chart-bars { display:flex; align-items:flex-end; gap:8px; height:80px; }
-  .chart-col { display:flex; flex-direction:column; align-items:center; gap:6px; flex:1; }
+  .chart-bars { display:flex; align-items:flex-end; gap:8px; height:110px; }
+  .chart-col { display:flex; flex-direction:column; align-items:center; gap:5px; flex:1; }
   .chart-bar-wrap { flex:1; display:flex; align-items:flex-end; width:100%; }
   .chart-bar {
     width:100%; border-radius:5px 5px 0 0;
@@ -410,59 +389,50 @@
   .chart-day.today { color:var(--blue); }
 
   /* ── AGENT TEAM CARDS ── */
-  .agent-grid {
-    display:grid; grid-template-columns:repeat(2,1fr); gap:10px;
-  }
-  @media(max-width:520px){ .agent-grid{ grid-template-columns:1fr; } }
-
+  .agent-grid-bento { display:flex; flex-direction:column; gap:8px; height:calc(100% - 28px); overflow-y:auto; }
   .agent-card {
-    background:var(--bg-card); border:1px solid var(--border);
-    border-radius:16px; padding:16px; position:relative; overflow:hidden;
-    transition:all 0.25s; cursor:default;
+    background:var(--bg-raised); border:1px solid var(--border);
+    border-radius:12px; padding:12px; position:relative; overflow:hidden;
+    transition:all 0.25s; cursor:default; flex-shrink:0;
   }
-  .agent-card:hover { transform:translateY(-2px); box-shadow:0 8px 32px rgba(0,0,0,0.4); }
+  .agent-card:hover { transform:translateY(-1px); box-shadow:0 6px 24px rgba(0,0,0,0.4); }
   .agent-card::before {
     content:''; position:absolute; inset:0;
     background:var(--agent-glow,transparent);
-    opacity:0; transition:opacity 0.3s; pointer-events:none; border-radius:16px;
+    opacity:0; transition:opacity 0.3s; pointer-events:none; border-radius:12px;
   }
   .agent-card:hover::before { opacity:1; }
 
-  .agent-top { display:flex; align-items:flex-start; gap:12px; margin-bottom:12px; }
+  .agent-top { display:flex; align-items:flex-start; gap:10px; margin-bottom:8px; }
   .agent-avatar {
-    width:48px; height:48px; border-radius:14px; flex-shrink:0;
-    display:flex; align-items:center; justify-content:center; font-size:24px;
+    width:36px; height:36px; border-radius:10px; flex-shrink:0;
+    display:flex; align-items:center; justify-content:center; font-size:18px;
     position:relative;
   }
   .agent-avatar .status-ring {
-    position:absolute; inset:-2px; border-radius:16px;
+    position:absolute; inset:-2px; border-radius:12px;
     border:2px solid transparent; transition:border-color 0.3s;
   }
-  .agent-card.awake .agent-avatar .status-ring { border-color:var(--green); box-shadow:0 0 10px rgba(34,212,122,0.4); }
+  .agent-card.awake .agent-avatar .status-ring { border-color:var(--green); box-shadow:0 0 8px rgba(34,212,122,0.4); }
   .agent-card.sleeping .agent-avatar .status-ring { border-color:var(--text-3); }
 
   .agent-info { flex:1; min-width:0; }
-  .agent-name { font-size:14px; font-weight:700; color:var(--text-1); display:flex; align-items:center; gap:6px; }
-  .agent-handle { font-size:10px; color:var(--text-3); font-weight:400; }
-  .agent-role { font-size:11px; color:var(--text-2); margin-top:3px; line-height:1.4; }
+  .agent-name { font-size:12px; font-weight:700; color:var(--text-1); display:flex; align-items:center; gap:5px; }
+  .agent-handle { font-size:9px; color:var(--text-3); font-weight:400; }
+  .agent-role { font-size:10px; color:var(--text-2); margin-top:2px; line-height:1.4; }
 
-  .agent-status-row { display:flex; align-items:center; gap:6px; margin-bottom:10px; }
+  .agent-status-row { display:flex; align-items:center; gap:6px; margin-bottom:6px; }
   .agent-state {
-    font-size:10px; font-weight:700; padding:3px 8px; border-radius:20px;
+    font-size:10px; font-weight:700; padding:2px 7px; border-radius:20px;
     display:inline-flex; align-items:center; gap:4px;
   }
   .agent-state.awake   { background:var(--green-dim); color:var(--green); }
   .agent-state.sleeping{ background:rgba(255,255,255,0.04); color:var(--text-3); }
   .agent-state.running { background:var(--blue-dim); color:var(--blue); }
-
-  .agent-schedule {
-    font-size:10px; color:var(--text-3);
-    display:inline-flex; align-items:center; gap:4px;
-  }
-
+  .agent-schedule { font-size:10px; color:var(--text-3); display:inline-flex; align-items:center; gap:4px; }
   .agent-last-run {
-    font-size:10px; color:var(--text-3); padding:6px 10px;
-    background:var(--bg-raised); border-radius:8px;
+    font-size:10px; color:var(--text-3); padding:5px 8px;
+    background:var(--bg); border-radius:6px;
     display:flex; align-items:center; justify-content:space-between;
   }
   .agent-last-run span { color:var(--text-2); }
@@ -470,7 +440,7 @@
   /* Sleeping zzz animation */
   .zzz {
     position:absolute; top:0; right:4px;
-    font-size:10px; color:var(--text-3); letter-spacing:1px;
+    font-size:9px; color:var(--text-3); letter-spacing:1px;
     animation:floatZzz 2.5s ease-in-out infinite;
     pointer-events:none;
   }
@@ -480,7 +450,7 @@
     100% { opacity:0;   transform:translateY(-14px); }
   }
 
-  /* Thinking dots for when agent is running */
+  /* Thinking dots */
   .thinking { display:inline-flex; gap:3px; align-items:center; }
   .thinking span {
     width:4px; height:4px; border-radius:50%; background:var(--blue);
@@ -490,19 +460,85 @@
   .thinking span:nth-child(3){ animation-delay:.4s; }
   @keyframes think { 0%,80%,100%{transform:scale(0.6);opacity:0.4} 40%{transform:scale(1);opacity:1} }
 
-  /* CARD */
+  /* ── TODAY CARDS ── */
+  .today-inner {
+    background:var(--bg-raised); border-radius:12px; overflow:hidden; height:calc(100% - 28px);
+  }
+  .today-card-header {
+    padding:10px 12px; border-bottom:1px solid var(--border);
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .today-card-title { font-size:11px; font-weight:700; color:var(--text-1); display:flex; align-items:center; gap:6px; }
+  .today-events { padding:4px 0; }
+  .today-event {
+    padding:8px 12px; display:flex; align-items:flex-start; gap:8px;
+    border-bottom:1px solid var(--border); transition:background 0.15s;
+  }
+  .today-event:last-child { border-bottom:none; }
+  .today-event:hover { background:var(--bg-hover); }
+  .event-time {
+    font-size:10px; font-weight:700; color:var(--blue);
+    background:var(--blue-dim); border-radius:4px;
+    padding:2px 5px; flex-shrink:0; margin-top:1px; white-space:nowrap;
+  }
+  .event-time.allday { background:rgba(255,255,255,0.05); color:var(--text-3); }
+  .event-title { font-size:11px; color:var(--text-1); line-height:1.4; }
+  .event-desc { font-size:10px; color:var(--text-3); margin-top:2px; }
+
+  .email-item {
+    padding:8px 12px; display:flex; align-items:flex-start; gap:8px;
+    border-bottom:1px solid var(--border); transition:background 0.15s;
+  }
+  .email-item:last-child { border-bottom:none; }
+  .email-item:hover { background:var(--bg-hover); }
+  .email-dot { width:5px; height:5px; border-radius:50%; background:var(--blue); flex-shrink:0; margin-top:5px; }
+  .email-from { font-size:11px; font-weight:600; color:var(--text-1); }
+  .email-subject { font-size:10px; color:var(--text-2); margin-top:1px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:160px; }
+
+  /* ── CARD (for session log) ── */
   .card {
-    background:var(--bg-card); border:1px solid var(--border);
-    border-radius:12px; padding:14px 16px; margin-bottom:8px; transition:all 0.2s;
+    background:var(--bg-raised); border:1px solid var(--border);
+    border-radius:10px; padding:12px 14px; margin-bottom:0; transition:all 0.2s;
   }
   .card:hover { border-color:var(--border-blue); }
 
-  /* FOOTER / MISC */
-  .footer { text-align:center; padding:30px 20px 10px; font-size:11px; color:var(--text-3); }
+  /* ── GLOBAL GLOW & MOTION ── */
+  body::before {
+    content:''; position:fixed; inset:0; pointer-events:none; z-index:0;
+    background:
+      radial-gradient(ellipse at 15% 30%, rgba(253,105,105,0.04) 0%, transparent 55%),
+      radial-gradient(ellipse at 85% 70%, rgba(253,105,105,0.025) 0%, transparent 50%);
+    animation: bgBreath 8s ease-in-out infinite alternate;
+  }
+  @keyframes bgBreath {
+    from { opacity:0.6; }
+    to   { opacity:1; }
+  }
+  .bento-grid, .header, .footer { position:relative; z-index:1; }
+
+  /* Entrance animations */
+  .fade-up {
+    opacity:0; transform:translateY(20px);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+  }
+  .fade-up.visible { opacity:1; transform:translateY(0); }
+
+  /* Glow utilities */
+  .glow-red   { box-shadow:0 0 24px rgba(253,105,105,0.18); }
+  .glow-green { box-shadow:0 0 20px rgba(74,222,128,0.15); }
+
+  /* Animated number counter */
+  .count-up { display:inline-block; }
+
+  /* FOOTER */
+  .footer { text-align:center; padding:20px 20px 10px; font-size:11px; color:var(--text-3); }
   a { color:var(--blue); text-decoration:none; }
   a:hover { text-decoration:underline; }
-  .grid-2 { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
-  @media(max-width:600px){ .grid-2{ grid-template-columns:1fr; } }
+
+  /* Session log area */
+  .session-log-inner { display:flex; flex-direction:column; gap:14px; }
+  .session-log-top { display:flex; align-items:center; justify-content:space-between; }
+  #last-sync-bento { font-size:11px; color:var(--text-3); }
 </style>
 </head>
 <body>
@@ -514,345 +550,237 @@
       <div class="logo-mark">J</div>
       <div>
         <div class="logo-text">Command Center</div>
-        <div class="logo-sub">J · Austin, TX</div>
+        <div class="logo-sub">J · Glendale, CA</div>
       </div>
     </div>
-    <div class="header-date">
-      <span id="live-time">—</span>
-      <div id="live-date">—</div>
-    </div>
-  </div>
-  <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px;padding:0 0 10px;">
-    <nav class="nav" style="padding:0;flex:1;">
-      <a class="nav-pill active" href="#overview">Overview</a>
-      <a class="nav-pill" href="#today">Today</a>
-      <a class="nav-pill" href="#milestones">Milestones</a>
-      <a class="nav-pill" href="#mcp">MCP Flow</a>
-      <a class="nav-pill" href="#github">GitHub</a>
-      <a class="nav-pill" href="#agents">My Agents</a>
-      <a class="nav-pill" href="#built">Built</a>
-      <a class="nav-pill" href="#todo">To-Do</a>
-      <a class="nav-pill" href="#automations">Automations</a>
-    </nav>
-    <div style="display:flex;align-items:center;gap:12px;flex-shrink:0;font-size:11px;color:var(--text-3);padding-right:2px;">
-      <span id="next-agent-run" style="color:var(--text-3);">—</span>
-      <span style="display:flex;gap:6px;">
-        <kbd style="background:var(--bg-raised);border:1px solid var(--border);border-radius:4px;padding:1px 5px;font-size:10px;color:var(--text-2);">P</kbd><span>timer</span>
-        <kbd style="background:var(--bg-raised);border:1px solid var(--border);border-radius:4px;padding:1px 5px;font-size:10px;color:var(--text-2);">T</kbd><span>todos</span>
-        <kbd style="background:var(--bg-raised);border:1px solid var(--border);border-radius:4px;padding:1px 5px;font-size:10px;color:var(--text-2);">R</kbd><span>refresh</span>
-      </span>
+    <div class="header-right">
+      <span id="next-agent-run">—</span>
+      <div class="header-shortcuts">
+        <kbd>P</kbd><span>timer</span>
+        <kbd>T</kbd><span>todos</span>
+        <kbd>R</kbd><span>refresh</span>
+      </div>
+      <div class="header-date">
+        <span id="live-time">—</span>
+        <div id="live-date">—</div>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="page">
+<!-- BENTO GRID -->
+<div class="bento-grid">
 
-  <!-- ── OVERVIEW ── -->
-  <div class="section" id="overview" style="margin-top:20px">
-    <div class="section-title">Overview</div>
+  <!-- Row 1: App Status (bc-4) | Mini Stats (bc-4) | Clock (bc-4) -->
 
-    <!-- Stats -->
-    <div class="stat-row" style="margin-bottom:10px">
-      <div class="stat-card glow-card" style="border-color:rgba(253,105,105,0.2)">
-        <div class="stat-app-name" id="stat-app-name">Post-Purchase App</div>
-        <div class="stat-app-sub">UMEI3D · Active</div>
-        <span class="badge badge-green" style="margin-top:6px;box-shadow:0 0 10px rgba(74,222,128,0.25)"><span class="dot pulse"></span> Live</span>
+  <!-- App Status -->
+  <div class="bc bc-4 bc-app-live">
+    <div class="bc-app-status-deco"></div>
+    <div class="bc-label">Active App</div>
+    <div class="bc-app-name" id="stat-app-name">Post-Purchase App</div>
+    <div class="bc-app-sub">UMEI3D · Active</div>
+    <span class="badge badge-green" style="box-shadow:0 0 10px rgba(74,222,128,0.2)">
+      <span class="dot pulse"></span> Running
+    </span>
+    <div class="activity-ring" style="margin-top:14px;">
+      <div class="activity-ring-dot"></div>
+      <div class="activity-ring-dot"></div>
+      <div class="activity-ring-dot"></div>
+      <div class="activity-ring-dot"></div>
+      <span class="activity-ring-label">App activity</span>
+    </div>
+    <div style="font-size:11px; color:var(--text-3); margin-top:8px;" id="last-sync">Synced by agents daily</div>
+  </div>
+
+  <!-- Mini Stats -->
+  <div class="bc bc-4">
+    <div class="bc-label">At a Glance</div>
+    <div class="mini-stats-row">
+      <div class="mini-stat-item">
+        <div class="mini-stat-num" id="stat-mcp">6</div>
+        <div class="mini-stat-lbl">MCP Agents</div>
+        <div style="display:flex;gap:3px;justify-content:center;margin-top:6px;">
+          <span class="dot pulse" style="width:5px;height:5px;background:var(--green);animation-delay:0s"></span>
+          <span class="dot pulse" style="width:5px;height:5px;background:var(--green);animation-delay:0.2s"></span>
+          <span class="dot pulse" style="width:5px;height:5px;background:var(--green);animation-delay:0.4s"></span>
+          <span class="dot pulse" style="width:5px;height:5px;background:var(--green);animation-delay:0.6s"></span>
+          <span class="dot pulse" style="width:5px;height:5px;background:var(--green);animation-delay:0.8s"></span>
+          <span class="dot pulse" style="width:5px;height:5px;background:var(--green);animation-delay:1.0s"></span>
+        </div>
       </div>
-      <div class="stat-card">
-        <div class="stat-val" id="stat-mcp">6</div>
-        <div class="stat-label">MCP Agents</div>
+      <div class="mini-stat-item">
+        <div class="mini-stat-num" id="stat-auto">4</div>
+        <div class="mini-stat-lbl">Automations</div>
+        <div style="display:flex;gap:3px;justify-content:center;margin-top:6px;">
+          <span class="dot pulse" style="width:5px;height:5px;background:var(--blue);animation-delay:0.1s"></span>
+          <span class="dot pulse" style="width:5px;height:5px;background:var(--blue);animation-delay:0.3s"></span>
+          <span class="dot pulse" style="width:5px;height:5px;background:var(--blue);animation-delay:0.5s"></span>
+          <span class="dot pulse" style="width:5px;height:5px;background:var(--blue);animation-delay:0.7s"></span>
+        </div>
       </div>
-      <div class="stat-card">
-        <div class="stat-val" id="stat-auto">4</div>
-        <div class="stat-label">Automations</div>
-      </div>
-      <div class="stat-card">
-        <div class="stat-val" style="color:var(--yellow)" id="stat-milestone">M1</div>
-        <div class="stat-label">Current Milestone</div>
+      <div class="mini-stat-item">
+        <div class="mini-stat-num" style="color:var(--yellow);font-size:28px;text-shadow:0 0 14px rgba(250,204,21,0.35);" id="stat-milestone">M1</div>
+        <div class="mini-stat-lbl">Milestone</div>
+        <div style="font-size:10px;color:var(--text-3);margin-top:6px;">40% done</div>
       </div>
     </div>
+  </div>
 
-    <div style="text-align:right; font-size:11px; margin-bottom:14px;">
-      <span id="last-sync" style="color:var(--text-3)">Loading live data...</span>
+  <!-- Clock -->
+  <div class="bc bc-4" style="text-align:center;">
+    <div class="bc-label">Local Time</div>
+    <div class="bc-clock-wrap">
+      <div id="clock">—</div>
+      <div class="bc-clock-date" id="clock-date">—</div>
+      <div class="bc-clock-loc">Glendale, CA</div>
     </div>
+  </div>
 
-    <!-- Productivity Bar -->
-    <div class="productivity-wrap">
-      <div class="prod-header">
-        <div>
-          <div class="prod-title">Today's Productivity</div>
-          <div style="font-size:11px; color:var(--text-2); margin-top:2px;" id="prod-date">—</div>
-        </div>
-        <div class="prod-score" id="prod-score">—%</div>
-      </div>
-      <div class="prod-track">
-        <div class="prod-row">
-          <div class="prod-label">Day progress</div>
-          <div class="prod-bar"><div class="prod-fill" id="bar-day" style="background:var(--blue); width:0%"></div></div>
-          <div class="prod-pct" id="pct-day">0%</div>
-        </div>
-        <div class="prod-row">
-          <div class="prod-label">Milestone</div>
-          <div class="prod-bar"><div class="prod-fill" id="bar-ms" style="background:var(--yellow); width:0%"></div></div>
-          <div class="prod-pct" id="pct-ms">0%</div>
-        </div>
-        <div class="prod-row">
-          <div class="prod-label">To-do done</div>
-          <div class="prod-bar"><div class="prod-fill" id="bar-todo" style="background:var(--green); width:0%"></div></div>
-          <div class="prod-pct" id="pct-todo">0%</div>
+  <!-- Row 2+3: Pomodoro (bc-4 br-2) | Weekly Chart (bc-8) -->
+
+  <!-- Pomodoro (spans 2 rows) -->
+  <div class="bc bc-4 br-2" style="border-color:rgba(253,105,105,0.18);" id="pomo-card">
+    <div class="bc-label">Focus Timer</div>
+    <div class="pomo-inner">
+      <div class="pomo-ring">
+        <svg width="110" height="110" viewBox="0 0 110 110">
+          <circle class="pomo-ring-bg"   cx="55" cy="55" r="44"/>
+          <circle class="pomo-ring-fill" id="pomo-arc" cx="55" cy="55" r="44"
+            stroke-dasharray="276.46" stroke-dashoffset="0"/>
+        </svg>
+        <div class="pomo-time">
+          <div class="pomo-digits" id="pomo-display">25:00</div>
+          <div class="pomo-mode"   id="pomo-mode-label">Focus</div>
         </div>
       </div>
-    </div>
-
-    <!-- Pomodoro -->
-    <div style="margin-top:10px;">
-      <div class="pomodoro-wrap">
-        <div class="pomo-ring">
-          <svg width="100" height="100" viewBox="0 0 100 100">
-            <circle class="pomo-ring-bg"   cx="50" cy="50" r="44"/>
-            <circle class="pomo-ring-fill" id="pomo-arc" cx="50" cy="50" r="44"
-              stroke-dasharray="276.46" stroke-dashoffset="0"/>
-          </svg>
-          <div class="pomo-time">
-            <div class="pomo-digits" id="pomo-display">25:00</div>
-            <div class="pomo-mode"   id="pomo-mode-label">Focus</div>
-          </div>
+      <div class="pomo-sub-info">
+        <div class="pomo-title-txt">Pomodoro Timer</div>
+        <div class="pomo-sub-txt">25 min focus · 5 min break</div>
+      </div>
+      <div class="pomo-btns">
+        <button class="pomo-btn primary" id="pomo-start" onclick="pomoToggle()">Start</button>
+        <button class="pomo-btn" onclick="pomoReset()">Reset</button>
+        <button class="pomo-btn" onclick="pomoSkip()">Skip</button>
+      </div>
+      <div>
+        <div class="pomo-sessions" id="pomo-dots">
+          <div class="pomo-dot"></div>
+          <div class="pomo-dot"></div>
+          <div class="pomo-dot"></div>
+          <div class="pomo-dot"></div>
         </div>
-        <div class="pomo-right">
-          <div class="pomo-title">Pomodoro Timer</div>
-          <div class="pomo-sub">25 min focus · 5 min break</div>
-          <div class="pomo-btns">
-            <button class="pomo-btn primary" id="pomo-start" onclick="pomoToggle()">Start</button>
-            <button class="pomo-btn" onclick="pomoReset()">Reset</button>
-            <button class="pomo-btn" onclick="pomoSkip()">Skip</button>
-          </div>
-          <div class="pomo-sessions" id="pomo-dots">
-            <div class="pomo-dot"></div>
-            <div class="pomo-dot"></div>
-            <div class="pomo-dot"></div>
-            <div class="pomo-dot"></div>
-          </div>
-          <div style="font-size:10px; color:var(--text-3); margin-top:6px;" id="pomo-session-label">Session 1 of 4</div>
-        </div>
+        <div style="font-size:10px; color:var(--text-3); margin-top:5px; text-align:center;" id="pomo-session-label">Session 1 of 4</div>
       </div>
     </div>
   </div>
 
   <!-- Weekly Chart -->
-  <div class="weekly-chart fade-up">
+  <div class="bc bc-8 fade-up">
+    <div class="bc-label">Weekly Activity</div>
     <div class="chart-header">
-      <div class="chart-title">Weekly Activity</div>
+      <div class="chart-title">This Week</div>
       <span class="badge badge-gray" id="chart-week-label">Mar 16 – 22</span>
     </div>
     <div class="chart-bars" id="weekly-bars">
       <!-- rendered by JS -->
     </div>
-  </div>
-
-  <!-- ── TODAY ── -->
-  <div class="section fade-up" id="today" style="margin-top:28px">
-    <div class="section-title">Today — <span id="today-date-label">Wed, Mar 18</span></div>
-    <div class="today-grid">
-
-      <!-- Calendar -->
-      <div class="today-card">
-        <div class="today-card-header">
-          <div class="today-card-title">📅 Agenda</div>
-          <span class="badge badge-blue" id="event-count-badge">3 events</span>
-        </div>
-        <div class="today-events" id="today-events">
-          <div class="today-event">
-            <span class="event-time allday">ALL DAY</span>
-            <div>
-              <div class="event-title">💼 Daily Job Search Results</div>
-            </div>
-          </div>
-          <div class="today-event">
-            <span class="event-time allday">ALL DAY</span>
-            <div>
-              <div class="event-title">📦 Follow up — CherelynnB TikTok Order</div>
-            </div>
-          </div>
-          <div class="today-event">
-            <span class="event-time">2:05 PM</span>
-            <div>
-              <div class="event-title">💼 Daily Job List Ready</div>
-              <div class="event-desc">14 total qualifying jobs found</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Email -->
-      <div class="today-card">
-        <div class="today-card-header">
-          <div class="today-card-title">📧 Inbox</div>
-          <span class="badge badge-red">201 unread</span>
-        </div>
-        <div class="today-events" id="today-emails">
-          <div class="email-item">
-            <div class="email-dot"></div>
-            <div style="min-width:0">
-              <div class="email-from">CC Strategic AI (Skool)</div>
-              <div class="email-subject">1 new notification since 6:14 pm</div>
-            </div>
-          </div>
-          <div class="email-item">
-            <div class="email-dot"></div>
-            <div style="min-width:0">
-              <div class="email-from">JobCopilot</div>
-              <div class="email-subject">Fresh job openings this week 🔎</div>
-            </div>
-          </div>
-          <div class="email-item">
-            <div class="email-dot"></div>
-            <div style="min-width:0">
-              <div class="email-from">Phil @ ZipRecruiter</div>
-              <div class="email-subject">Aston Carter is looking for candidates like you!</div>
-            </div>
-          </div>
-          <div class="email-item">
-            <div class="email-dot"></div>
-            <div style="min-width:0">
-              <div class="email-from">Glassdoor Jobs</div>
-              <div class="email-subject">New jobs in Glendale, CA. Apply Now.</div>
-            </div>
-          </div>
-          <div class="email-item" style="justify-content:center; padding:8px;">
-            <a href="https://mail.google.com" target="_blank" style="font-size:11px; color:var(--text-3);">View all in Gmail →</a>
-          </div>
-        </div>
-      </div>
-
+    <div style="font-size:11px; color:var(--text-3); margin-top:12px;">
+      📊 Activity score (0–100) based on session logs written by WrapBot each evening at 8 PM. Updated automatically — today's bar grows as the day progresses.
     </div>
   </div>
 
-  <!-- ── MILESTONES (compact) ── -->
-  <div class="section fade-up" id="milestones">
-    <div class="section-title">Active Milestones — UMEI3D Post-Purchase App</div>
+  <!-- Row 3 cont: Today Agenda (bc-4) | Today Email (bc-4) -->
+
+  <!-- Today Agenda -->
+  <div class="bc bc-4 fade-up" id="today">
+    <div class="bc-label">Today's Agenda — <span id="today-date-label">Wed, Mar 18</span></div>
+    <div class="today-inner">
+      <div class="today-card-header">
+        <div class="today-card-title">Agenda</div>
+        <span class="badge badge-blue" id="event-count-badge">3 events</span>
+      </div>
+      <div class="today-events" id="today-events">
+        <div class="today-event">
+          <span class="event-time allday">ALL DAY</span>
+          <div>
+            <div class="event-title">Daily Job Search Results</div>
+          </div>
+        </div>
+        <div class="today-event">
+          <span class="event-time allday">ALL DAY</span>
+          <div>
+            <div class="event-title">Follow up — CherelynnB TikTok Order</div>
+          </div>
+        </div>
+        <div class="today-event">
+          <span class="event-time">2:05 PM</span>
+          <div>
+            <div class="event-title">Daily Job List Ready</div>
+            <div class="event-desc">14 total qualifying jobs found</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Today Email -->
+  <div class="bc bc-4 fade-up">
+    <div class="bc-label">Inbox</div>
+    <div class="today-inner">
+      <div class="today-card-header">
+        <div class="today-card-title">Recent Emails</div>
+        <span class="badge badge-red">201 unread</span>
+      </div>
+      <div class="today-events" id="today-emails">
+        <div class="email-item">
+          <div class="email-dot"></div>
+          <div style="min-width:0">
+            <div class="email-from">CC Strategic AI (Skool)</div>
+            <div class="email-subject">1 new notification since 6:14 pm</div>
+          </div>
+        </div>
+        <div class="email-item">
+          <div class="email-dot"></div>
+          <div style="min-width:0">
+            <div class="email-from">JobCopilot</div>
+            <div class="email-subject">Fresh job openings this week</div>
+          </div>
+        </div>
+        <div class="email-item">
+          <div class="email-dot"></div>
+          <div style="min-width:0">
+            <div class="email-from">Phil @ ZipRecruiter</div>
+            <div class="email-subject">Aston Carter is looking for candidates like you!</div>
+          </div>
+        </div>
+        <div class="email-item">
+          <div class="email-dot"></div>
+          <div style="min-width:0">
+            <div class="email-from">Glassdoor Jobs</div>
+            <div class="email-subject">New jobs in Glendale, CA. Apply Now.</div>
+          </div>
+        </div>
+        <div class="email-item" style="justify-content:center; padding:8px;">
+          <a href="https://mail.google.com" target="_blank" style="font-size:10px; color:var(--text-3);">View all in Gmail →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Row 4: Milestones (bc-8) | AI Agents (bc-4 br-2) -->
+
+  <!-- Milestones -->
+  <div class="bc bc-8 fade-up" id="milestones">
+    <div class="bc-label">Active Milestones — UMEI3D Post-Purchase App</div>
     <div class="ms-compact" id="milestone-list">
       <div style="padding:16px; text-align:center; color:var(--text-3); font-size:12px;">Loading...</div>
     </div>
   </div>
 
-  <!-- ── MCP FLOW DIAGRAM ── -->
-  <div class="section fade-up" id="mcp">
-    <div class="section-title">MCP Agent Connections</div>
-    <div class="mcp-flow">
-      <div class="mcp-flow-inner">
-
-        <!-- Center node -->
-        <div class="mcp-center">
-          <div class="mcp-center-icon">🤖</div>
-          <div class="mcp-center-label">CLAUDE</div>
-          <div class="mcp-center-sub">+ J</div>
-        </div>
-
-        <!-- SVG lines -->
-        <div class="mcp-lines" id="mcp-lines-container">
-          <svg id="mcp-svg" preserveAspectRatio="none">
-            <!-- Lines drawn by JS -->
-          </svg>
-        </div>
-
-        <!-- MCP nodes -->
-        <div class="mcp-nodes" id="mcp-nodes">
-          <div class="mcp-node" id="node-notion">
-            <div class="mcp-node-icon">🗒️</div>
-            <div><div class="mcp-node-name">Notion</div><div class="mcp-node-role">Read / write workspace</div></div>
-            <div class="mcp-node-dot"></div>
-          </div>
-          <div class="mcp-node" id="node-gmail">
-            <div class="mcp-node-icon">📧</div>
-            <div><div class="mcp-node-name">Gmail</div><div class="mcp-node-role">Draft & search emails</div></div>
-            <div class="mcp-node-dot"></div>
-          </div>
-          <div class="mcp-node" id="node-gcal">
-            <div class="mcp-node-icon">📅</div>
-            <div><div class="mcp-node-name">Google Calendar</div><div class="mcp-node-role">Events & scheduling</div></div>
-            <div class="mcp-node-dot"></div>
-          </div>
-          <div class="mcp-node" id="node-klaviyo">
-            <div class="mcp-node-icon">📊</div>
-            <div><div class="mcp-node-name">Klaviyo</div><div class="mcp-node-role">Email marketing</div></div>
-            <div class="mcp-node-dot"></div>
-          </div>
-          <div class="mcp-node" id="node-canva">
-            <div class="mcp-node-icon">🎨</div>
-            <div><div class="mcp-node-name">Canva</div><div class="mcp-node-role">Design assets</div></div>
-            <div class="mcp-node-dot"></div>
-          </div>
-          <div class="mcp-node" id="node-blotato">
-            <div class="mcp-node-icon">📱</div>
-            <div><div class="mcp-node-name">Blotato</div><div class="mcp-node-role">Social media posts</div></div>
-            <div class="mcp-node-dot"></div>
-          </div>
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-  <!-- ── GITHUB REPOS (hover/click expand) ── -->
-  <div class="section fade-up" id="github">
-    <div class="section-title">GitHub Repos</div>
-
-    <!-- claude-workspace -->
-    <div class="gh-repo open" id="gh-cw-repo">
-      <div class="gh-header" onclick="toggleRepo('gh-cw-repo')">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="var(--blue)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-        <div class="gh-name">jessycacheong-cell / claude-workspace</div>
-        <div class="gh-meta" id="gh-cw-date">—</div>
-        <a href="https://github.com/jessycacheong-cell/claude-workspace" target="_blank" onclick="e=>e.stopPropagation()">
-          <span class="badge badge-blue" style="margin-right:6px">↗</span>
-        </a>
-        <span class="gh-chevron">▾</span>
-      </div>
-      <div class="gh-body">
-        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">brands/</span></div>
-        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">umei3d.md</span><span class="meta">brand brief</span></div>
-        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">apps/</span></div>
-        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">umei3d-post-purchase.md</span><span class="meta">app brief</span></div>
-        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">personal/</span></div>
-        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">about-me.md</span></div>
-        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">projects.md</span></div>
-        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">templates/</span><span class="meta" style="margin-left:auto">empty</span></div>
-        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">assets/</span><span class="meta" style="margin-left:auto">empty</span></div>
-        <div class="tree-item"><span class="icon">⚙️</span><span class="name">CLAUDE.md</span><span class="meta">master brief</span></div>
-        <div class="gh-commit-strip" id="gh-cw-commit">Last commit: syncing...</div>
-      </div>
-    </div>
-
-    <!-- umei3d-app -->
-    <div class="gh-repo" id="gh-ua-repo">
-      <div class="gh-header" onclick="toggleRepo('gh-ua-repo')">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="var(--blue)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
-        <div class="gh-name">jessycacheong-cell / umei3d-app</div>
-        <div class="gh-meta" id="gh-ua-date">—</div>
-        <a href="https://github.com/jessycacheong-cell/umei3d-app" target="_blank" onclick="e=>e.stopPropagation()">
-          <span class="badge badge-blue" style="margin-right:6px">↗</span>
-        </a>
-        <span class="gh-chevron">▾</span>
-      </div>
-      <div class="gh-body">
-        <div class="tree-item"><span class="icon">🏠</span><span class="name">returns-popup.html</span><span class="meta">main app</span></div>
-        <div class="tree-item"><span class="icon">🗺️</span><span class="name">umei-workflow.html</span><span class="meta">workflow map</span></div>
-        <div class="tree-item"><span class="icon">⚙️</span><span class="name">CLAUDE.md</span><span class="meta">working brief</span></div>
-        <div style="padding:6px 12px 4px; border-top:1px solid var(--border)">
-          <div style="font-size:10px; text-transform:uppercase; letter-spacing:.06em; color:var(--text-3); padding:4px 4px 6px;">Local Key Files</div>
-          <div class="tree-item"><span class="icon">🖥️</span><span class="name">serve-static.js</span><span class="meta">port 3401</span></div>
-          <div class="tree-item"><span class="icon">💰</span><span class="name">finance-tracker/index.html</span><span class="meta">local</span></div>
-          <div class="tree-item"><span class="icon">📊</span><span class="name">UMEI3D Workflow Map.html</span><span class="meta">local</span></div>
-        </div>
-        <div class="gh-commit-strip" id="gh-ua-commit">Last commit: syncing...</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- ── AGENT TEAM ── -->
-  <div class="section" id="agents">
-    <div class="section-title">My AI Agent Team</div>
-    <div class="agent-grid" id="agent-grid">
+  <!-- AI Agents (spans 2 rows) -->
+  <div class="bc bc-4 br-2" id="agents">
+    <div class="bc-label">My Agents</div>
+    <div class="agent-grid-bento" id="agent-grid">
 
       <!-- Agent 1: GitBot -->
       <div class="agent-card sleeping" id="agent-github"
@@ -865,7 +793,7 @@
           </div>
           <div class="agent-info">
             <div class="agent-name">GitBot <span class="agent-handle">@github-sync</span></div>
-            <div class="agent-role">Watches both GitHub repos. Fetches the latest commit info and keeps your dashboard fresh every 6 hours.</div>
+            <div class="agent-role">Watches both GitHub repos. Keeps dashboard fresh every 6 hours.</div>
           </div>
         </div>
         <div class="agent-status-row">
@@ -889,7 +817,7 @@
           </div>
           <div class="agent-info">
             <div class="agent-name">MilestoneBot <span class="agent-handle">@milestone-notion</span></div>
-            <div class="agent-role">Reads your Notion milestone tracker every morning at 9 AM and updates progress on the dashboard.</div>
+            <div class="agent-role">Reads Notion milestone tracker every 9 AM and updates progress.</div>
           </div>
         </div>
         <div class="agent-status-row">
@@ -913,7 +841,7 @@
           </div>
           <div class="agent-info">
             <div class="agent-name">WrapBot <span class="agent-handle">@daily-wrapup</span></div>
-            <div class="agent-role">Clocks in at 8 PM every night. Reads what files changed, writes a session summary, and logs it to the dashboard.</div>
+            <div class="agent-role">Clocks in at 8 PM. Writes session summary and logs it.</div>
           </div>
         </div>
         <div class="agent-status-row">
@@ -937,7 +865,7 @@
           </div>
           <div class="agent-info">
             <div class="agent-name">LogBot <span class="agent-handle">@session-logger</span></div>
-            <div class="agent-role">Summarizes your entire Claude session at 8:10 PM and writes a clean daily log into your Notion workspace.</div>
+            <div class="agent-role">Summarizes Claude session at 8:10 PM, writes to Notion workspace.</div>
           </div>
         </div>
         <div class="agent-status-row">
@@ -953,9 +881,144 @@
     </div>
   </div>
 
-  <!-- ── WHAT'S BUILT ── -->
-  <div class="section" id="built">
-    <div class="section-title">What's Been Built</div>
+  <!-- Row 5: GitHub (bc-4) | MCP Flow (bc-4) | (AI Agents cont) -->
+
+  <!-- GitHub -->
+  <div class="bc bc-4" id="github">
+    <div class="bc-label">GitHub</div>
+
+    <!-- claude-workspace -->
+    <div class="gh-repo open" id="gh-cw-repo">
+      <div class="gh-header" onclick="toggleRepo('gh-cw-repo')">
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="var(--blue)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        <div class="gh-name">claude-workspace</div>
+        <div class="gh-meta" id="gh-cw-date">—</div>
+        <a href="https://github.com/jessycacheong-cell/claude-workspace" target="_blank" onclick="e=>e.stopPropagation()">
+          <span class="badge badge-blue" style="margin-right:4px;padding:2px 5px;font-size:10px;">↗</span>
+        </a>
+        <span class="gh-chevron">▾</span>
+      </div>
+      <div class="gh-body">
+        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">brands/</span></div>
+        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">umei3d.md</span><span class="meta">brand brief</span></div>
+        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">apps/</span></div>
+        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">umei3d-post-purchase.md</span></div>
+        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">personal/</span></div>
+        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">about-me.md</span></div>
+        <div class="tree-item"><span class="icon">⚙️</span><span class="name">CLAUDE.md</span><span class="meta">master brief</span></div>
+        <div class="gh-commit-strip" id="gh-cw-commit">Last commit: syncing...</div>
+      </div>
+    </div>
+
+    <!-- umei3d-app -->
+    <div class="gh-repo" id="gh-ua-repo">
+      <div class="gh-header" onclick="toggleRepo('gh-ua-repo')">
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="var(--blue)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        <div class="gh-name">umei3d-app</div>
+        <div class="gh-meta" id="gh-ua-date">—</div>
+        <a href="https://github.com/jessycacheong-cell/umei3d-app" target="_blank" onclick="e=>e.stopPropagation()">
+          <span class="badge badge-blue" style="margin-right:4px;padding:2px 5px;font-size:10px;">↗</span>
+        </a>
+        <span class="gh-chevron">▾</span>
+      </div>
+      <div class="gh-body">
+        <div class="tree-item"><span class="icon">🏠</span><span class="name">returns-popup.html</span><span class="meta">main app</span></div>
+        <div class="tree-item"><span class="icon">🗺️</span><span class="name">umei-workflow.html</span><span class="meta">workflow map</span></div>
+        <div class="tree-item"><span class="icon">⚙️</span><span class="name">CLAUDE.md</span><span class="meta">working brief</span></div>
+        <div class="tree-item"><span class="icon">🖥️</span><span class="name">serve-static.js</span><span class="meta">port 3401</span></div>
+        <div class="gh-commit-strip" id="gh-ua-commit">Last commit: syncing...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MCP Flow -->
+  <div class="bc bc-4 fade-up" id="mcp">
+    <div class="bc-label">MCP Connections</div>
+    <div class="mcp-flow-inner">
+
+      <!-- Center node -->
+      <div class="mcp-center">
+        <div class="mcp-center-icon">🤖</div>
+        <div class="mcp-center-label">CLAUDE</div>
+        <div class="mcp-center-sub">+ J</div>
+      </div>
+
+      <!-- SVG lines -->
+      <div class="mcp-lines" id="mcp-lines-container">
+        <svg id="mcp-svg" preserveAspectRatio="none">
+          <!-- Lines drawn by JS -->
+        </svg>
+      </div>
+
+      <!-- MCP nodes -->
+      <div class="mcp-nodes" id="mcp-nodes">
+        <div class="mcp-node" id="node-notion">
+          <div class="mcp-node-icon">🗒️</div>
+          <div><div class="mcp-node-name">Notion</div><div class="mcp-node-role">Read / write workspace</div></div>
+          <div class="mcp-node-dot"></div>
+        </div>
+        <div class="mcp-node" id="node-gmail">
+          <div class="mcp-node-icon">📧</div>
+          <div><div class="mcp-node-name">Gmail</div><div class="mcp-node-role">Draft & search emails</div></div>
+          <div class="mcp-node-dot"></div>
+        </div>
+        <div class="mcp-node" id="node-gcal">
+          <div class="mcp-node-icon">📅</div>
+          <div><div class="mcp-node-name">Google Cal</div><div class="mcp-node-role">Events & scheduling</div></div>
+          <div class="mcp-node-dot"></div>
+        </div>
+        <div class="mcp-node" id="node-klaviyo">
+          <div class="mcp-node-icon">📊</div>
+          <div><div class="mcp-node-name">Klaviyo</div><div class="mcp-node-role">Email marketing</div></div>
+          <div class="mcp-node-dot"></div>
+        </div>
+        <div class="mcp-node" id="node-canva">
+          <div class="mcp-node-icon">🎨</div>
+          <div><div class="mcp-node-name">Canva</div><div class="mcp-node-role">Design assets</div></div>
+          <div class="mcp-node-dot"></div>
+        </div>
+        <div class="mcp-node" id="node-blotato">
+          <div class="mcp-node-icon">📱</div>
+          <div><div class="mcp-node-name">Blotato</div><div class="mcp-node-role">Social media posts</div></div>
+          <div class="mcp-node-dot"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Row 6: To-Do (bc-4) | Built (bc-8) -->
+
+  <!-- To-Do -->
+  <div class="bc bc-4" id="todo">
+    <div class="bc-label">To-Do</div>
+    <div class="todo-list">
+      <div class="todo-item" data-id="todo-1" onclick="toggleTodo(this)">
+        <div class="todo-check">✓</div>
+        <span class="todo-text">Fix GitHub umeibrand page — update copy (no foot scanning, data-driven comfort)</span>
+        <span class="todo-priority p-high">High</span>
+      </div>
+      <div class="todo-item" data-id="todo-2" onclick="toggleTodo(this)">
+        <div class="todo-check">✓</div>
+        <span class="todo-text">Build personal dashboard</span>
+        <span class="todo-priority p-high">High</span>
+      </div>
+      <div class="todo-item" data-id="todo-3" onclick="toggleTodo(this)">
+        <div class="todo-check">✓</div>
+        <span class="todo-text">Complete Milestone 1 — Feedback &amp; Fixes on Post-Purchase App by Mar 22</span>
+        <span class="todo-priority p-high">High</span>
+      </div>
+      <div class="todo-item" style="border-style:dashed; opacity:.35; cursor:default;">
+        <div class="todo-check" style="border-style:dashed"></div>
+        <span class="todo-text" style="color:var(--text-3)">Tell Claude what to add here...</span>
+        <span class="todo-priority p-low">TBD</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- What's Built -->
+  <div class="bc bc-8" id="built">
+    <div class="bc-label">What I've Built</div>
     <div class="built-item">
       <div class="built-check">✓</div>
       <div><div class="built-name">UMEI3D Post-Purchase App</div><div class="built-detail">Single-file HTML/CSS/JS. 4 action cards, Web Audio sounds, Canvas confetti, return timeline, chat bubble. Netlify-ready.</div></div>
@@ -982,50 +1045,47 @@
     </div>
   </div>
 
-  <!-- ── TO-DO ── -->
-  <div class="section" id="todo">
-    <div class="section-title">Next To-Do List</div>
-    <div class="todo-list">
-      <div class="todo-item" data-id="todo-1" onclick="toggleTodo(this)">
-        <div class="todo-check">✓</div>
-        <span class="todo-text">Fix GitHub umeibrand page — update copy (no foot scanning, data-driven comfort)</span>
-        <span class="todo-priority p-high">High</span>
+  <!-- Row 7: Session Log (bc-12) -->
+  <div class="bc bc-12" id="todaylog">
+    <div class="bc-label">Today's Session Log</div>
+    <div class="session-log-inner">
+      <div class="session-log-top">
+        <div>
+          <div style="font-size:15px; font-weight:700; color:var(--text-1);">Today's Productivity</div>
+          <div style="font-size:12px; color:var(--text-2); margin-top:3px;" id="prod-date">—</div>
+        </div>
+        <div style="font-size:30px; font-weight:800; color:var(--green);text-shadow:0 0 16px rgba(74,222,128,0.3);" id="prod-score">—%</div>
       </div>
-      <div class="todo-item" data-id="todo-2" onclick="toggleTodo(this)">
-        <div class="todo-check">✓</div>
-        <span class="todo-text">Build personal dashboard</span>
-        <span class="todo-priority p-high">High</span>
+      <div class="prod-track" style="margin-bottom:14px;">
+        <div class="prod-row">
+          <div class="prod-label">Day Progress</div>
+          <div class="prod-bar"><div class="prod-fill" id="bar-day" style="background:var(--blue); width:0%"></div></div>
+          <div class="prod-pct" id="pct-day">0%</div>
+        </div>
+        <div class="prod-note">How much of today has passed (time elapsed out of 24 hrs)</div>
+        <div class="prod-row">
+          <div class="prod-label">M1 Progress</div>
+          <div class="prod-bar"><div class="prod-fill" id="bar-ms" style="background:var(--yellow); width:0%"></div></div>
+          <div class="prod-pct" id="pct-ms">0%</div>
+        </div>
+        <div class="prod-note">Milestone 1 — Feedback & Fixes (Mar 17–22). Updated by MilestoneBot each morning.</div>
+        <div class="prod-row">
+          <div class="prod-label">To-Do Done</div>
+          <div class="prod-bar"><div class="prod-fill" id="bar-todo" style="background:var(--green); width:0%"></div></div>
+          <div class="prod-pct" id="pct-todo">0%</div>
+        </div>
+        <div class="prod-note">Tasks checked off today out of total to-do items in your list</div>
       </div>
-      <div class="todo-item" data-id="todo-3" onclick="toggleTodo(this)">
-        <div class="todo-check">✓</div>
-        <span class="todo-text">Complete Milestone 1 — Feedback &amp; Fixes on Post-Purchase App by Mar 22</span>
-        <span class="todo-priority p-high">High</span>
+      <div class="card" style="border-color:rgba(253,105,105,0.18);">
+        <div style="font-size:13px; color:var(--text-2); line-height:1.7;" id="today-log">Loading today's log...</div>
       </div>
-      <div class="todo-item" style="border-style:dashed; opacity:.35; cursor:default;">
-        <div class="todo-check" style="border-style:dashed"></div>
-        <span class="todo-text" style="color:var(--text-3)">Tell Claude what to add here...</span>
-        <span class="todo-priority p-low">TBD</span>
-      </div>
+
+      <!-- Automations (hidden section, kept for JS rendering) -->
+      <div id="automations-list" style="display:none;"></div>
     </div>
   </div>
 
-  <!-- ── AUTOMATIONS ── -->
-  <div class="section" id="automations">
-    <div class="section-title">Active Automations</div>
-    <div id="automations-list">
-      <div style="padding:16px; text-align:center; color:var(--text-3); font-size:12px;">Loading...</div>
-    </div>
-  </div>
-
-  <!-- ── TODAY LOG ── -->
-  <div class="section" id="todaylog">
-    <div class="section-title">Today's Session Log</div>
-    <div class="card" style="border-color:var(--border-blue)">
-      <div style="font-size:13px; color:var(--text-2); line-height:1.7;" id="today-log">Loading today's log...</div>
-    </div>
-  </div>
-
-</div>
+</div><!-- end .bento-grid -->
 
 <div class="footer">J's Command Center · Built with Claude Code · <span id="footer-date"></span></div>
 
@@ -1033,8 +1093,10 @@
 // ── ENTRANCE ANIMATIONS (IntersectionObserver) ────
 const fadeObserver = new IntersectionObserver(entries => {
   entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); fadeObserver.unobserve(e.target); } });
-}, { threshold: 0.08 });
+}, { threshold: 0.01, rootMargin: '0px 0px -20px 0px' });
 document.querySelectorAll('.fade-up').forEach(el => fadeObserver.observe(el));
+// Also trigger visible for any already-in-view elements on load
+setTimeout(() => { document.querySelectorAll('.fade-up:not(.visible)').forEach(el => el.classList.add('visible')); }, 600);
 
 // ── ANIMATED STAT COUNTERS ─────────────────────────
 function animateCount(el, target, duration = 800) {
@@ -1117,6 +1179,11 @@ function updateTime() {
     now.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'});
   document.getElementById('footer-date').textContent =
     now.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});
+  // Also update the big clock in the clock card
+  const clockEl = document.getElementById('clock');
+  const clockDateEl = document.getElementById('clock-date');
+  if (clockEl) clockEl.textContent = now.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit',second:'2-digit'});
+  if (clockDateEl) clockDateEl.textContent = now.toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});
 }
 updateTime(); setInterval(updateTime, 1000);
 
@@ -1402,7 +1469,7 @@ document.addEventListener('keydown', e => {
     document.getElementById('milestones')?.scrollIntoView({behavior:'smooth',block:'start'});
   }
   if (e.key === 'Escape') {
-    document.getElementById('overview')?.scrollIntoView({behavior:'smooth',block:'start'});
+    window.scrollTo({top:0,behavior:'smooth'});
   }
 });
 
@@ -1420,8 +1487,8 @@ async function loadData() {
     showToast('Dashboard refreshed', 'success');
   } catch {
     const el = document.getElementById('last-sync');
-    el.textContent = 'Live data unavailable';
-    el.style.color = 'var(--red)';
+    el.textContent = 'Synced by agents daily';
+    el.style.color = 'var(--text-3)';
     updateProductivity(40);
   }
 }
