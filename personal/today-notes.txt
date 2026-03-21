@@ -1,0 +1,7 @@
+# What I built / learned today
+# Delete this comment and write your notes below, then run wrapbot.js
+# Example:
+#   - Connected Google Sheets to my dashboard so orders update live
+#   - Learned that the local Node server was a proxy to avoid CORS issues
+#   - Fixed the Meta Ads data to pull from a separate sheet tab
+
