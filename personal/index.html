@@ -314,6 +314,44 @@
   .mcp-node-dot { width:5px; height:5px; border-radius:50%; background:var(--green); position:absolute; top:6px; right:6px; box-shadow:0 0 6px var(--green); animation:pulse 2s infinite; }
   @media(max-width:520px){ .mcp-flow-inner{flex-direction:column;gap:12px;} .mcp-lines{display:none;} .mcp-nodes{width:100%;flex-direction:row;flex-wrap:wrap;} .mcp-node{width:calc(50% - 4px);} }
 
+  /* ── DASHBOARD FLOW ── */
+  .df-wrap { position:relative; display:grid; grid-template-columns:1fr 1fr 1fr; min-height:260px; }
+  .df-svg { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; overflow:visible; z-index:0; }
+  .df-col { display:flex; flex-direction:column; gap:0; padding:0 10px; position:relative; z-index:1; }
+  .df-nodes { display:flex; flex-direction:column; justify-content:space-around; flex:1; gap:8px; padding-top:8px; }
+  .df-col:nth-child(3) { border-left:1px solid var(--border); }
+  .df-col:nth-child(4) { border-left:1px solid var(--border); }
+  .df-col-label { font-size:10px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--text-3); margin-bottom:4px; }
+  .df-node { display:flex; align-items:center; gap:8px; background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:10px; padding:9px 10px; position:relative; transition:border-color .3s; }
+  .df-node.active { border-color:rgba(74,222,128,0.22); }
+  .df-node.hero { border-color:rgba(253,105,105,0.30); background:rgba(253,105,105,0.05); box-shadow:0 0 20px rgba(253,105,105,0.06); }
+  .df-node.dim { opacity:.5; }
+  .df-node-icon { font-size:16px; flex-shrink:0; }
+  .df-node-name { font-size:12px; font-weight:600; color:var(--text-1); }
+  .df-node-role { font-size:10px; color:var(--text-3); }
+  .df-node-pip { width:6px; height:6px; border-radius:50%; position:absolute; top:8px; right:8px; }
+  .df-node-pip.on { background:var(--green); box-shadow:0 0 6px var(--green); animation:pulse 2s infinite; }
+  .df-node-pip.soon { background:var(--text-3); }
+  /* Bots */
+  .df-bot { display:flex; align-items:center; gap:8px; border-radius:10px; padding:9px 10px; position:relative; overflow:hidden; transition:all .3s; }
+  .df-bot.live { background:rgba(253,105,105,0.05); border:1px solid rgba(253,105,105,0.25); box-shadow:0 0 24px rgba(253,105,105,0.08); }
+  .df-bot.pending { background:rgba(255,255,255,0.02); border:1px solid var(--border); opacity:.55; }
+  .df-bot-glow { position:absolute; inset:0; background:radial-gradient(ellipse at 20% 50%, rgba(253,105,105,0.1) 0%, transparent 70%); animation:botGlowPulse 3s ease-in-out infinite alternate; }
+  @keyframes botGlowPulse { from{opacity:.3} to{opacity:1} }
+  .df-bot-icon { font-size:15px; position:relative; z-index:1; }
+  .df-bot-info { flex:1; position:relative; z-index:1; }
+  .df-bot-name { font-size:12px; font-weight:600; color:var(--text-1); }
+  .df-bot-sched { font-size:10px; color:var(--text-3); }
+  .df-badge { font-size:9px; font-weight:700; letter-spacing:.04em; padding:2px 7px; border-radius:5px; position:relative; z-index:1; flex-shrink:0; }
+  .df-badge.live { background:rgba(74,222,128,0.14); color:var(--green); border:1px solid rgba(74,222,128,0.25); animation:liveBadge 2s ease-in-out infinite; }
+  .df-badge.soon { background:rgba(255,255,255,0.04); color:var(--text-3); border:1px solid var(--border); }
+  @keyframes liveBadge { 0%,100%{box-shadow:0 0 0 0 rgba(74,222,128,0)} 50%{box-shadow:0 0 8px 2px rgba(74,222,128,0.25)} }
+  /* Legend */
+  .df-legend { display:flex; gap:14px; flex-wrap:wrap; margin-top:14px; padding-top:12px; border-top:1px solid var(--border); }
+  .df-legend-item { display:flex; align-items:center; gap:5px; font-size:10px; color:var(--text-3); }
+  .df-legend-line { width:20px; height:2px; border-radius:2px; }
+  @media(max-width:620px){ .df-wrap{grid-template-columns:1fr;} .df-col{border-left:none!important; border-top:1px solid var(--border); padding-top:12px;} .df-col:first-child{border-top:none;} .df-svg{display:none;} }
+
   /* ── GITHUB ── */
   .gh-repo { background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:12px; overflow:hidden; margin-bottom:8px; transition:border-color .2s; }
   .gh-repo:hover { border-color:rgba(255,255,255,0.10); }
@@ -770,6 +808,92 @@
     </div>
   </div>
 
+  <!-- Dashboard Flow Diagram -->
+  <div class="bc bc-12 fade-up" id="dash-flow">
+    <div class="bc-label">How This Dashboard Works</div>
+    <div class="df-wrap" id="df-wrap">
+      <svg id="df-svg" class="df-svg"></svg>
+
+      <!-- Col 1: Data Sources -->
+      <div class="df-col" id="df-col-sources">
+        <div class="df-col-label">Data Sources</div>
+        <div class="df-nodes">
+          <div class="df-node active" id="dfn-notion">
+            <div class="df-node-icon">🗒️</div>
+            <div><div class="df-node-name">Notion</div><div class="df-node-role">Milestones · Session logs</div></div>
+            <div class="df-node-pip on"></div>
+          </div>
+          <div class="df-node dim" id="dfn-gmail">
+            <div class="df-node-icon">📧</div>
+            <div><div class="df-node-name">Gmail</div><div class="df-node-role">Inbox snapshot (coming soon)</div></div>
+            <div class="df-node-pip soon"></div>
+          </div>
+          <div class="df-node dim" id="dfn-gcal">
+            <div class="df-node-icon">📅</div>
+            <div><div class="df-node-name">Google Cal</div><div class="df-node-role">Today's agenda (coming soon)</div></div>
+            <div class="df-node-pip soon"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Col 2: Bots (GitHub Actions) -->
+      <div class="df-col" id="df-col-bots">
+        <div class="df-col-label">GitHub Actions (Cloud Bots)</div>
+        <div class="df-nodes">
+          <div class="df-bot live" id="dfb-milestone">
+            <div class="df-bot-glow"></div>
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">MilestoneBot</div><div class="df-bot-sched">9AM daily · Notion → data.json</div></div>
+            <span class="df-badge live">LIVE</span>
+          </div>
+          <div class="df-bot pending" id="dfb-git">
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">GitBot</div><div class="df-bot-sched">Every 6hrs · GitHub → data.json</div></div>
+            <span class="df-badge soon">PENDING</span>
+          </div>
+          <div class="df-bot pending" id="dfb-wrap">
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">WrapBot</div><div class="df-bot-sched">8PM daily · summary → data.json</div></div>
+            <span class="df-badge soon">PENDING</span>
+          </div>
+          <div class="df-bot pending" id="dfb-log">
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">LogBot</div><div class="df-bot-sched">8:10PM daily · session → Notion</div></div>
+            <span class="df-badge soon">PENDING</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Col 3: Output -->
+      <div class="df-col" id="df-col-output">
+        <div class="df-col-label">Live Output</div>
+        <div class="df-nodes">
+          <div class="df-node active" id="dfn-datajson">
+            <div class="df-node-icon">📄</div>
+            <div><div class="df-node-name">data.json</div><div class="df-node-role">GitHub cloud · always fresh</div></div>
+            <div class="df-node-pip on"></div>
+          </div>
+          <div class="df-node active" id="dfn-netlify">
+            <div class="df-node-icon">🌐</div>
+            <div><div class="df-node-name">Netlify</div><div class="df-node-role">Auto-deploys from GitHub</div></div>
+            <div class="df-node-pip on"></div>
+          </div>
+          <div class="df-node hero" id="dfn-dashboard">
+            <div class="df-node-icon">🖥️</div>
+            <div><div class="df-node-name">Your Dashboard</div><div class="df-node-role">Lives at netlify.app · no laptop needed</div></div>
+            <div class="df-node-pip on"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="df-legend">
+      <div class="df-legend-item"><div class="df-legend-line" style="background:#FD6969;opacity:.7"></div> Active flow</div>
+      <div class="df-legend-item"><div class="df-legend-line" style="background:#4ade80;opacity:.7"></div> Data write</div>
+      <div class="df-legend-item"><div class="df-legend-line" style="background:var(--text-3);opacity:.5;border-top:2px dashed var(--text-3);height:0"></div> Coming soon</div>
+      <div class="df-legend-item" style="margin-left:auto;color:var(--text-3);">Refreshes every 5 min · No manual input needed</div>
+    </div>
+  </div>
+
   <!-- Last Session + Next Session -->
   <div class="bc bc-4" id="todo">
     <div class="bc-label">Last Session</div>
@@ -845,6 +969,75 @@ function updateProductivity(msProg){document.getElementById('bar-ms').style.widt
 function updateProdScore(){document.getElementById('prod-score').textContent='100%';syncHeroScore(100);}
 
 function toggleRepo(id){document.getElementById(id).classList.toggle('open');}
+
+function drawFlowLines(){
+  const svg=document.getElementById('df-svg');
+  const wrap=document.getElementById('df-wrap');
+  if(!svg||!wrap)return;
+  const wr=wrap.getBoundingClientRect();
+  if(!wr.width)return;
+  svg.innerHTML='';
+  svg.setAttribute('viewBox',`0 0 ${wr.width} ${wr.height}`);
+
+  function midPt(el,side){
+    const r=el.getBoundingClientRect();
+    if(side==='right') return {x:r.right-wr.left, y:r.top+r.height/2-wr.top};
+    if(side==='left')  return {x:r.left-wr.left,  y:r.top+r.height/2-wr.top};
+    if(side==='bottom')return {x:r.left+r.width/2-wr.left, y:r.bottom-wr.top};
+    if(side==='top')   return {x:r.left+r.width/2-wr.left, y:r.top-wr.top};
+  }
+
+  function addConn(fromId,toId,fromSide,toSide,color,active,speed){
+    const fe=document.getElementById(fromId);
+    const te=document.getElementById(toId);
+    if(!fe||!te)return;
+    const p1=midPt(fe,fromSide), p2=midPt(te,toSide);
+    const dx=Math.abs(p2.x-p1.x)*0.5;
+    let cp1x,cp1y,cp2x,cp2y;
+    if(fromSide==='right'&&toSide==='left'){
+      cp1x=p1.x+dx; cp1y=p1.y; cp2x=p2.x-dx; cp2y=p2.y;
+    } else {
+      cp1x=p1.x; cp1y=p1.y+(p2.y-p1.y)*0.5; cp2x=p2.x; cp2y=p1.y+(p2.y-p1.y)*0.5;
+    }
+    const d=`M${p1.x},${p1.y} C${cp1x},${cp1y} ${cp2x},${cp2y} ${p2.x},${p2.y}`;
+    const path=document.createElementNS('http://www.w3.org/2000/svg','path');
+    path.setAttribute('d',d);
+    path.setAttribute('stroke',color);
+    path.setAttribute('stroke-width',active?'1.5':'1');
+    path.setAttribute('fill','none');
+    path.setAttribute('stroke-dasharray',active?'5,4':'3,7');
+    path.setAttribute('opacity',active?'0.45':'0.14');
+    svg.appendChild(path);
+    if(!active||!speed)return;
+    const dot=document.createElementNS('http://www.w3.org/2000/svg','circle');
+    dot.setAttribute('r','3.5');
+    dot.setAttribute('fill',color);
+    dot.setAttribute('opacity','0.95');
+    dot.setAttribute('filter',`drop-shadow(0 0 5px ${color})`);
+    const anim=document.createElementNS('http://www.w3.org/2000/svg','animateMotion');
+    anim.setAttribute('dur',speed+'s');
+    anim.setAttribute('repeatCount','indefinite');
+    anim.setAttribute('path',d);
+    dot.appendChild(anim);
+    svg.appendChild(dot);
+  }
+
+  // Sources → Bots
+  addConn('dfn-notion','dfb-milestone','right','left','#FD6969',true,2.0);
+  addConn('dfn-gmail','dfb-wrap','right','left','#a78bfa',false,0);
+  addConn('dfn-gcal','dfb-log','right','left','#f59e0b',false,0);
+  // Bots → Output
+  addConn('dfb-milestone','dfn-datajson','right','left','#4ade80',true,2.2);
+  addConn('dfb-git','dfn-datajson','right','left','#a78bfa',false,0);
+  addConn('dfb-wrap','dfn-netlify','right','left','#FD6969',false,0);
+  addConn('dfb-log','dfn-netlify','right','left','#FD6969',false,0);
+  // Within output: data.json → dashboard (vertical)
+  addConn('dfn-datajson','dfn-dashboard','bottom','top','#4ade80',true,1.8);
+  // netlify → dashboard (vertical)
+  addConn('dfn-netlify','dfn-dashboard','bottom','top','#FD6969',true,2.6);
+}
+window.addEventListener('load',()=>{setTimeout(drawFlowLines,300);});
+window.addEventListener('resize',()=>{setTimeout(drawFlowLines,50);});
 
 function drawMcpLines(){const c=document.getElementById('mcp-lines-container');const svg=document.getElementById('mcp-svg');const center=document.querySelector('.mcp-center');const nodes=document.querySelectorAll('.mcp-node');if(!c||!svg||!center||!nodes.length)return;const cr=c.getBoundingClientRect();const ctr=center.getBoundingClientRect();svg.innerHTML='';const x1=ctr.right-cr.left;const y1=ctr.top+ctr.height/2-cr.top;nodes.forEach(node=>{const nr=node.getBoundingClientRect();const x2=nr.left-cr.left;const y2=nr.top+nr.height/2-cr.top;const mx=(x1+x2)/2;const line=document.createElementNS('http://www.w3.org/2000/svg','path');line.setAttribute('d',`M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);line.setAttribute('stroke','rgba(253,105,105,0.15)');line.setAttribute('stroke-width','1.5');line.setAttribute('fill','none');line.setAttribute('stroke-dasharray','4,3');svg.appendChild(line);const dot=document.createElementNS('http://www.w3.org/2000/svg','circle');dot.setAttribute('r','3');dot.setAttribute('fill','#FD6969');dot.setAttribute('opacity','0.8');const anim=document.createElementNS('http://www.w3.org/2000/svg','animateMotion');anim.setAttribute('dur',(1.5+Math.random()).toFixed(1)+'s');anim.setAttribute('repeatCount','indefinite');anim.setAttribute('path',`M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);dot.appendChild(anim);svg.appendChild(dot);});}
 window.addEventListener('load',()=>{setTimeout(drawMcpLines,200);});
