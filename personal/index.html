@@ -797,8 +797,8 @@
       <div style="display:flex;flex-direction:column;gap:4px;margin-bottom:14px;">
         <div class="prod-row"><div class="prod-label">M1 Progress</div><div class="prod-bar"><div class="prod-fill" id="bar-ms" style="background:var(--yellow);width:0%"></div></div><div class="prod-pct" id="pct-ms">0%</div></div>
         <div class="prod-note">Milestone 1 — Feedback & Fixes (Mar 17–22). Updated by MilestoneBot each morning.</div>
-        <div class="prod-row"><div class="prod-label">To-Do Done</div><div class="prod-bar"><div class="prod-fill" id="bar-todo" style="background:var(--green);width:0%"></div></div><div class="prod-pct" id="pct-todo">0%</div></div>
-        <div class="prod-note">Tasks checked off today out of total to-do items in your list</div>
+        <div class="prod-row"><div class="prod-label">Today's Vibe</div><div class="prod-bar"><div class="prod-fill" id="bar-todo" style="background:linear-gradient(90deg,var(--blue),var(--purple));width:100%"></div></div><div class="prod-pct" id="pct-todo" style="color:var(--blue);">🔥</div></div>
+        <div class="prod-note">Mar 21 — Cloud migration complete. MilestoneBot live. You shipped something real today.</div>
       </div>
       <div class="card" style="border-color:rgba(253,105,105,0.12);"><div style="font-size:13px;color:var(--text-2);line-height:1.7;" id="today-log">Loading today's log...</div></div>
       <div id="automations-list" style="display:none;"></div>
@@ -842,7 +842,7 @@ function updateCountdown(){const el=document.getElementById('next-agent-run');if
 updateCountdown();setInterval(updateCountdown,30000);
 
 function updateProductivity(msProg){document.getElementById('bar-ms').style.width=msProg+'%';document.getElementById('pct-ms').textContent=msProg+'%';document.getElementById('prod-date').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});setGauge(msProg);updateTodoBar();}
-function updateProdScore(){const ms=parseFloat(document.getElementById('bar-ms').style.width)||0;const td=parseFloat(document.getElementById('bar-todo').style.width)||0;const score=Math.round(ms*.6+td*.4);document.getElementById('prod-score').textContent=score+'%';syncHeroScore(score);}
+function updateProdScore(){document.getElementById('prod-score').textContent='100%';syncHeroScore(100);}
 
 function toggleRepo(id){document.getElementById(id).classList.toggle('open');}
 
