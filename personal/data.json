@@ -53,6 +53,13 @@
     }
   },
   "agenda": [],
+  "nextSession": [
+    { "id": 1, "text": "Auto-refresh hook — Gmail + Calendar on Claude open", "priority": "high" },
+    { "id": 2, "text": "MilestoneBot dynamic — read milestones from Notion automatically", "priority": "high" },
+    { "id": 3, "text": "GitBot — GitHub activity → dashboard", "priority": "medium" },
+    { "id": 4, "text": "WrapBot — daily summary via Claude API", "priority": "medium" },
+    { "id": 5, "text": "LogBot — session log to Notion", "priority": "medium" }
+  ],
   "todayLog": "Session in progress. WrapBot will generate a summary at 8PM.",
   "automations": [
     {
