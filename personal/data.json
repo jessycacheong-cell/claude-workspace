@@ -52,14 +52,7 @@
       "lastCommit": "Waiting for GitBot..."
     }
   },
-  "agenda": [
-    {
-      "time": "11:40 AM",
-      "title": "Laaaanch",
-      "desc": "11:40 AM – 1:10 PM",
-      "allDay": false
-    }
-  ],
+  "agenda": [],
   "todayLog": "Session in progress. WrapBot will generate a summary at 8PM.",
   "automations": [
     {
