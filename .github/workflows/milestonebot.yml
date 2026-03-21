@@ -1,0 +1,18 @@
+name: MilestoneBot
+
+on:
+  schedule:
+    - cron: '0 17 * * *'  # 9AM CST (UTC-6) = 17:00 UTC
+  workflow_dispatch:       # allows manual trigger from GitHub
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run MilestoneBot
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node personal/milestonebot.js
