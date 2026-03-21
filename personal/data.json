@@ -53,6 +53,10 @@
     }
   },
   "agenda": [],
+  "lastSession": {
+    "date": "March 21, 2026",
+    "summary": "Moved the entire Command Center to the cloud. Learned the difference between local and cloud files. Deployed dashboard to Netlify. Set up MilestoneBot on GitHub Actions — now runs automatically at 9AM daily without Claude or laptop. Learned how API tokens work and why GitHub Actions needs its own key."
+  },
   "nextSession": [
     { "id": 1, "text": "Auto-refresh hook — Gmail + Calendar on Claude open", "priority": "high" },
     { "id": 2, "text": "MilestoneBot dynamic — read milestones from Notion automatically", "priority": "high" },
