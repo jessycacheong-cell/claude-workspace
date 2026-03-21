@@ -58,11 +58,11 @@
     "summary": "Moved the entire Command Center to the cloud. Learned the difference between local and cloud files. Deployed dashboard to Netlify. Set up MilestoneBot on GitHub Actions — now runs automatically at 9AM daily without Claude or laptop. Learned how API tokens work and why GitHub Actions needs its own key."
   },
   "nextSession": [
-    { "id": 1, "text": "Auto-refresh hook — Gmail + Calendar on Claude open", "priority": "high" },
-    { "id": 2, "text": "MilestoneBot dynamic — read milestones from Notion automatically", "priority": "high" },
-    { "id": 3, "text": "GitBot — GitHub activity → dashboard", "priority": "medium" },
-    { "id": 4, "text": "WrapBot — daily summary via Claude API", "priority": "medium" },
-    { "id": 5, "text": "LogBot — session log to Notion", "priority": "medium" }
+    { "id": 1, "text": "Auto-refresh hook — Gmail + Calendar on Claude open", "priority": "high", "status": "next" },
+    { "id": 2, "text": "MilestoneBot dynamic — read milestones from Notion automatically", "priority": "high", "status": "queued" },
+    { "id": 3, "text": "GitBot — GitHub activity → dashboard", "priority": "medium", "status": "queued" },
+    { "id": 4, "text": "WrapBot — daily summary via Claude API", "priority": "medium", "status": "queued" },
+    { "id": 5, "text": "LogBot — session log to Notion", "priority": "medium", "status": "queued" }
   ],
   "todayLog": "Session in progress. WrapBot will generate a summary at 8PM.",
   "automations": [
