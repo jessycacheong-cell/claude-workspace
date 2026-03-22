@@ -684,6 +684,42 @@
     </div>
   </div>
 
+  <!-- Build Streak + Milestone Countdown -->
+  <div class="bc bc-4 fade-up" id="streak-card" style="border-color:rgba(255,140,66,0.14);">
+    <div class="bc-label">Build Streak</div>
+    <div class="streak-card-inner">
+      <span class="streak-fire">🔥</span>
+      <div class="streak-num" id="streak-num">1</div>
+      <div class="streak-label">Day Streak · Building</div>
+      <div class="streak-sub" id="streak-sub">Just getting started!</div>
+      <div class="streak-best" id="streak-best">Best: 1 day</div>
+      <div class="streak-dots" id="streak-dots"></div>
+      <div class="streak-badges" id="streak-badges"></div>
+    </div>
+  </div>
+  <canvas id="streak-confetti" style="display:none;"></canvas>
+
+  <div class="bc bc-8 fade-up" id="countdown-card">
+    <div class="bc-label">Milestone Countdown</div>
+    <div class="cd-wrap">
+      <div class="cd-top">
+        <div class="cd-milestone-name" id="cd-name">Loading milestone...</div>
+        <div class="cd-urgency-badge" id="cd-urgency" style="background:rgba(74,222,128,.1);color:var(--green);border:1px solid rgba(74,222,128,.2);">On Track</div>
+      </div>
+      <div class="cd-timer">
+        <div class="cd-unit"><div class="cd-num" id="cd-days">—</div><div class="cd-unit-label">Days</div></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><div class="cd-num" id="cd-hours">——</div><div class="cd-unit-label">Hours</div></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><div class="cd-num" id="cd-mins">——</div><div class="cd-unit-label">Mins</div></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><div class="cd-num" id="cd-secs">——</div><div class="cd-unit-label">Secs</div></div>
+      </div>
+      <div class="cd-progress-track"><div class="cd-progress-fill" id="cd-bar" style="width:0%;background:var(--green);"></div></div>
+      <div class="cd-meta"><span id="cd-start">—</span><span id="cd-end">—</span></div>
+    </div>
+  </div>
+
   <!-- Pomodoro -->
   <div class="bc bc-4 br-2" style="border-color:rgba(253,105,105,0.14);" id="pomo-card">
     <div class="bc-label">Focus Timer</div>
@@ -859,42 +895,6 @@
     </div>
   </div>
 
-
-  <!-- Build Streak + Milestone Countdown -->
-  <div class="bc bc-4 fade-up" id="streak-card" style="border-color:rgba(255,140,66,0.14);">
-    <div class="bc-label">Build Streak</div>
-    <div class="streak-card-inner">
-      <span class="streak-fire">🔥</span>
-      <div class="streak-num" id="streak-num">1</div>
-      <div class="streak-label">Day Streak · Building</div>
-      <div class="streak-sub" id="streak-sub">Just getting started!</div>
-      <div class="streak-best" id="streak-best">Best: 1 day</div>
-      <div class="streak-dots" id="streak-dots"></div>
-      <div class="streak-badges" id="streak-badges"></div>
-    </div>
-  </div>
-  <canvas id="streak-confetti" style="display:none;"></canvas>
-
-  <div class="bc bc-8 fade-up" id="countdown-card">
-    <div class="bc-label">Milestone Countdown</div>
-    <div class="cd-wrap">
-      <div class="cd-top">
-        <div class="cd-milestone-name" id="cd-name">Loading milestone...</div>
-        <div class="cd-urgency-badge" id="cd-urgency" style="background:rgba(74,222,128,.1);color:var(--green);border:1px solid rgba(74,222,128,.2);">On Track</div>
-      </div>
-      <div class="cd-timer">
-        <div class="cd-unit"><div class="cd-num" id="cd-days">—</div><div class="cd-unit-label">Days</div></div>
-        <div class="cd-sep">:</div>
-        <div class="cd-unit"><div class="cd-num" id="cd-hours">——</div><div class="cd-unit-label">Hours</div></div>
-        <div class="cd-sep">:</div>
-        <div class="cd-unit"><div class="cd-num" id="cd-mins">——</div><div class="cd-unit-label">Mins</div></div>
-        <div class="cd-sep">:</div>
-        <div class="cd-unit"><div class="cd-num" id="cd-secs">——</div><div class="cd-unit-label">Secs</div></div>
-      </div>
-      <div class="cd-progress-track"><div class="cd-progress-fill" id="cd-bar" style="width:0%;background:var(--green);"></div></div>
-      <div class="cd-meta"><span id="cd-start">—</span><span id="cd-end">—</span></div>
-    </div>
-  </div>
 
   <!-- GitHub -->
   <div class="bc bc-4" id="github">
