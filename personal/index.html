@@ -707,6 +707,91 @@
     </div>
   </div>
 
+  <!-- Active App — with mini activity bar chart -->
+  <div class="bc bc-4 bc-app-live">
+    <div class="bc-app-status-deco"></div>
+    <div class="bc-label">Active App <span class="pill-tag" style="margin-left:6px;">Live</span></div>
+    <div class="bc-app-name" id="stat-app-name">Post-Purchase App</div>
+    <div class="bc-app-sub">UMEI3D · Active</div>
+    <span class="badge badge-green" style="box-shadow:0 0 12px rgba(74,222,128,0.15)"><span class="dot pulse"></span> Running</span>
+    <div style="margin-top:14px;font-size:11px;color:var(--text-2);">Last synced: <span id="last-sync" style="color:var(--text-2);">—</span></div>
+  </div>
+
+  <!-- Today Agenda -->
+  <div class="bc bc-8 fade-up" id="today">
+    <div class="bc-label">Today's Agenda — <span id="today-date-label">—</span></div>
+    <div class="today-inner">
+      <div class="today-card-header"><div class="today-card-title">Google Calendar</div><span class="badge badge-blue" id="event-count-badge">—</span></div>
+      <div class="today-events" id="today-events">
+        <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading events...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Inbox Snapshot -->
+  <div class="bc bc-8 fade-up" id="inbox-card">
+    <div class="bc-label">Inbox Snapshot</div>
+    <div class="inbox-grid">
+      <div class="inbox-col">
+        <div class="inbox-col-header">
+          <span class="inbox-col-title">📧 Gmail</span>
+          <span class="inbox-updated" id="gmail-updated">—</span>
+        </div>
+        <div id="gmail-list"><div class="inbox-empty">Loading...</div></div>
+      </div>
+      <div class="inbox-col inbox-gorgias">
+        <div class="inbox-col-header">
+          <span class="inbox-col-title">🎧 Gorgias — UMEI</span>
+          <span class="inbox-updated" id="gorgias-updated">—</span>
+        </div>
+        <div id="gorgias-list"><div class="inbox-empty">Loading...</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Shopify Daily Orders -->
+  <div class="bc bc-4" id="shopify-card">
+    <div class="bc-label">Shopify Orders <span class="badge badge-green" style="font-size:9px;margin-left:4px;">Sheets Live</span></div>
+    <div style="display:flex;align-items:center;gap:16px;margin-bottom:14px;">
+      <div style="font-size:48px;font-weight:800;color:var(--green);line-height:1;text-shadow:0 0 24px rgba(74,222,128,0.35);" id="shopify-orders">—</div>
+      <div>
+        <div style="font-size:12px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;">This Week's Orders</div>
+        <div style="font-size:11px;color:var(--text-3);margin-top:3px;" id="shopify-week-label">UMEI3D · via Supermetrics</div>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:6px;">
+      <div style="display:flex;justify-content:space-between;font-size:12px;padding:6px 10px;background:rgba(255,255,255,0.03);border-radius:8px;border:1px solid var(--border);">
+        <span style="color:var(--text-2);">Revenue This Week</span><span style="color:var(--green);font-weight:600;" id="shopify-revenue">—</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:12px;padding:6px 10px;background:rgba(255,255,255,0.03);border-radius:8px;border:1px solid var(--border);">
+        <span style="color:var(--text-2);">Meta · Website Purchases</span><span style="color:var(--blue);font-weight:600;" id="shopify-pending">—</span>
+      </div>
+      <div style="font-size:10px;color:var(--text-3);padding:0 2px;" id="meta-week-label"></div>
+    </div>
+    <!-- Manual entry form -->
+    <div id="shopify-form" style="margin-top:12px;display:flex;flex-direction:column;gap:6px;">
+      <div style="display:flex;gap:6px;">
+        <input id="inp-orders" type="number" placeholder="Orders" min="0" style="flex:1;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text-1);font-size:12px;font-family:inherit;outline:none;"/>
+        <input id="inp-revenue" type="text" placeholder="Revenue $" style="flex:1;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text-1);font-size:12px;font-family:inherit;outline:none;"/>
+        <input id="inp-pending" type="number" placeholder="Pending" min="0" style="flex:1;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text-1);font-size:12px;font-family:inherit;outline:none;"/>
+      </div>
+      <button onclick="saveShopifyManual()" style="background:var(--blue);border:none;border-radius:8px;padding:7px;color:#fff;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;width:100%;">Save Today's Numbers</button>
+    </div>
+    <div style="margin-top:8px;font-size:10px;color:var(--text-3);text-align:center;" id="shopify-status">Enter today's numbers from <a href="https://admin.shopify.com/store/umei3d/orders" target="_blank" style="color:var(--blue);">Shopify Admin</a></div>
+  </div>
+
+  <!-- Milestones -->
+  <div class="bc bc-8 fade-up" id="milestones">
+    <div class="bc-label">Active Milestones — UMEI3D Post-Purchase App <span class="pill-tag">5 milestones</span></div>
+    <div class="ms-compact" id="milestone-list">
+      <div class="ms-row active"><div class="ms-badge">1</div><div class="ms-row-name">Feedback &amp; Fixes</div><div class="ms-bar"><div class="ms-bar-fill" style="width:40%"></div></div><div class="ms-pct">40%</div><span class="badge badge-blue"><span class="dot pulse"></span> In Progress</span></div>
+      <div class="ms-row"><div class="ms-badge">2</div><div class="ms-row-name">Visual Polish (Figma)</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
+      <div class="ms-row"><div class="ms-badge">3</div><div class="ms-row-name">Voice &amp; Sound (ElevenLabs)</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
+      <div class="ms-row"><div class="ms-badge">4</div><div class="ms-row-name">Analytics</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
+      <div class="ms-row"><div class="ms-badge">5</div><div class="ms-row-name">Pilot &amp; Roll Out</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
+    </div>
+  </div>
+
   <!-- Build Streak + Milestone Countdown -->
   <div class="bc bc-4 fade-up" id="streak-card" style="border-color:rgba(255,140,66,0.14);">
     <div class="bc-label">Build Streak</div>
@@ -721,92 +806,6 @@
     </div>
   </div>
   <canvas id="streak-confetti" style="display:none;"></canvas>
-
-  <!-- Everything Behind the Scenes (mini) -->
-  <div class="bc bc-4">
-    <div class="bc-label">Everything Behind the Scenes</div>
-
-    <!-- MCP -->
-    <div class="bts-mini-section">
-      <div class="bts-mini-label mcp">⚡ MCP Connected — live during session</div>
-      <div class="bts-mini-chips">
-        <span class="bts-chip">🗒️ Notion</span>
-        <span class="bts-chip">📧 Gmail</span>
-        <span class="bts-chip">📅 Google Cal</span>
-        <span class="bts-chip">📊 Klaviyo</span>
-        <span class="bts-chip">🎨 Canva</span>
-        <span class="bts-chip">📱 Blotato</span>
-        <span class="bts-chip">🖼️ Figma</span>
-      </div>
-    </div>
-
-    <!-- API -->
-    <div class="bts-mini-section">
-      <div class="bts-mini-label api">🔑 API Connected — token-based</div>
-      <div class="bts-mini-chips">
-        <span class="bts-chip api">🐙 GitHub (NOTION_TOKEN)</span>
-        <span class="bts-chip api">📊 Google Sheets (Shopify)</span>
-      </div>
-    </div>
-
-    <!-- Local Files -->
-    <div class="bts-mini-section">
-      <div class="bts-mini-label local">📁 Local Files — Claude reads on open</div>
-      <div class="bts-local-flow">
-        <div class="bts-local-files">
-          <div class="bts-local-file">📄 CLAUDE.md <span>project brief</span></div>
-          <div class="bts-local-file">🧠 MEMORY.md <span>J's memory</span></div>
-          <div class="bts-local-file">📄 dashboard.html <span>app file</span></div>
-        </div>
-        <div class="bts-local-arrow">
-          <div class="bts-local-arrow-line"></div>
-          <div class="bts-local-arrow-head">→</div>
-          <div class="bts-local-arrow-line"></div>
-        </div>
-        <div class="bts-local-claude">
-          <div class="bts-local-claude-icon">🤖</div>
-          <div class="bts-local-claude-label">Claude reads</div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Last Session -->
-  <div class="bc bc-4" id="todo">
-    <div class="bc-label">Last Session</div>
-    <div style="background:rgba(255,255,255,0.025);border-radius:12px;padding:12px;margin-bottom:12px;">
-      <div style="font-size:11px;font-weight:700;color:var(--blue);margin-bottom:6px;" id="last-session-date">—</div>
-      <div style="font-size:12px;color:var(--text-2);line-height:1.7;" id="last-session-summary">Loading...</div>
-    </div>
-    <div class="bc-label" style="margin-top:4px;">Next Session</div>
-    <div class="todo-list" id="next-session-list">
-      <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading...</div>
-    </div>
-  </div>
-
-  <!-- Milestone Countdown (full width) -->
-  <div class="bc bc-12 fade-up" id="countdown-card">
-    <div class="bc-label">Milestone Countdown</div>
-    <div class="cd-wrap" style="flex-direction:row;align-items:center;gap:32px;">
-      <div style="flex:0 0 auto;">
-        <div class="cd-milestone-name" id="cd-name" style="font-size:15px;margin-bottom:6px;">Loading milestone...</div>
-        <div class="cd-urgency-badge" id="cd-urgency" style="background:rgba(74,222,128,.1);color:var(--green);border:1px solid rgba(74,222,128,.2);">On Track</div>
-      </div>
-      <div class="cd-timer" style="flex:0 0 auto;">
-        <div class="cd-unit"><div class="cd-num" id="cd-days">—</div><div class="cd-unit-label">Days</div></div>
-        <div class="cd-sep">:</div>
-        <div class="cd-unit"><div class="cd-num" id="cd-hours">——</div><div class="cd-unit-label">Hours</div></div>
-        <div class="cd-sep">:</div>
-        <div class="cd-unit"><div class="cd-num" id="cd-mins">——</div><div class="cd-unit-label">Mins</div></div>
-        <div class="cd-sep">:</div>
-        <div class="cd-unit"><div class="cd-num" id="cd-secs">——</div><div class="cd-unit-label">Secs</div></div>
-      </div>
-      <div style="flex:1;">
-        <div class="cd-progress-track"><div class="cd-progress-fill" id="cd-bar" style="width:0%;background:var(--green);"></div></div>
-        <div class="cd-meta"><span id="cd-start">—</span><span id="cd-end">—</span></div>
-      </div>
-    </div>
-  </div>
 
   <!-- Quick Launch -->
   <div class="bc bc-4" id="quicklinks">
@@ -876,14 +875,17 @@
     </div>
   </div>
 
-  <!-- Active App — with mini activity bar chart -->
-  <div class="bc bc-4 bc-app-live">
-    <div class="bc-app-status-deco"></div>
-    <div class="bc-label">Active App <span class="pill-tag" style="margin-left:6px;">Live</span></div>
-    <div class="bc-app-name" id="stat-app-name">Post-Purchase App</div>
-    <div class="bc-app-sub">UMEI3D · Active</div>
-    <span class="badge badge-green" style="box-shadow:0 0 12px rgba(74,222,128,0.15)"><span class="dot pulse"></span> Running</span>
-    <div style="margin-top:14px;font-size:11px;color:var(--text-2);">Last synced: <span id="last-sync" style="color:var(--text-2);">—</span></div>
+  <!-- Last Session -->
+  <div class="bc bc-4" id="todo">
+    <div class="bc-label">Last Session</div>
+    <div style="background:rgba(255,255,255,0.025);border-radius:12px;padding:12px;margin-bottom:12px;">
+      <div style="font-size:11px;font-weight:700;color:var(--blue);margin-bottom:6px;" id="last-session-date">—</div>
+      <div style="font-size:12px;color:var(--text-2);line-height:1.7;" id="last-session-summary">Loading...</div>
+    </div>
+    <div class="bc-label" style="margin-top:4px;">Next Session</div>
+    <div class="todo-list" id="next-session-list">
+      <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading...</div>
+    </div>
   </div>
 
   <!-- At a Glance — gauge + mini chart for MCP -->
@@ -914,82 +916,6 @@
       </div>
     </div>
   </div>
-
-  <!-- Shopify Daily Orders -->
-  <div class="bc bc-4" id="shopify-card">
-    <div class="bc-label">Shopify Orders <span class="badge badge-green" style="font-size:9px;margin-left:4px;">Sheets Live</span></div>
-    <div style="display:flex;align-items:center;gap:16px;margin-bottom:14px;">
-      <div style="font-size:48px;font-weight:800;color:var(--green);line-height:1;text-shadow:0 0 24px rgba(74,222,128,0.35);" id="shopify-orders">—</div>
-      <div>
-        <div style="font-size:12px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;">This Week's Orders</div>
-        <div style="font-size:11px;color:var(--text-3);margin-top:3px;" id="shopify-week-label">UMEI3D · via Supermetrics</div>
-      </div>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:6px;">
-      <div style="display:flex;justify-content:space-between;font-size:12px;padding:6px 10px;background:rgba(255,255,255,0.03);border-radius:8px;border:1px solid var(--border);">
-        <span style="color:var(--text-2);">Revenue This Week</span><span style="color:var(--green);font-weight:600;" id="shopify-revenue">—</span>
-      </div>
-      <div style="display:flex;justify-content:space-between;font-size:12px;padding:6px 10px;background:rgba(255,255,255,0.03);border-radius:8px;border:1px solid var(--border);">
-        <span style="color:var(--text-2);">Meta · Website Purchases</span><span style="color:var(--blue);font-weight:600;" id="shopify-pending">—</span>
-      </div>
-      <div style="font-size:10px;color:var(--text-3);padding:0 2px;" id="meta-week-label"></div>
-    </div>
-    <!-- Manual entry form -->
-    <div id="shopify-form" style="margin-top:12px;display:flex;flex-direction:column;gap:6px;">
-      <div style="display:flex;gap:6px;">
-        <input id="inp-orders" type="number" placeholder="Orders" min="0" style="flex:1;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text-1);font-size:12px;font-family:inherit;outline:none;"/>
-        <input id="inp-revenue" type="text" placeholder="Revenue $" style="flex:1;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text-1);font-size:12px;font-family:inherit;outline:none;"/>
-        <input id="inp-pending" type="number" placeholder="Pending" min="0" style="flex:1;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text-1);font-size:12px;font-family:inherit;outline:none;"/>
-      </div>
-      <button onclick="saveShopifyManual()" style="background:var(--blue);border:none;border-radius:8px;padding:7px;color:#fff;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;width:100%;">Save Today's Numbers</button>
-    </div>
-    <div style="margin-top:8px;font-size:10px;color:var(--text-3);text-align:center;" id="shopify-status">Enter today's numbers from <a href="https://admin.shopify.com/store/umei3d/orders" target="_blank" style="color:var(--blue);">Shopify Admin</a></div>
-  </div>
-
-  <!-- Today Agenda -->
-  <div class="bc bc-8 fade-up" id="today">
-    <div class="bc-label">Today's Agenda — <span id="today-date-label">—</span></div>
-    <div class="today-inner">
-      <div class="today-card-header"><div class="today-card-title">Google Calendar</div><span class="badge badge-blue" id="event-count-badge">—</span></div>
-      <div class="today-events" id="today-events">
-        <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading events...</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Inbox Snapshot -->
-  <div class="bc bc-8 fade-up" id="inbox-card">
-    <div class="bc-label">Inbox Snapshot</div>
-    <div class="inbox-grid">
-      <div class="inbox-col">
-        <div class="inbox-col-header">
-          <span class="inbox-col-title">📧 Gmail</span>
-          <span class="inbox-updated" id="gmail-updated">—</span>
-        </div>
-        <div id="gmail-list"><div class="inbox-empty">Loading...</div></div>
-      </div>
-      <div class="inbox-col inbox-gorgias">
-        <div class="inbox-col-header">
-          <span class="inbox-col-title">🎧 Gorgias — UMEI</span>
-          <span class="inbox-updated" id="gorgias-updated">—</span>
-        </div>
-        <div id="gorgias-list"><div class="inbox-empty">Loading...</div></div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Milestones -->
-  <div class="bc bc-8 fade-up" id="milestones">
-    <div class="bc-label">Active Milestones — UMEI3D Post-Purchase App <span class="pill-tag">5 milestones</span></div>
-    <div class="ms-compact" id="milestone-list">
-      <div class="ms-row active"><div class="ms-badge">1</div><div class="ms-row-name">Feedback &amp; Fixes</div><div class="ms-bar"><div class="ms-bar-fill" style="width:40%"></div></div><div class="ms-pct">40%</div><span class="badge badge-blue"><span class="dot pulse"></span> In Progress</span></div>
-      <div class="ms-row"><div class="ms-badge">2</div><div class="ms-row-name">Visual Polish (Figma)</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
-      <div class="ms-row"><div class="ms-badge">3</div><div class="ms-row-name">Voice &amp; Sound (ElevenLabs)</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
-      <div class="ms-row"><div class="ms-badge">4</div><div class="ms-row-name">Analytics</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
-      <div class="ms-row"><div class="ms-badge">5</div><div class="ms-row-name">Pilot &amp; Roll Out</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
-    </div>
-  </div>
-
 
   <!-- GitHub -->
   <div class="bc bc-4" id="github">
@@ -1029,6 +955,78 @@
     </div>
   </div>
 
+  <!-- Milestone Countdown (full width) -->
+  <div class="bc bc-12 fade-up" id="countdown-card">
+    <div class="bc-label">Milestone Countdown</div>
+    <div class="cd-wrap" style="flex-direction:row;align-items:center;gap:32px;">
+      <div style="flex:0 0 auto;">
+        <div class="cd-milestone-name" id="cd-name" style="font-size:15px;margin-bottom:6px;">Loading milestone...</div>
+        <div class="cd-urgency-badge" id="cd-urgency" style="background:rgba(74,222,128,.1);color:var(--green);border:1px solid rgba(74,222,128,.2);">On Track</div>
+      </div>
+      <div class="cd-timer" style="flex:0 0 auto;">
+        <div class="cd-unit"><div class="cd-num" id="cd-days">—</div><div class="cd-unit-label">Days</div></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><div class="cd-num" id="cd-hours">——</div><div class="cd-unit-label">Hours</div></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><div class="cd-num" id="cd-mins">——</div><div class="cd-unit-label">Mins</div></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><div class="cd-num" id="cd-secs">——</div><div class="cd-unit-label">Secs</div></div>
+      </div>
+      <div style="flex:1;">
+        <div class="cd-progress-track"><div class="cd-progress-fill" id="cd-bar" style="width:0%;background:var(--green);"></div></div>
+        <div class="cd-meta"><span id="cd-start">—</span><span id="cd-end">—</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Everything Behind the Scenes (mini) -->
+  <div class="bc bc-12">
+    <div class="bc-label">Everything Behind the Scenes</div>
+
+    <!-- MCP -->
+    <div class="bts-mini-section">
+      <div class="bts-mini-label mcp">⚡ MCP Connected — live during session</div>
+      <div class="bts-mini-chips">
+        <span class="bts-chip">🗒️ Notion</span>
+        <span class="bts-chip">📧 Gmail</span>
+        <span class="bts-chip">📅 Google Cal</span>
+        <span class="bts-chip">📊 Klaviyo</span>
+        <span class="bts-chip">🎨 Canva</span>
+        <span class="bts-chip">📱 Blotato</span>
+        <span class="bts-chip">🖼️ Figma</span>
+      </div>
+    </div>
+
+    <!-- API -->
+    <div class="bts-mini-section">
+      <div class="bts-mini-label api">🔑 API Connected — token-based</div>
+      <div class="bts-mini-chips">
+        <span class="bts-chip api">🐙 GitHub (NOTION_TOKEN)</span>
+        <span class="bts-chip api">📊 Google Sheets (Shopify)</span>
+      </div>
+    </div>
+
+    <!-- Local Files -->
+    <div class="bts-mini-section">
+      <div class="bts-mini-label local">📁 Local Files — Claude reads on open</div>
+      <div class="bts-local-flow">
+        <div class="bts-local-files">
+          <div class="bts-local-file">📄 CLAUDE.md <span>project brief</span></div>
+          <div class="bts-local-file">🧠 MEMORY.md <span>J's memory</span></div>
+          <div class="bts-local-file">📄 dashboard.html <span>app file</span></div>
+        </div>
+        <div class="bts-local-arrow">
+          <div class="bts-local-arrow-line"></div>
+          <div class="bts-local-arrow-head">→</div>
+          <div class="bts-local-arrow-line"></div>
+        </div>
+        <div class="bts-local-claude">
+          <div class="bts-local-claude-icon">🤖</div>
+          <div class="bts-local-claude-label">Claude reads</div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Everything Behind the Scenes -->
   <div class="bc bc-12 fade-up" id="dash-flow">
