@@ -5,6 +5,9 @@ on:
     - cron: '*/30 * * * *'   # Every 30 minutes
   workflow_dispatch:           # Manual trigger from GitHub UI
 
+permissions:
+  contents: write
+
 jobs:
   refresh-gorgias:
     runs-on: ubuntu-latest
@@ -30,6 +33,5 @@ jobs:
           git config --global user.name "InboxBot"
           git add personal/data.json
           git diff --staged --quiet || git commit -m "InboxBot: refresh Gorgias tickets [skip ci]"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jessycacheong-cell/claude-workspace.git
           git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
