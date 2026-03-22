@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Finance Tracker 2026</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --accent: #FD6969;
+      --accent-dim: rgba(253,105,105,0.12);
+      --bg: #0f0f0f;
+      --surface: #1a1a1a;
+      --surface2: #222;
+      --surface3: #2a2a2a;
+      --border: #2e2e2e;
+      --text: #f0f0f0;
+      --muted: #aaa;
+      --green: #4ade80;
+      --yellow: #facc15;
+      --blue: #60a5fa;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; min-height: 100vh; }
+
+    /* ── HEADER ── */
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 14px 28px;
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 14px; flex-wrap: wrap;
+    }
+    header h1 { font-size: 1.15rem; font-weight: 700; white-space: nowrap; }
+    header h1 span { color: var(--accent); }
+    .hdr-right { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .month-sel {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 8px; color: var(--text); padding: 7px 12px;
+      font-size: 0.88rem; outline: none; cursor: pointer; min-width: 160px;
+    }
+    .month-sel:focus { border-color: var(--accent); }
+    .btn-accent {
+      background: var(--accent); color: #fff; border: none;
+      border-radius: 8px; padding: 7px 14px; font-size: 0.82rem;
+      font-weight: 600; cursor: pointer; transition: opacity .15s; white-space: nowrap;
+    }
+    .btn-accent:hover { opacity: .85; }
+    .btn-ghost {
+      background: none; color: var(--muted); border: 1px solid var(--border);
+      border-radius: 8px; padding: 7px 12px; font-size: 0.8rem;
+      font-weight: 600; cursor: pointer; transition: color .15s, border-color .15s; white-space: nowrap;
+    }
+    .btn-ghost:hover { color: var(--text); border-color: var(--muted); }
+
+    /* ── CONTAINER ── */
+    .container { max-width: 1160px; margin: 0 auto; padding: 24px 22px; }
+
+    /* ── SECTION HEADING ── */
+    .sec-label {
+      font-size: 0.72rem; font-weight: 700; color: var(--muted);
+      text-transform: uppercase; letter-spacing: 1.2px; margin-bottom: 14px;
+    }
+
+    /* ── OVERVIEW CARDS ── */
+    .cards { display: grid; grid-template-columns: repeat(5,1fr); gap: 13px; margin-bottom: 18px; }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 17px 19px; }
+    .card.hi { border-color: var(--accent); background: var(--accent-dim); }
+    .card-lbl { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .8px; margin-bottom: 7px; }
+    .card-val { font-size: 1.45rem; font-weight: 700; letter-spacing: -.7px; }
+    .card-sub { font-size: 0.71rem; color: var(--muted); margin-top: 4px; }
+    .cg { color: var(--green); } .cy { color: var(--yellow); } .cr { color: var(--accent); } .cb { color: var(--blue); }
+
+    /* ── CURRENCY BAR ── */
+    .fx-bar {
+      background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+      padding: 13px 20px; margin-bottom: 20px;
+      display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+    }
+    .fx-title { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 1px; white-space: nowrap; }
+    .fx-inputs { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .fx-group { display: flex; align-items: center; gap: 6px; }
+    .fx-group label { font-size: 0.75rem; color: var(--muted); white-space: nowrap; }
+    .fx-group input {
+      background: var(--surface2); border: 1px solid var(--border); border-radius: 7px;
+      color: var(--text); padding: 6px 10px; font-size: 0.88rem; font-weight: 600;
+      outline: none; width: 110px; transition: border-color .2s;
+    }
+    .fx-group input:focus { border-color: var(--accent); }
+    .fx-result { font-size: 0.88rem; font-weight: 700; color: var(--blue); white-space: nowrap; }
+    .fx-rate-wrap { display: flex; align-items: center; gap: 6px; margin-left: auto; }
+    .fx-rate-wrap label { font-size: 0.72rem; color: var(--muted); }
+    .fx-rate-wrap input {
+      background: var(--surface2); border: 1px solid var(--border); border-radius: 7px;
+      color: var(--yellow); padding: 5px 9px; font-size: 0.82rem; font-weight: 700;
+      outline: none; width: 80px; transition: border-color .2s;
+    }
+    .fx-rate-wrap input:focus { border-color: var(--accent); }
+    .fx-divider { color: var(--border); font-size: 1.2rem; }
+    .fx-pair { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+    .fx-sep { width: 1px; height: 36px; background: var(--border); margin: 0 6px; flex-shrink: 0; }
+
+    /* ── MAIN GRID ── */
+    .main-grid { display: grid; grid-template-columns: 1fr 330px; gap: 18px; margin-bottom: 20px; }
+    .left-col { display: flex; flex-direction: column; gap: 18px; }
+    .right-col { display: flex; flex-direction: column; gap: 18px; }
+
+    /* ── PANEL ── */
+    .panel { background: var(--surface); border: 1px solid var(--border); border-radius: 13px; padding: 20px; }
+    .panel-title {
+      font-size: 0.9rem; font-weight: 600; margin-bottom: 16px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .panel-title::before { content:''; width:4px; height:14px; background:var(--accent); border-radius:2px; flex-shrink:0; }
+
+    /* ── MANDATORY ITEMS ── */
+    .mand-list { display: flex; flex-direction: column; gap: 8px; margin-bottom: 12px; }
+    .mand-row { display: flex; align-items: center; gap: 10px; }
+    .mand-name { font-size: 0.83rem; font-weight: 500; min-width: 130px; }
+    .mand-input {
+      background: var(--surface2); border: 1px solid var(--border); border-radius: 7px;
+      color: var(--text); padding: 7px 10px; font-size: 0.88rem; font-weight: 600;
+      outline: none; width: 130px; transition: border-color .2s;
+    }
+    .mand-input:focus { border-color: var(--accent); }
+    .mand-total { font-size: 0.78rem; color: var(--muted); padding: 8px 0 0; border-top: 1px solid var(--border); }
+    .mand-total span { color: var(--yellow); font-weight: 700; }
+    .btn-save {
+      width: 100%; padding: 9px; background: var(--surface3); border: 1px solid var(--border);
+      border-radius: 8px; color: var(--text); font-size: 0.85rem; font-weight: 600;
+      cursor: pointer; transition: border-color .2s, background .2s; margin-top: 10px;
+    }
+    .btn-save:hover { border-color: var(--accent); background: var(--accent-dim); }
+
+    /* ── TX LOG ── */
+    .tx-scroll { max-height: 290px; overflow-y: auto; padding-right: 2px; }
+    .tx-scroll::-webkit-scrollbar { width: 4px; }
+    .tx-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+    .tx-list { display: flex; flex-direction: column; gap: 7px; }
+    .tx-item {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 10px 13px; background: var(--surface2); border-radius: 9px;
+      border: 1px solid transparent; transition: border-color .15s;
+    }
+    .tx-item:hover { border-color: var(--border); }
+    .tx-left { display: flex; align-items: center; gap: 10px; }
+    .tx-icon { width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.95rem; background: var(--accent-dim); flex-shrink: 0; }
+    .tx-name { font-size: 0.86rem; font-weight: 500; }
+    .tx-meta { font-size: 0.7rem; color: var(--muted); margin-top: 2px; }
+    .tx-right { display: flex; align-items: center; gap: 8px; }
+    .tx-amt { font-size: 0.88rem; font-weight: 700; color: var(--accent); }
+    .del { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 0.82rem; padding: 2px 5px; border-radius: 4px; }
+    .del:hover { color: var(--accent); }
+    .empty { text-align: center; color: var(--muted); padding: 24px 0; font-size: 0.84rem; line-height: 1.6; }
+
+    /* ── ADD TX ── */
+    .add-form { display: flex; flex-direction: column; gap: 10px; }
+    .add-form input, .add-form select {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 8px; color: var(--text); padding: 8px 11px;
+      font-size: 0.86rem; outline: none; transition: border-color .2s; width: 100%;
+    }
+    .add-form input:focus, .add-form select:focus { border-color: var(--accent); }
+    .add-form label { font-size: 0.73rem; color: var(--muted); display: block; margin-bottom: 3px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+    .btn-add {
+      width: 100%; padding: 10px; background: var(--accent); color: #fff;
+      border: none; border-radius: 8px; font-size: 0.88rem; font-weight: 600;
+      cursor: pointer; transition: opacity .15s;
+    }
+    .btn-add:hover { opacity: .85; }
+
+    /* ── CHART ── */
+    .chart-wrap { height: 185px; position: relative; }
+
+    /* ── MANDATORY CHECKBOX ── */
+    .mand-cb-wrap { display:flex; align-items:center; cursor:pointer; flex-shrink:0; }
+    .mand-cb { display:none; }
+    .mand-cb-box {
+      width:17px; height:17px; border-radius:5px; border:1.5px solid var(--border);
+      background:var(--surface3); flex-shrink:0; position:relative;
+      transition:background .2s, border-color .2s;
+    }
+    .mand-cb:checked + .mand-cb-box { background:var(--accent); border-color:var(--accent); }
+    .mand-cb:checked + .mand-cb-box::after {
+      content:'✓'; position:absolute; top:50%; left:50%;
+      transform:translate(-50%,-50%); font-size:10px; color:#fff; font-weight:700;
+    }
+    .mand-row { display:flex; align-items:center; gap:9px; transition:opacity .2s; }
+    .mand-fixed { font-size:0.78rem; font-weight:700; min-width:55px; text-align:right; }
+
+    /* ── DIARY PANEL ── */
+    .diary-panel {
+      background: var(--surface);
+      border-radius: 13px;
+      padding: 18px 20px;
+      position: relative;
+      overflow: hidden;
+      animation: fadeUp .5s ease both;
+    }
+    .diary-panel::before {
+      content: '';
+      position: absolute; inset: 0;
+      border-radius: 13px;
+      padding: 1.5px;
+      background: linear-gradient(135deg, var(--accent), #c94444, #ff9a9a, var(--accent));
+      -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor; mask-composite: exclude;
+      background-size: 300% 300%;
+      animation: diaryBorder 4s ease infinite;
+      pointer-events: none;
+    }
+    @keyframes diaryBorder {
+      0%,100% { background-position:0% 50%; }
+      50%      { background-position:100% 50%; }
+    }
+    .diary-header { display:flex; align-items:center; gap:12px; margin-bottom:12px; }
+    .diary-icon { font-size:1.5rem; }
+    .diary-title { font-size:0.9rem; font-weight:700; }
+    .diary-sub { font-size:0.7rem; color:var(--muted); margin-top:2px; }
+    .diary-saved { color:var(--green); font-weight:600; transition:opacity .3s; }
+    .diary-area {
+      width:100%; min-height:110px; resize:vertical;
+      background:var(--surface2); border:1px solid var(--border);
+      border-radius:9px; color:var(--text); padding:11px 13px;
+      font-size:0.86rem; line-height:1.65; font-family:inherit;
+      outline:none; transition:border-color .2s;
+    }
+    .diary-area:focus { border-color:var(--accent); }
+    .diary-area::placeholder { color: #444; }
+
+    /* ── CHECKLIST ── */
+    .checklist-panel {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 13px; margin-bottom: 20px; overflow: hidden;
+    }
+    .checklist-header {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 16px 20px; cursor: pointer; user-select: none;
+    }
+    .checklist-header:hover { background: var(--surface2); }
+    .checklist-htitle { font-size: 0.9rem; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+    .checklist-htitle::before { content:''; width:4px; height:14px; background:var(--yellow); border-radius:2px; }
+    .checklist-badge {
+      background: var(--surface3); border-radius: 99px; padding: 2px 9px;
+      font-size: 0.72rem; color: var(--muted); font-weight: 600;
+    }
+    .checklist-badge.done { background: rgba(74,222,128,0.15); color: var(--green); }
+    .chevron { color: var(--muted); font-size: 0.8rem; transition: transform .2s; }
+    .chevron.open { transform: rotate(180deg); }
+    .checklist-body { padding: 0 20px 18px; }
+    .cl-grid { display: flex; flex-direction: column; gap: 7px; }
+    .cl-item {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 10px; padding: 10px 14px;
+      display: flex; align-items: center; gap: 12px;
+    }
+    .cl-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex: 1; }
+    .cl-name { font-size: 0.84rem; font-weight: 600; }
+    .cl-toggle {
+      position: relative; width: 38px; height: 20px; flex-shrink: 0;
+      background: var(--surface3); border-radius: 99px; cursor: pointer;
+      border: 1px solid var(--border); transition: background .2s, border-color .2s;
+    }
+    .cl-toggle.paid { background: rgba(74,222,128,0.25); border-color: var(--green); }
+    .cl-toggle::after {
+      content: ''; position: absolute; top: 2px; left: 2px;
+      width: 14px; height: 14px; border-radius: 50%;
+      background: var(--muted); transition: left .2s, background .2s;
+    }
+    .cl-toggle.paid::after { left: 20px; background: var(--green); }
+    .cl-status { font-size: 0.68rem; color: var(--muted); }
+    .cl-toggle.paid + .cl-status { color: var(--green); }
+    .cl-note {
+      background: var(--surface3); border: 1px solid var(--border);
+      border-radius: 6px; color: var(--muted); padding: 5px 8px;
+      font-size: 0.75rem; outline: none; resize: none; width: 160px; flex-shrink: 0;
+      font-family: inherit; transition: border-color .2s, color .2s;
+    }
+    .cl-note:focus { border-color: var(--accent); color: var(--text); }
+    .cl-note::placeholder { color: var(--border); }
+
+    /* ── MASTER SUMMARY ── */
+    .master { background: var(--surface); border: 1px solid var(--border); border-radius: 13px; padding: 22px; }
+    .master-title {
+      font-size: 0.9rem; font-weight: 600; margin-bottom: 18px;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .master-title::before { content:''; width:4px; height:14px; background:var(--green); border-radius:2px; }
+    .master-cards { display: grid; grid-template-columns: repeat(4,1fr); gap: 13px; margin-bottom: 22px; }
+    .mc { background: var(--surface2); border-radius: 10px; padding: 15px 17px; border: 1px solid var(--border); }
+    .mc-lbl { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: .8px; margin-bottom: 7px; }
+    .mc-val { font-size: 1.3rem; font-weight: 700; letter-spacing: -.5px; }
+    .tbl { width: 100%; border-collapse: collapse; font-size: 0.84rem; }
+    .tbl th { text-align:left; padding:8px 11px; color:var(--muted); font-size:0.7rem; text-transform:uppercase; letter-spacing:.8px; border-bottom:1px solid var(--border); }
+    .tbl td { padding:10px 11px; border-bottom:1px solid var(--border); }
+    .tbl tr:last-child td { border-bottom:none; }
+    .tbl tbody tr { cursor:pointer; }
+    .tbl tbody tr:hover td { background: var(--surface2); }
+    .pill { display:inline-block; padding:3px 9px; border-radius:99px; font-size:0.73rem; font-weight:600; }
+    .pill.pos { background:rgba(74,222,128,0.15); color:var(--green); }
+    .pill.neg { background:var(--accent-dim); color:var(--accent); }
+
+    /* ── MODAL ── */
+    .overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,.75); z-index:100; align-items:center; justify-content:center; }
+    .overlay.open { display:flex; }
+    .modal { background:var(--surface); border:1px solid var(--border); border-radius:15px; padding:26px; width:330px; max-width:90vw; }
+    .modal h2 { font-size:0.98rem; font-weight:700; margin-bottom:16px; }
+    .mf { display:flex; flex-direction:column; gap:5px; margin-bottom:13px; }
+    .mf label { font-size:0.76rem; color:var(--muted); }
+    .mf select { background:var(--surface2); border:1px solid var(--border); border-radius:8px; color:var(--text); padding:8px 11px; font-size:0.88rem; outline:none; }
+    .mf select:focus { border-color:var(--accent); }
+    .modal-btns { display:flex; gap:9px; margin-top:5px; }
+    .modal-btns button { flex:1; padding:9px; border-radius:8px; font-size:0.88rem; font-weight:600; cursor:pointer; border:none; }
+    .btn-cancel { background:var(--surface2); color:var(--muted); border:1px solid var(--border)!important; }
+    .btn-confirm { background:var(--accent); color:#fff; }
+
+    /* ── RESPONSIVE ── */
+    /* ── YEAR LABEL ── */
+    .yr { color: var(--muted); font-size: 0.85rem; font-weight: 400; letter-spacing: 1px; }
+
+    /* ── GLOW / ILLUMINATE ── */
+    @keyframes glowPulse {
+      0%,100% { box-shadow: 0 0 6px 2px rgba(253,105,105,0.1); }
+      50%      { box-shadow: 0 0 40px 12px rgba(253,105,105,0.45); }
+    }
+    @keyframes glowGreen {
+      0%,100% { box-shadow: 0 0 6px 2px rgba(74,222,128,0.1); }
+      50%      { box-shadow: 0 0 40px 12px rgba(74,222,128,0.4); }
+    }
+    @keyframes glowYellow {
+      0%,100% { box-shadow: 0 0 6px 2px rgba(250,204,21,0.1); }
+      50%      { box-shadow: 0 0 40px 12px rgba(250,204,21,0.35); }
+    }
+
+    /* Cards glow by type — defined below in animation section */
+
+    /* Header glow line */
+    header {
+      box-shadow: 0 1px 0 var(--border), 0 2px 30px rgba(253,105,105,0.18);
+    }
+
+    /* Input glow on focus (applied via JS + also CSS for mand-input) */
+    .mand-input:focus {
+      box-shadow: 0 0 0 3px rgba(253,105,105,0.15) !important;
+    }
+    .add-form input:focus, .add-form select:focus {
+      box-shadow: 0 0 0 3px rgba(253,105,105,0.15);
+    }
+
+    /* Panel subtle top glow border */
+    .panel {
+      box-shadow: 0 0 0 1px var(--border), 0 -1px 0 0 rgba(253,105,105,0.08) inset;
+    }
+
+    /* Master summary glow */
+    .master {
+      box-shadow: 0 0 0 1px var(--border), 0 0 30px rgba(74,222,128,0.04);
+    }
+
+    /* Balance card glow */
+    .card.hi {
+      box-shadow: 0 0 30px rgba(253,105,105,0.35), 0 0 0 1px var(--accent);
+      animation: fadeUp .45s ease .33s both, glowPulse 2.5s ease-in-out 1s infinite !important;
+    }
+
+    /* Saved indicator glow */
+    .diary-saved { text-shadow: 0 0 8px rgba(74,222,128,0.6); }
+
+    /* ── ANIMATIONS ── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateX(-12px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes countUp {
+      from { opacity: 0; transform: scale(0.85); }
+      to   { opacity: 1; transform: scale(1); }
+    }
+    @keyframes shimmer {
+      0%   { background-position: -400px 0; }
+      100% { background-position: 400px 0; }
+    }
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 0 0 0 rgba(253,105,105,0); }
+      50%       { box-shadow: 0 0 0 6px rgba(253,105,105,0.15); }
+    }
+
+    /* Page load — stagger cards with glow */
+    .cards .card:nth-child(1) { animation: fadeUp .45s ease .05s both, glowGreen  4s ease-in-out 1.5s infinite; }
+    .cards .card:nth-child(2) { animation: fadeUp .45s ease .12s both, glowPulse  4s ease-in-out 2s   infinite; }
+    .cards .card:nth-child(3) { animation: fadeUp .45s ease .19s both, glowYellow 4s ease-in-out 2.5s infinite; }
+    .cards .card:nth-child(4) { animation: fadeUp .45s ease .26s both, glowPulse  4s ease-in-out 3s   infinite; }
+    .cards .card:nth-child(5) { animation: fadeUp .45s ease .33s both; }
+
+    /* Panels fade up on load */
+    .panel    { animation: fadeUp .5s ease both; }
+    .fx-bar   { animation: fadeUp .4s ease .08s both; }
+    .master   { animation: fadeUp .5s ease .1s both; }
+    .checklist-panel { animation: fadeUp .5s ease .15s both; }
+
+    /* Transaction items slide in */
+    .tx-item  { animation: slideIn .3s ease both; }
+
+    /* Card values animate when updated */
+    .card-val { transition: color .35s ease; }
+    .val-pop  { animation: countUp .25s ease both; }
+
+    /* Checklist items stagger */
+    .cl-item { animation: fadeUp .35s ease both; }
+    .cl-item:nth-child(1) { animation-delay: .03s; }
+    .cl-item:nth-child(2) { animation-delay: .07s; }
+    .cl-item:nth-child(3) { animation-delay: .11s; }
+    .cl-item:nth-child(4) { animation-delay: .15s; }
+    .cl-item:nth-child(5) { animation-delay: .19s; }
+    .cl-item:nth-child(6) { animation-delay: .23s; }
+    .cl-item:nth-child(7) { animation-delay: .27s; }
+    .cl-item:nth-child(8) { animation-delay: .31s; }
+    .cl-item:nth-child(9) { animation-delay: .35s; }
+
+    /* Toggle switch smooth animation */
+    .cl-toggle { transition: background .3s, border-color .3s; }
+    .cl-toggle::after { transition: left .25s cubic-bezier(.4,0,.2,1), background .25s; }
+
+    /* Checklist body slide open */
+    .checklist-body { animation: fadeIn .25s ease both; }
+
+    /* History table rows */
+    .tbl tbody tr { transition: background .15s; }
+
+    /* Buttons */
+    .btn-accent, .btn-add { transition: opacity .15s, transform .1s; }
+    .btn-accent:active, .btn-add:active { transform: scale(.97); }
+    .btn-save:active { transform: scale(.98); }
+
+    /* Master cards fade up stagger */
+    .master-cards .mc:nth-child(1) { animation: fadeUp .4s ease .1s both; }
+    .master-cards .mc:nth-child(2) { animation: fadeUp .4s ease .17s both; }
+    .master-cards .mc:nth-child(3) { animation: fadeUp .4s ease .24s both; }
+    .master-cards .mc:nth-child(4) { animation: fadeUp .4s ease .31s both; }
+
+    @media(max-width:1100px){
+      .cards { grid-template-columns:repeat(3,1fr); }
+    }
+    @media(max-width:900px){
+      .cards { grid-template-columns:repeat(3,1fr); }
+      .main-grid { grid-template-columns:1fr; }
+      .master-cards { grid-template-columns:repeat(2,1fr); }
+      .fx-sep { display:none; }
+    }
+    @media(max-width:520px){
+      .cards { grid-template-columns:1fr 1fr; }
+      header { padding:12px 14px; }
+      .container { padding:16px 12px; }
+      .fx-rate-wrap { margin-left:0; }
+      .cl-note { width: 110px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- MODAL -->
+<div class="overlay" id="overlay">
+  <div class="modal">
+    <h2>Add New Month</h2>
+    <div class="mf"><label>Year</label><select id="mYear"></select></div>
+    <div class="mf">
+      <label>Month</label>
+      <select id="mMonth">
+        <option value="01">January</option><option value="02">February</option>
+        <option value="03">March</option><option value="04">April</option>
+        <option value="05">May</option><option value="06">June</option>
+        <option value="07">July</option><option value="08">August</option>
+        <option value="09">September</option><option value="10">October</option>
+        <option value="11">November</option><option value="12">December</option>
+      </select>
+    </div>
+    <div class="modal-btns">
+      <button class="btn-cancel" onclick="closeModal()">Cancel</button>
+      <button class="btn-confirm" onclick="confirmAdd()">Add Month</button>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <h1>Finance <span>Tracker</span> <span class="yr">2026</span></h1>
+  <div class="hdr-right">
+    <select class="month-sel" id="monthSel" onchange="switchMonth(this.value)"></select>
+    <button class="btn-accent" onclick="openModal()">+ New Month</button>
+    <button class="btn-ghost" onclick="exportData()">⬇ Export</button>
+    <button class="btn-ghost" onclick="$i('importFile').click()">⬆ Import</button>
+    <input type="file" id="importFile" accept=".json" style="display:none" onchange="importData(event)"/>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- OVERVIEW CARDS -->
+  <div class="sec-label" id="monthHeading">— Add a month to get started —</div>
+  <div class="cards">
+    <div class="card">
+      <div class="card-lbl">Income</div>
+      <div class="card-val cg" id="cIncome">$0.00</div>
+      <div class="card-sub">Monthly earnings</div>
+    </div>
+    <div class="card">
+      <div class="card-lbl">Savings</div>
+      <div class="card-val cb" id="cSaving">$0.00</div>
+      <div class="card-sub">Set aside this month</div>
+    </div>
+    <div class="card">
+      <div class="card-lbl">Mandatory Expenses</div>
+      <div class="card-val cy" id="cMandatory">$0.00</div>
+      <div class="card-sub">Fixed monthly costs</div>
+    </div>
+    <div class="card">
+      <div class="card-lbl">Daily Expenses</div>
+      <div class="card-val cr" id="cDaily">$0.00</div>
+      <div class="card-sub">Logged transactions</div>
+    </div>
+    <div class="card hi">
+      <div class="card-lbl">Balance</div>
+      <div class="card-val" id="cBalance">$0.00</div>
+      <div class="card-sub" id="cBalanceSub">Income − Mandatory − Daily − Savings</div>
+    </div>
+  </div>
+
+  <!-- CURRENCY CONVERTER -->
+  <div class="fx-bar">
+    <div class="fx-title">Currency</div>
+    <!-- USD ↔ MYR -->
+    <div class="fx-pair">
+      <div class="fx-inputs">
+        <div class="fx-group"><label>USD</label>
+          <input id="fxUSD2" type="number" placeholder="0.00" min="0" step="0.01" oninput="calcFX('usd','fxUSD2','fxMYR','fxRateMYR')"/>
+        </div>
+        <div class="fx-divider">⇄</div>
+        <div class="fx-group"><label>MYR</label>
+          <input id="fxMYR" type="number" placeholder="0.00" min="0" step="0.01" oninput="calcFX('rmb','fxUSD2','fxMYR','fxRateMYR')"/>
+        </div>
+      </div>
+      <div class="fx-rate-wrap">
+        <label>1 USD =</label>
+        <input id="fxRateMYR" type="number" min="0" step="0.0001" title="USD→MYR rate" onchange="saveRateMYR()"/>
+        <label>MYR</label>
+      </div>
+    </div>
+    <div class="fx-sep"></div>
+    <!-- RMB ↔ USD -->
+    <div class="fx-pair">
+      <div class="fx-inputs">
+        <div class="fx-group"><label>RMB</label>
+          <input id="fxRMB" type="number" placeholder="0.00" min="0" step="0.01" oninput="calcFX('rmb','fxUSD','fxRMB','fxRate')"/>
+        </div>
+        <div class="fx-divider">⇄</div>
+        <div class="fx-group"><label>USD</label>
+          <input id="fxUSD" type="number" placeholder="0.00" min="0" step="0.01" oninput="calcFX('usd','fxUSD','fxRMB','fxRate')"/>
+        </div>
+      </div>
+      <div class="fx-rate-wrap">
+        <label>1 USD =</label>
+        <input id="fxRate" type="number" min="0" step="0.0001" title="USD→RMB rate" onchange="saveRate()"/>
+        <label>RMB</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- MAIN GRID -->
+  <div class="main-grid">
+
+    <!-- LEFT -->
+    <div class="left-col">
+
+      <!-- MONTHLY SETUP -->
+      <div class="panel">
+        <div class="panel-title">Monthly Setup</div>
+        <div style="margin-bottom:12px;">
+          <div style="font-size:.73rem;color:var(--muted);margin-bottom:7px;">INCOME ($)</div>
+          <input id="sIncome" type="number" placeholder="0.00" min="0" step="0.01"
+            style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;color:var(--text);padding:9px 12px;font-size:1rem;font-weight:700;outline:none;width:100%;transition:border-color .2s,box-shadow .2s;"
+            oninput="liveIncome(this.value)"
+            onfocus="this.style.borderColor='var(--accent)';this.style.boxShadow='0 0 0 3px rgba(253,105,105,0.15)'"
+            onblur="this.style.borderColor='var(--border)';this.style.boxShadow='none'"/>
+        </div>
+        <div style="margin-bottom:12px;">
+          <div style="font-size:.73rem;color:var(--muted);margin-bottom:7px;">SAVINGS ($)</div>
+          <input id="sSaving" type="number" placeholder="0.00" min="0" step="0.01"
+            style="background:var(--surface2);border:1px solid var(--border);border-radius:8px;color:var(--blue);padding:9px 12px;font-size:1rem;font-weight:700;outline:none;width:100%;transition:border-color .2s,box-shadow .2s;"
+            oninput="liveSaving(this.value)"
+            onfocus="this.style.borderColor='var(--blue)';this.style.boxShadow='0 0 0 3px rgba(96,165,250,0.15)'"
+            onblur="this.style.borderColor='var(--border)';this.style.boxShadow='none'"/>
+        </div>
+        <div style="font-size:.73rem;color:var(--muted);margin-bottom:9px;text-transform:uppercase;letter-spacing:.8px;">Mandatory Expenses</div>
+        <div class="mand-list" id="mandList"></div>
+        <div class="mand-total">Total mandatory: <span id="mandTotalAmt">$0.00</span></div>
+        <button class="btn-save" onclick="saveSetup()">Save Month Setup</button>
+      </div>
+
+      <!-- DAILY EXPENSES LOG -->
+      <div class="panel">
+        <div class="panel-title">Daily Expenses Log</div>
+        <div class="tx-scroll">
+          <div class="tx-list" id="txList"><div class="empty">No transactions yet.</div></div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- RIGHT -->
+    <div class="right-col">
+
+      <!-- MONTHLY DIARY -->
+      <div class="diary-panel">
+        <div class="diary-header">
+          <span class="diary-icon">📓</span>
+          <div>
+            <div class="diary-title">Monthly Notes</div>
+            <div class="diary-sub">Your private corner · <span id="noteSaved" class="diary-saved"></span></div>
+          </div>
+        </div>
+        <textarea id="monthNote" class="diary-area" placeholder="Write anything worth remembering this month — goals, wins, reminders, thoughts..." onblur="saveMonthNote()" oninput="$i('noteSaved').textContent=''"></textarea>
+      </div>
+
+      <!-- CHART -->
+      <div class="panel">
+        <div class="panel-title">Spending by Category</div>
+        <div class="chart-wrap"><canvas id="chart"></canvas></div>
+      </div>
+
+      <!-- ADD EXPENSE -->
+      <div class="panel">
+        <div class="panel-title">Add Daily Expense</div>
+        <div class="add-form">
+          <div>
+            <label>Description</label>
+            <input id="txDesc" type="text" placeholder="e.g. Lunch"/>
+          </div>
+          <div class="form-row">
+            <div>
+              <label>Amount ($)</label>
+              <input id="txAmt" type="number" placeholder="0.00" min="0" step="0.01"/>
+            </div>
+            <div>
+              <label>Category</label>
+              <select id="txCat">
+                <option>Food</option><option>Transport</option><option>Shopping</option>
+                <option>Entertainment</option><option>Health</option><option>Utilities</option><option>Other</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <label>Date</label>
+            <input id="txDate" type="date"/>
+          </div>
+          <button class="btn-add" onclick="addTx()">Add Expense</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- PAYMENT CHECKLIST -->
+  <div class="checklist-panel">
+    <div class="checklist-header" onclick="toggleChecklist()">
+      <div class="checklist-htitle">Monthly Payment Checklist</div>
+      <div style="display:flex;align-items:center;gap:10px;">
+        <span class="checklist-badge" id="clBadge">0 / 9 paid</span>
+        <span class="chevron" id="clChevron">▼</span>
+      </div>
+    </div>
+    <div class="checklist-body" id="clBody" style="display:none;">
+      <div class="cl-grid" id="clGrid"></div>
+    </div>
+  </div>
+
+  <!-- MASTER SUMMARY -->
+  <div class="master">
+    <div class="master-title">Master Summary — All Time</div>
+    <div class="master-cards">
+      <div class="mc"><div class="mc-lbl">Total Earned</div><div class="mc-val cg" id="mEarned">$0.00</div></div>
+      <div class="mc"><div class="mc-lbl">Total Mandatory</div><div class="mc-val cy" id="mMandatory">$0.00</div></div>
+      <div class="mc"><div class="mc-lbl">Total Daily Spent</div><div class="mc-val cr" id="mSpent">$0.00</div></div>
+      <div class="mc"><div class="mc-lbl">Total Saved</div><div class="mc-val" id="mSaved">$0.00</div></div>
+    </div>
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Month</th><th>Income</th><th>Mandatory</th><th>Daily Spent</th><th>Balance</th>
+        </tr>
+      </thead>
+      <tbody id="histBody"></tbody>
+    </table>
+  </div>
+
+</div>
+
+<script>
+  // ── CONSTANTS ─────────────────────────────────────────────────────────
+  const ML = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const ICONS = { Food:'🍔', Transport:'🚗', Shopping:'🛍️', Entertainment:'🎮', Health:'💊', Utilities:'⚡', Other:'💰' };
+  const COLORS = ['#FD6969','#ff9a9a','#e05555','#ffb3b3','#c94444','#ff8a80','#d46060'];
+
+  const CL_ITEMS = ['China SIM Card','Umobile','BOC','UOB','BOA','Tmobile','MBB','AffinBank','UMEI Salary'];
+
+  const DEFAULT_MANDATORY = [
+    { name:'Phone Bill',   amt:58,  checked:true  },
+    { name:'Amazon Prime', amt:15,  checked:true  },
+    { name:'Amazon Fresh', amt:10,  checked:true  },
+    { name:'Insurance',    amt:100, checked:true  },
+    { name:'Other',        amt:20,  checked:true  },
+    { name:'Car Loan',     amt:0,   checked:false },
+    { name:'Family',       amt:0,   checked:false },
+  ];
+
+  // ── STATE ─────────────────────────────────────────────────────────────
+  let db  = JSON.parse(localStorage.getItem('ft3') || '{}');
+  let cfg = JSON.parse(localStorage.getItem('ft3_cfg') || JSON.stringify({ rate: 7.25, rateMYR: 4.47, rateCNYMYR: 0.62 }));
+  let current = null;
+  let chartInst = null;
+  let clOpen = false;
+
+  const save    = () => localStorage.setItem('ft3',     JSON.stringify(db));
+  const saveCfg = () => localStorage.setItem('ft3_cfg', JSON.stringify(cfg));
+  const $i = id => document.getElementById(id);
+  const fmt  = n => '$' + Math.abs(n).toFixed(2).replace(/\B(?=(\d{3})+(?!\d))/g,',');
+  const fmtS = n => (n < 0 ? '-' : '') + fmt(n);
+  const mlabel = k => { const [y,m]=k.split('-'); return ML[+m-1]+' '+y; };
+  const sorted = () => Object.keys(db).sort().reverse();
+  const fmtDate = d => { const [y,m,day]=d.split('-'); return new Date(y,m-1,day).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'}); };
+
+  // Name migrations: old name → new name
+  const NAME_REMAP = { 'SIMUS':'Phone Bill', 'AmazonPrime':'Amazon Prime' };
+
+  function getM(k) {
+    if (!db[k]) db[k] = { income:0, mandatory: DEFAULT_MANDATORY.map(x=>({...x})), txs:[], checklist:{}, note:'' };
+    if (!db[k].mandatory) db[k].mandatory = DEFAULT_MANDATORY.map(x=>({...x}));
+    if (!db[k].checklist) db[k].checklist = {};
+    if (db[k].note === undefined) db[k].note = '';
+    // Migrate Saving from mandatory list to dedicated saving field
+    if (db[k].saving === undefined) {
+      const savIdx = db[k].mandatory ? db[k].mandatory.findIndex(x => x.name === 'Saving') : -1;
+      if (savIdx >= 0) {
+        const s = db[k].mandatory[savIdx];
+        db[k].saving = s.checked ? s.amt : 0;
+        db[k].mandatory.splice(savIdx, 1);
+      } else {
+        db[k].saving = 0;
+      }
+    }
+    // Migrate old names
+    db[k].mandatory.forEach(x => {
+      if (NAME_REMAP[x.name]) x.name = NAME_REMAP[x.name];
+      if (x.checked === undefined) x.checked = true;
+    });
+    // Add any missing default items (new ones added later)
+    const existingNames = db[k].mandatory.map(x=>x.name);
+    DEFAULT_MANDATORY.forEach(def => {
+      if (!existingNames.includes(def.name)) db[k].mandatory.push({...def});
+    });
+    // Apply default amounts if still 0 and item matches a default
+    db[k].mandatory.forEach(x => {
+      if (x.amt === 0) {
+        const def = DEFAULT_MANDATORY.find(d=>d.name===x.name);
+        if (def && def.amt > 0) x.amt = def.amt;
+      }
+    });
+    CL_ITEMS.forEach(n => { if (!db[k].checklist[n]) db[k].checklist[n] = { paid:false, note:'' }; });
+    return db[k];
+  }
+
+  // ── CURRENCY ──────────────────────────────────────────────────────────
+  function initFX() {
+    $i('fxRateMYR').value = cfg.rateMYR || 4.47;
+    $i('fxRate').value    = cfg.rate    || 7.25;
+  }
+  function saveRate()    { cfg.rate    = parseFloat($i('fxRate').value)    || 7.25; saveCfg(); }
+  function saveRateMYR() { cfg.rateMYR = parseFloat($i('fxRateMYR').value) || 4.47; saveCfg(); }
+  function calcFX(dir, aId, bId, rateId) {
+    const rate = parseFloat($i(rateId).value) || 1;
+    if (dir === 'usd') {
+      const v = parseFloat($i(aId).value);
+      $i(bId).value = isNaN(v) ? '' : (v * rate).toFixed(2);
+    } else {
+      const v = parseFloat($i(bId).value);
+      $i(aId).value = isNaN(v) ? '' : (v / rate).toFixed(2);
+    }
+  }
+
+  // ── MONTH SELECTOR ────────────────────────────────────────────────────
+  function refreshSel() {
+    const sel = $i('monthSel'), prev = sel.value, ms = sorted();
+    sel.innerHTML = ms.length
+      ? ms.map(k=>`<option value="${k}">${mlabel(k)}</option>`).join('')
+      : '<option value="">No months yet</option>';
+    if (prev && ms.includes(prev)) sel.value = prev;
+    else if (ms.length) sel.value = ms[0];
+  }
+
+  function switchMonth(key) {
+    current = key || null;
+    if (!key || !db[key]) { renderEmpty(); return; }
+    const m = getM(key);
+    $i('monthHeading').textContent = mlabel(key).toUpperCase();
+    $i('sIncome').value = m.income || '';
+    $i('sSaving').value = m.saving || '';
+    $i('txDate').valueAsDate = new Date();
+    $i('monthNote').value = m.note || '';
+    $i('noteSaved').textContent = '';
+    renderMandList(m);
+    render();
+  }
+
+  function renderEmpty() {
+    $i('monthHeading').textContent = '— ADD A MONTH TO GET STARTED —';
+    ['cIncome','cSaving','cMandatory','cDaily','cBalance'].forEach(id => $i(id).textContent='$0.00');
+    $i('txList').innerHTML = '<div class="empty">No month selected.</div>';
+    $i('monthNote').value = '';
+    $i('clGrid').innerHTML = '';
+    $i('clBadge').textContent = '0 / '+CL_ITEMS.length+' paid';
+    $i('clBadge').className = 'checklist-badge';
+  }
+
+  // ── MANDATORY ITEMS ───────────────────────────────────────────────────
+  function renderMandList(m) {
+    const total = m.mandatory.filter(x=>x.checked).reduce((s,x)=>s+x.amt,0);
+    $i('mandTotalAmt').textContent = fmt(total);
+    $i('mandList').innerHTML = m.mandatory.map((x,i)=>`
+      <div class="mand-row" id="mrow-${i}" style="opacity:${x.checked?1:0.45}">
+        <label class="mand-cb-wrap" title="${x.checked?'Uncheck to exclude':'Check to include'}">
+          <input type="checkbox" class="mand-cb" ${x.checked?'checked':''} onchange="toggleMandCheck(${i},this.checked)"/>
+          <span class="mand-cb-box"></span>
+        </label>
+        <div class="mand-name" style="text-decoration:${x.checked?'none':'line-through'}">${x.name}</div>
+        <input class="mand-input" type="number" value="${x.amt||''}" placeholder="0.00"
+          min="0" step="0.01" oninput="updateMandAmt(${i},this.value)"
+          onfocus="this.style.borderColor='var(--accent)'" onblur="this.style.borderColor='var(--border)'"/>
+        <span class="mand-fixed" style="color:${x.checked?'var(--yellow)':'var(--muted)'}">
+          ${x.checked?'-'+fmt(x.amt):'—'}
+        </span>
+      </div>`).join('');
+  }
+
+  function toggleMandCheck(i, checked) {
+    if (!current) return;
+    const m = getM(current);
+    m.mandatory[i].checked = checked;
+    save(); renderMandList(m); render(); renderMaster();
+  }
+
+  function updateMandAmt(i, val) {
+    if (!current) return;
+    const m = getM(current);
+    m.mandatory[i].amt = parseFloat(val) || 0;
+    save(); render(); renderMaster();
+    const total = m.mandatory.filter(x=>x.checked).reduce((s,x)=>s+x.amt,0);
+    $i('mandTotalAmt').textContent = fmt(total);
+    // refresh the fixed label for this row
+    const fixedEl = document.querySelector(`#mrow-${i} .mand-fixed`);
+    if (fixedEl) fixedEl.textContent = m.mandatory[i].checked ? '-'+fmt(m.mandatory[i].amt) : '—';
+  }
+
+  // ── LIVE INCOME / SAVING UPDATE ───────────────────────────────────────
+  function liveIncome(val) {
+    if (!current) return;
+    getM(current).income = parseFloat(val) || 0;
+    save(); render(); renderMaster();
+  }
+  function liveSaving(val) {
+    if (!current) return;
+    getM(current).saving = parseFloat(val) || 0;
+    save(); render(); renderMaster();
+  }
+
+  // ── SETUP SAVE ────────────────────────────────────────────────────────
+  function saveSetup() {
+    if (!current) { alert('Select or add a month first.'); return; }
+    const m = getM(current);
+    m.income = parseFloat($i('sIncome').value) || 0;
+    m.saving = parseFloat($i('sSaving').value) || 0;
+    // mandatory already updated live via updateMandAmt
+    save(); render(); renderMaster();
+  }
+
+  // ── TRANSACTIONS ──────────────────────────────────────────────────────
+  function addTx() {
+    if (!current) { alert('Select or add a month first.'); return; }
+    const desc = $i('txDesc').value.trim();
+    const amt  = parseFloat($i('txAmt').value);
+    const cat  = $i('txCat').value;
+    const date = $i('txDate').value;
+    if (!desc || isNaN(amt) || amt<=0 || !date) { alert('Please fill all fields.'); return; }
+    const m = getM(current);
+    m.txs.unshift({ id:Date.now(), desc, amt, cat, date });
+    save();
+    $i('txDesc').value = '';
+    $i('txAmt').value  = '';
+    render(); renderMaster();
+  }
+
+  function delTx(id) {
+    if (!current) return;
+    getM(current).txs = getM(current).txs.filter(t=>t.id!==id);
+    save(); render(); renderMaster();
+  }
+
+  // ── RENDER MONTH ──────────────────────────────────────────────────────
+  function render() {
+    if (!current || !db[current]) return;
+    const m    = getM(current);
+    const mand   = m.mandatory.filter(x=>x.checked).reduce((s,x)=>s+x.amt,0);
+    const daily  = m.txs.reduce((s,t)=>s+t.amt,0);
+    const saving = m.saving || 0;
+    const bal    = m.income - mand - daily - saving;
+
+    $i('cIncome').textContent    = fmt(m.income);
+    $i('cSaving').textContent    = fmt(saving);
+    $i('cMandatory').textContent = fmt(mand);
+    $i('cDaily').textContent     = fmt(daily);
+    const be = $i('cBalance');
+    be.textContent = fmtS(bal);
+    be.className   = 'card-val ' + (bal>=0?'cg':'cr');
+    $i('cBalanceSub').textContent = bal>=0 ? 'You are on track ✓' : 'Overspent!';
+
+    // TX list
+    const list = $i('txList');
+    list.innerHTML = m.txs.length
+      ? m.txs.map(t=>`
+          <div class="tx-item">
+            <div class="tx-left">
+              <div class="tx-icon">${ICONS[t.cat]||'💰'}</div>
+              <div>
+                <div class="tx-name">${t.desc}</div>
+                <div class="tx-meta">${t.cat} · ${fmtDate(t.date)}</div>
+              </div>
+            </div>
+            <div class="tx-right">
+              <span class="tx-amt">-${fmt(t.amt)}</span>
+              <button class="del" onclick="delTx(${t.id})">✕</button>
+            </div>
+          </div>`).join('')
+      : '<div class="empty">No daily expenses yet.<br>Add one on the right.</div>';
+
+    // Chart
+    const cats={};
+    m.txs.forEach(t=>{ cats[t.cat]=(cats[t.cat]||0)+t.amt; });
+    const labels=Object.keys(cats), values=Object.values(cats);
+    if (chartInst) chartInst.destroy();
+    const ctx=$i('chart').getContext('2d');
+    if (!labels.length) {
+      ctx.clearRect(0,0,ctx.canvas.width,ctx.canvas.height);
+      ctx.fillStyle='#555'; ctx.font='13px Segoe UI'; ctx.textAlign='center';
+      ctx.fillText('No spending yet', ctx.canvas.width/2, ctx.canvas.height/2);
+      chartInst=null;
+    } else {
+      chartInst = new Chart(ctx,{
+        type:'doughnut',
+        data:{ labels, datasets:[{ data:values, backgroundColor:COLORS.slice(0,labels.length), borderWidth:0, hoverOffset:5 }]},
+        options:{
+          responsive:true, maintainAspectRatio:false,
+          plugins:{
+            legend:{ position:'bottom', labels:{ color:'#888', font:{size:11}, boxWidth:10, padding:8 }},
+            tooltip:{ callbacks:{ label:c=>` ${c.label}: ${fmt(c.raw)}` }}
+          }
+        }
+      });
+    }
+
+    // Checklist
+    renderChecklist(m);
+  }
+
+  // ── CHECKLIST ─────────────────────────────────────────────────────────
+  function toggleChecklist() {
+    clOpen = !clOpen;
+    $i('clBody').style.display   = clOpen ? 'block' : 'none';
+    $i('clChevron').className    = 'chevron' + (clOpen ? ' open' : '');
+  }
+
+  function renderChecklist(m) {
+    const paid = CL_ITEMS.filter(n=>m.checklist[n]?.paid).length;
+    const badge = $i('clBadge');
+    badge.textContent = `${paid} / ${CL_ITEMS.length} paid`;
+    badge.className   = 'checklist-badge' + (paid===CL_ITEMS.length ? ' done' : '');
+
+    $i('clGrid').innerHTML = CL_ITEMS.map(name=>{
+      const item = m.checklist[name];
+      return `
+        <div class="cl-item">
+          <div class="cl-top">
+            <div class="cl-name">${name}</div>
+            <div class="cl-toggle${item.paid?' paid':''}" onclick="togglePaid('${name}')" title="Toggle paid"></div>
+          </div>
+          <div style="font-size:.68rem;color:${item.paid?'var(--green)':'var(--muted)'}">
+            ${item.paid?'✓ Paid':'Not paid'}
+          </div>
+          <textarea class="cl-note" rows="2" placeholder="Note..."
+            onchange="saveNote('${name}',this.value)">${item.note||''}</textarea>
+        </div>`;
+    }).join('');
+  }
+
+  function togglePaid(name) {
+    if (!current) return;
+    const m = getM(current);
+    m.checklist[name].paid = !m.checklist[name].paid;
+    save(); renderChecklist(m);
+  }
+
+  function saveNote(name, val) {
+    if (!current) return;
+    getM(current).checklist[name].note = val;
+    save();
+  }
+
+  // ── MASTER SUMMARY ────────────────────────────────────────────────────
+  function renderMaster() {
+    const ms=sorted(); let earned=0, mandatory=0, spent=0;
+    const rows=ms.map(k=>{
+      const m=getM(k);
+      const mand   = m.mandatory.filter(x=>x.checked).reduce((s,x)=>s+x.amt,0);
+      const daily  = m.txs.reduce((s,t)=>s+t.amt,0);
+      const saving = m.saving || 0;
+      const bal    = m.income - mand - daily - saving;
+      earned+=m.income; mandatory+=mand; spent+=daily;
+      return {k,m,mand,daily,bal};
+    });
+    const saved=earned-mandatory-spent;
+    $i('mEarned').textContent    = fmt(earned);
+    $i('mMandatory').textContent = fmt(mandatory);
+    $i('mSpent').textContent     = fmt(spent);
+    const sv=$i('mSaved');
+    sv.textContent = fmtS(saved);
+    sv.className   = 'mc-val '+(saved>=0?'cg':'cr');
+
+    $i('histBody').innerHTML = rows.length
+      ? rows.map(({k,m,mand,daily,bal})=>`
+          <tr onclick="jumpTo('${k}')">
+            <td style="font-weight:600">${mlabel(k)}</td>
+            <td class="cg">${fmt(m.income)}</td>
+            <td class="cy">${fmt(mand)}</td>
+            <td class="cr">${fmt(daily)}</td>
+            <td><span class="pill ${bal>=0?'pos':'neg'}">${fmtS(bal)}</span></td>
+          </tr>`).join('')
+      : '<tr><td colspan="5" style="text-align:center;color:var(--muted);padding:22px">No months yet.</td></tr>';
+  }
+
+  function jumpTo(key) {
+    $i('monthSel').value = key;
+    switchMonth(key);
+    window.scrollTo({top:0,behavior:'smooth'});
+  }
+
+  // ── MODAL ─────────────────────────────────────────────────────────────
+  function openModal() {
+    const ysel=$i('mYear'), now=new Date();
+    ysel.innerHTML='';
+    for (let y=now.getFullYear()+1;y>=2020;y--)
+      ysel.innerHTML+=`<option value="${y}"${y===now.getFullYear()?' selected':''}>${y}</option>`;
+    $i('mMonth').value=String(now.getMonth()+1).padStart(2,'0');
+    $i('overlay').classList.add('open');
+  }
+  function closeModal(){ $i('overlay').classList.remove('open'); }
+  function confirmAdd(){
+    const key=`${$i('mYear').value}-${$i('mMonth').value}`;
+    if (!db[key]) {
+      // Copy mandatory amounts from most recent existing month
+      const ms=sorted();
+      const template = ms.length ? getM(ms[0]).mandatory.map(x=>({...x})) : DEFAULT_MANDATORY.map(x=>({...x}));
+      db[key]={ income:0, mandatory:template, txs:[], checklist:{} };
+    }
+    save(); closeModal(); refreshSel();
+    $i('monthSel').value=key;
+    switchMonth(key); renderMaster();
+  }
+  $i('overlay').addEventListener('click',e=>{ if(e.target===$i('overlay')) closeModal(); });
+
+  // ── EXPORT / IMPORT ───────────────────────────────────────────────────
+  function exportData(){
+    const blob=new Blob([JSON.stringify({db,cfg},null,2)],{type:'application/json'});
+    const a=document.createElement('a');
+    a.href=URL.createObjectURL(blob); a.download='finance-tracker-backup.json'; a.click();
+    URL.revokeObjectURL(a.href);
+  }
+  function importData(e){
+    const file=e.target.files[0]; if(!file) return;
+    const reader=new FileReader();
+    reader.onload=ev=>{
+      try{
+        const p=JSON.parse(ev.target.result);
+        if(p.db) db=p.db; else db=p;
+        if(p.cfg) cfg=p.cfg;
+        save(); saveCfg(); initFX();
+        refreshSel(); renderMaster();
+        const ms=sorted();
+        if(ms.length){ current=ms[0]; $i('monthSel').value=current; switchMonth(current); }
+        else renderEmpty();
+        alert('Data imported successfully!');
+      } catch{ alert('Invalid backup file.'); }
+    };
+    reader.readAsText(file); e.target.value='';
+  }
+
+  // ── MONTH NOTE ────────────────────────────────────────────────────────
+  function saveMonthNote() {
+    if (!current) return;
+    getM(current).note = $i('monthNote').value;
+    save();
+    $i('noteSaved').textContent = 'Saved ✓';
+    setTimeout(()=>{ $i('noteSaved').textContent=''; }, 2000);
+  }
+
+  // ── BOOT ──────────────────────────────────────────────────────────────
+  initFX();
+  refreshSel(); renderMaster();
+  const ms=sorted();
+  if(ms.length){ current=ms[0]; $i('monthSel').value=current; switchMonth(current); }
+  else renderEmpty();
+  $i('txDate').valueAsDate=new Date();
+</script>
+</body>
+</html>
