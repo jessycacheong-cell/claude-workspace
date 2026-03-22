@@ -32,8 +32,10 @@ function fetchGorgias() {
     };
     const req = https.request(options, res => {
       let raw = '';
+      console.log(`📡 Gorgias API status: ${res.statusCode}`);
       res.on('data', c => raw += c);
       res.on('end', () => {
+        console.log(`📦 Raw response (first 500 chars): ${raw.slice(0,500)}`);
         try { resolve(JSON.parse(raw)); }
         catch(e) { reject(new Error(`Parse error: ${raw.slice(0,200)}`)); }
       });
