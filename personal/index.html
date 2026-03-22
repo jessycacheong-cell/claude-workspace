@@ -698,7 +698,7 @@
     <div class="bc-label">Build Streak</div>
     <div class="streak-card-inner">
       <span class="streak-fire">🔥</span>
-      <div class="streak-num" id="streak-num">0</div>
+      <div class="streak-num" id="streak-num">1</div>
       <div class="streak-label">Day Streak · Building</div>
       <div class="streak-sub" id="streak-sub">Just getting started!</div>
       <div class="streak-best" id="streak-best">Best: 1 day</div>
@@ -1217,7 +1217,7 @@ function streakConfetti(){
 }
 function initStreak(){
   // Streak is manually updated — only changes when a build milestone is confirmed
-  const d={streak:0,best:0,milestonesSeen:[]};
+  const d={streak:1,best:1,milestonesSeen:[]};
   const isNewDay=false;
   let isNewRecord=false;
   // Check if we just hit a new tier milestone
