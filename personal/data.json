@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-21T00:04:20.871Z",
+  "lastUpdated": "2026-03-22T20:32:00.000Z",
   "stats": {
-    "mcpAgents": 6,
-    "automationsRunning": 4,
+    "mcpAgents": 7,
+    "automationsRunning": 2,
     "currentMilestone": "M1"
   },
   "milestones": [
@@ -53,47 +53,39 @@
     }
   },
   "agenda": [],
-  "vibe": "Mar 21 — Cloud migration complete. MilestoneBot live. You shipped something real today.",
+  "vibe": "Mar 22 — InboxBot is live. Gmail + Gorgias wired into the dashboard. You built a real automation pipeline today.",
   "lastSession": {
-    "date": "March 21, 2026",
-    "summary": "Moved the entire Command Center to the cloud. Learned the difference between local and cloud files. Deployed dashboard to Netlify. Set up MilestoneBot on GitHub Actions — now runs automatically at 9AM daily without Claude or laptop. Learned how API tokens work and why GitHub Actions needs its own key."
+    "date": "March 22, 2026",
+    "summary": "Big infrastructure day. Built InboxBot — a GitHub Actions bot that fetches Gorgias support tickets every 30 minutes automatically. Added Inbox Snapshot card to the dashboard showing Gmail + Gorgias side by side. Deployed Finance Tracker to Netlify and connected it to Google Sheet. Added Google Calendar to Quick Launch. Rearranged dashboard by priority. Updated both CLAUDE.md files with all new connections. Learned the difference between Google Tasks and Calendar events. Gorgias sync is live but showing 0 tickets — likely all tickets are closed. Will debug next session."
   },
   "nextSession": [
     {
       "id": 1,
-      "text": "Auto-refresh hook — Gmail + Calendar on Claude open",
+      "text": "Fix Gorgias sync — tickets exist but showing 0 (likely status filter issue)",
       "priority": "high",
-      "status": "next"
+      "status": "next",
+      "done": false
     },
     {
       "id": 2,
-      "text": "MilestoneBot dynamic — read milestones from Notion automatically",
+      "text": "Revamp dashboard UI — cleaner layout, better visuals",
       "priority": "high",
-      "status": "queued"
+      "status": "queued",
+      "done": false
     },
     {
       "id": 3,
       "text": "GitBot — GitHub activity → dashboard",
       "priority": "medium",
-      "status": "queued"
+      "status": "queued",
+      "done": false
     },
     {
       "id": 4,
-      "text": "WrapBot — daily summary via Claude API",
+      "text": "Klaviyo snapshot — show email stats on dashboard",
       "priority": "medium",
-      "status": "queued"
-    },
-    {
-      "id": 5,
-      "text": "LogBot — session log to Notion",
-      "priority": "medium",
-      "status": "queued"
-    },
-    {
-      "id": 6,
-      "text": "Add Finance Tracker URL to Quick Launch card",
-      "priority": "low",
-      "status": "queued"
+      "status": "queued",
+      "done": false
     }
   ],
   "inbox": {
@@ -170,35 +162,28 @@
     ],
     "gorgiasUpdated": "2026-03-22T22:08:03.399Z"
   },
-  "todayLog": "🎉 Mar 21 — Massive session. Moved the Command Center fully to the cloud, deployed to Netlify, and launched MilestoneBot on GitHub Actions. First fully automated cloud bot running. You shipped something real today.",
+  "todayLog": "🎉 Mar 22 — InboxBot shipped. Gmail + Gorgias live in the dashboard. Finance Tracker deployed. Dashboard rearranged by priority. CLAUDE.md fully updated. Solid automation day — you built real infrastructure.",
   "automations": [
     {
       "name": "MilestoneBot",
-      "lastRun": "2026-03-21T00:04:20.873Z",
+      "lastRun": "2026-03-22T09:00:00.000Z",
       "status": "ok",
       "schedule": "9AM daily",
       "target": "Notion → data.json"
     },
     {
+      "name": "InboxBot",
+      "lastRun": "2026-03-22T22:05:24.936Z",
+      "status": "ok",
+      "schedule": "Every 30min",
+      "target": "Gorgias → data.json"
+    },
+    {
       "name": "GitBot",
       "lastRun": null,
-      "status": "ok",
+      "status": "pending",
       "schedule": "Every 6hrs",
       "target": "GitHub → data.json"
-    },
-    {
-      "name": "WrapBot",
-      "lastRun": null,
-      "status": "ok",
-      "schedule": "8PM daily",
-      "target": "personal/wraps/"
-    },
-    {
-      "name": "LogBot",
-      "lastRun": null,
-      "status": "ok",
-      "schedule": "8:10PM daily",
-      "target": "Notion"
     }
   ]
 }
