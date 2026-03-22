@@ -363,6 +363,12 @@
   .streak-dots { display:flex; gap:4px; margin-top:6px; }
   .streak-dot { width:8px; height:8px; border-radius:50%; background:rgba(255,140,66,.15); border:1px solid rgba(255,140,66,.2); transition:all .3s; }
   .streak-dot.filled { background:var(--amber); box-shadow:0 0 8px rgba(255,140,66,.6); border-color:var(--amber); }
+  .streak-badges { display:flex; gap:6px; margin-top:8px; flex-wrap:wrap; justify-content:center; }
+  .streak-badge { font-size:10px; font-weight:700; padding:2px 7px; border-radius:6px; background:rgba(255,140,66,.08); border:1px solid rgba(255,140,66,.15); color:rgba(255,140,66,.35); transition:all .4s; letter-spacing:.02em; }
+  .streak-badge.unlocked { background:rgba(255,140,66,.18); border-color:rgba(255,140,66,.5); color:var(--amber); box-shadow:0 0 10px rgba(255,140,66,.25); }
+  .streak-new-record { font-size:10px; font-weight:800; color:#fff; background:linear-gradient(90deg,#ff8c42,#ffd166); padding:2px 8px; border-radius:6px; letter-spacing:.06em; animation:newRecordFlash 1s ease-in-out infinite alternate; display:inline-block; margin-top:2px; }
+  @keyframes newRecordFlash { from{opacity:.7;transform:scale(1);} to{opacity:1;transform:scale(1.06);} }
+  #streak-confetti { position:fixed; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:9999; }
 
   /* ── MILESTONE COUNTDOWN ── */
   .cd-wrap { display:flex; flex-direction:column; gap:14px; }
@@ -864,8 +870,10 @@
       <div class="streak-sub" id="streak-sub">Just getting started!</div>
       <div class="streak-best" id="streak-best">Best: 1 day</div>
       <div class="streak-dots" id="streak-dots"></div>
+      <div class="streak-badges" id="streak-badges"></div>
     </div>
   </div>
+  <canvas id="streak-confetti" style="display:none;"></canvas>
 
   <div class="bc bc-8 fade-up" id="countdown-card">
     <div class="bc-label">Milestone Countdown</div>
@@ -1128,26 +1136,86 @@ function updateProdScore(){document.getElementById('prod-score').textContent='10
 function toggleRepo(id){document.getElementById(id).classList.toggle('open');}
 
 /* ── BUILD STREAK ── */
+const STREAK_TIERS=[
+  {days:7,  label:'7',  icon:'🔥', msg:'On fire!'},
+  {days:14, label:'14', icon:'💥', msg:'Unstoppable'},
+  {days:21, label:'21', icon:'⚡', msg:'Superhuman'},
+  {days:30, label:'30', icon:'🏆', msg:'Legend'},
+  {days:50, label:'50', icon:'🌟', msg:'Elite'},
+  {days:100,label:'100',icon:'💎', msg:'Diamond'},
+];
+function streakConfetti(){
+  const cv=document.getElementById('streak-confetti');
+  cv.style.display='block';
+  cv.width=window.innerWidth; cv.height=window.innerHeight;
+  const ctx=cv.getContext('2d');
+  const colors=['#FD6969','#4583fd','#ffd166','#ff8c42','#22d47a','#d4e5ff'];
+  const pts=Array.from({length:120},()=>({
+    x:Math.random()*cv.width, y:Math.random()*cv.height-cv.height,
+    vx:(Math.random()-0.5)*4, vy:Math.random()*4+2,
+    r:Math.random()*5+3, c:colors[Math.floor(Math.random()*colors.length)],
+    spin:Math.random()*0.2-0.1, angle:Math.random()*Math.PI*2
+  }));
+  let frame=0;
+  function draw(){
+    ctx.clearRect(0,0,cv.width,cv.height);
+    pts.forEach(p=>{
+      p.x+=p.vx; p.y+=p.vy; p.angle+=p.spin;
+      ctx.save(); ctx.translate(p.x,p.y); ctx.rotate(p.angle);
+      ctx.fillStyle=p.c; ctx.globalAlpha=Math.max(0,1-frame/140);
+      ctx.fillRect(-p.r,-p.r/2,p.r*2,p.r);
+      ctx.restore();
+    });
+    frame++;
+    if(frame<160) requestAnimationFrame(draw);
+    else{ ctx.clearRect(0,0,cv.width,cv.height); cv.style.display='none'; }
+  }
+  draw();
+}
 function initStreak(){
   const KEY='j-build-streak-v2';
   const today=new Date().toDateString();
-  let d=JSON.parse(localStorage.getItem(KEY)||'null')||{streak:0,lastDate:null,best:0};
-  if(d.lastDate===today){/* already counted */}
-  else{
+  let d=JSON.parse(localStorage.getItem(KEY)||'null')||{streak:0,lastDate:null,best:0,milestonesSeen:[]};
+  if(!d.milestonesSeen) d.milestonesSeen=[];
+  const isNewDay=d.lastDate!==today;
+  let isNewRecord=false;
+  if(isNewDay){
     const yest=new Date(); yest.setDate(yest.getDate()-1);
     d.streak=(d.lastDate===yest.toDateString())?d.streak+1:1;
     d.lastDate=today;
-    d.best=Math.max(d.best,d.streak);
+    if(d.streak>d.best){ d.best=d.streak; isNewRecord=true; }
     localStorage.setItem(KEY,JSON.stringify(d));
   }
+  // Check if we just hit a new tier milestone
+  const newTier=isNewDay&&STREAK_TIERS.find(t=>t.days===d.streak&&!d.milestonesSeen.includes(t.days));
+  if(newTier){ d.milestonesSeen.push(newTier.days); localStorage.setItem(KEY,JSON.stringify(d)); setTimeout(streakConfetti,400); }
+  // Labels
+  const tier=[...STREAK_TIERS].reverse().find(t=>d.streak>=t.days);
+  const msgs=[
+    [100,'Diamond Builder 💎'],[50,'Elite Builder 🌟'],[30,'Legend 🏆'],
+    [21,'Superhuman ⚡'],[14,'Unstoppable 💥'],[7,'On fire! 🔥'],
+    [3,'Keep it up!'],[0,'Just getting started!']
+  ];
+  const sub=(msgs.find(([n])=>d.streak>=n)||msgs[msgs.length-1])[1];
   document.getElementById('streak-num').textContent=d.streak;
-  document.getElementById('streak-best').textContent='Best: '+d.best+' day'+(d.best!==1?'s':'');
-  const sub=d.streak>=14?'Unstoppable 🚀':d.streak>=7?'On fire! 🔥':d.streak>=3?'Keep it up!':'Just getting started!';
   document.getElementById('streak-sub').textContent=sub;
-  const dots=document.getElementById('streak-dots');
+  // New record badge
+  const bestEl=document.getElementById('streak-best');
+  bestEl.innerHTML=`Best: ${d.best} day${d.best!==1?'s':''}${isNewRecord&&d.best>1?' <span class="streak-new-record">NEW RECORD</span>':''}`;
+  // Dots — show last 7
   const show=Math.min(d.streak,7);
-  dots.innerHTML=Array.from({length:7},(_,i)=>`<div class="streak-dot${i<show?' filled':''}"></div>`).join('');
-  if(d.streak>=5){const c=document.getElementById('streak-card');c.style.borderColor='rgba(255,140,66,.35)';c.style.boxShadow='0 0 40px rgba(255,140,66,.10)';}
+  document.getElementById('streak-dots').innerHTML=Array.from({length:7},(_,i)=>`<div class="streak-dot${i<show?' filled':''}"></div>`).join('');
+  // Milestone badges
+  document.getElementById('streak-badges').innerHTML=STREAK_TIERS.map(t=>{
+    const unlocked=d.streak>=t.days;
+    return `<span class="streak-badge${unlocked?' unlocked':''}" title="${t.msg} — ${t.days} day streak">${t.icon}${t.label}</span>`;
+  }).join('');
+  // Card glow intensity by tier
+  const card=document.getElementById('streak-card');
+  if(d.streak>=30)      { card.style.borderColor='rgba(255,209,102,.5)'; card.style.boxShadow='0 0 60px rgba(255,209,102,.18)'; }
+  else if(d.streak>=14) { card.style.borderColor='rgba(255,140,66,.45)'; card.style.boxShadow='0 0 50px rgba(255,140,66,.16)'; }
+  else if(d.streak>=7)  { card.style.borderColor='rgba(255,140,66,.35)'; card.style.boxShadow='0 0 40px rgba(255,140,66,.12)'; }
+  else if(d.streak>=5)  { card.style.borderColor='rgba(255,140,66,.25)'; card.style.boxShadow='0 0 30px rgba(255,140,66,.08)'; }
 }
 initStreak();
 
