@@ -1,0 +1,37 @@
+name: InboxBot — Gorgias Refresh
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # Every 30 minutes
+  workflow_dispatch:           # Manual trigger from GitHub UI
+
+jobs:
+  refresh-gorgias:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PERSONAL_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Fetch Gorgias tickets
+        env:
+          GORGIAS_API_KEY: ${{ secrets.GORGIAS_API_KEY }}
+          GORGIAS_EMAIL: ${{ secrets.GORGIAS_EMAIL }}
+        run: node personal/bots/gorgias-bot.js
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.email "bot@umei3d.com"
+          git config --global user.name "InboxBot"
+          git add personal/data.json
+          git diff --staged --quiet || git commit -m "InboxBot: refresh Gorgias tickets [skip ci]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_TOKEN }}

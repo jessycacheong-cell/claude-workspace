@@ -66,6 +66,19 @@
     { "id": 5, "text": "LogBot — session log to Notion", "priority": "medium", "status": "queued" },
     { "id": 6, "text": "Add Finance Tracker URL to Quick Launch card", "priority": "low", "status": "queued" }
   ],
+  "inbox": {
+    "lastUpdated": "2026-03-22T19:32:00.000Z",
+    "gmail": [
+      { "from": "Make", "subject": "From small steps to big wins 🥳", "time": "47m ago", "unread": true },
+      { "from": "Make", "subject": "Not sure where to start? Try these automations", "time": "1h ago", "unread": true },
+      { "from": "PayPal", "subject": "Receipt for Your Payment to Uber Eats", "time": "8h ago", "unread": true },
+      { "from": "SeeVee", "subject": "We found 15 opportunities worth your time", "time": "2h ago", "unread": true },
+      { "from": "Idealist", "subject": "2 new listings match your search on Idealist", "time": "2h ago", "unread": true }
+    ],
+    "gmailUpdated": "2026-03-22T19:32:00.000Z",
+    "gorgias": [],
+    "gorgiasUpdated": null
+  },
   "todayLog": "🎉 Mar 21 — Massive session. Moved the Command Center fully to the cloud, deployed to Netlify, and launched MilestoneBot on GitHub Actions. First fully automated cloud bot running. You shipped something real today.",
   "automations": [
     {
