@@ -170,6 +170,20 @@
   .badge-blue   { background:var(--blue-dim);   color:var(--blue); }
   .badge-red    { background:var(--red-dim);     color:var(--red); }
   .badge-gray   { background:rgba(255,255,255,0.05); color:var(--text-2); }
+
+  /* ── INBOX ── */
+  .inbox-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; height:calc(100% - 32px); }
+  .inbox-col { display:flex; flex-direction:column; gap:6px; }
+  .inbox-col-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:4px; }
+  .inbox-col-title { font-size:11px; font-weight:700; color:var(--text-2); text-transform:uppercase; letter-spacing:.06em; }
+  .inbox-item { display:flex; flex-direction:column; gap:2px; padding:8px 10px; border-radius:10px; background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.05); transition:background .15s; cursor:default; }
+  .inbox-item:hover { background:rgba(255,255,255,0.06); }
+  .inbox-from { font-size:10px; font-weight:700; color:var(--blue); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .inbox-subject { font-size:11px; color:var(--text-1); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:1.4; }
+  .inbox-meta { font-size:10px; color:var(--text-3); margin-top:1px; }
+  .inbox-empty { font-size:11px; color:var(--text-3); text-align:center; padding:20px 0; }
+  .inbox-gorgias .inbox-from { color:#22d47a; }
+  .inbox-updated { font-size:9px; color:var(--text-3); }
   .dot { width:6px; height:6px; border-radius:50%; background:currentColor; flex-shrink:0; }
   .pulse { animation:pulse 2s infinite; }
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
@@ -943,6 +957,27 @@
     </div>
   </div>
 
+  <!-- Inbox Snapshot -->
+  <div class="bc bc-8 fade-up" id="inbox-card">
+    <div class="bc-label">Inbox Snapshot</div>
+    <div class="inbox-grid">
+      <div class="inbox-col">
+        <div class="inbox-col-header">
+          <span class="inbox-col-title">📧 Gmail</span>
+          <span class="inbox-updated" id="gmail-updated">—</span>
+        </div>
+        <div id="gmail-list"><div class="inbox-empty">Loading...</div></div>
+      </div>
+      <div class="inbox-col inbox-gorgias">
+        <div class="inbox-col-header">
+          <span class="inbox-col-title">🎧 Gorgias — UMEI</span>
+          <span class="inbox-updated" id="gorgias-updated">—</span>
+        </div>
+        <div id="gorgias-list"><div class="inbox-empty">Loading...</div></div>
+      </div>
+    </div>
+  </div>
+
   <!-- Milestones -->
   <div class="bc bc-8 fade-up" id="milestones">
     <div class="bc-label">Active Milestones — UMEI3D Post-Purchase App <span class="pill-tag">5 milestones</span></div>
@@ -1443,8 +1478,34 @@ pomoRender();
 document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;if(e.key==='p'||e.key==='P'){pomoToggle();showToast(pomoRunning?'▶ Pomodoro started':'⏸ Pomodoro paused','info');}if(e.key==='t'||e.key==='T'){document.getElementById('todo')?.scrollIntoView({behavior:'smooth',block:'start'});showToast('📋 To-Do list','info');}if(e.key==='r'||e.key==='R'){loadData();showToast('🔄 Refreshing...','info');}if(e.key==='m'||e.key==='M')document.getElementById('milestones')?.scrollIntoView({behavior:'smooth',block:'start'});if(e.key==='n'||e.key==='N'){window.open('https://claude.ai','_blank');showToast('Opening Claude Notebook','info');}if(e.key==='Escape')window.scrollTo({top:0,behavior:'smooth'});});
 
 async function loadData(){try{const res=await fetch('https://raw.githubusercontent.com/jessycacheong-cell/claude-workspace/main/personal/data.json?t='+Date.now());if(!res.ok)throw new Error();const data=await res.json();renderData(data);const el=document.getElementById('last-sync');el.textContent='Live · '+new Date(data.lastUpdated).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});el.style.color='var(--green)';showToast('Dashboard refreshed','success');}catch{document.getElementById('last-sync').textContent='Live';updateProductivity(40);}}
-function renderData(data){if(data.stats){setEl('stat-mcp',data.stats.mcpAgents);setEl('stat-auto',data.stats.automationsRunning);setEl('stat-milestone',data.stats.currentMilestone);}if(data.milestones){const ap=(data.milestones.find(m=>m.status==='in-progress')||{}).progress||40;updateProductivity(ap);const list=document.getElementById('milestone-list');list.innerHTML=data.milestones.map(ms=>{const map={'done':{cls:'done',label:'Done',bc:'badge-green'},'in-progress':{cls:'active',label:'In Progress',bc:'badge-yellow'},'blocked':{cls:'',label:'Blocked',bc:'badge-red'},'not-started':{cls:'',label:'Not Started',bc:'badge-gray'}};const s=map[ms.status]||map['not-started'];const pct=ms.status==='done'?100:(ms.status==='not-started'?0:ms.progress);const dot=ms.status==='in-progress'?'<span class="dot pulse"></span> ':'';return `<div class="ms-row ${s.cls}"><div class="ms-badge">${ms.id}</div><div class="ms-row-name">${ms.name}</div><div class="ms-bar"><div class="ms-bar-fill" style="width:${pct}%"></div></div><div class="ms-pct">${pct}%</div><span class="badge ${s.bc}">${dot}${s.label}</span></div>`;}).join('');}if(data.github){const repos={'claude-workspace':'gh-cw','umei3d-app':'gh-ua'};Object.entries(repos).forEach(([repo,id])=>{const info=data.github[repo];if(!info)return;const de=document.getElementById(id+'-date');const ce=document.getElementById(id+'-commit');if(info.lastCommitDate&&de)de.textContent=new Date(info.lastCommitDate).toLocaleDateString('en-US',{month:'short',day:'numeric'});if(ce&&info.lastCommit)ce.textContent='Last commit: '+info.lastCommit;});}if(data.automations){document.getElementById('automations-list').innerHTML=data.automations.map(a=>{const lr=a.lastRun?new Date(a.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'Not yet run';const st=a.status==='ok'?`<span class="badge badge-green"><span class="dot pulse"></span> Running</span>`:`<span class="badge badge-red">Error</span>`;return `<div class="auto-card"><div class="auto-icon">🤖</div><div style="flex:1"><div class="auto-name">${a.name}</div><div class="auto-desc">Last run: ${lr}</div><div class="auto-meta">${st}<span class="badge badge-gray">🕐 ${a.schedule}</span><span class="badge badge-blue">→ ${a.target}</span></div></div></div>`;}).join('');}if(data.agenda)renderAgenda(data.agenda);if(data.todayLog)setEl('today-log',data.todayLog);if(data.automations)updateAgentStates(data.automations);if(data.nextSession)renderNextSession(data.nextSession);if(data.lastSession){setEl('last-session-date',data.lastSession.date);setEl('last-session-summary',data.lastSession.summary);}if(data.vibe){const vn=document.getElementById('vibe-note');if(vn)vn.textContent=data.vibe;}
+function renderData(data){if(data.stats){setEl('stat-mcp',data.stats.mcpAgents);setEl('stat-auto',data.stats.automationsRunning);setEl('stat-milestone',data.stats.currentMilestone);}if(data.milestones){const ap=(data.milestones.find(m=>m.status==='in-progress')||{}).progress||40;updateProductivity(ap);const list=document.getElementById('milestone-list');list.innerHTML=data.milestones.map(ms=>{const map={'done':{cls:'done',label:'Done',bc:'badge-green'},'in-progress':{cls:'active',label:'In Progress',bc:'badge-yellow'},'blocked':{cls:'',label:'Blocked',bc:'badge-red'},'not-started':{cls:'',label:'Not Started',bc:'badge-gray'}};const s=map[ms.status]||map['not-started'];const pct=ms.status==='done'?100:(ms.status==='not-started'?0:ms.progress);const dot=ms.status==='in-progress'?'<span class="dot pulse"></span> ':'';return `<div class="ms-row ${s.cls}"><div class="ms-badge">${ms.id}</div><div class="ms-row-name">${ms.name}</div><div class="ms-bar"><div class="ms-bar-fill" style="width:${pct}%"></div></div><div class="ms-pct">${pct}%</div><span class="badge ${s.bc}">${dot}${s.label}</span></div>`;}).join('');}if(data.github){const repos={'claude-workspace':'gh-cw','umei3d-app':'gh-ua'};Object.entries(repos).forEach(([repo,id])=>{const info=data.github[repo];if(!info)return;const de=document.getElementById(id+'-date');const ce=document.getElementById(id+'-commit');if(info.lastCommitDate&&de)de.textContent=new Date(info.lastCommitDate).toLocaleDateString('en-US',{month:'short',day:'numeric'});if(ce&&info.lastCommit)ce.textContent='Last commit: '+info.lastCommit;});}if(data.automations){document.getElementById('automations-list').innerHTML=data.automations.map(a=>{const lr=a.lastRun?new Date(a.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'Not yet run';const st=a.status==='ok'?`<span class="badge badge-green"><span class="dot pulse"></span> Running</span>`:`<span class="badge badge-red">Error</span>`;return `<div class="auto-card"><div class="auto-icon">🤖</div><div style="flex:1"><div class="auto-name">${a.name}</div><div class="auto-desc">Last run: ${lr}</div><div class="auto-meta">${st}<span class="badge badge-gray">🕐 ${a.schedule}</span><span class="badge badge-blue">→ ${a.target}</span></div></div></div>`;}).join('');}if(data.inbox)renderInbox(data.inbox);
+if(data.agenda)renderAgenda(data.agenda);if(data.todayLog)setEl('today-log',data.todayLog);if(data.automations)updateAgentStates(data.automations);if(data.nextSession)renderNextSession(data.nextSession);if(data.lastSession){setEl('last-session-date',data.lastSession.date);setEl('last-session-summary',data.lastSession.summary);}if(data.vibe){const vn=document.getElementById('vibe-note');if(vn)vn.textContent=data.vibe;}
 if(data.milestones)startCountdown(data.milestones);}
+function renderInbox(inbox){
+  if(!inbox) return;
+  const gmailEl = document.getElementById('gmail-list');
+  const gorgiasEl = document.getElementById('gorgias-list');
+  const gmailUp = document.getElementById('gmail-updated');
+  const gorgiasUp = document.getElementById('gorgias-updated');
+  if(inbox.gmail && inbox.gmail.length && gmailEl){
+    gmailEl.innerHTML = inbox.gmail.map(m=>`
+      <div class="inbox-item">
+        <div class="inbox-from">${m.from}</div>
+        <div class="inbox-subject">${m.subject}</div>
+        <div class="inbox-meta">${m.time}${m.unread?' · <span style="color:var(--blue)">unread</span>':''}</div>
+      </div>`).join('');
+  } else if(gmailEl){ gmailEl.innerHTML='<div class="inbox-empty">No emails</div>'; }
+  if(inbox.gorgias && inbox.gorgias.length && gorgiasEl){
+    gorgiasEl.innerHTML = inbox.gorgias.map(t=>`
+      <div class="inbox-item">
+        <div class="inbox-from">#${t.id} · ${t.customer}</div>
+        <div class="inbox-subject">${t.subject}</div>
+        <div class="inbox-meta">${t.time} · <span style="color:var(--text-2)">${t.status}</span></div>
+      </div>`).join('');
+  } else if(gorgiasEl){ gorgiasEl.innerHTML='<div class="inbox-empty">No open tickets</div>'; }
+  if(gmailUp && inbox.gmailUpdated) gmailUp.textContent='Updated '+new Date(inbox.gmailUpdated).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
+  if(gorgiasUp && inbox.gorgiasUpdated) gorgiasUp.textContent='Updated '+new Date(inbox.gorgiasUpdated).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
+}
 function renderNextSession(items){const el=document.getElementById('next-session-list');if(!el)return;const labelMap={'next':'Up Next','queued':'Queued','done':'Done'};el.innerHTML=items.map(item=>{const s=item.status||'queued';return`<div class="ns-item ns-${s}"><div class="ns-dot ${s}"></div><span class="ns-text">${item.text}</span><span class="ns-badge ${s}">${labelMap[s]||'Queued'}</span></div>`;}).join('');}
 function renderAgenda(events){const el=document.getElementById('today-events');const badge=document.getElementById('event-count-badge');if(!el)return;if(!events||!events.length){el.innerHTML='<div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">No events today</div>';if(badge)badge.textContent='0 events';return;}if(badge)badge.textContent=events.length+' event'+(events.length!==1?'s':'');el.innerHTML=events.map(ev=>{const timeEl=ev.allDay?'<span class="event-time allday">ALL DAY</span>':`<span class="event-time">${ev.time}</span>`;const desc=ev.desc?`<div class="event-desc">${ev.desc}</div>`:'';return`<div class="today-event">${timeEl}<div><div class="event-title">${ev.title}</div>${desc}</div></div>`;}).join('');}
 function setEl(id,val){const el=document.getElementById(id);if(el&&val!==undefined)el.textContent=val;}
