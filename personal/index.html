@@ -370,6 +370,15 @@
   @keyframes newRecordFlash { from{opacity:.7;transform:scale(1);} to{opacity:1;transform:scale(1.06);} }
   #streak-confetti { position:fixed; top:0; left:0; width:100%; height:100%; pointer-events:none; z-index:9999; }
 
+  /* ── QUICK LAUNCH ── */
+  .ql-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; padding:2px 0; }
+  .ql-btn { display:flex; flex-direction:column; align-items:center; gap:5px; text-decoration:none; padding:10px 4px; border-radius:12px; border:1px solid rgba(255,255,255,0.05); background:rgba(255,255,255,0.02); transition:all .18s; }
+  .ql-btn:hover { background:rgba(255,255,255,0.06); border-color:rgba(255,255,255,0.13); transform:translateY(-3px); box-shadow:0 8px 24px rgba(0,0,0,0.4); }
+  .ql-btn:hover .ql-icon { transform:scale(1.1); }
+  .ql-icon { width:40px; height:40px; border-radius:11px; display:flex; align-items:center; justify-content:center; font-size:20px; border:1px solid; transition:transform .18s; }
+  .ql-name { font-size:10px; font-weight:600; color:var(--text-2); letter-spacing:.01em; transition:color .18s; white-space:nowrap; }
+  .ql-btn:hover .ql-name { color:var(--text-1); }
+
   /* ── MILESTONE COUNTDOWN ── */
   .cd-wrap { display:flex; flex-direction:column; gap:14px; }
   .cd-top { display:flex; align-items:center; justify-content:space-between; }
@@ -785,6 +794,37 @@
     </div>
   </div>
 
+  <!-- Quick Launch -->
+  <div class="bc bc-4" id="quicklinks">
+    <div class="bc-label">Quick Launch</div>
+    <div class="ql-grid">
+      <a href="https://github.com" target="_blank" class="ql-btn">
+        <div class="ql-icon" style="background:rgba(110,84,148,0.18);border-color:rgba(110,84,148,0.35);">🐙</div>
+        <span class="ql-name">GitHub</span>
+      </a>
+      <a href="https://canva.com" target="_blank" class="ql-btn">
+        <div class="ql-icon" style="background:rgba(125,42,232,0.18);border-color:rgba(125,42,232,0.35);">🎨</div>
+        <span class="ql-name">Canva</span>
+      </a>
+      <a href="https://mail.google.com" target="_blank" class="ql-btn">
+        <div class="ql-icon" style="background:rgba(234,67,53,0.18);border-color:rgba(234,67,53,0.35);">📧</div>
+        <span class="ql-name">Gmail</span>
+      </a>
+      <a href="https://app.publer.io" target="_blank" class="ql-btn">
+        <div class="ql-icon" style="background:rgba(29,164,98,0.18);border-color:rgba(29,164,98,0.35);">📅</div>
+        <span class="ql-name">Publer</span>
+      </a>
+      <a href="https://keep.google.com" target="_blank" class="ql-btn">
+        <div class="ql-icon" style="background:rgba(251,188,4,0.18);border-color:rgba(251,188,4,0.35);">📝</div>
+        <span class="ql-name">Keep</span>
+      </a>
+      <a href="#" target="_blank" class="ql-btn" id="ql-finance">
+        <div class="ql-icon" style="background:rgba(253,105,105,0.18);border-color:rgba(253,105,105,0.35);">💰</div>
+        <span class="ql-name">Finance</span>
+      </a>
+    </div>
+  </div>
+
   <!-- Pomodoro -->
   <div class="bc bc-4 br-2" style="border-color:rgba(253,105,105,0.14);" id="pomo-card">
     <div class="bc-label">Focus Timer</div>
@@ -829,7 +869,7 @@
   </div>
 
   <!-- At a Glance — gauge + mini chart for MCP -->
-  <div class="bc bc-4">
+  <div class="bc bc-8">
     <div class="bc-label">At a Glance</div>
     <div style="display:flex;align-items:center;gap:20px;height:calc(100% - 28px);">
       <div class="gauge-wrap" style="flex-shrink:0;">
