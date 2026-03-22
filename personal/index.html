@@ -698,7 +698,7 @@
     <div class="bc-label">Build Streak</div>
     <div class="streak-card-inner">
       <span class="streak-fire">🔥</span>
-      <div class="streak-num" id="streak-num">1</div>
+      <div class="streak-num" id="streak-num">0</div>
       <div class="streak-label">Day Streak · Building</div>
       <div class="streak-sub" id="streak-sub">Just getting started!</div>
       <div class="streak-best" id="streak-best">Best: 1 day</div>
@@ -1216,19 +1216,10 @@ function streakConfetti(){
   draw();
 }
 function initStreak(){
-  const KEY='j-build-streak-v2';
-  const today=new Date().toDateString();
-  let d=JSON.parse(localStorage.getItem(KEY)||'null')||{streak:0,lastDate:null,best:0,milestonesSeen:[]};
-  if(!d.milestonesSeen) d.milestonesSeen=[];
-  const isNewDay=d.lastDate!==today;
+  // Streak is manually updated — only changes when a build milestone is confirmed
+  const d={streak:0,best:0,milestonesSeen:[]};
+  const isNewDay=false;
   let isNewRecord=false;
-  if(isNewDay){
-    const yest=new Date(); yest.setDate(yest.getDate()-1);
-    d.streak=(d.lastDate===yest.toDateString())?d.streak+1:1;
-    d.lastDate=today;
-    if(d.streak>d.best){ d.best=d.streak; isNewRecord=true; }
-    localStorage.setItem(KEY,JSON.stringify(d));
-  }
   // Check if we just hit a new tier milestone
   const newTier=isNewDay&&STREAK_TIERS.find(t=>t.days===d.streak&&!d.milestonesSeen.includes(t.days));
   if(newTier){ d.milestonesSeen.push(newTier.days); localStorage.setItem(KEY,JSON.stringify(d)); setTimeout(streakConfetti,400); }
