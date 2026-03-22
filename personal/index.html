@@ -699,14 +699,77 @@
   </div>
   <canvas id="streak-confetti" style="display:none;"></canvas>
 
-  <div class="bc bc-8 fade-up" id="countdown-card">
+  <!-- Everything Behind the Scenes (mini) -->
+  <div class="bc bc-4">
+    <div class="bc-label">Everything Behind the Scenes</div>
+
+    <!-- MCP -->
+    <div class="bts-mini-section">
+      <div class="bts-mini-label mcp">⚡ MCP Connected — live during session</div>
+      <div class="bts-mini-chips">
+        <span class="bts-chip">🗒️ Notion</span>
+        <span class="bts-chip">📧 Gmail</span>
+        <span class="bts-chip">📅 Google Cal</span>
+        <span class="bts-chip">📊 Klaviyo</span>
+        <span class="bts-chip">🎨 Canva</span>
+        <span class="bts-chip">📱 Blotato</span>
+        <span class="bts-chip">🖼️ Figma</span>
+      </div>
+    </div>
+
+    <!-- API -->
+    <div class="bts-mini-section">
+      <div class="bts-mini-label api">🔑 API Connected — token-based</div>
+      <div class="bts-mini-chips">
+        <span class="bts-chip api">🐙 GitHub (NOTION_TOKEN)</span>
+        <span class="bts-chip api">📊 Google Sheets (Shopify)</span>
+      </div>
+    </div>
+
+    <!-- Local Files -->
+    <div class="bts-mini-section">
+      <div class="bts-mini-label local">📁 Local Files — Claude reads on open</div>
+      <div class="bts-local-flow">
+        <div class="bts-local-files">
+          <div class="bts-local-file">📄 CLAUDE.md <span>project brief</span></div>
+          <div class="bts-local-file">🧠 MEMORY.md <span>J's memory</span></div>
+          <div class="bts-local-file">📄 dashboard.html <span>app file</span></div>
+        </div>
+        <div class="bts-local-arrow">
+          <div class="bts-local-arrow-line"></div>
+          <div class="bts-local-arrow-head">→</div>
+          <div class="bts-local-arrow-line"></div>
+        </div>
+        <div class="bts-local-claude">
+          <div class="bts-local-claude-icon">🤖</div>
+          <div class="bts-local-claude-label">Claude reads</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Last Session -->
+  <div class="bc bc-4" id="todo">
+    <div class="bc-label">Last Session</div>
+    <div style="background:rgba(255,255,255,0.025);border-radius:12px;padding:12px;margin-bottom:12px;">
+      <div style="font-size:11px;font-weight:700;color:var(--blue);margin-bottom:6px;" id="last-session-date">—</div>
+      <div style="font-size:12px;color:var(--text-2);line-height:1.7;" id="last-session-summary">Loading...</div>
+    </div>
+    <div class="bc-label" style="margin-top:4px;">Next Session</div>
+    <div class="todo-list" id="next-session-list">
+      <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading...</div>
+    </div>
+  </div>
+
+  <!-- Milestone Countdown (full width) -->
+  <div class="bc bc-12 fade-up" id="countdown-card">
     <div class="bc-label">Milestone Countdown</div>
-    <div class="cd-wrap">
-      <div class="cd-top">
-        <div class="cd-milestone-name" id="cd-name">Loading milestone...</div>
+    <div class="cd-wrap" style="flex-direction:row;align-items:center;gap:32px;">
+      <div style="flex:0 0 auto;">
+        <div class="cd-milestone-name" id="cd-name" style="font-size:15px;margin-bottom:6px;">Loading milestone...</div>
         <div class="cd-urgency-badge" id="cd-urgency" style="background:rgba(74,222,128,.1);color:var(--green);border:1px solid rgba(74,222,128,.2);">On Track</div>
       </div>
-      <div class="cd-timer">
+      <div class="cd-timer" style="flex:0 0 auto;">
         <div class="cd-unit"><div class="cd-num" id="cd-days">—</div><div class="cd-unit-label">Days</div></div>
         <div class="cd-sep">:</div>
         <div class="cd-unit"><div class="cd-num" id="cd-hours">——</div><div class="cd-unit-label">Hours</div></div>
@@ -715,8 +778,10 @@
         <div class="cd-sep">:</div>
         <div class="cd-unit"><div class="cd-num" id="cd-secs">——</div><div class="cd-unit-label">Secs</div></div>
       </div>
-      <div class="cd-progress-track"><div class="cd-progress-fill" id="cd-bar" style="width:0%;background:var(--green);"></div></div>
-      <div class="cd-meta"><span id="cd-start">—</span><span id="cd-end">—</span></div>
+      <div style="flex:1;">
+        <div class="cd-progress-track"><div class="cd-progress-fill" id="cd-bar" style="width:0%;background:var(--green);"></div></div>
+        <div class="cd-meta"><span id="cd-start">—</span><span id="cd-end">—</span></div>
+      </div>
     </div>
   </div>
 
@@ -787,55 +852,6 @@
           <div style="font-size:32px;font-weight:800;color:var(--yellow);line-height:1;text-shadow:0 0 16px rgba(245,158,11,0.3);" id="stat-auto">4</div>
           <div style="font-size:10px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;margin-top:2px;">Automations</div>
           <div class="metric-status info">Active & Scheduled</div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Everything Behind the Scenes (mini) -->
-  <div class="bc bc-4">
-    <div class="bc-label">Everything Behind the Scenes</div>
-
-    <!-- MCP -->
-    <div class="bts-mini-section">
-      <div class="bts-mini-label mcp">⚡ MCP Connected — live during session</div>
-      <div class="bts-mini-chips">
-        <span class="bts-chip">🗒️ Notion</span>
-        <span class="bts-chip">📧 Gmail</span>
-        <span class="bts-chip">📅 Google Cal</span>
-        <span class="bts-chip">📊 Klaviyo</span>
-        <span class="bts-chip">🎨 Canva</span>
-        <span class="bts-chip">📱 Blotato</span>
-        <span class="bts-chip">🖼️ Figma</span>
-      </div>
-    </div>
-
-    <!-- API -->
-    <div class="bts-mini-section">
-      <div class="bts-mini-label api">🔑 API Connected — token-based</div>
-      <div class="bts-mini-chips">
-        <span class="bts-chip api">🐙 GitHub (NOTION_TOKEN)</span>
-        <span class="bts-chip api">📊 Google Sheets (Shopify)</span>
-      </div>
-    </div>
-
-    <!-- Local Files -->
-    <div class="bts-mini-section">
-      <div class="bts-mini-label local">📁 Local Files — Claude reads on open</div>
-      <div class="bts-local-flow">
-        <div class="bts-local-files">
-          <div class="bts-local-file">📄 CLAUDE.md <span>project brief</span></div>
-          <div class="bts-local-file">🧠 MEMORY.md <span>J's memory</span></div>
-          <div class="bts-local-file">📄 dashboard.html <span>app file</span></div>
-        </div>
-        <div class="bts-local-arrow">
-          <div class="bts-local-arrow-line"></div>
-          <div class="bts-local-arrow-head">→</div>
-          <div class="bts-local-arrow-line"></div>
-        </div>
-        <div class="bts-local-claude">
-          <div class="bts-local-claude-icon">🤖</div>
-          <div class="bts-local-claude-label">Claude reads</div>
         </div>
       </div>
     </div>
@@ -1059,21 +1075,8 @@
     </div>
   </div>
 
-  <!-- Last Session + Next Session -->
-  <div class="bc bc-4" id="todo">
-    <div class="bc-label">Last Session</div>
-    <div style="background:rgba(255,255,255,0.025);border-radius:12px;padding:12px;margin-bottom:12px;">
-      <div style="font-size:11px;font-weight:700;color:var(--blue);margin-bottom:6px;" id="last-session-date">—</div>
-      <div style="font-size:12px;color:var(--text-2);line-height:1.7;" id="last-session-summary">Loading...</div>
-    </div>
-    <div class="bc-label" style="margin-top:4px;">Next Session</div>
-    <div class="todo-list" id="next-session-list">
-      <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading...</div>
-    </div>
-  </div>
-
   <!-- Session Log -->
-  <div class="bc bc-8" id="todaylog">
+  <div class="bc bc-12" id="todaylog">
     <div class="bc-label">Today's Session Log</div>
     <div class="session-log-inner">
       <div class="session-log-top">
