@@ -352,6 +352,33 @@
   .df-legend-line { width:20px; height:2px; border-radius:2px; }
   @media(max-width:620px){ .df-wrap{grid-template-columns:1fr;} .df-col{border-left:none!important; border-top:1px solid var(--border); padding-top:12px;} .df-col:first-child{border-top:none;} .df-svg{display:none;} }
 
+  /* ── BUILD STREAK ── */
+  .streak-card-inner { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:6px; padding:8px 0 4px; text-align:center; }
+  .streak-fire { font-size:44px; line-height:1; animation:firePulse 1.8s ease-in-out infinite alternate; display:block; }
+  @keyframes firePulse { from{transform:scale(1) rotate(-2deg); filter:drop-shadow(0 0 8px rgba(255,140,66,.5));} to{transform:scale(1.1) rotate(2deg); filter:drop-shadow(0 0 22px rgba(255,140,66,.9));} }
+  .streak-num { font-size:58px; font-weight:800; color:var(--amber); letter-spacing:-3px; line-height:1; text-shadow:0 0 32px rgba(255,140,66,.55); }
+  .streak-label { font-size:13px; font-weight:700; color:var(--text-1); letter-spacing:-.2px; }
+  .streak-sub { font-size:11px; color:var(--text-3); }
+  .streak-best { font-size:10px; color:rgba(255,140,66,.5); margin-top:2px; }
+  .streak-dots { display:flex; gap:4px; margin-top:6px; }
+  .streak-dot { width:8px; height:8px; border-radius:50%; background:rgba(255,140,66,.15); border:1px solid rgba(255,140,66,.2); transition:all .3s; }
+  .streak-dot.filled { background:var(--amber); box-shadow:0 0 8px rgba(255,140,66,.6); border-color:var(--amber); }
+
+  /* ── MILESTONE COUNTDOWN ── */
+  .cd-wrap { display:flex; flex-direction:column; gap:14px; }
+  .cd-top { display:flex; align-items:center; justify-content:space-between; }
+  .cd-milestone-name { font-size:13px; font-weight:600; color:var(--text-1); }
+  .cd-urgency-badge { font-size:10px; font-weight:700; padding:3px 8px; border-radius:6px; letter-spacing:.03em; }
+  .cd-timer { display:flex; align-items:flex-end; gap:6px; }
+  .cd-unit { display:flex; flex-direction:column; align-items:center; gap:3px; }
+  .cd-num { font-size:46px; font-weight:800; letter-spacing:-2px; line-height:1; color:var(--green); text-shadow:0 0 28px rgba(74,222,128,.4); transition:color .5s, text-shadow .5s; }
+  .cd-unit-label { font-size:9px; color:var(--text-3); text-transform:uppercase; letter-spacing:.07em; }
+  .cd-sep { font-size:36px; font-weight:800; color:var(--text-3); line-height:1.15; padding-bottom:2px; opacity:.4; animation:cdBlink 1s step-end infinite; }
+  @keyframes cdBlink { 0%,100%{opacity:.4} 50%{opacity:.1} }
+  .cd-progress-track { background:rgba(255,255,255,.06); border-radius:6px; height:7px; overflow:hidden; }
+  .cd-progress-fill { height:100%; border-radius:6px; transition:width 1s ease, background .5s; }
+  .cd-meta { display:flex; justify-content:space-between; font-size:10px; color:var(--text-3); }
+
   /* ── BEHIND THE SCENES MINI ── */
   .bts-mini-section { margin-bottom:11px; }
   .bts-mini-label { font-size:9px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; padding:2px 7px; border-radius:5px; display:inline-flex; align-items:center; gap:4px; margin-bottom:6px; }
@@ -827,6 +854,40 @@
   </div>
 
 
+  <!-- Build Streak + Milestone Countdown -->
+  <div class="bc bc-4 fade-up" id="streak-card" style="border-color:rgba(255,140,66,0.14);">
+    <div class="bc-label">Build Streak</div>
+    <div class="streak-card-inner">
+      <span class="streak-fire">🔥</span>
+      <div class="streak-num" id="streak-num">1</div>
+      <div class="streak-label">Day Streak · Building</div>
+      <div class="streak-sub" id="streak-sub">Just getting started!</div>
+      <div class="streak-best" id="streak-best">Best: 1 day</div>
+      <div class="streak-dots" id="streak-dots"></div>
+    </div>
+  </div>
+
+  <div class="bc bc-8 fade-up" id="countdown-card">
+    <div class="bc-label">Milestone Countdown</div>
+    <div class="cd-wrap">
+      <div class="cd-top">
+        <div class="cd-milestone-name" id="cd-name">Loading milestone...</div>
+        <div class="cd-urgency-badge" id="cd-urgency" style="background:rgba(74,222,128,.1);color:var(--green);border:1px solid rgba(74,222,128,.2);">On Track</div>
+      </div>
+      <div class="cd-timer">
+        <div class="cd-unit"><div class="cd-num" id="cd-days">—</div><div class="cd-unit-label">Days</div></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><div class="cd-num" id="cd-hours">——</div><div class="cd-unit-label">Hours</div></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><div class="cd-num" id="cd-mins">——</div><div class="cd-unit-label">Mins</div></div>
+        <div class="cd-sep">:</div>
+        <div class="cd-unit"><div class="cd-num" id="cd-secs">——</div><div class="cd-unit-label">Secs</div></div>
+      </div>
+      <div class="cd-progress-track"><div class="cd-progress-fill" id="cd-bar" style="width:0%;background:var(--green);"></div></div>
+      <div class="cd-meta"><span id="cd-start">—</span><span id="cd-end">—</span></div>
+    </div>
+  </div>
+
   <!-- GitHub -->
   <div class="bc bc-4" id="github">
     <div class="bc-label">GitHub</div>
@@ -1066,6 +1127,84 @@ function updateProdScore(){document.getElementById('prod-score').textContent='10
 
 function toggleRepo(id){document.getElementById(id).classList.toggle('open');}
 
+/* ── BUILD STREAK ── */
+function initStreak(){
+  const KEY='j-build-streak-v2';
+  const today=new Date().toDateString();
+  let d=JSON.parse(localStorage.getItem(KEY)||'null')||{streak:0,lastDate:null,best:0};
+  if(d.lastDate===today){/* already counted */}
+  else{
+    const yest=new Date(); yest.setDate(yest.getDate()-1);
+    d.streak=(d.lastDate===yest.toDateString())?d.streak+1:1;
+    d.lastDate=today;
+    d.best=Math.max(d.best,d.streak);
+    localStorage.setItem(KEY,JSON.stringify(d));
+  }
+  document.getElementById('streak-num').textContent=d.streak;
+  document.getElementById('streak-best').textContent='Best: '+d.best+' day'+(d.best!==1?'s':'');
+  const sub=d.streak>=14?'Unstoppable 🚀':d.streak>=7?'On fire! 🔥':d.streak>=3?'Keep it up!':'Just getting started!';
+  document.getElementById('streak-sub').textContent=sub;
+  const dots=document.getElementById('streak-dots');
+  const show=Math.min(d.streak,7);
+  dots.innerHTML=Array.from({length:7},(_,i)=>`<div class="streak-dot${i<show?' filled':''}"></div>`).join('');
+  if(d.streak>=5){const c=document.getElementById('streak-card');c.style.borderColor='rgba(255,140,66,.35)';c.style.boxShadow='0 0 40px rgba(255,140,66,.10)';}
+}
+initStreak();
+
+/* ── MILESTONE COUNTDOWN ── */
+let cdInterval=null;
+function startCountdown(ms){
+  if(cdInterval)clearInterval(cdInterval);
+  const ip=ms.find(m=>m.status==='in-progress');
+  if(!ip)return;
+  document.getElementById('cd-name').textContent=ip.name;
+  // Parse end date from "Mar 17 → Mar 22, 2026"
+  const parts=(ip.dates||'').split('→');
+  if(parts.length<2)return;
+  const startStr=parts[0].trim(); // "Mar 17"
+  const endRaw=parts[1].trim();   // "Mar 22, 2026"
+  const yearMatch=endRaw.match(/\d{4}/);
+  const year=yearMatch?yearMatch[0]:new Date().getFullYear();
+  const startFull=startStr+', '+year;
+  const endDate=new Date(endRaw+' 23:59:59');
+  const startDate=new Date(startFull);
+  document.getElementById('cd-start').textContent=startStr;
+  document.getElementById('cd-end').textContent=endRaw;
+  function tick(){
+    const now=new Date();
+    const diff=endDate-now;
+    const total=endDate-startDate;
+    const elapsed=now-startDate;
+    const pct=Math.min(100,Math.max(0,elapsed/total*100));
+    document.getElementById('cd-bar').style.width=pct+'%';
+    if(diff<=0){['cd-days','cd-hours','cd-mins','cd-secs'].forEach(id=>document.getElementById(id).textContent=id==='cd-days'?'0':'00');return;}
+    const days=Math.floor(diff/(864e5));
+    const hours=Math.floor((diff%864e5)/36e5);
+    const mins=Math.floor((diff%36e5)/6e4);
+    const secs=Math.floor((diff%6e4)/1000);
+    document.getElementById('cd-days').textContent=days;
+    document.getElementById('cd-hours').textContent=String(hours).padStart(2,'0');
+    document.getElementById('cd-mins').textContent=String(mins).padStart(2,'0');
+    document.getElementById('cd-secs').textContent=String(secs).padStart(2,'0');
+    const card=document.getElementById('countdown-card');
+    const nums=document.querySelectorAll('.cd-num');
+    const badge=document.getElementById('cd-urgency');
+    if(diff<2*864e5){
+      card.style.borderColor='rgba(255,71,67,.45)';card.style.boxShadow='0 0 40px rgba(255,71,67,.12)';
+      nums.forEach(n=>{n.style.color='var(--red)';n.style.textShadow='0 0 28px rgba(255,71,67,.5)';});
+      document.getElementById('cd-bar').style.background='var(--red)';
+      badge.style.background='rgba(255,71,67,.1)';badge.style.color='var(--red)';badge.style.borderColor='rgba(255,71,67,.3)';badge.textContent='Deadline close!';
+    } else if(diff<5*864e5){
+      card.style.borderColor='rgba(245,158,11,.35)';card.style.boxShadow='0 0 30px rgba(245,158,11,.08)';
+      nums.forEach(n=>{n.style.color='var(--yellow)';n.style.textShadow='0 0 28px rgba(245,158,11,.4)';});
+      document.getElementById('cd-bar').style.background='var(--yellow)';
+      badge.style.background='rgba(245,158,11,.1)';badge.style.color='var(--yellow)';badge.style.borderColor='rgba(245,158,11,.3)';badge.textContent='Due soon';
+    }
+  }
+  tick();
+  cdInterval=setInterval(tick,1000);
+}
+
 function drawBtsMcpLines(){
   const svg=document.getElementById('bts-mcp-svg');
   const wrap=document.getElementById('bts-mcp-wrap');
@@ -1198,7 +1337,8 @@ pomoRender();
 document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;if(e.key==='p'||e.key==='P'){pomoToggle();showToast(pomoRunning?'▶ Pomodoro started':'⏸ Pomodoro paused','info');}if(e.key==='t'||e.key==='T'){document.getElementById('todo')?.scrollIntoView({behavior:'smooth',block:'start'});showToast('📋 To-Do list','info');}if(e.key==='r'||e.key==='R'){loadData();showToast('🔄 Refreshing...','info');}if(e.key==='m'||e.key==='M')document.getElementById('milestones')?.scrollIntoView({behavior:'smooth',block:'start'});if(e.key==='n'||e.key==='N'){window.open('https://claude.ai','_blank');showToast('Opening Claude Notebook','info');}if(e.key==='Escape')window.scrollTo({top:0,behavior:'smooth'});});
 
 async function loadData(){try{const res=await fetch('https://raw.githubusercontent.com/jessycacheong-cell/claude-workspace/main/personal/data.json?t='+Date.now());if(!res.ok)throw new Error();const data=await res.json();renderData(data);const el=document.getElementById('last-sync');el.textContent='Live · '+new Date(data.lastUpdated).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});el.style.color='var(--green)';showToast('Dashboard refreshed','success');}catch{document.getElementById('last-sync').textContent='Live';updateProductivity(40);}}
-function renderData(data){if(data.stats){setEl('stat-mcp',data.stats.mcpAgents);setEl('stat-auto',data.stats.automationsRunning);setEl('stat-milestone',data.stats.currentMilestone);}if(data.milestones){const ap=(data.milestones.find(m=>m.status==='in-progress')||{}).progress||40;updateProductivity(ap);const list=document.getElementById('milestone-list');list.innerHTML=data.milestones.map(ms=>{const map={'done':{cls:'done',label:'Done',bc:'badge-green'},'in-progress':{cls:'active',label:'In Progress',bc:'badge-yellow'},'blocked':{cls:'',label:'Blocked',bc:'badge-red'},'not-started':{cls:'',label:'Not Started',bc:'badge-gray'}};const s=map[ms.status]||map['not-started'];const pct=ms.status==='done'?100:(ms.status==='not-started'?0:ms.progress);const dot=ms.status==='in-progress'?'<span class="dot pulse"></span> ':'';return `<div class="ms-row ${s.cls}"><div class="ms-badge">${ms.id}</div><div class="ms-row-name">${ms.name}</div><div class="ms-bar"><div class="ms-bar-fill" style="width:${pct}%"></div></div><div class="ms-pct">${pct}%</div><span class="badge ${s.bc}">${dot}${s.label}</span></div>`;}).join('');}if(data.github){const repos={'claude-workspace':'gh-cw','umei3d-app':'gh-ua'};Object.entries(repos).forEach(([repo,id])=>{const info=data.github[repo];if(!info)return;const de=document.getElementById(id+'-date');const ce=document.getElementById(id+'-commit');if(info.lastCommitDate&&de)de.textContent=new Date(info.lastCommitDate).toLocaleDateString('en-US',{month:'short',day:'numeric'});if(ce&&info.lastCommit)ce.textContent='Last commit: '+info.lastCommit;});}if(data.automations){document.getElementById('automations-list').innerHTML=data.automations.map(a=>{const lr=a.lastRun?new Date(a.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'Not yet run';const st=a.status==='ok'?`<span class="badge badge-green"><span class="dot pulse"></span> Running</span>`:`<span class="badge badge-red">Error</span>`;return `<div class="auto-card"><div class="auto-icon">🤖</div><div style="flex:1"><div class="auto-name">${a.name}</div><div class="auto-desc">Last run: ${lr}</div><div class="auto-meta">${st}<span class="badge badge-gray">🕐 ${a.schedule}</span><span class="badge badge-blue">→ ${a.target}</span></div></div></div>`;}).join('');}if(data.agenda)renderAgenda(data.agenda);if(data.todayLog)setEl('today-log',data.todayLog);if(data.automations)updateAgentStates(data.automations);if(data.nextSession)renderNextSession(data.nextSession);if(data.lastSession){setEl('last-session-date',data.lastSession.date);setEl('last-session-summary',data.lastSession.summary);}if(data.vibe){const vn=document.getElementById('vibe-note');if(vn)vn.textContent=data.vibe;}}
+function renderData(data){if(data.stats){setEl('stat-mcp',data.stats.mcpAgents);setEl('stat-auto',data.stats.automationsRunning);setEl('stat-milestone',data.stats.currentMilestone);}if(data.milestones){const ap=(data.milestones.find(m=>m.status==='in-progress')||{}).progress||40;updateProductivity(ap);const list=document.getElementById('milestone-list');list.innerHTML=data.milestones.map(ms=>{const map={'done':{cls:'done',label:'Done',bc:'badge-green'},'in-progress':{cls:'active',label:'In Progress',bc:'badge-yellow'},'blocked':{cls:'',label:'Blocked',bc:'badge-red'},'not-started':{cls:'',label:'Not Started',bc:'badge-gray'}};const s=map[ms.status]||map['not-started'];const pct=ms.status==='done'?100:(ms.status==='not-started'?0:ms.progress);const dot=ms.status==='in-progress'?'<span class="dot pulse"></span> ':'';return `<div class="ms-row ${s.cls}"><div class="ms-badge">${ms.id}</div><div class="ms-row-name">${ms.name}</div><div class="ms-bar"><div class="ms-bar-fill" style="width:${pct}%"></div></div><div class="ms-pct">${pct}%</div><span class="badge ${s.bc}">${dot}${s.label}</span></div>`;}).join('');}if(data.github){const repos={'claude-workspace':'gh-cw','umei3d-app':'gh-ua'};Object.entries(repos).forEach(([repo,id])=>{const info=data.github[repo];if(!info)return;const de=document.getElementById(id+'-date');const ce=document.getElementById(id+'-commit');if(info.lastCommitDate&&de)de.textContent=new Date(info.lastCommitDate).toLocaleDateString('en-US',{month:'short',day:'numeric'});if(ce&&info.lastCommit)ce.textContent='Last commit: '+info.lastCommit;});}if(data.automations){document.getElementById('automations-list').innerHTML=data.automations.map(a=>{const lr=a.lastRun?new Date(a.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'Not yet run';const st=a.status==='ok'?`<span class="badge badge-green"><span class="dot pulse"></span> Running</span>`:`<span class="badge badge-red">Error</span>`;return `<div class="auto-card"><div class="auto-icon">🤖</div><div style="flex:1"><div class="auto-name">${a.name}</div><div class="auto-desc">Last run: ${lr}</div><div class="auto-meta">${st}<span class="badge badge-gray">🕐 ${a.schedule}</span><span class="badge badge-blue">→ ${a.target}</span></div></div></div>`;}).join('');}if(data.agenda)renderAgenda(data.agenda);if(data.todayLog)setEl('today-log',data.todayLog);if(data.automations)updateAgentStates(data.automations);if(data.nextSession)renderNextSession(data.nextSession);if(data.lastSession){setEl('last-session-date',data.lastSession.date);setEl('last-session-summary',data.lastSession.summary);}if(data.vibe){const vn=document.getElementById('vibe-note');if(vn)vn.textContent=data.vibe;}
+if(data.milestones)startCountdown(data.milestones);}
 function renderNextSession(items){const el=document.getElementById('next-session-list');if(!el)return;const labelMap={'next':'Up Next','queued':'Queued','done':'Done'};el.innerHTML=items.map(item=>{const s=item.status||'queued';return`<div class="ns-item ns-${s}"><div class="ns-dot ${s}"></div><span class="ns-text">${item.text}</span><span class="ns-badge ${s}">${labelMap[s]||'Queued'}</span></div>`;}).join('');}
 function renderAgenda(events){const el=document.getElementById('today-events');const badge=document.getElementById('event-count-badge');if(!el)return;if(!events||!events.length){el.innerHTML='<div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">No events today</div>';if(badge)badge.textContent='0 events';return;}if(badge)badge.textContent=events.length+' event'+(events.length!==1?'s':'');el.innerHTML=events.map(ev=>{const timeEl=ev.allDay?'<span class="event-time allday">ALL DAY</span>':`<span class="event-time">${ev.time}</span>`;const desc=ev.desc?`<div class="event-desc">${ev.desc}</div>`:'';return`<div class="today-event">${timeEl}<div><div class="event-title">${ev.title}</div>${desc}</div></div>`;}).join('');}
 function setEl(id,val){const el=document.getElementById(id);if(el&&val!==undefined)el.textContent=val;}
