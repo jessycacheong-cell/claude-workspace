@@ -352,6 +352,26 @@
   .df-legend-line { width:20px; height:2px; border-radius:2px; }
   @media(max-width:620px){ .df-wrap{grid-template-columns:1fr;} .df-col{border-left:none!important; border-top:1px solid var(--border); padding-top:12px;} .df-col:first-child{border-top:none;} .df-svg{display:none;} }
 
+  /* ── BEHIND THE SCENES MINI ── */
+  .bts-mini-section { margin-bottom:11px; }
+  .bts-mini-label { font-size:9px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; padding:2px 7px; border-radius:5px; display:inline-flex; align-items:center; gap:4px; margin-bottom:6px; }
+  .bts-mini-label.mcp { color:var(--green); background:rgba(74,222,128,0.1); border:1px solid rgba(74,222,128,0.2); }
+  .bts-mini-label.api { color:var(--blue); background:rgba(253,105,105,0.1); border:1px solid rgba(253,105,105,0.18); }
+  .bts-mini-label.local { color:var(--amber); background:rgba(255,140,66,0.1); border:1px solid rgba(255,140,66,0.2); }
+  .bts-mini-chips { display:flex; flex-wrap:wrap; gap:4px; }
+  .bts-chip { font-size:10px; padding:3px 7px; border-radius:6px; background:rgba(255,255,255,0.04); border:1px solid var(--border); color:var(--text-2); white-space:nowrap; }
+  .bts-chip.api { background:rgba(253,105,105,0.05); border-color:rgba(253,105,105,0.15); color:var(--text-1); }
+  .bts-local-flow { display:flex; align-items:center; gap:8px; }
+  .bts-local-files { display:flex; flex-direction:column; gap:4px; flex:1; min-width:0; }
+  .bts-local-file { font-size:10px; color:var(--text-2); padding:5px 8px; background:rgba(255,140,66,0.05); border:1px solid rgba(255,140,66,0.14); border-radius:7px; display:flex; align-items:center; justify-content:space-between; gap:4px; }
+  .bts-local-file span { color:var(--text-3); font-size:9px; white-space:nowrap; }
+  .bts-local-arrow { display:flex; flex-direction:column; gap:2px; align-items:center; flex-shrink:0; }
+  .bts-local-arrow-line { width:1px; height:14px; background:rgba(255,140,66,0.3); }
+  .bts-local-arrow-head { font-size:12px; color:var(--amber); opacity:.7; }
+  .bts-local-claude { display:flex; flex-direction:column; align-items:center; gap:3px; flex-shrink:0; }
+  .bts-local-claude-icon { width:36px; height:36px; border-radius:10px; background:var(--blue); display:flex; align-items:center; justify-content:center; font-size:18px; box-shadow:0 0 16px rgba(253,105,105,0.3); }
+  .bts-local-claude-label { font-size:9px; color:var(--amber); font-weight:700; letter-spacing:.03em; }
+
   /* ── BEHIND THE SCENES ── */
   .bts-header { display:flex; align-items:center; gap:10px; margin-bottom:12px; }
   .bts-pill { font-size:11px; font-weight:700; padding:4px 12px; border-radius:20px; letter-spacing:.04em; }
@@ -703,17 +723,52 @@
     </div>
   </div>
 
-  <!-- Claude Session Tools -->
+  <!-- Everything Behind the Scenes (mini) -->
   <div class="bc bc-4">
-    <div class="bc-label">Claude Session Tools <span class="badge badge-green" style="font-size:9px;margin-left:4px;"><span class="dot pulse"></span> 7 Connected</span></div>
-    <div style="display:flex;flex-direction:column;gap:5px;">
-      <div class="mcp-node"><div class="mcp-node-icon">🗒️</div><div><div class="mcp-node-name">Notion</div><div class="mcp-node-role">Read/write workspace</div></div><div class="mcp-node-dot"></div></div>
-      <div class="mcp-node"><div class="mcp-node-icon">📧</div><div><div class="mcp-node-name">Gmail</div><div class="mcp-node-role">Draft & search emails</div></div><div class="mcp-node-dot"></div></div>
-      <div class="mcp-node"><div class="mcp-node-icon">📅</div><div><div class="mcp-node-name">Google Cal</div><div class="mcp-node-role">Events & scheduling</div></div><div class="mcp-node-dot"></div></div>
-      <div class="mcp-node"><div class="mcp-node-icon">📊</div><div><div class="mcp-node-name">Klaviyo</div><div class="mcp-node-role">Email marketing</div></div><div class="mcp-node-dot"></div></div>
-      <div class="mcp-node"><div class="mcp-node-icon">🎨</div><div><div class="mcp-node-name">Canva</div><div class="mcp-node-role">Design assets</div></div><div class="mcp-node-dot"></div></div>
-      <div class="mcp-node"><div class="mcp-node-icon">📱</div><div><div class="mcp-node-name">Blotato</div><div class="mcp-node-role">Social media</div></div><div class="mcp-node-dot"></div></div>
-      <div class="mcp-node"><div class="mcp-node-icon">🖼️</div><div><div class="mcp-node-name">Figma</div><div class="mcp-node-role">Design files</div></div><div class="mcp-node-dot"></div></div>
+    <div class="bc-label">Everything Behind the Scenes</div>
+
+    <!-- MCP -->
+    <div class="bts-mini-section">
+      <div class="bts-mini-label mcp">⚡ MCP Connected — live during session</div>
+      <div class="bts-mini-chips">
+        <span class="bts-chip">🗒️ Notion</span>
+        <span class="bts-chip">📧 Gmail</span>
+        <span class="bts-chip">📅 Google Cal</span>
+        <span class="bts-chip">📊 Klaviyo</span>
+        <span class="bts-chip">🎨 Canva</span>
+        <span class="bts-chip">📱 Blotato</span>
+        <span class="bts-chip">🖼️ Figma</span>
+      </div>
+    </div>
+
+    <!-- API -->
+    <div class="bts-mini-section">
+      <div class="bts-mini-label api">🔑 API Connected — token-based</div>
+      <div class="bts-mini-chips">
+        <span class="bts-chip api">🐙 GitHub (NOTION_TOKEN)</span>
+        <span class="bts-chip api">📊 Google Sheets (Shopify)</span>
+      </div>
+    </div>
+
+    <!-- Local Files -->
+    <div class="bts-mini-section">
+      <div class="bts-mini-label local">📁 Local Files — Claude reads on open</div>
+      <div class="bts-local-flow">
+        <div class="bts-local-files">
+          <div class="bts-local-file">📄 CLAUDE.md <span>project brief</span></div>
+          <div class="bts-local-file">🧠 MEMORY.md <span>J's memory</span></div>
+          <div class="bts-local-file">📄 dashboard.html <span>app file</span></div>
+        </div>
+        <div class="bts-local-arrow">
+          <div class="bts-local-arrow-line"></div>
+          <div class="bts-local-arrow-head">→</div>
+          <div class="bts-local-arrow-line"></div>
+        </div>
+        <div class="bts-local-claude">
+          <div class="bts-local-claude-icon">🤖</div>
+          <div class="bts-local-claude-label">Claude reads</div>
+        </div>
+      </div>
     </div>
   </div>
 
