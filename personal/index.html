@@ -352,6 +352,33 @@
   .df-legend-line { width:20px; height:2px; border-radius:2px; }
   @media(max-width:620px){ .df-wrap{grid-template-columns:1fr;} .df-col{border-left:none!important; border-top:1px solid var(--border); padding-top:12px;} .df-col:first-child{border-top:none;} .df-svg{display:none;} }
 
+  /* ── BEHIND THE SCENES ── */
+  .bts-header { display:flex; align-items:center; gap:10px; margin-bottom:12px; }
+  .bts-pill { font-size:11px; font-weight:700; padding:4px 12px; border-radius:20px; letter-spacing:.04em; }
+  .bts-pill.active { background:rgba(74,222,128,0.12); color:var(--green); border:1px solid rgba(74,222,128,0.25); }
+  .bts-pill.cloud { background:rgba(167,139,250,0.12); color:var(--purple); border:1px solid rgba(167,139,250,0.25); }
+  .bts-hint { font-size:11px; color:var(--text-3); }
+  .bts-mcp-wrap { display:flex; align-items:stretch; position:relative; min-height:200px; margin-bottom:16px; }
+  .bts-mcp-svg { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; overflow:visible; z-index:0; }
+  .bts-mcp-col { display:flex; flex-direction:column; justify-content:space-around; gap:8px; flex:1; position:relative; z-index:1; }
+  .bts-mcp-col:first-of-type { align-items:flex-end; padding-right:12px; }
+  .bts-mcp-col:last-of-type { align-items:flex-start; padding-left:12px; }
+  .bts-mcp-node { display:flex; align-items:center; gap:8px; background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:10px; padding:8px 12px; position:relative; transition:border-color .3s; max-width:200px; width:100%; }
+  .bts-mcp-node:hover { border-color:rgba(253,105,105,0.22); }
+  .bts-ni { font-size:16px; flex-shrink:0; }
+  .bts-nn { font-size:12px; font-weight:600; color:var(--text-1); }
+  .bts-nr { font-size:10px; color:var(--text-3); }
+  .bts-ndot { width:5px; height:5px; border-radius:50%; background:var(--green); box-shadow:0 0 6px var(--green); animation:pulse 2s infinite; position:absolute; top:6px; right:6px; }
+  .bts-claude { display:flex; flex-direction:column; align-items:center; justify-content:center; gap:5px; flex-shrink:0; width:110px; position:relative; z-index:1; }
+  .bts-claude-glow { position:absolute; inset:-24px; border-radius:50%; background:radial-gradient(ellipse at center, rgba(253,105,105,0.18) 0%, transparent 70%); animation:botGlowPulse 3s ease-in-out infinite alternate; pointer-events:none; }
+  .bts-claude-icon { width:58px; height:58px; border-radius:16px; background:var(--blue); display:flex; align-items:center; justify-content:center; font-size:26px; box-shadow:0 0 32px rgba(253,105,105,0.45); position:relative; }
+  .bts-claude-name { font-size:11px; font-weight:700; color:var(--blue); letter-spacing:.05em; }
+  .bts-claude-sub { font-size:10px; color:var(--text-3); }
+  .bts-divider { display:flex; align-items:center; gap:14px; margin:18px 0 14px; }
+  .bts-divider-line { flex:1; height:1px; background:linear-gradient(90deg, transparent, var(--border), transparent); }
+  .bts-divider-label { font-size:11px; color:var(--text-3); white-space:nowrap; letter-spacing:.02em; }
+  @media(max-width:640px){ .bts-mcp-wrap{flex-direction:column; gap:12px;} .bts-mcp-svg{display:none;} .bts-mcp-col{flex-direction:row; flex-wrap:wrap; align-items:flex-start!important; padding:0!important;} .bts-mcp-node{max-width:calc(50% - 4px); width:calc(50% - 4px);} .bts-claude{width:100%; padding:10px 0;} }
+
   /* ── GITHUB ── */
   .gh-repo { background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:12px; overflow:hidden; margin-bottom:8px; transition:border-color .2s; }
   .gh-repo:hover { border-color:rgba(255,255,255,0.10); }
@@ -742,16 +769,6 @@
     </div>
   </div>
 
-  <!-- Agent Pipeline -->
-  <div class="bc bc-12 fade-up" id="agents">
-    <div class="bc-label">Agent Pipeline — What Each Agent Does</div>
-    <div class="agent-flow-grid">
-      <div class="af-agent"><div class="af-header"><span class="af-emoji">🔄</span><div><div class="af-name">GitBot</div><div class="af-handle">@github-sync</div></div><span class="badge badge-gray af-badge" id="state-github">😴 Sleeping</span></div><div class="af-pipeline"><div class="af-step"><div class="af-step-icon">⏰</div><div class="af-step-label">Trigger</div><div class="af-step-val">Every 6 hrs</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">🔍</div><div class="af-step-label">Action</div><div class="af-step-val">Scan GitHub repos</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">📄</div><div class="af-step-label">Output</div><div class="af-step-val">Updates data.json</div></div><div class="af-arrow">→</div><div class="af-step af-step-result"><div class="af-step-icon">📊</div><div class="af-step-label">Result</div><div class="af-step-val">Dashboard refreshes</div></div></div><div class="af-lastrun">Last run: <span id="lastrun-github">Not yet</span></div></div>
-      <div class="af-agent"><div class="af-header"><span class="af-emoji">🎯</span><div><div class="af-name">MilestoneBot</div><div class="af-handle">@milestone-notion</div></div><span class="badge badge-gray af-badge" id="state-milestone">😴 Sleeping</span></div><div class="af-pipeline"><div class="af-step"><div class="af-step-icon">⏰</div><div class="af-step-label">Trigger</div><div class="af-step-val">9:00 AM daily</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">📖</div><div class="af-step-label">Action</div><div class="af-step-val">Read Notion tracker</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">📄</div><div class="af-step-label">Output</div><div class="af-step-val">Updates milestones</div></div><div class="af-arrow">→</div><div class="af-step af-step-result"><div class="af-step-icon">📊</div><div class="af-step-label">Result</div><div class="af-step-val">Progress bars update</div></div></div><div class="af-lastrun">Last run: <span id="lastrun-milestone">Not yet</span></div></div>
-      <div class="af-agent"><div class="af-header"><span class="af-emoji">📝</span><div><div class="af-name">WrapBot</div><div class="af-handle">@daily-wrapup</div></div><span class="badge badge-gray af-badge" id="state-wrapup">😴 Sleeping</span></div><div class="af-pipeline"><div class="af-step"><div class="af-step-icon">⏰</div><div class="af-step-label">Trigger</div><div class="af-step-val">8:00 PM daily</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">🧠</div><div class="af-step-label">Action</div><div class="af-step-val">Review session work</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">✍️</div><div class="af-step-label">Output</div><div class="af-step-val">Writes daily summary</div></div><div class="af-arrow">→</div><div class="af-step af-step-result"><div class="af-step-icon">📄</div><div class="af-step-label">Result</div><div class="af-step-val">Logs to data.json</div></div></div><div class="af-lastrun">Last run: <span id="lastrun-wrapup">Not yet</span></div></div>
-      <div class="af-agent"><div class="af-header"><span class="af-emoji">🗒️</span><div><div class="af-name">LogBot</div><div class="af-handle">@session-logger</div></div><span class="badge badge-gray af-badge" id="state-logger">😴 Sleeping</span></div><div class="af-pipeline"><div class="af-step"><div class="af-step-icon">⏰</div><div class="af-step-label">Trigger</div><div class="af-step-val">8:10 PM daily</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">💬</div><div class="af-step-label">Action</div><div class="af-step-val">Summarize Claude session</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">📓</div><div class="af-step-label">Output</div><div class="af-step-val">Write to Notion</div></div><div class="af-arrow">→</div><div class="af-step af-step-result"><div class="af-step-icon">✅</div><div class="af-step-label">Result</div><div class="af-step-val">Workspace updated</div></div></div><div class="af-lastrun">Last run: <span id="lastrun-logger">Not yet</span></div></div>
-    </div>
-  </div>
 
   <!-- GitHub -->
   <div class="bc bc-4" id="github">
@@ -791,26 +808,48 @@
     </div>
   </div>
 
-  <!-- MCP Flow -->
-  <div class="bc bc-4 fade-up" id="mcp">
-    <div class="bc-label">MCP Connections</div>
-    <div class="mcp-flow-inner">
-      <div class="mcp-center"><div class="mcp-center-icon">🤖</div><div class="mcp-center-label">CLAUDE</div><div class="mcp-center-sub">+ J</div></div>
-      <div class="mcp-lines" id="mcp-lines-container"><svg id="mcp-svg" preserveAspectRatio="none"></svg></div>
-      <div class="mcp-nodes" id="mcp-nodes">
-        <div class="mcp-node" id="node-notion"><div class="mcp-node-icon">🗒️</div><div><div class="mcp-node-name">Notion</div><div class="mcp-node-role">Read / write workspace</div></div><div class="mcp-node-dot"></div></div>
-        <div class="mcp-node" id="node-gmail"><div class="mcp-node-icon">📧</div><div><div class="mcp-node-name">Gmail</div><div class="mcp-node-role">Draft & search emails</div></div><div class="mcp-node-dot"></div></div>
-        <div class="mcp-node" id="node-gcal"><div class="mcp-node-icon">📅</div><div><div class="mcp-node-name">Google Cal</div><div class="mcp-node-role">Events & scheduling</div></div><div class="mcp-node-dot"></div></div>
-        <div class="mcp-node" id="node-klaviyo"><div class="mcp-node-icon">📊</div><div><div class="mcp-node-name">Klaviyo</div><div class="mcp-node-role">Email marketing</div></div><div class="mcp-node-dot"></div></div>
-        <div class="mcp-node" id="node-canva"><div class="mcp-node-icon">🎨</div><div><div class="mcp-node-name">Canva</div><div class="mcp-node-role">Design assets</div></div><div class="mcp-node-dot"></div></div>
-        <div class="mcp-node" id="node-blotato"><div class="mcp-node-icon">📱</div><div><div class="mcp-node-name">Blotato</div><div class="mcp-node-role">Social media posts</div></div><div class="mcp-node-dot"></div></div>
+
+  <!-- Everything Behind the Scenes -->
+  <div class="bc bc-12 fade-up" id="dash-flow">
+    <div class="bc-label">Everything Behind the Scenes</div>
+
+    <!-- Section 1: Claude Session MCPs -->
+    <div class="bts-header">
+      <span class="bts-pill active">🟢 Claude Session Tools</span>
+      <span class="bts-hint">Active when you work with Claude · bidirectional data flow</span>
+    </div>
+    <div class="bts-mcp-wrap" id="bts-mcp-wrap">
+      <svg id="bts-mcp-svg" class="bts-mcp-svg" preserveAspectRatio="none"></svg>
+      <div class="bts-mcp-col" id="bts-mcp-left">
+        <div class="bts-mcp-node" id="bm-notion"><span class="bts-ni">🗒️</span><div><div class="bts-nn">Notion</div><div class="bts-nr">Read/write workspace</div></div><div class="bts-ndot"></div></div>
+        <div class="bts-mcp-node" id="bm-gmail"><span class="bts-ni">📧</span><div><div class="bts-nn">Gmail</div><div class="bts-nr">Draft & search emails</div></div><div class="bts-ndot"></div></div>
+        <div class="bts-mcp-node" id="bm-gcal"><span class="bts-ni">📅</span><div><div class="bts-nn">Google Cal</div><div class="bts-nr">Events & scheduling</div></div><div class="bts-ndot"></div></div>
+      </div>
+      <div class="bts-claude" id="bts-claude">
+        <div class="bts-claude-glow"></div>
+        <div class="bts-claude-icon">🤖</div>
+        <div class="bts-claude-name">CLAUDE</div>
+        <div class="bts-claude-sub">+ J</div>
+      </div>
+      <div class="bts-mcp-col" id="bts-mcp-right">
+        <div class="bts-mcp-node" id="bm-klaviyo"><span class="bts-ni">📊</span><div><div class="bts-nn">Klaviyo</div><div class="bts-nr">Email marketing</div></div><div class="bts-ndot"></div></div>
+        <div class="bts-mcp-node" id="bm-canva"><span class="bts-ni">🎨</span><div><div class="bts-nn">Canva</div><div class="bts-nr">Design assets</div></div><div class="bts-ndot"></div></div>
+        <div class="bts-mcp-node" id="bm-blotato"><span class="bts-ni">📱</span><div><div class="bts-nn">Blotato</div><div class="bts-nr">Social media</div></div><div class="bts-ndot"></div></div>
+        <div class="bts-mcp-node" id="bm-figma"><span class="bts-ni">🖼️</span><div><div class="bts-nn">Figma</div><div class="bts-nr">Design files</div></div><div class="bts-ndot"></div></div>
       </div>
     </div>
-  </div>
 
-  <!-- Dashboard Flow Diagram -->
-  <div class="bc bc-12 fade-up" id="dash-flow">
-    <div class="bc-label">How This Dashboard Works</div>
+    <div class="bts-divider">
+      <div class="bts-divider-line"></div>
+      <div class="bts-divider-label">☁️ Always running — even when Claude is closed</div>
+      <div class="bts-divider-line"></div>
+    </div>
+
+    <!-- Section 2: Bot Pipeline -->
+    <div class="bts-header">
+      <span class="bts-pill cloud">⚡ GitHub Actions Cloud Bots</span>
+      <span class="bts-hint">Automated 24/7 · No laptop needed</span>
+    </div>
     <div class="df-wrap" id="df-wrap">
       <svg id="df-svg" class="df-svg"></svg>
 
@@ -970,6 +1009,55 @@ function updateProdScore(){document.getElementById('prod-score').textContent='10
 
 function toggleRepo(id){document.getElementById(id).classList.toggle('open');}
 
+function drawBtsMcpLines(){
+  const svg=document.getElementById('bts-mcp-svg');
+  const wrap=document.getElementById('bts-mcp-wrap');
+  const claude=document.getElementById('bts-claude');
+  if(!svg||!wrap||!claude)return;
+  const wr=wrap.getBoundingClientRect();
+  if(!wr.width)return;
+  svg.innerHTML='';
+  svg.setAttribute('viewBox',`0 0 ${wr.width} ${wr.height}`);
+  const cr=claude.getBoundingClientRect();
+  const cx=cr.left+cr.width/2-wr.left;
+  const cy=cr.top+cr.height/2-wr.top;
+
+  function addMcpConn(nodeId,fromLeft,color,speed,delay){
+    const el=document.getElementById(nodeId);
+    if(!el)return;
+    const r=el.getBoundingClientRect();
+    let x1,y1,x2,y2;
+    if(fromLeft){x1=r.right-wr.left;y1=r.top+r.height/2-wr.top;x2=cr.left-wr.left;y2=cy;}
+    else{x1=cr.right-wr.left;y1=cy;x2=r.left-wr.left;y2=r.top+r.height/2-wr.top;}
+    const mx=(x1+x2)/2;
+    const d=`M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`;
+    const dRev=`M${x2},${y2} C${mx},${y2} ${mx},${y1} ${x1},${y1}`;
+    const path=document.createElementNS('http://www.w3.org/2000/svg','path');
+    path.setAttribute('d',d);path.setAttribute('stroke',color);path.setAttribute('stroke-width','1.5');
+    path.setAttribute('fill','none');path.setAttribute('stroke-dasharray','5,4');path.setAttribute('opacity','0.3');
+    svg.appendChild(path);
+    function makeDot(dPath,fill,r,dur,begin,glow){
+      const dot=document.createElementNS('http://www.w3.org/2000/svg','circle');
+      dot.setAttribute('r',r);dot.setAttribute('fill',fill);dot.setAttribute('opacity','0.9');
+      if(glow)dot.setAttribute('filter',`drop-shadow(0 0 4px ${fill})`);
+      const anim=document.createElementNS('http://www.w3.org/2000/svg','animateMotion');
+      anim.setAttribute('dur',dur+'s');anim.setAttribute('repeatCount','indefinite');
+      if(begin)anim.setAttribute('begin',begin+'s');
+      anim.setAttribute('path',dPath);dot.appendChild(anim);svg.appendChild(dot);
+    }
+    makeDot(d,'#FD6969',3,speed,delay,true);
+    makeDot(dRev,'#4ade80',2.5,speed+0.4,delay+0.6,false);
+  }
+
+  addMcpConn('bm-notion',true,'rgba(253,105,105,0.6)',2.0,0);
+  addMcpConn('bm-gmail',true,'rgba(253,105,105,0.6)',2.4,0.3);
+  addMcpConn('bm-gcal',true,'rgba(253,105,105,0.6)',1.8,0.6);
+  addMcpConn('bm-klaviyo',false,'rgba(253,105,105,0.6)',2.2,0.1);
+  addMcpConn('bm-canva',false,'rgba(253,105,105,0.6)',1.9,0.5);
+  addMcpConn('bm-blotato',false,'rgba(253,105,105,0.6)',2.5,0.8);
+  addMcpConn('bm-figma',false,'rgba(253,105,105,0.6)',2.1,0.2);
+}
+
 function drawFlowLines(){
   const svg=document.getElementById('df-svg');
   const wrap=document.getElementById('df-wrap');
@@ -1036,12 +1124,9 @@ function drawFlowLines(){
   // netlify → dashboard (vertical)
   addConn('dfn-netlify','dfn-dashboard','bottom','top','#FD6969',true,2.6);
 }
-window.addEventListener('load',()=>{setTimeout(drawFlowLines,300);});
-window.addEventListener('resize',()=>{setTimeout(drawFlowLines,50);});
-
 function drawMcpLines(){const c=document.getElementById('mcp-lines-container');const svg=document.getElementById('mcp-svg');const center=document.querySelector('.mcp-center');const nodes=document.querySelectorAll('.mcp-node');if(!c||!svg||!center||!nodes.length)return;const cr=c.getBoundingClientRect();const ctr=center.getBoundingClientRect();svg.innerHTML='';const x1=ctr.right-cr.left;const y1=ctr.top+ctr.height/2-cr.top;nodes.forEach(node=>{const nr=node.getBoundingClientRect();const x2=nr.left-cr.left;const y2=nr.top+nr.height/2-cr.top;const mx=(x1+x2)/2;const line=document.createElementNS('http://www.w3.org/2000/svg','path');line.setAttribute('d',`M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);line.setAttribute('stroke','rgba(253,105,105,0.15)');line.setAttribute('stroke-width','1.5');line.setAttribute('fill','none');line.setAttribute('stroke-dasharray','4,3');svg.appendChild(line);const dot=document.createElementNS('http://www.w3.org/2000/svg','circle');dot.setAttribute('r','3');dot.setAttribute('fill','#FD6969');dot.setAttribute('opacity','0.8');const anim=document.createElementNS('http://www.w3.org/2000/svg','animateMotion');anim.setAttribute('dur',(1.5+Math.random()).toFixed(1)+'s');anim.setAttribute('repeatCount','indefinite');anim.setAttribute('path',`M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);dot.appendChild(anim);svg.appendChild(dot);});}
-window.addEventListener('load',()=>{setTimeout(drawMcpLines,200);});
-window.addEventListener('resize',drawMcpLines);
+window.addEventListener('load',()=>{setTimeout(drawBtsMcpLines,250);setTimeout(drawFlowLines,350);});
+window.addEventListener('resize',()=>{setTimeout(drawBtsMcpLines,60);setTimeout(drawFlowLines,60);});
 
 const POMO_WORK=25*60,POMO_BREAK=5*60,CIRCUMFERENCE=2*Math.PI*50;
 let pomoRunning=false,pomoTime=POMO_WORK,pomoIsBreak=false,pomoSessions=0,pomoInterval=null;
