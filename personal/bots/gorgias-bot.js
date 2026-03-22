@@ -23,7 +23,7 @@ function fetchGorgias() {
     const auth = Buffer.from(`${EMAIL}:${API_KEY}`).toString('base64');
     const options = {
       hostname: `${DOMAIN}.gorgias.com`,
-      path: '/api/tickets?limit=5&order_by=-created_datetime',
+      path: '/api/tickets?limit=5&order_by=created_datetime:desc',
       method: 'GET',
       headers: {
         'Authorization': `Basic ${auth}`,
