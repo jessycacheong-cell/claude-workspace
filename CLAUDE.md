@@ -10,7 +10,8 @@
 - Based in: Austin, TX
 - Working style: casual, fast, visual-first, mobile-first
 - Personal context: `personal/about-me.md`
-- Tools connected: Notion, Gmail, Google Calendar, Klaviyo, Canva, Blotato
+- Tools connected: Notion, Gmail, Google Calendar, Klaviyo, Canva, Blotato, Figma, Gorgias (via InboxBot)
+- ⚠️ Google Tasks NOT supported via MCP — use Calendar events instead
 
 ---
 
@@ -72,13 +73,29 @@
 ## Folder Structure
 ```
 claude-workspace/
-├── CLAUDE.md              ← you are here (master brief)
-├── brands/                ← one file per brand
+├── CLAUDE.md                    ← you are here (master brief)
+├── brands/                      ← one file per brand
 │   └── umei3d.md
-├── apps/                  ← one file per app
+├── apps/                        ← one file per app
 │   └── umei3d-post-purchase.md
-├── personal/              ← J's personal projects & automations
-│   └── about-me.md
-├── templates/             ← reusable code/design templates
-└── assets/                ← logos, fonts, brand assets
+├── personal/                    ← J's personal projects & automations
+│   ├── about-me.md
+│   ├── index.html               ← J Command Center dashboard
+│   ├── data.json                ← live dashboard data (updated by bots)
+│   └── bots/
+│       └── gorgias-bot.js       ← InboxBot: fetches Gorgias tickets
+├── finance-tracker/
+│   └── index.html               ← Personal finance tracker app
+├── .github/
+│   └── workflows/
+│       └── inbox-bot.yml        ← GitHub Action: runs InboxBot every 30min
+├── templates/                   ← reusable code/design snippets
+└── assets/                      ← logos, fonts, brand assets
 ```
+
+## Dashboard Quick Reference
+- **Live URL:** https://jessycacheong-cell.netlify.app
+- **Finance Tracker:** https://jessyca-finance-tracker.netlify.app
+- **Finance Google Sheet:** https://docs.google.com/spreadsheets/d/183tx7Ox7FMIwoAJ9VrBWkmFCHEAoLnOOY_lY1g2Dtuo
+- **Gorgias domain:** umeistore.gorgias.com
+- **GitHub Secrets needed:** GORGIAS_API_KEY · GORGIAS_EMAIL
