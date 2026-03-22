@@ -1083,10 +1083,15 @@
             <div><div class="df-node-name">Notion</div><div class="df-node-role">Milestones · Session logs</div></div>
             <div class="df-node-pip on"></div>
           </div>
-          <div class="df-node dim" id="dfn-gmail">
+          <div class="df-node active" id="dfn-gmail">
             <div class="df-node-icon">📧</div>
-            <div><div class="df-node-name">Gmail</div><div class="df-node-role">Inbox snapshot (coming soon)</div></div>
-            <div class="df-node-pip soon"></div>
+            <div><div class="df-node-name">Gmail</div><div class="df-node-role">Inbox snapshot · live</div></div>
+            <div class="df-node-pip on"></div>
+          </div>
+          <div class="df-node active" id="dfn-gorgias">
+            <div class="df-node-icon">🎧</div>
+            <div><div class="df-node-name">Gorgias</div><div class="df-node-role">UMEI support tickets · live</div></div>
+            <div class="df-node-pip on"></div>
           </div>
           <div class="df-node dim" id="dfn-gcal">
             <div class="df-node-icon">📅</div>
@@ -1104,6 +1109,12 @@
             <div class="df-bot-glow"></div>
             <div class="df-bot-icon">🤖</div>
             <div class="df-bot-info"><div class="df-bot-name">MilestoneBot</div><div class="df-bot-sched">9AM daily · Notion → data.json</div></div>
+            <span class="df-badge live">LIVE</span>
+          </div>
+          <div class="df-bot live" id="dfb-inbox">
+            <div class="df-bot-glow"></div>
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">InboxBot</div><div class="df-bot-sched">Every 30min · Gorgias + Gmail → data.json</div></div>
             <span class="df-badge live">LIVE</span>
           </div>
           <div class="df-bot pending" id="dfb-git">
@@ -1449,10 +1460,12 @@ function drawFlowLines(){
 
   // Sources → Bots
   addConn('dfn-notion','dfb-milestone','right','left','#FD6969',true,2.0);
-  addConn('dfn-gmail','dfb-wrap','right','left','#a78bfa',false,0);
+  addConn('dfn-gmail','dfb-inbox','right','left','#4583fd',true,1.8);
+  addConn('dfn-gorgias','dfb-inbox','right','left','#22d47a',true,2.2);
   addConn('dfn-gcal','dfb-log','right','left','#f59e0b',false,0);
   // Bots → Output
   addConn('dfb-milestone','dfn-datajson','right','left','#4ade80',true,2.2);
+  addConn('dfb-inbox','dfn-datajson','right','left','#4583fd',true,1.9);
   addConn('dfb-git','dfn-datajson','right','left','#a78bfa',false,0);
   addConn('dfb-wrap','dfn-netlify','right','left','#FD6969',false,0);
   addConn('dfb-log','dfn-netlify','right','left','#FD6969',false,0);
