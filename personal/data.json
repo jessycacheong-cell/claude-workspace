@@ -125,42 +125,42 @@
     "gmailUpdated": "2026-03-22T19:32:00.000Z",
     "gorgias": [
       {
+        "id": 89714527,
+        "subject": "Direct message with austinthephilosurfer",
+        "customer": "Unknown",
+        "status": "closed",
+        "time": "38m ago"
+      },
+      {
+        "id": 89706337,
+        "subject": "Security alert",
+        "customer": "Unknown",
+        "status": "closed",
+        "time": "1h ago"
+      },
+      {
         "id": 89696413,
         "subject": "Shopify Plus Checkout Page Heatmaps: Now Rendering Reliably",
         "customer": "Unknown",
         "status": "closed",
-        "time": "32m ago"
+        "time": "2h ago"
       },
       {
         "id": 89677932,
         "subject": "You're leaving $1,900 on the table 👀",
         "customer": "Unknown",
         "status": "open",
-        "time": "2h ago"
+        "time": "4h ago"
       },
       {
         "id": 89664712,
         "subject": "Submit your Prime Day 2026 Deals on March 24, review updated fees and eligibility",
         "customer": "Unknown",
         "status": "closed",
-        "time": "3h ago"
-      },
-      {
-        "id": 89661528,
-        "subject": "Direct message with jessdoit321",
-        "customer": "Unknown",
-        "status": "open",
-        "time": "3h ago"
-      },
-      {
-        "id": 89656801,
-        "subject": "Don't miss out on this limited-time funding offer",
-        "customer": "Unknown",
-        "status": "closed",
-        "time": "4h ago"
+        "time": "5h ago"
       }
     ],
-    "gorgiasUpdated": "2026-03-23T22:01:49.321Z"
+    "gorgiasUpdated": "2026-03-23T23:56:33.530Z"
   },
   "todayLog": "🎉 Mar 22 — InboxBot shipped. Gmail + Gorgias live in the dashboard. Finance Tracker deployed. Dashboard rearranged by priority. CLAUDE.md fully updated. Solid automation day — you built real infrastructure.",
   "automations": [
