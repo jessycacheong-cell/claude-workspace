@@ -125,42 +125,42 @@
     "gmailUpdated": "2026-03-22T19:32:00.000Z",
     "gorgias": [
       {
+        "id": 89563836,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "time": "38m ago"
+      },
+      {
+        "id": 89540505,
+        "subject": "Action required: Rotate your Shopify app’s API credentials",
+        "customer": "Unknown",
+        "status": "closed",
+        "time": "5h ago"
+      },
+      {
         "id": 89530986,
         "subject": "Direct message with kevincassidyy",
         "customer": "Unknown",
         "status": "open",
-        "time": "1h ago"
+        "time": "7h ago"
       },
       {
         "id": 89486384,
         "subject": "Specs",
         "customer": "Unknown",
         "status": "closed",
-        "time": "8h ago"
+        "time": "14h ago"
       },
       {
         "id": 89466333,
         "subject": "Your 20% UMEI code 🎉",
         "customer": "Unknown",
         "status": "closed",
-        "time": "14h ago"
-      },
-      {
-        "id": 89465411,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "time": "15h ago"
-      },
-      {
-        "id": 89465100,
-        "subject": "Quite right. There’s a time and place for the cushion….recovery ✅",
-        "customer": "Unknown",
-        "status": "open",
-        "time": "15h ago"
+        "time": "20h ago"
       }
     ],
-    "gorgiasUpdated": "2026-03-22T23:58:30.800Z"
+    "gorgiasUpdated": "2026-03-23T05:50:20.684Z"
   },
   "todayLog": "🎉 Mar 22 — InboxBot shipped. Gmail + Gorgias live in the dashboard. Finance Tracker deployed. Dashboard rearranged by priority. CLAUDE.md fully updated. Solid automation day — you built real infrastructure.",
   "automations": [
