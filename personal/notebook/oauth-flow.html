@@ -1,0 +1,1043 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google OAuth Flow</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #04050a;
+    --card: #0d0e18;
+    --raised: #13141f;
+    --border: rgba(255,255,255,0.08);
+    --coral: #FD6969;
+    --coral-dim: rgba(253,105,105,0.12);
+    --blue: #4f8ef7;
+    --blue-dim: rgba(79,142,247,0.12);
+    --green: #4ade80;
+    --green-dim: rgba(74,222,128,0.1);
+    --yellow: #f59e0b;
+    --purple: #a78bfa;
+    --text-1: #f0f2ff;
+    --text-2: #8b8fa8;
+    --text-3: #4a4d62;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text-1);
+    font-family: 'Space Grotesk', sans-serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── AMBIENT ── */
+  body::before {
+    content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background:
+      radial-gradient(ellipse 60% 40% at 15% 20%, rgba(253,105,105,0.06) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 40% at 85% 80%, rgba(79,142,247,0.05) 0%, transparent 55%);
+  }
+
+  .wrap {
+    position: relative; z-index: 1;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    text-align: center;
+    margin-bottom: 52px;
+  }
+  .header-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--coral-dim);
+    border: 1px solid rgba(253,105,105,0.2);
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 12px; font-weight: 600; color: var(--coral);
+    letter-spacing: 0.06em; text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .header h1 {
+    font-size: clamp(28px, 5vw, 44px);
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 12px;
+  }
+  .header h1 span { color: var(--coral); }
+  .header p {
+    color: var(--text-2);
+    font-size: 16px;
+    max-width: 480px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  /* ── PROGRESS BAR ── */
+  .progress-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 48px;
+    position: relative;
+  }
+  .progress-wrap::before {
+    content: '';
+    position: absolute;
+    top: 18px; left: 18px; right: 18px;
+    height: 2px;
+    background: var(--border);
+    z-index: 0;
+  }
+  .progress-fill {
+    position: absolute;
+    top: 18px; left: 18px;
+    height: 2px;
+    background: var(--coral);
+    z-index: 1;
+    transition: width 0.6s cubic-bezier(0.4,0,0.2,1);
+    box-shadow: 0 0 8px rgba(253,105,105,0.5);
+  }
+  .prog-step {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: relative; z-index: 2;
+    cursor: pointer;
+  }
+  .prog-dot {
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    background: var(--card);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700;
+    color: var(--text-3);
+    transition: all 0.4s ease;
+    position: relative;
+  }
+  .prog-dot::after {
+    content: '';
+    position: absolute; inset: -4px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    transition: border-color 0.4s ease;
+  }
+  .prog-step.active .prog-dot {
+    border-color: var(--coral);
+    background: var(--coral-dim);
+    color: var(--coral);
+    box-shadow: 0 0 16px rgba(253,105,105,0.3);
+  }
+  .prog-step.active .prog-dot::after {
+    border-color: rgba(253,105,105,0.2);
+  }
+  .prog-step.done .prog-dot {
+    border-color: var(--green);
+    background: var(--green-dim);
+    color: var(--green);
+  }
+  .prog-label {
+    font-size: 11px;
+    color: var(--text-3);
+    text-align: center;
+    max-width: 72px;
+    line-height: 1.3;
+    transition: color 0.3s;
+  }
+  .prog-step.active .prog-label { color: var(--text-1); }
+  .prog-step.done .prog-label { color: var(--text-2); }
+
+  /* ── STAGE ── */
+  .stage {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 24px;
+    min-height: 380px;
+    position: relative;
+  }
+
+  .scene {
+    display: none;
+    padding: 40px;
+    animation: sceneFadeIn 0.5s ease forwards;
+  }
+  .scene.active { display: block; }
+
+  @keyframes sceneFadeIn {
+    from { opacity: 0; transform: translateY(12px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── SCENE LAYOUT ── */
+  .scene-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 36px;
+  }
+  .scene-num {
+    flex-shrink: 0;
+    width: 48px; height: 48px;
+    border-radius: 14px;
+    background: var(--coral-dim);
+    border: 1px solid rgba(253,105,105,0.2);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; font-weight: 800; color: var(--coral);
+  }
+  .scene-title {
+    font-size: 22px; font-weight: 700;
+    margin-bottom: 6px;
+    line-height: 1.2;
+  }
+  .scene-title span { color: var(--coral); }
+  .scene-desc {
+    color: var(--text-2);
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  /* ── FLOW DIAGRAM ── */
+  .flow {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    flex-wrap: wrap;
+  }
+
+  .flow-node {
+    flex-shrink: 0;
+    background: var(--raised);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 16px 20px;
+    text-align: center;
+    min-width: 110px;
+    position: relative;
+    transition: all 0.4s ease;
+  }
+  .flow-node.highlight {
+    border-color: var(--coral);
+    background: var(--coral-dim);
+    box-shadow: 0 0 24px rgba(253,105,105,0.15);
+  }
+  .flow-node.highlight-blue {
+    border-color: var(--blue);
+    background: var(--blue-dim);
+    box-shadow: 0 0 24px rgba(79,142,247,0.15);
+  }
+  .flow-node.highlight-green {
+    border-color: var(--green);
+    background: var(--green-dim);
+    box-shadow: 0 0 24px rgba(74,222,128,0.15);
+  }
+  .flow-node.highlight-purple {
+    border-color: var(--purple);
+    background: rgba(167,139,250,0.1);
+    box-shadow: 0 0 24px rgba(167,139,250,0.15);
+  }
+  .flow-node-icon { font-size: 28px; margin-bottom: 8px; }
+  .flow-node-name { font-size: 13px; font-weight: 600; color: var(--text-1); }
+  .flow-node-sub { font-size: 11px; color: var(--text-2); margin-top: 3px; line-height: 1.3; }
+
+  /* ── ARROW ── */
+  .flow-arrow {
+    flex: 1;
+    min-width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    overflow: hidden;
+  }
+  .flow-arrow-line {
+    width: 100%;
+    height: 2px;
+    background: var(--border);
+    position: relative;
+    border-radius: 2px;
+  }
+  .flow-arrow-line::after {
+    content: '';
+    position: absolute;
+    right: -1px; top: -4px;
+    width: 0; height: 0;
+    border-left: 8px solid var(--border);
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+  }
+  .flow-arrow.active .flow-arrow-line {
+    background: var(--coral);
+  }
+  .flow-arrow.active .flow-arrow-line::after {
+    border-left-color: var(--coral);
+  }
+  .flow-arrow.active-blue .flow-arrow-line {
+    background: var(--blue);
+  }
+  .flow-arrow.active-blue .flow-arrow-line::after {
+    border-left-color: var(--blue);
+  }
+  .flow-arrow.active-green .flow-arrow-line {
+    background: var(--green);
+  }
+  .flow-arrow.active-green .flow-arrow-line::after {
+    border-left-color: var(--green);
+  }
+  .flow-arrow-label {
+    font-size: 10px;
+    color: var(--text-3);
+    text-align: center;
+    white-space: nowrap;
+  }
+  .flow-arrow.active .flow-arrow-label,
+  .flow-arrow.active-blue .flow-arrow-label,
+  .flow-arrow.active-green .flow-arrow-label { color: var(--text-2); }
+
+  /* ── PACKET ANIMATION ── */
+  .packet {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: var(--coral);
+    box-shadow: 0 0 8px rgba(253,105,105,0.8);
+    animation: packetMove 1.2s ease-in-out infinite;
+    opacity: 0;
+  }
+  .packet.blue {
+    background: var(--blue);
+    box-shadow: 0 0 8px rgba(79,142,247,0.8);
+  }
+  .packet.green {
+    background: var(--green);
+    box-shadow: 0 0 8px rgba(74,222,128,0.8);
+  }
+  @keyframes packetMove {
+    0%   { left: 0%; opacity: 0; }
+    10%  { opacity: 1; }
+    90%  { opacity: 1; }
+    100% { left: 100%; opacity: 0; }
+  }
+
+  /* ── DETAIL BOX ── */
+  .detail-box {
+    background: var(--raised);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 24px;
+  }
+  .detail-box.coral { border-color: rgba(253,105,105,0.2); background: var(--coral-dim); }
+  .detail-box.blue  { border-color: rgba(79,142,247,0.2); background: var(--blue-dim); }
+  .detail-box.green { border-color: rgba(74,222,128,0.2); background: var(--green-dim); }
+  .detail-title {
+    font-size: 12px; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.08em;
+    color: var(--text-2);
+    margin-bottom: 12px;
+  }
+  .detail-box.coral .detail-title { color: var(--coral); }
+  .detail-box.blue  .detail-title { color: var(--blue); }
+  .detail-box.green .detail-title { color: var(--green); }
+
+  /* ── CODE CHIP ── */
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; }
+  .chip {
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 12px; font-weight: 600;
+    font-family: 'Space Grotesk', monospace;
+    color: var(--text-1);
+  }
+  .chip.coral { border-color: rgba(253,105,105,0.3); color: var(--coral); background: var(--coral-dim); }
+  .chip.blue  { border-color: rgba(79,142,247,0.3); color: var(--blue); background: var(--blue-dim); }
+  .chip.green { border-color: rgba(74,222,128,0.3); color: var(--green); background: var(--green-dim); }
+  .chip.purple{ border-color: rgba(167,139,250,0.3); color: var(--purple); background: rgba(167,139,250,0.1); }
+
+  /* ── HUMAN ACTION ── */
+  .human-action {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: rgba(245,158,11,0.08);
+    border: 1px solid rgba(245,158,11,0.2);
+    border-radius: 12px;
+    padding: 14px 18px;
+    margin-top: 20px;
+  }
+  .human-icon { font-size: 24px; }
+  .human-text { font-size: 14px; color: var(--text-1); line-height: 1.5; }
+  .human-text strong { color: var(--yellow); }
+
+  /* ── KEYS OUTPUT ── */
+  .keys-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 20px;
+  }
+  @media (max-width: 600px) { .keys-grid { grid-template-columns: 1fr; } }
+  .key-card {
+    background: var(--raised);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.4s ease;
+  }
+  .key-card.revealed {
+    animation: keyReveal 0.5s ease forwards;
+  }
+  @keyframes keyReveal {
+    0%  { transform: scale(0.9) translateY(10px); opacity: 0; }
+    60% { transform: scale(1.04); }
+    100%{ transform: scale(1) translateY(0); opacity: 1; }
+  }
+  .key-icon { font-size: 32px; margin-bottom: 10px; }
+  .key-name { font-size: 14px; font-weight: 700; margin-bottom: 4px; }
+  .key-name.coral { color: var(--coral); }
+  .key-name.blue  { color: var(--blue); }
+  .key-name.green { color: var(--green); }
+  .key-source { font-size: 11px; color: var(--text-2); line-height: 1.4; }
+
+  /* ── ANALOGY CARD ── */
+  .analogy {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+  }
+  @media (max-width: 580px) { .analogy { grid-template-columns: 1fr; } }
+  .analogy-item {
+    background: var(--raised);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+  }
+  .analogy-emoji { font-size: 28px; margin-bottom: 8px; }
+  .analogy-role { font-size: 12px; font-weight: 700; color: var(--text-2); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 4px; }
+  .analogy-what { font-size: 13px; color: var(--text-1); font-weight: 600; margin-bottom: 4px; }
+  .analogy-is   { font-size: 12px; color: var(--text-2); }
+
+  /* ── CONTROLS ── */
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  .btn {
+    display: flex; align-items: center; gap: 8px;
+    padding: 12px 24px;
+    border-radius: 12px;
+    border: none;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 14px; font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .btn-primary {
+    background: var(--coral);
+    color: white;
+    box-shadow: 0 4px 16px rgba(253,105,105,0.3);
+  }
+  .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(253,105,105,0.4); }
+  .btn-primary:active { transform: translateY(0); }
+  .btn-ghost {
+    background: var(--raised);
+    color: var(--text-1);
+    border: 1px solid var(--border);
+  }
+  .btn-ghost:hover { border-color: rgba(255,255,255,0.2); }
+  .btn-ghost:disabled { opacity: 0.3; cursor: default; }
+  .btn-ghost:disabled:hover { transform: none; }
+
+  .step-counter {
+    font-size: 13px;
+    color: var(--text-2);
+    min-width: 60px;
+    text-align: center;
+  }
+
+  /* ── FINAL SCENE ── */
+  .final-flow {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .final-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: var(--raised);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 18px;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: all 0.4s ease;
+  }
+  .final-row.visible {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .final-row-icon { font-size: 22px; flex-shrink: 0; }
+  .final-row-text { font-size: 14px; line-height: 1.5; }
+  .final-row-text strong { color: var(--coral); }
+  .final-row-badge {
+    margin-left: auto;
+    flex-shrink: 0;
+    font-size: 11px; font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase; letter-spacing: 0.06em;
+  }
+  .badge-live { background: var(--green-dim); color: var(--green); border: 1px solid rgba(74,222,128,0.3); }
+  .badge-once { background: var(--blue-dim); color: var(--blue); border: 1px solid rgba(79,142,247,0.3); }
+  .badge-never { background: rgba(255,71,67,0.1); color: #ff7875; border: 1px solid rgba(255,71,67,0.2); }
+
+  /* ── VERTICAL FLOW (scene 2) ── */
+  .vflow { display: flex; flex-direction: column; gap: 0; align-items: flex-start; }
+  .vflow-item {
+    display: flex; align-items: flex-start; gap: 16px;
+    padding: 12px 0;
+    opacity: 0; transform: translateY(8px);
+    transition: all 0.35s ease;
+  }
+  .vflow-item.visible { opacity: 1; transform: translateY(0); }
+  .vflow-dot {
+    flex-shrink: 0;
+    width: 32px; height: 32px;
+    border-radius: 50%;
+    background: var(--raised);
+    border: 2px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700;
+    color: var(--text-3);
+    position: relative; z-index: 1;
+  }
+  .vflow-item.c-dot .vflow-dot { border-color: var(--coral); color: var(--coral); background: var(--coral-dim); }
+  .vflow-item.b-dot .vflow-dot { border-color: var(--blue); color: var(--blue); background: var(--blue-dim); }
+  .vflow-item.g-dot .vflow-dot { border-color: var(--green); color: var(--green); background: var(--green-dim); }
+  .vflow-connector {
+    width: 2px; height: 24px;
+    background: var(--border);
+    margin-left: 15px;
+    opacity: 0;
+    transition: opacity 0.3s ease 0.2s;
+  }
+  .vflow-connector.visible { opacity: 1; }
+  .vflow-content { padding-top: 4px; }
+  .vflow-title { font-size: 14px; font-weight: 700; margin-bottom: 3px; }
+  .vflow-sub { font-size: 13px; color: var(--text-2); line-height: 1.5; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- Nav -->
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:40px;">
+    <a href="index.html" style="display:flex;align-items:center;gap:8px;font-size:13px;color:#8b8fa8;text-decoration:none;padding:8px 14px;background:#0d0e18;border:1px solid rgba(255,255,255,0.08);border-radius:20px;font-family:'Space Grotesk',sans-serif;" onmouseover="this.style.color='#f0f2ff'" onmouseout="this.style.color='#8b8fa8'">← Notebook</a>
+    <div style="display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:#f0f2ff;font-family:'Space Grotesk',sans-serif;">
+      <div style="width:7px;height:7px;border-radius:50%;background:#FD6969;box-shadow:0 0 8px rgba(253,105,105,0.6);"></div>
+      Chapter 1
+    </div>
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-badge">🔐 How Google OAuth Works</div>
+    <h1>The One-Time <span>Handshake</span></h1>
+    <p>Walk through exactly how your dashboard got permission to read your Gmail and Calendar — step by step.</p>
+  </div>
+
+  <!-- Progress -->
+  <div class="progress-wrap" id="progressWrap">
+    <div class="progress-fill" id="progressFill"></div>
+    <div class="prog-step" data-step="0" onclick="goTo(0)">
+      <div class="prog-dot">1</div>
+      <div class="prog-label">The Setup</div>
+    </div>
+    <div class="prog-step" data-step="1" onclick="goTo(1)">
+      <div class="prog-dot">2</div>
+      <div class="prog-label">The Script</div>
+    </div>
+    <div class="prog-step" data-step="2" onclick="goTo(2)">
+      <div class="prog-dot">3</div>
+      <div class="prog-label">You Log In</div>
+    </div>
+    <div class="prog-step" data-step="3" onclick="goTo(3)">
+      <div class="prog-dot">4</div>
+      <div class="prog-label">Auth Code</div>
+    </div>
+    <div class="prog-step" data-step="4" onclick="goTo(4)">
+      <div class="prog-dot">5</div>
+      <div class="prog-label">The Trade</div>
+    </div>
+    <div class="prog-step" data-step="5" onclick="goTo(5)">
+      <div class="prog-dot">6</div>
+      <div class="prog-label">3 Keys</div>
+    </div>
+    <div class="prog-step" data-step="6" onclick="goTo(6)">
+      <div class="prog-dot">7</div>
+      <div class="prog-label">Forever</div>
+    </div>
+  </div>
+
+  <!-- Stage -->
+  <div class="stage">
+
+    <!-- Scene 0: The Setup -->
+    <div class="scene active" id="scene-0">
+      <div class="scene-header">
+        <div class="scene-num">1</div>
+        <div>
+          <div class="scene-title">Register Your App with <span>Google</span></div>
+          <div class="scene-desc">Before any code runs, you need to introduce your app to Google. This happens once in Google Cloud Console — you're basically saying "I'm building an app, here's what it needs access to."</div>
+        </div>
+      </div>
+
+      <div class="analogy">
+        <div class="analogy-item">
+          <div class="analogy-emoji">🏛️</div>
+          <div class="analogy-role">Place</div>
+          <div class="analogy-what">Google Cloud Console</div>
+          <div class="analogy-is">Government registration office</div>
+        </div>
+        <div class="analogy-item">
+          <div class="analogy-emoji">🪪</div>
+          <div class="analogy-role">What you get</div>
+          <div class="analogy-what">Client ID + Secret</div>
+          <div class="analogy-is">Your app's official ID card</div>
+        </div>
+        <div class="analogy-item">
+          <div class="analogy-emoji">📄</div>
+          <div class="analogy-role">Output file</div>
+          <div class="analogy-what">google-creds.json</div>
+          <div class="analogy-is">Downloaded to your Desktop</div>
+        </div>
+      </div>
+
+      <div class="detail-box coral" style="margin-top:20px;">
+        <div class="detail-title">Inside google-creds.json</div>
+        <div class="chips">
+          <span class="chip coral">client_id: "1234...apps.googleusercontent.com"</span>
+          <span class="chip coral">client_secret: "GOCSPX-abc..."</span>
+          <span class="chip">redirect_uris: ["localhost:3500"]</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scene 1: The Script -->
+    <div class="scene" id="scene-1">
+      <div class="scene-header">
+        <div class="scene-num">2</div>
+        <div>
+          <div class="scene-title">The Script <span>Reads</span> the JSON</div>
+          <div class="scene-desc">When you run <code style="color:var(--coral);background:var(--coral-dim);padding:2px 6px;border-radius:4px;">node get-token.js</code> in the terminal, Node.js reads your JSON file and uses those credentials to build a special Google login URL.</div>
+        </div>
+      </div>
+
+      <div class="flow">
+        <div class="flow-node highlight" id="fn-json">
+          <div class="flow-node-icon">📄</div>
+          <div class="flow-node-name">google-creds.json</div>
+          <div class="flow-node-sub">Your Desktop</div>
+        </div>
+        <div class="flow-arrow active" id="fa-1">
+          <div class="flow-arrow-line">
+            <div class="packet"></div>
+          </div>
+          <div class="flow-arrow-label">reads</div>
+        </div>
+        <div class="flow-node highlight" id="fn-script">
+          <div class="flow-node-icon">📜</div>
+          <div class="flow-node-name">get-token.js</div>
+          <div class="flow-node-sub">The recipe</div>
+        </div>
+        <div class="flow-arrow active" id="fa-2">
+          <div class="flow-arrow-line">
+            <div class="packet"></div>
+          </div>
+          <div class="flow-arrow-label">powered by</div>
+        </div>
+        <div class="flow-node highlight-blue" id="fn-node">
+          <div class="flow-node-icon">⚙️</div>
+          <div class="flow-node-name">Node.js</div>
+          <div class="flow-node-sub">The engine</div>
+        </div>
+        <div class="flow-arrow active-blue" id="fa-3">
+          <div class="flow-arrow-line">
+            <div class="packet blue"></div>
+          </div>
+          <div class="flow-arrow-label">outputs</div>
+        </div>
+        <div class="flow-node highlight-blue" id="fn-terminal">
+          <div class="flow-node-icon">🖥️</div>
+          <div class="flow-node-name">Terminal</div>
+          <div class="flow-node-sub">Prints the URL</div>
+        </div>
+      </div>
+
+      <div class="detail-box blue" style="margin-top:24px;">
+        <div class="detail-title">What Node.js Is</div>
+        <div style="font-size:14px;color:var(--text-1);line-height:1.6;">
+          JavaScript normally runs <strong>inside a browser</strong>. Node.js lets it run <strong>directly on your computer</strong> — so it can read files, run servers, and call APIs. The terminal is just how you press "go" since there's no button or screen.
+        </div>
+      </div>
+    </div>
+
+    <!-- Scene 2: You Log In -->
+    <div class="scene" id="scene-2">
+      <div class="scene-header">
+        <div class="scene-num">3</div>
+        <div>
+          <div class="scene-title">You Log In and <span>Click Allow</span></div>
+          <div class="scene-desc">The script prints a Google URL. You paste it in your browser. Google shows you: "This app wants to read your Gmail and Calendar." You're the only one who can approve this — no script can click for you.</div>
+        </div>
+      </div>
+
+      <div class="vflow" id="vflow-3">
+        <div class="vflow-item c-dot" id="vf3-1">
+          <div class="vflow-dot">→</div>
+          <div class="vflow-content">
+            <div class="vflow-title">Terminal prints a long Google URL</div>
+            <div class="vflow-sub">Built from your Client ID — it tells Google which app is asking for permission</div>
+          </div>
+        </div>
+        <div class="vflow-connector" id="vc3-1"></div>
+        <div class="vflow-item c-dot" id="vf3-2">
+          <div class="vflow-dot">→</div>
+          <div class="vflow-content">
+            <div class="vflow-title">You copy-paste it into Chrome</div>
+            <div class="vflow-sub">Google's login page opens. You sign into jessycacheong@gmail.com</div>
+          </div>
+        </div>
+        <div class="vflow-connector" id="vc3-2"></div>
+        <div class="vflow-item b-dot" id="vf3-3">
+          <div class="vflow-dot">⚠️</div>
+          <div class="vflow-content">
+            <div class="vflow-title" style="color:var(--yellow)">Why you had to add yourself as a Test User</div>
+            <div class="vflow-sub">Your app was in "Testing" mode — Google only allowed emails on the approved list. Since yours wasn't there, it blocked you from your own app. Adding yourself fixed it.</div>
+          </div>
+        </div>
+        <div class="vflow-connector" id="vc3-3"></div>
+        <div class="vflow-item g-dot" id="vf3-4">
+          <div class="vflow-dot">✓</div>
+          <div class="vflow-content">
+            <div class="vflow-title">You click Allow</div>
+            <div class="vflow-sub">Google records: "Jessyca approved this app to read her Gmail + Calendar." Now it generates a one-time auth code.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="human-action" style="margin-top:20px;">
+        <div class="human-icon">👤</div>
+        <div class="human-text">This step <strong>requires a real human</strong>. No script can do it for you. Google deliberately makes you click so you're always in control of what gets access to your account.</div>
+      </div>
+    </div>
+
+    <!-- Scene 3: Auth Code -->
+    <div class="scene" id="scene-3">
+      <div class="scene-header">
+        <div class="scene-num">4</div>
+        <div>
+          <div class="scene-title">Google Sends an <span>Auth Code</span></div>
+          <div class="scene-desc">After you click Allow, Google redirects your browser back to <code style="color:var(--coral);background:var(--coral-dim);padding:2px 6px;border-radius:4px;">localhost:3500</code> — the tiny web server get-token.js was running on your computer. The auth code is in the URL.</div>
+        </div>
+      </div>
+
+      <div class="flow">
+        <div class="flow-node highlight-blue">
+          <div class="flow-node-icon">🌐</div>
+          <div class="flow-node-name">Google</div>
+          <div class="flow-node-sub">Sends redirect</div>
+        </div>
+        <div class="flow-arrow active-blue">
+          <div class="flow-arrow-line">
+            <div class="packet blue"></div>
+          </div>
+          <div class="flow-arrow-label">redirects to</div>
+        </div>
+        <div class="flow-node highlight">
+          <div class="flow-node-icon">🖥️</div>
+          <div class="flow-node-name">localhost:3500</div>
+          <div class="flow-node-sub">Your laptop</div>
+        </div>
+        <div class="flow-arrow active">
+          <div class="flow-arrow-line">
+            <div class="packet"></div>
+          </div>
+          <div class="flow-arrow-label">script catches</div>
+        </div>
+        <div class="flow-node highlight">
+          <div class="flow-node-icon">🎟️</div>
+          <div class="flow-node-name">Auth Code</div>
+          <div class="flow-node-sub">One-time, 60 sec</div>
+        </div>
+      </div>
+
+      <div class="detail-box" style="margin-top:24px;">
+        <div class="detail-title">What the Auth Code Is</div>
+        <div style="font-size:14px;color:var(--text-1);line-height:1.6;margin-bottom:12px;">
+          Think of it like a <strong>ticket stub</strong> from a concert. It proves you were there (you clicked Allow). But it's not the real prize — it expires in 60 seconds and can only be used once. You have to trade it in immediately for something permanent.
+        </div>
+        <div class="chips">
+          <span class="chip">⏱️ Expires in 60 seconds</span>
+          <span class="chip">🔂 Single use only</span>
+          <span class="chip">🎫 Proves you clicked Allow</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scene 4: The Trade -->
+    <div class="scene" id="scene-4">
+      <div class="scene-header">
+        <div class="scene-num">5</div>
+        <div>
+          <div class="scene-title">Trade the Code for a <span>Refresh Token</span></div>
+          <div class="scene-desc">The script immediately sends the auth code back to Google along with your Client ID and Client Secret. Google verifies all three match and — if they do — sends back the Refresh Token. This is the permanent key.</div>
+        </div>
+      </div>
+
+      <div class="flow">
+        <div class="flow-node highlight">
+          <div class="flow-node-icon">📜</div>
+          <div class="flow-node-name">get-token.js</div>
+          <div class="flow-node-sub">Sends 3 things</div>
+        </div>
+        <div class="flow-arrow active">
+          <div class="flow-arrow-line">
+            <div class="packet"></div>
+          </div>
+          <div class="flow-arrow-label">POST request</div>
+        </div>
+        <div class="flow-node highlight-blue">
+          <div class="flow-node-icon">🌐</div>
+          <div class="flow-node-name">Google</div>
+          <div class="flow-node-sub">Checks everything</div>
+        </div>
+        <div class="flow-arrow active-green">
+          <div class="flow-arrow-line">
+            <div class="packet green"></div>
+          </div>
+          <div class="flow-arrow-label">sends back</div>
+        </div>
+        <div class="flow-node highlight-green">
+          <div class="flow-node-icon">🗝️</div>
+          <div class="flow-node-name">Refresh Token</div>
+          <div class="flow-node-sub">Never expires</div>
+        </div>
+      </div>
+
+      <div class="detail-box coral" style="margin-top:24px;">
+        <div class="detail-title">What Google Checks</div>
+        <div class="chips" style="margin-bottom:12px;">
+          <span class="chip coral">Auth Code — matches what it just sent?</span>
+          <span class="chip coral">Client ID — registered app?</span>
+          <span class="chip coral">Client Secret — correct password?</span>
+        </div>
+        <div style="font-size:13px;color:var(--text-1);">All 3 match → Google trusts the request → issues Refresh Token</div>
+      </div>
+
+      <div class="human-action" style="margin-top:16px;">
+        <div class="human-icon">⚠️</div>
+        <div class="human-text">This is where we hit a bug: the POST request was missing <strong>Content-Length</strong> — the line that tells Google "here's how many bytes I'm sending." Without it, Google rejected the request with a <strong>401 invalid_client</strong> error. Adding that one line fixed it.</div>
+      </div>
+    </div>
+
+    <!-- Scene 5: 3 Keys -->
+    <div class="scene" id="scene-5">
+      <div class="scene-header">
+        <div class="scene-num">6</div>
+        <div>
+          <div class="scene-title">The <span>3 Keys</span> Are Printed</div>
+          <div class="scene-desc">The terminal shows all three values. Two came from the JSON file you downloaded. One was just created by Google in this moment. Together they go into GitHub Secrets to power the bots.</div>
+        </div>
+      </div>
+
+      <div class="keys-grid">
+        <div class="key-card revealed" id="key-1">
+          <div class="key-icon">🪪</div>
+          <div class="key-name coral">Client ID</div>
+          <div class="key-source">From google-creds.json<br>Existed before the handshake<br>Public — your app's name tag</div>
+        </div>
+        <div class="key-card revealed" id="key-2" style="animation-delay:0.15s">
+          <div class="key-icon">🔒</div>
+          <div class="key-name blue">Client Secret</div>
+          <div class="key-source">From google-creds.json<br>Existed before the handshake<br>Private — your app's password</div>
+        </div>
+        <div class="key-card revealed" id="key-3" style="animation-delay:0.3s">
+          <div class="key-icon">🗝️</div>
+          <div class="key-name green">Refresh Token</div>
+          <div class="key-source">Created by Google at step 5<br>Only exists after handshake<br>The permanent permission slip</div>
+        </div>
+      </div>
+
+      <div class="detail-box" style="margin-top:20px;">
+        <div class="detail-title">Why GitHub Secrets and Not in the Code</div>
+        <div style="font-size:14px;color:var(--text-1);line-height:1.6;">
+          If you put these values directly in the <code style="color:var(--coral);">.yml</code> file and pushed to GitHub, anyone on the internet could read your Gmail. Secrets are encrypted — GitHub injects them invisibly when the bot runs, and they <strong>never appear in logs or code.</strong>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scene 6: Forever -->
+    <div class="scene" id="scene-6">
+      <div class="scene-header">
+        <div class="scene-num">7</div>
+        <div>
+          <div class="scene-title">Now It Runs <span>Forever</span></div>
+          <div class="scene-desc">The one-time handshake is done. Every 15 minutes, GitHub Actions wakes up, uses your 3 keys to get a fresh 1-hour pass from Google, reads your Gmail and Calendar, and pushes to your dashboard. No laptop. No Claude. No you.</div>
+        </div>
+      </div>
+
+      <div class="final-flow" id="finalFlow">
+        <div class="final-row" id="fr-1">
+          <div class="final-row-icon">⏰</div>
+          <div class="final-row-text">GitHub clock ticks every 15 minutes → <strong>wakes GmailBot / CalendarBot</strong></div>
+          <div class="final-row-badge badge-live">24/7</div>
+        </div>
+        <div class="final-row" id="fr-2">
+          <div class="final-row-icon">🔑</div>
+          <div class="final-row-text">Bot sends Refresh Token + Client ID + Secret to Google → gets a fresh <strong>Access Token (1hr)</strong></div>
+          <div class="final-row-badge badge-live">AUTO</div>
+        </div>
+        <div class="final-row" id="fr-3">
+          <div class="final-row-icon">📧</div>
+          <div class="final-row-text">Uses Access Token to call <strong>Gmail API / Calendar API</strong> → gets your latest data</div>
+          <div class="final-row-badge badge-live">LIVE</div>
+        </div>
+        <div class="final-row" id="fr-4">
+          <div class="final-row-icon">📄</div>
+          <div class="final-row-text">Updates <strong>data.json</strong> in your GitHub repo → commits and pushes</div>
+          <div class="final-row-badge badge-live">PUSH</div>
+        </div>
+        <div class="final-row" id="fr-5">
+          <div class="final-row-icon">🌐</div>
+          <div class="final-row-text">Netlify detects the push → <strong>auto-deploys</strong> → your dashboard shows fresh data</div>
+          <div class="final-row-badge badge-live">DONE</div>
+        </div>
+        <div class="final-row" id="fr-6" style="border-color:rgba(79,142,247,0.25);background:var(--blue-dim);">
+          <div class="final-row-icon">🔐</div>
+          <div class="final-row-text">The Refresh Token never expires. The handshake was <strong>one time, forever.</strong></div>
+          <div class="final-row-badge badge-once">ONCE</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Controls -->
+  <div class="controls">
+    <button class="btn btn-ghost" id="btnPrev" onclick="prev()" disabled>← Back</button>
+    <span class="step-counter" id="stepCounter">1 / 7</span>
+    <button class="btn btn-primary" id="btnNext" onclick="next()">Next →</button>
+  </div>
+
+</div>
+
+<script>
+  let current = 0;
+  const total = 7;
+
+  function goTo(n) {
+    const prev = current;
+    current = n;
+
+    // Scenes
+    document.querySelectorAll('.scene').forEach((s,i) => {
+      s.classList.toggle('active', i === current);
+    });
+
+    // Progress dots
+    document.querySelectorAll('.prog-step').forEach((s,i) => {
+      s.classList.toggle('active', i === current);
+      s.classList.toggle('done', i < current);
+    });
+
+    // Progress fill
+    const fill = document.getElementById('progressFill');
+    const steps = document.querySelectorAll('.prog-step');
+    if (current === 0) {
+      fill.style.width = '0%';
+    } else {
+      const first = steps[0].getBoundingClientRect();
+      const last  = steps[total-1].getBoundingClientRect();
+      const cur   = steps[current].getBoundingClientRect();
+      const pct   = ((cur.left - first.left) / (last.left - first.left)) * 100;
+      fill.style.width = pct + '%';
+    }
+
+    // Buttons
+    document.getElementById('btnPrev').disabled = current === 0;
+    document.getElementById('btnNext').textContent = current === total-1 ? '↩ Restart' : 'Next →';
+    document.getElementById('stepCounter').textContent = (current+1) + ' / ' + total;
+
+    // Scene-specific animations
+    if (current === 2) animateVflow();
+    if (current === 6) animateFinalFlow();
+  }
+
+  function next() {
+    if (current === total-1) { goTo(0); return; }
+    goTo(current + 1);
+  }
+
+  function prev() {
+    if (current > 0) goTo(current - 1);
+  }
+
+  function animateVflow() {
+    const items = ['vf3-1','vf3-2','vf3-3','vf3-4'];
+    const connectors = ['vc3-1','vc3-2','vc3-3'];
+    items.forEach((id,i) => {
+      setTimeout(() => {
+        const el = document.getElementById(id);
+        if (el) el.classList.add('visible');
+        if (connectors[i]) {
+          setTimeout(() => {
+            const c = document.getElementById(connectors[i]);
+            if (c) c.classList.add('visible');
+          }, 150);
+        }
+      }, i * 250);
+    });
+  }
+
+  function animateFinalFlow() {
+    for (let i = 1; i <= 6; i++) {
+      setTimeout(() => {
+        const el = document.getElementById('fr-' + i);
+        if (el) el.classList.add('visible');
+      }, (i-1) * 180);
+    }
+  }
+
+  // Init
+  goTo(0);
+
+  // Keyboard nav
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); next(); }
+    if (e.key === 'ArrowLeft') { e.preventDefault(); prev(); }
+  });
+</script>
+</body>
+</html>
