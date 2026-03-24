@@ -1511,15 +1511,18 @@ function drawFlowLines(){
     svg.appendChild(dot);
   }
 
-  // Sources → Bots
+  // GitHub sources → GitHub bots
   addConn('dfn-notion','dfb-milestone','right','left','#FD6969',true,2.0);
-  addConn('dfn-gmail','dfb-inbox','right','left','#4583fd',true,1.8);
   addConn('dfn-gorgias','dfb-inbox','right','left','#22d47a',true,2.2);
-  addConn('dfn-gcal','dfb-log','right','left','#f59e0b',false,0);
+  // Claude sources → Claude bots
+  addConn('dfn-gmail','dfb-gmail','right','left','#4583fd',true,1.8);
+  addConn('dfn-gcal','dfb-calendar','right','left','#f59e0b',true,2.0);
   // Bots → Output
   addConn('dfb-milestone','dfn-datajson','right','left','#4ade80',true,2.2);
-  addConn('dfb-inbox','dfn-datajson','right','left','#4583fd',true,1.9);
-  addConn('dfb-git','dfn-datajson','right','left','#a78bfa',false,0);
+  addConn('dfb-inbox','dfn-datajson','right','left','#22d47a',true,1.9);
+  addConn('dfb-gmail','dfn-datajson','right','left','#4583fd',true,1.7);
+  addConn('dfb-calendar','dfn-datajson','right','left','#f59e0b',true,2.1);
+  addConn('dfb-git','dfn-datajson','right','left','#a78bfa',true,2.4);
   addConn('dfb-wrap','dfn-netlify','right','left','#FD6969',false,0);
   addConn('dfb-log','dfn-netlify','right','left','#FD6969',false,0);
   // Within output: data.json → dashboard (vertical)
