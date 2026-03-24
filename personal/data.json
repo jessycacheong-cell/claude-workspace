@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-03-22T20:32:00.000Z",
+  "lastUpdated": "2026-03-23T23:30:00.000Z",
   "stats": {
     "mcpAgents": 7,
-    "automationsRunning": 2,
+    "automationsRunning": 3,
     "currentMilestone": "M1"
   },
   "milestones": [
@@ -44,16 +44,22 @@
   ],
   "github": {
     "claude-workspace": {
-      "lastCommitDate": null,
-      "lastCommit": "Waiting for GitBot..."
+      "lastCommit": "InboxBot: refresh Gorgias tickets [skip ci]",
+      "lastCommitDate": "2026-03-23T15:41:21Z",
+      "url": "https://github.com/jessycacheong-cell/claude-workspace"
     },
     "umei3d-app": {
+      "lastCommit": "Private repo",
       "lastCommitDate": null,
-      "lastCommit": "Waiting for GitBot..."
+      "url": "https://github.com/jessycacheong-cell/umei3d-app"
     }
   },
-  "agenda": [],
-  "vibe": "Mar 22 — InboxBot is live. Gmail + Gorgias wired into the dashboard. You built a real automation pipeline today.",
+  "agenda": [
+    { "title": "Daily Job List Ready — March 23, 2026", "time": "12:05 PM", "end": "12:20 PM", "allDay": false },
+    { "title": "Test", "time": "8:15 PM", "end": "9:15 PM", "allDay": false }
+  ],
+  "agendaUpdated": "2026-03-23T23:30:00.000Z",
+  "vibe": "Mar 23 — Gmail + Calendar bots wired up. Dashboard fully live.",
   "lastSession": {
     "date": "March 22, 2026",
     "summary": "Big infrastructure day. Built InboxBot — a GitHub Actions bot that fetches Gorgias support tickets every 30 minutes automatically. Added Inbox Snapshot card to the dashboard showing Gmail + Gorgias side by side. Deployed Finance Tracker to Netlify and connected it to Google Sheet. Added Google Calendar to Quick Launch. Rearranged dashboard by priority. Updated both CLAUDE.md files with all new connections. Learned the difference between Google Tasks and Calendar events. Gorgias sync is live but showing 0 tickets — likely all tickets are closed. Will debug next session."
@@ -89,40 +95,15 @@
     }
   ],
   "inbox": {
-    "lastUpdated": "2026-03-22T19:32:00.000Z",
+    "lastUpdated": "2026-03-23T23:30:00.000Z",
     "gmail": [
-      {
-        "from": "Make",
-        "subject": "From small steps to big wins 🥳",
-        "time": "47m ago",
-        "unread": true
-      },
-      {
-        "from": "Make",
-        "subject": "Not sure where to start? Try these automations",
-        "time": "1h ago",
-        "unread": true
-      },
-      {
-        "from": "PayPal",
-        "subject": "Receipt for Your Payment to Uber Eats",
-        "time": "8h ago",
-        "unread": true
-      },
-      {
-        "from": "SeeVee",
-        "subject": "We found 15 opportunities worth your time",
-        "time": "2h ago",
-        "unread": true
-      },
-      {
-        "from": "Idealist",
-        "subject": "2 new listings match your search on Idealist",
-        "time": "2h ago",
-        "unread": true
-      }
+      { "from": "Publer", "subject": "Your post didn't get published", "time": "1h ago", "unread": true },
+      { "from": "Careerflow Inc.", "subject": "Your receipt from Careerflow Inc. #2025-3078", "time": "2h ago", "unread": false },
+      { "from": "Cory @ Synthesia", "subject": "[Feature Friday] WIN a Mac Mini?", "time": "3h ago", "unread": false },
+      { "from": "Indeed Apply", "subject": "Indeed Application: Community Resource Distribution Coordinator", "time": "4h ago", "unread": false },
+      { "from": "Pasadena Humane", "subject": "Your Application Submission - Community Resource Distribution Coordinator", "time": "4h ago", "unread": false }
     ],
-    "gmailUpdated": "2026-03-22T19:32:00.000Z",
+    "gmailUpdated": "2026-03-23T23:30:00.000Z",
     "gorgias": [
       {
         "id": 89714527,
@@ -147,7 +128,7 @@
       },
       {
         "id": 89677932,
-        "subject": "You're leaving $1,900 on the table 👀",
+        "subject": "You're leaving $1,900 on the table",
         "customer": "Unknown",
         "status": "open",
         "time": "4h ago"
@@ -162,7 +143,7 @@
     ],
     "gorgiasUpdated": "2026-03-23T23:56:33.530Z"
   },
-  "todayLog": "🎉 Mar 22 — InboxBot shipped. Gmail + Gorgias live in the dashboard. Finance Tracker deployed. Dashboard rearranged by priority. CLAUDE.md fully updated. Solid automation day — you built real infrastructure.",
+  "todayLog": "Mar 23 — Diagnosed Gmail + Calendar not syncing. Built GmailBot + CalendarBot as Claude scheduled tasks. Fixed data.json structure mismatch. All bots now wired correctly.",
   "automations": [
     {
       "name": "MilestoneBot",
@@ -173,10 +154,24 @@
     },
     {
       "name": "InboxBot",
-      "lastRun": "2026-03-22T22:05:24.936Z",
+      "lastRun": "2026-03-23T23:56:33.530Z",
       "status": "ok",
       "schedule": "Every 30min",
       "target": "Gorgias → data.json"
+    },
+    {
+      "name": "GmailBot",
+      "lastRun": "2026-03-23T23:30:00.000Z",
+      "status": "ok",
+      "schedule": "Every 30min (Claude open)",
+      "target": "Gmail → data.json"
+    },
+    {
+      "name": "CalendarBot",
+      "lastRun": "2026-03-23T23:30:00.000Z",
+      "status": "ok",
+      "schedule": "Every 30min (Claude open)",
+      "target": "Google Calendar → data.json"
     },
     {
       "name": "GitBot",
