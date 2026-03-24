@@ -329,13 +329,24 @@
   @media(max-width:520px){ .mcp-flow-inner{flex-direction:column;gap:12px;} .mcp-lines{display:none;} .mcp-nodes{width:100%;flex-direction:row;flex-wrap:wrap;} .mcp-node{width:calc(50% - 4px);} }
 
   /* ── DASHBOARD FLOW ── */
-  .df-wrap { position:relative; display:grid; grid-template-columns:1fr 1fr 1fr 1fr; min-height:260px; }
+  .df-wrap { position:relative; display:grid; grid-template-columns:1fr 1.4fr 1fr; min-height:260px; }
   .df-svg { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; overflow:visible; z-index:0; }
   .df-col { display:flex; flex-direction:column; gap:0; padding:0 10px; position:relative; z-index:1; }
-  .df-nodes { display:flex; flex-direction:column; justify-content:space-around; flex:1; gap:8px; padding-top:8px; }
+  .df-nodes { display:flex; flex-direction:column; flex:1; gap:6px; padding-top:8px; }
+  .df-col:nth-child(2) { border-left:1px solid var(--border); }
   .df-col:nth-child(3) { border-left:1px solid var(--border); }
-  .df-col:nth-child(4) { border-left:1px solid var(--border); }
   .df-col-label { font-size:10px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--text-3); margin-bottom:4px; }
+  .df-section-divider { display:flex; align-items:center; gap:8px; margin:8px 0 6px; }
+  .df-section-label { font-size:9px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; white-space:nowrap; }
+  .df-section-label.github { color:#FD6969; }
+  .df-section-label.claude { color:#4583fd; }
+  .df-section-line { flex:1; height:1px; background:var(--border); }
+  /* Dashboard window node */
+  .df-node.window { background:#0d0d0f; border-color:rgba(255,255,255,0.1); padding:0; overflow:hidden; }
+  .df-win-bar { display:flex; align-items:center; gap:5px; padding:5px 8px; background:rgba(255,255,255,0.04); border-bottom:1px solid rgba(255,255,255,0.06); }
+  .df-win-dot { width:7px; height:7px; border-radius:50%; }
+  .df-win-url { font-size:9px; color:var(--text-3); margin-left:4px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; flex:1; }
+  .df-win-body { padding:8px 10px; display:flex; align-items:center; gap:8px; }
   .df-node { display:flex; align-items:center; gap:8px; background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:10px; padding:9px 10px; position:relative; transition:border-color .3s; }
   .df-node.active { border-color:rgba(74,222,128,0.22); }
   .df-node.hero { border-color:rgba(253,105,105,0.30); background:rgba(253,105,105,0.05); box-shadow:0 0 20px rgba(253,105,105,0.06); }
@@ -1095,10 +1106,15 @@
         </div>
       </div>
 
-      <!-- Col 2: Bots (GitHub Actions) -->
+      <!-- Col 2: All Bots (two sections) -->
       <div class="df-col" id="df-col-bots">
-        <div class="df-col-label">GitHub Actions (Cloud Bots)</div>
+        <div class="df-col-label" style="opacity:0;margin-bottom:4px;">Bots</div>
         <div class="df-nodes">
+          <!-- GitHub section -->
+          <div class="df-section-divider">
+            <span class="df-section-label github">⚡ GitHub Actions — 24/7 Cloud</span>
+            <div class="df-section-line"></div>
+          </div>
           <div class="df-bot live" id="dfb-milestone">
             <div class="df-bot-glow"></div>
             <div class="df-bot-icon">🤖</div>
@@ -1109,6 +1125,28 @@
             <div class="df-bot-glow"></div>
             <div class="df-bot-icon">🤖</div>
             <div class="df-bot-info"><div class="df-bot-name">InboxBot</div><div class="df-bot-sched">Every 30min · Gorgias → data.json</div></div>
+            <span class="df-badge live">LIVE</span>
+          </div>
+          <!-- Claude section -->
+          <div class="df-section-divider" style="margin-top:10px;">
+            <span class="df-section-label claude">✦ Claude Scheduled — When Claude Open</span>
+            <div class="df-section-line"></div>
+          </div>
+          <div class="df-bot live" id="dfb-gmail">
+            <div class="df-bot-glow" style="background:radial-gradient(ellipse at 20% 50%, rgba(69,131,253,0.12) 0%, transparent 70%);"></div>
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">GmailBot</div><div class="df-bot-sched">Every 15min · Gmail → data.json</div></div>
+            <span class="df-badge live">LIVE</span>
+          </div>
+          <div class="df-bot pending" id="dfb-calendar">
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">CalendarBot</div><div class="df-bot-sched">Every 15min · GCal → data.json</div></div>
+            <span class="df-badge soon">SOON</span>
+          </div>
+          <div class="df-bot live" id="dfb-shopify">
+            <div class="df-bot-glow" style="background:radial-gradient(ellipse at 20% 50%, rgba(245,158,11,0.12) 0%, transparent 70%);"></div>
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">ShopifyBot</div><div class="df-bot-sched">Every 15min · Sheets → data.json</div></div>
             <span class="df-badge live">LIVE</span>
           </div>
           <div class="df-bot pending" id="dfb-git">
@@ -1129,32 +1167,7 @@
         </div>
       </div>
 
-      <!-- Col 3: Claude Scheduled Bots -->
-      <div class="df-col" id="df-col-claude">
-        <div class="df-col-label">Claude Scheduled</div>
-        <div class="df-col-sublabel">When Claude is open</div>
-        <div class="df-nodes">
-          <div class="df-bot live" id="dfb-gmail">
-            <div class="df-bot-glow"></div>
-            <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">GmailBot</div><div class="df-bot-sched">Every 15min · Gmail → data.json</div></div>
-            <span class="df-badge live">LIVE</span>
-          </div>
-          <div class="df-bot live" id="dfb-shopify">
-            <div class="df-bot-glow"></div>
-            <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">ShopifyBot</div><div class="df-bot-sched">Every 15min · Sheets → data.json</div></div>
-            <span class="df-badge live">LIVE</span>
-          </div>
-          <div class="df-bot pending" id="dfb-calendar">
-            <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">CalendarBot</div><div class="df-bot-sched">Every 15min · GCal → data.json</div></div>
-            <span class="df-badge soon">SOON</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Col 4: Output -->
+      <!-- Col 3: Output -->
       <div class="df-col" id="df-col-output">
         <div class="df-col-label">Live Output</div>
         <div class="df-nodes">
@@ -1168,10 +1181,17 @@
             <div><div class="df-node-name">Netlify</div><div class="df-node-role">Auto-deploys from GitHub</div></div>
             <div class="df-node-pip on"></div>
           </div>
-          <div class="df-node hero" id="dfn-dashboard">
-            <div class="df-node-icon">🖥️</div>
-            <div><div class="df-node-name">Your Dashboard</div><div class="df-node-role">Lives at netlify.app · no laptop needed</div></div>
-            <div class="df-node-pip on"></div>
+          <div class="df-node window" id="dfn-dashboard">
+            <div class="df-win-bar">
+              <div class="df-win-dot" style="background:#ff5f57;"></div>
+              <div class="df-win-dot" style="background:#febc2e;"></div>
+              <div class="df-win-dot" style="background:#28c840;"></div>
+              <span class="df-win-url">jessycacheong-cell.netlify.app</span>
+            </div>
+            <div class="df-win-body">
+              <div class="df-node-icon">🖥️</div>
+              <div><div class="df-node-name">Your Dashboard</div><div class="df-node-role">Lives at netlify.app · no laptop needed</div></div>
+            </div>
           </div>
         </div>
       </div>
