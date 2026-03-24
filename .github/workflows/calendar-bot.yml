@@ -64,9 +64,14 @@ jobs:
               hostname: 'oauth2.googleapis.com',
               path: '/token',
               method: 'POST',
-              headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+              headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'Content-Length': Buffer.byteLength(body)
+              }
             }, body);
 
+            console.log('Token response:', JSON.stringify(res).substring(0, 100));
+            if (!res.access_token) throw new Error('Failed to get access token: ' + JSON.stringify(res));
             return res.access_token;
           }
 
