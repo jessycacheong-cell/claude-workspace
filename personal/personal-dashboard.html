@@ -1,0 +1,1135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>J's Command Center</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:        #04050a;
+    --bg-card:   rgba(12,13,22,0.86);
+    --bg-raised: rgba(18,19,30,0.95);
+    --bg-hover:  rgba(22,23,38,1);
+    --border:    rgba(255,255,255,0.10);
+    --border-blue: rgba(253,105,105,0.32);
+    --blue:      #FD6969;
+    --blue-dim:  rgba(253,105,105,0.15);
+    --text-1:    #f0f2ff;
+    --text-2:    #a0a5c4;
+    --text-3:    #6b6f8e;
+    --green:     #4ade80;
+    --green-dim: rgba(74,222,128,0.14);
+    --red:       #ff4743;
+    --red-dim:   rgba(255,71,67,0.14);
+    --yellow:    #f59e0b;
+    --yellow-dim:rgba(245,158,11,0.15);
+    --purple:    #a78bfa;
+    --purple-dim:rgba(167,139,250,0.12);
+    --amber:     #FF8C42;
+    --chart-bar: #FF8C42;
+    --chart-bar-dim: rgba(255,140,66,0.22);
+  }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body {
+    background: var(--bg);
+    color: var(--text-1);
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── AMBIENT BACKGROUND ── */
+  body::before {
+    content:''; position:fixed; inset:0; pointer-events:none; z-index:0;
+    background:
+      radial-gradient(ellipse 60% 40% at 10% 20%, rgba(253,105,105,0.07) 0%, transparent 55%),
+      radial-gradient(ellipse 50% 40% at 90% 80%, rgba(100,70,200,0.06) 0%, transparent 50%);
+    animation: bgBreath 12s ease-in-out infinite alternate;
+  }
+  @keyframes bgBreath { from{opacity:.6} to{opacity:1} }
+  @keyframes reminderGlow {
+    from { box-shadow:0 0 30px rgba(253,105,105,0.10),0 0 60px rgba(253,105,105,0.04),inset 0 1px 0 rgba(253,105,105,0.12); border-color:rgba(253,105,105,0.28); }
+    to   { box-shadow:0 0 55px rgba(253,105,105,0.20),0 0 100px rgba(253,105,105,0.09),inset 0 1px 0 rgba(253,105,105,0.20); border-color:rgba(253,105,105,0.50); }
+  }
+
+  /* ── HEADER ── */
+  .header {
+    background: rgba(4,5,10,0.94);
+    backdrop-filter: blur(40px) saturate(140%);
+    -webkit-backdrop-filter: blur(40px) saturate(140%);
+    border-bottom: 1px solid rgba(255,255,255,0.055);
+    padding: 12px 24px;
+    position: sticky; top:0; z-index:100;
+  }
+  .header-top { display:flex; align-items:center; justify-content:space-between; }
+  .logo { display:flex; align-items:center; gap:10px; }
+  .logo-mark {
+    width:30px; height:30px; background:var(--blue); border-radius:8px;
+    display:flex; align-items:center; justify-content:center;
+    font-weight:800; font-size:12px; color:#fff;
+    box-shadow:0 0 18px rgba(253,105,105,0.4);
+  }
+  .logo-text { font-size:16px; font-weight:700; letter-spacing:-.3px; }
+  .logo-sub { font-size:11px; color:var(--text-2); margin-top:1px; }
+  .header-right { display:flex; align-items:center; gap:16px; }
+  .header-date { text-align:right; font-size:12px; color:var(--text-2); }
+  .header-date span { display:block; color:var(--blue); font-weight:600; font-size:14px; }
+  .header-shortcuts { display:flex; align-items:center; gap:6px; font-size:12px; color:var(--text-3); }
+  .header-shortcuts kbd {
+    background:rgba(255,255,255,0.05); border:1px solid var(--border);
+    border-radius:4px; padding:1px 5px; font-size:10px; color:var(--text-2);
+  }
+  .notebook-shortcut {
+    display:flex; align-items:center; gap:4px;
+    color:var(--text-3); text-decoration:none;
+    transition:color .15s;
+  }
+  .notebook-shortcut:hover { color:var(--blue); }
+  .notebook-shortcut kbd {
+    background:rgba(253,105,105,0.1); border-color:rgba(253,105,105,0.22);
+    color:var(--blue);
+  }
+  #next-agent-run { font-size:11px; color:var(--text-3); }
+  .avatar {
+    width:30px; height:30px; border-radius:50%;
+    background:linear-gradient(135deg,#FD6969,#c0392b);
+    display:flex; align-items:center; justify-content:center;
+    font-size:12px; font-weight:800; color:#fff; flex-shrink:0;
+    border:2px solid rgba(253,105,105,0.35);
+    box-shadow:0 0 12px rgba(253,105,105,0.25);
+  }
+
+  /* ── HERO — CINEMATIC ── */
+  .hero {
+    position:relative; overflow:hidden; z-index:1;
+    min-height:320px; display:flex; align-items:center;
+    padding:60px 28px 48px;
+    background: linear-gradient(180deg, #04050a 0%, #07081280 100%);
+  }
+  .hero::before {
+    content:''; position:absolute; inset:0; pointer-events:none;
+    background:
+      radial-gradient(ellipse 110% 65% at 50% 145%, rgba(253,105,105,0.13) 0%, transparent 55%),
+      radial-gradient(ellipse 50% 45% at 12% 55%, rgba(100,50,190,0.08) 0%, transparent 50%),
+      radial-gradient(ellipse 45% 38% at 88% 70%, rgba(255,100,40,0.07) 0%, transparent 45%);
+  }
+  /* cinematic vignette */
+  .hero::after {
+    content:''; position:absolute; inset:0; pointer-events:none;
+    background: radial-gradient(ellipse 85% 100% at 50% 50%, transparent 28%, rgba(0,0,0,0.55) 100%);
+  }
+  .hero-orb {
+    position:absolute; border-radius:50%; pointer-events:none; filter:blur(90px);
+  }
+  .hero-orb-1 { width:720px; height:280px; bottom:-130px; left:50%; transform:translateX(-50%); background:rgba(253,105,105,0.28); opacity:.5; animation:orbFloat 10s ease-in-out infinite alternate; }
+  .hero-orb-2 { width:280px; height:280px; top:-80px; left:4%; background:rgba(100,55,200,0.28); opacity:.32; animation:orbFloat 13s ease-in-out infinite alternate-reverse; }
+  .hero-orb-3 { width:220px; height:220px; top:-60px; right:8%; background:rgba(255,100,40,0.22); opacity:.32; animation:orbFloat 9s ease-in-out infinite alternate; }
+  @keyframes orbFloat { from{transform:translate(0,0) scale(1)} to{transform:translate(15px,10px) scale(1.06)} }
+
+  .hero-content { position:relative; z-index:1; flex:1; }
+  .hero-greeting {
+    font-size:12px; color:var(--text-2); letter-spacing:.1em; text-transform:uppercase;
+    margin-bottom:12px; display:flex; align-items:center; gap:10px;
+  }
+  .hero-greeting::before { content:''; display:inline-block; width:18px; height:1px; background:var(--blue); opacity:.7; }
+  .hero-title { font-size:44px; font-weight:800; letter-spacing:-2px; line-height:1.05; margin-bottom:14px; }
+  .hero-title span { color:var(--blue); }
+  .hero-subtitle { font-size:14px; color:var(--text-2); line-height:1.7; max-width:380px; }
+  .hero-stats { position:relative; z-index:1; display:flex; gap:12px; align-items:stretch; flex-shrink:0; }
+  .hero-stat {
+    background: rgba(12,13,22,0.92);
+    border:1px solid rgba(255,255,255,0.10);
+    border-top:1px solid rgba(255,255,255,0.20);
+    border-radius:16px; padding:18px 22px; text-align:center; min-width:108px;
+    box-shadow:0 4px 28px rgba(0,0,0,0.5), inset 0 1px 0 rgba(255,255,255,0.08);
+  }
+  .hero-stat-num { font-size:32px; font-weight:800; color:var(--text-1); letter-spacing:-1px; line-height:1; margin-bottom:4px; }
+  .hero-stat-num.coral { color:var(--blue);  text-shadow:0 0 24px rgba(253,105,105,0.45); }
+  .hero-stat-num.amber { color:var(--amber); text-shadow:0 0 24px rgba(255,140,66,0.4); }
+  .hero-stat-num.green { color:var(--green); text-shadow:0 0 24px rgba(74,222,128,0.4); }
+  .hero-stat-lbl { font-size:11px; color:var(--text-2); text-transform:uppercase; letter-spacing:.07em; }
+
+  /* ── PILL TAG ── */
+  .pill-tag {
+    display:inline-flex; align-items:center; gap:5px;
+    background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.08);
+    border-radius:20px; padding:3px 10px; font-size:10px; color:var(--text-2); font-weight:500;
+  }
+
+  /* ── BADGES ── */
+  .badge {
+    display:inline-flex; align-items:center; gap:4px;
+    padding:3px 8px; border-radius:20px; font-size:10px; font-weight:600; flex-shrink:0;
+  }
+  .badge-green  { background:var(--green-dim);  color:var(--green); }
+  .badge-yellow { background:var(--yellow-dim); color:var(--yellow); }
+  .badge-blue   { background:var(--blue-dim);   color:var(--blue); }
+  .badge-red    { background:var(--red-dim);     color:var(--red); }
+  .badge-gray   { background:rgba(255,255,255,0.05); color:var(--text-2); }
+  .dot { width:6px; height:6px; border-radius:50%; background:currentColor; flex-shrink:0; }
+  .pulse { animation:pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+  /* ── BENTO GRID ── */
+  .bento-grid {
+    display:grid;
+    grid-template-columns:repeat(12,1fr);
+    gap:12px;
+    padding:16px 20px 80px;
+    position:relative; z-index:1;
+  }
+  .bc {
+    background: var(--bg-card);
+    backdrop-filter: blur(32px) saturate(160%);
+    -webkit-backdrop-filter: blur(32px) saturate(160%);
+    border: 1px solid var(--border);
+    border-top: 1px solid rgba(255,255,255,0.16);
+    border-radius: 20px;
+    padding: 22px;
+    overflow: hidden;
+    position: relative;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,255,255,0.06);
+  }
+  .bc:hover {
+    transform: translateY(-2px);
+    border-color: rgba(255,255,255,0.16);
+    box-shadow: 0 14px 52px rgba(0,0,0,0.65), inset 0 1px 0 rgba(255,255,255,0.09);
+  }
+  .bc-label {
+    font-size:13px; font-weight:700; text-transform:uppercase;
+    letter-spacing:.07em; color:var(--text-2); margin-bottom:18px;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .bc-2  { grid-column:span 2; }
+  .bc-3  { grid-column:span 3; }
+  .bc-4  { grid-column:span 4; }
+  .bc-6  { grid-column:span 6; }
+  .bc-8  { grid-column:span 8; }
+  .bc-12 { grid-column:span 12; }
+  .br-2  { grid-row:span 2; }
+  @media(max-width:768px){
+    .bc-2,.bc-3,.bc-4,.bc-6,.bc-8,.bc-12 { grid-column:span 12 !important; }
+    .br-2 { grid-row:span 1; }
+    .hero { flex-direction:column; gap:24px; }
+    .hero-stats { flex-direction:row; flex-wrap:wrap; }
+    .hero-title { font-size:28px; }
+  }
+
+  /* ── MINI CHART BARS (health card style) ── */
+  .mini-chart { margin-top:14px; }
+  .mini-chart-header { display:flex; justify-content:space-between; margin-bottom:7px; }
+  .mini-chart-title { font-size:9px; color:var(--text-3); text-transform:uppercase; letter-spacing:.07em; font-weight:700; }
+  .mini-chart-range { font-size:9px; color:var(--text-3); }
+  .mini-chart-bars { display:flex; align-items:flex-end; gap:2px; height:48px; }
+  .mcb { flex:1; border-radius:3px 3px 0 0; min-height:3px; background:var(--chart-bar-dim); }
+  .mcb.hi  { background:var(--chart-bar); box-shadow:0 0 10px rgba(255,140,66,0.45); }
+  .mcb.mid { background:rgba(255,140,66,0.45); }
+
+  /* ── SINE WAVE ── */
+  .sine-container { margin-top:18px; overflow:hidden; height:48px; position:relative; }
+  .sine-svg { display:block; width:200%; height:48px; animation: sineMove 5s linear infinite; }
+  @keyframes sineMove { from{transform:translateX(0)} to{transform:translateX(-50%)} }
+  .sine-label { font-size:9px; color:var(--text-3); text-transform:uppercase; letter-spacing:.07em; margin-top:5px; }
+
+  /* ── METRIC STATUS ── */
+  .metric-status { font-size:11px; font-weight:600; margin-top:4px; }
+  .metric-status.good { color:var(--green); }
+  .metric-status.warn { color:var(--yellow); }
+  .metric-status.info { color:var(--text-2); }
+
+  /* ── APP STATUS ── */
+  .bc-app-status-deco {
+    position:absolute; top:0; right:0; width:160px; height:160px; pointer-events:none;
+    background:radial-gradient(circle at 80% 20%, rgba(253,105,105,0.10) 0%, transparent 60%);
+    border-radius:0 20px 0 0;
+  }
+  .bc-app-name { font-size:24px; font-weight:800; color:var(--blue); line-height:1.2; margin-bottom:6px; letter-spacing:-.5px; }
+  .bc-app-sub  { font-size:12px; color:var(--text-2); margin-bottom:12px; }
+  @keyframes borderPulse {
+    0%,100% { box-shadow:0 4px 32px rgba(0,0,0,0.65),0 0 24px rgba(253,105,105,0.05); border-color:rgba(253,105,105,0.12); }
+    50%      { box-shadow:0 4px 32px rgba(0,0,0,0.65),0 0 48px rgba(253,105,105,0.15); border-color:rgba(253,105,105,0.35); }
+  }
+  .bc-app-live { animation:borderPulse 3s ease-in-out infinite; }
+
+  /* ── GAUGE ── */
+  .gauge-wrap { display:flex; flex-direction:column; align-items:center; gap:4px; }
+  .gauge-bg   { fill:none; stroke:rgba(255,255,255,0.05); stroke-width:7; stroke-linecap:round; }
+  .gauge-fill { fill:none; stroke-width:7; stroke-linecap:round; transition:stroke-dashoffset 1.2s cubic-bezier(.34,1.56,.64,1); }
+  .gauge-label { font-size:26px; font-weight:800; letter-spacing:-1px; }
+  .gauge-sub   { font-size:9px; color:var(--text-2); text-align:center; margin-top:1px; text-transform:uppercase; letter-spacing:.08em; }
+
+  /* ── SPARK BARS ── */
+  .spark-row { display:flex; align-items:flex-end; gap:2px; height:24px; margin-top:8px; }
+  .spark-bar { flex:1; border-radius:2px 2px 0 0; min-height:3px; background:rgba(253,105,105,0.2); }
+  .spark-bar.lit { background:var(--blue); }
+
+  /* ── MILESTONES ── */
+  .ms-compact { display:flex; flex-direction:column; gap:6px; }
+  .ms-row { display:flex; align-items:center; gap:10px; background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:12px; padding:10px 14px; transition:all .2s; }
+  .ms-row:hover { border-color:rgba(255,255,255,0.10); background:rgba(255,255,255,0.04); }
+  .ms-row.active { border-color:rgba(245,158,11,0.28); background:rgba(245,158,11,0.03); }
+  .ms-row.done   { opacity:.5; }
+  .ms-badge { width:24px; height:24px; border-radius:6px; font-size:11px; font-weight:700; display:flex; align-items:center; justify-content:center; flex-shrink:0; background:rgba(255,255,255,0.04); color:var(--text-2); border:1px solid var(--border); }
+  .ms-row.active .ms-badge { background:var(--yellow-dim); color:var(--yellow); border-color:rgba(245,158,11,0.3); }
+  .ms-row.done   .ms-badge { background:var(--green-dim);  color:var(--green);  border-color:rgba(74,222,128,0.3); }
+  .ms-row-name { font-size:13px; font-weight:600; color:var(--text-1); flex:1; min-width:0; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .ms-bar { width:80px; height:4px; background:rgba(255,255,255,0.05); border-radius:4px; overflow:hidden; flex-shrink:0; }
+  .ms-bar-fill { height:100%; border-radius:4px; background:var(--blue); transition:width 1s ease; }
+  .ms-row.active .ms-bar-fill { background:var(--yellow); }
+  .ms-row.done   .ms-bar-fill { background:var(--green); }
+  .ms-pct { font-size:11px; color:var(--text-3); width:28px; text-align:right; flex-shrink:0; }
+  @media(max-width:480px){ .ms-bar{ width:50px; } }
+
+  /* ── MS EXPANDED ── */
+  .ms-item { display:flex; align-items:center; gap:12px; padding:12px 0; border-bottom:1px solid var(--border); }
+  .ms-item:last-child { border-bottom:none; }
+  .ms-num { width:26px; height:26px; border-radius:50%; background:rgba(255,255,255,0.04); border:1px solid var(--border); display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:700; color:var(--text-2); flex-shrink:0; }
+  .ms-body { flex:1; min-width:0; }
+  .ms-name { font-size:13px; font-weight:600; color:var(--text-1); margin-bottom:2px; }
+  .ms-dates { font-size:10px; color:var(--text-3); margin-bottom:5px; }
+  .ms-bar-wrap { height:5px; background:rgba(255,255,255,0.05); border-radius:4px; overflow:hidden; }
+  .ms-bar { height:100%; border-radius:4px; transition:width 1s ease; }
+  .ms-right { display:flex; flex-direction:column; align-items:flex-end; gap:4px; flex-shrink:0; }
+  .ms-pct { font-size:13px; font-weight:700; color:var(--text-1); }
+
+  /* ── MCP FLOW ── */
+  .mcp-flow-inner { display:flex; align-items:center; gap:0; min-height:200px; }
+  .mcp-center { display:flex; flex-direction:column; align-items:center; gap:6px; flex-shrink:0; width:80px; }
+  .mcp-center-icon { width:46px; height:46px; border-radius:12px; background:var(--blue); display:flex; align-items:center; justify-content:center; font-size:20px; box-shadow:0 0 24px rgba(253,105,105,0.35); }
+  .mcp-center-label { font-size:10px; font-weight:700; color:var(--blue); text-align:center; letter-spacing:.04em; }
+  .mcp-center-sub   { font-size:9px; color:var(--text-3); text-align:center; }
+  .mcp-lines { flex:1; position:relative; align-self:stretch; min-width:30px; }
+  .mcp-lines svg { position:absolute; inset:0; width:100%; height:100%; overflow:visible; }
+  .mcp-nodes { display:flex; flex-direction:column; justify-content:space-around; gap:4px; flex-shrink:0; width:140px; }
+  .mcp-node { display:flex; align-items:center; gap:6px; background:rgba(255,255,255,0.03); border:1px solid var(--border); border-radius:8px; padding:6px 8px; cursor:default; transition:all .2s; position:relative; }
+  .mcp-node:hover { border-color:var(--border-blue); background:rgba(255,255,255,0.06); transform:translateX(2px); }
+  .mcp-node-icon { font-size:13px; flex-shrink:0; }
+  .mcp-node-name { font-size:12px; font-weight:600; color:var(--text-1); }
+  .mcp-node-role { font-size:10px; color:var(--text-2); }
+  .mcp-node-dot { width:5px; height:5px; border-radius:50%; background:var(--green); position:absolute; top:6px; right:6px; box-shadow:0 0 6px var(--green); animation:pulse 2s infinite; }
+  @media(max-width:520px){ .mcp-flow-inner{flex-direction:column;gap:12px;} .mcp-lines{display:none;} .mcp-nodes{width:100%;flex-direction:row;flex-wrap:wrap;} .mcp-node{width:calc(50% - 4px);} }
+
+  /* ── DASHBOARD FLOW ── */
+  .df-wrap { position:relative; display:grid; grid-template-columns:1fr 1fr 1fr; min-height:260px; }
+  .df-svg { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; overflow:visible; z-index:0; }
+  .df-col { display:flex; flex-direction:column; gap:0; padding:0 10px; position:relative; z-index:1; }
+  .df-nodes { display:flex; flex-direction:column; justify-content:space-around; flex:1; gap:8px; padding-top:8px; }
+  .df-col:nth-child(3) { border-left:1px solid var(--border); }
+  .df-col:nth-child(4) { border-left:1px solid var(--border); }
+  .df-col-label { font-size:10px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--text-3); margin-bottom:4px; }
+  .df-node { display:flex; align-items:center; gap:8px; background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:10px; padding:9px 10px; position:relative; transition:border-color .3s; }
+  .df-node.active { border-color:rgba(74,222,128,0.22); }
+  .df-node.hero { border-color:rgba(253,105,105,0.30); background:rgba(253,105,105,0.05); box-shadow:0 0 20px rgba(253,105,105,0.06); }
+  .df-node.dim { opacity:.5; }
+  .df-node-icon { font-size:16px; flex-shrink:0; }
+  .df-node-name { font-size:12px; font-weight:600; color:var(--text-1); }
+  .df-node-role { font-size:10px; color:var(--text-3); }
+  .df-node-pip { width:6px; height:6px; border-radius:50%; position:absolute; top:8px; right:8px; }
+  .df-node-pip.on { background:var(--green); box-shadow:0 0 6px var(--green); animation:pulse 2s infinite; }
+  .df-node-pip.soon { background:var(--text-3); }
+  /* Bots */
+  .df-bot { display:flex; align-items:center; gap:8px; border-radius:10px; padding:9px 10px; position:relative; overflow:hidden; transition:all .3s; }
+  .df-bot.live { background:rgba(253,105,105,0.05); border:1px solid rgba(253,105,105,0.25); box-shadow:0 0 24px rgba(253,105,105,0.08); }
+  .df-bot.pending { background:rgba(255,255,255,0.02); border:1px solid var(--border); opacity:.55; }
+  .df-bot-glow { position:absolute; inset:0; background:radial-gradient(ellipse at 20% 50%, rgba(253,105,105,0.1) 0%, transparent 70%); animation:botGlowPulse 3s ease-in-out infinite alternate; }
+  @keyframes botGlowPulse { from{opacity:.3} to{opacity:1} }
+  .df-bot-icon { font-size:15px; position:relative; z-index:1; }
+  .df-bot-info { flex:1; position:relative; z-index:1; }
+  .df-bot-name { font-size:12px; font-weight:600; color:var(--text-1); }
+  .df-bot-sched { font-size:10px; color:var(--text-3); }
+  .df-badge { font-size:9px; font-weight:700; letter-spacing:.04em; padding:2px 7px; border-radius:5px; position:relative; z-index:1; flex-shrink:0; }
+  .df-badge.live { background:rgba(74,222,128,0.14); color:var(--green); border:1px solid rgba(74,222,128,0.25); animation:liveBadge 2s ease-in-out infinite; }
+  .df-badge.soon { background:rgba(255,255,255,0.04); color:var(--text-3); border:1px solid var(--border); }
+  @keyframes liveBadge { 0%,100%{box-shadow:0 0 0 0 rgba(74,222,128,0)} 50%{box-shadow:0 0 8px 2px rgba(74,222,128,0.25)} }
+  /* Legend */
+  .df-legend { display:flex; gap:14px; flex-wrap:wrap; margin-top:14px; padding-top:12px; border-top:1px solid var(--border); }
+  .df-legend-item { display:flex; align-items:center; gap:5px; font-size:10px; color:var(--text-3); }
+  .df-legend-line { width:20px; height:2px; border-radius:2px; }
+  @media(max-width:620px){ .df-wrap{grid-template-columns:1fr;} .df-col{border-left:none!important; border-top:1px solid var(--border); padding-top:12px;} .df-col:first-child{border-top:none;} .df-svg{display:none;} }
+
+  /* ── GITHUB ── */
+  .gh-repo { background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:12px; overflow:hidden; margin-bottom:8px; transition:border-color .2s; }
+  .gh-repo:hover { border-color:rgba(255,255,255,0.10); }
+  .gh-header { padding:10px 14px; display:flex; align-items:center; gap:8px; cursor:pointer; user-select:none; }
+  .gh-name { font-size:12px; font-weight:600; color:var(--blue); flex:1; display:flex; align-items:center; gap:6px; }
+  .gh-meta { font-size:10px; color:var(--text-2); }
+  .gh-chevron { font-size:11px; color:var(--text-3); transition:transform .25s; }
+  .gh-repo.open .gh-chevron { transform:rotate(180deg); }
+  .gh-body { display:none; border-top:1px solid var(--border); }
+  .gh-repo.open .gh-body { display:block; }
+  .tree-item { padding:6px 14px; display:flex; align-items:center; gap:7px; font-size:11px; color:var(--text-1); transition:background .15s; }
+  .tree-item:hover { background:rgba(255,255,255,0.03); }
+  .tree-item .icon { font-size:12px; width:16px; text-align:center; flex-shrink:0; }
+  .tree-item .name { flex:1; }
+  .tree-item .meta { font-size:10px; color:var(--text-3); }
+  .tree-indent { padding-left:30px; }
+  .tree-folder { color:var(--blue); font-weight:600; }
+  .gh-commit-strip { padding:6px 14px; border-top:1px solid var(--border); font-size:10px; color:var(--text-2); background:rgba(255,255,255,0.015); }
+
+  /* ── BUILT LIST ── */
+  .built-item { background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:12px; padding:11px 14px; display:flex; align-items:flex-start; gap:10px; margin-bottom:7px; transition:all .2s; }
+  .built-item:hover { border-color:rgba(255,255,255,0.10); background:rgba(255,255,255,0.04); }
+  .built-check { width:18px; height:18px; border-radius:5px; background:var(--green-dim); color:var(--green); display:flex; align-items:center; justify-content:center; font-size:10px; flex-shrink:0; margin-top:1px; }
+  .built-name { font-size:13px; font-weight:600; color:var(--text-1); }
+  .built-detail { font-size:11px; color:var(--text-2); margin-top:2px; line-height:1.5; }
+
+  /* ── TODO ── */
+  .todo-list { display:flex; flex-direction:column; gap:6px; }
+  .todo-item { background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:10px; padding:10px 12px; display:flex; align-items:center; gap:8px; cursor:pointer; transition:all .2s; }
+  .todo-item:hover { background:rgba(255,255,255,0.05); border-color:rgba(255,255,255,0.10); }
+  .todo-item.done { opacity:.35; }
+  .todo-item.done .todo-text { text-decoration:line-through; }
+  .todo-check { width:16px; height:16px; border-radius:4px; border:1.5px solid var(--border); display:flex; align-items:center; justify-content:center; flex-shrink:0; font-size:9px; color:transparent; transition:all .2s; }
+  .todo-item.done .todo-check { background:var(--green); border-color:var(--green); color:#fff; }
+  .todo-text { flex:1; font-size:13px; color:var(--text-1); line-height:1.4; }
+  .todo-priority { font-size:10px; font-weight:700; padding:2px 6px; border-radius:8px; flex-shrink:0; }
+  .p-high   { background:var(--red-dim);    color:var(--red); }
+  .p-medium { background:var(--yellow-dim); color:var(--yellow); }
+  .ns-item { background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:10px; padding:10px 12px; display:flex; align-items:center; gap:10px; margin-bottom:6px; transition:all .2s; }
+  .ns-item.ns-next { border-color:rgba(69,131,253,0.4); background:rgba(69,131,253,0.06); box-shadow:0 0 18px rgba(69,131,253,0.12); animation:nsGlow 2s ease-in-out infinite alternate; }
+  .ns-item.ns-done { opacity:.4; }
+  .ns-item.ns-done .ns-text { text-decoration:line-through; }
+  @keyframes nsGlow { from{box-shadow:0 0 10px rgba(69,131,253,0.10);border-color:rgba(69,131,253,0.30);} to{box-shadow:0 0 28px rgba(69,131,253,0.28);border-color:rgba(69,131,253,0.65);} }
+  .ns-dot { width:10px; height:10px; border-radius:50%; flex-shrink:0; }
+  .ns-dot.next { background:var(--blue); box-shadow:0 0 8px rgba(69,131,253,0.7); animation:pulse 1.5s ease-in-out infinite; }
+  .ns-dot.queued { background:var(--text-3); }
+  .ns-dot.done { background:var(--green); }
+  .ns-text { flex:1; font-size:13px; color:var(--text-1); line-height:1.4; }
+  .ns-badge { font-size:10px; font-weight:700; padding:2px 7px; border-radius:8px; flex-shrink:0; }
+  .ns-badge.next { background:var(--blue-dim); color:var(--blue); }
+  .ns-badge.queued { background:rgba(255,255,255,0.04); color:var(--text-3); }
+  .ns-badge.done { background:var(--green-dim); color:var(--green); }
+  .p-low    { background:var(--blue-dim);   color:var(--blue); }
+
+  /* ── AUTOMATION ── */
+  .auto-card { background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:10px; padding:12px 14px; display:flex; align-items:flex-start; gap:10px; margin-bottom:7px; }
+  .auto-icon { width:32px; height:32px; border-radius:8px; background:var(--green-dim); display:flex; align-items:center; justify-content:center; font-size:16px; flex-shrink:0; }
+  .auto-name { font-size:13px; font-weight:600; color:var(--text-1); }
+  .auto-desc { font-size:11px; color:var(--text-2); margin-top:2px; line-height:1.5; }
+  .auto-meta { margin-top:6px; display:flex; gap:5px; flex-wrap:wrap; }
+
+  /* ── POMODORO ── */
+  .pomo-inner { display:flex; flex-direction:column; align-items:center; gap:14px; height:calc(100% - 28px); justify-content:center; }
+  .pomo-ring { position:relative; width:120px; height:120px; flex-shrink:0; }
+  .pomo-ring svg { transform:rotate(-90deg); }
+  .pomo-ring-bg   { fill:none; stroke:rgba(255,255,255,0.05); stroke-width:7; }
+  .pomo-ring-fill { fill:none; stroke:var(--blue); stroke-width:7; stroke-linecap:round; transition:stroke-dashoffset 1s linear, stroke .3s; }
+  .pomo-ring-fill.break { stroke:var(--green); }
+  .pomo-time { position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .pomo-digits { font-size:26px; font-weight:800; color:var(--text-1); letter-spacing:-1px; }
+  .pomo-mode   { font-size:9px; text-transform:uppercase; letter-spacing:.08em; color:var(--text-2); margin-top:2px; }
+  .pomo-btns   { display:flex; gap:7px; flex-wrap:wrap; justify-content:center; }
+  .pomo-btn { padding:7px 14px; border-radius:10px; border:1px solid var(--border); background:rgba(255,255,255,0.04); color:var(--text-1); font-size:11px; font-weight:600; cursor:pointer; transition:all .2s; font-family:'Space Grotesk',sans-serif; }
+  .pomo-btn:hover { background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.12); }
+  .pomo-btn.primary { background:var(--blue); border-color:var(--blue); color:#fff; }
+  .pomo-btn.primary:hover { opacity:.88; }
+  .pomo-sessions { display:flex; gap:5px; }
+  .pomo-dot { width:8px; height:8px; border-radius:50%; background:rgba(255,255,255,0.05); border:1px solid var(--border); transition:all .3s; }
+  .pomo-dot.done { background:var(--blue); border-color:var(--blue); }
+  .pomo-sub-info { text-align:center; }
+  .pomo-title-txt { font-size:13px; font-weight:700; color:var(--text-1); }
+  .pomo-sub-txt   { font-size:10px; color:var(--text-2); margin-top:2px; }
+
+  /* ── AGENT FLOW ── */
+  .agent-flow-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+  @media(max-width:768px){ .agent-flow-grid{ grid-template-columns:1fr; } }
+  .af-agent { background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:14px; padding:16px; transition:all .2s; }
+  .af-agent:hover { border-color:rgba(253,105,105,0.18); box-shadow:0 4px 24px rgba(0,0,0,0.5); }
+  .af-header { display:flex; align-items:center; gap:10px; margin-bottom:14px; }
+  .af-emoji { font-size:20px; width:36px; height:36px; background:rgba(255,255,255,0.04); border-radius:10px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .af-name { font-size:15px; font-weight:700; color:var(--text-1); }
+  .af-handle { font-size:11px; color:var(--text-2); }
+  .af-badge { margin-left:auto; flex-shrink:0; }
+  .af-pipeline { display:flex; align-items:center; gap:6px; flex-wrap:wrap; }
+  .af-step { background:rgba(255,255,255,0.03); border:1px solid var(--border); border-radius:10px; padding:8px 12px; text-align:center; min-width:90px; }
+  .af-step-result { border-color:rgba(253,105,105,0.15); background:rgba(253,105,105,0.04); }
+  .af-step-icon { font-size:16px; margin-bottom:3px; }
+  .af-step-label { font-size:10px; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color:var(--text-2); margin-bottom:2px; }
+  .af-step-val { font-size:12px; color:var(--text-1); font-weight:500; }
+  .af-arrow { color:var(--text-3); font-size:16px; flex-shrink:0; }
+  .af-lastrun { font-size:10px; color:var(--text-3); margin-top:12px; }
+  .af-lastrun span { color:var(--text-2); }
+
+  /* ── AGENT CARDS ── */
+  .agent-card { background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:12px; padding:12px; position:relative; overflow:hidden; transition:all .25s; flex-shrink:0; }
+  .agent-card:hover { border-color:rgba(253,105,105,0.18); }
+  .agent-top { display:flex; align-items:flex-start; gap:10px; margin-bottom:8px; }
+  .agent-avatar { width:36px; height:36px; border-radius:10px; flex-shrink:0; display:flex; align-items:center; justify-content:center; font-size:18px; position:relative; }
+  .agent-avatar .status-ring { position:absolute; inset:-2px; border-radius:12px; border:2px solid transparent; transition:border-color .3s; }
+  .agent-card.awake   .agent-avatar .status-ring { border-color:var(--green); box-shadow:0 0 8px rgba(74,222,128,0.35); }
+  .agent-card.sleeping .agent-avatar .status-ring { border-color:var(--text-3); }
+  .agent-info { flex:1; min-width:0; }
+  .agent-name { font-size:12px; font-weight:700; color:var(--text-1); display:flex; align-items:center; gap:5px; }
+  .agent-handle { font-size:9px; color:var(--text-3); font-weight:400; }
+  .agent-role { font-size:10px; color:var(--text-2); margin-top:2px; line-height:1.4; }
+  .agent-status-row { display:flex; align-items:center; gap:6px; margin-bottom:6px; }
+  .agent-state { font-size:10px; font-weight:700; padding:2px 7px; border-radius:20px; display:inline-flex; align-items:center; gap:4px; }
+  .agent-state.awake   { background:var(--green-dim); color:var(--green); }
+  .agent-state.sleeping{ background:rgba(255,255,255,0.03); color:var(--text-3); }
+  .agent-state.running { background:var(--blue-dim); color:var(--blue); }
+  .agent-schedule { font-size:10px; color:var(--text-3); display:inline-flex; align-items:center; gap:4px; }
+  .agent-last-run { font-size:10px; color:var(--text-3); padding:5px 8px; background:rgba(0,0,0,0.3); border-radius:6px; display:flex; align-items:center; justify-content:space-between; }
+  .agent-last-run span { color:var(--text-2); }
+  .zzz { position:absolute; top:0; right:4px; font-size:9px; color:var(--text-3); letter-spacing:1px; animation:floatZzz 2.5s ease-in-out infinite; pointer-events:none; }
+  @keyframes floatZzz { 0%{opacity:0;transform:translateY(0)} 30%{opacity:.8} 100%{opacity:0;transform:translateY(-14px)} }
+  .thinking { display:inline-flex; gap:3px; align-items:center; }
+  .thinking span { width:4px; height:4px; border-radius:50%; background:var(--blue); animation:think 1.2s ease-in-out infinite; }
+  .thinking span:nth-child(2){ animation-delay:.2s; }
+  .thinking span:nth-child(3){ animation-delay:.4s; }
+  @keyframes think { 0%,80%,100%{transform:scale(.6);opacity:.4} 40%{transform:scale(1);opacity:1} }
+
+  /* ── TODAY CARDS ── */
+  .today-inner { background:rgba(255,255,255,0.025); border-radius:12px; overflow:hidden; height:calc(100% - 28px); }
+  .today-card-header { padding:10px 12px; border-bottom:1px solid var(--border); display:flex; align-items:center; justify-content:space-between; }
+  .today-card-title { font-size:11px; font-weight:700; color:var(--text-1); display:flex; align-items:center; gap:6px; }
+  .today-events { padding:4px 0; }
+  .today-event { padding:8px 12px; display:flex; align-items:flex-start; gap:8px; border-bottom:1px solid var(--border); transition:background .15s; }
+  .today-event:last-child { border-bottom:none; }
+  .today-event:hover { background:rgba(255,255,255,0.03); }
+  .event-time { font-size:10px; font-weight:700; color:var(--blue); background:var(--blue-dim); border-radius:4px; padding:2px 5px; flex-shrink:0; margin-top:1px; white-space:nowrap; }
+  .event-time.allday { background:rgba(255,255,255,0.04); color:var(--text-3); }
+  .event-title { font-size:13px; color:var(--text-1); line-height:1.4; }
+  .event-desc { font-size:11px; color:var(--text-2); margin-top:2px; }
+  .email-item { padding:8px 12px; display:flex; align-items:flex-start; gap:8px; border-bottom:1px solid var(--border); transition:background .15s; }
+  .email-item:last-child { border-bottom:none; }
+  .email-item:hover { background:rgba(255,255,255,0.03); }
+  .email-dot { width:5px; height:5px; border-radius:50%; background:var(--blue); flex-shrink:0; margin-top:5px; box-shadow:0 0 5px rgba(253,105,105,0.45); }
+  .email-from { font-size:13px; font-weight:600; color:var(--text-1); }
+  .email-subject { font-size:11px; color:var(--text-2); margin-top:1px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:180px; }
+
+  /* ── SESSION LOG ── */
+  .card { background:rgba(255,255,255,0.03); border:1px solid var(--border); border-radius:10px; padding:12px 14px; transition:all .2s; }
+  .card:hover { border-color:rgba(253,105,105,0.18); }
+  .session-log-inner { display:flex; flex-direction:column; gap:14px; }
+  .session-log-top { display:flex; align-items:center; justify-content:space-between; }
+  .prod-row { display:flex; align-items:center; gap:12px; margin-bottom:2px; }
+  .prod-label { font-size:13px; color:var(--text-1); width:110px; flex-shrink:0; font-weight:600; }
+  .prod-bar { flex:1; height:8px; background:rgba(255,255,255,0.04); border-radius:6px; overflow:hidden; }
+  .prod-fill { height:100%; border-radius:6px; transition:width 1s ease; }
+  .prod-pct { font-size:13px; color:var(--text-2); width:38px; text-align:right; flex-shrink:0; font-weight:700; }
+  .prod-note { font-size:10px; color:var(--text-3); margin-left:122px; margin-bottom:10px; margin-top:2px; }
+
+  /* ── WHAT'S RUNNING ── */
+  .running-list { display:flex; flex-direction:column; gap:10px; }
+  .running-item { display:flex; align-items:center; gap:10px; padding:8px 0; border-bottom:1px solid rgba(255,255,255,0.03); }
+  .running-item:last-child { border-bottom:none; }
+  .running-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+  .running-info { flex:1; min-width:0; }
+  .running-name { font-size:14px; font-weight:600; color:var(--text-1); }
+  .running-sub  { font-size:11px; color:var(--text-2); margin-top:1px; }
+
+  /* ── FADE UP ── */
+  .fade-up { opacity:0; transform:translateY(20px); transition:opacity .55s ease, transform .55s ease; }
+  .fade-up.visible { opacity:1; transform:translateY(0); }
+
+  /* ── FOOTER ── */
+  .footer { text-align:center; padding:20px 20px 10px; font-size:11px; color:var(--text-3); position:relative; z-index:1; }
+  a { color:var(--blue); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<div class="header">
+  <div class="header-top">
+    <div class="logo">
+      <div class="logo-mark">J</div>
+      <div>
+        <div class="logo-text">Command Center</div>
+        <div class="logo-sub">J · Glendale, CA</div>
+      </div>
+    </div>
+    <div class="header-right">
+      <span id="next-agent-run">—</span>
+      <div class="header-shortcuts">
+        <a href="https://claude.ai" target="_blank" rel="noopener" class="notebook-shortcut" title="Open Claude Notebook"><kbd>N</kbd><span>notebook</span></a>
+        <kbd>P</kbd><span>timer</span>
+        <kbd>T</kbd><span>todos</span>
+        <kbd>R</kbd><span>refresh</span>
+      </div>
+      <div class="header-date">
+        <span id="live-time">—</span>
+        <div id="live-date">—</div>
+      </div>
+      <div class="avatar">J</div>
+    </div>
+  </div>
+</div>
+
+<!-- HERO — CINEMATIC -->
+<div class="hero">
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-orb hero-orb-3"></div>
+  <div class="hero-content">
+    <div class="hero-greeting">Hey, J — Command Center</div>
+    <div class="hero-title">Build something<br><span>real today.</span></div>
+    <div class="hero-subtitle">Post-Purchase App is live. M1 in progress.<br>Your agents are watching.</div>
+  </div>
+  <div class="hero-stats">
+    <div class="hero-stat"><div class="hero-stat-num coral" id="hero-mcp">6</div><div class="hero-stat-lbl">MCP Agents</div></div>
+    <div class="hero-stat"><div class="hero-stat-num amber" id="hero-ms">M1</div><div class="hero-stat-lbl">Milestone</div></div>
+    <div class="hero-stat"><div class="hero-stat-num green" id="hero-score">—%</div><div class="hero-stat-lbl">Productivity</div></div>
+  </div>
+</div>
+
+<!-- BENTO GRID -->
+<div class="bento-grid">
+
+  <!-- Session Start Reminder -->
+  <div class="bc bc-12" style="border-color:rgba(253,105,105,0.35);background:rgba(253,105,105,0.05);box-shadow:0 0 40px rgba(253,105,105,0.12),0 0 80px rgba(253,105,105,0.06),inset 0 1px 0 rgba(253,105,105,0.15);animation:reminderGlow 4s ease-in-out infinite alternate;">
+    <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
+      <div style="width:44px;height:44px;border-radius:12px;background:rgba(253,105,105,0.18);border:1px solid rgba(253,105,105,0.4);display:flex;align-items:center;justify-content:center;font-size:22px;flex-shrink:0;box-shadow:0 0 16px rgba(253,105,105,0.3);">🧠</div>
+      <div style="flex:1;min-width:240px;">
+        <div style="font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:rgba(253,105,105,0.7);margin-bottom:6px;">Session Start Reminder</div>
+        <div style="font-size:14px;color:var(--text-1);line-height:1.7;font-weight:500;">
+          Say: <span style="color:var(--blue);font-weight:700;text-shadow:0 0 12px rgba(253,105,105,0.5);">"Pull my Claude Context from Notion"</span>
+          &nbsp;&amp;&nbsp;
+          <span style="color:var(--blue);font-weight:700;text-shadow:0 0 12px rgba(253,105,105,0.5);">"pull the XXX from GitHub"</span>
+        </div>
+        <div style="font-size:12px;color:var(--text-2);margin-top:5px;">
+          Claude knows <span style="color:var(--text-1);font-weight:600;">WHO you are</span> (Notion) + <span style="color:var(--text-1);font-weight:600;">WHAT you built</span> (GitHub) → zero repeating yourself.
+        </div>
+      </div>
+      <div style="display:flex;gap:8px;flex-shrink:0;">
+        <span class="badge badge-blue" style="box-shadow:0 0 10px rgba(253,105,105,0.25);">Notion Context</span>
+        <span class="badge badge-gray">GitHub Pull</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pomodoro -->
+  <div class="bc bc-4 br-2" style="border-color:rgba(253,105,105,0.14);" id="pomo-card">
+    <div class="bc-label">Focus Timer</div>
+    <div class="pomo-inner">
+      <div class="pomo-ring">
+        <svg width="120" height="120" viewBox="0 0 120 120">
+          <circle class="pomo-ring-bg"   cx="60" cy="60" r="50"/>
+          <circle class="pomo-ring-fill" id="pomo-arc" cx="60" cy="60" r="50" stroke-dasharray="314.16" stroke-dashoffset="0"/>
+        </svg>
+        <div class="pomo-time">
+          <div class="pomo-digits" id="pomo-display">25:00</div>
+          <div class="pomo-mode"   id="pomo-mode-label">Focus</div>
+        </div>
+      </div>
+      <div class="pomo-sub-info">
+        <div class="pomo-title-txt">Pomodoro Timer</div>
+        <div class="pomo-sub-txt">25 min focus · 5 min break</div>
+      </div>
+      <div class="pomo-btns">
+        <button class="pomo-btn primary" id="pomo-start" onclick="pomoToggle()">Start</button>
+        <button class="pomo-btn" onclick="pomoReset()">Reset</button>
+        <button class="pomo-btn" onclick="pomoSkip()">Skip</button>
+      </div>
+      <div>
+        <div class="pomo-sessions" id="pomo-dots">
+          <div class="pomo-dot"></div><div class="pomo-dot"></div>
+          <div class="pomo-dot"></div><div class="pomo-dot"></div>
+        </div>
+        <div style="font-size:10px;color:var(--text-3);margin-top:5px;text-align:center;" id="pomo-session-label">Session 1 of 4</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Active App — with mini activity bar chart -->
+  <div class="bc bc-4 bc-app-live">
+    <div class="bc-app-status-deco"></div>
+    <div class="bc-label">Active App <span class="pill-tag" style="margin-left:6px;">Live</span></div>
+    <div class="bc-app-name" id="stat-app-name">Post-Purchase App</div>
+    <div class="bc-app-sub">UMEI3D · Active</div>
+    <span class="badge badge-green" style="box-shadow:0 0 12px rgba(74,222,128,0.15)"><span class="dot pulse"></span> Running</span>
+    <div style="margin-top:14px;font-size:11px;color:var(--text-2);">Last synced: <span id="last-sync" style="color:var(--text-2);">—</span></div>
+  </div>
+
+  <!-- At a Glance — gauge + mini chart for MCP -->
+  <div class="bc bc-4">
+    <div class="bc-label">At a Glance</div>
+    <div style="display:flex;align-items:center;gap:20px;height:calc(100% - 28px);">
+      <div class="gauge-wrap" style="flex-shrink:0;">
+        <svg width="110" height="70" viewBox="0 0 110 70" style="overflow:visible;">
+          <path class="gauge-bg" d="M10,65 A45,45 0 0,1 100,65"/>
+          <path class="gauge-fill" id="glance-gauge" d="M10,65 A45,45 0 0,1 100,65"
+            stroke="#FD6969" stroke-dasharray="141.37" stroke-dashoffset="84.82"/>
+        </svg>
+        <div style="margin-top:-8px;text-align:center;">
+          <div class="gauge-label" style="color:var(--blue);" id="glance-pct">40%</div>
+          <div class="gauge-sub">M1 Progress</div>
+        </div>
+      </div>
+      <div style="flex:1;display:flex;flex-direction:column;gap:10px;">
+        <div>
+          <div style="font-size:32px;font-weight:800;color:var(--chart-bar);line-height:1;text-shadow:0 0 20px rgba(255,140,66,0.35);" id="stat-mcp">6</div>
+          <div style="font-size:10px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;margin-top:2px;">MCP Agents</div>
+        </div>
+        <div>
+          <div style="font-size:32px;font-weight:800;color:var(--yellow);line-height:1;text-shadow:0 0 16px rgba(245,158,11,0.3);" id="stat-auto">4</div>
+          <div style="font-size:10px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;margin-top:2px;">Automations</div>
+          <div class="metric-status info">Active & Scheduled</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- What's Running -->
+  <div class="bc bc-4">
+    <div class="bc-label">What's Running</div>
+    <div class="running-list">
+      <div class="running-item"><span class="running-dot" style="background:var(--green);box-shadow:0 0 6px var(--green);"></span><div class="running-info"><div class="running-name">Post-Purchase App</div><div class="running-sub">UMEI3D · Netlify Live</div></div><span class="badge badge-green" style="font-size:10px;">Live</span></div>
+      <div class="running-item"><span class="running-dot" style="background:var(--green);box-shadow:0 0 6px var(--green);"></span><div class="running-info"><div class="running-name">serve-static.js</div><div class="running-sub">Preview Server · Port 3401</div></div><span class="badge badge-green" style="font-size:10px;">Active</span></div>
+      <div class="running-item"><span class="running-dot" style="background:var(--blue);animation:pulse 1.5s infinite;box-shadow:0 0 6px var(--blue);"></span><div class="running-info"><div class="running-name">Claude Code</div><div class="running-sub">Active Session · Building</div></div><span class="badge badge-blue" style="font-size:10px;">Running</span></div>
+      <div class="running-item"><span class="running-dot" style="background:var(--blue);"></span><div class="running-info"><div class="running-name">Finance Tracker</div><div class="running-sub">Local · Desktop</div></div><span class="badge badge-gray" style="font-size:10px;">Local</span></div>
+      <div class="running-item"><span class="running-dot" style="background:var(--text-3);"></span><div class="running-info"><div class="running-name">Figma</div><div class="running-sub">MCP Connected · Design</div></div><span class="badge badge-gray" style="font-size:10px;">Connected</span></div>
+    </div>
+  </div>
+
+  <!-- Shopify Daily Orders -->
+  <div class="bc bc-4" id="shopify-card">
+    <div class="bc-label">Shopify Orders <span class="badge badge-green" style="font-size:9px;margin-left:4px;">Sheets Live</span></div>
+    <div style="display:flex;align-items:center;gap:16px;margin-bottom:14px;">
+      <div style="font-size:48px;font-weight:800;color:var(--green);line-height:1;text-shadow:0 0 24px rgba(74,222,128,0.35);" id="shopify-orders">—</div>
+      <div>
+        <div style="font-size:12px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;">This Week's Orders</div>
+        <div style="font-size:11px;color:var(--text-3);margin-top:3px;" id="shopify-week-label">UMEI3D · via Supermetrics</div>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:6px;">
+      <div style="display:flex;justify-content:space-between;font-size:12px;padding:6px 10px;background:rgba(255,255,255,0.03);border-radius:8px;border:1px solid var(--border);">
+        <span style="color:var(--text-2);">Revenue This Week</span><span style="color:var(--green);font-weight:600;" id="shopify-revenue">—</span>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:12px;padding:6px 10px;background:rgba(255,255,255,0.03);border-radius:8px;border:1px solid var(--border);">
+        <span style="color:var(--text-2);">Meta · Website Purchases</span><span style="color:var(--blue);font-weight:600;" id="shopify-pending">—</span>
+      </div>
+      <div style="font-size:10px;color:var(--text-3);padding:0 2px;" id="meta-week-label"></div>
+    </div>
+    <!-- Manual entry form -->
+    <div id="shopify-form" style="margin-top:12px;display:flex;flex-direction:column;gap:6px;">
+      <div style="display:flex;gap:6px;">
+        <input id="inp-orders" type="number" placeholder="Orders" min="0" style="flex:1;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text-1);font-size:12px;font-family:inherit;outline:none;"/>
+        <input id="inp-revenue" type="text" placeholder="Revenue $" style="flex:1;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text-1);font-size:12px;font-family:inherit;outline:none;"/>
+        <input id="inp-pending" type="number" placeholder="Pending" min="0" style="flex:1;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text-1);font-size:12px;font-family:inherit;outline:none;"/>
+      </div>
+      <button onclick="saveShopifyManual()" style="background:var(--blue);border:none;border-radius:8px;padding:7px;color:#fff;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;width:100%;">Save Today's Numbers</button>
+    </div>
+    <div style="margin-top:8px;font-size:10px;color:var(--text-3);text-align:center;" id="shopify-status">Enter today's numbers from <a href="https://admin.shopify.com/store/umei3d/orders" target="_blank" style="color:var(--blue);">Shopify Admin</a></div>
+  </div>
+
+  <!-- Today Agenda -->
+  <div class="bc bc-8 fade-up" id="today">
+    <div class="bc-label">Today's Agenda — <span id="today-date-label">—</span></div>
+    <div class="today-inner">
+      <div class="today-card-header"><div class="today-card-title">Google Calendar</div><span class="badge badge-blue" id="event-count-badge">—</span></div>
+      <div class="today-events" id="today-events">
+        <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading events...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Milestones -->
+  <div class="bc bc-8 fade-up" id="milestones">
+    <div class="bc-label">Active Milestones — UMEI3D Post-Purchase App <span class="pill-tag">5 milestones</span></div>
+    <div class="ms-compact" id="milestone-list">
+      <div class="ms-row active"><div class="ms-badge">1</div><div class="ms-row-name">Feedback &amp; Fixes</div><div class="ms-bar"><div class="ms-bar-fill" style="width:40%"></div></div><div class="ms-pct">40%</div><span class="badge badge-blue"><span class="dot pulse"></span> In Progress</span></div>
+      <div class="ms-row"><div class="ms-badge">2</div><div class="ms-row-name">Visual Polish (Figma)</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
+      <div class="ms-row"><div class="ms-badge">3</div><div class="ms-row-name">Voice &amp; Sound (ElevenLabs)</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
+      <div class="ms-row"><div class="ms-badge">4</div><div class="ms-row-name">Analytics</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
+      <div class="ms-row"><div class="ms-badge">5</div><div class="ms-row-name">Pilot &amp; Roll Out</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
+    </div>
+  </div>
+
+  <!-- Agent Pipeline -->
+  <div class="bc bc-12 fade-up" id="agents">
+    <div class="bc-label">Agent Pipeline — What Each Agent Does</div>
+    <div class="agent-flow-grid">
+      <div class="af-agent"><div class="af-header"><span class="af-emoji">🔄</span><div><div class="af-name">GitBot</div><div class="af-handle">@github-sync</div></div><span class="badge badge-gray af-badge" id="state-github">😴 Sleeping</span></div><div class="af-pipeline"><div class="af-step"><div class="af-step-icon">⏰</div><div class="af-step-label">Trigger</div><div class="af-step-val">Every 6 hrs</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">🔍</div><div class="af-step-label">Action</div><div class="af-step-val">Scan GitHub repos</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">📄</div><div class="af-step-label">Output</div><div class="af-step-val">Updates data.json</div></div><div class="af-arrow">→</div><div class="af-step af-step-result"><div class="af-step-icon">📊</div><div class="af-step-label">Result</div><div class="af-step-val">Dashboard refreshes</div></div></div><div class="af-lastrun">Last run: <span id="lastrun-github">Not yet</span></div></div>
+      <div class="af-agent"><div class="af-header"><span class="af-emoji">🎯</span><div><div class="af-name">MilestoneBot</div><div class="af-handle">@milestone-notion</div></div><span class="badge badge-gray af-badge" id="state-milestone">😴 Sleeping</span></div><div class="af-pipeline"><div class="af-step"><div class="af-step-icon">⏰</div><div class="af-step-label">Trigger</div><div class="af-step-val">9:00 AM daily</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">📖</div><div class="af-step-label">Action</div><div class="af-step-val">Read Notion tracker</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">📄</div><div class="af-step-label">Output</div><div class="af-step-val">Updates milestones</div></div><div class="af-arrow">→</div><div class="af-step af-step-result"><div class="af-step-icon">📊</div><div class="af-step-label">Result</div><div class="af-step-val">Progress bars update</div></div></div><div class="af-lastrun">Last run: <span id="lastrun-milestone">Not yet</span></div></div>
+      <div class="af-agent"><div class="af-header"><span class="af-emoji">📝</span><div><div class="af-name">WrapBot</div><div class="af-handle">@daily-wrapup</div></div><span class="badge badge-gray af-badge" id="state-wrapup">😴 Sleeping</span></div><div class="af-pipeline"><div class="af-step"><div class="af-step-icon">⏰</div><div class="af-step-label">Trigger</div><div class="af-step-val">8:00 PM daily</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">🧠</div><div class="af-step-label">Action</div><div class="af-step-val">Review session work</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">✍️</div><div class="af-step-label">Output</div><div class="af-step-val">Writes daily summary</div></div><div class="af-arrow">→</div><div class="af-step af-step-result"><div class="af-step-icon">📄</div><div class="af-step-label">Result</div><div class="af-step-val">Logs to data.json</div></div></div><div class="af-lastrun">Last run: <span id="lastrun-wrapup">Not yet</span></div></div>
+      <div class="af-agent"><div class="af-header"><span class="af-emoji">🗒️</span><div><div class="af-name">LogBot</div><div class="af-handle">@session-logger</div></div><span class="badge badge-gray af-badge" id="state-logger">😴 Sleeping</span></div><div class="af-pipeline"><div class="af-step"><div class="af-step-icon">⏰</div><div class="af-step-label">Trigger</div><div class="af-step-val">8:10 PM daily</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">💬</div><div class="af-step-label">Action</div><div class="af-step-val">Summarize Claude session</div></div><div class="af-arrow">→</div><div class="af-step"><div class="af-step-icon">📓</div><div class="af-step-label">Output</div><div class="af-step-val">Write to Notion</div></div><div class="af-arrow">→</div><div class="af-step af-step-result"><div class="af-step-icon">✅</div><div class="af-step-label">Result</div><div class="af-step-val">Workspace updated</div></div></div><div class="af-lastrun">Last run: <span id="lastrun-logger">Not yet</span></div></div>
+    </div>
+  </div>
+
+  <!-- GitHub -->
+  <div class="bc bc-4" id="github">
+    <div class="bc-label">GitHub</div>
+    <div class="gh-repo open" id="gh-cw-repo">
+      <div class="gh-header" onclick="toggleRepo('gh-cw-repo')">
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="var(--blue)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        <div class="gh-name">claude-workspace</div><div class="gh-meta" id="gh-cw-date">—</div>
+        <a href="https://github.com/jessycacheong-cell/claude-workspace" target="_blank" onclick="e=>e.stopPropagation()"><span class="badge badge-blue" style="padding:2px 5px;font-size:10px;">↗</span></a>
+        <span class="gh-chevron">▾</span>
+      </div>
+      <div class="gh-body">
+        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">brands/</span></div>
+        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">umei3d.md</span><span class="meta">brand brief</span></div>
+        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">apps/</span></div>
+        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">umei3d-post-purchase.md</span></div>
+        <div class="tree-item tree-folder"><span class="icon">📁</span><span class="name" style="color:var(--yellow)">personal/</span></div>
+        <div class="tree-item tree-indent"><span class="icon">📄</span><span class="name">about-me.md</span></div>
+        <div class="tree-item"><span class="icon">⚙️</span><span class="name">CLAUDE.md</span><span class="meta">master brief</span></div>
+        <div class="gh-commit-strip" id="gh-cw-commit">Last commit: syncing...</div>
+      </div>
+    </div>
+    <div class="gh-repo" id="gh-ua-repo">
+      <div class="gh-header" onclick="toggleRepo('gh-ua-repo')">
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="var(--blue)"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+        <div class="gh-name">umei3d-app</div><div class="gh-meta" id="gh-ua-date">—</div>
+        <a href="https://github.com/jessycacheong-cell/umei3d-app" target="_blank" onclick="e=>e.stopPropagation()"><span class="badge badge-blue" style="padding:2px 5px;font-size:10px;">↗</span></a>
+        <span class="gh-chevron">▾</span>
+      </div>
+      <div class="gh-body">
+        <div class="tree-item"><span class="icon">🏠</span><span class="name">returns-popup.html</span><span class="meta">main app</span></div>
+        <div class="tree-item"><span class="icon">🗺️</span><span class="name">umei-workflow.html</span><span class="meta">workflow map</span></div>
+        <div class="tree-item"><span class="icon">⚙️</span><span class="name">CLAUDE.md</span><span class="meta">working brief</span></div>
+        <div class="tree-item"><span class="icon">🖥️</span><span class="name">serve-static.js</span><span class="meta">port 3401</span></div>
+        <div class="gh-commit-strip" id="gh-ua-commit">Last commit: syncing...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MCP Flow -->
+  <div class="bc bc-4 fade-up" id="mcp">
+    <div class="bc-label">MCP Connections</div>
+    <div class="mcp-flow-inner">
+      <div class="mcp-center"><div class="mcp-center-icon">🤖</div><div class="mcp-center-label">CLAUDE</div><div class="mcp-center-sub">+ J</div></div>
+      <div class="mcp-lines" id="mcp-lines-container"><svg id="mcp-svg" preserveAspectRatio="none"></svg></div>
+      <div class="mcp-nodes" id="mcp-nodes">
+        <div class="mcp-node" id="node-notion"><div class="mcp-node-icon">🗒️</div><div><div class="mcp-node-name">Notion</div><div class="mcp-node-role">Read / write workspace</div></div><div class="mcp-node-dot"></div></div>
+        <div class="mcp-node" id="node-gmail"><div class="mcp-node-icon">📧</div><div><div class="mcp-node-name">Gmail</div><div class="mcp-node-role">Draft & search emails</div></div><div class="mcp-node-dot"></div></div>
+        <div class="mcp-node" id="node-gcal"><div class="mcp-node-icon">📅</div><div><div class="mcp-node-name">Google Cal</div><div class="mcp-node-role">Events & scheduling</div></div><div class="mcp-node-dot"></div></div>
+        <div class="mcp-node" id="node-klaviyo"><div class="mcp-node-icon">📊</div><div><div class="mcp-node-name">Klaviyo</div><div class="mcp-node-role">Email marketing</div></div><div class="mcp-node-dot"></div></div>
+        <div class="mcp-node" id="node-canva"><div class="mcp-node-icon">🎨</div><div><div class="mcp-node-name">Canva</div><div class="mcp-node-role">Design assets</div></div><div class="mcp-node-dot"></div></div>
+        <div class="mcp-node" id="node-blotato"><div class="mcp-node-icon">📱</div><div><div class="mcp-node-name">Blotato</div><div class="mcp-node-role">Social media posts</div></div><div class="mcp-node-dot"></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Dashboard Flow Diagram -->
+  <div class="bc bc-12 fade-up" id="dash-flow">
+    <div class="bc-label">How This Dashboard Works</div>
+    <div class="df-wrap" id="df-wrap">
+      <svg id="df-svg" class="df-svg"></svg>
+
+      <!-- Col 1: Data Sources -->
+      <div class="df-col" id="df-col-sources">
+        <div class="df-col-label">Data Sources</div>
+        <div class="df-nodes">
+          <div class="df-node active" id="dfn-notion">
+            <div class="df-node-icon">🗒️</div>
+            <div><div class="df-node-name">Notion</div><div class="df-node-role">Milestones · Session logs</div></div>
+            <div class="df-node-pip on"></div>
+          </div>
+          <div class="df-node dim" id="dfn-gmail">
+            <div class="df-node-icon">📧</div>
+            <div><div class="df-node-name">Gmail</div><div class="df-node-role">Inbox snapshot (coming soon)</div></div>
+            <div class="df-node-pip soon"></div>
+          </div>
+          <div class="df-node dim" id="dfn-gcal">
+            <div class="df-node-icon">📅</div>
+            <div><div class="df-node-name">Google Cal</div><div class="df-node-role">Today's agenda (coming soon)</div></div>
+            <div class="df-node-pip soon"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Col 2: Bots (GitHub Actions) -->
+      <div class="df-col" id="df-col-bots">
+        <div class="df-col-label">GitHub Actions (Cloud Bots)</div>
+        <div class="df-nodes">
+          <div class="df-bot live" id="dfb-milestone">
+            <div class="df-bot-glow"></div>
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">MilestoneBot</div><div class="df-bot-sched">9AM daily · Notion → data.json</div></div>
+            <span class="df-badge live">LIVE</span>
+          </div>
+          <div class="df-bot pending" id="dfb-git">
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">GitBot</div><div class="df-bot-sched">Every 6hrs · GitHub → data.json</div></div>
+            <span class="df-badge soon">PENDING</span>
+          </div>
+          <div class="df-bot pending" id="dfb-wrap">
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">WrapBot</div><div class="df-bot-sched">8PM daily · summary → data.json</div></div>
+            <span class="df-badge soon">PENDING</span>
+          </div>
+          <div class="df-bot pending" id="dfb-log">
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">LogBot</div><div class="df-bot-sched">8:10PM daily · session → Notion</div></div>
+            <span class="df-badge soon">PENDING</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Col 3: Output -->
+      <div class="df-col" id="df-col-output">
+        <div class="df-col-label">Live Output</div>
+        <div class="df-nodes">
+          <div class="df-node active" id="dfn-datajson">
+            <div class="df-node-icon">📄</div>
+            <div><div class="df-node-name">data.json</div><div class="df-node-role">GitHub cloud · always fresh</div></div>
+            <div class="df-node-pip on"></div>
+          </div>
+          <div class="df-node active" id="dfn-netlify">
+            <div class="df-node-icon">🌐</div>
+            <div><div class="df-node-name">Netlify</div><div class="df-node-role">Auto-deploys from GitHub</div></div>
+            <div class="df-node-pip on"></div>
+          </div>
+          <div class="df-node hero" id="dfn-dashboard">
+            <div class="df-node-icon">🖥️</div>
+            <div><div class="df-node-name">Your Dashboard</div><div class="df-node-role">Lives at netlify.app · no laptop needed</div></div>
+            <div class="df-node-pip on"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="df-legend">
+      <div class="df-legend-item"><div class="df-legend-line" style="background:#FD6969;opacity:.7"></div> Active flow</div>
+      <div class="df-legend-item"><div class="df-legend-line" style="background:#4ade80;opacity:.7"></div> Data write</div>
+      <div class="df-legend-item"><div class="df-legend-line" style="background:var(--text-3);opacity:.5;border-top:2px dashed var(--text-3);height:0"></div> Coming soon</div>
+      <div class="df-legend-item" style="margin-left:auto;color:var(--text-3);">Refreshes every 5 min · No manual input needed</div>
+    </div>
+  </div>
+
+  <!-- Last Session + Next Session -->
+  <div class="bc bc-4" id="todo">
+    <div class="bc-label">Last Session</div>
+    <div style="background:rgba(255,255,255,0.025);border-radius:12px;padding:12px;margin-bottom:12px;">
+      <div style="font-size:11px;font-weight:700;color:var(--blue);margin-bottom:6px;" id="last-session-date">—</div>
+      <div style="font-size:12px;color:var(--text-2);line-height:1.7;" id="last-session-summary">Loading...</div>
+    </div>
+    <div class="bc-label" style="margin-top:4px;">Next Session</div>
+    <div class="todo-list" id="next-session-list">
+      <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading...</div>
+    </div>
+  </div>
+
+  <!-- Session Log -->
+  <div class="bc bc-12" id="todaylog">
+    <div class="bc-label">Today's Session Log</div>
+    <div class="session-log-inner">
+      <div class="session-log-top">
+        <div><div style="font-size:15px;font-weight:700;color:var(--text-1);">Today's Productivity</div><div style="font-size:12px;color:var(--text-2);margin-top:3px;" id="prod-date">—</div></div>
+        <div style="text-align:right;">
+          <div style="font-size:38px;font-weight:800;color:var(--green);text-shadow:0 0 20px rgba(74,222,128,0.35);letter-spacing:-1.5px;" id="prod-score">—%</div>
+          <div class="metric-status good">Good Progress</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:4px;margin-bottom:14px;">
+        <div class="prod-row"><div class="prod-label">Today's Progress</div><div class="prod-bar"><div class="prod-fill" id="bar-ms" style="background:var(--yellow);width:0%"></div></div><div class="prod-pct" id="pct-ms">0%</div></div>
+        <div class="prod-note">Milestone 1 — Feedback & Fixes (Mar 17–22). Updated by MilestoneBot each morning.</div>
+        <div class="prod-row"><div class="prod-label">Today's Vibe</div><div class="prod-bar"><div class="prod-fill" id="bar-vibe" style="background:linear-gradient(90deg,var(--blue),var(--purple));width:100%"></div></div><div class="prod-pct" id="pct-vibe" style="color:var(--blue);">🔥</div></div>
+        <div class="prod-note" id="vibe-note">Mar 21 — Cloud migration complete. MilestoneBot live. You shipped something real today.</div>
+      </div>
+      <div class="card" style="border-color:rgba(253,105,105,0.12);"><div style="font-size:13px;color:var(--text-2);line-height:1.7;" id="today-log">Loading today's log...</div></div>
+      <div id="automations-list" style="display:none;"></div>
+    </div>
+  </div>
+
+</div>
+
+<div class="footer">J's Command Center · Built with Claude Code · <span id="footer-date"></span></div>
+<div style="display:none"><span id="clock"></span><span id="clock-date"></span></div>
+
+<script>
+const fadeObserver=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');fadeObserver.unobserve(e.target);}});},{threshold:.01,rootMargin:'0px 0px -20px 0px'});
+document.querySelectorAll('.fade-up').forEach(el=>fadeObserver.observe(el));
+setTimeout(()=>{document.querySelectorAll('.fade-up:not(.visible)').forEach(el=>el.classList.add('visible'));},600);
+
+function animateCount(el,target,duration=800){const start=performance.now();function step(now){const p=Math.min((now-start)/duration,1);el.textContent=Math.round(target*(p<.5?2*p*p:-1+(4-2*p)*p));if(p<1)requestAnimationFrame(step);else el.textContent=target;}requestAnimationFrame(step);}
+window.addEventListener('load',()=>{setTimeout(()=>{[['stat-mcp',6],['stat-auto',4]].forEach(([id,val])=>{const el=document.getElementById(id);if(el)animateCount(el,val);});},400);});
+
+function setGauge(pct){const el=document.getElementById('glance-gauge');if(el)el.style.strokeDashoffset=141.37*(1-pct/100);const lbl=document.getElementById('glance-pct');if(lbl)lbl.textContent=pct+'%';}
+window.addEventListener('load',()=>{setTimeout(()=>setGauge(40),500);});
+
+function syncHeroScore(s){const el=document.getElementById('hero-score');if(el)el.textContent=s+'%';}
+
+function updateTime(){const now=new Date();document.getElementById('live-time').textContent=now.toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit',second:'2-digit'});document.getElementById('live-date').textContent=now.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',year:'numeric'});document.getElementById('footer-date').textContent=now.toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'});}
+updateTime();setInterval(updateTime,1000);
+
+document.getElementById('today-date-label').textContent=new Date().toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
+
+function showToast(msg,type='info'){let wrap=document.getElementById('toast-wrap');if(!wrap){wrap=document.createElement('div');wrap.id='toast-wrap';wrap.style.cssText='position:fixed;bottom:24px;right:20px;z-index:9999;display:flex;flex-direction:column;gap:8px;pointer-events:none;';document.body.appendChild(wrap);}const t=document.createElement('div');const color=type==='success'?'var(--green)':type==='error'?'var(--red)':'var(--blue)';t.style.cssText=`background:rgba(10,11,18,0.97);backdrop-filter:blur(20px);border:1px solid ${color};border-left:3px solid ${color};border-radius:12px;padding:10px 16px;font-size:12px;color:var(--text-1);box-shadow:0 4px 24px rgba(0,0,0,0.6);opacity:0;transform:translateY(8px);transition:all .25s ease;max-width:260px;font-family:'Space Grotesk',sans-serif;`;t.textContent=msg;wrap.appendChild(t);requestAnimationFrame(()=>{t.style.opacity='1';t.style.transform='translateY(0)';});setTimeout(()=>{t.style.opacity='0';t.style.transform='translateY(8px)';setTimeout(()=>t.remove(),300);},3000);}
+
+const TODO_KEY='j-dashboard-todos';
+function saveTodos(){const s={};document.querySelectorAll('.todo-item[data-id]').forEach(el=>{s[el.dataset.id]=el.classList.contains('done');});localStorage.setItem(TODO_KEY,JSON.stringify(s));}
+function loadTodos(){try{const s=JSON.parse(localStorage.getItem(TODO_KEY)||'{}');document.querySelectorAll('.todo-item[data-id]').forEach(el=>{if(s[el.dataset.id])el.classList.add('done');});}catch{}updateTodoBar();}
+function toggleTodo(el){el.classList.toggle('done');const done=el.classList.contains('done');showToast(done?'✓ Done: '+el.querySelector('.todo-text')?.textContent?.slice(0,28)+'...':'↩ Unchecked',done?'success':'info');saveTodos();updateTodoBar();}
+function updateTodoBar(){updateProdScore();}
+
+const AGENT_SCHEDULES=[{name:'GitBot',hours:[0,6,12,18],min:0},{name:'MilestoneBot',hours:[9],min:0},{name:'WrapBot',hours:[20],min:0},{name:'LogBot',hours:[20],min:10}];
+function getNextAgentRun(){const now=new Date();let minDiff=Infinity,nextName='';AGENT_SCHEDULES.forEach(a=>{a.hours.forEach(h=>{let n=new Date(now);n.setHours(h,a.min,0,0);if(n<=now)n.setDate(n.getDate()+1);const d=n-now;if(d<minDiff){minDiff=d;nextName=a.name;}});});const tm=Math.floor(minDiff/60000);return{name:nextName,label:Math.floor(tm/60)>0?`${Math.floor(tm/60)}h ${tm%60}m`:`${tm%60}m`};}
+function updateCountdown(){const el=document.getElementById('next-agent-run');if(!el)return;const{name,label}=getNextAgentRun();el.textContent=`${name} runs in ${label}`;}
+updateCountdown();setInterval(updateCountdown,30000);
+
+function updateProductivity(msProg){document.getElementById('bar-ms').style.width=msProg+'%';document.getElementById('pct-ms').textContent=msProg+'%';document.getElementById('prod-date').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});setGauge(msProg);updateTodoBar();}
+function updateProdScore(){document.getElementById('prod-score').textContent='100%';syncHeroScore(100);}
+
+function toggleRepo(id){document.getElementById(id).classList.toggle('open');}
+
+function drawFlowLines(){
+  const svg=document.getElementById('df-svg');
+  const wrap=document.getElementById('df-wrap');
+  if(!svg||!wrap)return;
+  const wr=wrap.getBoundingClientRect();
+  if(!wr.width)return;
+  svg.innerHTML='';
+  svg.setAttribute('viewBox',`0 0 ${wr.width} ${wr.height}`);
+
+  function midPt(el,side){
+    const r=el.getBoundingClientRect();
+    if(side==='right') return {x:r.right-wr.left, y:r.top+r.height/2-wr.top};
+    if(side==='left')  return {x:r.left-wr.left,  y:r.top+r.height/2-wr.top};
+    if(side==='bottom')return {x:r.left+r.width/2-wr.left, y:r.bottom-wr.top};
+    if(side==='top')   return {x:r.left+r.width/2-wr.left, y:r.top-wr.top};
+  }
+
+  function addConn(fromId,toId,fromSide,toSide,color,active,speed){
+    const fe=document.getElementById(fromId);
+    const te=document.getElementById(toId);
+    if(!fe||!te)return;
+    const p1=midPt(fe,fromSide), p2=midPt(te,toSide);
+    const dx=Math.abs(p2.x-p1.x)*0.5;
+    let cp1x,cp1y,cp2x,cp2y;
+    if(fromSide==='right'&&toSide==='left'){
+      cp1x=p1.x+dx; cp1y=p1.y; cp2x=p2.x-dx; cp2y=p2.y;
+    } else {
+      cp1x=p1.x; cp1y=p1.y+(p2.y-p1.y)*0.5; cp2x=p2.x; cp2y=p1.y+(p2.y-p1.y)*0.5;
+    }
+    const d=`M${p1.x},${p1.y} C${cp1x},${cp1y} ${cp2x},${cp2y} ${p2.x},${p2.y}`;
+    const path=document.createElementNS('http://www.w3.org/2000/svg','path');
+    path.setAttribute('d',d);
+    path.setAttribute('stroke',color);
+    path.setAttribute('stroke-width',active?'1.5':'1');
+    path.setAttribute('fill','none');
+    path.setAttribute('stroke-dasharray',active?'5,4':'3,7');
+    path.setAttribute('opacity',active?'0.45':'0.14');
+    svg.appendChild(path);
+    if(!active||!speed)return;
+    const dot=document.createElementNS('http://www.w3.org/2000/svg','circle');
+    dot.setAttribute('r','3.5');
+    dot.setAttribute('fill',color);
+    dot.setAttribute('opacity','0.95');
+    dot.setAttribute('filter',`drop-shadow(0 0 5px ${color})`);
+    const anim=document.createElementNS('http://www.w3.org/2000/svg','animateMotion');
+    anim.setAttribute('dur',speed+'s');
+    anim.setAttribute('repeatCount','indefinite');
+    anim.setAttribute('path',d);
+    dot.appendChild(anim);
+    svg.appendChild(dot);
+  }
+
+  // Sources → Bots
+  addConn('dfn-notion','dfb-milestone','right','left','#FD6969',true,2.0);
+  addConn('dfn-gmail','dfb-wrap','right','left','#a78bfa',false,0);
+  addConn('dfn-gcal','dfb-log','right','left','#f59e0b',false,0);
+  // Bots → Output
+  addConn('dfb-milestone','dfn-datajson','right','left','#4ade80',true,2.2);
+  addConn('dfb-git','dfn-datajson','right','left','#a78bfa',false,0);
+  addConn('dfb-wrap','dfn-netlify','right','left','#FD6969',false,0);
+  addConn('dfb-log','dfn-netlify','right','left','#FD6969',false,0);
+  // Within output: data.json → dashboard (vertical)
+  addConn('dfn-datajson','dfn-dashboard','bottom','top','#4ade80',true,1.8);
+  // netlify → dashboard (vertical)
+  addConn('dfn-netlify','dfn-dashboard','bottom','top','#FD6969',true,2.6);
+}
+window.addEventListener('load',()=>{setTimeout(drawFlowLines,300);});
+window.addEventListener('resize',()=>{setTimeout(drawFlowLines,50);});
+
+function drawMcpLines(){const c=document.getElementById('mcp-lines-container');const svg=document.getElementById('mcp-svg');const center=document.querySelector('.mcp-center');const nodes=document.querySelectorAll('.mcp-node');if(!c||!svg||!center||!nodes.length)return;const cr=c.getBoundingClientRect();const ctr=center.getBoundingClientRect();svg.innerHTML='';const x1=ctr.right-cr.left;const y1=ctr.top+ctr.height/2-cr.top;nodes.forEach(node=>{const nr=node.getBoundingClientRect();const x2=nr.left-cr.left;const y2=nr.top+nr.height/2-cr.top;const mx=(x1+x2)/2;const line=document.createElementNS('http://www.w3.org/2000/svg','path');line.setAttribute('d',`M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);line.setAttribute('stroke','rgba(253,105,105,0.15)');line.setAttribute('stroke-width','1.5');line.setAttribute('fill','none');line.setAttribute('stroke-dasharray','4,3');svg.appendChild(line);const dot=document.createElementNS('http://www.w3.org/2000/svg','circle');dot.setAttribute('r','3');dot.setAttribute('fill','#FD6969');dot.setAttribute('opacity','0.8');const anim=document.createElementNS('http://www.w3.org/2000/svg','animateMotion');anim.setAttribute('dur',(1.5+Math.random()).toFixed(1)+'s');anim.setAttribute('repeatCount','indefinite');anim.setAttribute('path',`M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);dot.appendChild(anim);svg.appendChild(dot);});}
+window.addEventListener('load',()=>{setTimeout(drawMcpLines,200);});
+window.addEventListener('resize',drawMcpLines);
+
+const POMO_WORK=25*60,POMO_BREAK=5*60,CIRCUMFERENCE=2*Math.PI*50;
+let pomoRunning=false,pomoTime=POMO_WORK,pomoIsBreak=false,pomoSessions=0,pomoInterval=null;
+function pomoRender(){const m=String(Math.floor(pomoTime/60)).padStart(2,'0');const s=String(pomoTime%60).padStart(2,'0');document.getElementById('pomo-display').textContent=`${m}:${s}`;document.getElementById('pomo-mode-label').textContent=pomoIsBreak?'Break':'Focus';const arc=document.getElementById('pomo-arc');arc.style.strokeDashoffset=CIRCUMFERENCE*(1-pomoTime/(pomoIsBreak?POMO_BREAK:POMO_WORK));arc.classList.toggle('break',pomoIsBreak);document.querySelectorAll('.pomo-dot').forEach((d,i)=>d.classList.toggle('done',i<pomoSessions));document.getElementById('pomo-session-label').textContent=`Session ${Math.min(pomoSessions+1,4)} of 4`;}
+function updatePomoGlow(){const card=document.getElementById('pomo-card');if(!card)return;if(pomoRunning&&!pomoIsBreak){card.style.boxShadow='0 0 48px rgba(253,105,105,0.15)';card.style.borderColor='rgba(253,105,105,0.35)';}else if(pomoRunning&&pomoIsBreak){card.style.boxShadow='0 0 48px rgba(74,222,128,0.15)';card.style.borderColor='rgba(74,222,128,0.28)';}else{card.style.boxShadow='';card.style.borderColor='rgba(253,105,105,0.14)';}}
+function pomoToggle(){const btn=document.getElementById('pomo-start');if(pomoRunning){clearInterval(pomoInterval);pomoRunning=false;btn.textContent='Resume';updatePomoGlow();}else{pomoRunning=true;btn.textContent='Pause';updatePomoGlow();pomoInterval=setInterval(()=>{pomoTime--;if(pomoTime<=0){clearInterval(pomoInterval);pomoRunning=false;if(!pomoIsBreak){pomoSessions=Math.min(pomoSessions+1,4);pomoIsBreak=true;pomoTime=POMO_BREAK;btn.textContent='Start Break';}else{pomoIsBreak=false;pomoTime=POMO_WORK;btn.textContent='Start Focus';}}pomoRender();},1000);}}
+function pomoReset(){clearInterval(pomoInterval);pomoRunning=false;pomoIsBreak=false;pomoTime=POMO_WORK;document.getElementById('pomo-start').textContent='Start';pomoRender();}
+function pomoSkip(){clearInterval(pomoInterval);pomoRunning=false;if(!pomoIsBreak){pomoSessions=Math.min(pomoSessions+1,4);pomoIsBreak=true;pomoTime=POMO_BREAK;}else{pomoIsBreak=false;pomoTime=POMO_WORK;}document.getElementById('pomo-start').textContent=pomoIsBreak?'Start Break':'Start Focus';pomoRender();}
+if('Notification' in window&&Notification.permission==='default')Notification.requestPermission();
+pomoRender();
+
+document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;if(e.key==='p'||e.key==='P'){pomoToggle();showToast(pomoRunning?'▶ Pomodoro started':'⏸ Pomodoro paused','info');}if(e.key==='t'||e.key==='T'){document.getElementById('todo')?.scrollIntoView({behavior:'smooth',block:'start'});showToast('📋 To-Do list','info');}if(e.key==='r'||e.key==='R'){loadData();showToast('🔄 Refreshing...','info');}if(e.key==='m'||e.key==='M')document.getElementById('milestones')?.scrollIntoView({behavior:'smooth',block:'start'});if(e.key==='n'||e.key==='N'){window.open('https://claude.ai','_blank');showToast('Opening Claude Notebook','info');}if(e.key==='Escape')window.scrollTo({top:0,behavior:'smooth'});});
+
+async function loadData(){try{const res=await fetch('https://raw.githubusercontent.com/jessycacheong-cell/claude-workspace/main/personal/data.json?t='+Date.now());if(!res.ok)throw new Error();const data=await res.json();renderData(data);const el=document.getElementById('last-sync');el.textContent='Live · '+new Date(data.lastUpdated).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});el.style.color='var(--green)';showToast('Dashboard refreshed','success');}catch{document.getElementById('last-sync').textContent='Live';updateProductivity(40);}}
+function renderData(data){if(data.stats){setEl('stat-mcp',data.stats.mcpAgents);setEl('stat-auto',data.stats.automationsRunning);setEl('stat-milestone',data.stats.currentMilestone);}if(data.milestones){const ap=(data.milestones.find(m=>m.status==='in-progress')||{}).progress||40;updateProductivity(ap);const list=document.getElementById('milestone-list');list.innerHTML=data.milestones.map(ms=>{const map={'done':{cls:'done',label:'Done',bc:'badge-green'},'in-progress':{cls:'active',label:'In Progress',bc:'badge-yellow'},'blocked':{cls:'',label:'Blocked',bc:'badge-red'},'not-started':{cls:'',label:'Not Started',bc:'badge-gray'}};const s=map[ms.status]||map['not-started'];const pct=ms.status==='done'?100:(ms.status==='not-started'?0:ms.progress);const dot=ms.status==='in-progress'?'<span class="dot pulse"></span> ':'';return `<div class="ms-row ${s.cls}"><div class="ms-badge">${ms.id}</div><div class="ms-row-name">${ms.name}</div><div class="ms-bar"><div class="ms-bar-fill" style="width:${pct}%"></div></div><div class="ms-pct">${pct}%</div><span class="badge ${s.bc}">${dot}${s.label}</span></div>`;}).join('');}if(data.github){const repos={'claude-workspace':'gh-cw','umei3d-app':'gh-ua'};Object.entries(repos).forEach(([repo,id])=>{const info=data.github[repo];if(!info)return;const de=document.getElementById(id+'-date');const ce=document.getElementById(id+'-commit');if(info.lastCommitDate&&de)de.textContent=new Date(info.lastCommitDate).toLocaleDateString('en-US',{month:'short',day:'numeric'});if(ce&&info.lastCommit)ce.textContent='Last commit: '+info.lastCommit;});}if(data.automations){document.getElementById('automations-list').innerHTML=data.automations.map(a=>{const lr=a.lastRun?new Date(a.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'Not yet run';const st=a.status==='ok'?`<span class="badge badge-green"><span class="dot pulse"></span> Running</span>`:`<span class="badge badge-red">Error</span>`;return `<div class="auto-card"><div class="auto-icon">🤖</div><div style="flex:1"><div class="auto-name">${a.name}</div><div class="auto-desc">Last run: ${lr}</div><div class="auto-meta">${st}<span class="badge badge-gray">🕐 ${a.schedule}</span><span class="badge badge-blue">→ ${a.target}</span></div></div></div>`;}).join('');}if(data.agenda)renderAgenda(data.agenda);if(data.todayLog)setEl('today-log',data.todayLog);if(data.automations)updateAgentStates(data.automations);if(data.nextSession)renderNextSession(data.nextSession);if(data.lastSession){setEl('last-session-date',data.lastSession.date);setEl('last-session-summary',data.lastSession.summary);}if(data.vibe){const vn=document.getElementById('vibe-note');if(vn)vn.textContent=data.vibe;}}
+function renderNextSession(items){const el=document.getElementById('next-session-list');if(!el)return;const labelMap={'next':'Up Next','queued':'Queued','done':'Done'};el.innerHTML=items.map(item=>{const s=item.status||'queued';return`<div class="ns-item ns-${s}"><div class="ns-dot ${s}"></div><span class="ns-text">${item.text}</span><span class="ns-badge ${s}">${labelMap[s]||'Queued'}</span></div>`;}).join('');}
+function renderAgenda(events){const el=document.getElementById('today-events');const badge=document.getElementById('event-count-badge');if(!el)return;if(!events||!events.length){el.innerHTML='<div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">No events today</div>';if(badge)badge.textContent='0 events';return;}if(badge)badge.textContent=events.length+' event'+(events.length!==1?'s':'');el.innerHTML=events.map(ev=>{const timeEl=ev.allDay?'<span class="event-time allday">ALL DAY</span>':`<span class="event-time">${ev.time}</span>`;const desc=ev.desc?`<div class="event-desc">${ev.desc}</div>`:'';return`<div class="today-event">${timeEl}<div><div class="event-title">${ev.title}</div>${desc}</div></div>`;}).join('');}
+function setEl(id,val){const el=document.getElementById(id);if(el&&val!==undefined)el.textContent=val;}
+loadData();setInterval(loadData,5*60*1000);window.addEventListener('load',loadTodos);
+
+function saveShopifyManual(){
+  const orders = document.getElementById('inp-orders').value;
+  const revenue = document.getElementById('inp-revenue').value;
+  const pending = document.getElementById('inp-pending').value;
+  const today = new Date().toDateString();
+  localStorage.setItem('shopify-data', JSON.stringify({orders,revenue,pending,date:today}));
+  renderShopify({orders,revenue,pending,date:today});
+  showToast('Shopify numbers saved','success');
+}
+function renderShopify(d){
+  const today = new Date().toDateString();
+  if(!d || d.date !== today){ document.getElementById('shopify-orders').textContent='—'; return; }
+  document.getElementById('shopify-orders').textContent = d.orders||'—';
+  document.getElementById('shopify-revenue').textContent = d.revenue ? '$'+d.revenue.replace('$','') : '—';
+  document.getElementById('shopify-pending').textContent = d.pending||'—';
+  document.getElementById('shopify-status').innerHTML = 'Updated today · <a href="https://admin.shopify.com/store/umei3d/orders" target="_blank" style="color:var(--blue);">Open Admin</a>';
+  document.getElementById('shopify-status').style.color = 'var(--green)';
+}
+function loadShopifyLocal(){
+  try{ const d=JSON.parse(localStorage.getItem('shopify-data')||'null'); renderShopify(d); }catch{}
+}
+loadShopifyLocal();
+
+const SHEET_ID_GS='1i8rkT2_mUVRpH4Dy_l-jpZNrQYMLUcv4fvi2FPa3o8c';
+const COL_WEEK=19,COL_ORDERS=30,COL_REVENUE=31,COL_META_WEEK=35,COL_META_CONV=37;
+
+async function fetchSheet(sheetName){
+  const url=`https://docs.google.com/spreadsheets/d/${SHEET_ID_GS}/gviz/tq?tqx=out:json&sheet=${encodeURIComponent(sheetName)}`;
+  const res=await fetch(url);
+  const text=await res.text();
+  const json=JSON.parse(text.replace(/^[^(]+\(/,'').replace(/\);?\s*$/,''));
+  return json.table.rows;
+}
+
+function lastDataRow(rows,colW,colV){
+  for(let i=rows.length-1;i>=0;i--){
+    const row=rows[i];
+    const w=row.c&&row.c[colW]&&row.c[colW].v;
+    const v=row.c&&row.c[colV]!=null?row.c[colV].v:null;
+    if(w&&v!=null){
+      const lbl=String(w).toLowerCase();
+      if(lbl.includes('grand')||lbl.includes('total')||lbl.includes('subtotal')) continue;
+      return{week:String(w),val:v,row};
+    }
+  }
+  return null;
+}
+
+async function loadShopify(){
+  try{
+    const[shopRows,metaRows]=await Promise.all([fetchSheet('Shopify Report'),fetchSheet('meta ads report')]);
+    const shop=lastDataRow(shopRows,COL_WEEK,COL_ORDERS);
+    const meta=lastDataRow(metaRows,COL_META_WEEK,COL_META_CONV);
+    const rev=shop&&shop.row.c[COL_REVENUE]?shop.row.c[COL_REVENUE].v:null;
+    document.getElementById('shopify-orders').textContent=shop?shop.val:'—';
+    document.getElementById('shopify-revenue').textContent=rev!=null?'$'+Number(rev).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}):'—';
+    document.getElementById('shopify-pending').textContent=meta?meta.val:'—';
+    if(shop) document.getElementById('shopify-week-label').textContent=shop.week+' · via Supermetrics';
+    if(meta) document.getElementById('meta-week-label').textContent='Meta: '+meta.week;
+    document.getElementById('shopify-status').textContent='Live · synced '+new Date().toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
+    document.getElementById('shopify-status').style.color='var(--green)';
+  }catch(e){document.getElementById('shopify-status').textContent='Sheet unavailable';}
+}
+loadShopify(); setInterval(loadShopify, 5*60*1000);
+
+const AGENTS=[{id:'github',card:'agent-github',state:'state-github',lastrun:'lastrun-github',scheduleHours:[0,6,12,18],scheduleMin:0},{id:'milestone',card:'agent-milestone',state:'state-milestone',lastrun:'lastrun-milestone',scheduleHours:[9],scheduleMin:0},{id:'wrapup',card:'agent-wrapup',state:'state-wrapup',lastrun:'lastrun-wrapup',scheduleHours:[20],scheduleMin:0},{id:'sessionlog',card:'agent-sessionlog',state:'state-sessionlog',lastrun:'lastrun-sessionlog',scheduleHours:[20],scheduleMin:10}];
+function updateAgentStates(automations){const now=new Date();const h=now.getHours(),m=now.getMinutes();AGENTS.forEach(agent=>{const stateEl=document.getElementById(agent.state);const lastRunEl=document.getElementById(agent.lastrun);if(!stateEl)return;const autoData=(automations||[]).find(a=>a.name.toLowerCase().includes(agent.id==='github'?'github':agent.id==='milestone'?'milestone':agent.id==='wrapup'?'wrap':'session'));if(lastRunEl&&autoData&&autoData.lastRun)lastRunEl.textContent=new Date(autoData.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});const active=agent.scheduleHours.some(sh=>{const diff=(h*60+m)-(sh*60+agent.scheduleMin);return diff>=-2&&diff<=15;});if(active){stateEl.className='badge badge-blue';stateEl.innerHTML='<span class="thinking"><span></span><span></span><span></span></span> Working...';}else{stateEl.className='badge badge-gray';stateEl.textContent='😴 Sleeping';}});}
+updateAgentStates([]);setInterval(()=>updateAgentStates([]),60*1000);
+</script>
+</body>
+</html>
