@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T15:45:00.000Z",
+  "lastUpdated": "2026-03-24T17:09:28.000Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -56,38 +56,13 @@
   },
   "inbox": {
     "gmail": [
-      {
-        "from": "Publer",
-        "subject": "Your post didn't get published",
-        "time": "1h ago",
-        "unread": true
-      },
-      {
-        "from": "Careerflow Inc.",
-        "subject": "Your receipt from Careerflow Inc. #2025-3078",
-        "time": "2h ago",
-        "unread": false
-      },
-      {
-        "from": "Cory @ Synthesia",
-        "subject": "[Feature Friday] WIN a Mac Mini?",
-        "time": "3h ago",
-        "unread": false
-      },
-      {
-        "from": "Indeed Apply",
-        "subject": "Indeed Application: Community Resource Distribution Coordinator",
-        "time": "4h ago",
-        "unread": false
-      },
-      {
-        "from": "Pasadena Humane",
-        "subject": "Your Application Submission - Community Resource Distribution Coordinator",
-        "time": "4h ago",
-        "unread": false
-      }
+      { "from": "Publer", "subject": "Your post didn’t get published", "timestamp": "2026-03-24T00:00:56.000Z", "unread": false },
+      { "from": "Careerflow Inc.", "subject": "Your receipt from Careerflow Inc. #2025-3078", "timestamp": "2026-03-23T22:56:47.000Z", "unread": false },
+      { "from": "Cory @ Synthesia", "subject": "[Feature Friday] WIN a Mac Mini?", "timestamp": "2026-03-23T21:47:49.000Z", "unread": false },
+      { "from": "Indeed Apply", "subject": "Indeed Application: Community Resource Distribution Coordinator", "timestamp": "2026-03-23T20:44:31.000Z", "unread": false },
+      { "from": "Pasadena Humane", "subject": "Your Application Submission - Community Resource Distribution Coordinator", "timestamp": "2026-03-23T20:44:30.000Z", "unread": false }
     ],
-    "gmailUpdated": "2026-03-23T23:30:00.000Z",
+    "gmailUpdated": "2026-03-24T17:09:28.000Z",
     "gorgias": [
       {
         "id": 89800233,
@@ -127,21 +102,8 @@
     ],
     "gorgiasUpdated": "2026-03-24T14:53:02.988Z"
   },
-  "agenda": [
-    {
-      "title": "Daily Job List Ready — March 23, 2026",
-      "time": "12:05 PM",
-      "end": "12:20 PM",
-      "allDay": false
-    },
-    {
-      "title": "Test",
-      "time": "8:15 PM",
-      "end": "9:15 PM",
-      "allDay": false
-    }
-  ],
-  "agendaUpdated": "2026-03-23T23:30:00.000Z",
+  "agenda": [],
+  "agendaUpdated": "2026-03-24T17:09:28.000Z",
   "shopify": {
     "orders": "—",
     "revenue": "—",
