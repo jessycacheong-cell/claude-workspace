@@ -1,0 +1,108 @@
+name: GmailBot
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh-gmail:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch Gmail and update data.json
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+        run: |
+          node << 'EOF'
+          const https = require('https');
+          const fs = require('fs');
+
+          async function request(options, body) {
+            return new Promise((resolve, reject) => {
+              const req = https.request(options, res => {
+                let data = '';
+                res.on('data', chunk => data += chunk);
+                res.on('end', () => resolve(JSON.parse(data)));
+              });
+              req.on('error', reject);
+              if (body) req.write(body);
+              req.end();
+            });
+          }
+
+          async function getAccessToken() {
+            const body = new URLSearchParams({
+              client_id: process.env.GOOGLE_CLIENT_ID,
+              client_secret: process.env.GOOGLE_CLIENT_SECRET,
+              refresh_token: process.env.GOOGLE_REFRESH_TOKEN,
+              grant_type: 'refresh_token'
+            }).toString();
+
+            const res = await request({
+              hostname: 'oauth2.googleapis.com',
+              path: '/token',
+              method: 'POST',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+            }, body);
+
+            return res.access_token;
+          }
+
+          async function gmailGet(path, token) {
+            return request({
+              hostname: 'gmail.googleapis.com',
+              path,
+              headers: { Authorization: `Bearer ${token}` }
+            });
+          }
+
+          function timeAgo(ms) {
+            const s = Math.floor((Date.now() - ms) / 1000);
+            if (s < 3600) return Math.floor(s / 60) + 'm ago';
+            if (s < 86400) return Math.floor(s / 3600) + 'h ago';
+            return Math.floor(s / 86400) + 'd ago';
+          }
+
+          async function main() {
+            const token = await getAccessToken();
+            const list = await gmailGet('/gmail/v1/users/me/messages?maxResults=5&labelIds=INBOX', token);
+
+            const emails = await Promise.all((list.messages || []).map(async m => {
+              const msg = await gmailGet(`/gmail/v1/users/me/messages/${m.id}?format=metadata&metadataHeaders=From&metadataHeaders=Subject&metadataHeaders=Date`, token);
+              const headers = msg.payload.headers;
+              const from = (headers.find(h => h.name === 'From')?.value || '').replace(/<.*>/, '').replace(/"/g, '').trim();
+              const subject = headers.find(h => h.name === 'Subject')?.value || '(no subject)';
+              const unread = (msg.labelIds || []).includes('UNREAD');
+              const timestamp = new Date(parseInt(msg.internalDate)).toISOString();
+              return { from, subject, timestamp, unread };
+            }));
+
+            const data = JSON.parse(fs.readFileSync('personal/data.json', 'utf8'));
+            data.inbox = data.inbox || {};
+            data.inbox.gmail = emails;
+            data.inbox.gmailUpdated = new Date().toISOString();
+            data.lastUpdated = new Date().toISOString();
+            fs.writeFileSync('personal/data.json', JSON.stringify(data, null, 2));
+            console.log('Gmail updated:', emails.length, 'emails');
+          }
+
+          main().catch(e => { console.error(e); process.exit(1); });
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "GmailBot"
+          git config user.email "bot@jessyca-dashboard"
+          git add personal/data.json
+          git diff --staged --quiet || git commit -m "GmailBot: refresh inbox [skip ci]"
+          git push

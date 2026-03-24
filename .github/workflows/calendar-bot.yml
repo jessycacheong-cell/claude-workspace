@@ -1,0 +1,138 @@
+name: CalendarBot
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+jobs:
+  refresh-calendar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch Calendar and update data.json
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+        run: |
+          node << 'EOF'
+          const https = require('https');
+          const fs = require('fs');
+
+          async function request(options) {
+            return new Promise((resolve, reject) => {
+              const req = https.request(options, res => {
+                let data = '';
+                res.on('data', chunk => data += chunk);
+                res.on('end', () => resolve(JSON.parse(data)));
+              });
+              req.on('error', reject);
+              req.end();
+            });
+          }
+
+          async function post(options, body) {
+            return new Promise((resolve, reject) => {
+              const req = https.request(options, res => {
+                let data = '';
+                res.on('data', chunk => data += chunk);
+                res.on('end', () => resolve(JSON.parse(data)));
+              });
+              req.on('error', reject);
+              req.write(body);
+              req.end();
+            });
+          }
+
+          async function getAccessToken() {
+            const body = new URLSearchParams({
+              client_id: process.env.GOOGLE_CLIENT_ID,
+              client_secret: process.env.GOOGLE_CLIENT_SECRET,
+              refresh_token: process.env.GOOGLE_REFRESH_TOKEN,
+              grant_type: 'refresh_token'
+            }).toString();
+
+            const res = await post({
+              hostname: 'oauth2.googleapis.com',
+              path: '/token',
+              method: 'POST',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' }
+            }, body);
+
+            return res.access_token;
+          }
+
+          async function calGet(path, token) {
+            return request({
+              hostname: 'www.googleapis.com',
+              path,
+              headers: { Authorization: `Bearer ${token}` }
+            });
+          }
+
+          function formatTime(dateStr) {
+            if (!dateStr) return '';
+            const d = new Date(dateStr);
+            return d.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', hour12: true, timeZone: 'America/Los_Angeles' });
+          }
+
+          async function main() {
+            const token = await getAccessToken();
+
+            // Get today's date range in LA time
+            const now = new Date();
+            const la = new Date(now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
+            const today = la.toISOString().split('T')[0];
+            const timeMin = `${today}T00:00:00`;
+            const timeMax = `${today}T23:59:59`;
+
+            // Get all calendars
+            const calList = await calGet('/calendar/v3/users/me/calendarList', token);
+            const calendars = (calList.items || []).filter(c => c.selected !== false);
+
+            // Fetch events from all calendars
+            let allEvents = [];
+            for (const cal of calendars) {
+              const calId = encodeURIComponent(cal.id);
+              const params = `timeMin=${encodeURIComponent(timeMin)}&timeMax=${encodeURIComponent(timeMax)}&singleEvents=true&orderBy=startTime&timeZone=America%2FLos_Angeles`;
+              const events = await calGet(`/calendar/v3/calendars/${calId}/events?${params}`, token);
+              if (events.items && events.items.length) {
+                allEvents = allEvents.concat(events.items.map(e => ({
+                  title: e.summary || '(no title)',
+                  time: e.start?.dateTime ? formatTime(e.start.dateTime) : 'All Day',
+                  end: e.end?.dateTime ? formatTime(e.end.dateTime) : '',
+                  allDay: !e.start?.dateTime,
+                  calendar: cal.summary
+                })));
+              }
+            }
+
+            // Sort by time
+            allEvents.sort((a, b) => a.time.localeCompare(b.time));
+
+            const data = JSON.parse(fs.readFileSync('personal/data.json', 'utf8'));
+            data.agenda = allEvents;
+            data.agendaUpdated = new Date().toISOString();
+            data.lastUpdated = new Date().toISOString();
+            fs.writeFileSync('personal/data.json', JSON.stringify(data, null, 2));
+            console.log('Calendar updated:', allEvents.length, 'events today');
+          }
+
+          main().catch(e => { console.error(e); process.exit(1); });
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "CalendarBot"
+          git config user.email "bot@jessyca-dashboard"
+          git add personal/data.json
+          git diff --staged --quiet || git commit -m "CalendarBot: refresh agenda [skip ci]"
+          git push
