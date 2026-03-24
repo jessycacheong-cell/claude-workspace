@@ -56,19 +56,90 @@
   },
   "inbox": {
     "gmail": [
-      { "from": "Publer", "subject": "Your post didn't get published", "time": "1h ago", "unread": true },
-      { "from": "Careerflow Inc.", "subject": "Your receipt from Careerflow Inc. #2025-3078", "time": "2h ago", "unread": false },
-      { "from": "Cory @ Synthesia", "subject": "[Feature Friday] WIN a Mac Mini?", "time": "3h ago", "unread": false },
-      { "from": "Indeed Apply", "subject": "Indeed Application: Community Resource Distribution Coordinator", "time": "4h ago", "unread": false },
-      { "from": "Pasadena Humane", "subject": "Your Application Submission - Community Resource Distribution Coordinator", "time": "4h ago", "unread": false }
+      {
+        "from": "Publer",
+        "subject": "Your post didn't get published",
+        "time": "1h ago",
+        "unread": true
+      },
+      {
+        "from": "Careerflow Inc.",
+        "subject": "Your receipt from Careerflow Inc. #2025-3078",
+        "time": "2h ago",
+        "unread": false
+      },
+      {
+        "from": "Cory @ Synthesia",
+        "subject": "[Feature Friday] WIN a Mac Mini?",
+        "time": "3h ago",
+        "unread": false
+      },
+      {
+        "from": "Indeed Apply",
+        "subject": "Indeed Application: Community Resource Distribution Coordinator",
+        "time": "4h ago",
+        "unread": false
+      },
+      {
+        "from": "Pasadena Humane",
+        "subject": "Your Application Submission - Community Resource Distribution Coordinator",
+        "time": "4h ago",
+        "unread": false
+      }
     ],
     "gmailUpdated": "2026-03-23T23:30:00.000Z",
-    "gorgias": [],
-    "gorgiasUpdated": null
+    "gorgias": [
+      {
+        "id": 89748394,
+        "subject": "Tai Huynh recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "time": "1h ago"
+      },
+      {
+        "id": 89747570,
+        "subject": "[ALERT] You've reached 90% of your monthly limit.",
+        "customer": "Unknown",
+        "status": "closed",
+        "time": "1h ago"
+      },
+      {
+        "id": 89738764,
+        "subject": "The chocolate bar emoji just made me hungry for chocolate",
+        "customer": "Unknown",
+        "status": "open",
+        "time": "2h ago"
+      },
+      {
+        "id": 89737078,
+        "subject": "[UMEI Store] Order #1679 placed by Marty White",
+        "customer": "Unknown",
+        "status": "open",
+        "time": "3h ago"
+      },
+      {
+        "id": 89734011,
+        "subject": "Refund Initiated for Order 111-4510673-2793819",
+        "customer": "Unknown",
+        "status": "closed",
+        "time": "3h ago"
+      }
+    ],
+    "gorgiasUpdated": "2026-03-24T05:17:10.737Z"
   },
   "agenda": [
-    { "title": "Daily Job List Ready — March 23, 2026", "time": "12:05 PM", "end": "12:20 PM", "allDay": false },
-    { "title": "Test", "time": "8:15 PM", "end": "9:15 PM", "allDay": false }
+    {
+      "title": "Daily Job List Ready — March 23, 2026",
+      "time": "12:05 PM",
+      "end": "12:20 PM",
+      "allDay": false
+    },
+    {
+      "title": "Test",
+      "time": "8:15 PM",
+      "end": "9:15 PM",
+      "allDay": false
+    }
   ],
   "agendaUpdated": "2026-03-23T23:30:00.000Z",
   "shopify": {
