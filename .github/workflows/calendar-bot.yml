@@ -17,6 +17,9 @@ jobs:
         with:
           node-version: '20'
 
+      - name: Pull latest data before writing
+        run: git pull origin main
+
       - name: Fetch Calendar and update data.json
         env:
           GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
@@ -140,5 +143,4 @@ jobs:
           git config user.email "bot@jessyca-dashboard"
           git add personal/data.json
           git diff --staged --quiet || git commit -m "CalendarBot: refresh agenda [skip ci]"
-          git pull --rebase origin main
-          git push
+          git push || (git pull --rebase origin main && git push)

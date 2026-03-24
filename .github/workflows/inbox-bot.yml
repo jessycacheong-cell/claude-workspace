@@ -21,6 +21,9 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Pull latest data before writing
+        run: git pull origin main
+
       - name: Fetch Gorgias tickets
         env:
           GORGIAS_API_KEY: ${{ secrets.GORGIAS_API_KEY }}
@@ -34,5 +37,4 @@ jobs:
           git add personal/data.json
           git diff --staged --quiet || git commit -m "InboxBot: refresh Gorgias tickets [skip ci]"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jessycacheong-cell/claude-workspace.git
-          git pull --rebase origin main
-          git push
+          git push || (git pull --rebase origin main && git push)
