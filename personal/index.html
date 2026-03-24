@@ -339,26 +339,6 @@
   .df-node { display:flex; align-items:center; gap:8px; background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:10px; padding:9px 10px; position:relative; transition:border-color .3s; }
   .df-node.active { border-color:rgba(74,222,128,0.22); }
   .df-node.hero { border-color:rgba(253,105,105,0.30); background:rgba(253,105,105,0.05); box-shadow:0 0 20px rgba(253,105,105,0.06); }
-  /* Dashboard Hero Card */
-  .df-hero-card { position:relative; border-radius:14px; border:1px solid rgba(253,105,105,0.4); background:rgba(253,105,105,0.04); padding:12px; overflow:hidden; animation:heroGlow 3s ease-in-out infinite alternate; }
-  @keyframes heroGlow { from{box-shadow:0 0 20px rgba(253,105,105,0.08);border-color:rgba(253,105,105,0.3);} to{box-shadow:0 0 44px rgba(253,105,105,0.22);border-color:rgba(253,105,105,0.55);} }
-  .df-hero-orb { position:absolute; width:130px; height:130px; border-radius:50%; background:radial-gradient(circle,rgba(253,105,105,0.2),transparent 70%); bottom:-50px; right:-40px; animation:heroOrb 5s ease-in-out infinite alternate; pointer-events:none; }
-  @keyframes heroOrb { from{transform:translate(0,0);} to{transform:translate(-18px,-18px);} }
-  .df-hero-scan { position:absolute; left:0; right:0; height:1px; background:linear-gradient(90deg,transparent,rgba(253,105,105,0.55),transparent); animation:heroScan 2.4s linear infinite; pointer-events:none; z-index:2; }
-  @keyframes heroScan { from{top:0%;} to{top:110%;} }
-  .df-hero-top { display:flex; align-items:center; gap:6px; margin-bottom:8px; position:relative; z-index:1; }
-  .df-hero-dots { display:flex; gap:4px; flex-shrink:0; }
-  .df-hero-dot { width:7px; height:7px; border-radius:50%; }
-  .df-hero-urlbar { flex:1; background:rgba(255,255,255,0.05); border:1px solid var(--border); border-radius:5px; padding:2px 8px; font-size:9px; color:var(--text-3); font-family:monospace; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-  .df-hero-screen { background:rgba(0,0,0,0.28); border-radius:8px; padding:8px 8px 6px; margin-bottom:8px; position:relative; z-index:1; display:flex; flex-direction:column; gap:5px; }
-  .df-hero-sline { height:4px; border-radius:3px; background:rgba(255,255,255,0.07); position:relative; overflow:hidden; }
-  .df-hero-sline::after { content:''; position:absolute; inset:0; background:linear-gradient(90deg,transparent,rgba(253,105,105,0.45),transparent); animation:shimmerLine 2s ease-in-out infinite; transform:translateX(-100%); }
-  .df-hero-sline:nth-child(2)::after { animation-delay:.35s; }
-  .df-hero-sline:nth-child(3)::after { animation-delay:.7s; }
-  @keyframes shimmerLine { 0%{transform:translateX(-100%);} 100%{transform:translateX(250%);} }
-  .df-hero-bottom { display:flex; align-items:center; justify-content:space-between; position:relative; z-index:1; }
-  .df-hero-name { font-size:12px; font-weight:700; color:var(--text-1); }
-  .df-hero-live { font-size:9px; font-weight:700; letter-spacing:.06em; color:var(--green); background:rgba(74,222,128,0.12); border:1px solid rgba(74,222,128,0.25); border-radius:5px; padding:2px 7px; animation:liveBadge 2s ease-in-out infinite; }
   .df-node.dim { opacity:.5; }
   .df-node-icon { font-size:16px; flex-shrink:0; }
   .df-node-name { font-size:12px; font-weight:600; color:var(--text-1); }
@@ -769,14 +749,14 @@
     </div>
   </div>
 
-  <!-- Shopify Daily Orders -->
+  <!-- Shopify Orders -->
   <div class="bc bc-4" id="shopify-card">
-    <div class="bc-label">Shopify Orders <span class="badge badge-green" style="font-size:9px;margin-left:4px;">Sheets Live</span></div>
+    <div class="bc-label">Shopify Orders <span class="badge badge-green" style="font-size:9px;margin-left:4px;">Auto</span></div>
     <div style="display:flex;align-items:center;gap:16px;margin-bottom:14px;">
       <div style="font-size:48px;font-weight:800;color:var(--green);line-height:1;text-shadow:0 0 24px rgba(74,222,128,0.35);" id="shopify-orders">—</div>
       <div>
         <div style="font-size:12px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;">This Week's Orders</div>
-        <div style="font-size:11px;color:var(--text-3);margin-top:3px;" id="shopify-week-label">UMEI3D · via Supermetrics</div>
+        <div style="font-size:11px;color:var(--text-3);margin-top:3px;" id="shopify-week-label">UMEI3D · Supermetrics</div>
       </div>
     </div>
     <div style="display:flex;flex-direction:column;gap:6px;">
@@ -784,20 +764,10 @@
         <span style="color:var(--text-2);">Revenue This Week</span><span style="color:var(--green);font-weight:600;" id="shopify-revenue">—</span>
       </div>
       <div style="display:flex;justify-content:space-between;font-size:12px;padding:6px 10px;background:rgba(255,255,255,0.03);border-radius:8px;border:1px solid var(--border);">
-        <span style="color:var(--text-2);">Meta · Website Purchases</span><span style="color:var(--blue);font-weight:600;" id="shopify-pending">—</span>
+        <span style="color:var(--text-2);">Meta · Website Purchases</span><span style="color:var(--blue);font-weight:600;" id="shopify-meta">—</span>
       </div>
-      <div style="font-size:10px;color:var(--text-3);padding:0 2px;" id="meta-week-label"></div>
     </div>
-    <!-- Manual entry form -->
-    <div id="shopify-form" style="margin-top:12px;display:flex;flex-direction:column;gap:6px;">
-      <div style="display:flex;gap:6px;">
-        <input id="inp-orders" type="number" placeholder="Orders" min="0" style="flex:1;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text-1);font-size:12px;font-family:inherit;outline:none;"/>
-        <input id="inp-revenue" type="text" placeholder="Revenue $" style="flex:1;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text-1);font-size:12px;font-family:inherit;outline:none;"/>
-        <input id="inp-pending" type="number" placeholder="Pending" min="0" style="flex:1;background:rgba(255,255,255,0.05);border:1px solid var(--border);border-radius:8px;padding:6px 10px;color:var(--text-1);font-size:12px;font-family:inherit;outline:none;"/>
-      </div>
-      <button onclick="saveShopifyManual()" style="background:var(--blue);border:none;border-radius:8px;padding:7px;color:#fff;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;width:100%;">Save Today's Numbers</button>
-    </div>
-    <div style="margin-top:8px;font-size:10px;color:var(--text-3);text-align:center;" id="shopify-status">Enter today's numbers from <a href="https://admin.shopify.com/store/umei3d/orders" target="_blank" style="color:var(--blue);">Shopify Admin</a></div>
+    <div style="margin-top:8px;font-size:10px;color:var(--text-3);text-align:center;" id="shopify-status">ShopifyBot syncing every 15min</div>
   </div>
 
   <!-- Milestones -->
@@ -1086,19 +1056,24 @@
 
     <!-- Section 2: Bot Pipeline -->
     <div class="bts-header">
-      <span class="bts-pill cloud">⚡ Automated Bot Pipeline</span>
-      <span class="bts-hint">GitHub bots run 24/7 · Claude bots run when Claude is open</span>
+      <span class="bts-pill cloud">⚡ GitHub Actions Cloud Bots</span>
+      <span class="bts-hint">Automated 24/7 · No laptop needed</span>
     </div>
     <div class="df-wrap" id="df-wrap">
       <svg id="df-svg" class="df-svg"></svg>
 
       <!-- Col 1: Data Sources -->
       <div class="df-col" id="df-col-sources">
-        <div class="df-col-label">GitHub Actions — 24/7 Cloud</div>
+        <div class="df-col-label">Data Sources</div>
         <div class="df-nodes">
           <div class="df-node active" id="dfn-notion">
             <div class="df-node-icon">🗒️</div>
             <div><div class="df-node-name">Notion</div><div class="df-node-role">Milestones · Session logs</div></div>
+            <div class="df-node-pip on"></div>
+          </div>
+          <div class="df-node active" id="dfn-gmail">
+            <div class="df-node-icon">📧</div>
+            <div><div class="df-node-name">Gmail</div><div class="df-node-role">Inbox snapshot · live</div></div>
             <div class="df-node-pip on"></div>
           </div>
           <div class="df-node active" id="dfn-gorgias">
@@ -1106,25 +1081,17 @@
             <div><div class="df-node-name">Gorgias</div><div class="df-node-role">UMEI support tickets · live</div></div>
             <div class="df-node-pip on"></div>
           </div>
-        </div>
-        <div class="df-col-label" style="margin-top:14px;">Claude Scheduled — When Claude Open</div>
-        <div class="df-nodes">
-          <div class="df-node active" id="dfn-gmail">
-            <div class="df-node-icon">📧</div>
-            <div><div class="df-node-name">Gmail</div><div class="df-node-role">Inbox snapshot · live</div></div>
-            <div class="df-node-pip on"></div>
-          </div>
-          <div class="df-node active" id="dfn-gcal">
+          <div class="df-node dim" id="dfn-gcal">
             <div class="df-node-icon">📅</div>
-            <div><div class="df-node-name">Google Cal</div><div class="df-node-role">Today's agenda · live</div></div>
-            <div class="df-node-pip on"></div>
+            <div><div class="df-node-name">Google Cal</div><div class="df-node-role">Today's agenda (coming soon)</div></div>
+            <div class="df-node-pip soon"></div>
           </div>
         </div>
       </div>
 
-      <!-- Col 2: Bots -->
+      <!-- Col 2: Bots (GitHub Actions) -->
       <div class="df-col" id="df-col-bots">
-        <div class="df-col-label">GitHub Actions — 24/7 Cloud</div>
+        <div class="df-col-label">GitHub Actions (Cloud Bots)</div>
         <div class="df-nodes">
           <div class="df-bot live" id="dfb-milestone">
             <div class="df-bot-glow"></div>
@@ -1135,29 +1102,13 @@
           <div class="df-bot live" id="dfb-inbox">
             <div class="df-bot-glow"></div>
             <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">InboxBot</div><div class="df-bot-sched">Every 30min · Gorgias → data.json</div></div>
+            <div class="df-bot-info"><div class="df-bot-name">InboxBot</div><div class="df-bot-sched">Every 30min · Gorgias + Gmail → data.json</div></div>
             <span class="df-badge live">LIVE</span>
           </div>
-        </div>
-        <div class="df-col-label" style="margin-top:14px;">Claude Scheduled — When Claude Open</div>
-        <div class="df-nodes">
-          <div class="df-bot live" id="dfb-gmail">
-            <div class="df-bot-glow"></div>
-            <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">GmailBot</div><div class="df-bot-sched">Every 15min · Gmail → data.json</div></div>
-            <span class="df-badge live">LIVE</span>
-          </div>
-          <div class="df-bot live" id="dfb-calendar">
-            <div class="df-bot-glow"></div>
-            <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">CalendarBot</div><div class="df-bot-sched">Every 15min · Google Cal → data.json</div></div>
-            <span class="df-badge live">LIVE</span>
-          </div>
-          <div class="df-bot live" id="dfb-git">
-            <div class="df-bot-glow"></div>
+          <div class="df-bot pending" id="dfb-git">
             <div class="df-bot-icon">🤖</div>
             <div class="df-bot-info"><div class="df-bot-name">GitBot</div><div class="df-bot-sched">Every 6hrs · GitHub → data.json</div></div>
-            <span class="df-badge live">LIVE</span>
+            <span class="df-badge soon">PENDING</span>
           </div>
           <div class="df-bot pending" id="dfb-wrap">
             <div class="df-bot-icon">🤖</div>
@@ -1186,26 +1137,10 @@
             <div><div class="df-node-name">Netlify</div><div class="df-node-role">Auto-deploys from GitHub</div></div>
             <div class="df-node-pip on"></div>
           </div>
-          <div class="df-hero-card" id="dfn-dashboard">
-            <div class="df-hero-orb"></div>
-            <div class="df-hero-scan"></div>
-            <div class="df-hero-top">
-              <div class="df-hero-dots">
-                <div class="df-hero-dot" style="background:#ff5f57"></div>
-                <div class="df-hero-dot" style="background:#febc2e"></div>
-                <div class="df-hero-dot" style="background:#28c840"></div>
-              </div>
-              <div class="df-hero-urlbar">jessycacheong-cell.netlify.app</div>
-            </div>
-            <div class="df-hero-screen">
-              <div class="df-hero-sline" style="width:80%"></div>
-              <div class="df-hero-sline" style="width:55%"></div>
-              <div class="df-hero-sline" style="width:70%"></div>
-            </div>
-            <div class="df-hero-bottom">
-              <span class="df-hero-name">🖥️ Your Dashboard</span>
-              <span class="df-hero-live">LIVE</span>
-            </div>
+          <div class="df-node hero" id="dfn-dashboard">
+            <div class="df-node-icon">🖥️</div>
+            <div><div class="df-node-name">Your Dashboard</div><div class="df-node-role">Lives at netlify.app · no laptop needed</div></div>
+            <div class="df-node-pip on"></div>
           </div>
         </div>
       </div>
@@ -1511,18 +1446,15 @@ function drawFlowLines(){
     svg.appendChild(dot);
   }
 
-  // GitHub sources → GitHub bots
+  // Sources → Bots
   addConn('dfn-notion','dfb-milestone','right','left','#FD6969',true,2.0);
+  addConn('dfn-gmail','dfb-inbox','right','left','#4583fd',true,1.8);
   addConn('dfn-gorgias','dfb-inbox','right','left','#22d47a',true,2.2);
-  // Claude sources → Claude bots
-  addConn('dfn-gmail','dfb-gmail','right','left','#4583fd',true,1.8);
-  addConn('dfn-gcal','dfb-calendar','right','left','#f59e0b',true,2.0);
+  addConn('dfn-gcal','dfb-log','right','left','#f59e0b',false,0);
   // Bots → Output
   addConn('dfb-milestone','dfn-datajson','right','left','#4ade80',true,2.2);
-  addConn('dfb-inbox','dfn-datajson','right','left','#22d47a',true,1.9);
-  addConn('dfb-gmail','dfn-datajson','right','left','#4583fd',true,1.7);
-  addConn('dfb-calendar','dfn-datajson','right','left','#f59e0b',true,2.1);
-  addConn('dfb-git','dfn-datajson','right','left','#a78bfa',true,2.4);
+  addConn('dfb-inbox','dfn-datajson','right','left','#4583fd',true,1.9);
+  addConn('dfb-git','dfn-datajson','right','left','#a78bfa',false,0);
   addConn('dfb-wrap','dfn-netlify','right','left','#FD6969',false,0);
   addConn('dfb-log','dfn-netlify','right','left','#FD6969',false,0);
   // Within output: data.json → dashboard (vertical)
@@ -1548,7 +1480,7 @@ document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT'||e.target.
 
 async function loadData(){try{const res=await fetch('https://raw.githubusercontent.com/jessycacheong-cell/claude-workspace/main/personal/data.json?t='+Date.now());if(!res.ok)throw new Error();const data=await res.json();renderData(data);const el=document.getElementById('last-sync');el.textContent='Live · '+new Date(data.lastUpdated).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});el.style.color='var(--green)';showToast('Dashboard refreshed','success');}catch{document.getElementById('last-sync').textContent='Live';updateProductivity(40);}}
 function renderData(data){if(data.stats){setEl('stat-mcp',data.stats.mcpAgents);setEl('stat-auto',data.stats.automationsRunning);setEl('stat-milestone',data.stats.currentMilestone);}if(data.milestones){const ap=(data.milestones.find(m=>m.status==='in-progress')||{}).progress||40;updateProductivity(ap);const list=document.getElementById('milestone-list');list.innerHTML=data.milestones.map(ms=>{const map={'done':{cls:'done',label:'Done',bc:'badge-green'},'in-progress':{cls:'active',label:'In Progress',bc:'badge-yellow'},'blocked':{cls:'',label:'Blocked',bc:'badge-red'},'not-started':{cls:'',label:'Not Started',bc:'badge-gray'}};const s=map[ms.status]||map['not-started'];const pct=ms.status==='done'?100:(ms.status==='not-started'?0:ms.progress);const dot=ms.status==='in-progress'?'<span class="dot pulse"></span> ':'';return `<div class="ms-row ${s.cls}"><div class="ms-badge">${ms.id}</div><div class="ms-row-name">${ms.name}</div><div class="ms-bar"><div class="ms-bar-fill" style="width:${pct}%"></div></div><div class="ms-pct">${pct}%</div><span class="badge ${s.bc}">${dot}${s.label}</span></div>`;}).join('');}if(data.github){const repos={'claude-workspace':'gh-cw','umei3d-app':'gh-ua'};Object.entries(repos).forEach(([repo,id])=>{const info=data.github[repo];if(!info)return;const de=document.getElementById(id+'-date');const ce=document.getElementById(id+'-commit');if(info.lastCommitDate&&de)de.textContent=new Date(info.lastCommitDate).toLocaleDateString('en-US',{month:'short',day:'numeric'});if(ce&&info.lastCommit)ce.textContent='Last commit: '+info.lastCommit;});}if(data.automations){document.getElementById('automations-list').innerHTML=data.automations.map(a=>{const lr=a.lastRun?new Date(a.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'Not yet run';const st=a.status==='ok'?`<span class="badge badge-green"><span class="dot pulse"></span> Running</span>`:`<span class="badge badge-red">Error</span>`;return `<div class="auto-card"><div class="auto-icon">🤖</div><div style="flex:1"><div class="auto-name">${a.name}</div><div class="auto-desc">Last run: ${lr}</div><div class="auto-meta">${st}<span class="badge badge-gray">🕐 ${a.schedule}</span><span class="badge badge-blue">→ ${a.target}</span></div></div></div>`;}).join('');}if(data.inbox)renderInbox(data.inbox);
-if(data.agenda)renderAgenda(data.agenda);if(data.todayLog)setEl('today-log',data.todayLog);if(data.automations)updateAgentStates(data.automations);if(data.nextSession)renderNextSession(data.nextSession);if(data.lastSession){setEl('last-session-date',data.lastSession.date);setEl('last-session-summary',data.lastSession.summary);}if(data.vibe){const vn=document.getElementById('vibe-note');if(vn)vn.textContent=data.vibe;}
+if(data.agenda)renderAgenda(data.agenda);if(data.todayLog)setEl('today-log',data.todayLog);if(data.automations)updateAgentStates(data.automations);if(data.nextSession)renderNextSession(data.nextSession);if(data.lastSession){setEl('last-session-date',data.lastSession.date);setEl('last-session-summary',data.lastSession.summary);}if(data.vibe){const vn=document.getElementById('vibe-note');if(vn)vn.textContent=data.vibe;}if(data.shopify)renderShopifyData(data.shopify);
 if(data.milestones)startCountdown(data.milestones);}
 function renderInbox(inbox){
   if(!inbox) return;
@@ -1580,70 +1512,15 @@ function renderAgenda(events){const el=document.getElementById('today-events');c
 function setEl(id,val){const el=document.getElementById(id);if(el&&val!==undefined)el.textContent=val;}
 loadData();setInterval(loadData,5*60*1000);window.addEventListener('load',loadTodos);
 
-function saveShopifyManual(){
-  const orders = document.getElementById('inp-orders').value;
-  const revenue = document.getElementById('inp-revenue').value;
-  const pending = document.getElementById('inp-pending').value;
-  const today = new Date().toDateString();
-  localStorage.setItem('shopify-data', JSON.stringify({orders,revenue,pending,date:today}));
-  renderShopify({orders,revenue,pending,date:today});
-  showToast('Shopify numbers saved','success');
+function renderShopifyData(s){
+  if(!s) return;
+  setEl('shopify-orders', s.orders||'—');
+  setEl('shopify-revenue', s.revenue||'—');
+  setEl('shopify-meta', s.metaConversions||'—');
+  if(s.week) setEl('shopify-week-label', s.week+' · Supermetrics');
+  const st=document.getElementById('shopify-status');
+  if(st&&s.updatedAt){st.textContent='Synced '+new Date(s.updatedAt).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});st.style.color='var(--green)';}
 }
-function renderShopify(d){
-  const today = new Date().toDateString();
-  if(!d || d.date !== today){ document.getElementById('shopify-orders').textContent='—'; return; }
-  document.getElementById('shopify-orders').textContent = d.orders||'—';
-  document.getElementById('shopify-revenue').textContent = d.revenue ? '$'+d.revenue.replace('$','') : '—';
-  document.getElementById('shopify-pending').textContent = d.pending||'—';
-  document.getElementById('shopify-status').innerHTML = 'Updated today · <a href="https://admin.shopify.com/store/umei3d/orders" target="_blank" style="color:var(--blue);">Open Admin</a>';
-  document.getElementById('shopify-status').style.color = 'var(--green)';
-}
-function loadShopifyLocal(){
-  try{ const d=JSON.parse(localStorage.getItem('shopify-data')||'null'); renderShopify(d); }catch{}
-}
-loadShopifyLocal();
-
-const SHEET_ID_GS='1i8rkT2_mUVRpH4Dy_l-jpZNrQYMLUcv4fvi2FPa3o8c';
-const COL_WEEK=19,COL_ORDERS=30,COL_REVENUE=31,COL_META_WEEK=35,COL_META_CONV=37;
-
-async function fetchSheet(sheetName){
-  const url=`https://docs.google.com/spreadsheets/d/${SHEET_ID_GS}/gviz/tq?tqx=out:json&sheet=${encodeURIComponent(sheetName)}`;
-  const res=await fetch(url);
-  const text=await res.text();
-  const json=JSON.parse(text.replace(/^[^(]+\(/,'').replace(/\);?\s*$/,''));
-  return json.table.rows;
-}
-
-function lastDataRow(rows,colW,colV){
-  for(let i=rows.length-1;i>=0;i--){
-    const row=rows[i];
-    const w=row.c&&row.c[colW]&&row.c[colW].v;
-    const v=row.c&&row.c[colV]!=null?row.c[colV].v:null;
-    if(w&&v!=null){
-      const lbl=String(w).toLowerCase();
-      if(lbl.includes('grand')||lbl.includes('total')||lbl.includes('subtotal')) continue;
-      return{week:String(w),val:v,row};
-    }
-  }
-  return null;
-}
-
-async function loadShopify(){
-  try{
-    const[shopRows,metaRows]=await Promise.all([fetchSheet('Shopify Report'),fetchSheet('meta ads report')]);
-    const shop=lastDataRow(shopRows,COL_WEEK,COL_ORDERS);
-    const meta=lastDataRow(metaRows,COL_META_WEEK,COL_META_CONV);
-    const rev=shop&&shop.row.c[COL_REVENUE]?shop.row.c[COL_REVENUE].v:null;
-    document.getElementById('shopify-orders').textContent=shop?shop.val:'—';
-    document.getElementById('shopify-revenue').textContent=rev!=null?'$'+Number(rev).toLocaleString('en-US',{minimumFractionDigits:2,maximumFractionDigits:2}):'—';
-    document.getElementById('shopify-pending').textContent=meta?meta.val:'—';
-    if(shop) document.getElementById('shopify-week-label').textContent=shop.week+' · via Supermetrics';
-    if(meta) document.getElementById('meta-week-label').textContent='Meta: '+meta.week;
-    document.getElementById('shopify-status').textContent='Live · synced '+new Date().toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
-    document.getElementById('shopify-status').style.color='var(--green)';
-  }catch(e){document.getElementById('shopify-status').textContent='Sheet unavailable';}
-}
-loadShopify(); setInterval(loadShopify, 5*60*1000);
 
 const AGENTS=[{id:'github',card:'agent-github',state:'state-github',lastrun:'lastrun-github',scheduleHours:[0,6,12,18],scheduleMin:0},{id:'milestone',card:'agent-milestone',state:'state-milestone',lastrun:'lastrun-milestone',scheduleHours:[9],scheduleMin:0},{id:'wrapup',card:'agent-wrapup',state:'state-wrapup',lastrun:'lastrun-wrapup',scheduleHours:[20],scheduleMin:0},{id:'sessionlog',card:'agent-sessionlog',state:'state-sessionlog',lastrun:'lastrun-sessionlog',scheduleHours:[20],scheduleMin:10}];
 function updateAgentStates(automations){const now=new Date();const h=now.getHours(),m=now.getMinutes();AGENTS.forEach(agent=>{const stateEl=document.getElementById(agent.state);const lastRunEl=document.getElementById(agent.lastrun);if(!stateEl)return;const autoData=(automations||[]).find(a=>a.name.toLowerCase().includes(agent.id==='github'?'github':agent.id==='milestone'?'milestone':agent.id==='wrapup'?'wrap':'session'));if(lastRunEl&&autoData&&autoData.lastRun)lastRunEl.textContent=new Date(autoData.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});const active=agent.scheduleHours.some(sh=>{const diff=(h*60+m)-(sh*60+agent.scheduleMin);return diff>=-2&&diff<=15;});if(active){stateEl.className='badge badge-blue';stateEl.innerHTML='<span class="thinking"><span></span><span></span><span></span></span> Working...';}else{stateEl.className='badge badge-gray';stateEl.textContent='😴 Sleeping';}});}
