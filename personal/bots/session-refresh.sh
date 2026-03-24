@@ -22,7 +22,7 @@ TODAY=$(date +"%Y-%m-%d")
 "$CLAUDE_EXE" -p "DASHBOARD REFRESH — run this automatically, no user interaction needed:
 
 1. Use Gmail MCP to fetch the 5 most recent inbox emails
-2. Use Google Calendar MCP to fetch today's events: timeMin=${TODAY}T00:00:00, timeMax=${TODAY}T23:59:59, timeZone=America/Los_Angeles
+2. Use Google Calendar MCP to fetch today's events across ALL calendars (not just primary). First list all calendars, then fetch events for each one for ${TODAY}. Also check for Google Tasks visible in the calendar view.
 3. Read C:/Users/J/Desktop/claude-workspace/personal/data.json
 4. Update ONLY these fields (leave everything else unchanged):
    - lastUpdated: current ISO timestamp
