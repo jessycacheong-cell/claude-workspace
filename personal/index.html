@@ -1138,7 +1138,7 @@
             <div class="df-bot-info"><div class="df-bot-name">GmailBot</div><div class="df-bot-sched">Every 15min · Gmail → data.json</div></div>
             <span class="df-badge live">LIVE</span>
           </div>
-          <div class="df-bot pending" id="dfb-calendar">
+          <div class="df-bot live" id="dfb-calendar">
             <div class="df-bot-icon">🤖</div>
             <div class="df-bot-info"><div class="df-bot-name">CalendarBot</div><div class="df-bot-sched">Every 15min · GCal → data.json</div></div>
             <span class="df-badge soon">SOON</span>
@@ -1503,7 +1503,7 @@ function drawFlowLines(){
   // Sources → Claude Bots
   addConn('dfn-gmail','dfb-gmail','right','left','#4583fd',true,1.8);
   addConn('dfn-sheets','dfb-shopify','right','left','#f59e0b',true,2.0);
-  addConn('dfn-gcal','dfb-calendar','right','left','#a78bfa',false,0);
+  addConn('dfn-gcal','dfb-calendar','right','left','#a78bfa',true,1.6);
   // GitHub Bots → Output
   addConn('dfb-milestone','dfn-datajson','right','left','#4ade80',true,2.2);
   addConn('dfb-inbox','dfn-datajson','right','left','#22d47a',true,1.9);
@@ -1513,7 +1513,7 @@ function drawFlowLines(){
   // Claude Bots → Output
   addConn('dfb-gmail','dfn-datajson','right','left','#4583fd',true,1.8);
   addConn('dfb-shopify','dfn-datajson','right','left','#f59e0b',true,2.0);
-  addConn('dfb-calendar','dfn-datajson','right','left','#a78bfa',false,0);
+  addConn('dfb-calendar','dfn-datajson','right','left','#a78bfa',true,1.6);
   // Output: data.json → netlify → dashboard
   addConn('dfn-datajson','dfn-dashboard','bottom','top','#4ade80',true,1.8);
   addConn('dfn-netlify','dfn-dashboard','bottom','top','#FD6969',true,2.6);

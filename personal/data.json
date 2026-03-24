@@ -108,6 +108,27 @@
   "todayLog": "Session in progress. WrapBot will generate a summary at 8PM.",
   "automations": [
     {
+      "name": "GmailBot",
+      "lastRun": "2026-03-24T18:00:00.000Z",
+      "status": "ok",
+      "schedule": "Every 15min",
+      "target": "Gmail → data.json"
+    },
+    {
+      "name": "CalendarBot",
+      "lastRun": "2026-03-24T18:00:00.000Z",
+      "status": "ok",
+      "schedule": "Every 15min",
+      "target": "GCal → data.json"
+    },
+    {
+      "name": "InboxBot",
+      "lastRun": "2026-03-24T18:09:34.384Z",
+      "status": "ok",
+      "schedule": "Every 30min",
+      "target": "Gorgias → data.json"
+    },
+    {
       "name": "MilestoneBot",
       "lastRun": "2026-03-21T00:04:20.873Z",
       "status": "ok",
@@ -115,25 +136,11 @@
       "target": "Notion → data.json"
     },
     {
-      "name": "GitBot",
-      "lastRun": null,
-      "status": "ok",
-      "schedule": "Every 6hrs",
-      "target": "GitHub → data.json"
-    },
-    {
       "name": "WrapBot",
       "lastRun": null,
       "status": "ok",
       "schedule": "8PM daily",
       "target": "personal/wraps/"
-    },
-    {
-      "name": "LogBot",
-      "lastRun": null,
-      "status": "ok",
-      "schedule": "8:10PM daily",
-      "target": "Notion"
     }
   ]
 }
