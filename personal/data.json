@@ -56,54 +56,84 @@
   },
   "inbox": {
     "gmail": [
-      { "from": "Publer", "subject": "Your post didn’t get published", "timestamp": "2026-03-24T00:00:56.000Z", "unread": false },
-      { "from": "Careerflow Inc.", "subject": "Your receipt from Careerflow Inc. #2025-3078", "timestamp": "2026-03-23T22:56:47.000Z", "unread": false },
-      { "from": "Cory @ Synthesia", "subject": "[Feature Friday] WIN a Mac Mini?", "timestamp": "2026-03-23T21:47:49.000Z", "unread": false },
-      { "from": "Indeed Apply", "subject": "Indeed Application: Community Resource Distribution Coordinator", "timestamp": "2026-03-23T20:44:31.000Z", "unread": false },
-      { "from": "Pasadena Humane", "subject": "Your Application Submission - Community Resource Distribution Coordinator", "timestamp": "2026-03-23T20:44:30.000Z", "unread": false }
+      {
+        "from": "Publer",
+        "subject": "Your post didn’t get published",
+        "timestamp": "2026-03-24T00:00:56.000Z",
+        "unread": false
+      },
+      {
+        "from": "Careerflow Inc.",
+        "subject": "Your receipt from Careerflow Inc. #2025-3078",
+        "timestamp": "2026-03-23T22:56:47.000Z",
+        "unread": false
+      },
+      {
+        "from": "Cory @ Synthesia",
+        "subject": "[Feature Friday] WIN a Mac Mini?",
+        "timestamp": "2026-03-23T21:47:49.000Z",
+        "unread": false
+      },
+      {
+        "from": "Indeed Apply",
+        "subject": "Indeed Application: Community Resource Distribution Coordinator",
+        "timestamp": "2026-03-23T20:44:31.000Z",
+        "unread": false
+      },
+      {
+        "from": "Pasadena Humane",
+        "subject": "Your Application Submission - Community Resource Distribution Coordinator",
+        "timestamp": "2026-03-23T20:44:30.000Z",
+        "unread": false
+      }
     ],
     "gmailUpdated": "2026-03-24T17:33:31.000Z",
     "gorgias": [
+      {
+        "id": 89832641,
+        "subject": "A record-breaking week on Kickstarter",
+        "customer": "Unknown",
+        "status": "closed",
+        "time": "1h ago"
+      },
+      {
+        "id": 89833172,
+        "subject": "Come back and join us for 25% off",
+        "customer": "Unknown",
+        "status": "closed",
+        "time": "1h ago"
+      },
+      {
+        "id": 89818330,
+        "subject": "Your next million customers are hiding in plain sight",
+        "customer": "Unknown",
+        "status": "closed",
+        "time": "2h ago"
+      },
+      {
+        "id": 89804153,
+        "subject": "Don’t miss your chance to convert spring shoppers",
+        "customer": "Unknown",
+        "status": "closed",
+        "time": "3h ago"
+      },
       {
         "id": 89800233,
         "subject": "New Etsy content just dropped",
         "customer": "Unknown",
         "status": "closed",
-        "time": "12m ago"
-      },
-      {
-        "id": 89777928,
-        "subject": "Get personalized guidance with Seller Café at New Seller Summit",
-        "customer": "Unknown",
-        "status": "closed",
-        "time": "2h ago"
-      },
-      {
-        "id": 89774895,
-        "subject": "Invoice - 50101797958 from ZOHO Corporation.",
-        "customer": "Unknown",
-        "status": "closed",
-        "time": "2h ago"
-      },
-      {
-        "id": 89763662,
-        "subject": "You’ve got new messages from Design Panda",
-        "customer": "Unknown",
-        "status": "open",
-        "time": "5h ago"
-      },
-      {
-        "id": 89763172,
-        "subject": "Request for store access from The Design Panda",
-        "customer": "Unknown",
-        "status": "closed",
-        "time": "5h ago"
+        "time": "3h ago"
       }
     ],
-    "gorgiasUpdated": "2026-03-24T14:53:02.988Z"
+    "gorgiasUpdated": "2026-03-24T18:09:34.384Z"
   },
   "agenda": [
-    { "title": "LinkedIn Job", "time": "8:00 PM", "end": "9:00 PM", "allDay": false }
+    {
+      "title": "LinkedIn Job",
+      "time": "8:00 PM",
+      "end": "9:00 PM",
+      "allDay": false
+    }
   ],
   "agendaUpdated": "2026-03-24T17:33:31.000Z",
   "shopify": {
