@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T17:09:28.000Z",
+  "lastUpdated": "2026-03-24T17:33:31.000Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -62,7 +62,7 @@
       { "from": "Indeed Apply", "subject": "Indeed Application: Community Resource Distribution Coordinator", "timestamp": "2026-03-23T20:44:31.000Z", "unread": false },
       { "from": "Pasadena Humane", "subject": "Your Application Submission - Community Resource Distribution Coordinator", "timestamp": "2026-03-23T20:44:30.000Z", "unread": false }
     ],
-    "gmailUpdated": "2026-03-24T17:09:28.000Z",
+    "gmailUpdated": "2026-03-24T17:33:31.000Z",
     "gorgias": [
       {
         "id": 89800233,
@@ -103,7 +103,7 @@
     "gorgiasUpdated": "2026-03-24T14:53:02.988Z"
   },
   "agenda": [],
-  "agendaUpdated": "2026-03-24T17:09:28.000Z",
+  "agendaUpdated": "2026-03-24T17:33:31.000Z",
   "shopify": {
     "orders": "—",
     "revenue": "—",
