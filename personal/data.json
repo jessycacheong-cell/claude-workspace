@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-24T22:01:13.473Z",
     "gorgias": [
       {
+        "id": 89873966,
+        "subject": "hellloooo!!!! (get discovered without the manual work)",
+        "customer": "Unknown",
+        "status": "closed",
+        "time": "1h ago"
+      },
+      {
+        "id": 89870938,
+        "subject": "Direct message with fiadelinesahusebu2002",
+        "customer": "Unknown",
+        "status": "open",
+        "time": "1h ago"
+      },
+      {
         "id": 89832641,
         "subject": "A record-breaking week on Kickstarter",
         "customer": "Unknown",
         "status": "closed",
-        "time": "1h ago"
+        "time": "4h ago"
       },
       {
         "id": 89833172,
         "subject": "Come back and join us for 25% off",
         "customer": "Unknown",
         "status": "closed",
-        "time": "1h ago"
+        "time": "4h ago"
       },
       {
-        "id": 89818330,
-        "subject": "Your next million customers are hiding in plain sight",
+        "id": 89863821,
+        "subject": "Video-to-video is now on Artlist! Generate AI videos with more control than ever",
         "customer": "Unknown",
         "status": "closed",
-        "time": "2h ago"
-      },
-      {
-        "id": 89804153,
-        "subject": "Don’t miss your chance to convert spring shoppers",
-        "customer": "Unknown",
-        "status": "closed",
-        "time": "3h ago"
-      },
-      {
-        "id": 89800233,
-        "subject": "New Etsy content just dropped",
-        "customer": "Unknown",
-        "status": "closed",
-        "time": "3h ago"
+        "time": "5h ago"
       }
     ],
-    "gorgiasUpdated": "2026-03-24T18:09:34.384Z"
+    "gorgiasUpdated": "2026-03-24T22:03:06.904Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-03-24T22:00:06.141Z",
