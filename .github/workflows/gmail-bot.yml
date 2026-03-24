@@ -77,10 +77,18 @@ jobs:
             const token = await getAccessToken();
             const list = await gmailGet('/gmail/v1/users/me/messages?maxResults=5&labelIds=INBOX', token);
 
-            const emails = await Promise.all((list.messages || []).map(async m => {
-              const msg = await gmailGet(`/gmail/v1/users/me/messages/${m.id}?format=metadata&metadataHeaders=From&metadataHeaders=Subject&metadataHeaders=Date`, token);
-              const headers = msg.payload.headers;
-              const from = (headers.find(h => h.name === 'From')?.value || '').replace(/<.*>/, '').replace(/"/g, '').trim();
+            console.log('Gmail list response:', JSON.stringify(list).substring(0, 200));
+
+            if (!list.messages || list.messages.length === 0) {
+              console.log('No messages returned — skipping update to preserve existing data');
+              return;
+            }
+
+            const emails = await Promise.all(list.messages.map(async m => {
+              const msg = await gmailGet(`/gmail/v1/users/me/messages/${m.id}?format=metadata&metadataHeaders=From&metadataHeaders=Subject`, token);
+              console.log('Message:', JSON.stringify(msg).substring(0, 100));
+              const headers = (msg.payload?.headers) || [];
+              const from = (headers.find(h => h.name === 'From')?.value || '').replace(/<.*?>/, '').replace(/"/g, '').trim();
               const subject = headers.find(h => h.name === 'Subject')?.value || '(no subject)';
               const unread = (msg.labelIds || []).includes('UNREAD');
               const timestamp = new Date(parseInt(msg.internalDate)).toISOString();
