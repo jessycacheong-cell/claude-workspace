@@ -136,7 +136,14 @@
     "week": "—",
     "updatedAt": null
   },
-  "todayLog": "Session in progress. WrapBot will generate a summary at 8PM.",
+  "todayLog": "Big session — GmailBot + CalendarBot live (every 15min), Workflow Notebook launched at j-notebook.netlify.app with Ch.1 Google OAuth + Ch.2 Claude Tools. Notebook icon added to Quick Launch. Tomorrow: delete old Netlify sites, fix Netlify credit drain, build Ch.3 GitHub Actions flow.",
+  "tomorrowTasks": [
+    "Delete 4 unused Netlify Drop sites (subtle-llama, reliable-praline, jade-hummingbird, silver-tanuki) to free up build credits",
+    "Fix Netlify credit drain — stop bots triggering rebuilds on every data.json push",
+    "Verify j-notebook.netlify.app ← Dashboard button works after Netlify unpauses",
+    "Build Notebook Ch.3 — How GitHub Actions Work (animated flow)",
+    "Continue Swift design work for UMEI3D Milestone 2"
+  ],
   "automations": [
     {
       "name": "GmailBot",
