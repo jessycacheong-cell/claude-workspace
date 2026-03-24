@@ -552,11 +552,21 @@
 <div class="wrap">
 
   <!-- Nav -->
-  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:40px;">
-    <a href="index.html" style="display:flex;align-items:center;gap:8px;font-size:13px;color:#8b8fa8;text-decoration:none;padding:8px 14px;background:#0d0e18;border:1px solid rgba(255,255,255,0.08);border-radius:20px;font-family:'Space Grotesk',sans-serif;" onmouseover="this.style.color='#f0f2ff'" onmouseout="this.style.color='#8b8fa8'">← Notebook</a>
-    <div style="display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:#f0f2ff;font-family:'Space Grotesk',sans-serif;">
-      <div style="width:7px;height:7px;border-radius:50%;background:#FD6969;box-shadow:0 0 8px rgba(253,105,105,0.6);"></div>
-      Chapter 1
+  <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:40px;gap:12px;flex-wrap:wrap;">
+    <div style="display:flex;align-items:center;gap:10px;">
+      <a href="index.html" style="font-size:13px;color:#8b8fa8;text-decoration:none;padding:8px 14px;background:#0d0e18;border:1px solid rgba(255,255,255,0.08);border-radius:20px;font-family:'Space Grotesk',sans-serif;" onmouseover="this.style.color='#f0f2ff'" onmouseout="this.style.color='#8b8fa8'">← Notebook</a>
+      <div style="display:flex;align-items:center;gap:8px;font-size:13px;font-weight:700;color:#f0f2ff;font-family:'Space Grotesk',sans-serif;">
+        <div style="width:7px;height:7px;border-radius:50%;background:#FD6969;box-shadow:0 0 8px rgba(253,105,105,0.6);"></div>
+        Chapter 1
+      </div>
+    </div>
+    <div style="position:relative;">
+      <select onchange="if(this.value) window.location.href=this.value;" style="appearance:none;background:#0d0e18;border:1px solid rgba(255,255,255,0.08);border-radius:20px;padding:8px 32px 8px 14px;font-size:13px;font-family:'Space Grotesk',sans-serif;color:#f0f2ff;cursor:pointer;outline:none;">
+        <option value="">Switch flow...</option>
+        <option value="oauth-flow.html" selected>Ch.1 — Google OAuth</option>
+        <option value="claude-tools.html">Ch.2 — Claude Tools</option>
+      </select>
+      <div style="position:absolute;right:12px;top:50%;transform:translateY(-50%);font-size:10px;color:#8b8fa8;pointer-events:none;">▾</div>
     </div>
   </div>
 

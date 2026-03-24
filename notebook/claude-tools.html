@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Claude Tools — J's Notebook</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #04050a; --card: #0d0e18; --raised: #13141f;
+    --border: rgba(255,255,255,0.08);
+    --coral: #FD6969; --coral-dim: rgba(253,105,105,0.12);
+    --blue: #4f8ef7; --blue-dim: rgba(79,142,247,0.12);
+    --green: #4ade80; --green-dim: rgba(74,222,128,0.10);
+    --yellow: #f59e0b; --yellow-dim: rgba(245,158,11,0.12);
+    --red: #ff4743; --red-dim: rgba(255,71,67,0.10);
+    --purple: #a78bfa; --purple-dim: rgba(167,139,250,0.10);
+    --text-1: #f0f2ff; --text-2: #8b8fa8; --text-3: #3e4157;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text-1); font-family: 'Space Grotesk', sans-serif; min-height: 100vh; }
+  body::before {
+    content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background:
+      radial-gradient(ellipse 60% 40% at 15% 20%, rgba(253,105,105,0.06) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 40% at 85% 80%, rgba(79,142,247,0.05) 0%, transparent 55%);
+  }
+  .wrap { position: relative; z-index: 1; max-width: 960px; margin: 0 auto; padding: 48px 24px 80px; }
+
+  /* ── NAV ── */
+  .nav {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 40px; gap: 12px; flex-wrap: wrap;
+  }
+  .nav-left { display: flex; align-items: center; gap: 10px; }
+  .nav-back {
+    font-size: 13px; color: var(--text-2); text-decoration: none;
+    padding: 8px 14px; background: var(--card); border: 1px solid var(--border);
+    border-radius: 20px; transition: color 0.2s;
+  }
+  .nav-back:hover { color: var(--text-1); }
+  .nav-chapter {
+    display: flex; align-items: center; gap: 8px;
+    font-size: 13px; font-weight: 700; color: var(--text-1);
+  }
+  .nav-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--blue); box-shadow: 0 0 8px rgba(79,142,247,0.6); }
+
+  /* ── FLOW DROPDOWN ── */
+  .flow-select-wrap { position: relative; }
+  .flow-select {
+    appearance: none; background: var(--card); border: 1px solid var(--border);
+    border-radius: 20px; padding: 8px 32px 8px 14px; font-size: 13px;
+    font-family: 'Space Grotesk', sans-serif; color: var(--text-1); cursor: pointer;
+    outline: none;
+  }
+  .flow-select:hover { border-color: rgba(255,255,255,0.18); }
+  .flow-select-arrow {
+    position: absolute; right: 12px; top: 50%; transform: translateY(-50%);
+    font-size: 10px; color: var(--text-2); pointer-events: none;
+  }
+
+  /* ── HEADER ── */
+  .header { text-align: center; margin-bottom: 52px; }
+  .header-badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--blue-dim); border: 1px solid rgba(79,142,247,0.2);
+    border-radius: 20px; padding: 6px 16px;
+    font-size: 12px; font-weight: 700; color: var(--blue);
+    letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 20px;
+  }
+  .header h1 { font-size: clamp(28px, 5vw, 44px); font-weight: 800; line-height: 1.15; margin-bottom: 12px; }
+  .header h1 span { color: var(--blue); }
+  .header p { color: var(--text-2); font-size: 16px; max-width: 480px; margin: 0 auto; line-height: 1.6; }
+
+  /* ── PROGRESS ── */
+  .progress-wrap {
+    display: flex; align-items: center; gap: 0;
+    margin-bottom: 48px; position: relative;
+  }
+  .progress-wrap::before {
+    content: ''; position: absolute; top: 18px; left: 18px; right: 18px;
+    height: 2px; background: var(--border); z-index: 0;
+  }
+  .progress-fill {
+    position: absolute; top: 18px; left: 18px; height: 2px;
+    background: var(--blue); z-index: 1;
+    transition: width 0.6s cubic-bezier(0.4,0,0.2,1);
+    box-shadow: 0 0 8px rgba(79,142,247,0.5);
+  }
+  .prog-step { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 8px; position: relative; z-index: 2; cursor: pointer; }
+  .prog-dot {
+    width: 36px; height: 36px; border-radius: 50%; border: 2px solid var(--border);
+    background: var(--card); display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700; color: var(--text-3); transition: all 0.4s ease;
+  }
+  .prog-step.active .prog-dot { border-color: var(--blue); background: var(--blue-dim); color: var(--blue); box-shadow: 0 0 16px rgba(79,142,247,0.3); }
+  .prog-step.done .prog-dot { border-color: var(--green); background: var(--green-dim); color: var(--green); }
+  .prog-label { font-size: 11px; color: var(--text-3); text-align: center; max-width: 72px; line-height: 1.3; transition: color 0.3s; }
+  .prog-step.active .prog-label { color: var(--text-1); }
+  .prog-step.done .prog-label { color: var(--text-2); }
+
+  /* ── STAGE ── */
+  .stage { background: var(--card); border: 1px solid var(--border); border-radius: 20px; overflow: hidden; margin-bottom: 24px; min-height: 380px; }
+  .scene { display: none; padding: 40px; animation: sceneFadeIn 0.5s ease forwards; }
+  .scene.active { display: block; }
+  @keyframes sceneFadeIn { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+
+  /* ── SCENE HEADER ── */
+  .scene-header { display: flex; align-items: flex-start; gap: 20px; margin-bottom: 36px; }
+  .scene-num {
+    flex-shrink: 0; width: 48px; height: 48px; border-radius: 14px;
+    background: var(--blue-dim); border: 1px solid rgba(79,142,247,0.2);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px; font-weight: 800; color: var(--blue);
+  }
+  .scene-title { font-size: 22px; font-weight: 700; margin-bottom: 6px; line-height: 1.2; }
+  .scene-title span { color: var(--blue); }
+  .scene-desc { color: var(--text-2); font-size: 15px; line-height: 1.6; }
+
+  /* ── TOOL CARDS ── */
+  .tools-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; }
+  @media(max-width:600px){ .tools-grid { grid-template-columns: 1fr; } }
+  .tool-card {
+    background: var(--raised); border: 1px solid var(--border);
+    border-radius: 16px; padding: 20px;
+    opacity: 0; transform: translateY(12px);
+    transition: all 0.4s ease;
+  }
+  .tool-card.visible { opacity: 1; transform: translateY(0); }
+  .tool-card.highlight-coral { border-color: var(--coral); background: var(--coral-dim); }
+  .tool-card.highlight-blue  { border-color: var(--blue);  background: var(--blue-dim); }
+  .tool-card.highlight-green { border-color: var(--green); background: var(--green-dim); }
+  .tool-icon { font-size: 32px; margin-bottom: 10px; }
+  .tool-name { font-size: 16px; font-weight: 800; margin-bottom: 4px; }
+  .tool-name.coral { color: var(--coral); }
+  .tool-name.blue  { color: var(--blue); }
+  .tool-name.green { color: var(--green); }
+  .tool-desc { font-size: 12px; color: var(--text-2); line-height: 1.5; }
+
+  /* ── ACCESS ROW ── */
+  .access-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 16px; }
+  @media(max-width:600px){ .access-grid { grid-template-columns: 1fr; } }
+  .access-card {
+    background: var(--raised); border: 1px solid var(--border);
+    border-radius: 16px; padding: 20px;
+    opacity: 0; transform: translateX(-12px);
+    transition: all 0.4s ease;
+  }
+  .access-card.visible { opacity: 1; transform: translateX(0); }
+  .access-card-title { font-size: 13px; font-weight: 700; color: var(--text-2); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 14px; }
+  .access-row {
+    display: flex; align-items: center; gap: 10px;
+    padding: 10px 0; border-bottom: 1px solid var(--border);
+    font-size: 13px;
+  }
+  .access-row:last-child { border-bottom: none; }
+  .access-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .dot-green  { background: var(--green); box-shadow: 0 0 6px rgba(74,222,128,0.5); }
+  .dot-yellow { background: var(--yellow); box-shadow: 0 0 6px rgba(245,158,11,0.5); }
+  .dot-red    { background: var(--red); box-shadow: 0 0 6px rgba(255,71,67,0.5); }
+  .access-label { flex: 1; color: var(--text-1); font-weight: 600; }
+  .access-status { font-size: 11px; color: var(--text-2); }
+
+  /* ── NOTION NODE ── */
+  .notion-wrap { text-align: center; margin-bottom: 24px; }
+  .notion-node {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: rgba(88,101,242,0.12); border: 1px solid rgba(88,101,242,0.25);
+    border-radius: 14px; padding: 14px 24px;
+  }
+  .notion-icon { font-size: 24px; }
+  .notion-label { font-size: 15px; font-weight: 700; color: #818cf8; }
+  .notion-sub { font-size: 12px; color: var(--text-2); margin-top: 2px; }
+
+  /* ── COMPARISON TABLE ── */
+  .compare-table { width: 100%; border-collapse: collapse; }
+  .compare-table th {
+    padding: 12px 16px; text-align: left;
+    font-size: 12px; font-weight: 700; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--text-2);
+    border-bottom: 1px solid var(--border);
+  }
+  .compare-table td {
+    padding: 14px 16px; font-size: 14px;
+    border-bottom: 1px solid var(--border);
+  }
+  .compare-table tr:last-child td { border-bottom: none; }
+  .compare-table tr { opacity: 0; transform: translateY(6px); transition: all 0.3s ease; }
+  .compare-table tr.visible { opacity: 1; transform: translateY(0); }
+  .tag {
+    display: inline-flex; align-items: center; gap: 5px;
+    font-size: 11px; font-weight: 700; padding: 3px 10px;
+    border-radius: 20px; white-space: nowrap;
+  }
+  .tag-green  { background: var(--green-dim); color: var(--green); border: 1px solid rgba(74,222,128,0.25); }
+  .tag-yellow { background: var(--yellow-dim); color: var(--yellow); border: 1px solid rgba(245,158,11,0.25); }
+  .tag-red    { background: var(--red-dim); color: var(--red); border: 1px solid rgba(255,71,67,0.25); }
+
+  /* ── INSIGHT BOX ── */
+  .insight {
+    background: var(--raised); border: 1px solid rgba(79,142,247,0.2);
+    border-radius: 14px; padding: 24px;
+    opacity: 0; transform: translateY(8px);
+    transition: all 0.5s ease 0.3s;
+  }
+  .insight.visible { opacity: 1; transform: translateY(0); }
+  .insight-title { font-size: 13px; font-weight: 700; color: var(--blue); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 10px; }
+  .insight-text { font-size: 15px; color: var(--text-1); line-height: 1.7; }
+  .insight-text strong { color: var(--blue); }
+
+  /* ── FLOW DIAGRAM (scene 5) ── */
+  .flow-diagram { display: flex; flex-direction: column; align-items: center; gap: 0; }
+  .fd-node {
+    background: var(--raised); border: 1px solid var(--border);
+    border-radius: 14px; padding: 14px 28px;
+    display: flex; align-items: center; gap: 10px;
+    font-size: 15px; font-weight: 700;
+    opacity: 0; transform: translateY(-8px);
+    transition: all 0.4s ease;
+  }
+  .fd-node.visible { opacity: 1; transform: translateY(0); }
+  .fd-node.you { background: rgba(167,139,250,0.12); border-color: rgba(167,139,250,0.3); color: var(--purple); }
+  .fd-connector {
+    width: 2px; height: 28px; background: var(--border);
+    opacity: 0; transition: opacity 0.3s ease;
+  }
+  .fd-connector.visible { opacity: 1; }
+  .fd-row { display: flex; align-items: flex-start; gap: 16px; width: 100%; justify-content: center; }
+  .fd-col { display: flex; flex-direction: column; align-items: center; gap: 0; }
+  .fd-branch {
+    width: 2px; height: 28px; background: var(--border);
+    opacity: 0; transition: opacity 0.3s ease;
+  }
+  .fd-branch.visible { opacity: 1; }
+
+  /* ── CONTROLS ── */
+  .controls { display: flex; align-items: center; justify-content: center; gap: 12px; }
+  .btn { display: flex; align-items: center; gap: 8px; padding: 12px 24px; border-radius: 12px; border: none; font-family: 'Space Grotesk', sans-serif; font-size: 14px; font-weight: 700; cursor: pointer; transition: all 0.2s ease; }
+  .btn-primary { background: var(--blue); color: white; box-shadow: 0 4px 16px rgba(79,142,247,0.3); }
+  .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(79,142,247,0.4); }
+  .btn-ghost { background: var(--raised); color: var(--text-1); border: 1px solid var(--border); }
+  .btn-ghost:hover { border-color: rgba(255,255,255,0.2); }
+  .btn-ghost:disabled { opacity: 0.3; cursor: default; }
+  .step-counter { font-size: 13px; color: var(--text-2); min-width: 60px; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- Nav -->
+  <div class="nav">
+    <div class="nav-left">
+      <a href="index.html" class="nav-back">← Notebook</a>
+      <div class="nav-chapter">
+        <div class="nav-dot"></div>
+        Chapter 2
+      </div>
+    </div>
+    <div class="flow-select-wrap">
+      <select class="flow-select" onchange="if(this.value) window.location.href=this.value;">
+        <option value="">Switch flow...</option>
+        <option value="oauth-flow.html">Ch.1 — Google OAuth</option>
+        <option value="claude-tools.html" selected>Ch.2 — Claude Tools</option>
+      </select>
+      <div class="flow-select-arrow">▾</div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-badge">🤖 Chapter 2 · Claude Tools</div>
+    <h1>Which Claude Tool<br><span>Does What?</span></h1>
+    <p>Claude Chat, Cowork, and Claude Code — they're not the same. Here's exactly what each one can access and when to use which.</p>
+  </div>
+
+  <!-- Progress -->
+  <div class="progress-wrap" id="progressWrap">
+    <div class="progress-fill" id="progressFill"></div>
+    <div class="prog-step" data-step="0" onclick="goTo(0)"><div class="prog-dot">1</div><div class="prog-label">3 Tools</div></div>
+    <div class="prog-step" data-step="1" onclick="goTo(1)"><div class="prog-dot">2</div><div class="prog-label">Notion Access</div></div>
+    <div class="prog-step" data-step="2" onclick="goTo(2)"><div class="prog-dot">3</div><div class="prog-label">GitHub Access</div></div>
+    <div class="prog-step" data-step="3" onclick="goTo(3)"><div class="prog-dot">4</div><div class="prog-label">Side by Side</div></div>
+    <div class="prog-step" data-step="4" onclick="goTo(4)"><div class="prog-dot">5</div><div class="prog-label">Full Flow</div></div>
+    <div class="prog-step" data-step="5" onclick="goTo(5)"><div class="prog-dot">6</div><div class="prog-label">Key Insight</div></div>
+    <div class="prog-step" data-step="6" onclick="goTo(6)"><div class="prog-dot">7</div><div class="prog-label">When to Use</div></div>
+  </div>
+
+  <!-- Stage -->
+  <div class="stage">
+
+    <!-- Scene 0: 3 Tools -->
+    <div class="scene active" id="scene-0">
+      <div class="scene-header">
+        <div class="scene-num">1</div>
+        <div>
+          <div class="scene-title">You Have <span>3 Claude Tools</span></div>
+          <div class="scene-desc">They all have Claude under the hood — but they have different abilities, different integrations, and different purposes. Knowing the difference saves a lot of confusion.</div>
+        </div>
+      </div>
+      <div class="tools-grid" id="tg-0">
+        <div class="tool-card" id="tc-0">
+          <div class="tool-icon">💬</div>
+          <div class="tool-name coral">Claude Chat</div>
+          <div class="tool-desc">claude.ai in your browser. Research, writing, quick questions. The everyday conversational tool.</div>
+        </div>
+        <div class="tool-card" id="tc-1">
+          <div class="tool-icon">⚡</div>
+          <div class="tool-name blue">Cowork</div>
+          <div class="tool-desc">Automation, brand tasks, and workflows. A Claude agent mode with tools connected.</div>
+        </div>
+        <div class="tool-card" id="tc-2">
+          <div class="tool-icon">💻</div>
+          <div class="tool-name green">Claude Code</div>
+          <div class="tool-desc">This. Coding, apps, files, and technical builds. Full access to your computer and GitHub.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scene 1: Notion Access -->
+    <div class="scene" id="scene-1">
+      <div class="scene-header">
+        <div class="scene-num">2</div>
+        <div>
+          <div class="scene-title">All Three Can Read <span>Notion</span></div>
+          <div class="scene-desc">This is the good news. Every Claude tool can read your Notion workspace — your CLAUDE.md, brand context, project status. Your context is always available no matter which tool you use.</div>
+        </div>
+      </div>
+      <div class="notion-wrap" style="margin-bottom:28px;">
+        <div class="notion-node">
+          <div class="notion-icon">🗒️</div>
+          <div>
+            <div class="notion-label">Notion</div>
+            <div class="notion-sub">Brand context · preferences · project status</div>
+          </div>
+        </div>
+      </div>
+      <div class="tools-grid">
+        <div class="tool-card highlight-coral visible">
+          <div class="tool-icon">💬</div>
+          <div class="tool-name coral">Claude Chat</div>
+          <div style="margin-top:10px;">
+            <div class="access-row"><div class="access-dot dot-green"></div><div class="access-label">Notion</div><div class="access-status">✓ Full access</div></div>
+          </div>
+        </div>
+        <div class="tool-card highlight-blue visible">
+          <div class="tool-icon">⚡</div>
+          <div class="tool-name blue">Cowork</div>
+          <div style="margin-top:10px;">
+            <div class="access-row"><div class="access-dot dot-green"></div><div class="access-label">Notion</div><div class="access-status">✓ Full access</div></div>
+          </div>
+        </div>
+        <div class="tool-card highlight-green visible">
+          <div class="tool-icon">💻</div>
+          <div class="tool-name green">Claude Code</div>
+          <div style="margin-top:10px;">
+            <div class="access-row"><div class="access-dot dot-green"></div><div class="access-label">Notion</div><div class="access-status">✓ Full access</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scene 2: GitHub Access -->
+    <div class="scene" id="scene-2">
+      <div class="scene-header">
+        <div class="scene-num">3</div>
+        <div>
+          <div class="scene-title"><span>GitHub Access</span> Is Where They Differ</div>
+          <div class="scene-desc">This is the big difference. GitHub is where your code, dashboard, and bot files live. Not every tool can reach it.</div>
+        </div>
+      </div>
+      <div class="access-grid" id="ag-2">
+        <div class="access-card" id="ac-0">
+          <div class="access-card-title">💬 Claude Chat</div>
+          <div class="access-row"><div class="access-dot dot-green"></div><div class="access-label">Notion</div><div class="access-status">Full access</div></div>
+          <div class="access-row"><div class="access-dot dot-red"></div><div class="access-label">GitHub</div><div class="access-status">No access</div></div>
+          <div style="margin-top:12px;font-size:12px;color:var(--text-2);line-height:1.5;">Can't push code, edit files, or read your repo. It only knows what you paste into the chat.</div>
+        </div>
+        <div class="access-card" id="ac-1">
+          <div class="access-card-title">⚡ Cowork</div>
+          <div class="access-row"><div class="access-dot dot-green"></div><div class="access-label">Notion</div><div class="access-status">Full access</div></div>
+          <div class="access-row"><div class="access-dot dot-yellow"></div><div class="access-label">GitHub</div><div class="access-status">Plugin needed</div></div>
+          <div style="margin-top:12px;font-size:12px;color:var(--text-2);line-height:1.5;">Could access GitHub but needs a plugin that isn't in the registry yet. Coming in the future.</div>
+        </div>
+        <div class="access-card" id="ac-2">
+          <div class="access-card-title">💻 Claude Code</div>
+          <div class="access-row"><div class="access-dot dot-green"></div><div class="access-label">Notion</div><div class="access-status">Full access</div></div>
+          <div class="access-row"><div class="access-dot dot-green"></div><div class="access-label">GitHub</div><div class="access-status">Full access</div></div>
+          <div style="margin-top:12px;font-size:12px;color:var(--text-2);line-height:1.5;">Full access to your files, can push code, build apps, and deploy — all directly from the terminal.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scene 3: Side by Side -->
+    <div class="scene" id="scene-3">
+      <div class="scene-header">
+        <div class="scene-num">4</div>
+        <div>
+          <div class="scene-title">Side by <span>Side Comparison</span></div>
+          <div class="scene-desc">All three tools at a glance — what they connect to and what they can actually do.</div>
+        </div>
+      </div>
+      <table class="compare-table" id="compareTable">
+        <thead>
+          <tr style="opacity:1;transform:none;">
+            <th>Tool</th>
+            <th>Notion</th>
+            <th>GitHub</th>
+            <th>Best For</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr id="ctr-0">
+            <td><strong>💬 Claude Chat</strong></td>
+            <td><span class="tag tag-green">✓ Full</span></td>
+            <td><span class="tag tag-red">✗ None</span></td>
+            <td style="color:var(--text-2)">Research, writing, quick Q&A</td>
+          </tr>
+          <tr id="ctr-1">
+            <td><strong>⚡ Cowork</strong></td>
+            <td><span class="tag tag-green">✓ Full</span></td>
+            <td><span class="tag tag-yellow">⚠ Plugin needed</span></td>
+            <td style="color:var(--text-2)">Automation, brand workflows</td>
+          </tr>
+          <tr id="ctr-2">
+            <td><strong>💻 Claude Code</strong></td>
+            <td><span class="tag tag-green">✓ Full</span></td>
+            <td><span class="tag tag-green">✓ Full</span></td>
+            <td style="color:var(--text-2)">Code, files, apps, deploys</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Scene 4: Full Flow Diagram -->
+    <div class="scene" id="scene-4">
+      <div class="scene-header">
+        <div class="scene-num">5</div>
+        <div>
+          <div class="scene-title">The <span>Full Picture</span></div>
+          <div class="scene-desc">How Jessyca connects to each tool, and what each tool can reach from there.</div>
+        </div>
+      </div>
+      <div class="flow-diagram" id="flowDiagram">
+        <div class="fd-node you" id="fd-you">👤 &nbsp;Jessyca</div>
+        <div class="fd-connector" id="fd-c1"></div>
+        <div class="fd-row" id="fd-row" style="opacity:0;transition:opacity 0.4s ease;">
+          <div class="fd-col">
+            <div class="fd-node" id="fd-chat" style="background:var(--coral-dim);border-color:var(--coral);color:var(--coral);">💬 Claude Chat</div>
+            <div class="fd-branch" id="fd-b1"></div>
+            <div class="fd-node" id="fd-n1" style="background:rgba(88,101,242,0.12);border-color:rgba(88,101,242,0.3);color:#818cf8;font-size:13px;">🗒️ Notion ✓</div>
+            <div class="fd-branch" id="fd-b2"></div>
+            <div class="fd-node" id="fd-g1" style="background:var(--red-dim);border-color:var(--red);color:var(--red);font-size:13px;">🐙 GitHub ✗</div>
+          </div>
+          <div class="fd-col">
+            <div class="fd-node" id="fd-cowork" style="background:var(--blue-dim);border-color:var(--blue);color:var(--blue);">⚡ Cowork</div>
+            <div class="fd-branch" id="fd-b3"></div>
+            <div class="fd-node" id="fd-n2" style="background:rgba(88,101,242,0.12);border-color:rgba(88,101,242,0.3);color:#818cf8;font-size:13px;">🗒️ Notion ✓</div>
+            <div class="fd-branch" id="fd-b4"></div>
+            <div class="fd-node" id="fd-g2" style="background:var(--yellow-dim);border-color:var(--yellow);color:var(--yellow);font-size:13px;">🐙 GitHub ⚠</div>
+          </div>
+          <div class="fd-col">
+            <div class="fd-node" id="fd-code" style="background:var(--green-dim);border-color:var(--green);color:var(--green);">💻 Claude Code</div>
+            <div class="fd-branch" id="fd-b5"></div>
+            <div class="fd-node" id="fd-n3" style="background:rgba(88,101,242,0.12);border-color:rgba(88,101,242,0.3);color:#818cf8;font-size:13px;">🗒️ Notion ✓</div>
+            <div class="fd-branch" id="fd-b6"></div>
+            <div class="fd-node" id="fd-g3" style="background:var(--green-dim);border-color:var(--green);color:var(--green);font-size:13px;">🐙 GitHub ✓</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scene 5: Key Insight -->
+    <div class="scene" id="scene-5">
+      <div class="scene-header">
+        <div class="scene-num">6</div>
+        <div>
+          <div class="scene-title">The <span>Key Insight</span></div>
+          <div class="scene-desc">Two things that are always true about your setup — no matter which tool you open.</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:16px;">
+        <div class="insight" id="ins-1">
+          <div class="insight-title">🗒️ Notion is your safety net</div>
+          <div class="insight-text">All three tools read Notion. So your <strong>brand context, preferences, and project status</strong> are always there — Claude always knows who you are and what you're building, no matter which tool you open.</div>
+        </div>
+        <div class="insight" id="ins-2" style="transition-delay:0.5s;border-color:rgba(74,222,128,0.2);">
+          <div class="insight-title" style="color:var(--green);">💻 Claude Code is the most powerful</div>
+          <div class="insight-text">Only Claude Code has <strong>full GitHub access</strong> — meaning it's the only tool that can edit files, push code, deploy your dashboard, and build apps like this notebook. That's why you're using it right now.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scene 6: When to Use -->
+    <div class="scene" id="scene-6">
+      <div class="scene-header">
+        <div class="scene-num">7</div>
+        <div>
+          <div class="scene-title">When to Use <span>Which</span></div>
+          <div class="scene-desc">The simple rule for picking the right tool every time.</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:12px;" id="whenGrid">
+        <div class="insight" id="w-1" style="border-color:rgba(253,105,105,0.2);">
+          <div class="insight-title" style="color:var(--coral);">💬 Use Claude Chat when...</div>
+          <div class="insight-text">You need a quick answer, want to brainstorm, draft copy, do research, or have a general question. No files, no code, no deployment needed.</div>
+        </div>
+        <div class="insight" id="w-2" style="transition-delay:0.15s;border-color:rgba(79,142,247,0.2);">
+          <div class="insight-title" style="color:var(--blue);">⚡ Use Cowork when...</div>
+          <div class="insight-text">You want Claude to run multi-step brand tasks — scheduling posts, drafting campaigns, managing Notion pages. Automation without touching code.</div>
+        </div>
+        <div class="insight" id="w-3" style="transition-delay:0.3s;border-color:rgba(74,222,128,0.2);">
+          <div class="insight-title" style="color:var(--green);">💻 Use Claude Code when...</div>
+          <div class="insight-text">You need to build something, edit a file, push to GitHub, deploy your dashboard, or fix a bot. <strong>If it touches code or files — always come here.</strong></div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /stage -->
+
+  <!-- Controls -->
+  <div class="controls">
+    <button class="btn btn-ghost" id="btnPrev" onclick="prev()" disabled>← Back</button>
+    <span class="step-counter" id="stepCounter">1 / 7</span>
+    <button class="btn btn-primary" id="btnNext" onclick="next()">Next →</button>
+  </div>
+
+</div>
+
+<script>
+  let current = 0;
+  const total = 7;
+
+  function goTo(n) {
+    current = n;
+    document.querySelectorAll('.scene').forEach((s,i) => s.classList.toggle('active', i===current));
+    document.querySelectorAll('.prog-step').forEach((s,i) => {
+      s.classList.toggle('active', i===current);
+      s.classList.toggle('done', i<current);
+    });
+    const fill = document.getElementById('progressFill');
+    const steps = document.querySelectorAll('.prog-step');
+    if(current===0){ fill.style.width='0%'; }
+    else {
+      const first=steps[0].getBoundingClientRect(), last=steps[total-1].getBoundingClientRect(), cur=steps[current].getBoundingClientRect();
+      fill.style.width = ((cur.left-first.left)/(last.left-first.left)*100)+'%';
+    }
+    document.getElementById('btnPrev').disabled = current===0;
+    document.getElementById('btnNext').textContent = current===total-1 ? '↩ Restart' : 'Next →';
+    document.getElementById('stepCounter').textContent = (current+1)+' / '+total;
+
+    if(current===0) animScene0();
+    if(current===2) animScene2();
+    if(current===3) animScene3();
+    if(current===4) animScene4();
+    if(current===5) animScene5();
+    if(current===6) animScene6();
+  }
+
+  function next(){ if(current===total-1){ goTo(0); return; } goTo(current+1); }
+  function prev(){ if(current>0) goTo(current-1); }
+
+  function animScene0(){
+    ['tc-0','tc-1','tc-2'].forEach((id,i)=>{
+      setTimeout(()=>{ const el=document.getElementById(id); if(el) el.classList.add('visible'); }, i*150);
+    });
+  }
+  function animScene2(){
+    ['ac-0','ac-1','ac-2'].forEach((id,i)=>{
+      setTimeout(()=>{ const el=document.getElementById(id); if(el) el.classList.add('visible'); }, i*200);
+    });
+  }
+  function animScene3(){
+    ['ctr-0','ctr-1','ctr-2'].forEach((id,i)=>{
+      setTimeout(()=>{ const el=document.getElementById(id); if(el) el.classList.add('visible'); }, i*200);
+    });
+  }
+  function animScene4(){
+    const seq = [
+      ()=>{ const e=document.getElementById('fd-you'); if(e) e.classList.add('visible'); },
+      ()=>{ const e=document.getElementById('fd-c1'); if(e) e.classList.add('visible'); },
+      ()=>{ const r=document.getElementById('fd-row'); if(r) r.style.opacity='1'; ['fd-chat','fd-cowork','fd-code'].forEach(id=>{ const e=document.getElementById(id); if(e) e.classList.add('visible'); }); },
+      ()=>{ ['fd-b1','fd-b3','fd-b5'].forEach(id=>{ const e=document.getElementById(id); if(e) e.classList.add('visible'); }); ['fd-n1','fd-n2','fd-n3'].forEach(id=>{ const e=document.getElementById(id); if(e) e.classList.add('visible'); }); },
+      ()=>{ ['fd-b2','fd-b4','fd-b6'].forEach(id=>{ const e=document.getElementById(id); if(e) e.classList.add('visible'); }); ['fd-g1','fd-g2','fd-g3'].forEach(id=>{ const e=document.getElementById(id); if(e) e.classList.add('visible'); }); }
+    ];
+    seq.forEach((fn,i)=>setTimeout(fn, i*300));
+  }
+  function animScene5(){
+    setTimeout(()=>{ const e=document.getElementById('ins-1'); if(e) e.classList.add('visible'); },100);
+    setTimeout(()=>{ const e=document.getElementById('ins-2'); if(e) e.classList.add('visible'); },500);
+  }
+  function animScene6(){
+    ['w-1','w-2','w-3'].forEach((id,i)=>{
+      setTimeout(()=>{ const el=document.getElementById(id); if(el) el.classList.add('visible'); }, i*200);
+    });
+  }
+
+  goTo(0);
+  document.addEventListener('keydown', e=>{
+    if(e.key==='ArrowRight'||e.key===' '){ e.preventDefault(); next(); }
+    if(e.key==='ArrowLeft'){ e.preventDefault(); prev(); }
+  });
+</script>
+</body>
+</html>
