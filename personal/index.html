@@ -339,6 +339,26 @@
   .df-node { display:flex; align-items:center; gap:8px; background:rgba(255,255,255,0.025); border:1px solid var(--border); border-radius:10px; padding:9px 10px; position:relative; transition:border-color .3s; }
   .df-node.active { border-color:rgba(74,222,128,0.22); }
   .df-node.hero { border-color:rgba(253,105,105,0.30); background:rgba(253,105,105,0.05); box-shadow:0 0 20px rgba(253,105,105,0.06); }
+  /* Dashboard Hero Card */
+  .df-hero-card { position:relative; border-radius:14px; border:1px solid rgba(253,105,105,0.4); background:rgba(253,105,105,0.04); padding:12px; overflow:hidden; animation:heroGlow 3s ease-in-out infinite alternate; }
+  @keyframes heroGlow { from{box-shadow:0 0 20px rgba(253,105,105,0.08);border-color:rgba(253,105,105,0.3);} to{box-shadow:0 0 44px rgba(253,105,105,0.22);border-color:rgba(253,105,105,0.55);} }
+  .df-hero-orb { position:absolute; width:130px; height:130px; border-radius:50%; background:radial-gradient(circle,rgba(253,105,105,0.2),transparent 70%); bottom:-50px; right:-40px; animation:heroOrb 5s ease-in-out infinite alternate; pointer-events:none; }
+  @keyframes heroOrb { from{transform:translate(0,0);} to{transform:translate(-18px,-18px);} }
+  .df-hero-scan { position:absolute; left:0; right:0; height:1px; background:linear-gradient(90deg,transparent,rgba(253,105,105,0.55),transparent); animation:heroScan 2.4s linear infinite; pointer-events:none; z-index:2; }
+  @keyframes heroScan { from{top:0%;} to{top:110%;} }
+  .df-hero-top { display:flex; align-items:center; gap:6px; margin-bottom:8px; position:relative; z-index:1; }
+  .df-hero-dots { display:flex; gap:4px; flex-shrink:0; }
+  .df-hero-dot { width:7px; height:7px; border-radius:50%; }
+  .df-hero-urlbar { flex:1; background:rgba(255,255,255,0.05); border:1px solid var(--border); border-radius:5px; padding:2px 8px; font-size:9px; color:var(--text-3); font-family:monospace; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .df-hero-screen { background:rgba(0,0,0,0.28); border-radius:8px; padding:8px 8px 6px; margin-bottom:8px; position:relative; z-index:1; display:flex; flex-direction:column; gap:5px; }
+  .df-hero-sline { height:4px; border-radius:3px; background:rgba(255,255,255,0.07); position:relative; overflow:hidden; }
+  .df-hero-sline::after { content:''; position:absolute; inset:0; background:linear-gradient(90deg,transparent,rgba(253,105,105,0.45),transparent); animation:shimmerLine 2s ease-in-out infinite; transform:translateX(-100%); }
+  .df-hero-sline:nth-child(2)::after { animation-delay:.35s; }
+  .df-hero-sline:nth-child(3)::after { animation-delay:.7s; }
+  @keyframes shimmerLine { 0%{transform:translateX(-100%);} 100%{transform:translateX(250%);} }
+  .df-hero-bottom { display:flex; align-items:center; justify-content:space-between; position:relative; z-index:1; }
+  .df-hero-name { font-size:12px; font-weight:700; color:var(--text-1); }
+  .df-hero-live { font-size:9px; font-weight:700; letter-spacing:.06em; color:var(--green); background:rgba(74,222,128,0.12); border:1px solid rgba(74,222,128,0.25); border-radius:5px; padding:2px 7px; animation:liveBadge 2s ease-in-out infinite; }
   .df-node.dim { opacity:.5; }
   .df-node-icon { font-size:16px; flex-shrink:0; }
   .df-node-name { font-size:12px; font-weight:600; color:var(--text-1); }
@@ -1166,10 +1186,26 @@
             <div><div class="df-node-name">Netlify</div><div class="df-node-role">Auto-deploys from GitHub</div></div>
             <div class="df-node-pip on"></div>
           </div>
-          <div class="df-node hero" id="dfn-dashboard">
-            <div class="df-node-icon">🖥️</div>
-            <div><div class="df-node-name">Your Dashboard</div><div class="df-node-role">Lives at netlify.app · no laptop needed</div></div>
-            <div class="df-node-pip on"></div>
+          <div class="df-hero-card" id="dfn-dashboard">
+            <div class="df-hero-orb"></div>
+            <div class="df-hero-scan"></div>
+            <div class="df-hero-top">
+              <div class="df-hero-dots">
+                <div class="df-hero-dot" style="background:#ff5f57"></div>
+                <div class="df-hero-dot" style="background:#febc2e"></div>
+                <div class="df-hero-dot" style="background:#28c840"></div>
+              </div>
+              <div class="df-hero-urlbar">jessycacheong-cell.netlify.app</div>
+            </div>
+            <div class="df-hero-screen">
+              <div class="df-hero-sline" style="width:80%"></div>
+              <div class="df-hero-sline" style="width:55%"></div>
+              <div class="df-hero-sline" style="width:70%"></div>
+            </div>
+            <div class="df-hero-bottom">
+              <span class="df-hero-name">🖥️ Your Dashboard</span>
+              <span class="df-hero-live">LIVE</span>
+            </div>
           </div>
         </div>
       </div>
