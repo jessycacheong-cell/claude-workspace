@@ -1066,8 +1066,8 @@
 
     <!-- Section 2: Bot Pipeline -->
     <div class="bts-header">
-      <span class="bts-pill cloud">⚡ GitHub Actions Cloud Bots</span>
-      <span class="bts-hint">Automated 24/7 · No laptop needed</span>
+      <span class="bts-pill cloud">⚡ Automated Bot Pipeline</span>
+      <span class="bts-hint">GitHub bots run 24/7 · Claude bots run when Claude is open</span>
     </div>
     <div class="df-wrap" id="df-wrap">
       <svg id="df-svg" class="df-svg"></svg>
@@ -1091,17 +1091,17 @@
             <div><div class="df-node-name">Gorgias</div><div class="df-node-role">UMEI support tickets · live</div></div>
             <div class="df-node-pip on"></div>
           </div>
-          <div class="df-node dim" id="dfn-gcal">
+          <div class="df-node active" id="dfn-gcal">
             <div class="df-node-icon">📅</div>
-            <div><div class="df-node-name">Google Cal</div><div class="df-node-role">Today's agenda (coming soon)</div></div>
-            <div class="df-node-pip soon"></div>
+            <div><div class="df-node-name">Google Cal</div><div class="df-node-role">Today's agenda · live</div></div>
+            <div class="df-node-pip on"></div>
           </div>
         </div>
       </div>
 
-      <!-- Col 2: Bots (GitHub Actions) -->
+      <!-- Col 2: Bots -->
       <div class="df-col" id="df-col-bots">
-        <div class="df-col-label">GitHub Actions (Cloud Bots)</div>
+        <div class="df-col-label">GitHub Actions — 24/7 Cloud</div>
         <div class="df-nodes">
           <div class="df-bot live" id="dfb-milestone">
             <div class="df-bot-glow"></div>
@@ -1112,13 +1112,29 @@
           <div class="df-bot live" id="dfb-inbox">
             <div class="df-bot-glow"></div>
             <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">InboxBot</div><div class="df-bot-sched">Every 30min · Gorgias + Gmail → data.json</div></div>
+            <div class="df-bot-info"><div class="df-bot-name">InboxBot</div><div class="df-bot-sched">Every 30min · Gorgias → data.json</div></div>
             <span class="df-badge live">LIVE</span>
           </div>
-          <div class="df-bot pending" id="dfb-git">
+        </div>
+        <div class="df-col-label" style="margin-top:14px;">Claude Scheduled — When Claude Open</div>
+        <div class="df-nodes">
+          <div class="df-bot live" id="dfb-gmail">
+            <div class="df-bot-glow"></div>
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">GmailBot</div><div class="df-bot-sched">Every 15min · Gmail → data.json</div></div>
+            <span class="df-badge live">LIVE</span>
+          </div>
+          <div class="df-bot live" id="dfb-calendar">
+            <div class="df-bot-glow"></div>
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">CalendarBot</div><div class="df-bot-sched">Every 15min · Google Cal → data.json</div></div>
+            <span class="df-badge live">LIVE</span>
+          </div>
+          <div class="df-bot live" id="dfb-git">
+            <div class="df-bot-glow"></div>
             <div class="df-bot-icon">🤖</div>
             <div class="df-bot-info"><div class="df-bot-name">GitBot</div><div class="df-bot-sched">Every 6hrs · GitHub → data.json</div></div>
-            <span class="df-badge soon">PENDING</span>
+            <span class="df-badge live">LIVE</span>
           </div>
           <div class="df-bot pending" id="dfb-wrap">
             <div class="df-bot-icon">🤖</div>
