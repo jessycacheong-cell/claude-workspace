@@ -329,7 +329,7 @@
   @media(max-width:520px){ .mcp-flow-inner{flex-direction:column;gap:12px;} .mcp-lines{display:none;} .mcp-nodes{width:100%;flex-direction:row;flex-wrap:wrap;} .mcp-node{width:calc(50% - 4px);} }
 
   /* ── DASHBOARD FLOW ── */
-  .df-wrap { position:relative; display:grid; grid-template-columns:1fr 1fr 1fr; min-height:260px; }
+  .df-wrap { position:relative; display:grid; grid-template-columns:1fr 1fr 1fr 1fr; min-height:260px; }
   .df-svg { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; overflow:visible; z-index:0; }
   .df-col { display:flex; flex-direction:column; gap:0; padding:0 10px; position:relative; z-index:1; }
   .df-nodes { display:flex; flex-direction:column; justify-content:space-around; flex:1; gap:8px; padding-top:8px; }
@@ -364,6 +364,7 @@
   .df-legend { display:flex; gap:14px; flex-wrap:wrap; margin-top:14px; padding-top:12px; border-top:1px solid var(--border); }
   .df-legend-item { display:flex; align-items:center; gap:5px; font-size:10px; color:var(--text-3); }
   .df-legend-line { width:20px; height:2px; border-radius:2px; }
+  .df-col-sublabel { font-size:9px; color:var(--text-3); margin-top:-2px; margin-bottom:4px; }
   @media(max-width:620px){ .df-wrap{grid-template-columns:1fr;} .df-col{border-left:none!important; border-top:1px solid var(--border); padding-top:12px;} .df-col:first-child{border-top:none;} .df-svg{display:none;} }
 
   /* ── BUILD STREAK ── */
@@ -1081,9 +1082,14 @@
             <div><div class="df-node-name">Gorgias</div><div class="df-node-role">UMEI support tickets · live</div></div>
             <div class="df-node-pip on"></div>
           </div>
+          <div class="df-node active" id="dfn-sheets">
+            <div class="df-node-icon">📊</div>
+            <div><div class="df-node-name">Google Sheets</div><div class="df-node-role">Shopify · Supermetrics</div></div>
+            <div class="df-node-pip on"></div>
+          </div>
           <div class="df-node dim" id="dfn-gcal">
             <div class="df-node-icon">📅</div>
-            <div><div class="df-node-name">Google Cal</div><div class="df-node-role">Today's agenda (coming soon)</div></div>
+            <div><div class="df-node-name">Google Cal</div><div class="df-node-role">Today's agenda · coming soon</div></div>
             <div class="df-node-pip soon"></div>
           </div>
         </div>
@@ -1102,7 +1108,7 @@
           <div class="df-bot live" id="dfb-inbox">
             <div class="df-bot-glow"></div>
             <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">InboxBot</div><div class="df-bot-sched">Every 30min · Gorgias + Gmail → data.json</div></div>
+            <div class="df-bot-info"><div class="df-bot-name">InboxBot</div><div class="df-bot-sched">Every 30min · Gorgias → data.json</div></div>
             <span class="df-badge live">LIVE</span>
           </div>
           <div class="df-bot pending" id="dfb-git">
@@ -1123,7 +1129,32 @@
         </div>
       </div>
 
-      <!-- Col 3: Output -->
+      <!-- Col 3: Claude Scheduled Bots -->
+      <div class="df-col" id="df-col-claude">
+        <div class="df-col-label">Claude Scheduled</div>
+        <div class="df-col-sublabel">When Claude is open</div>
+        <div class="df-nodes">
+          <div class="df-bot live" id="dfb-gmail">
+            <div class="df-bot-glow"></div>
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">GmailBot</div><div class="df-bot-sched">Every 15min · Gmail → data.json</div></div>
+            <span class="df-badge live">LIVE</span>
+          </div>
+          <div class="df-bot live" id="dfb-shopify">
+            <div class="df-bot-glow"></div>
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">ShopifyBot</div><div class="df-bot-sched">Every 15min · Sheets → data.json</div></div>
+            <span class="df-badge live">LIVE</span>
+          </div>
+          <div class="df-bot pending" id="dfb-calendar">
+            <div class="df-bot-icon">🤖</div>
+            <div class="df-bot-info"><div class="df-bot-name">CalendarBot</div><div class="df-bot-sched">Every 15min · GCal → data.json</div></div>
+            <span class="df-badge soon">SOON</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Col 4: Output -->
       <div class="df-col" id="df-col-output">
         <div class="df-col-label">Live Output</div>
         <div class="df-nodes">
@@ -1446,20 +1477,25 @@ function drawFlowLines(){
     svg.appendChild(dot);
   }
 
-  // Sources → Bots
+  // Sources → GitHub Bots
   addConn('dfn-notion','dfb-milestone','right','left','#FD6969',true,2.0);
-  addConn('dfn-gmail','dfb-inbox','right','left','#4583fd',true,1.8);
   addConn('dfn-gorgias','dfb-inbox','right','left','#22d47a',true,2.2);
-  addConn('dfn-gcal','dfb-log','right','left','#f59e0b',false,0);
-  // Bots → Output
+  // Sources → Claude Bots
+  addConn('dfn-gmail','dfb-gmail','right','left','#4583fd',true,1.8);
+  addConn('dfn-sheets','dfb-shopify','right','left','#f59e0b',true,2.0);
+  addConn('dfn-gcal','dfb-calendar','right','left','#a78bfa',false,0);
+  // GitHub Bots → Output
   addConn('dfb-milestone','dfn-datajson','right','left','#4ade80',true,2.2);
-  addConn('dfb-inbox','dfn-datajson','right','left','#4583fd',true,1.9);
+  addConn('dfb-inbox','dfn-datajson','right','left','#22d47a',true,1.9);
   addConn('dfb-git','dfn-datajson','right','left','#a78bfa',false,0);
   addConn('dfb-wrap','dfn-netlify','right','left','#FD6969',false,0);
   addConn('dfb-log','dfn-netlify','right','left','#FD6969',false,0);
-  // Within output: data.json → dashboard (vertical)
+  // Claude Bots → Output
+  addConn('dfb-gmail','dfn-datajson','right','left','#4583fd',true,1.8);
+  addConn('dfb-shopify','dfn-datajson','right','left','#f59e0b',true,2.0);
+  addConn('dfb-calendar','dfn-datajson','right','left','#a78bfa',false,0);
+  // Output: data.json → netlify → dashboard
   addConn('dfn-datajson','dfn-dashboard','bottom','top','#4ade80',true,1.8);
-  // netlify → dashboard (vertical)
   addConn('dfn-netlify','dfn-dashboard','bottom','top','#FD6969',true,2.6);
 }
 function drawMcpLines(){const c=document.getElementById('mcp-lines-container');const svg=document.getElementById('mcp-svg');const center=document.querySelector('.mcp-center');const nodes=document.querySelectorAll('.mcp-node');if(!c||!svg||!center||!nodes.length)return;const cr=c.getBoundingClientRect();const ctr=center.getBoundingClientRect();svg.innerHTML='';const x1=ctr.right-cr.left;const y1=ctr.top+ctr.height/2-cr.top;nodes.forEach(node=>{const nr=node.getBoundingClientRect();const x2=nr.left-cr.left;const y2=nr.top+nr.height/2-cr.top;const mx=(x1+x2)/2;const line=document.createElementNS('http://www.w3.org/2000/svg','path');line.setAttribute('d',`M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);line.setAttribute('stroke','rgba(253,105,105,0.15)');line.setAttribute('stroke-width','1.5');line.setAttribute('fill','none');line.setAttribute('stroke-dasharray','4,3');svg.appendChild(line);const dot=document.createElementNS('http://www.w3.org/2000/svg','circle');dot.setAttribute('r','3');dot.setAttribute('fill','#FD6969');dot.setAttribute('opacity','0.8');const anim=document.createElementNS('http://www.w3.org/2000/svg','animateMotion');anim.setAttribute('dur',(1.5+Math.random()).toFixed(1)+'s');anim.setAttribute('repeatCount','indefinite');anim.setAttribute('path',`M${x1},${y1} C${mx},${y1} ${mx},${y2} ${x2},${y2}`);dot.appendChild(anim);svg.appendChild(dot);});}
