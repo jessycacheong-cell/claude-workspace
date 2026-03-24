@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>J's Workflow Notebook</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg:          #04050a;
+    --card:        #0d0e18;
+    --raised:      #13141f;
+    --border:      rgba(255,255,255,0.08);
+    --coral:       #FD6969;
+    --coral-dim:   rgba(253,105,105,0.10);
+    --blue:        #4f8ef7;
+    --blue-dim:    rgba(79,142,247,0.10);
+    --green:       #4ade80;
+    --green-dim:   rgba(74,222,128,0.08);
+    --yellow:      #f59e0b;
+    --yellow-dim:  rgba(245,158,11,0.10);
+    --purple:      #a78bfa;
+    --purple-dim:  rgba(167,139,250,0.10);
+    --text-1:      #f0f2ff;
+    --text-2:      #8b8fa8;
+    --text-3:      #3e4157;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--text-1);
+    font-family: 'Space Grotesk', sans-serif;
+    min-height: 100vh;
+  }
+
+  body::before {
+    content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 0;
+    background:
+      radial-gradient(ellipse 70% 50% at 10% 0%,   rgba(253,105,105,0.06) 0%, transparent 60%),
+      radial-gradient(ellipse 50% 40% at 90% 100%,  rgba(79,142,247,0.05) 0%, transparent 55%),
+      radial-gradient(ellipse 40% 30% at 50% 50%,   rgba(167,139,250,0.03) 0%, transparent 60%);
+  }
+
+  .wrap {
+    position: relative; z-index: 1;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 24px 100px;
+  }
+
+  /* ── NAV ── */
+  .nav {
+    display: flex; align-items: center; justify-content: space-between;
+    margin-bottom: 64px;
+  }
+  .nav-logo {
+    display: flex; align-items: center; gap: 10px;
+    font-size: 15px; font-weight: 700; color: var(--text-1);
+    text-decoration: none;
+  }
+  .nav-logo-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: var(--coral);
+    box-shadow: 0 0 8px rgba(253,105,105,0.6);
+  }
+  .nav-back {
+    font-size: 13px; color: var(--text-2);
+    text-decoration: none;
+    display: flex; align-items: center; gap: 6px;
+    padding: 8px 14px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    transition: all 0.2s;
+  }
+  .nav-back:hover { color: var(--text-1); border-color: rgba(255,255,255,0.15); }
+
+  /* ── HERO ── */
+  .hero {
+    text-align: center;
+    margin-bottom: 72px;
+  }
+  .hero-eyebrow {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: var(--coral-dim);
+    border: 1px solid rgba(253,105,105,0.18);
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 12px; font-weight: 700;
+    color: var(--coral);
+    letter-spacing: 0.08em; text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+  .hero h1 {
+    font-size: clamp(36px, 6vw, 58px);
+    font-weight: 800;
+    line-height: 1.1;
+    margin-bottom: 18px;
+    letter-spacing: -0.02em;
+  }
+  .hero h1 .accent { color: var(--coral); }
+  .hero p {
+    font-size: 17px;
+    color: var(--text-2);
+    max-width: 520px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* ── STATS ── */
+  .stats {
+    display: flex; align-items: center; justify-content: center;
+    gap: 32px;
+    margin-top: 36px;
+    flex-wrap: wrap;
+  }
+  .stat {
+    text-align: center;
+  }
+  .stat-num {
+    font-size: 28px; font-weight: 800;
+    color: var(--coral);
+    line-height: 1;
+    margin-bottom: 4px;
+  }
+  .stat-label {
+    font-size: 12px; color: var(--text-2);
+    text-transform: uppercase; letter-spacing: 0.06em;
+  }
+  .stat-divider {
+    width: 1px; height: 40px;
+    background: var(--border);
+  }
+
+  /* ── SECTION LABEL ── */
+  .section-label {
+    display: flex; align-items: center; gap: 12px;
+    margin-bottom: 24px;
+  }
+  .section-label-text {
+    font-size: 12px; font-weight: 700;
+    color: var(--text-2);
+    text-transform: uppercase; letter-spacing: 0.08em;
+  }
+  .section-label-line {
+    flex: 1; height: 1px;
+    background: var(--border);
+  }
+
+  /* ── GRID ── */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+
+  /* ── CHAPTER CARD ── */
+  .chapter-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 28px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    display: block;
+  }
+  .chapter-card:hover {
+    transform: translateY(-3px);
+    border-color: rgba(255,255,255,0.14);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+  }
+  .chapter-card.live:hover {
+    border-color: var(--coral);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(253,105,105,0.15);
+  }
+  .chapter-card.coming {
+    cursor: default;
+    opacity: 0.6;
+  }
+  .chapter-card.coming:hover {
+    transform: none;
+    border-color: var(--border);
+    box-shadow: none;
+  }
+
+  /* glow blob behind card */
+  .card-glow {
+    position: absolute;
+    inset: 0; pointer-events: none;
+    border-radius: 20px;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
+  .chapter-card.live:hover .card-glow { opacity: 1; }
+
+  .card-top {
+    display: flex; align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .card-icon-wrap {
+    width: 52px; height: 52px;
+    border-radius: 14px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 26px;
+    border: 1px solid var(--border);
+  }
+  .card-badge {
+    font-size: 10px; font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase; letter-spacing: 0.07em;
+  }
+  .badge-live   { background: var(--coral-dim); color: var(--coral); border: 1px solid rgba(253,105,105,0.25); }
+  .badge-soon   { background: rgba(255,255,255,0.05); color: var(--text-3); border: 1px solid var(--border); }
+  .badge-new    { background: var(--green-dim); color: var(--green); border: 1px solid rgba(74,222,128,0.25); }
+
+  .card-chapter-num {
+    font-size: 11px; font-weight: 700;
+    color: var(--text-3);
+    text-transform: uppercase; letter-spacing: 0.08em;
+    margin-bottom: 8px;
+  }
+  .card-title {
+    font-size: 18px; font-weight: 700;
+    color: var(--text-1);
+    margin-bottom: 10px;
+    line-height: 1.3;
+  }
+  .card-desc {
+    font-size: 13px;
+    color: var(--text-2);
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .card-footer {
+    display: flex; align-items: center;
+    justify-content: space-between;
+    padding-top: 18px;
+    border-top: 1px solid var(--border);
+  }
+  .card-meta {
+    display: flex; align-items: center; gap: 14px;
+  }
+  .card-meta-item {
+    display: flex; align-items: center; gap: 5px;
+    font-size: 12px; color: var(--text-2);
+  }
+  .card-meta-dot {
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--text-3);
+  }
+  .card-cta {
+    font-size: 13px; font-weight: 700;
+    color: var(--coral);
+    display: flex; align-items: center; gap: 4px;
+    opacity: 0;
+    transform: translateX(-4px);
+    transition: all 0.2s ease;
+  }
+  .chapter-card.live:hover .card-cta {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  /* ── TOPICS ── */
+  .card-topics {
+    display: flex; flex-wrap: wrap; gap: 6px;
+    margin-bottom: 20px;
+  }
+  .topic-chip {
+    font-size: 11px; font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--border);
+    color: var(--text-2);
+  }
+
+  /* ── FEATURED CARD ── */
+  .chapter-card.featured {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+    align-items: center;
+  }
+  @media (max-width: 620px) {
+    .chapter-card.featured {
+      grid-template-columns: 1fr;
+    }
+  }
+  .featured-preview {
+    background: var(--raised);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+  }
+  .preview-steps {
+    display: flex; flex-direction: column; gap: 8px;
+  }
+  .preview-step {
+    display: flex; align-items: center; gap: 10px;
+  }
+  .preview-dot {
+    width: 20px; height: 20px; border-radius: 50%;
+    border: 2px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 9px; font-weight: 700; color: var(--text-3);
+    flex-shrink: 0;
+  }
+  .preview-dot.active {
+    border-color: var(--coral);
+    color: var(--coral);
+    background: var(--coral-dim);
+  }
+  .preview-line {
+    height: 1px; flex: 1;
+    background: var(--border);
+  }
+  .preview-line.active { background: var(--coral); }
+  .preview-bar {
+    height: 6px; border-radius: 3px;
+    background: var(--border);
+    overflow: hidden;
+  }
+  .preview-bar-fill {
+    height: 100%; width: 15%; border-radius: 3px;
+    background: var(--coral);
+    animation: barPulse 2s ease-in-out infinite;
+  }
+  @keyframes barPulse {
+    0%, 100% { opacity: 0.6; }
+    50% { opacity: 1; }
+  }
+
+  /* ── COMING SOON SECTION ── */
+  .coming-section { margin-top: 48px; }
+
+  /* ── FOOTER ── */
+  .footer {
+    margin-top: 80px;
+    text-align: center;
+    color: var(--text-3);
+    font-size: 13px;
+    line-height: 1.7;
+  }
+  .footer a { color: var(--coral); text-decoration: none; }
+
+  /* ── ANIMATIONS ── */
+  .fade-up {
+    opacity: 0; transform: translateY(20px);
+    animation: fadeUp 0.6s ease forwards;
+  }
+  @keyframes fadeUp {
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .fade-up:nth-child(1) { animation-delay: 0.05s; }
+  .fade-up:nth-child(2) { animation-delay: 0.12s; }
+  .fade-up:nth-child(3) { animation-delay: 0.19s; }
+  .fade-up:nth-child(4) { animation-delay: 0.26s; }
+  .fade-up:nth-child(5) { animation-delay: 0.33s; }
+  .fade-up:nth-child(6) { animation-delay: 0.40s; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- Nav -->
+  <div class="nav">
+    <a href="#" class="nav-logo">
+      <div class="nav-logo-dot"></div>
+      J's Workflow Notebook
+    </a>
+    <a href="https://jessycacheong-cell.netlify.app" class="nav-back">← Dashboard</a>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero fade-up">
+    <div class="hero-eyebrow">📓 Personal Learning Library</div>
+    <h1>How Everything<br><span class="accent">Actually Works</span></h1>
+    <p>Animated walkthroughs of every system, API, and automation powering your workflow. Built to understand, not just use.</p>
+    <div class="stats">
+      <div class="stat">
+        <div class="stat-num" id="liveCount">1</div>
+        <div class="stat-label">Live Chapter</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-num">7</div>
+        <div class="stat-label">Steps per Flow</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-num">∞</div>
+        <div class="stat-label">More Coming</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Live Chapters -->
+  <div class="section-label fade-up">
+    <div class="section-label-text">Available Now</div>
+    <div class="section-label-line"></div>
+  </div>
+
+  <div class="grid">
+
+    <!-- Chapter 1 — Featured -->
+    <a href="oauth-flow.html" class="chapter-card live featured fade-up">
+      <div class="card-glow" style="background:radial-gradient(ellipse at 20% 50%, rgba(253,105,105,0.08) 0%, transparent 70%);"></div>
+      <div>
+        <div class="card-top">
+          <div class="card-icon-wrap" style="background:var(--coral-dim);border-color:rgba(253,105,105,0.2);">🔐</div>
+          <span class="card-badge badge-live">Chapter 1</span>
+        </div>
+        <div class="card-chapter-num">Authentication · APIs</div>
+        <div class="card-title">How Google OAuth Works</div>
+        <div class="card-desc">The complete story of how your dashboard got permission to read your Gmail and Calendar — from registering an app in Google Cloud all the way to the Refresh Token that runs forever.</div>
+        <div class="card-topics">
+          <span class="topic-chip">OAuth 2.0</span>
+          <span class="topic-chip">Refresh Token</span>
+          <span class="topic-chip">Client ID + Secret</span>
+          <span class="topic-chip">Node.js</span>
+          <span class="topic-chip">GitHub Secrets</span>
+        </div>
+        <div class="card-footer">
+          <div class="card-meta">
+            <div class="card-meta-item">
+              <div class="card-meta-dot" style="background:var(--coral);"></div>
+              7 steps
+            </div>
+            <div class="card-meta-item">⏱ ~5 min</div>
+          </div>
+          <div class="card-cta">Watch now →</div>
+        </div>
+      </div>
+      <div class="featured-preview">
+        <div class="preview-steps">
+          <div class="preview-step">
+            <div class="preview-dot active">1</div>
+            <div class="preview-line active"></div>
+            <div class="preview-dot active">2</div>
+            <div class="preview-line active"></div>
+            <div class="preview-dot">3</div>
+            <div class="preview-line"></div>
+            <div class="preview-dot">4</div>
+          </div>
+        </div>
+        <div style="font-size:11px;color:var(--text-2);line-height:1.6;">
+          <div style="color:var(--coral);font-weight:700;margin-bottom:4px;">Currently on: Step 2</div>
+          The script reads your credentials and builds the Google login URL
+        </div>
+        <div class="preview-bar">
+          <div class="preview-bar-fill"></div>
+        </div>
+      </div>
+    </a>
+
+  </div>
+
+  <!-- Coming Soon -->
+  <div class="coming-section">
+    <div class="section-label fade-up">
+      <div class="section-label-text">Coming Soon</div>
+      <div class="section-label-line"></div>
+    </div>
+
+    <div class="grid">
+
+      <div class="chapter-card coming fade-up">
+        <div class="card-top">
+          <div class="card-icon-wrap" style="background:var(--blue-dim);border-color:rgba(79,142,247,0.15);">🤖</div>
+          <span class="card-badge badge-soon">Chapter 2</span>
+        </div>
+        <div class="card-chapter-num">Automation · Cloud</div>
+        <div class="card-title">How GitHub Actions Work</div>
+        <div class="card-desc">How GmailBot and CalendarBot wake up every 15 minutes in the cloud, fetch your data, and push it to GitHub without your laptop ever being open.</div>
+        <div class="card-topics">
+          <span class="topic-chip">GitHub Actions</span>
+          <span class="topic-chip">YAML Workflows</span>
+          <span class="topic-chip">Cron Jobs</span>
+          <span class="topic-chip">Secrets</span>
+        </div>
+        <div class="card-footer">
+          <div class="card-meta">
+            <div class="card-meta-item">⏱ ~5 min</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chapter-card coming fade-up">
+        <div class="card-top">
+          <div class="card-icon-wrap" style="background:var(--green-dim);border-color:rgba(74,222,128,0.15);">🌐</div>
+          <span class="card-badge badge-soon">Chapter 3</span>
+        </div>
+        <div class="card-chapter-num">Deployment · Hosting</div>
+        <div class="card-title">How Netlify Auto-Deploy Works</div>
+        <div class="card-desc">Why pushing one file to GitHub makes your live website update in 30 seconds — and how Netlify watches your repo to make it happen automatically.</div>
+        <div class="card-topics">
+          <span class="topic-chip">Netlify</span>
+          <span class="topic-chip">GitHub Webhooks</span>
+          <span class="topic-chip">CD Pipeline</span>
+        </div>
+        <div class="card-footer">
+          <div class="card-meta">
+            <div class="card-meta-item">⏱ ~4 min</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chapter-card coming fade-up">
+        <div class="card-top">
+          <div class="card-icon-wrap" style="background:var(--purple-dim);border-color:rgba(167,139,250,0.15);">📄</div>
+          <span class="card-badge badge-soon">Chapter 4</span>
+        </div>
+        <div class="card-chapter-num">Data · Architecture</div>
+        <div class="card-title">How data.json Powers the Dashboard</div>
+        <div class="card-desc">How one JSON file sitting on GitHub becomes the live data source for your entire dashboard — fetched by the browser, updated by bots, never touching a database.</div>
+        <div class="card-topics">
+          <span class="topic-chip">JSON</span>
+          <span class="topic-chip">GitHub Raw URL</span>
+          <span class="topic-chip">No Backend</span>
+        </div>
+        <div class="card-footer">
+          <div class="card-meta">
+            <div class="card-meta-item">⏱ ~4 min</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="chapter-card coming fade-up">
+        <div class="card-top">
+          <div class="card-icon-wrap" style="background:var(--yellow-dim);border-color:rgba(245,158,11,0.15);">🔄</div>
+          <span class="card-badge badge-soon">Chapter 5</span>
+        </div>
+        <div class="card-chapter-num">Systems · Full Stack</div>
+        <div class="card-title">The Full Bot Pipeline</div>
+        <div class="card-desc">Every bot, every API, every data flow — connected. See how GmailBot, CalendarBot, InboxBot, and MilestoneBot all talk to the same data.json and keep your dashboard alive.</div>
+        <div class="card-topics">
+          <span class="topic-chip">System Design</span>
+          <span class="topic-chip">All Bots</span>
+          <span class="topic-chip">End to End</span>
+        </div>
+        <div class="card-footer">
+          <div class="card-meta">
+            <div class="card-meta-item">⏱ ~6 min</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer fade-up">
+    Built by J · <a href="https://jessycacheong-cell.netlify.app">Dashboard</a> · New chapters added as we build
+  </div>
+
+</div>
+</body>
+</html>
