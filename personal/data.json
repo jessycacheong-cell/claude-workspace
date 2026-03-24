@@ -54,14 +54,18 @@
       "url": "https://github.com/jessycacheong-cell/umei3d-app"
     }
   },
-  "gmail": [
-    { "from": "Publer", "subject": "Your post didn't get published", "time": "1h ago", "unread": true },
-    { "from": "Careerflow Inc.", "subject": "Your receipt from Careerflow Inc. #2025-3078", "time": "2h ago", "unread": false },
-    { "from": "Cory @ Synthesia", "subject": "[Feature Friday] WIN a Mac Mini?", "time": "3h ago", "unread": false },
-    { "from": "Indeed Apply", "subject": "Indeed Application: Community Resource Distribution Coordinator", "time": "4h ago", "unread": false },
-    { "from": "Pasadena Humane", "subject": "Your Application Submission - Community Resource Distribution Coordinator", "time": "4h ago", "unread": false }
-  ],
-  "gmailUpdated": "2026-03-23T23:30:00.000Z",
+  "inbox": {
+    "gmail": [
+      { "from": "Publer", "subject": "Your post didn't get published", "time": "1h ago", "unread": true },
+      { "from": "Careerflow Inc.", "subject": "Your receipt from Careerflow Inc. #2025-3078", "time": "2h ago", "unread": false },
+      { "from": "Cory @ Synthesia", "subject": "[Feature Friday] WIN a Mac Mini?", "time": "3h ago", "unread": false },
+      { "from": "Indeed Apply", "subject": "Indeed Application: Community Resource Distribution Coordinator", "time": "4h ago", "unread": false },
+      { "from": "Pasadena Humane", "subject": "Your Application Submission - Community Resource Distribution Coordinator", "time": "4h ago", "unread": false }
+    ],
+    "gmailUpdated": "2026-03-23T23:30:00.000Z",
+    "gorgias": [],
+    "gorgiasUpdated": null
+  },
   "agenda": [
     { "title": "Daily Job List Ready — March 23, 2026", "time": "12:05 PM", "end": "12:20 PM", "allDay": false },
     { "title": "Test", "time": "8:15 PM", "end": "9:15 PM", "allDay": false }
