@@ -118,4 +118,5 @@ jobs:
           git config user.email "bot@jessyca-dashboard"
           git add personal/data.json
           git diff --staged --quiet || git commit -m "GmailBot: refresh inbox [skip ci]"
+          git pull --rebase origin main
           git push

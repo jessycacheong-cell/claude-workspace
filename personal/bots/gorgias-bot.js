@@ -50,11 +50,11 @@ async function main() {
   try {
     const res     = await fetchGorgias();
     const tickets = (res.data || []).slice(0, 5).map(t => ({
-      id:       t.id,
-      subject:  t.subject || '(No subject)',
-      customer: t.requester?.email || 'Unknown',
-      status:   t.status,
-      time:     timeAgo(t.created_datetime)
+      id:        t.id,
+      subject:   t.subject || '(No subject)',
+      customer:  t.requester?.email || 'Unknown',
+      status:    t.status,
+      timestamp: t.created_datetime
     }));
 
     const dataPath = path.join(__dirname, '../data.json');

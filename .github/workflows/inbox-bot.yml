@@ -34,4 +34,5 @@ jobs:
           git add personal/data.json
           git diff --staged --quiet || git commit -m "InboxBot: refresh Gorgias tickets [skip ci]"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jessycacheong-cell/claude-workspace.git
+          git pull --rebase origin main
           git push

@@ -140,4 +140,5 @@ jobs:
           git config user.email "bot@jessyca-dashboard"
           git add personal/data.json
           git diff --staged --quiet || git commit -m "CalendarBot: refresh agenda [skip ci]"
+          git pull --rebase origin main
           git push

@@ -1562,7 +1562,7 @@ function renderInbox(inbox){
       <div class="inbox-item">
         <div class="inbox-from">#${t.id} · ${t.customer}</div>
         <div class="inbox-subject">${t.subject}</div>
-        <div class="inbox-meta">${t.time} · <span style="color:var(--text-2)">${t.status}</span></div>
+        <div class="inbox-meta">${t.timestamp ? timeAgo(t.timestamp) : (t.time || '')} · <span style="color:var(--text-2)">${t.status}</span></div>
       </div>`).join('');
   } else if(gorgiasEl){ gorgiasEl.innerHTML='<div class="inbox-empty">No open tickets</div>'; }
   if(gmailUp && inbox.gmailUpdated) gmailUp.textContent='Updated '+new Date(inbox.gmailUpdated).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
