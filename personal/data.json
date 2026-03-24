@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T22:00:06.141Z",
+  "lastUpdated": "2026-03-24T22:01:13.473Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Google Merchant Center",
+        "subject": "Action required: Verify your website",
+        "timestamp": "2026-03-24T21:56:30.000Z",
+        "unread": true
+      },
+      {
         "from": "GitHub",
         "subject": "[GitHub] Sudo email verification code",
         "timestamp": "2026-03-24T18:36:03.000Z",
@@ -79,15 +85,9 @@
         "subject": "Your receipt from Careerflow Inc. #2025-3078",
         "timestamp": "2026-03-23T22:56:47.000Z",
         "unread": false
-      },
-      {
-        "from": "Cory @ Synthesia",
-        "subject": "🔥 [Feature Friday] WIN a Mac Mini?",
-        "timestamp": "2026-03-23T21:47:49.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-03-24T18:38:32.190Z",
+    "gmailUpdated": "2026-03-24T22:01:13.473Z",
     "gorgias": [
       {
         "id": 89832641,
