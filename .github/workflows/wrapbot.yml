@@ -1,0 +1,114 @@
+name: WrapBot — Daily Session Wrap
+
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 8PM CST (UTC-6) = 2:00 UTC
+  workflow_dispatch:       # manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  wrap:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Pull latest data
+        run: git pull origin main
+
+      - name: Generate daily wrap with Claude
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          node << 'EOF'
+          const https = require('https');
+          const fs = require('fs');
+
+          const data = JSON.parse(fs.readFileSync('personal/data.json', 'utf8'));
+
+          const milestonesSummary = (data.milestones || [])
+            .map(m => `M${m.id} ${m.name}: ${m.status} (${m.progress || 0}%)`)
+            .join(', ');
+
+          const gorgiasOpen = (data.inbox?.gorgias || []).filter(t => t.status === 'open').length;
+          const gmailCount = (data.inbox?.gmail || []).length;
+          const tomorrowTasks = (data.tomorrowTasks || []).join('\n- ');
+
+          const prompt = `You are WrapBot, J's personal daily session summarizer. J runs UMEI3D, a 3D-printed recovery footwear brand based in Austin TX.
+
+Today's session log: "${data.todayLog || 'No log recorded.'}"
+Milestones: ${milestonesSummary}
+Gmail inbox: ${gmailCount} emails. Gorgias open tickets: ${gorgiasOpen}.
+Tomorrow's planned tasks:
+- ${tomorrowTasks || 'Nothing planned yet.'}
+
+Write a short casual daily wrap (2-3 sentences max) in J's voice — warm, confident, not corporate. Then list 3 "What's Next" bullet points for tomorrow that are specific and actionable.
+
+Respond ONLY with valid JSON in this exact format:
+{"wrap":"...","nextSession":["...","...","..."]}`;
+
+          function callClaude(prompt) {
+            return new Promise((resolve, reject) => {
+              const body = JSON.stringify({
+                model: 'claude-sonnet-4-6',
+                max_tokens: 400,
+                messages: [{ role: 'user', content: prompt }]
+              });
+              const req = https.request({
+                hostname: 'api.anthropic.com',
+                path: '/v1/messages',
+                method: 'POST',
+                headers: {
+                  'Content-Type': 'application/json',
+                  'x-api-key': process.env.ANTHROPIC_API_KEY,
+                  'anthropic-version': '2023-06-01',
+                  'Content-Length': Buffer.byteLength(body)
+                }
+              }, res => {
+                let d = '';
+                res.on('data', c => d += c);
+                res.on('end', () => resolve(JSON.parse(d)));
+              });
+              req.on('error', reject);
+              req.write(body); req.end();
+            });
+          }
+
+          async function main() {
+            const res = await callClaude(prompt);
+            const text = res.content?.[0]?.text || '';
+            console.log('Claude response:', text);
+
+            const match = text.match(/\{[\s\S]*\}/);
+            if (!match) throw new Error('No JSON in response: ' + text);
+            const result = JSON.parse(match[0]);
+
+            data.todayLog = result.wrap || data.todayLog;
+            data.nextSession = result.nextSession || [];
+            data.lastUpdated = new Date().toISOString();
+
+            // Update WrapBot record in automations
+            const wa = (data.automations || []).find(a => a.name === 'WrapBot');
+            if (wa) { wa.lastRun = new Date().toISOString(); wa.status = 'ok'; }
+
+            fs.writeFileSync('personal/data.json', JSON.stringify(data, null, 2));
+            console.log('WrapBot done. Wrap:', result.wrap?.substring(0, 80) + '...');
+          }
+
+          main().catch(e => { console.error(e); process.exit(1); });
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "WrapBot"
+          git config user.email "bot@jessyca-dashboard"
+          git add personal/data.json
+          git diff --staged --quiet || git commit -m "WrapBot: daily session wrap [skip ci]"
+          git push || (git pull --rebase origin main && git push)

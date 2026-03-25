@@ -1644,6 +1644,15 @@ function initPixelStudio(){
     return{...b,x:sx,y:sy,tx:sx,ty:sy,state:'idle',timer:20+i*15,atDesk:false,dir:'south'};
   });
 
+  // Claude WrapBot — single desk on opposite (bottom) wall, runs at 8PM daily
+  const CLAUDE_DESK={cx:90, cy:128, pcLabel:'Claude', w:48, h:32};
+  const CLAUDE_BOT={key:'WrapBot',label:'WrapBot',short:'Wrap',color:'#f97316',charIdx:1};
+  const claudeAgent={...CLAUDE_BOT,
+    x:(CLAUDE_DESK.cx+16)/P, y:(CLAUDE_DESK.cy-12)/P,
+    tx:(CLAUDE_DESK.cx+16)/P, ty:(CLAUDE_DESK.cy-12)/P,
+    state:'working', dir:'south', atDesk:true
+  };
+
   function r(x,y,w,h,c,a=1){
     ctx.globalAlpha=a; ctx.fillStyle=c;
     ctx.fillRect(Math.round(x)*P,Math.round(y)*P,Math.max(1,w)*P,Math.max(1,h)*P);
@@ -1675,8 +1684,8 @@ function initPixelStudio(){
     spr(fi.plant,0,0,32,48, (DIVX-20)*P, LH*P-52);
   }
 
-  function drawDesk(di){
-    const d=DESKS[di], b=BOTS[di];
+  function drawDesk(d, b, diIdx=0){
+    const di=diIdx;
     // Chair (tucked under desk)
     spr(fi.chair,0,0,16,32, d.cx+16, d.cy+d.h-6);
     // Desk
@@ -1684,7 +1693,7 @@ function initPixelStudio(){
     // PC sitting ON the desk surface
     spr(fi.pc,0,0,16,32, d.cx+16, d.cy+2);
     // PC glow
-    const p=0.22+Math.sin(tick*0.12+di*1.5)*0.12;
+    const p=0.22+Math.sin(tick*0.12+(di||0)*1.5)*0.12;
     ctx.strokeStyle=b.color; ctx.globalAlpha=p; ctx.lineWidth=1;
     ctx.strokeRect(d.cx+15, d.cy+1, 18, 32); ctx.globalAlpha=1;
     // Screen light — very subtle tint only
@@ -1838,13 +1847,16 @@ function initPixelStudio(){
   }
 
   function updateAgents(){
-    // Desk bots are always seated and working — never leave their chairs
+    // GitHub bots — always seated at top desks, facing north
     agents.forEach(ag=>{
       const d=DESKS[ag.deskIdx];
       ag.x=(d.cx+16)/P; ag.y=(d.cy+d.h-4)/P;
       ag.tx=ag.x; ag.ty=ag.y;
       ag.state='working'; ag.dir='north';
     });
+    // Claude WrapBot — locked to bottom desk, facing south (toward viewer)
+    claudeAgent.x=(CLAUDE_DESK.cx+16)/P; claudeAgent.y=(CLAUDE_DESK.cy-12)/P;
+    claudeAgent.state='working'; claudeAgent.dir='south';
   }
 
   function updateIdleAgents(){
@@ -1869,15 +1881,23 @@ function initPixelStudio(){
   function draw(){
     ctx.clearRect(0,0,canvas.width,canvas.height);
     drawFloor(); drawBookshelves(); drawOfficeDecor();
-    DESKS.forEach((_,i)=>drawDesk(i));
+    DESKS.forEach((d,i)=>drawDesk(d,BOTS[i],i));
+    drawDesk(CLAUDE_DESK,CLAUDE_BOT,99);
     drawDashboard(); drawParticles();
-    [...agents,...idleAgents].sort((a,b)=>a.y-b.y).forEach(ag=>drawAgent(ag));
+    [...agents,claudeAgent,...idleAgents].sort((a,b)=>a.y-b.y).forEach(ag=>drawAgent(ag));
     const el=document.getElementById('pixel-status');
     if(el){
       const working=agents.filter(a=>a.state==='working').map(a=>a.label);
       const walking=agents.filter(a=>a.state==='walking').map(a=>a.label);
-      const idleCount=idleAgents.length;
-      if(working.length) el.innerHTML=`<span style="color:var(--green)">⚡ Working: </span><span style="color:var(--text-2)">${working.join(', ')}</span><span style="color:var(--text-3)"> · ${idleCount} Claude agents idle</span>`;
+      // 8PM label under Claude desk
+    ctx.font='bold 6px monospace'; ctx.textAlign='center';
+    ctx.fillStyle='rgba(0,0,0,0.65)';
+    ctx.fillRect(CLAUDE_DESK.cx+24-18, CLAUDE_DESK.cy+CLAUDE_DESK.h+8, 36, 9);
+    ctx.fillStyle='#f97316'; ctx.globalAlpha=0.9;
+    ctx.fillText('8PM daily', CLAUDE_DESK.cx+24, CLAUDE_DESK.cy+CLAUDE_DESK.h+16);
+    ctx.globalAlpha=1; ctx.textAlign='left';
+    const idleCount=idleAgents.length;
+      if(working.length) el.innerHTML=`<span style="color:var(--green)">⚡ Working: </span><span style="color:var(--text-2)">${working.join(', ')}, WrapBot</span><span style="color:var(--text-3)"> · ${idleCount} idle</span>`;
       else if(walking.length) el.innerHTML=`<span style="color:var(--blue)">On the move: </span><span style="color:var(--text-2)">${walking.join(', ')}</span><span style="color:var(--text-3)"> · ${idleCount} idle</span>`;
       else el.innerHTML=`<span style="color:var(--text-3)">All agents chilling ✦ · ${idleCount} Claude bots idle</span>`;
     }
