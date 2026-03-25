@@ -1687,22 +1687,23 @@ function initPixelStudio(){
     const p=0.22+Math.sin(tick*0.12+di*1.5)*0.12;
     ctx.strokeStyle=b.color; ctx.globalAlpha=p; ctx.lineWidth=1;
     ctx.strokeRect(d.cx+15, d.cy+1, 18, 32); ctx.globalAlpha=1;
-    // Screen light spilling onto sitting bot
-    ctx.globalAlpha=0.07+Math.sin(tick*0.09+di*1.2)*0.03;
+    // Screen light — very subtle tint only
+    ctx.globalAlpha=0.03;
     ctx.fillStyle=b.color;
     ctx.fillRect(d.cx+8, d.cy, 34, 52); ctx.globalAlpha=1;
-    // Computer/service name above PC
-    ctx.font='bold 5px monospace'; ctx.textAlign='center';
-    ctx.fillStyle='#000'; ctx.globalAlpha=0.7;
-    ctx.fillText(d.pcLabel, d.cx+24+1, d.cy-1);
-    ctx.fillStyle=b.color; ctx.globalAlpha=0.95;
-    ctx.fillText(d.pcLabel, d.cx+24, d.cy-2);
-    // Bot name on desk face (small tag)
-    ctx.font='5px monospace';
-    ctx.fillStyle='#000'; ctx.globalAlpha=0.5;
-    ctx.fillText(b.short, d.cx+24+1, d.cy+d.h-3);
-    ctx.fillStyle='#e8eaf2'; ctx.globalAlpha=0.7;
-    ctx.fillText(b.short, d.cx+24, d.cy+d.h-4);
+    // Computer/service name — dark bg pill above PC
+    ctx.font='bold 7px monospace'; ctx.textAlign='center';
+    const pw=ctx.measureText(d.pcLabel).width;
+    ctx.fillStyle='rgba(0,0,0,0.75)';
+    ctx.fillRect(d.cx+24-pw/2-2, d.cy-12, pw+4, 9);
+    ctx.fillStyle=b.color; ctx.globalAlpha=1;
+    ctx.fillText(d.pcLabel, d.cx+24, d.cy-5);
+    // Bot short name on desk
+    ctx.font='6px monospace';
+    ctx.fillStyle='rgba(0,0,0,0.6)';
+    ctx.fillRect(d.cx+24-10, d.cy+d.h+2, 20, 8);
+    ctx.fillStyle='#e8eaf2'; ctx.globalAlpha=0.9;
+    ctx.fillText(b.short, d.cx+24, d.cy+d.h+9);
     ctx.globalAlpha=1; ctx.textAlign='left';
   }
 
@@ -1752,9 +1753,6 @@ function initPixelStudio(){
       ctx.globalAlpha=1;
     });
     ctx.textAlign='left';
-    // Sofa in front of screen
-    spr(fi.sofa_b,0,0,32,16, lx, 60);
-    spr(fi.sofa_b,0,0,32,16, lx, 76);
     // Plants
     spr(fi.plant,0,0,32,48, lx-2, LH*P-52);
     spr(fi.plant,0,0,32,48, LW*P-36, 10);
@@ -1806,11 +1804,23 @@ function initPixelStudio(){
       ctx.globalAlpha=0.85; ctx.fillStyle=ag.color;
       ctx.fillRect(px+2,py,SW-4,SH); ctx.globalAlpha=1;
     }
-    // bot label above head
-    ctx.font='bold 7px monospace';
-    ctx.textAlign='center'; ctx.globalAlpha=0.9;
-    ctx.fillStyle='#000'; ctx.fillText(ag.label,px+SW/2+1,py-1);
-    ctx.fillStyle=ag.color; ctx.fillText(ag.label,px+SW/2,py-2);
+    // bot label above head — dark pill background for readability
+    ctx.font='bold 8px monospace';
+    ctx.textAlign='center';
+    const labelW=ctx.measureText(ag.label).width;
+    ctx.fillStyle='rgba(0,0,0,0.7)';
+    ctx.fillRect(px+SW/2-labelW/2-2, py-13, labelW+4, 10);
+    ctx.globalAlpha=1;
+    ctx.fillStyle=ag.color;
+    ctx.fillText(ag.label, px+SW/2, py-5);
+    // "idle" tag for Claude bots
+    if(ag.state==='idle'||ag.state==='walking'&&ag.atDesk===false&&ag.key&&ag.key.startsWith('Claude')){
+      ctx.font='6px monospace';
+      ctx.fillStyle='rgba(0,0,0,0.65)';
+      ctx.fillRect(px+SW/2-9, py+SH+1, 18, 8);
+      ctx.fillStyle='#94a3b8';
+      ctx.fillText('idle', px+SW/2, py+SH+8);
+    }
     ctx.globalAlpha=1; ctx.textAlign='left';
     // working glow ring
     if(ag.state==='working'){
