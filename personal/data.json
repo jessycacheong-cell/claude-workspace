@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-25T05:17:57.053Z",
     "gorgias": [
       {
-        "id": 89902791,
-        "subject": "TEst",
+        "id": 89932344,
+        "subject": "SBA Ancor and others share their thoughts on LinkedIn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-25T04:15:58+00:00"
+      },
+      {
+        "id": 89932142,
+        "subject": "👏👏❤️",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-03-24T23:36:17+00:00"
+        "timestamp": "2026-03-25T04:13:15+00:00"
       },
       {
-        "id": 89873966,
-        "subject": "hellloooo!!!! (get discovered without the manual work)",
+        "id": 89931460,
+        "subject": "[ALERT] You've reached 90% of your monthly limit.",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-24T20:31:44+00:00"
+        "timestamp": "2026-03-25T04:04:04.006000+00:00"
       },
       {
-        "id": 89870938,
-        "subject": "Direct message with fiadelinesahusebu2002",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-24T20:15:27.675000+00:00"
-      },
-      {
-        "id": 89832641,
-        "subject": "A record-breaking week on Kickstarter",
+        "id": 89917951,
+        "subject": "Re: Order #1680 confirmed",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-24T17:04:08+00:00"
+        "timestamp": "2026-03-25T01:41:31+00:00"
       },
       {
-        "id": 89833172,
-        "subject": "Come back and join us for 25% off",
+        "id": 89916736,
+        "subject": "Klaviyo Invoice",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-24T17:04:06+00:00"
+        "timestamp": "2026-03-25T01:30:07.214000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-25T00:00:53.253Z"
+    "gorgiasUpdated": "2026-03-25T05:23:42.384Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-03-24T23:58:38.199Z",
