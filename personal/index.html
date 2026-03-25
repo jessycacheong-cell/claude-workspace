@@ -1832,29 +1832,12 @@ function initPixelStudio(){
   }
 
   function updateAgents(){
+    // Desk bots are always seated and working — never leave their chairs
     agents.forEach(ag=>{
-      const dx=ag.tx-ag.x, dy=ag.ty-ag.y, dist=Math.sqrt(dx*dx+dy*dy);
-      if(dist>0.5){
-        ag.x+=dx/dist*0.15; ag.y+=dy/dist*0.15; ag.state='walking';
-        if(Math.abs(dx)>Math.abs(dy)) ag.dir=dx>0?'east':'west';
-        else ag.dir=dy>0?'south':'north';
-      }
-      else{
-        ag.x=ag.tx; ag.y=ag.ty; ag.timer--;
-        if(ag.timer<=0){
-          const status=getBotStatus(ag.key);
-          const active=(status==='active'||status==='recent')||Math.random()<0.35;
-          if(ag.deskIdx>=0&&active){
-            const d=DESKS[ag.deskIdx]; ag.tx=(d.cx+16)/P; ag.ty=(d.cy+d.h+4)/P;
-            ag.atDesk=true; ag.state='working'; ag.timer=80+Math.floor(Math.random()*130);
-          } else {
-            const goLounge=ag.deskIdx<0||(!active&&Math.random()<0.3);
-            if(goLounge){ ag.tx=DIVX+6+Math.random()*40; ag.ty=18+Math.random()*52; }
-            else { ag.tx=10+Math.random()*94; ag.ty=32+Math.random()*40; }
-            ag.atDesk=false; ag.state='walking'; ag.timer=50+Math.floor(Math.random()*100);
-          }
-        } else { ag.state=ag.atDesk?'working':'idle'; }
-      }
+      const d=DESKS[ag.deskIdx];
+      ag.x=(d.cx+16)/P; ag.y=(d.cy+d.h+4)/P;
+      ag.tx=ag.x; ag.ty=ag.y;
+      ag.state='working'; ag.dir='north';
     });
   }
 
