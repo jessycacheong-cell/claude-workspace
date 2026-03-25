@@ -1160,7 +1160,7 @@
       <div class="df-col" id="df-col-bots">
         <div class="df-col-label" style="opacity:0;margin-bottom:4px;">Bots</div>
         <div class="df-nodes">
-          <!-- GitHub section -->
+          <!-- All bots — one section -->
           <div class="df-section-divider">
             <span class="df-section-label github">⚡ GitHub Actions — 24/7 Cloud</span>
             <div class="df-section-line"></div>
@@ -1177,11 +1177,6 @@
             <div class="df-bot-info"><div class="df-bot-name">InboxBot</div><div class="df-bot-sched">Every 30min · Gorgias → data.json</div></div>
             <span class="df-badge live">LIVE</span>
           </div>
-          <!-- Claude section -->
-          <div class="df-section-divider" style="margin-top:10px;">
-            <span class="df-section-label claude">✦ GitHub Actions — 24/7 Automated</span>
-            <div class="df-section-line"></div>
-          </div>
           <div class="df-bot live" id="dfb-gmail">
             <div class="df-bot-glow" style="background:radial-gradient(ellipse at 20% 50%, rgba(69,131,253,0.12) 0%, transparent 70%);"></div>
             <div class="df-bot-icon">🤖</div>
@@ -1191,12 +1186,6 @@
           <div class="df-bot live" id="dfb-calendar">
             <div class="df-bot-icon">🤖</div>
             <div class="df-bot-info"><div class="df-bot-name">CalendarBot</div><div class="df-bot-sched">Every 15min · GCal → data.json</div></div>
-            <span class="df-badge live">LIVE</span>
-          </div>
-          <div class="df-bot live" id="dfb-shopify">
-            <div class="df-bot-glow" style="background:radial-gradient(ellipse at 20% 50%, rgba(245,158,11,0.12) 0%, transparent 70%);"></div>
-            <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">ShopifyBot</div><div class="df-bot-sched">Every 15min · Sheets → data.json</div></div>
             <span class="df-badge live">LIVE</span>
           </div>
           <div class="df-bot pending" id="dfb-git">
@@ -1566,7 +1555,6 @@ function drawFlowLines(){
   addConn('dfn-gorgias','dfb-inbox','right','left','#22d47a',true,2.2);
   // Sources → Claude Bots
   addConn('dfn-gmail','dfb-gmail','right','left','#4583fd',true,1.8);
-  addConn('dfn-sheets','dfb-shopify','right','left','#f59e0b',true,2.0);
   addConn('dfn-gcal','dfb-calendar','right','left','#a78bfa',true,1.6);
   // GitHub Bots → Output
   addConn('dfb-milestone','dfn-datajson','right','left','#4ade80',true,2.2);
@@ -1576,7 +1564,6 @@ function drawFlowLines(){
   addConn('dfb-log','dfn-netlify','right','left','#FD6969',false,0);
   // Claude Bots → Output
   addConn('dfb-gmail','dfn-datajson','right','left','#4583fd',true,1.8);
-  addConn('dfb-shopify','dfn-datajson','right','left','#f59e0b',true,2.0);
   addConn('dfb-calendar','dfn-datajson','right','left','#a78bfa',true,1.6);
   // Output: data.json → netlify → dashboard
   addConn('dfn-datajson','dfn-dashboard','bottom','top','#4ade80',true,1.8);
