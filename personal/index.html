@@ -1623,13 +1623,25 @@ function initPixelStudio(){
   const particles=[];
   function spawnParticle(){
     const b=BOTS[Math.floor(Math.random()*4)];
-    particles.push({x:DIVX*P-2, y:76+Math.random()*48, vx:1.2+Math.random()*0.8, vy:(Math.random()-0.5)*0.4, color:b.color, life:1.0});
+    particles.push({x:DIVX*P-2, y:80+Math.random()*38, vx:1.2+Math.random()*0.8, vy:(Math.random()-0.5)*0.4, color:b.color, life:1.0});
   }
 
   const agents=BOTS.map((b,i)=>{
     const d=DESKS[i];
     const lx=(d.cx+16)/P, ly=(d.cy+d.h+4)/P;
     return{...b,x:lx,y:ly,tx:lx,ty:ly,deskIdx:i,state:'working',timer:180+i*30,atDesk:true,dir:'north'};
+  });
+
+  // 4 idle Claude Agent bots — no work assigned yet, they wander the dashboard room
+  const IDLE_BOTS=[
+    {key:'ClaudeA',label:'Claude',short:'Claude',color:'#60a5fa',charIdx:0},
+    {key:'ClaudeB',label:'Claude',short:'Claude',color:'#c084fc',charIdx:1},
+    {key:'ClaudeC',label:'Claude',short:'Claude',color:'#4ade80',charIdx:2},
+    {key:'ClaudeD',label:'Claude',short:'Claude',color:'#fb923c',charIdx:3},
+  ];
+  const idleAgents=IDLE_BOTS.map((b,i)=>{
+    const sx=DIVX+10+(i%2)*22, sy=14+Math.floor(i/2)*40;
+    return{...b,x:sx,y:sy,tx:sx,ty:sy,state:'idle',timer:20+i*15,atDesk:false,dir:'south'};
   });
 
   function r(x,y,w,h,c,a=1){
@@ -1655,6 +1667,10 @@ function initPixelStudio(){
       if(fy>=40&&fy<60){ r(DIVX,fy,2,2,((DIVX>>1)+(fy>>1))%2===0?'#b89060':'#c4a070'); }
       else { r(DIVX,fy,1,2,'#1a1b2e'); r(DIVX+1,fy,1,2,'#252640'); }
     }
+    // Doorway bridge glow — red accent aligned with opening
+    ctx.globalAlpha=0.28+Math.sin(tick*0.06)*0.1;
+    ctx.fillStyle='#FD6969';
+    ctx.fillRect(DIVX*P-1, 80, 4, 40); ctx.globalAlpha=1;
   }
 
   function drawBookshelves(){
@@ -1675,6 +1691,10 @@ function initPixelStudio(){
     const p=0.22+Math.sin(tick*0.12+di*1.5)*0.12;
     ctx.strokeStyle=b.color; ctx.globalAlpha=p; ctx.lineWidth=1;
     ctx.strokeRect(d.cx+15, d.cy-15, 18, 32); ctx.globalAlpha=1;
+    // Screen light spilling onto sitting bot
+    ctx.globalAlpha=0.07+Math.sin(tick*0.09+di*1.2)*0.03;
+    ctx.fillStyle=b.color;
+    ctx.fillRect(d.cx+8, d.cy-16, 34, 62); ctx.globalAlpha=1;
     // Computer/service name above PC
     ctx.font='bold 5px monospace'; ctx.textAlign='center';
     ctx.fillStyle='#000'; ctx.globalAlpha=0.7;
@@ -1769,7 +1789,7 @@ function initPixelStudio(){
     const SW=16,SH=32; // sprite frame size
     const img=charImgs[ag.charIdx];
     const row=ag.dir==='north'?1:ag.dir==='east'||ag.dir==='west'?2:0;
-    const frame=ag.state==='walking'?Math.floor(tick/7)%4:0;
+    const frame=ag.state==='walking'?Math.floor(tick/7)%4:ag.state==='working'?Math.floor(tick/8)%2:0;
     const sx=frame*SW, sy=row*SH;
     // shadow
     ctx.globalAlpha=0.2; ctx.fillStyle='#000';
@@ -1838,21 +1858,41 @@ function initPixelStudio(){
     });
   }
 
+  function updateIdleAgents(){
+    idleAgents.forEach(ag=>{
+      const dx=ag.tx-ag.x,dy=ag.ty-ag.y,dist=Math.sqrt(dx*dx+dy*dy);
+      if(dist>0.5){
+        ag.x+=dx/dist*0.1; ag.y+=dy/dist*0.1; ag.state='walking';
+        if(Math.abs(dx)>Math.abs(dy)) ag.dir=dx>0?'east':'west';
+        else ag.dir=dy>0?'south':'north';
+      } else {
+        ag.x=ag.tx; ag.y=ag.ty; ag.timer--;
+        if(ag.timer<=0){
+          ag.tx=DIVX+6+Math.random()*(LW-DIVX-14);
+          ag.ty=12+Math.random()*(LH-24);
+          ag.timer=50+Math.floor(Math.random()*90);
+        }
+        ag.state='idle';
+      }
+    });
+  }
+
   function draw(){
     ctx.clearRect(0,0,canvas.width,canvas.height);
     drawFloor(); drawBookshelves(); drawOfficeDecor();
     DESKS.forEach((_,i)=>drawDesk(i));
     drawDashboard(); drawParticles();
-    [...agents].sort((a,b)=>a.y-b.y).forEach(ag=>drawAgent(ag));
+    [...agents,...idleAgents].sort((a,b)=>a.y-b.y).forEach(ag=>drawAgent(ag));
     const el=document.getElementById('pixel-status');
     if(el){
       const working=agents.filter(a=>a.state==='working').map(a=>a.label);
       const walking=agents.filter(a=>a.state==='walking').map(a=>a.label);
-      if(working.length) el.innerHTML=`<span style="color:var(--green)">⚡ Working: </span><span style="color:var(--text-2)">${working.join(', ')}</span>`;
-      else if(walking.length) el.innerHTML=`<span style="color:var(--blue)">🚶 On the move: </span><span style="color:var(--text-2)">${walking.join(', ')}</span>`;
-      else el.innerHTML=`<span style="color:var(--text-3)">All agents chilling ✦</span>`;
+      const idleCount=idleAgents.length;
+      if(working.length) el.innerHTML=`<span style="color:var(--green)">⚡ Working: </span><span style="color:var(--text-2)">${working.join(', ')}</span><span style="color:var(--text-3)"> · ${idleCount} Claude agents idle</span>`;
+      else if(walking.length) el.innerHTML=`<span style="color:var(--blue)">On the move: </span><span style="color:var(--text-2)">${walking.join(', ')}</span><span style="color:var(--text-3)"> · ${idleCount} idle</span>`;
+      else el.innerHTML=`<span style="color:var(--text-3)">All agents chilling ✦ · ${idleCount} Claude bots idle</span>`;
     }
-    tick++; updateAgents();
+    tick++; updateAgents(); updateIdleAgents();
   }
   setInterval(draw,1000/30); draw();
 }
