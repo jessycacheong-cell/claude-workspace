@@ -646,6 +646,46 @@
   .footer { text-align:center; padding:20px 20px 10px; font-size:11px; color:var(--text-3); position:relative; z-index:1; }
   a { color:var(--blue); text-decoration:none; }
   a:hover { text-decoration:underline; }
+
+  /* ── MONTHLY CALENDAR ── */
+  .cal-header { display:flex; align-items:center; justify-content:space-between; margin-bottom:16px; }
+  .cal-nav { display:flex; align-items:center; gap:10px; }
+  .cal-nav-btn { width:30px; height:30px; border-radius:8px; border:1px solid var(--border); background:rgba(255,255,255,0.04); color:var(--text-1); cursor:pointer; font-size:16px; display:flex; align-items:center; justify-content:center; transition:all .15s; font-family:'Space Grotesk',sans-serif; }
+  .cal-nav-btn:hover { background:rgba(255,255,255,0.09); border-color:rgba(255,255,255,0.15); }
+  .cal-month-label { font-size:17px; font-weight:800; color:var(--text-1); letter-spacing:-.4px; min-width:180px; text-align:center; }
+  .cal-today-btn { font-size:11px; font-weight:700; padding:5px 12px; border-radius:8px; border:1px solid var(--border); background:rgba(255,255,255,0.04); color:var(--text-2); cursor:pointer; transition:all .15s; font-family:'Space Grotesk',sans-serif; letter-spacing:.04em; }
+  .cal-today-btn:hover { border-color:rgba(253,105,105,0.4); color:var(--blue); background:rgba(253,105,105,0.08); }
+  .cal-grid { display:grid; grid-template-columns:repeat(7,1fr); gap:4px; }
+  .cal-dow { text-align:center; font-size:10px; font-weight:700; color:var(--text-3); text-transform:uppercase; letter-spacing:.07em; padding:4px 0 10px; }
+  .cal-day { min-height:76px; border-radius:10px; border:1px solid rgba(255,255,255,0.04); padding:8px 8px 6px; cursor:pointer; transition:all .18s; position:relative; background:rgba(255,255,255,0.02); display:flex; flex-direction:column; gap:3px; overflow:hidden; }
+  .cal-day:hover { border-color:rgba(255,255,255,0.13); background:rgba(255,255,255,0.055); }
+  .cal-day.other-month { opacity:.22; pointer-events:none; }
+  .cal-day.today { border-color:rgba(253,105,105,0.5); background:rgba(253,105,105,0.07); box-shadow:0 0 18px rgba(253,105,105,0.12); }
+  .cal-day.today .cal-day-num { color:var(--blue); font-weight:800; }
+  .cal-day.has-note { border-color:rgba(253,105,105,0.25); }
+  .cal-day-num { font-size:12px; font-weight:600; color:var(--text-2); line-height:1; flex-shrink:0; }
+  .cal-note-text { font-size:10px; color:var(--text-1); background:rgba(253,105,105,0.13); border:1px solid rgba(253,105,105,0.22); border-radius:5px; padding:3px 6px; line-height:1.35; word-break:break-word; overflow:hidden; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; }
+  .cal-add-hint { font-size:10px; color:var(--text-3); margin-top:auto; opacity:0; transition:opacity .15s; }
+  .cal-day:hover .cal-add-hint { opacity:1; }
+
+  /* ── CAL MODAL ── */
+  .cal-modal-overlay { position:fixed; inset:0; background:rgba(0,0,0,0.72); backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px); z-index:2000; display:flex; align-items:center; justify-content:center; opacity:0; pointer-events:none; transition:opacity .2s; padding:20px; }
+  .cal-modal-overlay.open { opacity:1; pointer-events:all; }
+  .cal-modal { background:var(--bg-raised); border:1px solid rgba(255,255,255,0.13); border-top:1px solid rgba(255,255,255,0.22); border-radius:20px; padding:28px; width:100%; max-width:420px; box-shadow:0 28px 72px rgba(0,0,0,0.75), inset 0 1px 0 rgba(255,255,255,0.08); transform:translateY(14px) scale(0.97); transition:transform .24s cubic-bezier(.34,1.56,.64,1); }
+  .cal-modal-overlay.open .cal-modal { transform:translateY(0) scale(1); }
+  .cal-modal-date-lbl { font-size:11px; color:var(--blue); font-weight:700; text-transform:uppercase; letter-spacing:.09em; margin-bottom:6px; }
+  .cal-modal-heading { font-size:20px; font-weight:800; color:var(--text-1); margin-bottom:18px; letter-spacing:-.4px; }
+  .cal-modal-textarea { width:100%; background:rgba(255,255,255,0.04); border:1px solid var(--border); border-radius:12px; padding:12px 14px; color:var(--text-1); font-size:13px; font-family:'Space Grotesk',sans-serif; resize:vertical; min-height:96px; line-height:1.65; transition:border-color .15s; outline:none; }
+  .cal-modal-textarea:focus { border-color:rgba(253,105,105,0.5); box-shadow:0 0 0 3px rgba(253,105,105,0.09); }
+  .cal-modal-textarea::placeholder { color:var(--text-3); }
+  .cal-modal-actions { display:flex; gap:8px; margin-top:16px; flex-wrap:wrap; }
+  .cal-modal-save { flex:1; min-width:80px; padding:10px; border-radius:10px; border:none; background:var(--blue); color:#fff; font-size:13px; font-weight:700; cursor:pointer; font-family:'Space Grotesk',sans-serif; transition:opacity .15s; }
+  .cal-modal-save:hover { opacity:.88; }
+  .cal-modal-del { padding:10px 14px; border-radius:10px; border:1px solid rgba(255,71,67,0.3); background:rgba(255,71,67,0.08); color:var(--red); font-size:13px; font-weight:700; cursor:pointer; font-family:'Space Grotesk',sans-serif; transition:all .15s; display:none; }
+  .cal-modal-del.show { display:block; }
+  .cal-modal-del:hover { background:rgba(255,71,67,0.18); border-color:rgba(255,71,67,0.55); }
+  .cal-modal-cancel { padding:10px 14px; border-radius:10px; border:1px solid var(--border); background:rgba(255,255,255,0.04); color:var(--text-2); font-size:13px; font-weight:700; cursor:pointer; font-family:'Space Grotesk',sans-serif; transition:all .15s; }
+  .cal-modal-cancel:hover { border-color:rgba(255,255,255,0.13); color:var(--text-1); }
 </style>
 </head>
 <body>
@@ -741,7 +781,7 @@
   </div>
 
   <!-- Inbox Snapshot -->
-  <div class="bc bc-8 fade-up" id="inbox-card">
+  <div class="bc bc-12 fade-up" id="inbox-card">
     <div class="bc-label">Inbox Snapshot</div>
     <div class="inbox-grid">
       <div class="inbox-col">
@@ -761,26 +801,6 @@
     </div>
   </div>
 
-  <!-- Shopify Orders -->
-  <div class="bc bc-4" id="shopify-card">
-    <div class="bc-label">Shopify Orders <span class="badge badge-green" style="font-size:9px;margin-left:4px;">Auto</span></div>
-    <div style="display:flex;align-items:center;gap:16px;margin-bottom:14px;">
-      <div style="font-size:48px;font-weight:800;color:var(--green);line-height:1;text-shadow:0 0 24px rgba(74,222,128,0.35);" id="shopify-orders">—</div>
-      <div>
-        <div style="font-size:12px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;">This Week's Orders</div>
-        <div style="font-size:11px;color:var(--text-3);margin-top:3px;" id="shopify-week-label">UMEI3D · Supermetrics</div>
-      </div>
-    </div>
-    <div style="display:flex;flex-direction:column;gap:6px;">
-      <div style="display:flex;justify-content:space-between;font-size:12px;padding:6px 10px;background:rgba(255,255,255,0.03);border-radius:8px;border:1px solid var(--border);">
-        <span style="color:var(--text-2);">Revenue This Week</span><span style="color:var(--green);font-weight:600;" id="shopify-revenue">—</span>
-      </div>
-      <div style="display:flex;justify-content:space-between;font-size:12px;padding:6px 10px;background:rgba(255,255,255,0.03);border-radius:8px;border:1px solid var(--border);">
-        <span style="color:var(--text-2);">Meta · Website Purchases</span><span style="color:var(--blue);font-weight:600;" id="shopify-meta">—</span>
-      </div>
-    </div>
-    <div style="margin-top:8px;font-size:10px;color:var(--text-3);text-align:center;" id="shopify-status">ShopifyBot syncing every 15min</div>
-  </div>
 
   <!-- Milestones -->
   <div class="bc bc-8 fade-up" id="milestones">
@@ -996,6 +1016,20 @@
         <div class="cd-meta"><span id="cd-start">—</span><span id="cd-end">—</span></div>
       </div>
     </div>
+  </div>
+
+  <!-- Monthly Calendar -->
+  <div class="bc bc-12 fade-up" id="calendar-card">
+    <div class="bc-label">Monthly Calendar <span id="cal-note-count" class="pill-tag">0 notes</span></div>
+    <div class="cal-header">
+      <div class="cal-nav">
+        <button class="cal-nav-btn" onclick="calPrev()">‹</button>
+        <div class="cal-month-label" id="cal-month-label">—</div>
+        <button class="cal-nav-btn" onclick="calNext()">›</button>
+      </div>
+      <button class="cal-today-btn" onclick="calGoToday()">Today</button>
+    </div>
+    <div class="cal-grid" id="cal-grid"></div>
   </div>
 
   <!-- Everything Behind the Scenes (mini) -->
@@ -1243,6 +1277,20 @@
     </div>
   </div>
 
+</div>
+
+<!-- Calendar Note Modal -->
+<div class="cal-modal-overlay" id="cal-modal-overlay">
+  <div class="cal-modal">
+    <div class="cal-modal-date-lbl" id="cal-modal-date-lbl">—</div>
+    <div class="cal-modal-heading" id="cal-modal-heading">Add Note</div>
+    <textarea class="cal-modal-textarea" id="cal-note-input" placeholder="What's on this day? Deadline, event, idea..."></textarea>
+    <div class="cal-modal-actions">
+      <button class="cal-modal-save" onclick="calSaveNote()">Save</button>
+      <button class="cal-modal-del" id="cal-del-btn" onclick="calDeleteNote()">Delete</button>
+      <button class="cal-modal-cancel" onclick="calCloseModal()">Cancel</button>
+    </div>
+  </div>
 </div>
 
 <div class="footer">J's Command Center · Built with Claude Code · <span id="footer-date"></span></div>
@@ -1549,7 +1597,7 @@ function pomoSkip(){clearInterval(pomoInterval);pomoRunning=false;if(!pomoIsBrea
 if('Notification' in window&&Notification.permission==='default')Notification.requestPermission();
 pomoRender();
 
-document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;if(e.key==='p'||e.key==='P'){pomoToggle();showToast(pomoRunning?'▶ Pomodoro started':'⏸ Pomodoro paused','info');}if(e.key==='t'||e.key==='T'){document.getElementById('todo')?.scrollIntoView({behavior:'smooth',block:'start'});showToast('📋 To-Do list','info');}if(e.key==='r'||e.key==='R'){loadData();showToast('🔄 Refreshing...','info');}if(e.key==='m'||e.key==='M')document.getElementById('milestones')?.scrollIntoView({behavior:'smooth',block:'start'});if(e.key==='n'||e.key==='N'){window.open('https://claude.ai','_blank');showToast('Opening Claude Notebook','info');}if(e.key==='Escape')window.scrollTo({top:0,behavior:'smooth'});});
+document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;if(e.key==='p'||e.key==='P'){pomoToggle();showToast(pomoRunning?'▶ Pomodoro started':'⏸ Pomodoro paused','info');}if(e.key==='t'||e.key==='T'){document.getElementById('todo')?.scrollIntoView({behavior:'smooth',block:'start'});showToast('📋 To-Do list','info');}if(e.key==='r'||e.key==='R'){loadData();showToast('🔄 Refreshing...','info');}if(e.key==='m'||e.key==='M')document.getElementById('milestones')?.scrollIntoView({behavior:'smooth',block:'start'});if(e.key==='n'||e.key==='N'){window.open('https://claude.ai','_blank');showToast('Opening Claude Notebook','info');}if(e.key==='Escape'){if(document.getElementById('cal-modal-overlay').classList.contains('open')){calCloseModal();}else{window.scrollTo({top:0,behavior:'smooth'});}}});
 
 // ─── PIXEL STUDIO v3 — GitHub Bot Office ─────────────────────────────────────
 // 5 bots = 5 pixel characters. State driven by data.json automations array.
@@ -1769,6 +1817,97 @@ function renderShopifyData(s){
 const AGENTS=[{id:'github',card:'agent-github',state:'state-github',lastrun:'lastrun-github',scheduleHours:[0,6,12,18],scheduleMin:0},{id:'milestone',card:'agent-milestone',state:'state-milestone',lastrun:'lastrun-milestone',scheduleHours:[9],scheduleMin:0},{id:'wrapup',card:'agent-wrapup',state:'state-wrapup',lastrun:'lastrun-wrapup',scheduleHours:[20],scheduleMin:0},{id:'sessionlog',card:'agent-sessionlog',state:'state-sessionlog',lastrun:'lastrun-sessionlog',scheduleHours:[20],scheduleMin:10}];
 function updateAgentStates(automations){const now=new Date();const h=now.getHours(),m=now.getMinutes();AGENTS.forEach(agent=>{const stateEl=document.getElementById(agent.state);const lastRunEl=document.getElementById(agent.lastrun);if(!stateEl)return;const autoData=(automations||[]).find(a=>a.name.toLowerCase().includes(agent.id==='github'?'github':agent.id==='milestone'?'milestone':agent.id==='wrapup'?'wrap':'session'));if(lastRunEl&&autoData&&autoData.lastRun)lastRunEl.textContent=new Date(autoData.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'});const active=agent.scheduleHours.some(sh=>{const diff=(h*60+m)-(sh*60+agent.scheduleMin);return diff>=-2&&diff<=15;});if(active){stateEl.className='badge badge-blue';stateEl.innerHTML='<span class="thinking"><span></span><span></span><span></span></span> Working...';}else{stateEl.className='badge badge-gray';stateEl.textContent='😴 Sleeping';}});}
 updateAgentStates([]);setInterval(()=>updateAgentStates([]),60*1000);
+
+/* ── MONTHLY CALENDAR ── */
+const CAL_KEY='j-cal-notes';
+let calNotes={},calYear=new Date().getFullYear(),calMonth=new Date().getMonth(),calActiveKey=null;
+const CAL_MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
+const CAL_DAYS=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+const CAL_DAYNAMES=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+function calLoad(){try{calNotes=JSON.parse(localStorage.getItem(CAL_KEY)||'{}');}catch{calNotes={};}}
+function calSaveStore(){localStorage.setItem(CAL_KEY,JSON.stringify(calNotes));}
+
+function calDateKey(y,m,d){return y+'-'+String(m+1).padStart(2,'0')+'-'+String(d).padStart(2,'0');}
+
+function calRender(){
+  const grid=document.getElementById('cal-grid');
+  const lbl=document.getElementById('cal-month-label');
+  const cnt=document.getElementById('cal-note-count');
+  if(!grid)return;
+  lbl.textContent=CAL_MONTHS[calMonth]+' '+calYear;
+  const today=new Date();
+  const todayKey=calDateKey(today.getFullYear(),today.getMonth(),today.getDate());
+  const firstDOW=new Date(calYear,calMonth,1).getDay();
+  const daysInMonth=new Date(calYear,calMonth+1,0).getDate();
+  const daysInPrev=new Date(calYear,calMonth,0).getDate();
+  let html=CAL_DAYS.map(d=>`<div class="cal-dow">${d}</div>`).join('');
+  for(let i=firstDOW-1;i>=0;i--)
+    html+=`<div class="cal-day other-month"><div class="cal-day-num">${daysInPrev-i}</div></div>`;
+  for(let d=1;d<=daysInMonth;d++){
+    const key=calDateKey(calYear,calMonth,d);
+    const isToday=key===todayKey;
+    const note=calNotes[key]||'';
+    const hasNote=note.length>0;
+    html+=`<div class="cal-day${isToday?' today':''}${hasNote?' has-note':''}" onclick="calOpenModal('${key}')">
+      <div class="cal-day-num">${d}</div>
+      ${hasNote?`<div class="cal-note-text">${calEsc(note)}</div>`:''}
+      <div class="cal-add-hint">+ note</div>
+    </div>`;
+  }
+  const totalCells=firstDOW+daysInMonth;
+  const trailing=totalCells%7===0?0:7-(totalCells%7);
+  for(let d=1;d<=trailing;d++)
+    html+=`<div class="cal-day other-month"><div class="cal-day-num">${d}</div></div>`;
+  grid.innerHTML=html;
+  const total=Object.keys(calNotes).filter(k=>calNotes[k]).length;
+  if(cnt)cnt.textContent=total+' note'+(total!==1?'s':'');
+}
+
+function calEsc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+function calPrev(){calMonth--;if(calMonth<0){calMonth=11;calYear--;}calRender();}
+function calNext(){calMonth++;if(calMonth>11){calMonth=0;calYear++;}calRender();}
+function calGoToday(){calYear=new Date().getFullYear();calMonth=new Date().getMonth();calRender();}
+
+function calOpenModal(key){
+  calActiveKey=key;
+  const [y,m,d]=key.split('-').map(Number);
+  const dateObj=new Date(y,m-1,d);
+  document.getElementById('cal-modal-date-lbl').textContent=CAL_DAYNAMES[dateObj.getDay()]+', '+CAL_MONTHS[m-1]+' '+d+', '+y;
+  const note=calNotes[key]||'';
+  document.getElementById('cal-modal-heading').textContent=note?'Edit Note':'Add Note';
+  document.getElementById('cal-note-input').value=note;
+  const delBtn=document.getElementById('cal-del-btn');
+  if(delBtn)delBtn.classList.toggle('show',!!note);
+  document.getElementById('cal-modal-overlay').classList.add('open');
+  setTimeout(()=>document.getElementById('cal-note-input').focus(),220);
+}
+
+function calCloseModal(){
+  document.getElementById('cal-modal-overlay').classList.remove('open');
+  calActiveKey=null;
+}
+
+function calSaveNote(){
+  if(!calActiveKey)return;
+  const val=document.getElementById('cal-note-input').value.trim();
+  if(val){calNotes[calActiveKey]=val;}else{delete calNotes[calActiveKey];}
+  calSaveStore();calRender();calCloseModal();
+  showToast(val?'Note saved':'Note cleared','success');
+}
+
+function calDeleteNote(){
+  if(!calActiveKey)return;
+  delete calNotes[calActiveKey];
+  calSaveStore();calRender();calCloseModal();
+  showToast('Note deleted','info');
+}
+
+// Close on overlay click
+document.getElementById('cal-modal-overlay').addEventListener('click',function(e){if(e.target===this)calCloseModal();});
+
+calLoad();calRender();
 </script>
 </body>
 </html>
