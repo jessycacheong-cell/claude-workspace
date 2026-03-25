@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25T12:07:21.280Z",
+  "lastUpdated": "2026-03-25T14:46:37.904Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Whimsical Team",
+        "subject": "Release 2026.3: MCP for coding agents",
+        "timestamp": "2026-03-25T14:07:32.000Z",
+        "unread": true
+      },
+      {
         "from": "Priscila Herrera",
         "subject": "RE: Business Operations Analyst – Job Description",
         "timestamp": "2026-03-25T00:24:28.000Z",
@@ -79,15 +85,9 @@
         "subject": "RE: In Person Interview / Cubework",
         "timestamp": "2026-03-18T20:52:36.000Z",
         "unread": false
-      },
-      {
-        "from": "Monster",
-        "subject": "What is Your Job Search Strategy?",
-        "timestamp": "2026-03-09T15:07:39.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-03-25T11:10:25.669Z",
+    "gmailUpdated": "2026-03-25T14:46:37.904Z",
     "gorgias": [
       {
         "id": 89932344,
