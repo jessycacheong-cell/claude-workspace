@@ -1577,7 +1577,7 @@ function initPixelStudio(){
   canvas.width=400; canvas.height=200;
   const LW=200,LH=100;
   let tick=0;
-  const DIVX=130;
+  const DIVX=126; // office|dashboard divider
 
   // Load real pixel-art sprites (open source, pablodelucca/pixel-agents)
   const ASSET_BASE='https://raw.githubusercontent.com/pablodelucca/pixel-agents/main/webview-ui/public/assets/';
@@ -1605,27 +1605,31 @@ function initPixelStudio(){
   }
 
   const BOTS=[
-    {key:'MilestoneBot',label:'Notion', color:'#a78bfa',charIdx:0},
-    {key:'InboxBot',    label:'Gorgias',color:'#f59e0b',charIdx:1},
-    {key:'GmailBot',   label:'Gmail',  color:'#FD6969',charIdx:2},
-    {key:'CalendarBot',label:'Cal',    color:'#22d47a',charIdx:3},
+    {key:'MilestoneBot',label:'MilestoneBot',short:'Mlstn', color:'#a78bfa',charIdx:0},
+    {key:'InboxBot',    label:'InboxBot',    short:'Inbox',  color:'#f59e0b',charIdx:1},
+    {key:'GmailBot',   label:'GmailBot',    short:'Gmail',  color:'#FD6969',charIdx:2},
+    {key:'CalendarBot',label:'CalendarBot', short:'Cal',    color:'#22d47a',charIdx:3},
   ];
+
+  // 4 desks, all in the office, canvas pixel positions
   const DESKS=[
-    {x:8, y:10,w:32,h:16},
-    {x:56,y:10,w:32,h:16},
+    {cx:8,  cy:20, pcLabel:'Notion',    w:48,h:32},
+    {cx:64, cy:20, pcLabel:'Gorgias',   w:48,h:32},
+    {cx:120,cy:20, pcLabel:'Gmail',     w:48,h:32},
+    {cx:176,cy:20, pcLabel:'G.Sheet',   w:48,h:32},
   ];
-  const BOOK_PAL=['#c0392b','#2980b9','#27ae60','#f39c12','#8e44ad','#16a085','#e74c3c','#3498db','#d35400','#2c3e50'];
-  function genBooks(sx,ex,off){
-    const arr=[]; let bx=sx+2,ci=off||0;
-    while(bx<ex-2){ const fw=Math.min(ci%3===0?3:2,ex-2-bx); arr.push({x:bx,w:fw,c:BOOK_PAL[ci%BOOK_PAL.length]}); bx+=fw; ci++; }
-    return arr;
+
+  // Data flow particles travelling from office → dashboard
+  const particles=[];
+  function spawnParticle(){
+    const b=BOTS[Math.floor(Math.random()*4)];
+    particles.push({x:DIVX*P-2, y:76+Math.random()*48, vx:1.2+Math.random()*0.8, vy:(Math.random()-0.5)*0.4, color:b.color, life:1.0});
   }
-  const BOOKS1=genBooks(8,44,0), BOOKS2=genBooks(56,102,4);
 
   const agents=BOTS.map((b,i)=>{
-    const isOffice=i<2, d=DESKS[i]||DESKS[0];
-    const sx=isOffice?d.x+d.w/2-4:DIVX+8+(i-2)*18, sy=isOffice?d.y+d.h+2:28+(i-2)*24;
-    return{...b,x:sx,y:sy,tx:sx,ty:sy,deskIdx:isOffice?i:-1,state:'idle',timer:30+i*22,atDesk:isOffice,dir:'south'};
+    const d=DESKS[i];
+    const lx=(d.cx+16)/P, ly=(d.cy+d.h+4)/P;
+    return{...b,x:lx,y:ly,tx:lx,ty:ly,deskIdx:i,state:'working',timer:180+i*30,atDesk:true,dir:'north'};
   });
 
   function r(x,y,w,h,c,a=1){
@@ -1635,107 +1639,129 @@ function initPixelStudio(){
   }
 
   function drawFloor(){
-    // office tan 2x2 tiles
+    // Office tan 2x2 tiles
     for(let fy=8;fy<LH-4;fy+=2) for(let fx=2;fx<DIVX;fx+=2)
       r(fx,fy,2,2,((fx>>1)+(fy>>1))%2===0?'#b89060':'#c4a070');
-    // lounge carpet
-    r(DIVX+2,8,LW-DIVX-4,LH-20,'#2a3f6a');
-    for(let fy=12;fy<LH-16;fy+=6) for(let fx=DIVX+4;fx<LW-4;fx+=6) r(fx,fy,2,2,'#354f80',0.3);
-    // checkerboard strip bottom lounge
-    for(let fx=DIVX+2;fx<LW-2;fx+=4){ r(fx,LH-12,2,8,'#1e2e48'); r(fx+2,LH-12,2,8,'#243454'); }
-    // walls
-    r(0,0,LW,8,'#1a1b2e'); r(0,7,LW,1,'#252640');
+    // Dashboard room — dark tech carpet
+    r(DIVX+1,8,LW-DIVX-2,LH-12,'#0e1428');
+    for(let fy=10;fy<LH-6;fy+=4) for(let fx=DIVX+2;fx<LW-2;fx+=4)
+      r(fx,fy,1,1,'#141d38',0.8);
+    // Walls
+    r(0,0,LW,8,'#1a1b2e'); r(0,7,LW,2,'#252640');
     r(0,LH-4,LW,4,'#1a1b2e'); r(0,LH-5,LW,1,'#252640');
     r(0,0,2,LH,'#1a1b2e'); r(LW-2,0,2,LH,'#1a1b2e');
-    // divider with doorway y=40-60
+    // Divider with doorway y=40-60
     for(let fy=0;fy<LH;fy+=2){
-      if(fy>=40&&fy<60){
-        r(DIVX,fy,2,2,((DIVX>>1)+(fy>>1))%2===0?'#b89060':'#c4a070');
-      } else {
-        r(DIVX,fy,1,2,'#1a1b2e'); r(DIVX+1,fy,1,2,'#252640');
-      }
+      if(fy>=40&&fy<60){ r(DIVX,fy,2,2,((DIVX>>1)+(fy>>1))%2===0?'#b89060':'#c4a070'); }
+      else { r(DIVX,fy,1,2,'#1a1b2e'); r(DIVX+1,fy,1,2,'#252640'); }
     }
-  }
-
-  function drawPlant(x,y){
-    r(x+2,y+6,4,4,'#6b3f1a'); r(x,y+8,8,2,'#8b5c2a');
-    r(x+2,y,2,8,'#15803d'); r(x+2,y+2,4,4,'#16a34a');
-    r(x,y+4,2,2,'#22c55e',0.9); r(x+4,y+4,2,2,'#22c55e',0.9);
-    r(x+2,y-2,2,4,'#4ade80',0.6);
   }
 
   function drawBookshelves(){
-    // Tile BOOKSHELF sprites (32×16) across the top wall
-    for(let bx=8; bx<248; bx+=32) spr(fi.shelf, 0,0,32,16, bx,0);
-    // Plants flanking bookshelves (fallback code-drawn if sprite not loaded)
-    if(fi.plant?.complete && fi.plant.naturalWidth){
-      spr(fi.plant,0,0,32,48, 2,0);
-      spr(fi.plant,0,0,32,48, 224,0);
-    } else {
-      drawPlant(1,0); drawPlant(112,0);
-    }
+    for(let bx=8; bx<230; bx+=32) spr(fi.shelf,0,0,32,16,bx,0);
+    spr(fi.plant,0,0,32,48, 4, LH*P-52);
+    spr(fi.plant,0,0,32,48, (DIVX-20)*P, LH*P-52);
   }
 
   function drawDesk(di){
     const d=DESKS[di], b=BOTS[di];
-    const ag=agents.find(a=>a.key===b.key), working=ag&&ag.state==='working';
-    const {x,y,w,h}=d;
-    const cx=d.x*P, cy=d.y*P; // canvas pixel coords
-    // Chair (behind desk in draw order = lower y = drawn first)
-    spr(fi.chair, 0,0,16,32, cx+16, cy+h*P+2);
-    // Desk sprite
-    spr(fi.desk, 0,0,48,32, cx, cy);
-    // PC sprite (content is 16×32 in top-left of 256×256 source)
-    spr(fi.pc, 0,0,16,32, cx+16, cy-16);
-    // Working glow on PC when active
-    if(working){
-      const p=0.25+Math.sin(tick*0.14)*0.12;
-      ctx.strokeStyle=b.color; ctx.globalAlpha=p; ctx.lineWidth=1;
-      ctx.strokeRect(cx+15, cy-17, 18, 34); ctx.globalAlpha=1;
-    }
-    // Bot color dot identifier
-    ctx.fillStyle=b.color; ctx.globalAlpha=0.9;
-    ctx.fillRect(cx+40, cy+2, 6, 6); ctx.globalAlpha=1;
+    // Chair
+    spr(fi.chair,0,0,16,32, d.cx+16, d.cy+d.h+2);
+    // Desk
+    spr(fi.desk,0,0,48,32, d.cx, d.cy);
+    // PC
+    spr(fi.pc,0,0,16,32, d.cx+16, d.cy-14);
+    // PC glow (always on — all bots always working)
+    const p=0.22+Math.sin(tick*0.12+di*1.5)*0.12;
+    ctx.strokeStyle=b.color; ctx.globalAlpha=p; ctx.lineWidth=1;
+    ctx.strokeRect(d.cx+15, d.cy-15, 18, 32); ctx.globalAlpha=1;
+    // Computer/service name above PC
+    ctx.font='bold 5px monospace'; ctx.textAlign='center';
+    ctx.fillStyle='#000'; ctx.globalAlpha=0.7;
+    ctx.fillText(d.pcLabel, d.cx+24+1, d.cy-17);
+    ctx.fillStyle=b.color; ctx.globalAlpha=0.95;
+    ctx.fillText(d.pcLabel, d.cx+24, d.cy-18);
+    // Bot name on desk face (small tag)
+    ctx.font='5px monospace';
+    ctx.fillStyle='#000'; ctx.globalAlpha=0.5;
+    ctx.fillText(b.short, d.cx+24+1, d.cy+d.h-3);
+    ctx.fillStyle='#e8eaf2'; ctx.globalAlpha=0.7;
+    ctx.fillText(b.short, d.cx+24, d.cy+d.h-4);
+    ctx.globalAlpha=1; ctx.textAlign='left';
   }
 
-  function drawConferenceTable(){
-    const tx=8,ty=46,tw=96,th=28;
-    r(tx,ty,tw,th,'#6a4e32'); r(tx,ty,tw,2,'#9a7252'); r(tx,ty,2,th,'#9a7252');
-    r(tx+tw-2,ty,2,th,'#3a2a1a'); r(tx,ty+th-2,tw,2,'#3a2a1a');
-    r(tx+2,ty+2,tw-4,th-4,'#7a5a3c'); r(tx+4,ty+4,tw-8,4,'#8a6a4c',0.3);
-    for(let i=0;i<4;i++){ const cx=tx+6+i*22,cy=ty-8; r(cx,cy,14,2,'#5a3a20'); r(cx-2,cy+2,18,6,'#6a4a28'); r(cx,cy+8,14,2,'#5a3a20'); r(cx+2,cy+4,10,2,'#9a6848',0.5); }
-    for(let i=0;i<4;i++){ const cx=tx+6+i*22,cy=ty+th+2; r(cx,cy,14,2,'#5a3a20'); r(cx-2,cy+2,18,6,'#6a4a28'); r(cx,cy+8,14,2,'#5a3a20'); r(cx+2,cy+4,10,2,'#9a6848',0.5); }
-    [[12,10],[34,12],[58,10],[78,12]].forEach(([ox,oy])=>r(tx+ox,ty+oy,8,4,'#c0a080',0.6));
-    [[24,8],[48,20],[70,8]].forEach(([ox,oy])=>r(tx+ox,ty+oy,4,4,'#7B2020',0.9));
-  }
-
-  function drawLounge(){
-    const lx=(DIVX+4)*P; // canvas pixel x start of lounge
-    // Top sofa (SOFA_BACK faces player = back of sofa visible from top)
-    spr(fi.sofa_b, 0,0,32,16, lx, 32);
-    spr(fi.sofa_b, 0,0,32,16, lx+32, 32); // double-wide sofa
-    // Bottom sofa (SOFA_FRONT faces up)
-    spr(fi.sofa_f, 0,0,32,16, lx, 96);
-    spr(fi.sofa_f, 0,0,32,16, lx+32, 96);
-    // Coffee table between sofas (32×32)
-    spr(fi.ctable, 0,0,32,32, lx+16, 56);
-    // Corner plants (32×48)
-    spr(fi.plant, 0,0,32,48, DIVX*P+2, LH*P-52);
-    spr(fi.plant, 0,0,32,48, LW*P-38, LH*P-52);
-    // Picture frames (keep code-drawn)
-    [[14,10,'#7a8870'],[30,10,'#9a8870'],[46,10,'#6a8890']].forEach(([fy,fh,fc])=>{
-      r(LW-6,fy,4,fh,'#2a1a0a'); r(LW-6,fy,4,fh,'#6a5848',0.5); r(LW-6,fy+2,4,fh-4,fc,0.4);
+  function drawDashboard(){
+    const lx=DIVX*P+4;
+    // Big screen on right wall
+    const sx=lx+28, sy=12, sw=56, sh=158;
+    ctx.fillStyle='#060c1a'; ctx.fillRect(sx,sy,sw,sh);
+    // Screen border — animated glow
+    const glow=0.5+Math.sin(tick*0.04)*0.2;
+    ctx.strokeStyle='#4583fd'; ctx.globalAlpha=glow; ctx.lineWidth=2;
+    ctx.strokeRect(sx,sy,sw,sh); ctx.globalAlpha=1;
+    // Screen title
+    ctx.font='bold 5px monospace'; ctx.textAlign='center';
+    ctx.fillStyle='#4583fd'; ctx.globalAlpha=0.9;
+    ctx.fillText('J COMMAND CENTER', sx+sw/2, sy+8);
+    ctx.globalAlpha=1;
+    // 4 bot status rows on screen
+    const rows=[
+      {label:'MilestoneBot',color:'#a78bfa',pct:40},
+      {label:'InboxBot',    color:'#f59e0b',pct:72},
+      {label:'GmailBot',    color:'#FD6969',pct:85},
+      {label:'CalendarBot', color:'#22d47a',pct:60},
+    ];
+    rows.forEach((d,i)=>{
+      const ry=sy+14+i*36;
+      // Row bg
+      ctx.fillStyle='#0a1020'; ctx.fillRect(sx+3,ry,sw-6,30);
+      // Bot label
+      ctx.font='bold 5px monospace'; ctx.textAlign='left';
+      ctx.fillStyle=d.color; ctx.globalAlpha=0.95;
+      ctx.fillText(d.label, sx+5, ry+8);
+      // Progress bar
+      ctx.fillStyle='#141e38'; ctx.fillRect(sx+5,ry+11,sw-10,5);
+      const bw=Math.max(2,(d.pct/100)*(sw-10)+(Math.sin(tick*0.07+i)*2));
+      ctx.fillStyle=d.color; ctx.globalAlpha=0.8;
+      ctx.fillRect(sx+5,ry+11,bw,5);
+      ctx.globalAlpha=1;
+      // Pct value
+      ctx.font='5px monospace'; ctx.fillStyle='#8892b0'; ctx.globalAlpha=0.8;
+      ctx.fillText(d.pct+'%', sx+5, ry+24);
+      // Live ping dot
+      if(Math.floor(tick/20+i*3)%3!==0){
+        ctx.fillStyle=d.color; ctx.globalAlpha=0.9;
+        ctx.fillRect(sx+sw-10, ry+4, 4,4);
+      }
+      ctx.globalAlpha=1;
     });
+    ctx.textAlign='left';
+    // Sofa in front of screen
+    spr(fi.sofa_b,0,0,32,16, lx, 60);
+    spr(fi.sofa_b,0,0,32,16, lx, 76);
+    // Plants
+    spr(fi.plant,0,0,32,48, lx-2, LH*P-52);
+    spr(fi.plant,0,0,32,48, LW*P-36, 10);
+  }
+
+  function drawParticles(){
+    if(tick%22===0) spawnParticle();
+    for(let i=particles.length-1;i>=0;i--){
+      const p=particles[i];
+      p.x+=p.vx; p.y+=p.vy; p.life-=0.012;
+      if(p.x>LW*P-44||p.life<=0){particles.splice(i,1);continue;}
+      ctx.fillStyle=p.color; ctx.globalAlpha=p.life*0.85;
+      ctx.fillRect(Math.round(p.x),Math.round(p.y),3,3);
+      ctx.globalAlpha=1;
+    }
   }
 
   function drawOfficeDecor(){
-    r(DIVX-12,10,8,10,'#1e2d40'); r(DIVX-10,10,4,6,'#4583fd',0.45); r(DIVX-12,8,8,2,'#2a3d50');
-    r(DIVX-10,18,2,2,'#FD6969',0.9); r(DIVX-8,18,2,2,'#4583fd',0.9);
-    r(4,10,10,10,'#1e1520'); r(6,14,6,4,'#9B3030',0.9); r(6,12,4,2,'#c04040',0.6);
-    if(tick%30<15) r(6,10,2,2,'#fff',0.1);
-    spr(fi.plant,0,0,32,48, 4, LH*P-52);
-    spr(fi.plant,0,0,32,48, (DIVX-18)*P, LH*P-52);
-    spr(fi.plant,0,0,32,48, 4, 56);
+    // Water cooler near divider
+    r(DIVX-8,10,6,8,'#1e2d40'); r(DIVX-7,10,4,5,'#4583fd',0.4); r(DIVX-8,8,6,2,'#2a3d50');
+    // Coffee station left corner
+    r(4,10,8,8,'#1e1520'); r(5,13,5,3,'#9B3030',0.9);
+    if(tick%30<15) r(5,10,2,2,'#fff',0.08);
   }
 
   function drawAgent(ag){
@@ -1799,7 +1825,7 @@ function initPixelStudio(){
           const status=getBotStatus(ag.key);
           const active=(status==='active'||status==='recent')||Math.random()<0.35;
           if(ag.deskIdx>=0&&active){
-            const d=DESKS[ag.deskIdx]; ag.tx=d.x+d.w/2-5; ag.ty=d.y+d.h+4;
+            const d=DESKS[ag.deskIdx]; ag.tx=(d.cx+16)/P; ag.ty=(d.cy+d.h+4)/P;
             ag.atDesk=true; ag.state='working'; ag.timer=80+Math.floor(Math.random()*130);
           } else {
             const goLounge=ag.deskIdx<0||(!active&&Math.random()<0.3);
@@ -1816,7 +1842,7 @@ function initPixelStudio(){
     ctx.clearRect(0,0,canvas.width,canvas.height);
     drawFloor(); drawBookshelves(); drawOfficeDecor();
     DESKS.forEach((_,i)=>drawDesk(i));
-    drawConferenceTable(); drawLounge();
+    drawDashboard(); drawParticles();
     [...agents].sort((a,b)=>a.y-b.y).forEach(ag=>drawAgent(ag));
     const el=document.getElementById('pixel-status');
     if(el){
