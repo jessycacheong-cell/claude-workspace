@@ -936,7 +936,7 @@
         LIVE
       </span>
     </div>
-    <canvas id="pixel-canvas" width="400" height="148" style="width:100%;border-radius:8px;image-rendering:pixelated;image-rendering:crisp-edges;margin-top:8px;display:block;"></canvas>
+    <canvas id="pixel-canvas" width="400" height="200" style="width:100%;border-radius:8px;image-rendering:pixelated;image-rendering:crisp-edges;margin-top:8px;display:block;"></canvas>
     <div id="pixel-status" style="font-size:11px;margin-top:6px;text-align:center;min-height:16px;color:var(--text-3);">Loading studio...</div>
   </div>
 
@@ -1573,220 +1573,220 @@ function initPixelStudio(){
   if(!canvas)return;
   const ctx=canvas.getContext('2d');
   const P=4;
-  canvas.width=400; canvas.height=148;
-  const LW=100,LH=37;
+  canvas.width=400; canvas.height=200;
+  const LW=100,LH=50;
   let tick=0;
+  const DIVX=65; // office|lounge divider
 
-  // 4 active bots with desk positions (single row across top)
   const BOTS=[
-    {key:'MilestoneBot',label:'Notion', color:'#a78bfa',deskX:3},
-    {key:'InboxBot',    label:'Gorgias',color:'#f59e0b',deskX:27},
-    {key:'GmailBot',   label:'Gmail',  color:'#FD6969',deskX:54},
-    {key:'CalendarBot',label:'Cal',    color:'#22d47a',deskX:78},
+    {key:'MilestoneBot',label:'Notion', color:'#a78bfa'},
+    {key:'InboxBot',    label:'Gorgias',color:'#f59e0b'},
+    {key:'GmailBot',   label:'Gmail',  color:'#FD6969'},
+    {key:'CalendarBot',label:'Cal',    color:'#22d47a'},
   ];
-  const DW=16,DH=6,DY=3; // desk width, height, y-position
 
-  // Walking agents
+  const DESKS=[
+    {x:4, y:5, w:16, h:8},
+    {x:28,y:5, w:16, h:8},
+  ];
+
+  // pre-generate book layouts so they don't flicker
+  const BOOK_PAL=['#c0392b','#2980b9','#27ae60','#f39c12','#8e44ad','#16a085','#e74c3c','#3498db','#d35400','#2c3e50'];
+  function genBooks(sx,ex,offset){
+    const arr=[]; let bx=sx+1,ci=offset||0;
+    while(bx<ex-1){ const bw=ci%3===0?2:1,fw=Math.min(bw,ex-1-bx); arr.push({x:bx,w:fw,c:BOOK_PAL[ci%BOOK_PAL.length]}); bx+=fw; ci++; }
+    return arr;
+  }
+  const BOOKS1=genBooks(4,22,0), BOOKS2=genBooks(28,50,4);
+
   const agents=BOTS.map((b,i)=>{
-    const hx=b.deskX+DW/2-2, hy=DY+DH+2;
-    return{...b, x:hx+i*0.5, y:hy+i, tx:hx, ty:hy,
-      state:'idle', timer:30+i*25, atDesk:true};
+    const isOffice=i<2;
+    const d=DESKS[i]||DESKS[0];
+    const sx=isOffice?d.x+d.w/2-2:DIVX+4+(i-2)*8;
+    const sy=isOffice?d.y+d.h+2:14+(i-2)*12;
+    return{...b,x:sx,y:sy,tx:sx,ty:sy,deskIdx:isOffice?i:-1,state:'idle',timer:30+i*22,atDesk:isOffice};
   });
 
-  // helpers
-  function r(x,y,w,h,c,a){
-    if(a!==undefined){ctx.globalAlpha=a;}
-    ctx.fillStyle=c;
-    ctx.fillRect(Math.round(x)*P,Math.round(y)*P,w*P,h*P);
-    if(a!==undefined){ctx.globalAlpha=1;}
+  function r(x,y,w,h,c,a=1){
+    ctx.globalAlpha=a; ctx.fillStyle=c;
+    ctx.fillRect(Math.round(x)*P,Math.round(y)*P,Math.max(1,w)*P,Math.max(1,h)*P);
+    ctx.globalAlpha=1;
   }
 
   function drawFloor(){
-    // Base
-    ctx.fillStyle='#0c0d18';
-    ctx.fillRect(0,0,canvas.width,canvas.height);
-    // 2x2 checkerboard tiles
-    ctx.fillStyle='#0f1020';
-    for(let fy=0;fy<LH;fy+=2)for(let fx=0;fx<LW;fx+=2){
-      if(((fx>>1)+(fy>>1))%2===0) ctx.fillRect(fx*P,fy*P,2*P,2*P);
+    // office tan tiles 2x2
+    for(let fy=4;fy<LH-2;fy+=2) for(let fx=1;fx<DIVX;fx+=2){
+      r(fx,fy,2,2,((fx>>1)+(fy>>1))%2===0?'#b89060':'#c4a070');
     }
-    // Top wall
-    r(0,0,LW,DY,'#14152a');
-    r(0,DY-1,LW,1,'#1e2040');
-    // Left/right walls
-    r(0,0,2,LH,'#14152a');
-    r(LW-2,0,2,LH,'#14152a');
-    // Bottom wall
-    r(0,LH-2,LW,2,'#14152a');
-    r(0,LH-3,LW,1,'#1e2040');
-    // Windows in top wall
-    for(let wx=8;wx<90;wx+=22){
-      r(wx,0,10,2,'#0d1e36');
-      r(wx+1,0,8,1,'#152e50',0.9);
-      // Window gleam
-      ctx.fillStyle='rgba(100,180,255,0.08)';
-      ctx.fillRect((wx+1)*P,0,8*P,P);
+    // lounge blue carpet
+    r(DIVX+1,4,LW-DIVX-2,LH-8,'#2a3f6a');
+    for(let fy=6;fy<LH-6;fy+=3) for(let fx=DIVX+2;fx<LW-2;fx+=3) r(fx,fy,1,1,'#354f80',0.35);
+    // checkerboard strip bottom of lounge
+    for(let fx=DIVX+1;fx<LW-1;fx+=2){
+      r(fx,LH-6,1,4,'#1e2e48'); r(fx+1,LH-6,1,4,'#243454');
     }
-    // Floor baseboard lines
-    r(2,DY,LW-4,1,'#1a1b2c');
-  }
-
-  function drawDesk(b){
-    const x=b.deskX,y=DY;
-    const ag=agents.find(a=>a.key===b.key);
-    const working=ag&&ag.state==='working';
-    const pulse=working?(0.22+Math.sin(tick*0.14)*0.1):(ag&&ag.atDesk?0.08:0.03);
-    // Desk surface
-    r(x,y,DW,DH,'#171829');
-    r(x,y,DW,1,'#21223a');   // top highlight
-    r(x,y,1,DH,'#21223a');   // left highlight
-    r(x+DW-1,y,1,DH,'#0a0b14'); // right shadow
-    r(x,y+DH-1,DW,1,'#0a0b14'); // bottom shadow
-    // Monitor (top-down glow rectangle)
-    r(x+3,y+1,9,4,'#070810');
-    r(x+3,y+1,9,4,b.color,pulse);
-    // Screen scanlines when working
-    if(working){
-      for(let ln=0;ln<3;ln++){
-        const lw=2+((Math.floor(tick/7)+ln)%5);
-        r(x+4,y+1+ln,lw,1,b.color,(0.18+(Math.floor(tick/9+ln*2)%2)*0.18));
+    // walls
+    r(0,0,LW,4,'#1a1b2e'); r(0,3,LW,1,'#252640');
+    r(0,LH-2,LW,2,'#1a1b2e'); r(0,LH-3,LW,1,'#252640');
+    r(0,0,1,LH,'#1a1b2e'); r(LW-1,0,1,LH,'#1a1b2e');
+    // divider wall with doorway y=20-30
+    for(let fy=0;fy<LH;fy++){
+      if(fy>=20&&fy<30){ // doorway — show floor
+        r(DIVX,fy,1,1,((DIVX+fy)%2===0)?'#b89060':'#c4a070');
+        r(DIVX+1,fy,1,1,((DIVX+1+fy)%2===0)?'#b89060':'#c4a070');
+      } else {
+        r(DIVX,fy,1,1,'#1a1b2e'); r(DIVX+1,fy,1,1,'#252640');
       }
-      // Blinking cursor
-      if(Math.floor(tick/15)%2===0) r(x+4+(Math.floor(tick/8)%5),y+1+(Math.floor(tick/20)%3),1,1,'#fff',0.7);
     }
-    // Keyboard
-    r(x+1,y+DH-2,8,1,'#0f1020');
-    r(x+2,y+DH-1,6,1,'#0c0d1a');
-    // Keys detail
-    for(let k=0;k<3;k++) r(x+2+k*2,y+DH-2,1,1,'#181930',1);
-    // Mouse
-    r(x+DW-3,y+DH-2,2,2,'#0f1020');
-    // Color dot (bot identity)
-    r(x+DW-2,y+1,1,1,b.color,0.9);
-    // Chair (top-down) — below desk
-    const cx=x+DW/2-2,cy=y+DH;
-    r(cx,cy,4,1,'#1c1d30');
-    r(cx-1,cy+1,6,2,'#1c1d30');
-    r(cx,cy+3,4,1,'#1c1d30');
-    r(cx+1,cy+1,2,2,'#22233e'); // seat cushion
   }
 
   function drawPlant(x,y){
-    r(x+1,y+3,1,2,'#3a2010'); // pot
-    r(x,y+3,3,1,'#3a2010');
-    r(x,y+1,1,2,'#16a34a',0.85);
-    r(x+2,y,1,3,'#15803d',0.75);
-    r(x+1,y,1,2,'#22d47a',0.5);
-    r(x,y+2,1,1,'#4ade80',0.35);
+    r(x+1,y+3,2,2,'#6b3f1a'); r(x,y+4,4,1,'#8b5c2a');
+    r(x+1,y,1,4,'#15803d'); r(x+1,y+1,2,2,'#16a34a');
+    r(x,y+2,1,1,'#22c55e',0.9); r(x+2,y+2,1,1,'#22c55e',0.9);
+    r(x+1,y-1,1,2,'#4ade80',0.6); r(x,y+1,1,1,'#4ade80',0.3);
   }
 
-  function drawDecor(){
-    // Corner plants
-    drawPlant(3,DY+DH+5);
-    drawPlant(LW-7,DY+DH+5);
-    drawPlant(3,LH-8);
-    drawPlant(LW-7,LH-8);
-    // Center meeting rug
-    r(33,16,30,12,'#13142088',1);
-    ctx.strokeStyle='rgba(167,139,250,0.12)';
-    ctx.lineWidth=1;
-    ctx.strokeRect(34*P,17*P,28*P,10*P);
-    // Water cooler (top-right corner area)
-    r(LW-5,DY+1,3,4,'#1a2535');
-    r(LW-4,DY+1,1,2,b=>'#4583fd',0.3);
-    ctx.fillStyle='rgba(69,131,253,0.3)';
-    ctx.fillRect((LW-4)*P,(DY+1)*P,P,2*P);
-    // Cooler top
-    r(LW-5,DY,3,1,'#232e40');
-    // Coffee area (left corner)
-    r(3,DY+1,4,3,'#1e1520');
-    r(4,DY+2,2,1,'#9B3030',0.8); // coffee mug
-    if(tick%30<15){ ctx.fillStyle='rgba(255,255,255,0.07)'; ctx.fillRect(4*P,(DY+1)*P,P,P); } // steam
+  function drawBookshelves(){
+    r(4,0,18,4,'#3d2b1a'); r(4,0,18,1,'#5a3d22');
+    BOOKS1.forEach(b=>{ r(b.x,0,b.w,3,b.c,0.9); r(b.x,0,b.w,1,b.c,0.4); });
+    r(28,0,22,4,'#3d2b1a'); r(28,0,22,1,'#5a3d22');
+    BOOKS2.forEach(b=>{ r(b.x,0,b.w,3,b.c,0.9); r(b.x,0,b.w,1,b.c,0.4); });
+    drawPlant(1,0); drawPlant(52,0);
+  }
+
+  function drawDesk(di){
+    const d=DESKS[di], b=BOTS[di];
+    const ag=agents.find(a=>a.key===b.key);
+    const working=ag&&ag.state==='working';
+    const {x,y,w,h}=d;
+    r(x,y,w,h,'#7c5c3a'); r(x,y,w,1,'#a07850'); r(x,y,1,h,'#a07850');
+    r(x+w-1,y,1,h,'#4a3520'); r(x,y+h-1,w,1,'#4a3520');
+    r(x+1,y+1,w-2,h-2,'#8a6642');
+    // monitor
+    r(x+2,y+1,10,5,'#1a1a2e'); r(x+2,y+1,10,5,b.color,working?0.28:0.09);
+    if(working){
+      for(let ln=0;ln<3;ln++){ const lw=2+((Math.floor(tick/6)+ln)%5); r(x+3,y+1+ln,lw,1,b.color,0.5); }
+      if(Math.floor(tick/12)%2===0) r(x+3+(Math.floor(tick/8)%5),y+1+(Math.floor(tick/18)%3),1,1,'#fff',0.9);
+    }
+    r(x+5,y+6,4,1,'#3a2a1a'); // monitor stand
+    // papers
+    r(x+w-5,y+1,4,3,'#e8e0d0',0.7); r(x+w-4,y+3,3,2,'#d4ccbc',0.6);
+    // keyboard
+    r(x+1,y+h-3,9,2,'#2a2a3e');
+    for(let k=0;k<7;k++){ r(x+2+k,y+h-3,1,1,'#3d3d55',0.9); r(x+2+k,y+h-2,1,1,'#3d3d55',0.9); }
+    r(x+w-3,y+h-3,2,2,'#2a2a3e'); r(x+w-3,y+h-3,1,1,'#454560',0.9); // mouse
+    r(x+w-2,y+1,2,2,b.color,1); // identity dot
+    // chair
+    const cx=x+w/2-3,cy=y+h+1;
+    r(cx,cy,6,1,'#5a3a20'); r(cx-1,cy+1,8,3,'#6a4a28');
+    r(cx,cy+4,6,1,'#5a3a20'); r(cx+1,cy+2,4,1,'#9a6848',0.6);
+    r(cx-1,cy+2,1,2,'#3a2510'); r(cx+6,cy+2,1,2,'#3a2510');
+  }
+
+  function drawConferenceTable(){
+    const tx=4,ty=23,tw=48,th=14;
+    r(tx,ty,tw,th,'#6a4e32'); r(tx,ty,tw,1,'#9a7252'); r(tx,ty,1,th,'#9a7252');
+    r(tx+tw-1,ty,1,th,'#3a2a1a'); r(tx,ty+th-1,tw,1,'#3a2a1a');
+    r(tx+1,ty+1,tw-2,th-2,'#7a5a3c'); r(tx+2,ty+2,tw-4,2,'#8a6a4c',0.3);
+    // chairs top
+    for(let i=0;i<4;i++){ const cx=tx+3+i*11,cy=ty-4; r(cx,cy,7,1,'#5a3a20'); r(cx-1,cy+1,9,3,'#6a4a28'); r(cx,cy+4,7,1,'#5a3a20'); r(cx+1,cy+2,5,1,'#9a6848',0.5); }
+    // chairs bottom
+    for(let i=0;i<4;i++){ const cx=tx+3+i*11,cy=ty+th+2; r(cx,cy,7,1,'#5a3a20'); r(cx-1,cy+1,9,3,'#6a4a28'); r(cx,cy+4,7,1,'#5a3a20'); r(cx+1,cy+2,5,1,'#9a6848',0.5); }
+    // table items
+    [[6,5],[17,6],[29,5],[39,6]].forEach(([ox,oy])=>r(tx+ox,ty+oy,4,2,'#c0a080',0.6));
+    [[12,4],[24,10],[35,4]].forEach(([ox,oy])=>r(tx+ox,ty+oy,2,2,'#7B2020',0.9));
+  }
+
+  function drawLounge(){
+    const lx=DIVX+2;
+    // top sofa
+    r(lx,8,13,5,'#7a2030'); r(lx,8,13,1,'#9a3040'); r(lx,8,1,5,'#9a3040'); r(lx+12,8,1,5,'#9a3040');
+    r(lx+1,9,11,3,'#8a2838',0.9); r(lx+1,9,11,1,'#aa4050',0.3);
+    // bottom sofa
+    r(lx,24,13,5,'#7a2030'); r(lx,28,13,1,'#9a3040'); r(lx,24,1,5,'#9a3040'); r(lx+12,24,1,5,'#9a3040');
+    r(lx+1,24,11,3,'#8a2838',0.9); r(lx+1,24,11,1,'#aa4050',0.3);
+    // coffee table
+    r(lx+1,15,11,8,'#a07840'); r(lx+1,15,11,1,'#c09050'); r(lx+1,15,1,8,'#c09050');
+    r(lx+2,16,9,6,'#b08848');
+    r(lx+2,17,4,2,'#c8b88e',0.7); r(lx+7,18,2,2,'#7B2020',0.9); r(lx+5,16,2,1,'#d4c498',0.5);
+    // plants
+    drawPlant(lx,LH-9); drawPlant(lx+16,LH-9);
+    // picture frames on right wall
+    [[7,5,'#7a8870'],[15,5,'#9a8870'],[23,5,'#6a8890']].forEach(([fy,fh,fc])=>{
+      r(LW-3,fy,2,fh,'#2a1a0a'); r(LW-3,fy,2,fh,'#6a5848',0.5); r(LW-3,fy+1,2,fh-2,fc,0.4);
+    });
+  }
+
+  function drawOfficeDecor(){
+    // water cooler
+    r(DIVX-6,5,4,5,'#1e2d40'); r(DIVX-5,5,2,3,'#4583fd',0.45); r(DIVX-6,4,4,1,'#2a3d50');
+    r(DIVX-5,9,1,1,'#FD6969',0.9); r(DIVX-4,9,1,1,'#4583fd',0.9);
+    // coffee station
+    r(2,5,5,5,'#1e1520'); r(3,7,3,2,'#9B3030',0.9); r(3,6,2,1,'#c04040',0.6);
+    if(tick%30<15) r(3,5,1,1,'#fff',0.1);
+    // corner plants
+    drawPlant(1,LH-9); drawPlant(DIVX-7,LH-9); drawPlant(1,14);
   }
 
   function drawAgent(ag){
     const bx=Math.round(ag.x), by=Math.round(ag.y);
-    const c=ag.color;
-    const wf=Math.floor(tick/7)%2;
-    // Clamp to floor area
-    if(by<DY+DH+1||by>LH-4||bx<3||bx>LW-7) return;
-    // Shadow
-    r(bx,by+4,4,1,'#000',0.18);
-    // Top-down body — oval shape
-    r(bx+1,by,  2,1,c,1);      // head top
-    r(bx,  by+1,4,2,c,1);      // body (widest)
-    r(bx+1,by+3,2,1,c,0.8);    // feet
-    // Bright center dot (face direction hint)
-    r(bx+1,by+1,2,1,'#fff',0.18);
-    // Walking leg animation
+    const c=ag.color, wf=Math.floor(tick/8)%2;
+    if(by<5||by>LH-6||bx<2||bx>LW-5) return;
+    r(bx,by+6,6,1,'#000',0.2); // shadow
+    r(bx+1,by+2,4,3,c,0.95);  // body
+    r(bx+1,by,4,2,c,1);        // head
+    r(bx+2,by,2,1,'#fff',0.22);// face shine
+    r(bx,by+3,1,2,c,0.8);      // left arm
+    r(bx+5,by+3,1,2,c,0.8);    // right arm
     if(ag.state==='walking'){
-      ctx.globalAlpha=0.28;
-      ctx.fillStyle='#fff';
-      if(wf===0){
-        ctx.fillRect(bx*P,(by+3)*P,P,P);
-        ctx.fillRect((bx+3)*P,(by+2)*P,P,P);
-      } else {
-        ctx.fillRect((bx+3)*P,(by+3)*P,P,P);
-        ctx.fillRect(bx*P,(by+2)*P,P,P);
-      }
-      ctx.globalAlpha=1;
+      if(wf===0){ r(bx+1,by+5,2,2,c,0.85); r(bx+3,by+6,2,1,c,0.65); }
+      else       { r(bx+3,by+5,2,2,c,0.85); r(bx+1,by+6,2,1,c,0.65); }
+    } else {
+      r(bx+1,by+5,2,1,c,0.8); r(bx+3,by+5,2,1,c,0.8);
     }
-    // Working pulse ring
     if(ag.state==='working'){
-      const p=0.25+Math.sin(tick*0.18)*0.18;
-      ctx.strokeStyle=c; ctx.globalAlpha=p; ctx.lineWidth=1;
-      ctx.strokeRect((bx-1)*P,(by-1)*P,6*P,6*P);
-      ctx.globalAlpha=1;
+      const p=0.28+Math.sin(tick*0.16)*0.18;
+      ctx.strokeStyle=c; ctx.globalAlpha=p; ctx.lineWidth=P*0.4;
+      ctx.strokeRect((bx-1)*P,(by-1)*P,8*P,9*P); ctx.globalAlpha=1;
     }
   }
 
   function getBotStatus(key){
-    const d=window._dashData;
-    const a=(d&&d.automations||[]).find(x=>x.name===key);
-    if(!a||!a.lastRun)return'idle';
+    const d=window._dashData, a=(d&&d.automations||[]).find(x=>x.name===key);
+    if(!a||!a.lastRun) return'idle';
     const m=(Date.now()-new Date(a.lastRun))/60000;
     return a.status==='error'?'error':m<3?'active':m<25?'recent':'idle';
   }
 
   function updateAgents(){
     agents.forEach(ag=>{
-      const dx=ag.tx-ag.x, dy=ag.ty-ag.y;
-      const dist=Math.sqrt(dx*dx+dy*dy);
-      if(dist>0.3){
-        const spd=0.09;
-        ag.x+=dx/dist*spd; ag.y+=dy/dist*spd;
-        ag.state='walking';
-      } else {
-        ag.x=ag.tx; ag.y=ag.ty;
-        ag.timer--;
+      const dx=ag.tx-ag.x, dy=ag.ty-ag.y, dist=Math.sqrt(dx*dx+dy*dy);
+      if(dist>0.3){ ag.x+=dx/dist*0.08; ag.y+=dy/dist*0.08; ag.state='walking'; }
+      else{
+        ag.x=ag.tx; ag.y=ag.ty; ag.timer--;
         if(ag.timer<=0){
-          const status=getBotStatus(ag.key);
-          const hx=ag.deskX+DW/2-2, hy=DY+DH+2;
-          if(status==='active'||status==='recent'||Math.random()<0.4){
-            // Go work at desk
-            ag.tx=hx; ag.ty=hy; ag.atDesk=true; ag.state='working';
-            ag.timer=80+Math.floor(Math.random()*140);
+          const active=(getBotStatus(ag.key)==='active'||getBotStatus(ag.key)==='recent')||Math.random()<0.35;
+          if(ag.deskIdx>=0&&active){
+            const d=DESKS[ag.deskIdx]; ag.tx=d.x+d.w/2-2; ag.ty=d.y+d.h+2;
+            ag.atDesk=true; ag.state='working'; ag.timer=80+Math.floor(Math.random()*130);
           } else {
-            // Wander around office floor
-            ag.tx=18+Math.random()*58; ag.ty=DY+DH+4+Math.random()*14;
-            ag.atDesk=false; ag.state='walking';
-            ag.timer=55+Math.floor(Math.random()*100);
+            const goLounge=ag.deskIdx<0||(!active&&Math.random()<0.3);
+            if(goLounge){ ag.tx=DIVX+3+Math.random()*20; ag.ty=9+Math.random()*26; }
+            else { ag.tx=5+Math.random()*47; ag.ty=16+Math.random()*20; }
+            ag.atDesk=false; ag.state='walking'; ag.timer=50+Math.floor(Math.random()*100);
           }
-        } else {
-          ag.state=ag.atDesk?'working':'idle';
-        }
+        } else { ag.state=ag.atDesk?'working':'idle'; }
       }
     });
   }
 
   function draw(){
     ctx.clearRect(0,0,canvas.width,canvas.height);
-    drawFloor();
-    BOTS.forEach(b=>drawDesk(b));
-    drawDecor();
-    // Sort by Y for depth
+    drawFloor(); drawBookshelves(); drawOfficeDecor();
+    DESKS.forEach((_,i)=>drawDesk(i));
+    drawConferenceTable(); drawLounge();
     [...agents].sort((a,b)=>a.y-b.y).forEach(ag=>drawAgent(ag));
-    // Status
     const el=document.getElementById('pixel-status');
     if(el){
       const working=agents.filter(a=>a.state==='working').map(a=>a.label);
@@ -1795,8 +1795,7 @@ function initPixelStudio(){
       else if(walking.length) el.innerHTML=`<span style="color:var(--blue)">🚶 On the move: </span><span style="color:var(--text-2)">${walking.join(', ')}</span>`;
       else el.innerHTML=`<span style="color:var(--text-3)">All agents chilling ✦</span>`;
     }
-    tick++;
-    updateAgents();
+    tick++; updateAgents();
   }
   setInterval(draw,1000/30); draw();
 }
