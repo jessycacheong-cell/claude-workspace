@@ -1667,13 +1667,6 @@ function initPixelStudio(){
       if(fy>=40&&fy<60){ r(DIVX,fy,2,2,((DIVX>>1)+(fy>>1))%2===0?'#b89060':'#c4a070'); }
       else { r(DIVX,fy,1,2,'#1a1b2e'); r(DIVX+1,fy,1,2,'#252640'); }
     }
-    // Doorway bridge glow — spans both sides of wall opening
-    ctx.fillStyle='#FD6969';
-    ctx.globalAlpha=0.5+Math.sin(tick*0.06)*0.12;
-    ctx.fillRect(DIVX*P-6, 80, 14, 40);
-    ctx.globalAlpha=0.15+Math.sin(tick*0.06)*0.05;
-    ctx.fillRect(DIVX*P-12, 80, 26, 40);
-    ctx.globalAlpha=1;
   }
 
   function drawBookshelves(){
