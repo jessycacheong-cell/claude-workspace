@@ -1567,172 +1567,238 @@ pomoRender();
 
 document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;if(e.key==='p'||e.key==='P'){pomoToggle();showToast(pomoRunning?'▶ Pomodoro started':'⏸ Pomodoro paused','info');}if(e.key==='t'||e.key==='T'){document.getElementById('todo')?.scrollIntoView({behavior:'smooth',block:'start'});showToast('📋 To-Do list','info');}if(e.key==='r'||e.key==='R'){loadData();showToast('🔄 Refreshing...','info');}if(e.key==='m'||e.key==='M')document.getElementById('milestones')?.scrollIntoView({behavior:'smooth',block:'start'});if(e.key==='n'||e.key==='N'){window.open('https://claude.ai','_blank');showToast('Opening Claude Notebook','info');}if(e.key==='Escape'){if(document.getElementById('cal-modal-overlay').classList.contains('open')){calCloseModal();}else{window.scrollTo({top:0,behavior:'smooth'});}}});
 
-// ─── PIXEL STUDIO v3 — GitHub Bot Office ─────────────────────────────────────
-// 5 bots = 5 pixel characters. State driven by data.json automations array.
+// ─── PIXEL STUDIO v4 — Top-Down Bot Office ────────────────────────────────────
 function initPixelStudio(){
   const canvas=document.getElementById('pixel-canvas');
   if(!canvas)return;
   const ctx=canvas.getContext('2d');
-  canvas.width=400;canvas.height=148;
-  const P=4,W=400,H=148,LW=100,LH=37; // logical grid 100x37
+  const P=4;
+  canvas.width=400; canvas.height=148;
+  const LW=100,LH=37;
   let tick=0;
-  // Bot definitions — order matches desk left→right
-  const BOTS=[
-    {key:'GmailBot',   label:'Gmail',     shirt:'#4583fd', hair:'#4a2e1a', icon:'✉'},
-    {key:'CalendarBot',label:'Calendar',  shirt:'#22d47a', hair:'#1a1a1a', icon:'📅'},
-    {key:'InboxBot',   label:'Gorgias',   shirt:'#f59e0b', hair:'#c4843a', icon:'🎫'},
-    {key:'MilestoneBot',label:'Notion',   shirt:'#a78bfa', hair:'#2a1a4a', icon:'📊'},
-    {key:'WrapBot',    label:'WrapBot',   shirt:'#ff4743', hair:'#3a1a1a', icon:'📝'},
-  ];
-  // Desk x positions for 5 bots (18 wide each, 2px gap, 100 logical wide)
-  // 5*18 + 4*2 = 98 → start at 1
-  const DESKX=[1,21,41,61,81];
 
-  function botState(auto){
-    if(!auto||!auto.lastRun)return'idle';
-    const mins=(Date.now()-new Date(auto.lastRun))/60000;
-    if(auto.status==='error')return'error';
-    if(mins<3)return'typing';
-    if(mins<20)return'active';
-    return'idle';
+  // 4 active bots with desk positions (single row across top)
+  const BOTS=[
+    {key:'MilestoneBot',label:'Notion', color:'#a78bfa',deskX:3},
+    {key:'InboxBot',    label:'Gorgias',color:'#f59e0b',deskX:27},
+    {key:'GmailBot',   label:'Gmail',  color:'#FD6969',deskX:54},
+    {key:'CalendarBot',label:'Cal',    color:'#22d47a',deskX:78},
+  ];
+  const DW=16,DH=6,DY=3; // desk width, height, y-position
+
+  // Walking agents
+  const agents=BOTS.map((b,i)=>{
+    const hx=b.deskX+DW/2-2, hy=DY+DH+2;
+    return{...b, x:hx+i*0.5, y:hy+i, tx:hx, ty:hy,
+      state:'idle', timer:30+i*25, atDesk:true};
+  });
+
+  // helpers
+  function r(x,y,w,h,c,a){
+    if(a!==undefined){ctx.globalAlpha=a;}
+    ctx.fillStyle=c;
+    ctx.fillRect(Math.round(x)*P,Math.round(y)*P,w*P,h*P);
+    if(a!==undefined){ctx.globalAlpha=1;}
   }
-  function getBots(){
-    const d=window._dashData;
-    const autos=(d&&d.automations)||[];
-    return BOTS.map((b,i)=>{
-      const auto=autos.find(a=>a.name===b.key)||null;
-      const state=botState(auto);
-      const mins=auto&&auto.lastRun?Math.round((Date.now()-new Date(auto.lastRun))/60000):null;
-      return{...b,state,mins,schedule:auto&&auto.schedule||'—'};
-    });
+
+  function drawFloor(){
+    // Base
+    ctx.fillStyle='#0c0d18';
+    ctx.fillRect(0,0,canvas.width,canvas.height);
+    // 2x2 checkerboard tiles
+    ctx.fillStyle='#0f1020';
+    for(let fy=0;fy<LH;fy+=2)for(let fx=0;fx<LW;fx+=2){
+      if(((fx>>1)+(fy>>1))%2===0) ctx.fillRect(fx*P,fy*P,2*P,2*P);
+    }
+    // Top wall
+    r(0,0,LW,DY,'#14152a');
+    r(0,DY-1,LW,1,'#1e2040');
+    // Left/right walls
+    r(0,0,2,LH,'#14152a');
+    r(LW-2,0,2,LH,'#14152a');
+    // Bottom wall
+    r(0,LH-2,LW,2,'#14152a');
+    r(0,LH-3,LW,1,'#1e2040');
+    // Windows in top wall
+    for(let wx=8;wx<90;wx+=22){
+      r(wx,0,10,2,'#0d1e36');
+      r(wx+1,0,8,1,'#152e50',0.9);
+      // Window gleam
+      ctx.fillStyle='rgba(100,180,255,0.08)';
+      ctx.fillRect((wx+1)*P,0,8*P,P);
+    }
+    // Floor baseboard lines
+    r(2,DY,LW-4,1,'#1a1b2c');
   }
-  function box(x,y,w,h,c){ctx.fillStyle=c;ctx.fillRect(x*P,y*P,w*P,h*P);}
-  function drawBG(){
-    // Wall
-    ctx.fillStyle='#0b0c1a';ctx.fillRect(0,0,W,17*P);
-    // Wall panels
-    ctx.fillStyle='rgba(255,255,255,0.01)';
-    for(let x=0;x<LW;x+=18)ctx.fillRect(x*P,0,P,16*P);
-    // Skirting board
-    box(0,16,LW,1,'#1e1f35');
-    // Floor tiles
-    for(let fy=0;fy<20;fy++)for(let fx=0;fx<LW;fx++)
-      box(fx,17+fy,1,1,((fx+fy)%2===0)?'#1e1208':'#231508');
-    // Floor highlight near wall
-    ctx.fillStyle='rgba(255,255,255,0.02)';ctx.fillRect(0,17*P,W,P);
-  }
-  function drawDesk(x,i,bot,tt){
-    const {shirt,state}=bot;
-    const sw=18; // desk width
-    // Desk surface + body
-    box(x,16,sw,1,'#a8804e');
-    box(x,17,sw,2,'#8B6343');
-    box(x,19,sw,3,'#6B4A2F');
-    box(x,22,sw,1,'#4a3020');
-    // Legs
-    box(x+1,23,2,6,'#5a3a20');box(x+sw-3,23,2,6,'#5a3a20');
-    // Keyboard
-    box(x+2,16,7,1,'#1e1e30');box(x+2,15,7,1,'#2a2a3d');
-    for(let k=0;k<3;k++){ctx.fillStyle='rgba(255,255,255,0.05)';ctx.fillRect((x+3+k*2)*P,15*P,P,P);}
-    // Monitor stand
-    box(x+12,15,2,2,'#252535');box(x+10,16,4,1,'#1e1e2e');
-    // Monitor frame
-    box(x+8,7,10,10,'#252535');
-    // Screen
-    const sx=x+9,sy=8,ssw=8,ssh=8;
-    box(sx,sy,ssw,ssh,'#060a1a');
-    // Screen glow by state
-    if(state==='typing'){
-      const g=0.2+Math.sin(tick*0.09+i)*0.08;
-      ctx.fillStyle=`rgba(69,131,253,${g})`;ctx.fillRect(sx*P,sy*P,ssw*P,ssh*P);
-      for(let ln=0;ln<4;ln++){
-        const lw=2+((tick*2+ln*4+i*3)%5);
-        ctx.fillStyle=`rgba(130,200,255,${0.35+(ln===(Math.floor(tick/7+i*2)%4)?0.4:0)})`;
-        ctx.fillRect((sx+(ln%2))*P,(sy+ln)*P,lw*P,P);
+
+  function drawDesk(b){
+    const x=b.deskX,y=DY;
+    const ag=agents.find(a=>a.key===b.key);
+    const working=ag&&ag.state==='working';
+    const pulse=working?(0.22+Math.sin(tick*0.14)*0.1):(ag&&ag.atDesk?0.08:0.03);
+    // Desk surface
+    r(x,y,DW,DH,'#171829');
+    r(x,y,DW,1,'#21223a');   // top highlight
+    r(x,y,1,DH,'#21223a');   // left highlight
+    r(x+DW-1,y,1,DH,'#0a0b14'); // right shadow
+    r(x,y+DH-1,DW,1,'#0a0b14'); // bottom shadow
+    // Monitor (top-down glow rectangle)
+    r(x+3,y+1,9,4,'#070810');
+    r(x+3,y+1,9,4,b.color,pulse);
+    // Screen scanlines when working
+    if(working){
+      for(let ln=0;ln<3;ln++){
+        const lw=2+((Math.floor(tick/7)+ln)%5);
+        r(x+4,y+1+ln,lw,1,b.color,(0.18+(Math.floor(tick/9+ln*2)%2)*0.18));
       }
-      if(Math.floor(tick/14)%2===0)box(sx+(Math.floor(tick/7)%6),sy+(Math.floor(tick/35+i)%4),1,1,'rgba(255,255,255,0.9)');
-    } else if(state==='active'){
-      const g=0.08+Math.sin(tick*0.04+i)*0.03;
-      ctx.fillStyle=`rgba(69,131,253,${g})`;ctx.fillRect(sx*P,sy*P,ssw*P,ssh*P);
-      for(let ln=0;ln<4;ln++){ctx.fillStyle='rgba(100,150,255,0.15)';ctx.fillRect(sx*P,(sy+ln)*P,7*P,P);}
-    } else if(state==='error'){
-      const g=0.15+Math.sin(tick*0.12+i)*0.08;
-      ctx.fillStyle=`rgba(255,71,67,${g})`;ctx.fillRect(sx*P,sy*P,ssw*P,ssh*P);
-      ctx.fillStyle='rgba(255,100,100,0.5)';ctx.font=`${P*2}px monospace`;ctx.fillText('ERR',(sx+1)*P,(sy+5)*P);
-    } else {
-      const g=0.02+Math.sin(tick*0.02+i)*0.01;
-      ctx.fillStyle=`rgba(69,131,253,${g})`;ctx.fillRect(sx*P,sy*P,ssw*P,ssh*P);
+      // Blinking cursor
+      if(Math.floor(tick/15)%2===0) r(x+4+(Math.floor(tick/8)%5),y+1+(Math.floor(tick/20)%3),1,1,'#fff',0.7);
     }
-    // Coffee mug
-    box(x+sw-3,15,2,2,'#9B3030');box(x+sw-1,16,1,1,'#7a2828');
-    if((tick+i*8)%28<14){ctx.fillStyle='rgba(255,255,255,0.08)';ctx.fillRect((x+sw-3)*P,14*P,P,P);}
-    // Name label under desk
-    ctx.fillStyle='rgba(255,255,255,0.18)';
-    ctx.font=`${P*1.8}px monospace`;
-    ctx.textAlign='center';
-    ctx.fillText(bot.label,(x+sw/2)*P,32*P);
-    ctx.textAlign='left';
-    // Schedule dot
-    const dotColor=state==='idle'?'rgba(255,255,255,0.15)':state==='error'?'#ff4743':state==='typing'?shirt:'rgba(255,255,255,0.3)';
-    ctx.fillStyle=dotColor;ctx.beginPath();ctx.arc((x+sw/2)*P,33*P,P*0.7,0,Math.PI*2);ctx.fill();
+    // Keyboard
+    r(x+1,y+DH-2,8,1,'#0f1020');
+    r(x+2,y+DH-1,6,1,'#0c0d1a');
+    // Keys detail
+    for(let k=0;k<3;k++) r(x+2+k*2,y+DH-2,1,1,'#181930',1);
+    // Mouse
+    r(x+DW-3,y+DH-2,2,2,'#0f1020');
+    // Color dot (bot identity)
+    r(x+DW-2,y+1,1,1,b.color,0.9);
+    // Chair (top-down) — below desk
+    const cx=x+DW/2-2,cy=y+DH;
+    r(cx,cy,4,1,'#1c1d30');
+    r(cx-1,cy+1,6,2,'#1c1d30');
+    r(cx,cy+3,4,1,'#1c1d30');
+    r(cx+1,cy+1,2,2,'#22233e'); // seat cushion
   }
-  function drawChar(x,i,bot,tt){
-    const {shirt,hair,state}=bot;
-    const cx=x+5; // char center offset
-    const bob=state==='idle'?Math.round(Math.sin(tick*0.05+i*1.4)*0.6):0;
-    // Chair
-    box(cx,13+bob,7,6,'#1a1829');box(cx+1,13+bob,5,1,'#252438');
-    // Body
-    box(cx+1,16+bob,5,3,shirt);
-    // Neck
-    box(cx+2,14+bob,2,1,'#f0c090');
-    // Hair
-    box(cx,10+bob,6,4,hair);
-    // Face
-    box(cx+1,12+bob,4,4,'#f5c9a0');
-    box(cx,12+bob,1,2,hair);box(cx+5,12+bob,1,2,hair);
-    box(cx+1,11+bob,2,1,hair);
-    // Eyes
-    const blink=state==='idle'&&(tick+i*53)%170>164;
-    if(blink){box(cx+1,13+bob,1,1,'#f5c9a0');box(cx+3,13+bob,1,1,'#f5c9a0');}
-    else{box(cx+1,13+bob,1,1,'#1a0a04');box(cx+3,13+bob,1,1,'#1a0a04');box(cx+2,13+bob,1,1,'rgba(255,255,255,0.22)');}
-    // Mouth
-    if(state==='typing')box(cx+2,14+bob,2,1,'#c08070');
-    else box(cx+2,14+bob,2,1,'#d4987a');
-    // Arms — typing animation
-    if(state==='typing'){
-      box(x+1+tt,17,2,1,'#f0c090');box(x+6-tt,17,2,1,'#f0c090');
-      box(x+1+tt,16,2,1,'#d4907a');box(x+6-tt,16,2,1,'#d4907a');
-    } else {
-      box(x+1,17,2,1,'#f0c090');box(x+6,17,2,1,'#f0c090');
+
+  function drawPlant(x,y){
+    r(x+1,y+3,1,2,'#3a2010'); // pot
+    r(x,y+3,3,1,'#3a2010');
+    r(x,y+1,1,2,'#16a34a',0.85);
+    r(x+2,y,1,3,'#15803d',0.75);
+    r(x+1,y,1,2,'#22d47a',0.5);
+    r(x,y+2,1,1,'#4ade80',0.35);
+  }
+
+  function drawDecor(){
+    // Corner plants
+    drawPlant(3,DY+DH+5);
+    drawPlant(LW-7,DY+DH+5);
+    drawPlant(3,LH-8);
+    drawPlant(LW-7,LH-8);
+    // Center meeting rug
+    r(33,16,30,12,'#13142088',1);
+    ctx.strokeStyle='rgba(167,139,250,0.12)';
+    ctx.lineWidth=1;
+    ctx.strokeRect(34*P,17*P,28*P,10*P);
+    // Water cooler (top-right corner area)
+    r(LW-5,DY+1,3,4,'#1a2535');
+    r(LW-4,DY+1,1,2,b=>'#4583fd',0.3);
+    ctx.fillStyle='rgba(69,131,253,0.3)';
+    ctx.fillRect((LW-4)*P,(DY+1)*P,P,2*P);
+    // Cooler top
+    r(LW-5,DY,3,1,'#232e40');
+    // Coffee area (left corner)
+    r(3,DY+1,4,3,'#1e1520');
+    r(4,DY+2,2,1,'#9B3030',0.8); // coffee mug
+    if(tick%30<15){ ctx.fillStyle='rgba(255,255,255,0.07)'; ctx.fillRect(4*P,(DY+1)*P,P,P); } // steam
+  }
+
+  function drawAgent(ag){
+    const bx=Math.round(ag.x), by=Math.round(ag.y);
+    const c=ag.color;
+    const wf=Math.floor(tick/7)%2;
+    // Clamp to floor area
+    if(by<DY+DH+1||by>LH-4||bx<3||bx>LW-7) return;
+    // Shadow
+    r(bx,by+4,4,1,'#000',0.18);
+    // Top-down body — oval shape
+    r(bx+1,by,  2,1,c,1);      // head top
+    r(bx,  by+1,4,2,c,1);      // body (widest)
+    r(bx+1,by+3,2,1,c,0.8);    // feet
+    // Bright center dot (face direction hint)
+    r(bx+1,by+1,2,1,'#fff',0.18);
+    // Walking leg animation
+    if(ag.state==='walking'){
+      ctx.globalAlpha=0.28;
+      ctx.fillStyle='#fff';
+      if(wf===0){
+        ctx.fillRect(bx*P,(by+3)*P,P,P);
+        ctx.fillRect((bx+3)*P,(by+2)*P,P,P);
+      } else {
+        ctx.fillRect((bx+3)*P,(by+3)*P,P,P);
+        ctx.fillRect(bx*P,(by+2)*P,P,P);
+      }
+      ctx.globalAlpha=1;
+    }
+    // Working pulse ring
+    if(ag.state==='working'){
+      const p=0.25+Math.sin(tick*0.18)*0.18;
+      ctx.strokeStyle=c; ctx.globalAlpha=p; ctx.lineWidth=1;
+      ctx.strokeRect((bx-1)*P,(by-1)*P,6*P,6*P);
+      ctx.globalAlpha=1;
     }
   }
-  function draw(){
-    tick++;
-    const bots=getBots();
-    const tt=Math.floor(tick/5)%2;
-    ctx.clearRect(0,0,W,H);
-    drawBG();
-    // Side plants
-    // (skip plants — 5 desks fill the full width perfectly)
-    bots.forEach((b,i)=>{
-      drawDesk(DESKX[i],i,b,tt);
-      drawChar(DESKX[i],i,b,tt);
+
+  function getBotStatus(key){
+    const d=window._dashData;
+    const a=(d&&d.automations||[]).find(x=>x.name===key);
+    if(!a||!a.lastRun)return'idle';
+    const m=(Date.now()-new Date(a.lastRun))/60000;
+    return a.status==='error'?'error':m<3?'active':m<25?'recent':'idle';
+  }
+
+  function updateAgents(){
+    agents.forEach(ag=>{
+      const dx=ag.tx-ag.x, dy=ag.ty-ag.y;
+      const dist=Math.sqrt(dx*dx+dy*dy);
+      if(dist>0.3){
+        const spd=0.09;
+        ag.x+=dx/dist*spd; ag.y+=dy/dist*spd;
+        ag.state='walking';
+      } else {
+        ag.x=ag.tx; ag.y=ag.ty;
+        ag.timer--;
+        if(ag.timer<=0){
+          const status=getBotStatus(ag.key);
+          const hx=ag.deskX+DW/2-2, hy=DY+DH+2;
+          if(status==='active'||status==='recent'||Math.random()<0.4){
+            // Go work at desk
+            ag.tx=hx; ag.ty=hy; ag.atDesk=true; ag.state='working';
+            ag.timer=80+Math.floor(Math.random()*140);
+          } else {
+            // Wander around office floor
+            ag.tx=18+Math.random()*58; ag.ty=DY+DH+4+Math.random()*14;
+            ag.atDesk=false; ag.state='walking';
+            ag.timer=55+Math.floor(Math.random()*100);
+          }
+        } else {
+          ag.state=ag.atDesk?'working':'idle';
+        }
+      }
     });
-    // Status bar
-    const el=document.getElementById('pixel-status');
-    if(!el)return;
-    const active=bots.filter(b=>b.state==='typing').map(b=>b.label);
-    const icons={typing:'⚡',active:'✅',idle:'💤',error:'🔴'};
-    if(active.length){
-      el.innerHTML=`<span style="color:var(--green)">⚡ Running:</span> <span style="color:var(--text-2)">${active.join(', ')}</span>`;
-    } else {
-      const last=bots.filter(b=>b.mins!==null).sort((a,b2)=>a.mins-b2.mins)[0];
-      if(last)el.innerHTML=`<span style="color:var(--text-3)">All bots idle · Last: <span style="color:var(--text-2)">${last.label}</span> ${last.mins}m ago</span>`;
-      else el.innerHTML='<span style="color:var(--text-3)">Waiting for first bot run...</span>';
-    }
   }
-  setInterval(draw,1000/30);draw();
+
+  function draw(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+    drawFloor();
+    BOTS.forEach(b=>drawDesk(b));
+    drawDecor();
+    // Sort by Y for depth
+    [...agents].sort((a,b)=>a.y-b.y).forEach(ag=>drawAgent(ag));
+    // Status
+    const el=document.getElementById('pixel-status');
+    if(el){
+      const working=agents.filter(a=>a.state==='working').map(a=>a.label);
+      const walking=agents.filter(a=>a.state==='walking').map(a=>a.label);
+      if(working.length) el.innerHTML=`<span style="color:var(--green)">⚡ Working: </span><span style="color:var(--text-2)">${working.join(', ')}</span>`;
+      else if(walking.length) el.innerHTML=`<span style="color:var(--blue)">🚶 On the move: </span><span style="color:var(--text-2)">${walking.join(', ')}</span>`;
+      else el.innerHTML=`<span style="color:var(--text-3)">All agents chilling ✦</span>`;
+    }
+    tick++;
+    updateAgents();
+  }
+  setInterval(draw,1000/30); draw();
 }
 setTimeout(initPixelStudio,500);
 // ─────────────────────────────────────────────────────────────────────────────
