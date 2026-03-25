@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T23:58:38.199Z",
+  "lastUpdated": "2026-03-25T05:17:57.053Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,37 +57,37 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Priscila Herrera",
+        "subject": "RE: Business Operations Analyst – Job Description",
+        "timestamp": "2026-03-25T00:24:28.000Z",
+        "unread": false
+      },
+      {
         "from": "UMEI 3D",
         "subject": "TEst",
         "timestamp": "2026-03-24T23:36:17.000Z",
         "unread": false
       },
       {
-        "from": "Cindy Lish",
-        "subject": "I get it...you're skeptical 🧐",
-        "timestamp": "2026-03-14T14:01:35.000Z",
+        "from": "Priscila Herrera",
+        "subject": "Business Operations Analyst – Job Description",
+        "timestamp": "2026-03-19T00:01:12.000Z",
         "unread": false
       },
       {
-        "from": "Cindy Lish",
-        "subject": "🦄 Don't You Want to STAND OUT!!?",
-        "timestamp": "2026-03-14T03:44:27.000Z",
-        "unread": true
+        "from": "Priscila Herrera",
+        "subject": "RE: In Person Interview / Cubework",
+        "timestamp": "2026-03-18T20:52:36.000Z",
+        "unread": false
       },
       {
-        "from": "The Miro Team",
-        "subject": "Sharing 101 in Miro",
-        "timestamp": "2026-03-13T23:50:18.000Z",
-        "unread": true
-      },
-      {
-        "from": "Sabrina from Blotato",
-        "subject": "Welcome to blotato | Sabrina Ramonov 🍄",
-        "timestamp": "2026-03-13T22:29:31.000Z",
-        "unread": true
+        "from": "Monster",
+        "subject": "What is Your Job Search Strategy?",
+        "timestamp": "2026-03-09T15:07:39.000Z",
+        "unread": false
       }
     ],
-    "gmailUpdated": "2026-03-24T23:58:29.082Z",
+    "gmailUpdated": "2026-03-25T05:17:57.053Z",
     "gorgias": [
       {
         "id": 89902791,
