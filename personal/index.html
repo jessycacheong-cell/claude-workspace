@@ -894,6 +894,19 @@
     </div>
   </div>
 
+  <!-- Pixel Studio -->
+  <div class="bc bc-4" id="pixel-studio-card" style="padding:14px;">
+    <div class="bc-label" style="display:flex;align-items:center;justify-content:space-between;">
+      <span>J's AI Studio</span>
+      <span style="display:flex;align-items:center;gap:4px;font-size:10px;color:var(--green);">
+        <span style="width:5px;height:5px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite;"></span>
+        LIVE
+      </span>
+    </div>
+    <canvas id="pixel-canvas" width="200" height="132" style="width:100%;border-radius:8px;image-rendering:pixelated;image-rendering:crisp-edges;margin-top:8px;display:block;"></canvas>
+    <div id="pixel-status" style="font-size:11px;margin-top:8px;text-align:center;min-height:16px;color:var(--text-3);">Loading studio...</div>
+  </div>
+
   <!-- At a Glance — gauge + mini chart for MCP -->
   <div class="bc bc-8">
     <div class="bc-label">At a Glance</div>
@@ -1538,8 +1551,93 @@ pomoRender();
 
 document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT'||e.target.tagName==='TEXTAREA')return;if(e.key==='p'||e.key==='P'){pomoToggle();showToast(pomoRunning?'▶ Pomodoro started':'⏸ Pomodoro paused','info');}if(e.key==='t'||e.key==='T'){document.getElementById('todo')?.scrollIntoView({behavior:'smooth',block:'start'});showToast('📋 To-Do list','info');}if(e.key==='r'||e.key==='R'){loadData();showToast('🔄 Refreshing...','info');}if(e.key==='m'||e.key==='M')document.getElementById('milestones')?.scrollIntoView({behavior:'smooth',block:'start'});if(e.key==='n'||e.key==='N'){window.open('https://claude.ai','_blank');showToast('Opening Claude Notebook','info');}if(e.key==='Escape')window.scrollTo({top:0,behavior:'smooth'});});
 
+// ─── PIXEL STUDIO ───────────────────────────────────────────────────────────
+function initPixelStudio(){
+  const canvas=document.getElementById('pixel-canvas');
+  if(!canvas)return;
+  const ctx=canvas.getContext('2d');
+  canvas.width=200;canvas.height=132;
+  const P=4;let tick=0;
+  function getState(){const d=window._dashData;if(!d||!d.lastUpdated)return'idle';const m=(Date.now()-new Date(d.lastUpdated))/60000;if(m<5)return'typing';if(m<30)return'reading';return'idle';}
+  function box(x,y,w,h,c){ctx.fillStyle=c;ctx.fillRect(x*P,y*P,w*P,h*P);}
+  function draw(){
+    tick++;const state=getState();
+    const bob=state==='idle'?Math.round(Math.sin(tick*0.05)*0.7):0;
+    const tt=Math.floor(tick/5)%2;
+    ctx.clearRect(0,0,200,132);
+    // WALL
+    ctx.fillStyle='#0b0c1a';ctx.fillRect(0,0,200,18*P);
+    ctx.fillStyle='rgba(255,255,255,0.015)';
+    for(let wx=0;wx<50;wx+=12)ctx.fillRect(wx*P,0,P,18*P);
+    box(0,17,50,1,'#1e1f35');
+    // FLOOR
+    for(let fy=0;fy<16;fy++)for(let fx=0;fx<50;fx++)box(fx,18+fy,1,1,((fx+fy)%2===0)?'#26190e':'#2f2012');
+    // PLANT
+    box(1,15,3,3,'#7B3F1A');box(2,14,1,2,'#4a6020');
+    box(0,12,2,3,'#3a7a2a');box(4,12,2,3,'#3a7a2a');
+    box(1,11,4,4,'#2d6a22');box(2,10,2,2,'#4a8a32');
+    // DESK
+    box(7,17,38,1,'#a8804e');box(7,18,38,2,'#8B6343');
+    box(7,20,38,4,'#6B4A2F');box(7,24,38,1,'#4a3020');
+    box(8,25,3,8,'#5a3a20');box(42,25,3,8,'#5a3a20');
+    // KEYBOARD
+    box(15,17,14,1,'#1e1e30');box(15,16,14,1,'#2a2a3d');
+    for(let kx=0;kx<6;kx++){ctx.fillStyle='rgba(255,255,255,0.06)';ctx.fillRect((16+kx*2)*P,16*P,P,P);}
+    // MONITOR STAND
+    box(25,16,2,2,'#252535');box(23,17,6,1,'#1e1e2e');
+    // MONITOR FRAME + SCREEN
+    box(17,7,18,11,'#252535');box(18,8,16,9,'#060a1a');
+    if(state==='typing'){
+      const g=0.22+Math.sin(tick*0.08)*0.08;
+      ctx.fillStyle=`rgba(69,131,253,${g})`;ctx.fillRect(18*P,8*P,16*P,9*P);
+      for(let ln=0;ln<6;ln++){const lw=4+((tick*3+ln*7)%8);ctx.fillStyle=`rgba(130,200,255,${0.4+(ln===(Math.floor(tick/8)%6)?0.35:0)})`;ctx.fillRect((19+(ln%2))*P,(9+ln)*P,lw*P,P);}
+      if(Math.floor(tick/15)%2===0)box(19+(Math.floor(tick/8)%9),9+(Math.floor(tick/40)%6),1,1,'rgba(255,255,255,0.9)');
+    } else if(state==='reading'){
+      ctx.fillStyle='rgba(69,131,253,0.1)';ctx.fillRect(18*P,8*P,16*P,9*P);
+      for(let ln=0;ln<6;ln++){ctx.fillStyle='rgba(130,180,255,0.25)';ctx.fillRect(19*P,(9+ln)*P,12*P,P);}
+    } else {
+      const d2=0.04+Math.sin(tick*0.03)*0.02;
+      ctx.fillStyle=`rgba(69,131,253,${d2})`;ctx.fillRect(18*P,8*P,16*P,9*P);
+      const sx=18+4+Math.round(Math.sin(tick*0.02)*4),sy=8+2+Math.round(Math.cos(tick*0.02)*2);
+      ctx.fillStyle='rgba(100,150,255,0.2)';ctx.fillRect(sx*P,sy*P,2*P,2*P);
+    }
+    // CHARACTER
+    box(21,13+bob,10,7,'#1a1829');box(22,13+bob,8,1,'#252438');
+    box(22,17+bob,8,3,'#4583fd');box(25,15+bob,2,1,'#f0c090');
+    // Hair + head
+    box(22,10+bob,8,4,'#4a2e1a');
+    box(23,12+bob,6,4,'#f5c9a0');
+    box(22,12+bob,1,2,'#4a2e1a');box(29,12+bob,1,2,'#4a2e1a');
+    box(23,11+bob,2,1,'#4a2e1a');
+    // Eyes
+    const blink=state==='idle'&&tick%150>145;
+    if(blink){box(24,13+bob,2,1,'#f5c9a0');box(27,13+bob,2,1,'#f5c9a0');}
+    else{box(24,13+bob,2,1,'#1a0a04');box(27,13+bob,2,1,'#1a0a04');box(25,13+bob,1,1,'rgba(255,255,255,0.25)');box(28,13+bob,1,1,'rgba(255,255,255,0.25)');}
+    // Mouth
+    if(state==='typing')box(25,15+bob,3,1,'#c08070');
+    else box(25,15+bob,2,1,'#d4987a');
+    // Arms
+    if(state==='typing'){box(16+tt,18,3,1,'#f0c090');box(22-tt,18,3,1,'#f0c090');box(16+tt,17,3,1,'#d4907a');box(22-tt,17,3,1,'#d4907a');}
+    else{box(16,18,3,1,'#f0c090');box(23,18,3,1,'#f0c090');}
+    // COFFEE MUG
+    box(37,16,3,2,'#9B3030');box(40,17,1,1,'#7a2828');box(38,15,2,1,'#5a1a1a');
+    if(tick%30<15){ctx.fillStyle='rgba(255,255,255,0.10)';ctx.fillRect(38*P,14*P,P,P);ctx.fillRect(39*P,13*P,P,P);}
+    // STATUS
+    const el=document.getElementById('pixel-status');
+    if(el){
+      if(state==='typing')el.innerHTML='<span style="color:#4583fd">⚡ Building something...</span>';
+      else if(state==='reading')el.innerHTML='<span style="color:#f59e0b">📖 Reading files...</span>';
+      else el.innerHTML='<span style="color:var(--text-3)">💤 Studio is quiet</span>';
+    }
+  }
+  setInterval(draw,1000/30);
+  draw();
+}
+setTimeout(initPixelStudio,500);
+// ─────────────────────────────────────────────────────────────────────────────
+
 async function loadData(){try{const res=await fetch('https://raw.githubusercontent.com/jessycacheong-cell/claude-workspace/main/personal/data.json?t='+Date.now());if(!res.ok)throw new Error();const data=await res.json();renderData(data);const el=document.getElementById('last-sync');el.textContent='Live · '+new Date(data.lastUpdated).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});el.style.color='var(--green)';showToast('Dashboard refreshed','success');}catch{document.getElementById('last-sync').textContent='Live';updateProductivity(40);}}
-function renderData(data){if(data.stats){setEl('stat-mcp',data.stats.mcpAgents);setEl('stat-auto',data.stats.automationsRunning);setEl('stat-milestone',data.stats.currentMilestone);}if(data.milestones){const ap=(data.milestones.find(m=>m.status==='in-progress')||{}).progress||40;updateProductivity(ap);const list=document.getElementById('milestone-list');list.innerHTML=data.milestones.map(ms=>{const map={'done':{cls:'done',label:'Done',bc:'badge-green'},'in-progress':{cls:'active',label:'In Progress',bc:'badge-yellow'},'blocked':{cls:'',label:'Blocked',bc:'badge-red'},'not-started':{cls:'',label:'Not Started',bc:'badge-gray'}};const s=map[ms.status]||map['not-started'];const pct=ms.status==='done'?100:(ms.status==='not-started'?0:ms.progress);const dot=ms.status==='in-progress'?'<span class="dot pulse"></span> ':'';return `<div class="ms-row ${s.cls}"><div class="ms-badge">${ms.id}</div><div class="ms-row-name">${ms.name}</div><div class="ms-bar"><div class="ms-bar-fill" style="width:${pct}%"></div></div><div class="ms-pct">${pct}%</div><span class="badge ${s.bc}">${dot}${s.label}</span></div>`;}).join('');}if(data.github){const repos={'claude-workspace':'gh-cw','umei3d-app':'gh-ua'};Object.entries(repos).forEach(([repo,id])=>{const info=data.github[repo];if(!info)return;const de=document.getElementById(id+'-date');const ce=document.getElementById(id+'-commit');if(info.lastCommitDate&&de)de.textContent=new Date(info.lastCommitDate).toLocaleDateString('en-US',{month:'short',day:'numeric'});if(ce&&info.lastCommit)ce.textContent='Last commit: '+info.lastCommit;});}if(data.automations){document.getElementById('automations-list').innerHTML=data.automations.map(a=>{const lr=a.lastRun?new Date(a.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'Not yet run';const st=a.status==='ok'?`<span class="badge badge-green"><span class="dot pulse"></span> Running</span>`:`<span class="badge badge-red">Error</span>`;return `<div class="auto-card"><div class="auto-icon">🤖</div><div style="flex:1"><div class="auto-name">${a.name}</div><div class="auto-desc">Last run: ${lr}</div><div class="auto-meta">${st}<span class="badge badge-gray">🕐 ${a.schedule}</span><span class="badge badge-blue">→ ${a.target}</span></div></div></div>`;}).join('');}if(data.inbox)renderInbox(data.inbox);
+function renderData(data){window._dashData=data;if(data.stats){setEl('stat-mcp',data.stats.mcpAgents);setEl('stat-auto',data.stats.automationsRunning);setEl('stat-milestone',data.stats.currentMilestone);}if(data.milestones){const ap=(data.milestones.find(m=>m.status==='in-progress')||{}).progress||40;updateProductivity(ap);const list=document.getElementById('milestone-list');list.innerHTML=data.milestones.map(ms=>{const map={'done':{cls:'done',label:'Done',bc:'badge-green'},'in-progress':{cls:'active',label:'In Progress',bc:'badge-yellow'},'blocked':{cls:'',label:'Blocked',bc:'badge-red'},'not-started':{cls:'',label:'Not Started',bc:'badge-gray'}};const s=map[ms.status]||map['not-started'];const pct=ms.status==='done'?100:(ms.status==='not-started'?0:ms.progress);const dot=ms.status==='in-progress'?'<span class="dot pulse"></span> ':'';return `<div class="ms-row ${s.cls}"><div class="ms-badge">${ms.id}</div><div class="ms-row-name">${ms.name}</div><div class="ms-bar"><div class="ms-bar-fill" style="width:${pct}%"></div></div><div class="ms-pct">${pct}%</div><span class="badge ${s.bc}">${dot}${s.label}</span></div>`;}).join('');}if(data.github){const repos={'claude-workspace':'gh-cw','umei3d-app':'gh-ua'};Object.entries(repos).forEach(([repo,id])=>{const info=data.github[repo];if(!info)return;const de=document.getElementById(id+'-date');const ce=document.getElementById(id+'-commit');if(info.lastCommitDate&&de)de.textContent=new Date(info.lastCommitDate).toLocaleDateString('en-US',{month:'short',day:'numeric'});if(ce&&info.lastCommit)ce.textContent='Last commit: '+info.lastCommit;});}if(data.automations){document.getElementById('automations-list').innerHTML=data.automations.map(a=>{const lr=a.lastRun?new Date(a.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'Not yet run';const st=a.status==='ok'?`<span class="badge badge-green"><span class="dot pulse"></span> Running</span>`:`<span class="badge badge-red">Error</span>`;return `<div class="auto-card"><div class="auto-icon">🤖</div><div style="flex:1"><div class="auto-name">${a.name}</div><div class="auto-desc">Last run: ${lr}</div><div class="auto-meta">${st}<span class="badge badge-gray">🕐 ${a.schedule}</span><span class="badge badge-blue">→ ${a.target}</span></div></div></div>`;}).join('');}if(data.inbox)renderInbox(data.inbox);
 if(data.agenda)renderAgenda(data.agenda);if(data.todayLog)setEl('today-log',data.todayLog);if(data.automations)updateAgentStates(data.automations);if(data.nextSession)renderNextSession(data.nextSession);if(data.lastSession){setEl('last-session-date',data.lastSession.date);setEl('last-session-summary',data.lastSession.summary);}if(data.vibe){const vn=document.getElementById('vibe-note');if(vn)vn.textContent=data.vibe;}if(data.shopify)renderShopifyData(data.shopify);
 if(data.milestones)startCountdown(data.milestones);}
 function timeAgo(iso){const d=new Date(iso),now=new Date(),s=Math.floor((now-d)/1000);if(s<60)return'just now';if(s<3600)return Math.floor(s/60)+'m ago';if(s<86400)return Math.floor(s/3600)+'h ago';return Math.floor(s/86400)+'d ago';}
