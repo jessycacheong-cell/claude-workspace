@@ -1188,21 +1188,6 @@
             <div class="df-bot-info"><div class="df-bot-name">CalendarBot</div><div class="df-bot-sched">Every 15min · GCal → data.json</div></div>
             <span class="df-badge live">LIVE</span>
           </div>
-          <div class="df-bot pending" id="dfb-git">
-            <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">GitBot</div><div class="df-bot-sched">Every 6hrs · GitHub → data.json</div></div>
-            <span class="df-badge soon">PENDING</span>
-          </div>
-          <div class="df-bot pending" id="dfb-wrap">
-            <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">WrapBot</div><div class="df-bot-sched">8PM daily · summary → data.json</div></div>
-            <span class="df-badge soon">PENDING</span>
-          </div>
-          <div class="df-bot pending" id="dfb-log">
-            <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">LogBot</div><div class="df-bot-sched">8:10PM daily · session → Notion</div></div>
-            <span class="df-badge soon">PENDING</span>
-          </div>
         </div>
       </div>
 
@@ -1310,7 +1295,7 @@ function loadTodos(){try{const s=JSON.parse(localStorage.getItem(TODO_KEY)||'{}'
 function toggleTodo(el){el.classList.toggle('done');const done=el.classList.contains('done');showToast(done?'✓ Done: '+el.querySelector('.todo-text')?.textContent?.slice(0,28)+'...':'↩ Unchecked',done?'success':'info');saveTodos();updateTodoBar();}
 function updateTodoBar(){updateProdScore();}
 
-const AGENT_SCHEDULES=[{name:'GitBot',hours:[0,6,12,18],min:0},{name:'MilestoneBot',hours:[9],min:0},{name:'WrapBot',hours:[20],min:0},{name:'LogBot',hours:[20],min:10}];
+const AGENT_SCHEDULES=[{name:'MilestoneBot',hours:[9],min:0}];
 function getNextAgentRun(){const now=new Date();let minDiff=Infinity,nextName='';AGENT_SCHEDULES.forEach(a=>{a.hours.forEach(h=>{let n=new Date(now);n.setHours(h,a.min,0,0);if(n<=now)n.setDate(n.getDate()+1);const d=n-now;if(d<minDiff){minDiff=d;nextName=a.name;}});});const tm=Math.floor(minDiff/60000);return{name:nextName,label:Math.floor(tm/60)>0?`${Math.floor(tm/60)}h ${tm%60}m`:`${tm%60}m`};}
 function updateCountdown(){const el=document.getElementById('next-agent-run');if(!el)return;const{name,label}=getNextAgentRun();el.textContent=`${name} runs in ${label}`;}
 updateCountdown();setInterval(updateCountdown,30000);
@@ -1559,9 +1544,6 @@ function drawFlowLines(){
   // GitHub Bots → Output
   addConn('dfb-milestone','dfn-datajson','right','left','#4ade80',true,2.2);
   addConn('dfb-inbox','dfn-datajson','right','left','#22d47a',true,1.9);
-  addConn('dfb-git','dfn-datajson','right','left','#a78bfa',false,0);
-  addConn('dfb-wrap','dfn-netlify','right','left','#FD6969',false,0);
-  addConn('dfb-log','dfn-netlify','right','left','#FD6969',false,0);
   // Claude Bots → Output
   addConn('dfb-gmail','dfn-datajson','right','left','#4583fd',true,1.8);
   addConn('dfb-calendar','dfn-datajson','right','left','#a78bfa',true,1.6);
