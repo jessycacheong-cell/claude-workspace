@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-25T18:09:17.490Z",
     "gorgias": [
       {
+        "id": 90043610,
+        "subject": "Your competitors are already selling. Are you?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-25T19:09:33.388000+00:00"
+      },
+      {
+        "id": 90026628,
+        "subject": "Upgrade your setup",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-25T17:45:40+00:00"
+      },
+      {
+        "id": 90017740,
+        "subject": "You’ve got new messages from CherelynnB",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-25T17:05:55+00:00"
+      },
+      {
+        "id": 90013343,
+        "subject": "You're invited: The Power of Search webinar",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-25T16:46:32.666000+00:00"
+      },
+      {
         "id": 89997464,
         "subject": "Reduce Returns & Boost Customer Satisfaction - Enroll in Amazon Product Support",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-03-25T15:38:44+00:00"
-      },
-      {
-        "id": 89993473,
-        "subject": "Which webinar will you join?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-25T15:20:33+00:00"
-      },
-      {
-        "id": 89988371,
-        "subject": "Your $25 in Big Spring Sale rewards are waiting",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-25T14:58:12+00:00"
-      },
-      {
-        "id": 89985574,
-        "subject": "Lucas",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-25T14:45:06+00:00"
-      },
-      {
-        "id": 89981254,
-        "subject": "Your opinion matters: Short survey about your social media usage",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-25T14:24:07+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-25T16:21:35.254Z"
+    "gorgiasUpdated": "2026-03-25T19:34:39.535Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-03-25T16:42:08.155Z",
