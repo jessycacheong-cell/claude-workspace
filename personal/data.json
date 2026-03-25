@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-24T23:58:29.082Z",
     "gorgias": [
       {
+        "id": 89902791,
+        "subject": "TEst",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-24T23:36:17+00:00"
+      },
+      {
         "id": 89873966,
         "subject": "hellloooo!!!! (get discovered without the manual work)",
         "customer": "Unknown",
         "status": "closed",
-        "time": "1h ago"
+        "timestamp": "2026-03-24T20:31:44+00:00"
       },
       {
         "id": 89870938,
         "subject": "Direct message with fiadelinesahusebu2002",
         "customer": "Unknown",
         "status": "open",
-        "time": "1h ago"
+        "timestamp": "2026-03-24T20:15:27.675000+00:00"
       },
       {
         "id": 89832641,
         "subject": "A record-breaking week on Kickstarter",
         "customer": "Unknown",
         "status": "closed",
-        "time": "4h ago"
+        "timestamp": "2026-03-24T17:04:08+00:00"
       },
       {
         "id": 89833172,
         "subject": "Come back and join us for 25% off",
         "customer": "Unknown",
         "status": "closed",
-        "time": "4h ago"
-      },
-      {
-        "id": 89863821,
-        "subject": "Video-to-video is now on Artlist! Generate AI videos with more control than ever",
-        "customer": "Unknown",
-        "status": "closed",
-        "time": "5h ago"
+        "timestamp": "2026-03-24T17:04:06+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-24T22:03:06.904Z"
+    "gorgiasUpdated": "2026-03-25T00:00:53.253Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-03-24T23:58:38.199Z",
