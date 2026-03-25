@@ -1579,16 +1579,29 @@ function initPixelStudio(){
   let tick=0;
   const DIVX=130;
 
-  // Load real pixel-art character sprites (open source, pablodelucca/pixel-agents)
-  const CHAR_BASE='https://raw.githubusercontent.com/pablodelucca/pixel-agents/main/webview-ui/public/assets/characters/';
-  const charImgs=[];
-  let charsReady=0;
-  for(let i=0;i<4;i++){
-    const img=new Image();
-    img.crossOrigin='anonymous';
-    img.onload=img.onerror=()=>{ charsReady++; };
-    img.src=CHAR_BASE+'char_'+i+'.png';
-    charImgs.push(img);
+  // Load real pixel-art sprites (open source, pablodelucca/pixel-agents)
+  const ASSET_BASE='https://raw.githubusercontent.com/pablodelucca/pixel-agents/main/webview-ui/public/assets/';
+  function loadImg(url){ const img=new Image(); img.crossOrigin='anonymous'; img.src=url; return img; }
+
+  // Character sprites (16×32 per frame, 112×96 sheet, 7cols×3rows)
+  const charImgs=Array.from({length:4},(_,i)=>loadImg(ASSET_BASE+'characters/char_'+i+'.png'));
+
+  // Furniture sprites — native sizes from manifest
+  const F=ASSET_BASE+'furniture/';
+  const fi={
+    shelf:  loadImg(F+'BOOKSHELF/BOOKSHELF.png'),        // 32×16
+    desk:   loadImg(F+'DESK/DESK_FRONT.png'),             // 48×32
+    pc:     loadImg(F+'PC/PC_FRONT_ON_1.png'),            // 16×32 (in 256×256)
+    chair:  loadImg(F+'WOODEN_CHAIR/WOODEN_CHAIR_FRONT.png'), // 16×32
+    sofa_b: loadImg(F+'SOFA/SOFA_BACK.png'),              // 32×16
+    sofa_f: loadImg(F+'SOFA/SOFA_FRONT.png'),             // 32×16
+    ctable: loadImg(F+'COFFEE_TABLE/COFFEE_TABLE.png'),   // 32×32
+    plant:  loadImg(F+'LARGE_PLANT/LARGE_PLANT.png'),     // 32×48
+  };
+  // spr: draw furniture at canvas pixel coords (not logical units)
+  function spr(img, sx, sy, sw, sh, cx, cy, dw, dh){
+    if(!img?.complete||!img.naturalWidth) return;
+    ctx.drawImage(img, sx, sy, sw, sh, cx, cy, dw||sw, dh||sh);
   }
 
   const BOTS=[
@@ -1652,35 +1665,37 @@ function initPixelStudio(){
   }
 
   function drawBookshelves(){
-    r(8,0,36,8,'#3d2b1a'); r(8,0,36,2,'#5a3d22');
-    BOOKS1.forEach(b=>{ r(b.x,0,b.w,7,b.c,0.9); r(b.x,0,b.w,2,b.c,0.4); });
-    r(56,0,46,8,'#3d2b1a'); r(56,0,46,2,'#5a3d22');
-    BOOKS2.forEach(b=>{ r(b.x,0,b.w,7,b.c,0.9); r(b.x,0,b.w,2,b.c,0.4); });
-    drawPlant(2,0); drawPlant(106,0);
+    // Tile BOOKSHELF sprites (32×16) across the top wall
+    for(let bx=8; bx<248; bx+=32) spr(fi.shelf, 0,0,32,16, bx,0);
+    // Plants flanking bookshelves (fallback code-drawn if sprite not loaded)
+    if(fi.plant?.complete && fi.plant.naturalWidth){
+      spr(fi.plant,0,0,32,48, 2,0);
+      spr(fi.plant,0,0,32,48, 224,0);
+    } else {
+      drawPlant(1,0); drawPlant(112,0);
+    }
   }
 
   function drawDesk(di){
     const d=DESKS[di], b=BOTS[di];
     const ag=agents.find(a=>a.key===b.key), working=ag&&ag.state==='working';
     const {x,y,w,h}=d;
-    r(x,y,w,h,'#7c5c3a'); r(x,y,w,2,'#a07850'); r(x,y,2,h,'#a07850');
-    r(x+w-2,y,2,h,'#4a3520'); r(x,y+h-2,w,2,'#4a3520');
-    r(x+2,y+2,w-4,h-4,'#8a6642');
-    r(x+4,y+2,20,10,'#1a1a2e'); r(x+4,y+2,20,10,b.color,working?0.28:0.09);
+    const cx=d.x*P, cy=d.y*P; // canvas pixel coords
+    // Chair (behind desk in draw order = lower y = drawn first)
+    spr(fi.chair, 0,0,16,32, cx+16, cy+h*P+2);
+    // Desk sprite
+    spr(fi.desk, 0,0,48,32, cx, cy);
+    // PC sprite (content is 16×32 in top-left of 256×256 source)
+    spr(fi.pc, 0,0,16,32, cx+16, cy-16);
+    // Working glow on PC when active
     if(working){
-      for(let ln=0;ln<4;ln++){ const lw=4+((Math.floor(tick/6)+ln)%6)*2; r(x+6,y+2+ln*2,lw,2,b.color,0.5); }
-      if(Math.floor(tick/12)%2===0) r(x+6+(Math.floor(tick/8)%7)*2,y+2+(Math.floor(tick/18)%4)*2,2,2,'#fff',0.9);
+      const p=0.25+Math.sin(tick*0.14)*0.12;
+      ctx.strokeStyle=b.color; ctx.globalAlpha=p; ctx.lineWidth=1;
+      ctx.strokeRect(cx+15, cy-17, 18, 34); ctx.globalAlpha=1;
     }
-    r(x+10,y+12,8,2,'#3a2a1a'); // stand
-    r(x+w-10,y+2,8,6,'#e8e0d0',0.7); r(x+w-8,y+6,6,4,'#d4ccbc',0.6); // papers
-    r(x+2,y+h-6,18,4,'#2a2a3e');
-    for(let k=0;k<14;k++){ r(x+4+k,y+h-6,1,2,'#3d3d55',0.9); r(x+4+k,y+h-4,1,2,'#3d3d55',0.9); }
-    r(x+w-6,y+h-6,4,4,'#2a2a3e'); r(x+w-6,y+h-6,2,2,'#454560',0.9); // mouse
-    r(x+w-4,y+2,4,4,b.color,1); // identity
-    const cx=x+w/2-6,cy=y+h+2;
-    r(cx,cy,12,2,'#5a3a20'); r(cx-2,cy+2,16,6,'#6a4a28');
-    r(cx,cy+8,12,2,'#5a3a20'); r(cx+2,cy+4,8,2,'#9a6848',0.6);
-    r(cx-2,cy+4,2,4,'#3a2510'); r(cx+12,cy+4,2,4,'#3a2510');
+    // Bot color dot identifier
+    ctx.fillStyle=b.color; ctx.globalAlpha=0.9;
+    ctx.fillRect(cx+40, cy+2, 6, 6); ctx.globalAlpha=1;
   }
 
   function drawConferenceTable(){
@@ -1695,15 +1710,19 @@ function initPixelStudio(){
   }
 
   function drawLounge(){
-    const lx=DIVX+4;
-    r(lx,16,26,10,'#7a2030'); r(lx,16,26,2,'#9a3040'); r(lx,16,2,10,'#9a3040'); r(lx+24,16,2,10,'#9a3040');
-    r(lx+2,18,22,6,'#8a2838',0.9); r(lx+2,18,22,2,'#aa4050',0.3);
-    r(lx,48,26,10,'#7a2030'); r(lx,56,26,2,'#9a3040'); r(lx,48,2,10,'#9a3040'); r(lx+24,48,2,10,'#9a3040');
-    r(lx+2,48,22,6,'#8a2838',0.9); r(lx+2,48,22,2,'#aa4050',0.3);
-    r(lx+2,30,22,16,'#a07840'); r(lx+2,30,22,2,'#c09050'); r(lx+2,30,2,16,'#c09050');
-    r(lx+4,32,18,12,'#b08848');
-    r(lx+4,34,8,4,'#c8b88e',0.7); r(lx+14,36,4,4,'#7B2020',0.9); r(lx+10,32,4,2,'#d4c498',0.5);
-    drawPlant(DIVX+2,LH-18); drawPlant(DIVX+34,LH-19);
+    const lx=(DIVX+4)*P; // canvas pixel x start of lounge
+    // Top sofa (SOFA_BACK faces player = back of sofa visible from top)
+    spr(fi.sofa_b, 0,0,32,16, lx, 32);
+    spr(fi.sofa_b, 0,0,32,16, lx+32, 32); // double-wide sofa
+    // Bottom sofa (SOFA_FRONT faces up)
+    spr(fi.sofa_f, 0,0,32,16, lx, 96);
+    spr(fi.sofa_f, 0,0,32,16, lx+32, 96);
+    // Coffee table between sofas (32×32)
+    spr(fi.ctable, 0,0,32,32, lx+16, 56);
+    // Corner plants (32×48)
+    spr(fi.plant, 0,0,32,48, DIVX*P+2, LH*P-52);
+    spr(fi.plant, 0,0,32,48, LW*P-38, LH*P-52);
+    // Picture frames (keep code-drawn)
     [[14,10,'#7a8870'],[30,10,'#9a8870'],[46,10,'#6a8890']].forEach(([fy,fh,fc])=>{
       r(LW-6,fy,4,fh,'#2a1a0a'); r(LW-6,fy,4,fh,'#6a5848',0.5); r(LW-6,fy+2,4,fh-4,fc,0.4);
     });
@@ -1714,7 +1733,9 @@ function initPixelStudio(){
     r(DIVX-10,18,2,2,'#FD6969',0.9); r(DIVX-8,18,2,2,'#4583fd',0.9);
     r(4,10,10,10,'#1e1520'); r(6,14,6,4,'#9B3030',0.9); r(6,12,4,2,'#c04040',0.6);
     if(tick%30<15) r(6,10,2,2,'#fff',0.1);
-    drawPlant(2,LH-18); drawPlant(DIVX-16,LH-18); drawPlant(2,28);
+    spr(fi.plant,0,0,32,48, 4, LH*P-52);
+    spr(fi.plant,0,0,32,48, (DIVX-18)*P, LH*P-52);
+    spr(fi.plant,0,0,32,48, 4, 56);
   }
 
   function drawAgent(ag){
