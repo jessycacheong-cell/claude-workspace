@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T00:05:04.298Z",
+  "lastUpdated": "2026-03-26T05:52:12.269Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -58,6 +58,12 @@
     "gmail": [
       {
         "from": "Priscila Herrera",
+        "subject": "Offer Letter of Employment",
+        "timestamp": "2026-03-26T00:17:33.000Z",
+        "unread": false
+      },
+      {
+        "from": "Priscila Herrera",
         "subject": "RE: Business Operations Analyst – Job Description",
         "timestamp": "2026-03-25T00:24:28.000Z",
         "unread": false
@@ -79,15 +85,9 @@
         "subject": "RE: In Person Interview / Cubework",
         "timestamp": "2026-03-18T20:52:36.000Z",
         "unread": false
-      },
-      {
-        "from": "Google Calendar",
-        "subject": "Notification: In Person Interview / Cubework @ Wed Mar 11, 2026 10:30am - 11am (PDT) (Jessyca C. Archer)",
-        "timestamp": "2026-03-11T17:19:50.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-03-25T23:52:23.129Z",
+    "gmailUpdated": "2026-03-26T05:52:12.069Z",
     "gorgias": [
       {
         "id": 90091667,
@@ -126,7 +126,8 @@
       }
     ],
     "gorgiasUpdated": "2026-03-26T00:05:04.128Z",
-    "gorgiasSummary": ""
+    "gorgiasSummary": "",
+    "gmailSummary": ""
   },
   "agenda": [],
   "agendaUpdated": "2026-03-25T23:52:36.688Z",
