@@ -759,6 +759,17 @@
     </div>
   </div>
 
+  <!-- GitHub Action Bots -->
+  <div class="bc bc-12" id="automations-card">
+    <div class="bc-label" style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+      <span>GitHub Bots</span>
+      <span style="font-size:10px;color:var(--green);display:flex;align-items:center;gap:4px;"><span style="width:5px;height:5px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite;"></span>LIVE</span>
+    </div>
+    <div id="automations-list" style="display:flex;gap:10px;flex-wrap:wrap;">
+      <div style="font-size:12px;color:var(--text-3);padding:8px 0;">Loading bots...</div>
+    </div>
+  </div>
+
   <!-- Active App — with mini activity bar chart -->
   <div class="bc bc-4 bc-app-live">
     <div class="bc-app-status-deco"></div>
@@ -944,34 +955,6 @@
     <div id="pixel-status" style="font-size:11px;margin-top:6px;text-align:center;min-height:16px;color:var(--text-3);">Loading studio...</div>
   </div>
 
-  <!-- At a Glance — gauge + mini chart for MCP -->
-  <div class="bc bc-8">
-    <div class="bc-label">At a Glance</div>
-    <div style="display:flex;align-items:center;gap:20px;height:calc(100% - 28px);">
-      <div class="gauge-wrap" style="flex-shrink:0;">
-        <svg width="110" height="70" viewBox="0 0 110 70" style="overflow:visible;">
-          <path class="gauge-bg" d="M10,65 A45,45 0 0,1 100,65"/>
-          <path class="gauge-fill" id="glance-gauge" d="M10,65 A45,45 0 0,1 100,65"
-            stroke="#FD6969" stroke-dasharray="141.37" stroke-dashoffset="84.82"/>
-        </svg>
-        <div style="margin-top:-8px;text-align:center;">
-          <div class="gauge-label" style="color:var(--blue);" id="glance-pct">40%</div>
-          <div class="gauge-sub">M1 Progress</div>
-        </div>
-      </div>
-      <div style="flex:1;display:flex;flex-direction:column;gap:10px;">
-        <div>
-          <div style="font-size:32px;font-weight:800;color:var(--chart-bar);line-height:1;text-shadow:0 0 20px rgba(255,140,66,0.35);" id="stat-mcp">6</div>
-          <div style="font-size:10px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;margin-top:2px;">MCP Agents</div>
-        </div>
-        <div>
-          <div style="font-size:32px;font-weight:800;color:var(--yellow);line-height:1;text-shadow:0 0 16px rgba(245,158,11,0.3);" id="stat-auto">4</div>
-          <div style="font-size:10px;color:var(--text-2);text-transform:uppercase;letter-spacing:.05em;margin-top:2px;">Automations</div>
-          <div class="metric-status info">Active & Scheduled</div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- GitHub -->
   <div class="bc bc-4" id="github">
@@ -1250,7 +1233,6 @@
         <div class="prod-note" id="vibe-note">Mar 21 — Cloud migration complete. MilestoneBot live. You shipped something real today.</div>
       </div>
       <div class="card" style="border-color:rgba(253,105,105,0.12);"><div style="font-size:13px;color:var(--text-2);line-height:1.7;" id="today-log">Loading today's log...</div></div>
-      <div id="automations-list" style="display:none;"></div>
     </div>
   </div>
 
@@ -1913,7 +1895,7 @@ setTimeout(initPixelStudio,500);
 // ─────────────────────────────────────────────────────────────────────────────
 
 async function loadData(){try{const res=await fetch('https://raw.githubusercontent.com/jessycacheong-cell/claude-workspace/main/personal/data.json?t='+Date.now());if(!res.ok)throw new Error();const data=await res.json();renderData(data);const el=document.getElementById('last-sync');el.textContent='Live · '+new Date(data.lastUpdated).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});el.style.color='var(--green)';showToast('Dashboard refreshed','success');}catch{document.getElementById('last-sync').textContent='Live';updateProductivity(40);}}
-function renderData(data){window._dashData=data;if(data.stats){setEl('stat-mcp',data.stats.mcpAgents);setEl('stat-auto',data.stats.automationsRunning);setEl('stat-milestone',data.stats.currentMilestone);}if(data.milestones){const ap=(data.milestones.find(m=>m.status==='in-progress')||{}).progress||40;updateProductivity(ap);const list=document.getElementById('milestone-list');list.innerHTML=data.milestones.map(ms=>{const map={'done':{cls:'done',label:'Done',bc:'badge-green'},'in-progress':{cls:'active',label:'In Progress',bc:'badge-yellow'},'blocked':{cls:'',label:'Blocked',bc:'badge-red'},'not-started':{cls:'',label:'Not Started',bc:'badge-gray'}};const s=map[ms.status]||map['not-started'];const pct=ms.status==='done'?100:(ms.status==='not-started'?0:ms.progress);const dot=ms.status==='in-progress'?'<span class="dot pulse"></span> ':'';return `<div class="ms-row ${s.cls}"><div class="ms-badge">${ms.id}</div><div class="ms-row-name">${ms.name}</div><div class="ms-bar"><div class="ms-bar-fill" style="width:${pct}%"></div></div><div class="ms-pct">${pct}%</div><span class="badge ${s.bc}">${dot}${s.label}</span></div>`;}).join('');}if(data.github){const repos={'claude-workspace':'gh-cw','umei3d-app':'gh-ua'};Object.entries(repos).forEach(([repo,id])=>{const info=data.github[repo];if(!info)return;const de=document.getElementById(id+'-date');const ce=document.getElementById(id+'-commit');if(info.lastCommitDate&&de)de.textContent=new Date(info.lastCommitDate).toLocaleDateString('en-US',{month:'short',day:'numeric'});if(ce&&info.lastCommit)ce.textContent='Last commit: '+info.lastCommit;});}if(data.automations){document.getElementById('automations-list').innerHTML=data.automations.map(a=>{const lr=a.lastRun?new Date(a.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'Not yet run';const st=a.status==='ok'?`<span class="badge badge-green"><span class="dot pulse"></span> Running</span>`:`<span class="badge badge-red">Error</span>`;return `<div class="auto-card"><div class="auto-icon">🤖</div><div style="flex:1"><div class="auto-name">${a.name}</div><div class="auto-desc">Last run: ${lr}</div><div class="auto-meta">${st}<span class="badge badge-gray">🕐 ${a.schedule}</span><span class="badge badge-blue">→ ${a.target}</span></div></div></div>`;}).join('');}if(data.inbox)renderInbox(data.inbox);
+function renderData(data){window._dashData=data;if(data.stats){setEl('stat-mcp',data.stats.mcpAgents);setEl('stat-auto',data.stats.automationsRunning);setEl('stat-milestone',data.stats.currentMilestone);}if(data.milestones){const ap=(data.milestones.find(m=>m.status==='in-progress')||{}).progress||40;updateProductivity(ap);const list=document.getElementById('milestone-list');list.innerHTML=data.milestones.map(ms=>{const map={'done':{cls:'done',label:'Done',bc:'badge-green'},'in-progress':{cls:'active',label:'In Progress',bc:'badge-yellow'},'blocked':{cls:'',label:'Blocked',bc:'badge-red'},'not-started':{cls:'',label:'Not Started',bc:'badge-gray'}};const s=map[ms.status]||map['not-started'];const pct=ms.status==='done'?100:(ms.status==='not-started'?0:ms.progress);const dot=ms.status==='in-progress'?'<span class="dot pulse"></span> ':'';return `<div class="ms-row ${s.cls}"><div class="ms-badge">${ms.id}</div><div class="ms-row-name">${ms.name}</div><div class="ms-bar"><div class="ms-bar-fill" style="width:${pct}%"></div></div><div class="ms-pct">${pct}%</div><span class="badge ${s.bc}">${dot}${s.label}</span></div>`;}).join('');}if(data.github){const repos={'claude-workspace':'gh-cw','umei3d-app':'gh-ua'};Object.entries(repos).forEach(([repo,id])=>{const info=data.github[repo];if(!info)return;const de=document.getElementById(id+'-date');const ce=document.getElementById(id+'-commit');if(info.lastCommitDate&&de)de.textContent=new Date(info.lastCommitDate).toLocaleDateString('en-US',{month:'short',day:'numeric'});if(ce&&info.lastCommit)ce.textContent='Last commit: '+info.lastCommit;});}if(data.automations){const botMeta={GmailBot:{icon:'✉️',color:'#FD6969',dim:'rgba(253,105,105,0.1)'},CalendarBot:{icon:'📅',color:'#4583fd',dim:'rgba(69,131,253,0.1)'},InboxBot:{icon:'🎧',color:'#f59e0b',dim:'rgba(245,158,11,0.1)'},MilestoneBot:{icon:'🚀',color:'#a78bfa',dim:'rgba(167,139,250,0.1)'},WrapBot:{icon:'✦',color:'#f97316',dim:'rgba(249,115,22,0.1)'}};document.getElementById('automations-list').innerHTML=data.automations.map(a=>{const m=botMeta[a.name]||{icon:'🤖',color:'var(--green)',dim:'rgba(34,212,122,0.1)'};const lr=a.lastRun?new Date(a.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'Not yet run';const st=a.status==='ok'?`<span class="badge badge-green" style="font-size:10px;"><span class="dot pulse"></span> Running</span>`:`<span class="badge badge-red" style="font-size:10px;">Error</span>`;return `<div style="flex:1;min-width:180px;background:${m.dim};border:1px solid ${m.color}33;border-radius:12px;padding:12px 14px;"><div style="display:flex;align-items:center;gap:8px;margin-bottom:8px;"><span style="font-size:16px;">${m.icon}</span><span style="font-size:13px;font-weight:700;color:${m.color};">${a.name}</span><span style="margin-left:auto;">${st}</span></div><div style="font-size:11px;color:var(--text-2);margin-bottom:6px;">Last run: ${lr}</div><div style="display:flex;gap:4px;flex-wrap:wrap;"><span class="badge badge-gray" style="font-size:10px;">🕐 ${a.schedule}</span><span class="badge badge-blue" style="font-size:10px;">→ ${a.target}</span></div></div>`;}).join('');}if(data.inbox)renderInbox(data.inbox);
 if(data.agenda)renderAgenda(data.agenda);if(data.todayLog)setEl('today-log',data.todayLog);if(data.automations)updateAgentStates(data.automations);if(data.nextSession)renderNextSession(data.nextSession);if(data.lastSession){setEl('last-session-date',data.lastSession.date);setEl('last-session-summary',data.lastSession.summary);}if(data.vibe){const vn=document.getElementById('vibe-note');if(vn)vn.textContent=data.vibe;}if(data.shopify)renderShopifyData(data.shopify);
 if(data.milestones)startCountdown(data.milestones);
 // Claude AI summaries
