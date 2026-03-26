@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-25T23:52:36.688Z",
+  "lastUpdated": "2026-03-26T00:05:04.298Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-25T23:52:23.129Z",
     "gorgias": [
       {
+        "id": 90091667,
+        "subject": "Love this this makes me so happy my cousins funeral was today and this lifted my spirits up!",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-26T00:02:33+00:00"
+      },
+      {
+        "id": 90091322,
+        "subject": "Refund Initiated for Order 113-3777320-6020247",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-26T00:00:27+00:00"
+      },
+      {
+        "id": 90088960,
+        "subject": "Your puzzle is closing, UMEI ⏰",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-25T23:42:04+00:00"
+      },
+      {
         "id": 90043610,
         "subject": "Your competitors are already selling. Are you?",
         "customer": "Unknown",
@@ -102,30 +123,10 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-03-25T17:45:40+00:00"
-      },
-      {
-        "id": 90017740,
-        "subject": "You’ve got new messages from CherelynnB",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-25T17:05:55+00:00"
-      },
-      {
-        "id": 90013343,
-        "subject": "You're invited: The Power of Search webinar",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-25T16:46:32.666000+00:00"
-      },
-      {
-        "id": 89997464,
-        "subject": "Reduce Returns & Boost Customer Satisfaction - Enroll in Amazon Product Support",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-25T15:38:44+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-25T23:02:55.430Z"
+    "gorgiasUpdated": "2026-03-26T00:05:04.128Z",
+    "gorgiasSummary": ""
   },
   "agenda": [],
   "agendaUpdated": "2026-03-25T23:52:36.688Z",
