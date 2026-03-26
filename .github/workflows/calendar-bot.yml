@@ -137,10 +137,39 @@ jobs:
           main().catch(e => { console.error(e); process.exit(1); });
           EOF
 
+      - name: Claude AI — summarize agenda
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          node << 'EOF'
+          const https = require('https');
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('personal/data.json', 'utf8'));
+          const events = data.agenda || [];
+          const list = events.length ? events.map(e => `- ${e.time}: ${e.title}`).join('\n') : 'Nothing scheduled today.';
+          const prompt = `J's Google Calendar today:\n${list}\n\nWrite ONE casual sentence (max 15 words) about today's schedule. If it's clear, say so — that's a good thing.`;
+          const body = JSON.stringify({ model: 'claude-sonnet-4-6', max_tokens: 80, messages: [{ role: 'user', content: prompt }] });
+          const req = https.request({ hostname: 'api.anthropic.com', path: '/v1/messages', method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'x-api-key': process.env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01', 'Content-Length': Buffer.byteLength(body) }
+          }, res => {
+            let d = ''; res.on('data', c => d += c);
+            res.on('end', () => {
+              const r = JSON.parse(d);
+              const summary = r.content?.[0]?.text?.trim() || '';
+              console.log('Claude calendar summary:', summary);
+              data.agendaSummary = summary;
+              data.lastUpdated = new Date().toISOString();
+              fs.writeFileSync('personal/data.json', JSON.stringify(data, null, 2));
+            });
+          });
+          req.on('error', e => { console.error('Claude error:', e.message); process.exit(0); });
+          req.write(body); req.end();
+          EOF
+
       - name: Commit and push
         run: |
           git config user.name "CalendarBot"
           git config user.email "bot@jessyca-dashboard"
           git add personal/data.json
-          git diff --staged --quiet || git commit -m "CalendarBot: refresh agenda [skip ci]"
+          git diff --staged --quiet || git commit -m "CalendarBot: refresh agenda + Claude summary [skip ci]"
           git push || (git pull --rebase origin main && git push)

@@ -11,8 +11,50 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
       - name: Run MilestoneBot
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node personal/milestonebot.js
+
+      - name: Claude AI — summarize milestone progress
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          node << 'EOF'
+          const https = require('https');
+          const fs = require('fs');
+          const data = JSON.parse(fs.readFileSync('personal/data.json', 'utf8'));
+          const milestones = data.milestones || [];
+          const list = milestones.map(m => `M${m.id} ${m.name}: ${m.status} (${m.progress||0}%)`).join('\n');
+          const prompt = `UMEI3D post-purchase app milestones:\n${list}\n\nWrite ONE casual sentence (max 15 words) about overall progress. Be honest if things are behind.`;
+          const body = JSON.stringify({ model: 'claude-sonnet-4-6', max_tokens: 80, messages: [{ role: 'user', content: prompt }] });
+          const req = https.request({ hostname: 'api.anthropic.com', path: '/v1/messages', method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'x-api-key': process.env.ANTHROPIC_API_KEY, 'anthropic-version': '2023-06-01', 'Content-Length': Buffer.byteLength(body) }
+          }, res => {
+            let d = ''; res.on('data', c => d += c);
+            res.on('end', () => {
+              const r = JSON.parse(d);
+              const summary = r.content?.[0]?.text?.trim() || '';
+              console.log('Claude milestone summary:', summary);
+              data.milestoneSummary = summary;
+              data.lastUpdated = new Date().toISOString();
+              fs.writeFileSync('personal/data.json', JSON.stringify(data, null, 2));
+            });
+          });
+          req.on('error', e => { console.error('Claude error:', e.message); process.exit(0); });
+          req.write(body); req.end();
+          EOF
+
+      - name: Commit milestone summary
+        run: |
+          git config user.name "MilestoneBot"
+          git config user.email "bot@jessyca-dashboard"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/jessycacheong-cell/claude-workspace.git
+          git add personal/data.json
+          git diff --staged --quiet || git commit -m "MilestoneBot: refresh milestones + Claude summary [skip ci]"
+          git push || (git pull --rebase origin main && git push)
