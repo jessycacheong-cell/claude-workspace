@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T09:45:57.947Z",
+  "lastUpdated": "2026-03-26T11:38:19.486Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Google Merchant Center",
+        "subject": "Action required: Add your shipping info",
+        "timestamp": "2026-03-26T09:41:43.000Z",
+        "unread": true
+      },
+      {
         "from": "Priscila Herrera",
         "subject": "Offer Letter of Employment",
         "timestamp": "2026-03-26T00:17:33.000Z",
@@ -79,15 +85,9 @@
         "subject": "Business Operations Analyst – Job Description",
         "timestamp": "2026-03-19T00:01:12.000Z",
         "unread": false
-      },
-      {
-        "from": "Priscila Herrera",
-        "subject": "RE: In Person Interview / Cubework",
-        "timestamp": "2026-03-18T20:52:36.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-03-26T08:37:13.057Z",
+    "gmailUpdated": "2026-03-26T11:38:19.291Z",
     "gorgias": [
       {
         "id": 90122379,
