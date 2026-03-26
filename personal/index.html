@@ -774,6 +774,7 @@
     <div class="bc-label">Today's Agenda — <span id="today-date-label">—</span></div>
     <div class="today-inner">
       <div class="today-card-header"><div class="today-card-title">Google Calendar</div><span class="badge badge-blue" id="event-count-badge">—</span></div>
+      <div id="agenda-summary" style="font-size:11px;color:#f97316;margin-bottom:8px;padding:4px 6px;background:rgba(249,115,22,0.08);border-radius:6px;display:none;"></div>
       <div class="today-events" id="today-events">
         <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading events...</div>
       </div>
@@ -790,6 +791,7 @@
           <span class="inbox-updated" id="gmail-updated">—</span>
         </div>
         <div id="gmail-list"><div class="inbox-empty">Loading...</div></div>
+        <div id="gmail-summary" style="font-size:11px;color:#f97316;margin-top:6px;padding:4px 6px;background:rgba(249,115,22,0.08);border-radius:6px;display:none;"></div>
       </div>
       <div class="inbox-col inbox-gorgias">
         <div class="inbox-col-header">
@@ -797,6 +799,7 @@
           <span class="inbox-updated" id="gorgias-updated">—</span>
         </div>
         <div id="gorgias-list"><div class="inbox-empty">Loading...</div></div>
+        <div id="gorgias-summary" style="font-size:11px;color:#f97316;margin-top:6px;padding:4px 6px;background:rgba(249,115,22,0.08);border-radius:6px;display:none;"></div>
       </div>
     </div>
   </div>
@@ -818,6 +821,7 @@
   <!-- Milestones -->
   <div class="bc bc-8 fade-up" id="milestones">
     <div class="bc-label">Active Milestones — UMEI3D Post-Purchase App <span class="pill-tag">5 milestones</span></div>
+    <div id="milestone-summary" style="font-size:11px;color:#f97316;margin-bottom:8px;padding:4px 8px;background:rgba(249,115,22,0.08);border-radius:6px;display:none;"></div>
     <div class="ms-compact" id="milestone-list">
       <div class="ms-row active"><div class="ms-badge">1</div><div class="ms-row-name">Feedback &amp; Fixes</div><div class="ms-bar"><div class="ms-bar-fill" style="width:40%"></div></div><div class="ms-pct">40%</div><span class="badge badge-blue"><span class="dot pulse"></span> In Progress</span></div>
       <div class="ms-row"><div class="ms-badge">2</div><div class="ms-row-name">Visual Polish (Figma)</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
@@ -1911,7 +1915,14 @@ setTimeout(initPixelStudio,500);
 async function loadData(){try{const res=await fetch('https://raw.githubusercontent.com/jessycacheong-cell/claude-workspace/main/personal/data.json?t='+Date.now());if(!res.ok)throw new Error();const data=await res.json();renderData(data);const el=document.getElementById('last-sync');el.textContent='Live · '+new Date(data.lastUpdated).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});el.style.color='var(--green)';showToast('Dashboard refreshed','success');}catch{document.getElementById('last-sync').textContent='Live';updateProductivity(40);}}
 function renderData(data){window._dashData=data;if(data.stats){setEl('stat-mcp',data.stats.mcpAgents);setEl('stat-auto',data.stats.automationsRunning);setEl('stat-milestone',data.stats.currentMilestone);}if(data.milestones){const ap=(data.milestones.find(m=>m.status==='in-progress')||{}).progress||40;updateProductivity(ap);const list=document.getElementById('milestone-list');list.innerHTML=data.milestones.map(ms=>{const map={'done':{cls:'done',label:'Done',bc:'badge-green'},'in-progress':{cls:'active',label:'In Progress',bc:'badge-yellow'},'blocked':{cls:'',label:'Blocked',bc:'badge-red'},'not-started':{cls:'',label:'Not Started',bc:'badge-gray'}};const s=map[ms.status]||map['not-started'];const pct=ms.status==='done'?100:(ms.status==='not-started'?0:ms.progress);const dot=ms.status==='in-progress'?'<span class="dot pulse"></span> ':'';return `<div class="ms-row ${s.cls}"><div class="ms-badge">${ms.id}</div><div class="ms-row-name">${ms.name}</div><div class="ms-bar"><div class="ms-bar-fill" style="width:${pct}%"></div></div><div class="ms-pct">${pct}%</div><span class="badge ${s.bc}">${dot}${s.label}</span></div>`;}).join('');}if(data.github){const repos={'claude-workspace':'gh-cw','umei3d-app':'gh-ua'};Object.entries(repos).forEach(([repo,id])=>{const info=data.github[repo];if(!info)return;const de=document.getElementById(id+'-date');const ce=document.getElementById(id+'-commit');if(info.lastCommitDate&&de)de.textContent=new Date(info.lastCommitDate).toLocaleDateString('en-US',{month:'short',day:'numeric'});if(ce&&info.lastCommit)ce.textContent='Last commit: '+info.lastCommit;});}if(data.automations){document.getElementById('automations-list').innerHTML=data.automations.map(a=>{const lr=a.lastRun?new Date(a.lastRun).toLocaleString('en-US',{month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}):'Not yet run';const st=a.status==='ok'?`<span class="badge badge-green"><span class="dot pulse"></span> Running</span>`:`<span class="badge badge-red">Error</span>`;return `<div class="auto-card"><div class="auto-icon">🤖</div><div style="flex:1"><div class="auto-name">${a.name}</div><div class="auto-desc">Last run: ${lr}</div><div class="auto-meta">${st}<span class="badge badge-gray">🕐 ${a.schedule}</span><span class="badge badge-blue">→ ${a.target}</span></div></div></div>`;}).join('');}if(data.inbox)renderInbox(data.inbox);
 if(data.agenda)renderAgenda(data.agenda);if(data.todayLog)setEl('today-log',data.todayLog);if(data.automations)updateAgentStates(data.automations);if(data.nextSession)renderNextSession(data.nextSession);if(data.lastSession){setEl('last-session-date',data.lastSession.date);setEl('last-session-summary',data.lastSession.summary);}if(data.vibe){const vn=document.getElementById('vibe-note');if(vn)vn.textContent=data.vibe;}if(data.shopify)renderShopifyData(data.shopify);
-if(data.milestones)startCountdown(data.milestones);}
+if(data.milestones)startCountdown(data.milestones);
+// Claude AI summaries
+function showSummary(id,text){const el=document.getElementById(id);if(el&&text){el.textContent='✦ '+text;el.style.display='block';}}
+if(data.inbox?.gmailSummary)showSummary('gmail-summary',data.inbox.gmailSummary);
+if(data.inbox?.gorgiasSummary)showSummary('gorgias-summary',data.inbox.gorgiasSummary);
+if(data.agendaSummary)showSummary('agenda-summary',data.agendaSummary);
+if(data.milestoneSummary)showSummary('milestone-summary',data.milestoneSummary);
+}
 function timeAgo(iso){const d=new Date(iso),now=new Date(),s=Math.floor((now-d)/1000);if(s<60)return'just now';if(s<3600)return Math.floor(s/60)+'m ago';if(s<86400)return Math.floor(s/3600)+'h ago';return Math.floor(s/86400)+'d ago';}
 function renderInbox(inbox){
   if(!inbox) return;
