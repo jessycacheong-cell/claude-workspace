@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T05:52:27.502Z",
+  "lastUpdated": "2026-03-26T05:53:44.885Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-26T05:52:12.069Z",
     "gorgias": [
       {
+        "id": 90122379,
+        "subject": "Your Google Play Order Receipt from Mar 25, 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-26T05:44:21+00:00"
+      },
+      {
+        "id": 90106777,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-26T02:12:39+00:00"
+      },
+      {
+        "id": 90105539,
+        "subject": "[Action required] We’re missing some details for your order",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-26T02:02:13+00:00"
+      },
+      {
         "id": 90091667,
         "subject": "Love this this makes me so happy my cousins funeral was today and this lifted my spirits up!",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-03-26T00:00:27+00:00"
-      },
-      {
-        "id": 90088960,
-        "subject": "Your puzzle is closing, UMEI ⏰",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-25T23:42:04+00:00"
-      },
-      {
-        "id": 90043610,
-        "subject": "Your competitors are already selling. Are you?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-25T19:09:33.388000+00:00"
-      },
-      {
-        "id": 90026628,
-        "subject": "Upgrade your setup",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-25T17:45:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-26T00:05:04.128Z",
+    "gorgiasUpdated": "2026-03-26T05:53:44.733Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
