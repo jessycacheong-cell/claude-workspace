@@ -847,7 +847,7 @@
   <canvas id="streak-confetti" style="display:none;"></canvas>
 
   <!-- Quick Launch -->
-  <div class="bc bc-3" id="quicklinks">
+  <div class="bc bc-4" id="quicklinks">
     <div class="bc-label">Quick Launch</div>
     <div class="ql-grid">
       <a href="https://github.com" target="_blank" class="ql-btn">
@@ -885,21 +885,8 @@
     </div>
   </div>
 
-  <!-- Pixel Studio -->
-  <div class="bc bc-3" id="pixel-studio-card" style="padding:14px;">
-    <div class="bc-label" style="display:flex;align-items:center;justify-content:space-between;">
-      <span>J's AI Studio</span>
-      <span style="display:flex;align-items:center;gap:4px;font-size:10px;color:var(--green);">
-        <span style="width:5px;height:5px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite;"></span>
-        LIVE
-      </span>
-    </div>
-    <canvas id="pixel-canvas" width="400" height="200" style="width:100%;border-radius:8px;image-rendering:pixelated;image-rendering:crisp-edges;margin-top:8px;display:block;"></canvas>
-    <div id="pixel-status" style="font-size:11px;margin-top:6px;text-align:center;min-height:16px;color:var(--text-3);">Loading studio...</div>
-  </div>
-
   <!-- Pomodoro -->
-  <div class="bc bc-3" style="border-color:rgba(253,105,105,0.14);" id="pomo-card">
+  <div class="bc bc-4 br-2" style="border-color:rgba(253,105,105,0.14);" id="pomo-card">
     <div class="bc-label">Focus Timer</div>
     <div class="pomo-inner">
       <div class="pomo-ring">
@@ -931,20 +918,6 @@
     </div>
   </div>
 
-  <!-- GitHub Action Bots -->
-  <div class="bc bc-3" id="automations-card">
-    <div class="bc-label" style="display:flex;align-items:center;justify-content:space-between;">
-      <span>GitHub Bots</span>
-      <span style="font-size:10px;color:var(--green);display:flex;align-items:center;gap:4px;">
-        <span style="width:5px;height:5px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite;"></span>
-        LIVE
-      </span>
-    </div>
-    <div id="automations-list">
-      <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading bots...</div>
-    </div>
-  </div>
-
   <!-- Last Session -->
   <div class="bc bc-4" id="todo">
     <div class="bc-label">Last Session</div>
@@ -956,6 +929,19 @@
     <div class="todo-list" id="next-session-list">
       <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading...</div>
     </div>
+  </div>
+
+  <!-- Pixel Studio -->
+  <div class="bc bc-4" id="pixel-studio-card" style="padding:14px;">
+    <div class="bc-label" style="display:flex;align-items:center;justify-content:space-between;">
+      <span>J's AI Studio</span>
+      <span style="display:flex;align-items:center;gap:4px;font-size:10px;color:var(--green);">
+        <span style="width:5px;height:5px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite;"></span>
+        LIVE
+      </span>
+    </div>
+    <canvas id="pixel-canvas" width="400" height="200" style="width:100%;border-radius:8px;image-rendering:pixelated;image-rendering:crisp-edges;margin-top:8px;display:block;"></canvas>
+    <div id="pixel-status" style="font-size:11px;margin-top:6px;text-align:center;min-height:16px;color:var(--text-3);">Loading studio...</div>
   </div>
 
   <!-- At a Glance — gauge + mini chart for MCP -->
@@ -1264,6 +1250,7 @@
         <div class="prod-note" id="vibe-note">Mar 21 — Cloud migration complete. MilestoneBot live. You shipped something real today.</div>
       </div>
       <div class="card" style="border-color:rgba(253,105,105,0.12);"><div style="font-size:13px;color:var(--text-2);line-height:1.7;" id="today-log">Loading today's log...</div></div>
+      <div id="automations-list" style="display:none;"></div>
     </div>
   </div>
 
