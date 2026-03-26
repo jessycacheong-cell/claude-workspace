@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T11:38:26.028Z",
+  "lastUpdated": "2026-03-26T12:10:24.647Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-26T11:38:19.291Z",
     "gorgias": [
       {
+        "id": 90137182,
+        "subject": "Need Help with Your Website?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-26T10:26:11+00:00"
+      },
+      {
         "id": 90122379,
         "subject": "Your Google Play Order Receipt from Mar 25, 2026",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-03-26T00:02:33+00:00"
-      },
-      {
-        "id": 90091322,
-        "subject": "Refund Initiated for Order 113-3777320-6020247",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-26T00:00:27+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-26T09:45:57.820Z",
+    "gorgiasUpdated": "2026-03-26T12:10:24.495Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
