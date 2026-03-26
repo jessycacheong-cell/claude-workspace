@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T15:57:19.550Z",
+  "lastUpdated": "2026-03-26T16:42:34.093Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-26T15:57:09.963Z",
     "gorgias": [
       {
-        "id": 90137182,
-        "subject": "Need Help with Your Website?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-26T10:26:11+00:00"
-      },
-      {
-        "id": 90122379,
-        "subject": "Your Google Play Order Receipt from Mar 25, 2026",
+        "id": 90191708,
+        "subject": "Fresh picks for spring 🌱",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-26T05:44:21+00:00"
+        "timestamp": "2026-03-26T16:31:54+00:00"
       },
       {
-        "id": 90106777,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 90188932,
+        "subject": "You appeared in recent searches",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-26T02:12:39+00:00"
+        "status": "closed",
+        "timestamp": "2026-03-26T16:17:46+00:00"
       },
       {
-        "id": 90105539,
-        "subject": "[Action required] We’re missing some details for your order",
+        "id": 90167591,
+        "subject": "UMEI 3D, here are Updates to Manychat’s Terms of Service",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-26T02:02:13+00:00"
+        "status": "closed",
+        "timestamp": "2026-03-26T14:31:44.409000+00:00"
       },
       {
-        "id": 90091667,
-        "subject": "Love this this makes me so happy my cousins funeral was today and this lifted my spirits up!",
+        "id": 90163879,
+        "subject": "Rewards alert: 30% back with Business Prime",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-26T00:02:33+00:00"
+        "status": "closed",
+        "timestamp": "2026-03-26T14:13:24+00:00"
+      },
+      {
+        "id": 90161028,
+        "subject": "Earn $100 in free Shop Campaign credits",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-26T14:00:09.590000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-26T12:10:24.495Z",
+    "gorgiasUpdated": "2026-03-26T16:42:33.955Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
