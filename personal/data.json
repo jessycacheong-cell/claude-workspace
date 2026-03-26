@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T23:00:35.556Z",
+  "lastUpdated": "2026-03-26T23:01:28.225Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-26T23:00:31.740Z",
     "gorgias": [
       {
+        "id": 90273459,
+        "subject": "PR",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-26T22:10:45+00:00"
+      },
+      {
         "id": 90207965,
         "subject": "Three updates to keep your work safe and organized",
         "customer": "Unknown",
@@ -104,28 +111,21 @@
         "timestamp": "2026-03-26T16:31:54+00:00"
       },
       {
+        "id": 90272664,
+        "subject": "Precision & Power: Kling Model 3.0 Series",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-26T16:24:41+00:00"
+      },
+      {
         "id": 90188932,
         "subject": "You appeared in recent searches",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-03-26T16:17:46+00:00"
-      },
-      {
-        "id": 90167591,
-        "subject": "UMEI 3D, here are Updates to Manychat’s Terms of Service",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-26T14:31:44.409000+00:00"
-      },
-      {
-        "id": 90163879,
-        "subject": "Rewards alert: 30% back with Business Prime",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-26T14:13:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-26T21:47:42.276Z",
+    "gorgiasUpdated": "2026-03-26T23:01:28.092Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
