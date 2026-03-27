@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-27T19:31:25.718Z",
+  "lastUpdated": "2026-03-27T19:50:51.966Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-27T17:35:37.126Z",
     "gorgias": [
       {
+        "id": 90426265,
+        "subject": "We're backing your first 60 days 💰",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-27T19:19:37.715000+00:00"
+      },
+      {
+        "id": 90408786,
+        "subject": "You weren’t hired to be a cog in a content factory.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-27T18:01:26+00:00"
+      },
+      {
         "id": 90399704,
         "subject": "You’ve got new messages from CherelynnB",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-03-27T16:18:33+00:00"
-      },
-      {
-        "id": 90386151,
-        "subject": "Share your thoughts: chance to win $500 ",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-27T16:01:09+00:00"
-      },
-      {
-        "id": 90374531,
-        "subject": "Are you a Small or Diverse Business?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-27T15:05:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-27T17:38:28.223Z",
+    "gorgiasUpdated": "2026-03-27T19:50:51.804Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
