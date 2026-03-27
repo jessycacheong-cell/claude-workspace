@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-27T00:01:59.979Z",
+  "lastUpdated": "2026-03-27T00:03:18.837Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-26T23:00:31.740Z",
     "gorgias": [
       {
+        "id": 90285471,
+        "subject": "Introducing Omma By Spline",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-26T23:22:47+00:00"
+      },
+      {
         "id": 90273459,
         "subject": "PR",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-03-26T16:24:41+00:00"
-      },
-      {
-        "id": 90188932,
-        "subject": "You appeared in recent searches",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-26T16:17:46+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-26T23:01:28.092Z",
+    "gorgiasUpdated": "2026-03-27T00:03:18.648Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
