@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-27T19:52:12.269Z",
+  "lastUpdated": "2026-03-27T21:52:15.314Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,18 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Google Gemini",
+        "subject": "You're now using Gemini on your iOS device",
+        "timestamp": "2026-03-27T21:42:35.000Z",
+        "unread": false
+      },
+      {
+        "from": "SHEIN",
+        "subject": "68% OFF: Your Cart Awaits with Prices You Can't Imagine!",
+        "timestamp": "2026-03-27T20:29:55.000Z",
+        "unread": true
+      },
+      {
         "from": "Google Merchant Center",
         "subject": "Action required: Verify your website",
         "timestamp": "2026-03-27T10:46:23.000Z",
@@ -73,21 +85,9 @@
         "subject": "Your credit match is here (and it’s perfect)",
         "timestamp": "2026-03-27T03:13:03.000Z",
         "unread": false
-      },
-      {
-        "from": "Puneet from Careerflow.ai",
-        "subject": "jessycacheong@gmail.com: Your Careerflow.ai Premium subscription has been cancelled",
-        "timestamp": "2026-03-27T01:06:01.000Z",
-        "unread": false
-      },
-      {
-        "from": "Careerflow Inc.",
-        "subject": "Your customer portal login link",
-        "timestamp": "2026-03-27T01:04:52.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-03-27T19:50:55.236Z",
+    "gmailUpdated": "2026-03-27T21:52:15.167Z",
     "gorgias": [
       {
         "id": 90426265,
