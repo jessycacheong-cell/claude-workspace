@@ -759,6 +759,39 @@
     </div>
   </div>
 
+  <!-- GitHub Action Bots -->
+  <div class="bc bc-12" id="automations-card">
+    <div class="bc-label" style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px;">
+      <span>GitHub Bots</span>
+      <span style="font-size:10px;color:var(--green);display:flex;align-items:center;gap:4px;"><span style="width:5px;height:5px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite;"></span>LIVE</span>
+    </div>
+    <div id="automations-list" style="display:flex;gap:10px;flex-wrap:wrap;">
+      <div style="font-size:12px;color:var(--text-3);padding:8px 0;">Loading bots...</div>
+    </div>
+  </div>
+
+  <!-- Active App — with mini activity bar chart -->
+  <div class="bc bc-4 bc-app-live">
+    <div class="bc-app-status-deco"></div>
+    <div class="bc-label">Active App <span class="pill-tag" style="margin-left:6px;">Live</span></div>
+    <div class="bc-app-name" id="stat-app-name">Post-Purchase App</div>
+    <div class="bc-app-sub">UMEI3D · Active</div>
+    <span class="badge badge-green" style="box-shadow:0 0 12px rgba(74,222,128,0.15)"><span class="dot pulse"></span> Running</span>
+    <div style="margin-top:14px;font-size:11px;color:var(--text-2);">Last synced: <span id="last-sync" style="color:var(--text-2);">—</span></div>
+  </div>
+
+  <!-- Today Agenda -->
+  <div class="bc bc-8 fade-up" id="today">
+    <div class="bc-label">Today's Agenda — <span id="today-date-label">—</span></div>
+    <div class="today-inner">
+      <div class="today-card-header"><div class="today-card-title">Google Calendar</div><span class="badge badge-blue" id="event-count-badge">—</span></div>
+      <div id="agenda-summary" style="font-size:11px;color:#f97316;margin-bottom:8px;padding:4px 6px;background:rgba(249,115,22,0.08);border-radius:6px;display:none;"></div>
+      <div class="today-events" id="today-events">
+        <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading events...</div>
+      </div>
+    </div>
+  </div>
+
   <!-- Inbox Snapshot -->
   <div class="bc bc-6 fade-up" id="inbox-card">
     <div class="bc-label">Inbox Snapshot</div>
@@ -794,6 +827,19 @@
       <button class="cal-today-btn" onclick="calGoToday()">Today</button>
     </div>
     <div class="cal-grid" id="cal-grid"></div>
+  </div>
+
+  <!-- Milestones -->
+  <div class="bc bc-8 fade-up" id="milestones">
+    <div class="bc-label">Active Milestones — UMEI3D Post-Purchase App <span class="pill-tag">5 milestones</span></div>
+    <div id="milestone-summary" style="font-size:11px;color:#f97316;margin-bottom:8px;padding:4px 8px;background:rgba(249,115,22,0.08);border-radius:6px;display:none;"></div>
+    <div class="ms-compact" id="milestone-list">
+      <div class="ms-row active"><div class="ms-badge">1</div><div class="ms-row-name">Feedback &amp; Fixes</div><div class="ms-bar"><div class="ms-bar-fill" style="width:40%"></div></div><div class="ms-pct">40%</div><span class="badge badge-blue"><span class="dot pulse"></span> In Progress</span></div>
+      <div class="ms-row"><div class="ms-badge">2</div><div class="ms-row-name">Visual Polish (Figma)</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
+      <div class="ms-row"><div class="ms-badge">3</div><div class="ms-row-name">Voice &amp; Sound (ElevenLabs)</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
+      <div class="ms-row"><div class="ms-badge">4</div><div class="ms-row-name">Analytics</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
+      <div class="ms-row"><div class="ms-badge">5</div><div class="ms-row-name">Pilot &amp; Roll Out</div><div class="ms-bar"><div class="ms-bar-fill" style="width:0%"></div></div><div class="ms-pct">0%</div><span class="badge badge-gray">Not Started</span></div>
+    </div>
   </div>
 
   <!-- Build Streak + Milestone Countdown -->
@@ -880,6 +926,19 @@
         </div>
         <div style="font-size:10px;color:var(--text-3);margin-top:5px;text-align:center;" id="pomo-session-label">Session 1 of 4</div>
       </div>
+    </div>
+  </div>
+
+  <!-- Last Session -->
+  <div class="bc bc-4" id="todo">
+    <div class="bc-label">Last Session</div>
+    <div style="background:rgba(255,255,255,0.025);border-radius:12px;padding:12px;margin-bottom:12px;">
+      <div style="font-size:11px;font-weight:700;color:var(--blue);margin-bottom:6px;" id="last-session-date">—</div>
+      <div style="font-size:12px;color:var(--text-2);line-height:1.7;" id="last-session-summary">Loading...</div>
+    </div>
+    <div class="bc-label" style="margin-top:4px;">Next Session</div>
+    <div class="todo-list" id="next-session-list">
+      <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading...</div>
     </div>
   </div>
 
@@ -1156,6 +1215,26 @@
     </div>
   </div>
 
+  <!-- Session Log -->
+  <div class="bc bc-12" id="todaylog">
+    <div class="bc-label">Today's Session Log</div>
+    <div class="session-log-inner">
+      <div class="session-log-top">
+        <div><div style="font-size:15px;font-weight:700;color:var(--text-1);">Today's Productivity</div><div style="font-size:12px;color:var(--text-2);margin-top:3px;" id="prod-date">—</div></div>
+        <div style="text-align:right;">
+          <div style="font-size:38px;font-weight:800;color:var(--green);text-shadow:0 0 20px rgba(74,222,128,0.35);letter-spacing:-1.5px;" id="prod-score">—%</div>
+          <div class="metric-status good">Good Progress</div>
+        </div>
+      </div>
+      <div style="display:flex;flex-direction:column;gap:4px;margin-bottom:14px;">
+        <div class="prod-row"><div class="prod-label">Today's Progress</div><div class="prod-bar"><div class="prod-fill" id="bar-ms" style="background:var(--yellow);width:0%"></div></div><div class="prod-pct" id="pct-ms">0%</div></div>
+        <div class="prod-note">Milestone 1 — Feedback & Fixes (Mar 17–22). Updated by MilestoneBot each morning.</div>
+        <div class="prod-row"><div class="prod-label">Today's Vibe</div><div class="prod-bar"><div class="prod-fill" id="bar-vibe" style="background:linear-gradient(90deg,var(--blue),var(--purple));width:100%"></div></div><div class="prod-pct" id="pct-vibe" style="color:var(--blue);">🔥</div></div>
+        <div class="prod-note" id="vibe-note">Mar 21 — Cloud migration complete. MilestoneBot live. You shipped something real today.</div>
+      </div>
+      <div class="card" style="border-color:rgba(253,105,105,0.12);"><div style="font-size:13px;color:var(--text-2);line-height:1.7;" id="today-log">Loading today's log...</div></div>
+    </div>
+  </div>
 
 </div>
 
