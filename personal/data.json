@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-27T19:50:51.966Z",
+  "lastUpdated": "2026-03-27T19:50:55.416Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -60,7 +60,7 @@
         "from": "Google Merchant Center",
         "subject": "Action required: Verify your website",
         "timestamp": "2026-03-27T10:46:23.000Z",
-        "unread": true
+        "unread": false
       },
       {
         "from": "Auto-Receipt",
@@ -87,7 +87,7 @@
         "unread": false
       }
     ],
-    "gmailUpdated": "2026-03-27T17:35:37.126Z",
+    "gmailUpdated": "2026-03-27T19:50:55.236Z",
     "gorgias": [
       {
         "id": 90426265,
