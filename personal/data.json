@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T05:16:12.732Z",
+  "lastUpdated": "2026-03-28T05:16:41.731Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-28T05:16:12.562Z",
     "gorgias": [
       {
+        "id": 90501934,
+        "subject": "Gwen Griffiths and others share their thoughts on LinkedIn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-28T03:34:16+00:00"
+      },
+      {
+        "id": 90493337,
+        "subject": "UMEI, add Team Saturn Katharina Henkel - Teammitglied 💬",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-28T02:15:56+00:00"
+      },
+      {
+        "id": 90480686,
+        "subject": "Direct message with jessiannwilliams1967",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-28T00:23:12.535000+00:00"
+      },
+      {
+        "id": 90477939,
+        "subject": "Love this",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-28T00:04:14+00:00"
+      },
+      {
         "id": 90426265,
         "subject": "We're backing your first 60 days 💰",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-03-27T19:19:37.715000+00:00"
-      },
-      {
-        "id": 90408786,
-        "subject": "You weren’t hired to be a cog in a content factory.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-27T18:01:26+00:00"
-      },
-      {
-        "id": 90399704,
-        "subject": "You’ve got new messages from CherelynnB",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-27T17:11:14+00:00"
-      },
-      {
-        "id": 90399699,
-        "subject": "You’ve got new messages from Design Panda",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-27T17:11:11+00:00"
-      },
-      {
-        "id": 90389555,
-        "subject": "SprintRay Inc. is hiring a Entrepreneur",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-27T16:18:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-27T23:47:27.446Z",
+    "gorgiasUpdated": "2026-03-28T05:16:41.573Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
