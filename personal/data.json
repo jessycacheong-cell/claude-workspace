@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T18:02:42.442Z",
+  "lastUpdated": "2026-03-28T19:46:34.405Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -66,7 +66,7 @@
         "from": "KEYi Robot",
         "subject": "Order #25132 confirmed",
         "timestamp": "2026-03-28T17:41:31.000Z",
-        "unread": true
+        "unread": false
       },
       {
         "from": "Google Gemini",
@@ -87,7 +87,7 @@
         "unread": false
       }
     ],
-    "gmailUpdated": "2026-03-28T18:02:42.270Z",
+    "gmailUpdated": "2026-03-28T19:46:34.197Z",
     "gorgias": [
       {
         "id": 90564016,
