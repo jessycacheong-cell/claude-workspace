@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T20:59:28.212Z",
+  "lastUpdated": "2026-03-28T21:03:31.928Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-28T20:59:28.078Z",
     "gorgias": [
       {
+        "id": 90588825,
+        "subject": "You've received messages from CherelynnB",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-28T20:45:54+00:00"
+      },
+      {
+        "id": 90588814,
+        "subject": "You’ve got new messages from CherelynnB",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-28T20:45:44+00:00"
+      },
+      {
         "id": 90564016,
         "subject": "Direct message with sandonmytoes",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-03-28T05:34:24.410000+00:00"
-      },
-      {
-        "id": 90508059,
-        "subject": "A chargeback was opened for order #1646",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-28T05:22:03.048000+00:00"
-      },
-      {
-        "id": 90501934,
-        "subject": "Gwen Griffiths and others share their thoughts on LinkedIn",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-28T03:34:16+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-28T19:47:10.117Z",
+    "gorgiasUpdated": "2026-03-28T21:03:31.746Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
