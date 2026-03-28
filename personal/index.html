@@ -737,6 +737,19 @@
 <!-- BENTO GRID -->
 <div class="bento-grid">
 
+  <!-- Pixel Studio -->
+  <div class="bc bc-4" id="pixel-studio-card" style="padding:14px;">
+    <div class="bc-label" style="display:flex;align-items:center;justify-content:space-between;">
+      <span>J's AI Studio</span>
+      <span style="display:flex;align-items:center;gap:4px;font-size:10px;color:var(--green);">
+        <span style="width:5px;height:5px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite;"></span>
+        LIVE
+      </span>
+    </div>
+    <canvas id="pixel-canvas" width="400" height="200" style="width:100%;border-radius:8px;image-rendering:pixelated;image-rendering:crisp-edges;margin-top:8px;display:block;"></canvas>
+    <div id="pixel-status" style="font-size:11px;margin-top:6px;text-align:center;min-height:16px;color:var(--text-3);">Loading studio...</div>
+  </div>
+
   <!-- Session Start Reminder -->
   <div class="bc bc-12" style="border-color:rgba(253,105,105,0.35);background:rgba(253,105,105,0.05);box-shadow:0 0 40px rgba(253,105,105,0.12),0 0 80px rgba(253,105,105,0.06),inset 0 1px 0 rgba(253,105,105,0.15);animation:reminderGlow 4s ease-in-out infinite alternate;">
     <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
@@ -931,20 +944,6 @@
       <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading...</div>
     </div>
   </div>
-
-  <!-- Pixel Studio -->
-  <div class="bc bc-4" id="pixel-studio-card" style="padding:14px;">
-    <div class="bc-label" style="display:flex;align-items:center;justify-content:space-between;">
-      <span>J's AI Studio</span>
-      <span style="display:flex;align-items:center;gap:4px;font-size:10px;color:var(--green);">
-        <span style="width:5px;height:5px;border-radius:50%;background:var(--green);display:inline-block;animation:pulse 2s infinite;"></span>
-        LIVE
-      </span>
-    </div>
-    <canvas id="pixel-canvas" width="400" height="200" style="width:100%;border-radius:8px;image-rendering:pixelated;image-rendering:crisp-edges;margin-top:8px;display:block;"></canvas>
-    <div id="pixel-status" style="font-size:11px;margin-top:6px;text-align:center;min-height:16px;color:var(--text-3);">Loading studio...</div>
-  </div>
-
 
   <!-- GitHub -->
   <div class="bc bc-4" id="github">
