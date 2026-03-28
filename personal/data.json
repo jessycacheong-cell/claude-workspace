@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T17:59:52.098Z",
+  "lastUpdated": "2026-03-28T18:02:42.442Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,18 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Shop",
+        "subject": "Welcome to Shop–here’s what’s next",
+        "timestamp": "2026-03-28T17:41:39.000Z",
+        "unread": true
+      },
+      {
+        "from": "KEYi Robot",
+        "subject": "Order #25132 confirmed",
+        "timestamp": "2026-03-28T17:41:31.000Z",
+        "unread": true
+      },
+      {
         "from": "Google Gemini",
         "subject": "You're now using Gemini on your iOS device",
         "timestamp": "2026-03-27T21:42:35.000Z",
@@ -73,21 +85,9 @@
         "subject": "Action required: Verify your website",
         "timestamp": "2026-03-27T10:46:23.000Z",
         "unread": false
-      },
-      {
-        "from": "Auto-Receipt",
-        "subject": "Transaction Receipt from openskycc.com (Capital Bank) for $300.00 (USD)",
-        "timestamp": "2026-03-27T03:23:42.000Z",
-        "unread": false
-      },
-      {
-        "from": "opensky",
-        "subject": "Your credit match is here (and it’s perfect)",
-        "timestamp": "2026-03-27T03:13:03.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-03-28T17:05:25.917Z",
+    "gmailUpdated": "2026-03-28T18:02:42.270Z",
     "gorgias": [
       {
         "id": 90564016,
