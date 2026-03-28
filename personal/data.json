@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T07:51:02.221Z",
+  "lastUpdated": "2026-03-28T07:53:41.431Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-28T07:50:53.701Z",
     "gorgias": [
       {
+        "id": 90508666,
+        "subject": "Direct message with nefertari1949",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-28T05:34:24.410000+00:00"
+      },
+      {
+        "id": 90508059,
+        "subject": "A chargeback was opened for order #1646",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-28T05:22:03.048000+00:00"
+      },
+      {
         "id": 90501934,
         "subject": "Gwen Griffiths and others share their thoughts on LinkedIn",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-03-28T00:23:12.535000+00:00"
-      },
-      {
-        "id": 90477939,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-28T00:04:14+00:00"
-      },
-      {
-        "id": 90426265,
-        "subject": "We're backing your first 60 days 💰",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-27T19:19:37.715000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-28T05:16:41.573Z",
+    "gorgiasUpdated": "2026-03-28T07:53:41.250Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
