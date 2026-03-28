@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T23:02:06.762Z",
+  "lastUpdated": "2026-03-28T23:03:13.414Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-28T23:01:54.884Z",
     "gorgias": [
       {
+        "id": 90596013,
+        "subject": "Interested in a free trail?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-28T21:59:38+00:00"
+      },
+      {
         "id": 90588825,
         "subject": "You've received messages from CherelynnB",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-03-28T16:17:33+00:00"
-      },
-      {
-        "id": 90508666,
-        "subject": "Direct message with nefertari1949",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-28T05:34:24.410000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-28T21:58:10.935Z",
+    "gorgiasUpdated": "2026-03-28T23:03:13.246Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
