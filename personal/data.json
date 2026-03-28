@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T21:55:48.330Z",
+  "lastUpdated": "2026-03-28T21:56:25.730Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Arpeggio",
+        "subject": "Pay Your Rent Online",
+        "timestamp": "2026-03-28T21:21:03.000Z",
+        "unread": false
+      },
+      {
         "from": "Shop",
         "subject": "Welcome to Shop–here’s what’s next",
         "timestamp": "2026-03-28T17:41:39.000Z",
@@ -79,15 +85,9 @@
         "subject": "68% OFF: Your Cart Awaits with Prices You Can't Imagine!",
         "timestamp": "2026-03-27T20:29:55.000Z",
         "unread": true
-      },
-      {
-        "from": "Google Merchant Center",
-        "subject": "Action required: Verify your website",
-        "timestamp": "2026-03-27T10:46:23.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-03-28T20:59:28.078Z",
+    "gmailUpdated": "2026-03-28T21:56:25.575Z",
     "gorgias": [
       {
         "id": 90588825,
