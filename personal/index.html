@@ -1836,7 +1836,7 @@ function renderInbox(inbox){
   const gmailUp = document.getElementById('gmail-updated');
   const gorgiasUp = document.getElementById('gorgias-updated');
   if(inbox.gmail && inbox.gmail.length && gmailEl){
-    gmailEl.innerHTML = inbox.gmail.map(m=>`
+    gmailEl.innerHTML = inbox.gmail.slice(0,3).map(m=>`
       <div class="inbox-item">
         <div class="inbox-from">${m.from}</div>
         <div class="inbox-subject">${m.subject}</div>
@@ -1844,7 +1844,7 @@ function renderInbox(inbox){
       </div>`).join('');
   } else if(gmailEl){ gmailEl.innerHTML='<div class="inbox-empty">No emails</div>'; }
   if(inbox.gorgias && inbox.gorgias.length && gorgiasEl){
-    gorgiasEl.innerHTML = inbox.gorgias.map(t=>`
+    gorgiasEl.innerHTML = inbox.gorgias.slice(0,3).map(t=>`
       <div class="inbox-item">
         <div class="inbox-from">#${t.id} · ${t.customer}</div>
         <div class="inbox-subject">${t.subject}</div>
