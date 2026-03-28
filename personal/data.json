@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T21:58:11.100Z",
+  "lastUpdated": "2026-03-28T23:01:55.021Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "opensky",
+        "subject": "Build credit AND earn cash back",
+        "timestamp": "2026-03-28T23:01:39.000Z",
+        "unread": true
+      },
+      {
         "from": "Arpeggio",
         "subject": "Pay Your Rent Online",
         "timestamp": "2026-03-28T21:21:03.000Z",
@@ -79,15 +85,9 @@
         "subject": "You're now using Gemini on your iOS device",
         "timestamp": "2026-03-27T21:42:35.000Z",
         "unread": false
-      },
-      {
-        "from": "SHEIN",
-        "subject": "68% OFF: Your Cart Awaits with Prices You Can't Imagine!",
-        "timestamp": "2026-03-27T20:29:55.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-03-28T21:56:25.575Z",
+    "gmailUpdated": "2026-03-28T23:01:54.884Z",
     "gorgias": [
       {
         "id": 90588825,
