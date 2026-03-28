@@ -749,6 +749,29 @@
     <div id="pixel-status" style="font-size:11px;margin-top:6px;text-align:center;min-height:16px;color:var(--text-3);">Loading studio...</div>
   </div>
 
+  <!-- Inbox Snapshot -->
+  <div class="bc bc-6 fade-up" id="inbox-card">
+    <div class="bc-label">Inbox Snapshot</div>
+    <div class="inbox-grid">
+      <div class="inbox-col">
+        <div class="inbox-col-header">
+          <span class="inbox-col-title">📧 Gmail</span>
+          <span class="inbox-updated" id="gmail-updated">—</span>
+        </div>
+        <div id="gmail-list"><div class="inbox-empty">Loading...</div></div>
+        <div id="gmail-summary" style="font-size:11px;color:#f97316;margin-top:6px;padding:4px 6px;background:rgba(249,115,22,0.08);border-radius:6px;display:none;"></div>
+      </div>
+      <div class="inbox-col inbox-gorgias">
+        <div class="inbox-col-header">
+          <span class="inbox-col-title">🎧 Gorgias — UMEI</span>
+          <span class="inbox-updated" id="gorgias-updated">—</span>
+        </div>
+        <div id="gorgias-list"><div class="inbox-empty">Loading...</div></div>
+        <div id="gorgias-summary" style="font-size:11px;color:#f97316;margin-top:6px;padding:4px 6px;background:rgba(249,115,22,0.08);border-radius:6px;display:none;"></div>
+      </div>
+    </div>
+  </div>
+
   <!-- Session Start Reminder -->
   <div class="bc bc-12" style="border-color:rgba(253,105,105,0.35);background:rgba(253,105,105,0.05);box-shadow:0 0 40px rgba(253,105,105,0.12),0 0 80px rgba(253,105,105,0.06),inset 0 1px 0 rgba(253,105,105,0.15);animation:reminderGlow 4s ease-in-out infinite alternate;">
     <div style="display:flex;align-items:center;gap:16px;flex-wrap:wrap;">
@@ -790,29 +813,6 @@
       <div id="agenda-summary" style="font-size:11px;color:#f97316;margin-bottom:8px;padding:4px 6px;background:rgba(249,115,22,0.08);border-radius:6px;display:none;"></div>
       <div class="today-events" id="today-events">
         <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading events...</div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Inbox Snapshot -->
-  <div class="bc bc-6 fade-up" id="inbox-card">
-    <div class="bc-label">Inbox Snapshot</div>
-    <div class="inbox-grid">
-      <div class="inbox-col">
-        <div class="inbox-col-header">
-          <span class="inbox-col-title">📧 Gmail</span>
-          <span class="inbox-updated" id="gmail-updated">—</span>
-        </div>
-        <div id="gmail-list"><div class="inbox-empty">Loading...</div></div>
-        <div id="gmail-summary" style="font-size:11px;color:#f97316;margin-top:6px;padding:4px 6px;background:rgba(249,115,22,0.08);border-radius:6px;display:none;"></div>
-      </div>
-      <div class="inbox-col inbox-gorgias">
-        <div class="inbox-col-header">
-          <span class="inbox-col-title">🎧 Gorgias — UMEI</span>
-          <span class="inbox-updated" id="gorgias-updated">—</span>
-        </div>
-        <div id="gorgias-list"><div class="inbox-empty">Loading...</div></div>
-        <div id="gorgias-summary" style="font-size:11px;color:#f97316;margin-top:6px;padding:4px 6px;background:rgba(249,115,22,0.08);border-radius:6px;display:none;"></div>
       </div>
     </div>
   </div>
