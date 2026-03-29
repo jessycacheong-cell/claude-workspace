@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T00:02:01.097Z",
+  "lastUpdated": "2026-03-29T05:55:12.704Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -129,8 +129,16 @@
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
-  "agenda": [],
-  "agendaUpdated": "2026-03-28T23:58:40.550Z",
+  "agenda": [
+    {
+      "title": "Send Gma text",
+      "time": "10:00 PM",
+      "end": "11:00 PM",
+      "allDay": false,
+      "calendar": "jessycacheong@gmail.com"
+    }
+  ],
+  "agendaUpdated": "2026-03-29T05:55:12.484Z",
   "shopify": {
     "orders": "—",
     "revenue": "—",
