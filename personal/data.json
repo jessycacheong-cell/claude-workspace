@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T17:05:56.606Z",
+  "lastUpdated": "2026-03-29T17:51:41.179Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-29T17:05:49.178Z",
     "gorgias": [
       {
+        "id": 90671612,
+        "subject": "You’ve got new messages from CherelynnB",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-29T17:41:13+00:00"
+      },
+      {
         "id": 90638861,
         "subject": "'boost Sales With Mnwlkr Slides & Wave Clogs' | @umei_3d",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-03-28T23:38:52.393000+00:00"
-      },
-      {
-        "id": 90604452,
-        "subject": "Direct message with _demiera",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-28T23:38:20.371000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-29T15:49:26.582Z",
+    "gorgiasUpdated": "2026-03-29T17:51:40.873Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
