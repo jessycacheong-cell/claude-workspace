@@ -95,12 +95,15 @@ jobs:
           async function main() {
             const token = await getAccessToken();
 
-            // Get today's date range in LA time
+            // Get today's date range in LA time with proper RFC3339 timezone offset
             const now = new Date();
             const la = new Date(now.toLocaleString('en-US', { timeZone: 'America/Los_Angeles' }));
             const today = la.toISOString().split('T')[0];
-            const timeMin = `${today}T00:00:00`;
-            const timeMax = `${today}T23:59:59`;
+            // Compute LA offset (e.g. -07:00 for PDT, -08:00 for PST)
+            const diffHrs = Math.round((now.getTime() - la.getTime()) / 3600000);
+            const offset = `-${String(diffHrs).padStart(2,'0')}:00`;
+            const timeMin = `${today}T00:00:00${offset}`;
+            const timeMax = `${today}T23:59:59${offset}`;
 
             // Get all calendars
             const calList = await calGet('/calendar/v3/users/me/calendarList', token);
