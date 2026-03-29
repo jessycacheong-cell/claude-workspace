@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T08:03:03.495Z",
+  "lastUpdated": "2026-03-29T08:03:33.884Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -93,7 +93,7 @@
         "id": 90625994,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-03-29T05:21:38+00:00"
       },
       {
@@ -125,7 +125,7 @@
         "timestamp": "2026-03-28T23:37:23.458000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-29T05:56:06.019Z",
+    "gorgiasUpdated": "2026-03-29T08:03:33.712Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
