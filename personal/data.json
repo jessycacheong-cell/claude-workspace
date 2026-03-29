@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T23:58:43.407Z",
+  "lastUpdated": "2026-03-29T00:02:01.097Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-28T23:58:43.205Z",
     "gorgias": [
       {
+        "id": 90604504,
+        "subject": "Direct message with hanselaquino",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-28T23:38:52.393000+00:00"
+      },
+      {
+        "id": 90604452,
+        "subject": "Direct message with _demiera",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-28T23:38:20.371000+00:00"
+      },
+      {
+        "id": 90604363,
+        "subject": "Direct message with thabaconman",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-28T23:37:23.458000+00:00"
+      },
+      {
         "id": 90596013,
         "subject": "Interested in a free trail?",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-03-28T20:45:54+00:00"
-      },
-      {
-        "id": 90588814,
-        "subject": "You’ve got new messages from CherelynnB",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-28T20:45:44+00:00"
-      },
-      {
-        "id": 90564016,
-        "subject": "Direct message with sandonmytoes",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-28T17:17:04.424000+00:00"
-      },
-      {
-        "id": 90556661,
-        "subject": "You appeared in recent searches",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-28T16:17:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-28T23:03:13.246Z",
+    "gorgiasUpdated": "2026-03-29T00:02:00.966Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
