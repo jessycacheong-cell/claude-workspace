@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T05:55:19.074Z",
+  "lastUpdated": "2026-03-29T05:56:06.210Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,17 +90,31 @@
     "gmailUpdated": "2026-03-29T05:55:18.863Z",
     "gorgias": [
       {
+        "id": 90625994,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-29T05:21:38+00:00"
+      },
+      {
+        "id": 90620923,
+        "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-29T03:32:57+00:00"
+      },
+      {
         "id": 90604504,
         "subject": "Direct message with hanselaquino",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-03-28T23:38:52.393000+00:00"
       },
       {
         "id": 90604452,
         "subject": "Direct message with _demiera",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-03-28T23:38:20.371000+00:00"
       },
       {
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-03-28T23:37:23.458000+00:00"
-      },
-      {
-        "id": 90596013,
-        "subject": "Interested in a free trail?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-28T21:59:38+00:00"
-      },
-      {
-        "id": 90588825,
-        "subject": "You've received messages from CherelynnB",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-28T20:45:54+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-29T00:02:00.966Z",
+    "gorgiasUpdated": "2026-03-29T05:56:06.019Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
