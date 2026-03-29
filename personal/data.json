@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T23:05:39.258Z",
+  "lastUpdated": "2026-03-29T23:50:22.535Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-29T22:03:43.452Z",
     "gorgias": [
       {
+        "id": 90704710,
+        "subject": "Refund Initiated for Order 114-1876162-8459430",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-29T23:21:52+00:00"
+      },
+      {
+        "id": 90701963,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-29T22:53:05+00:00"
+      },
+      {
         "id": 90680512,
         "subject": "Love it",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-03-29T11:22:54+00:00"
-      },
-      {
-        "id": 90625994,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-29T05:21:38+00:00"
-      },
-      {
-        "id": 90620923,
-        "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-29T03:32:57+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-29T22:03:33.097Z",
+    "gorgiasUpdated": "2026-03-29T23:50:22.407Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
