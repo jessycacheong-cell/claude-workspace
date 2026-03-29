@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T05:55:12.704Z",
+  "lastUpdated": "2026-03-29T05:55:19.074Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,24 @@
   "inbox": {
     "gmail": [
       {
+        "from": "ANAVRIN®",
+        "subject": "Your First Build Is 10% Off",
+        "timestamp": "2026-03-29T01:52:54.000Z",
+        "unread": true
+      },
+      {
+        "from": "ANAVRIN®",
+        "subject": "Dive Back in With 10% Off",
+        "timestamp": "2026-03-29T01:52:39.000Z",
+        "unread": true
+      },
+      {
+        "from": "ANAVRIN®",
+        "subject": "Welcome to Anavrin 🧘🏻‍♀️🤍",
+        "timestamp": "2026-03-29T00:52:12.000Z",
+        "unread": true
+      },
+      {
         "from": "opensky",
         "subject": "Build credit AND earn cash back",
         "timestamp": "2026-03-28T23:01:39.000Z",
@@ -67,27 +85,9 @@
         "subject": "Pay Your Rent Online",
         "timestamp": "2026-03-28T21:21:03.000Z",
         "unread": false
-      },
-      {
-        "from": "Shop",
-        "subject": "Welcome to Shop–here’s what’s next",
-        "timestamp": "2026-03-28T17:41:39.000Z",
-        "unread": true
-      },
-      {
-        "from": "KEYi Robot",
-        "subject": "Order #25132 confirmed",
-        "timestamp": "2026-03-28T17:41:31.000Z",
-        "unread": false
-      },
-      {
-        "from": "Google Gemini",
-        "subject": "You're now using Gemini on your iOS device",
-        "timestamp": "2026-03-27T21:42:35.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-03-28T23:58:43.205Z",
+    "gmailUpdated": "2026-03-29T05:55:18.863Z",
     "gorgias": [
       {
         "id": 90604504,
