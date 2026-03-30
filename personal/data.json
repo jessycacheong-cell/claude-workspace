@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T06:26:04.253Z",
+  "lastUpdated": "2026-03-30T06:26:17.526Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-30T00:04:55.982Z",
     "gorgias": [
       {
+        "id": 90729133,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-30T04:41:19+00:00"
+      },
+      {
+        "id": 90725336,
+        "subject": "You appeared in recent searches",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-30T03:32:58+00:00"
+      },
+      {
+        "id": 90720967,
+        "subject": "Direct message with j_boogie_1996",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-30T02:30:04.996000+00:00"
+      },
+      {
+        "id": 90713682,
+        "subject": "525033 is your 6-digit code",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-30T01:04:53.615000+00:00"
+      },
+      {
         "id": 90704710,
         "subject": "Refund Initiated for Order 114-1876162-8459430",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-03-29T23:21:52+00:00"
-      },
-      {
-        "id": 90701963,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-29T22:53:05+00:00"
-      },
-      {
-        "id": 90680512,
-        "subject": "Love it",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-29T19:11:08+00:00"
-      },
-      {
-        "id": 90671612,
-        "subject": "You’ve got new messages from CherelynnB",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-29T17:41:13+00:00"
-      },
-      {
-        "id": 90638861,
-        "subject": "'boost Sales With Mnwlkr Slides & Wave Clogs' | @umei_3d",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-29T11:22:54+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-29T23:50:22.407Z",
+    "gorgiasUpdated": "2026-03-30T06:26:17.177Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
