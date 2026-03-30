@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T06:26:17.526Z",
+  "lastUpdated": "2026-03-30T06:26:22.852Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -58,6 +58,24 @@
     "gmail": [
       {
         "from": "ANAVRIN®",
+        "subject": "Back to Your Favorites",
+        "timestamp": "2026-03-30T01:52:26.000Z",
+        "unread": true
+      },
+      {
+        "from": "ANAVRIN®",
+        "subject": "Pick a Scene. Save 10%.",
+        "timestamp": "2026-03-30T01:52:19.000Z",
+        "unread": true
+      },
+      {
+        "from": "ANAVRIN®",
+        "subject": "Now the Fun Part 🧩",
+        "timestamp": "2026-03-30T00:52:50.000Z",
+        "unread": true
+      },
+      {
+        "from": "ANAVRIN®",
         "subject": "Whispering Hollow Drops in 48 Hours",
         "timestamp": "2026-03-29T22:00:44.000Z",
         "unread": true
@@ -67,27 +85,9 @@
         "subject": "Don’t build alone—invite your team",
         "timestamp": "2026-03-29T16:02:15.000Z",
         "unread": true
-      },
-      {
-        "from": "ANAVRIN®",
-        "subject": "Your First Build Is 10% Off",
-        "timestamp": "2026-03-29T01:52:54.000Z",
-        "unread": true
-      },
-      {
-        "from": "ANAVRIN®",
-        "subject": "Dive Back in With 10% Off",
-        "timestamp": "2026-03-29T01:52:39.000Z",
-        "unread": true
-      },
-      {
-        "from": "ANAVRIN®",
-        "subject": "Welcome to Anavrin 🧘🏻‍♀️🤍",
-        "timestamp": "2026-03-29T00:52:12.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-03-30T00:04:55.982Z",
+    "gmailUpdated": "2026-03-30T06:26:22.718Z",
     "gorgias": [
       {
         "id": 90729133,
