@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T14:54:55.569Z",
+  "lastUpdated": "2026-03-30T14:55:18.511Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-30T14:54:55.392Z",
     "gorgias": [
       {
+        "id": 90772939,
+        "subject": "Accept payment in more ways with the PayPal app",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-30T14:07:10+00:00"
+      },
+      {
+        "id": 90771869,
+        "subject": "Product Update: The future of AI for Shopify",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-30T14:02:53+00:00"
+      },
+      {
+        "id": 90770603,
+        "subject": "Free Educational Webinars Available in April!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-30T13:56:39+00:00"
+      },
+      {
+        "id": 90750413,
+        "subject": "Upcoming change for Shopify - April 28",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-30T10:58:08+00:00"
+      },
+      {
         "id": 90741600,
         "subject": "Weekly CX Boost for Umeistore",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-03-30T08:33:48+00:00"
-      },
-      {
-        "id": 90739955,
-        "subject": "Direct message with chandersonnn",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-30T07:59:08.093000+00:00"
-      },
-      {
-        "id": 90738565,
-        "subject": "🫶🏻 🦶🏻",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-30T07:37:22+00:00"
-      },
-      {
-        "id": 90734496,
-        "subject": "faster motion graphics (3 new updates)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-30T06:34:03+00:00"
-      },
-      {
-        "id": 90729133,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-30T04:41:19+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-30T10:47:54.553Z",
+    "gorgiasUpdated": "2026-03-30T14:55:18.328Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
