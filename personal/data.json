@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T06:26:22.852Z",
+  "lastUpdated": "2026-03-30T10:47:15.991Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -131,21 +131,21 @@
   },
   "agenda": [
     {
-      "title": "New Contact Lens",
-      "time": "2:00 PM",
-      "end": "3:00 PM",
-      "allDay": false,
-      "calendar": "jessycacheong@gmail.com"
-    },
-    {
       "title": "Flight to China ~RMB8000",
       "time": "All Day",
       "end": "",
       "allDay": true,
       "calendar": "jessycacheong@gmail.com"
+    },
+    {
+      "title": "📍 GBP Post 4 — Printed On Demand",
+      "time": "All Day",
+      "end": "",
+      "allDay": true,
+      "calendar": "UMEI Related Task"
     }
   ],
-  "agendaUpdated": "2026-03-30T06:26:04.089Z",
+  "agendaUpdated": "2026-03-30T10:47:15.831Z",
   "shopify": {
     "orders": "—",
     "revenue": "—",
