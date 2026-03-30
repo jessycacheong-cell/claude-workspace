@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T20:07:10.429Z",
+  "lastUpdated": "2026-03-30T22:03:57.244Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-30T20:07:10.255Z",
     "gorgias": [
       {
-        "id": 90823677,
-        "subject": "Big Spring Sale ends March 31",
+        "id": 90866905,
+        "subject": "Direct message with all3yr33d",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-30T17:59:29+00:00"
+        "timestamp": "2026-03-30T21:46:24.334000+00:00"
       },
       {
-        "id": 90788132,
-        "subject": "⏰ Final hours to win $100: Share your account health tip by March 30",
+        "id": 90863991,
+        "subject": "Upcoming Improvements to Reference Pricing",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-30T15:16:32+00:00"
+        "timestamp": "2026-03-30T21:29:57+00:00"
       },
       {
-        "id": 90772939,
-        "subject": "Accept payment in more ways with the PayPal app",
+        "id": 90858937,
+        "subject": "Mention in jessie.i.irvine's story",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-30T14:07:10+00:00"
+        "status": "open",
+        "timestamp": "2026-03-30T21:02:19.311000+00:00"
       },
       {
-        "id": 90771869,
-        "subject": "Product Update: The future of AI for Shopify",
+        "id": 90854890,
+        "subject": "UMEI, your posts got 5 impressions last week",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-30T14:02:53+00:00"
+        "timestamp": "2026-03-30T20:39:04+00:00"
       },
       {
-        "id": 90770603,
-        "subject": "Free Educational Webinars Available in April!",
+        "id": 90840988,
+        "subject": "Your FBA capacity limits for April",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-30T13:56:39+00:00"
+        "timestamp": "2026-03-30T19:25:08+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-30T18:09:10.392Z",
+    "gorgiasUpdated": "2026-03-30T22:03:57.074Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
