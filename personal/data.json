@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T22:05:33.793Z",
+  "lastUpdated": "2026-03-30T23:54:56.054Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-30T22:05:21.593Z",
     "gorgias": [
       {
+        "id": 90876548,
+        "subject": "Mention in laiestylemusic's story",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-30T22:40:46.586000+00:00"
+      },
+      {
         "id": 90866905,
         "subject": "Direct message with all3yr33d",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-03-30T20:39:04+00:00"
-      },
-      {
-        "id": 90840988,
-        "subject": "Your FBA capacity limits for April",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-30T19:25:08+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-30T22:03:57.074Z",
+    "gorgiasUpdated": "2026-03-30T23:54:55.875Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
