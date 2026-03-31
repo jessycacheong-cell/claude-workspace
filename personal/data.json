@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T05:57:41.694Z",
+  "lastUpdated": "2026-03-31T05:59:15.482Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T05:57:37.623Z",
     "gorgias": [
       {
-        "id": 90876548,
-        "subject": "Mention in laiestylemusic's story",
+        "id": 90916540,
+        "subject": "Your receipt from DORA PLATFORM PTE. LTD. #2034-2394",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-31T04:23:16+00:00"
+      },
+      {
+        "id": 90913000,
+        "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-31T03:33:01+00:00"
+      },
+      {
+        "id": 90903552,
+        "subject": "Direct message with zerolovetennis",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-03-30T22:40:46.586000+00:00"
+        "timestamp": "2026-03-31T02:03:27.332000+00:00"
       },
       {
-        "id": 90866905,
-        "subject": "Direct message with all3yr33d",
+        "id": 90898180,
+        "subject": "[Action Required] Amazon RDS PostgreSQL minor versions deprecating on May 31, 2026 [AWS Account: 381492252471] [US-WEST-2]",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-30T21:46:24.334000+00:00"
+        "timestamp": "2026-03-31T01:18:07+00:00"
       },
       {
-        "id": 90863991,
-        "subject": "Upcoming Improvements to Reference Pricing",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-30T21:29:57+00:00"
-      },
-      {
-        "id": 90858937,
-        "subject": "Mention in jessie.i.irvine's story",
+        "id": 90897311,
+        "subject": "Direct message with _gettingjacked",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-03-30T21:02:19.311000+00:00"
-      },
-      {
-        "id": 90854890,
-        "subject": "UMEI, your posts got 5 impressions last week",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-30T20:39:04+00:00"
+        "timestamp": "2026-03-31T01:10:24.630000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-30T23:54:55.875Z",
+    "gorgiasUpdated": "2026-03-31T05:59:15.363Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
