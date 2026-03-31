@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T23:56:25.991Z",
+  "lastUpdated": "2026-03-31T05:57:37.790Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,24 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Peter from Rendair",
+        "subject": "📅 Jessyca C. Archer, Schedule Your Rendair Tour Today",
+        "timestamp": "2026-03-31T04:08:32.000Z",
+        "unread": true
+      },
+      {
+        "from": "ANAVRIN®",
+        "subject": "Is That Kit Still on Your Mind? ✨",
+        "timestamp": "2026-03-31T01:52:35.000Z",
+        "unread": true
+      },
+      {
+        "from": "ANAVRIN®",
+        "subject": "We Saw You Looking",
+        "timestamp": "2026-03-31T01:52:21.000Z",
+        "unread": true
+      },
+      {
         "from": "Google Merchant Center",
         "subject": "Select the countries where you sell",
         "timestamp": "2026-03-30T22:14:33.000Z",
@@ -67,27 +85,9 @@
         "subject": "The Hollow Drops March 31 at 6PM EST",
         "timestamp": "2026-03-30T22:01:54.000Z",
         "unread": true
-      },
-      {
-        "from": "Janessa Mayes",
-        "subject": "Thank You for Your Interest: Pacific Clinics Application",
-        "timestamp": "2026-03-30T21:50:55.000Z",
-        "unread": true
-      },
-      {
-        "from": "The Airtable Team",
-        "subject": "You’re invited: Get started with AI in Airtable livestream",
-        "timestamp": "2026-03-30T21:46:48.000Z",
-        "unread": true
-      },
-      {
-        "from": "Sandhya Peddada",
-        "subject": "Remote - Job opportunity - Senior Learning Technology Contractor - Gilead",
-        "timestamp": "2026-03-30T21:46:43.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-03-30T23:55:01.513Z",
+    "gmailUpdated": "2026-03-31T05:57:37.623Z",
     "gorgias": [
       {
         "id": 90876548,
