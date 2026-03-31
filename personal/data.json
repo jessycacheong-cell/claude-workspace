@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T15:54:47.846Z",
+  "lastUpdated": "2026-03-31T16:14:25.684Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,18 @@
   "inbox": {
     "gmail": [
       {
+        "from": "UFIT Administration",
+        "subject": "Qualifying Criteria",
+        "timestamp": "2026-03-31T13:07:48.000Z",
+        "unread": false
+      },
+      {
+        "from": "Arcads",
+        "subject": "Introducing AI Worfklows",
+        "timestamp": "2026-03-31T11:46:00.000Z",
+        "unread": true
+      },
+      {
         "from": "Peter from Rendair",
         "subject": "📅 Jessyca C. Archer, Schedule Your Rendair Tour Today",
         "timestamp": "2026-03-31T04:08:32.000Z",
@@ -73,21 +85,9 @@
         "subject": "We Saw You Looking",
         "timestamp": "2026-03-31T01:52:21.000Z",
         "unread": true
-      },
-      {
-        "from": "Google Merchant Center",
-        "subject": "Select the countries where you sell",
-        "timestamp": "2026-03-30T22:14:33.000Z",
-        "unread": true
-      },
-      {
-        "from": "ANAVRIN®",
-        "subject": "The Hollow Drops March 31 at 6PM EST",
-        "timestamp": "2026-03-30T22:01:54.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-03-31T09:45:38.022Z",
+    "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
         "id": 90935973,
