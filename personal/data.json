@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T12:04:40.449Z",
+  "lastUpdated": "2026-03-31T12:10:06.032Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T09:45:38.022Z",
     "gorgias": [
       {
+        "id": 90935973,
+        "subject": "Mar 31, 2026 bill for My Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-31T10:30:50+00:00"
+      },
+      {
         "id": 90916540,
         "subject": "Your receipt from DORA PLATFORM PTE. LTD. #2034-2394",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-03-31T01:18:07+00:00"
-      },
-      {
-        "id": 90897311,
-        "subject": "Direct message with _gettingjacked",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-31T01:10:24.630000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-31T09:48:17.800Z",
+    "gorgiasUpdated": "2026-03-31T12:10:05.896Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
