@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T19:57:40.831Z",
+  "lastUpdated": "2026-03-31T22:01:48.408Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91051485,
+        "subject": "Direct message with james.hueyy",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-03-31T21:51:16.393000+00:00"
+      },
+      {
+        "id": 91050209,
+        "subject": "How to be irreplaceable in the age of AI",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-31T21:43:25+00:00"
+      },
+      {
+        "id": 91031476,
+        "subject": "Creating and managing marketing automations in Shopify",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-31T19:52:24+00:00"
+      },
+      {
+        "id": 91030316,
+        "subject": "Inside a record-breaking Kickstarter campaign",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-31T19:45:49+00:00"
+      },
+      {
         "id": 91022870,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-03-31T19:05:13+00:00"
-      },
-      {
-        "id": 91022473,
-        "subject": "It's official: Glean:GO 2026 registration is now open 🎉",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-31T19:03:18+00:00"
-      },
-      {
-        "id": 91011276,
-        "subject": "Reminder: Smartsheet login update re-launching soon",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-31T18:07:05+00:00"
-      },
-      {
-        "id": 90999928,
-        "subject": "Is AI making design too similar?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-31T17:06:56+00:00"
-      },
-      {
-        "id": 90999596,
-        "subject": "We haven’t seen you in a while 😥 Take 25% off.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-31T17:04:10+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-31T19:44:24.715Z",
+    "gorgiasUpdated": "2026-03-31T22:01:48.219Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
