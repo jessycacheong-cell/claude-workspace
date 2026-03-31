@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T09:45:38.258Z",
+  "lastUpdated": "2026-03-31T09:46:25.888Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -138,14 +138,21 @@
       "calendar": "jessycacheong@gmail.com"
     },
     {
-      "title": "📍 GBP Post 4 — Printed On Demand",
+      "title": "Arrive in China",
       "time": "All Day",
       "end": "",
       "allDay": true,
-      "calendar": "UMEI Related Task"
+      "calendar": "jessycacheong@gmail.com"
+    },
+    {
+      "title": "Hotel 1st night",
+      "time": "All Day",
+      "end": "",
+      "allDay": true,
+      "calendar": "jessycacheong@gmail.com"
     }
   ],
-  "agendaUpdated": "2026-03-31T05:57:41.439Z",
+  "agendaUpdated": "2026-03-31T09:46:25.725Z",
   "shopify": {
     "orders": "—",
     "revenue": "—",
