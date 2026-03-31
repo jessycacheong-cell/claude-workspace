@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T16:14:25.684Z",
+  "lastUpdated": "2026-03-31T19:44:24.874Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 90935973,
-        "subject": "Mar 31, 2026 bill for My Store",
+        "id": 91022870,
+        "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-31T10:30:50+00:00"
+        "timestamp": "2026-03-31T19:05:13+00:00"
       },
       {
-        "id": 90916540,
-        "subject": "Your receipt from DORA PLATFORM PTE. LTD. #2034-2394",
+        "id": 91022473,
+        "subject": "It's official: Glean:GO 2026 registration is now open 🎉",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-31T04:23:16+00:00"
+        "timestamp": "2026-03-31T19:03:18+00:00"
       },
       {
-        "id": 90913000,
-        "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
+        "id": 91011276,
+        "subject": "Reminder: Smartsheet login update re-launching soon",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-31T03:33:01+00:00"
+        "timestamp": "2026-03-31T18:07:05+00:00"
       },
       {
-        "id": 90903552,
-        "subject": "Direct message with zerolovetennis",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-03-31T02:03:27.332000+00:00"
-      },
-      {
-        "id": 90898180,
-        "subject": "[Action Required] Amazon RDS PostgreSQL minor versions deprecating on May 31, 2026 [AWS Account: 381492252471] [US-WEST-2]",
+        "id": 90999928,
+        "subject": "Is AI making design too similar?",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-31T01:18:07+00:00"
+        "timestamp": "2026-03-31T17:06:56+00:00"
+      },
+      {
+        "id": 90999596,
+        "subject": "We haven’t seen you in a while 😥 Take 25% off.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-03-31T17:04:10+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-31T12:10:05.896Z",
+    "gorgiasUpdated": "2026-03-31T19:44:24.715Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
