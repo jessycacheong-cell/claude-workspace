@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T10:17:21.901Z",
+  "lastUpdated": "2026-04-01T14:52:50.122Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91146588,
+        "subject": "Using mine now and it's like a spring in every pixel of the footbed. Very cool and unique sensation. It's like something between",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-01T14:34:31+00:00"
+      },
+      {
+        "id": 91138775,
+        "subject": "Getting low CSAT with no clear reason?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-01T13:53:05+00:00"
+      },
+      {
+        "id": 91120717,
+        "subject": "FBA reimbursement notification",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-01T11:47:11+00:00"
+      },
+      {
         "id": 91105132,
         "subject": "WHOIS Data Confirmation for umeistore.com",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-01T03:32:59+00:00"
-      },
-      {
-        "id": 91088951,
-        "subject": "Your receipt from Auth0 by Okta #2556-6924",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-01T03:15:11+00:00"
-      },
-      {
-        "id": 91083920,
-        "subject": "Important: Dora will be shutting down on May 1, 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-01T02:19:37+00:00"
-      },
-      {
-        "id": 91083516,
-        "subject": "UMEI, add Lily Robertson - Industry Convenor 💬",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-01T02:15:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-01T10:17:21.740Z",
+    "gorgiasUpdated": "2026-04-01T14:52:49.774Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
