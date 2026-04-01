@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T20:01:20.259Z",
+  "lastUpdated": "2026-04-01T20:09:16.445Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91205620,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-01T19:21:36+00:00"
+      },
+      {
+        "id": 91203536,
+        "subject": "The simplest way to start selling in 2026",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-01T19:10:58.471000+00:00"
+      },
+      {
         "id": 91175150,
         "subject": "You've received messages from CherelynnB",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-01T16:16:44+00:00"
-      },
-      {
-        "id": 91168402,
-        "subject": "Extra funds could be available for your business",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-01T16:12:48+00:00"
-      },
-      {
-        "id": 91154473,
-        "subject": "Discover more-sustainable business procurement.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-01T15:10:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-01T18:03:22.384Z",
+    "gorgiasUpdated": "2026-04-01T20:09:16.237Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
