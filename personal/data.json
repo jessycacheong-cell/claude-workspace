@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T23:52:41.112Z",
+  "lastUpdated": "2026-04-01T06:15:27.895Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 91055250,
-        "subject": "Three rules to get from click to purchase faster",
+        "id": 91090187,
+        "subject": "HiveWatch recently posted",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-03-31T22:18:02+00:00"
+        "timestamp": "2026-04-01T03:32:59+00:00"
       },
       {
-        "id": 91051485,
-        "subject": "Direct message with james.hueyy",
+        "id": 91088951,
+        "subject": "Your receipt from Auth0 by Okta #2556-6924",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-01T03:15:11+00:00"
+      },
+      {
+        "id": 91083920,
+        "subject": "Important: Dora will be shutting down on May 1, 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-01T02:19:37+00:00"
+      },
+      {
+        "id": 91083516,
+        "subject": "UMEI, add Lily Robertson - Industry Convenor 💬",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-01T02:15:59+00:00"
+      },
+      {
+        "id": 91081092,
+        "subject": "Dose this mean memory foam too? Referring to the 4th slide",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-03-31T21:51:16.393000+00:00"
-      },
-      {
-        "id": 91050209,
-        "subject": "How to be irreplaceable in the age of AI",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-31T21:43:25+00:00"
-      },
-      {
-        "id": 91031476,
-        "subject": "Creating and managing marketing automations in Shopify",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-31T19:52:24+00:00"
-      },
-      {
-        "id": 91030316,
-        "subject": "Inside a record-breaking Kickstarter campaign",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-03-31T19:45:49+00:00"
+        "timestamp": "2026-04-01T01:52:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-03-31T23:52:40.969Z",
+    "gorgiasUpdated": "2026-04-01T06:15:27.692Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
