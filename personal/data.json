@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T06:15:27.895Z",
+  "lastUpdated": "2026-04-01T10:17:21.901Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91105132,
+        "subject": "WHOIS Data Confirmation for umeistore.com",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-01T07:53:46+00:00"
+      },
+      {
         "id": 91090187,
         "subject": "HiveWatch recently posted",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-01T02:15:59+00:00"
-      },
-      {
-        "id": 91081092,
-        "subject": "Dose this mean memory foam too? Referring to the 4th slide",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-01T01:52:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-01T06:15:27.692Z",
+    "gorgiasUpdated": "2026-04-01T10:17:21.740Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
