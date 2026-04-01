@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T20:09:16.445Z",
+  "lastUpdated": "2026-04-01T22:06:01.277Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91216132,
+        "subject": "Love it I went to the planetarium at ball state today with my class and I absolutely loved it it was amazing I learned about a l",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-01T20:14:24+00:00"
+      },
+      {
         "id": 91205620,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-01T16:37:02+00:00"
-      },
-      {
-        "id": 91169212,
-        "subject": "two19 is hiring a Founder",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-01T16:16:44+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-01T20:09:16.237Z",
+    "gorgiasUpdated": "2026-04-01T22:06:01.156Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
