@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T22:06:01.277Z",
+  "lastUpdated": "2026-04-01T23:52:27.930Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91248342,
+        "subject": "Zapier received your data deletion request from Shopify",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-01T23:47:46+00:00"
+      },
+      {
+        "id": 91239814,
+        "subject": "Your puzzle looks simple… UMEI 🧩",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-01T22:41:44+00:00"
+      },
+      {
+        "id": 91236525,
+        "subject": "Direct message with karlos_andres",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-01T22:16:38.017000+00:00"
+      },
+      {
         "id": 91216132,
         "subject": "Love it I went to the planetarium at ball state today with my class and I absolutely loved it it was amazing I learned about a l",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-01T19:21:36+00:00"
-      },
-      {
-        "id": 91203536,
-        "subject": "The simplest way to start selling in 2026",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-01T19:10:58.471000+00:00"
-      },
-      {
-        "id": 91175150,
-        "subject": "You've received messages from CherelynnB",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-01T16:45:59+00:00"
-      },
-      {
-        "id": 91173470,
-        "subject": "Great news: Your order is ready",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-01T16:37:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-01T22:06:01.156Z",
+    "gorgiasUpdated": "2026-04-01T23:52:27.810Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
