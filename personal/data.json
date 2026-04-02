@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T21:06:55.851Z",
+  "lastUpdated": "2026-04-02T22:54:45.141Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91413224,
+        "subject": " Updates to Notion’s Terms",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-02T22:30:53+00:00"
+      },
+      {
         "id": 91394640,
         "subject": "Refund Initiated for Order 114-1799779-0502663",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-02T17:34:02+00:00"
-      },
-      {
-        "id": 91357074,
-        "subject": "Zoho Campaigns for Administrators (virtual classroom training) | Apr 06-07, 2026 | CST",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-02T17:08:41+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-02T21:06:55.711Z",
+    "gorgiasUpdated": "2026-04-02T22:54:44.837Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
