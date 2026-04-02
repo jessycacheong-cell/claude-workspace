@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T19:38:22.333Z",
+  "lastUpdated": "2026-04-02T21:06:55.851Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91394640,
+        "subject": "Refund Initiated for Order 114-1799779-0502663",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-02T20:30:26+00:00"
+      },
+      {
+        "id": 91390123,
+        "subject": "April Insights: More tools won't fix a fragmented AI strategy",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-02T20:04:03+00:00"
+      },
+      {
         "id": 91383257,
         "subject": "You've received messages from CherelynnB",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-02T17:08:41+00:00"
-      },
-      {
-        "id": 91351301,
-        "subject": "You’re now selling in Microsoft Copilot",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-02T16:39:01.011000+00:00"
-      },
-      {
-        "id": 91346767,
-        "subject": "You appeared in recent searches",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-02T16:16:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-02T19:31:53.504Z",
+    "gorgiasUpdated": "2026-04-02T21:06:55.711Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
