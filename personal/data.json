@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T23:52:27.930Z",
+  "lastUpdated": "2026-04-02T05:53:25.977Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 91248342,
-        "subject": "Zapier received your data deletion request from Shopify",
+        "id": 91271614,
+        "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-01T23:47:46+00:00"
+        "timestamp": "2026-04-02T03:33:10+00:00"
       },
       {
-        "id": 91239814,
-        "subject": "Your puzzle looks simple… UMEI 🧩",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-01T22:41:44+00:00"
-      },
-      {
-        "id": 91236525,
-        "subject": "Direct message with karlos_andres",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-01T22:16:38.017000+00:00"
-      },
-      {
-        "id": 91216132,
-        "subject": "Love it I went to the planetarium at ball state today with my class and I absolutely loved it it was amazing I learned about a l",
+        "id": 91262774,
+        "subject": "Hello, just checking in",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-04-01T20:14:24+00:00"
+        "timestamp": "2026-04-02T01:57:12+00:00"
       },
       {
-        "id": 91205620,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 91262181,
+        "subject": "Let's go!",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-02T01:52:05+00:00"
+      },
+      {
+        "id": 91251854,
+        "subject": "View STEM Racing - Team SW1FT’s post and your next steps",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-01T19:21:36+00:00"
+        "timestamp": "2026-04-02T00:15:59+00:00"
+      },
+      {
+        "id": 91249475,
+        "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-01T23:57:48+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-01T23:52:27.810Z",
+    "gorgiasUpdated": "2026-04-02T05:53:25.748Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
