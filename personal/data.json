@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T15:42:40.153Z",
+  "lastUpdated": "2026-04-02T19:31:53.740Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 91338847,
-        "subject": "ICYMI, UMEI, claim your free course",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-02T15:38:56+00:00"
-      },
-      {
-        "id": 91328525,
-        "subject": "Fresh start. Better conversions.",
+        "id": 91383257,
+        "subject": "You've received messages from CherelynnB",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-04-02T14:47:45+00:00"
+        "timestamp": "2026-04-02T19:26:11+00:00"
       },
       {
-        "id": 91327298,
-        "subject": "Fuel and logistics-related surcharge: FBA, MCF, and BWP in US and CA",
+        "id": 91362234,
+        "subject": "Rising fast 🚀",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-02T14:40:50+00:00"
+        "timestamp": "2026-04-02T17:34:02+00:00"
       },
       {
-        "id": 91321665,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 91357074,
+        "subject": "Zoho Campaigns for Administrators (virtual classroom training) | Apr 06-07, 2026 | CST",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-02T14:10:15+00:00"
+        "status": "open",
+        "timestamp": "2026-04-02T17:08:41+00:00"
       },
       {
-        "id": 91318609,
-        "subject": "The right connections change everything: Register now for New Seller Summit",
+        "id": 91351301,
+        "subject": "You’re now selling in Microsoft Copilot",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-02T13:52:47+00:00"
+        "timestamp": "2026-04-02T16:39:01.011000+00:00"
+      },
+      {
+        "id": 91346767,
+        "subject": "You appeared in recent searches",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-02T16:16:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-02T15:42:39.979Z",
+    "gorgiasUpdated": "2026-04-02T19:31:53.504Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
