@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T12:10:04.829Z",
+  "lastUpdated": "2026-04-02T15:42:40.153Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 91271614,
-        "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
+        "id": 91338847,
+        "subject": "ICYMI, UMEI, claim your free course",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-02T03:33:10+00:00"
+        "timestamp": "2026-04-02T15:38:56+00:00"
       },
       {
-        "id": 91262774,
-        "subject": "Hello, just checking in",
+        "id": 91328525,
+        "subject": "Fresh start. Better conversions.",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-04-02T01:57:12+00:00"
+        "timestamp": "2026-04-02T14:47:45+00:00"
       },
       {
-        "id": 91262181,
-        "subject": "Let's go!",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-02T01:52:05+00:00"
-      },
-      {
-        "id": 91251854,
-        "subject": "View STEM Racing - Team SW1FT’s post and your next steps",
+        "id": 91327298,
+        "subject": "Fuel and logistics-related surcharge: FBA, MCF, and BWP in US and CA",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-02T00:15:59+00:00"
+        "timestamp": "2026-04-02T14:40:50+00:00"
       },
       {
-        "id": 91249475,
-        "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
+        "id": 91321665,
+        "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-01T23:57:48+00:00"
+        "timestamp": "2026-04-02T14:10:15+00:00"
+      },
+      {
+        "id": 91318609,
+        "subject": "The right connections change everything: Register now for New Seller Summit",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-02T13:52:47+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-02T12:10:04.647Z",
+    "gorgiasUpdated": "2026-04-02T15:42:39.979Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
