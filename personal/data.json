@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-02T22:54:45.141Z",
+  "lastUpdated": "2026-04-03T05:25:27.670Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91445375,
+        "subject": "Direct message with verma6413",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-03T03:35:15.348000+00:00"
+      },
+      {
+        "id": 91445210,
+        "subject": "Liam Weakley and others share their thoughts on LinkedIn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-03T03:33:06+00:00"
+      },
+      {
         "id": 91413224,
         "subject": " Updates to Notion’s Terms",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-02T20:04:03+00:00"
-      },
-      {
-        "id": 91383257,
-        "subject": "You've received messages from CherelynnB",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-02T19:26:11+00:00"
-      },
-      {
-        "id": 91362234,
-        "subject": "Rising fast 🚀",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-02T17:34:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-02T22:54:44.837Z",
+    "gorgiasUpdated": "2026-04-03T05:25:27.473Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
