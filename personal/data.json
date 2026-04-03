@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T19:27:08.212Z",
+  "lastUpdated": "2026-04-03T19:56:39.579Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91544773,
+        "subject": "Your free ads are expiring unused ⏳",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-03T19:15:48.730000+00:00"
+      },
+      {
+        "id": 91539542,
+        "subject": "You've received messages from CherelynnB",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-03T18:46:13+00:00"
+      },
+      {
+        "id": 91532579,
+        "subject": "Don't miss out! Free access to Gamma Imagine ends next week",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-03T18:04:36+00:00"
+      },
+      {
         "id": 91522076,
         "subject": "Reminder: You have 24 hours to review your delivery from CherelynnB",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-03T16:12:58+00:00"
-      },
-      {
-        "id": 91509618,
-        "subject": "umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-03T15:57:41+00:00"
-      },
-      {
-        "id": 91461491,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-03T08:51:57+00:00"
-      },
-      {
-        "id": 91445375,
-        "subject": "Direct message with verma6413",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-03T03:35:15.348000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-03T17:55:36.925Z",
+    "gorgiasUpdated": "2026-04-03T19:56:39.331Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
