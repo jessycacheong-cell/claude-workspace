@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T15:58:19.025Z",
+  "lastUpdated": "2026-04-03T17:55:37.068Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91522076,
+        "subject": "Reminder: You have 24 hours to review your delivery from CherelynnB",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-03T17:03:17+00:00"
+      },
+      {
+        "id": 91513220,
+        "subject": "Reminder: You're eligible to apply for a business loan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-03T16:12:58+00:00"
+      },
+      {
         "id": 91509618,
         "subject": "umei3d",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-03T03:35:15.348000+00:00"
-      },
-      {
-        "id": 91445210,
-        "subject": "Liam Weakley and others share their thoughts on LinkedIn",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-03T03:33:06+00:00"
-      },
-      {
-        "id": 91413224,
-        "subject": " Updates to Notion’s Terms",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-02T22:30:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-03T15:58:18.854Z",
+    "gorgiasUpdated": "2026-04-03T17:55:36.925Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
