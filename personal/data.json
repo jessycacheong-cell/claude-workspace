@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T21:04:47.009Z",
+  "lastUpdated": "2026-04-04T21:58:47.601Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91727111,
+        "subject": "Direct message with kirsten_zam",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-04T21:51:00.961000+00:00"
+      },
+      {
+        "id": 91726128,
+        "subject": "You hit your monthly sessions limit",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-04T21:39:35+00:00"
+      },
+      {
+        "id": 91723930,
+        "subject": "Real organic growth for @umei_3d",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-04T21:14:22+00:00"
+      },
+      {
         "id": 91716651,
         "subject": "Direct message with maxeffgen",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-04T18:16:47+00:00"
-      },
-      {
-        "id": 91694784,
-        "subject": "Your order is now complete",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-04T16:42:44+00:00"
-      },
-      {
-        "id": 91691699,
-        "subject": "Mediamonks B.V. is hiring a Chief Creative Officer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-04T16:16:00+00:00"
-      },
-      {
-        "id": 91671483,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-04T13:25:51+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-04T21:04:46.872Z",
+    "gorgiasUpdated": "2026-04-04T21:58:47.463Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
