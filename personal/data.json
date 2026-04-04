@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T05:16:25.780Z",
+  "lastUpdated": "2026-04-04T07:56:46.032Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91648671,
+        "subject": "👏👏👏👏🔥🔥🔥👏👏",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-04T07:12:59+00:00"
+      },
+      {
+        "id": 91637902,
+        "subject": "You're nearing your monthly sessions limit",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-04T05:34:48+00:00"
+      },
+      {
         "id": 91620833,
         "subject": "🚀🚀🚀",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-04T02:16:09+00:00"
-      },
-      {
-        "id": 91555483,
-        "subject": "Sell $5K, get $200 back. Here's how.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-03T20:26:57.507000+00:00"
-      },
-      {
-        "id": 91544773,
-        "subject": "Your free ads are expiring unused ⏳",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-03T19:15:48.730000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-04T05:16:25.635Z",
+    "gorgiasUpdated": "2026-04-04T07:56:45.897Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
