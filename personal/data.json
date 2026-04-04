@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T15:49:09.942Z",
+  "lastUpdated": "2026-04-04T17:52:08.120Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91694784,
+        "subject": "Your order is now complete",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-04T16:42:44+00:00"
+      },
+      {
+        "id": 91691699,
+        "subject": "Mediamonks B.V. is hiring a Chief Creative Officer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-04T16:16:00+00:00"
+      },
+      {
         "id": 91671483,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-04T07:12:59+00:00"
-      },
-      {
-        "id": 91637902,
-        "subject": "You're nearing your monthly sessions limit",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-04T05:34:48+00:00"
-      },
-      {
-        "id": 91620833,
-        "subject": "🚀🚀🚀",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-04T03:03:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-04T15:49:09.798Z",
+    "gorgiasUpdated": "2026-04-04T17:52:07.981Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
