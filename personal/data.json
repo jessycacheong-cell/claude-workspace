@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T19:47:24.262Z",
+  "lastUpdated": "2026-04-04T21:04:47.009Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91716651,
+        "subject": "Direct message with maxeffgen",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-04T20:01:08.406000+00:00"
+      },
+      {
         "id": 91705189,
         "subject": "You appeared in recent searches",
         "customer": "Unknown",
@@ -114,18 +121,11 @@
         "id": 91671483,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-04-04T13:25:51+00:00"
-      },
-      {
-        "id": 91668053,
-        "subject": "UniTel Voice Notice: New Invoice 763780",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-04T12:50:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-04T19:47:24.102Z",
+    "gorgiasUpdated": "2026-04-04T21:04:46.872Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
