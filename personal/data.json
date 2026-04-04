@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-04T11:43:59.243Z",
+  "lastUpdated": "2026-04-04T14:06:09.843Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91671483,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-04T13:25:51+00:00"
+      },
+      {
+        "id": 91668053,
+        "subject": "UniTel Voice Notice: New Invoice 763780",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-04T12:50:03+00:00"
+      },
+      {
         "id": 91648671,
         "subject": "👏👏👏👏🔥🔥🔥👏👏",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-04T03:03:31+00:00"
-      },
-      {
-        "id": 91614556,
-        "subject": "UMEI, add Martim Trigo - Graphic Designer 💬",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-04T02:16:11+00:00"
-      },
-      {
-        "id": 91614558,
-        "subject": "I love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-04T02:16:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-04T11:43:59.040Z",
+    "gorgiasUpdated": "2026-04-04T14:06:09.646Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
