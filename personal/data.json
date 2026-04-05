@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T15:50:24.804Z",
+  "lastUpdated": "2026-04-05T17:52:41.335Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91794353,
+        "subject": "Privately rate your recent order",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-05T16:43:45+00:00"
+      },
+      {
+        "id": 91789898,
+        "subject": "Direct message with h0kgevdn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-05T15:56:33.902000+00:00"
+      },
+      {
         "id": 91758045,
         "subject": "Direct message with lt_shinysides7",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-05T03:24:46+00:00"
-      },
-      {
-        "id": 91733898,
-        "subject": "Re: Order #1680 confirmed",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-04T23:13:29+00:00"
-      },
-      {
-        "id": 91727111,
-        "subject": "Direct message with kirsten_zam",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-04T21:51:00.961000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-05T15:50:24.364Z",
+    "gorgiasUpdated": "2026-04-05T17:52:41.130Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
