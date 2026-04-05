@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T05:57:36.129Z",
+  "lastUpdated": "2026-04-05T08:05:38.583Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91758045,
+        "subject": "Direct message with lt_shinysides7",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-05T06:07:26.770000+00:00"
+      },
+      {
         "id": 91753676,
         "subject": "Carys Hern and others share their thoughts on LinkedIn",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-04T21:51:00.961000+00:00"
-      },
-      {
-        "id": 91726128,
-        "subject": "You hit your monthly sessions limit",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-04T21:39:35+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-05T05:57:36.008Z",
+    "gorgiasUpdated": "2026-04-05T08:05:38.380Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
