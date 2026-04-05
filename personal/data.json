@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T00:02:32.042Z",
+  "lastUpdated": "2026-04-05T05:57:36.129Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91753676,
+        "subject": "Carys Hern and others share their thoughts on LinkedIn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-05T04:15:59+00:00"
+      },
+      {
+        "id": 91751046,
+        "subject": "umei_3d, Get More 2,000 Instagram Followers and 1,000 Reels Views here",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-05T03:24:46+00:00"
+      },
+      {
         "id": 91733898,
         "subject": "Re: Order #1680 confirmed",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-04T21:39:35+00:00"
-      },
-      {
-        "id": 91723930,
-        "subject": "Real organic growth for @umei_3d",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-04T21:14:22+00:00"
-      },
-      {
-        "id": 91716651,
-        "subject": "Direct message with maxeffgen",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-04T20:01:08.406000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-05T00:02:31.926Z",
+    "gorgiasUpdated": "2026-04-05T05:57:36.008Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
