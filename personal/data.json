@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T19:51:37.794Z",
+  "lastUpdated": "2026-04-05T21:04:59.574Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91816261,
+        "subject": "Direct message with tterrag_t",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-05T20:54:42.205000+00:00"
+      },
+      {
         "id": 91794353,
         "subject": "Privately rate your recent order",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-05T04:15:59+00:00"
-      },
-      {
-        "id": 91751046,
-        "subject": "umei_3d, Get More 2,000 Instagram Followers and 1,000 Reels Views here",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-05T03:24:46+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-05T19:51:37.616Z",
+    "gorgiasUpdated": "2026-04-05T21:04:59.421Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
