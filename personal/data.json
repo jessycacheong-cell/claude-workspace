@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T23:52:15.851Z",
+  "lastUpdated": "2026-04-06T06:20:41.514Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,10 +90,24 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91848066,
+        "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-06T03:33:00+00:00"
+      },
+      {
+        "id": 91844327,
+        "subject": "Direct message with austinthephilosurfer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-06T02:36:39.108000+00:00"
+      },
+      {
         "id": 91827893,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-04-05T23:17:26+00:00"
       },
       {
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-05T20:54:42.205000+00:00"
-      },
-      {
-        "id": 91794353,
-        "subject": "Privately rate your recent order",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-05T16:43:45+00:00"
-      },
-      {
-        "id": 91789898,
-        "subject": "Direct message with h0kgevdn",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-05T15:56:33.902000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-05T23:52:15.680Z",
+    "gorgiasUpdated": "2026-04-06T06:20:41.341Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
