@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T20:00:38.600Z",
+  "lastUpdated": "2026-04-06T21:54:32.841Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91986215,
+        "subject": "Share your thoughts: chance to win $500 (Reminder) ",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-06T21:00:55+00:00"
+      },
+      {
         "id": 91953135,
         "subject": "UMEI, follow Elliott Hill - President and Chief Executive Officer at Nike",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-06T15:08:22+00:00"
-      },
-      {
-        "id": 91897401,
-        "subject": "Add a backup payment to avoid order disruptions",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-06T14:25:04+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-06T20:00:38.413Z",
+    "gorgiasUpdated": "2026-04-06T21:54:32.711Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
