@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T10:39:31.160Z",
+  "lastUpdated": "2026-04-06T14:15:45.087Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 91889655,
+        "subject": "Build the connections that move your business forward—New Seller Summit, May 20",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-06T13:42:14+00:00"
+      },
+      {
         "id": 91864309,
         "subject": "Weekly CX Boost for Umeistore",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-05T23:17:26+00:00"
-      },
-      {
-        "id": 91827714,
-        "subject": "Direct message with jessiannwilliams2001",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-05T23:15:21.746000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-06T10:39:30.954Z",
+    "gorgiasUpdated": "2026-04-06T14:15:44.943Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
