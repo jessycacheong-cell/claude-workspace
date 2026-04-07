@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T14:54:36.503Z",
+  "lastUpdated": "2026-04-07T18:12:46.752Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 92134228,
+        "subject": "Don’t forget about us. Take 25% off.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-07T17:04:03+00:00"
+      },
+      {
+        "id": 92121103,
+        "subject": "Step into something new",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-07T16:04:00+00:00"
+      },
+      {
         "id": 92102966,
         "subject": "Hear from Amazon leaders at New Seller Summit—Register now: Early-bird ends soon!",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-07T13:08:25+00:00"
-      },
-      {
-        "id": 92046699,
-        "subject": "Carys Hern and others share their thoughts on LinkedIn",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-07T04:18:15+00:00"
-      },
-      {
-        "id": 92042995,
-        "subject": "Take action to fix your setup",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-07T03:31:20+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-07T14:54:36.258Z",
+    "gorgiasUpdated": "2026-04-07T18:12:46.582Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
