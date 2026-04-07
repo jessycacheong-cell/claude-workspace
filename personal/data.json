@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T20:00:07.921Z",
+  "lastUpdated": "2026-04-07T21:06:41.625Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 92134228,
-        "subject": "Don’t forget about us. Take 25% off.",
+        "id": 92189858,
+        "subject": "Most AI agents don't scale. Find out why at Glean:LIVE May",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-07T17:04:03+00:00"
+        "timestamp": "2026-04-07T20:33:28+00:00"
       },
       {
-        "id": 92121103,
-        "subject": "Step into something new",
+        "id": 92176574,
+        "subject": "Your Gorgias Inc receipt [#1119-0507]",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-07T16:04:00+00:00"
+        "timestamp": "2026-04-07T19:45:11+00:00"
       },
       {
-        "id": 92102966,
-        "subject": "Hear from Amazon leaders at New Seller Summit—Register now: Early-bird ends soon!",
+        "id": 92176182,
+        "subject": "Thank you for your payment",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-07T14:43:30+00:00"
+        "status": "open",
+        "timestamp": "2026-04-07T19:43:54+00:00"
       },
       {
-        "id": 92086709,
-        "subject": "Amazon Business Pulse: Seasonal deals, emergency procurement, and compliance insights",
+        "id": 92169337,
+        "subject": "Direct message with zerolovetennis",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-07T13:21:38+00:00"
+        "status": "open",
+        "timestamp": "2026-04-07T19:19:03.012000+00:00"
       },
       {
-        "id": 92084699,
-        "subject": "Seats are filling fast for these sessions",
+        "id": 92168055,
+        "subject": "Why meaningful careers don’t follow straight lines",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-07T13:08:25+00:00"
+        "timestamp": "2026-04-07T19:14:34+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-07T18:12:46.582Z",
+    "gorgiasUpdated": "2026-04-07T21:06:41.408Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
