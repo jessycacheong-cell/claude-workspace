@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-08T09:49:03.127Z",
+  "lastUpdated": "2026-04-08T14:55:14.319Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 92340472,
+        "subject": "Your Easter campaigns deserve better follow-ups",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-08T14:01:23+00:00"
+      },
+      {
+        "id": 92338393,
+        "subject": "New data: Conversations are driving more purchases",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-08T13:53:09+00:00"
+      },
+      {
+        "id": 92322895,
+        "subject": "Top deals for business: Yumei, save with limited-time deals",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-08T12:22:30+00:00"
+      },
+      {
+        "id": 92322292,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-08T12:17:52.596000+00:00"
+      },
+      {
         "id": 92290075,
         "subject": "Your subscription for Google One will renew on May 9, 2026",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-08T06:23:02+00:00"
-      },
-      {
-        "id": 92286237,
-        "subject": "Q2 Has Started — Is Your Shopify Store Ready⁉️",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-08T05:36:27+00:00"
-      },
-      {
-        "id": 92280182,
-        "subject": "Direct message with _demiera",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-08T04:31:29.172000+00:00"
-      },
-      {
-        "id": 92278618,
-        "subject": "Lily Robertson and others share their thoughts on LinkedIn",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-08T04:16:04+00:00"
-      },
-      {
-        "id": 92264445,
-        "subject": "UMEI, add Roosevelt Racers - Robotics & Engineering Design 💬",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-08T02:15:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-08T09:49:02.935Z",
+    "gorgiasUpdated": "2026-04-08T14:55:14.180Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
