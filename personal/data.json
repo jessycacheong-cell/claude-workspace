@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-08T20:02:40.844Z",
+  "lastUpdated": "2026-04-08T22:09:33.664Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 92447312,
+        "subject": "UMEI, your puzzle is ready 🧩",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-08T22:00:35+00:00"
+      },
+      {
+        "id": 92443435,
+        "subject": "LIVE selling: the strategy top TikTok sellers swear by",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-08T21:43:02.979000+00:00"
+      },
+      {
+        "id": 92441142,
+        "subject": "Where AI helps—and where human judgment matters",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-08T21:31:27+00:00"
+      },
+      {
         "id": 92398081,
         "subject": "For work, play, and everything in between",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-08T16:43:45+00:00"
-      },
-      {
-        "id": 92373579,
-        "subject": "Learn what a PayPal Business Loan can do for your business",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-08T16:17:37+00:00"
-      },
-      {
-        "id": 92372873,
-        "subject": "Order #81242137 - Your Monthly Monitoring Report",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-08T16:14:34+00:00"
-      },
-      {
-        "id": 92357399,
-        "subject": "UMEI, catch everyone’s eye with creative collage assets",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-08T15:09:39+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-08T19:47:52.869Z",
+    "gorgiasUpdated": "2026-04-08T22:09:33.528Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
