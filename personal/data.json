@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-08T14:55:14.319Z",
+  "lastUpdated": "2026-04-08T19:47:53.054Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 92340472,
-        "subject": "Your Easter campaigns deserve better follow-ups",
+        "id": 92398081,
+        "subject": "For work, play, and everything in between",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-08T14:01:23+00:00"
+        "timestamp": "2026-04-08T18:05:46+00:00"
       },
       {
-        "id": 92338393,
-        "subject": "New data: Conversations are driving more purchases",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-08T13:53:09+00:00"
-      },
-      {
-        "id": 92322895,
-        "subject": "Top deals for business: Yumei, save with limited-time deals",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-08T12:22:30+00:00"
-      },
-      {
-        "id": 92322292,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "id": 92379609,
+        "subject": "Reminder to privately rate your recent order",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-04-08T12:17:52.596000+00:00"
+        "timestamp": "2026-04-08T16:43:45+00:00"
       },
       {
-        "id": 92290075,
-        "subject": "Your subscription for Google One will renew on May 9, 2026",
+        "id": 92373579,
+        "subject": "Learn what a PayPal Business Loan can do for your business",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-08T06:23:02+00:00"
+        "timestamp": "2026-04-08T16:17:37+00:00"
+      },
+      {
+        "id": 92372873,
+        "subject": "Order #81242137 - Your Monthly Monitoring Report",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-08T16:14:34+00:00"
+      },
+      {
+        "id": 92357399,
+        "subject": "UMEI, catch everyone’s eye with creative collage assets",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-08T15:09:39+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-08T14:55:14.180Z",
+    "gorgiasUpdated": "2026-04-08T19:47:52.869Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
