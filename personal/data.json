@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-08T05:31:10.916Z",
+  "lastUpdated": "2026-04-08T09:49:03.127Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 92290075,
+        "subject": "Your subscription for Google One will renew on May 9, 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-08T06:23:02+00:00"
+      },
+      {
+        "id": 92286237,
+        "subject": "Q2 Has Started — Is Your Shopify Store Ready⁉️",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-08T05:36:27+00:00"
+      },
+      {
         "id": 92280182,
         "subject": "Direct message with _demiera",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-08T02:15:59+00:00"
-      },
-      {
-        "id": 92257198,
-        "subject": "Your receipt from Photo App",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-08T01:25:10+00:00"
-      },
-      {
-        "id": 92223600,
-        "subject": "Direct message with ngtpillay",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-07T22:36:34.475000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-08T05:31:10.743Z",
+    "gorgiasUpdated": "2026-04-08T09:49:02.935Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
