@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T23:09:13.830Z",
+  "lastUpdated": "2026-04-08T05:31:10.916Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 92280182,
+        "subject": "Direct message with _demiera",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-08T04:31:29.172000+00:00"
+      },
+      {
+        "id": 92278618,
+        "subject": "Lily Robertson and others share their thoughts on LinkedIn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-08T04:16:04+00:00"
+      },
+      {
+        "id": 92264445,
+        "subject": "UMEI, add Roosevelt Racers - Robotics & Engineering Design 💬",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-08T02:15:59+00:00"
+      },
+      {
+        "id": 92257198,
+        "subject": "Your receipt from Photo App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-08T01:25:10+00:00"
+      },
+      {
         "id": 92223600,
         "subject": "Direct message with ngtpillay",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-07T22:36:34.475000+00:00"
-      },
-      {
-        "id": 92189858,
-        "subject": "Most AI agents don't scale. Find out why at Glean:LIVE May",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-07T20:33:28+00:00"
-      },
-      {
-        "id": 92176574,
-        "subject": "Your Gorgias Inc receipt [#1119-0507]",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-07T19:45:11+00:00"
-      },
-      {
-        "id": 92176182,
-        "subject": "Thank you for your payment",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-07T19:43:54+00:00"
-      },
-      {
-        "id": 92169337,
-        "subject": "Direct message with zerolovetennis",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-07T19:19:03.012000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-07T23:09:13.602Z",
+    "gorgiasUpdated": "2026-04-08T05:31:10.743Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
