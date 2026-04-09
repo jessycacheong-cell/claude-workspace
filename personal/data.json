@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-08T23:56:21.887Z",
+  "lastUpdated": "2026-04-09T06:08:36.187Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 92504497,
+        "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-09T03:33:01+00:00"
+      },
+      {
+        "id": 92500036,
+        "subject": "[UMEI Store] Order #1684 placed by Josh Rodriguez",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-09T02:57:06.139000+00:00"
+      },
+      {
+        "id": 92487458,
+        "subject": "Quick question about Umei3d",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-09T01:38:16+00:00"
+      },
+      {
+        "id": 92486290,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-09T01:31:30+00:00"
+      },
+      {
         "id": 92447312,
         "subject": "UMEI, your puzzle is ready 🧩",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-08T22:00:35+00:00"
-      },
-      {
-        "id": 92443435,
-        "subject": "LIVE selling: the strategy top TikTok sellers swear by",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-08T21:43:02.979000+00:00"
-      },
-      {
-        "id": 92441142,
-        "subject": "Where AI helps—and where human judgment matters",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-08T21:31:27+00:00"
-      },
-      {
-        "id": 92398081,
-        "subject": "For work, play, and everything in between",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-08T18:05:46+00:00"
-      },
-      {
-        "id": 92379609,
-        "subject": "Reminder to privately rate your recent order",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-08T16:43:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-08T23:56:21.715Z",
+    "gorgiasUpdated": "2026-04-09T06:08:35.823Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
