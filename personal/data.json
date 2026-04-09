@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T06:08:36.187Z",
+  "lastUpdated": "2026-04-09T10:39:47.108Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 92533768,
+        "subject": "You’ve got new messages from Design Panda",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-09T08:35:36+00:00"
+      },
+      {
         "id": 92504497,
         "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-09T01:31:30+00:00"
-      },
-      {
-        "id": 92447312,
-        "subject": "UMEI, your puzzle is ready 🧩",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-08T22:00:35+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-09T06:08:35.823Z",
+    "gorgiasUpdated": "2026-04-09T10:39:46.924Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
