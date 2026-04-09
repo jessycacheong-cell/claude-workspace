@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T10:39:47.108Z",
+  "lastUpdated": "2026-04-09T16:06:12.583Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 92533768,
+        "id": 92588788,
+        "subject": "Secure your New Seller Summit spot before early-bird pricing ends and attend to hear from Amazon leaders",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-09T14:55:13+00:00"
+      },
+      {
+        "id": 92574065,
+        "subject": "You’ve got new messages from CherelynnB",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-09T14:01:33+00:00"
+      },
+      {
+        "id": 92552096,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-09T12:28:16.614000+00:00"
+      },
+      {
+        "id": 92551498,
+        "subject": "April Webinars with Xmind: AI, funding & IP 🚀",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-09T11:37:22+00:00"
+      },
+      {
+        "id": 92539163,
         "subject": "You’ve got new messages from Design Panda",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-09T08:35:36+00:00"
-      },
-      {
-        "id": 92504497,
-        "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-09T03:33:01+00:00"
-      },
-      {
-        "id": 92500036,
-        "subject": "[UMEI Store] Order #1684 placed by Josh Rodriguez",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-09T02:57:06.139000+00:00"
-      },
-      {
-        "id": 92487458,
-        "subject": "Quick question about Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-09T01:38:16+00:00"
-      },
-      {
-        "id": 92486290,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-09T01:31:30+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-09T10:39:46.924Z",
+    "gorgiasUpdated": "2026-04-09T16:06:12.340Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
