@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T23:59:14.052Z",
+  "lastUpdated": "2026-04-10T06:21:46.618Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 92684800,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 92729915,
+        "subject": "Your trademark \" UMEI  \"maybe copied in China",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-09T21:55:48+00:00"
+        "status": "open",
+        "timestamp": "2026-04-10T05:44:50+00:00"
       },
       {
-        "id": 92679246,
-        "subject": "Refund Initiated for Order 114-2440868-9520241",
+        "id": 92724460,
+        "subject": "Direct message with themegamcqueen",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-09T21:16:25+00:00"
+        "status": "open",
+        "timestamp": "2026-04-10T04:03:16.647000+00:00"
       },
       {
-        "id": 92676998,
-        "subject": "Refund Initiated for Order 111-7593744-0012212",
+        "id": 92722440,
+        "subject": "HILOS recently posted",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-09T21:01:31+00:00"
+        "timestamp": "2026-04-10T03:33:09+00:00"
       },
       {
-        "id": 92670462,
-        "subject": "Helpdesk 2.0: where humans and AI work better together",
+        "id": 92721266,
+        "subject": "(No subject)",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-09T20:26:06+00:00"
+        "status": "open",
+        "timestamp": "2026-04-10T03:16:42+00:00"
       },
       {
-        "id": 92655140,
-        "subject": "Discover your next favorite",
+        "id": 92703578,
+        "subject": "Refund Initiated for Order 112-5578225-5474637",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-09T19:12:12+00:00"
+        "timestamp": "2026-04-10T00:20:37+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-09T23:59:13.909Z",
+    "gorgiasUpdated": "2026-04-10T06:21:46.445Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
