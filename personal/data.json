@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T14:34:40.900Z",
+  "lastUpdated": "2026-04-10T17:36:28.222Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 92744881,
-        "subject": "I love your products 😘",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-10T10:16:45+00:00"
-      },
-      {
-        "id": 92729915,
-        "subject": "Your trademark \" UMEI  \"maybe copied in China",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-10T05:44:50+00:00"
-      },
-      {
-        "id": 92724460,
-        "subject": "Direct message with themegamcqueen",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-10T04:03:16.647000+00:00"
-      },
-      {
-        "id": 92722440,
-        "subject": "HILOS recently posted",
+        "id": 92800480,
+        "subject": "💌 Build beautiful emails in minutes",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-10T03:33:09+00:00"
+        "timestamp": "2026-04-10T16:44:34+00:00"
       },
       {
-        "id": 92721266,
-        "subject": "(No subject)",
+        "id": 92799426,
+        "subject": "You can get ahead with a PayPal Business Loan",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-10T03:16:42+00:00"
+        "status": "closed",
+        "timestamp": "2026-04-10T16:38:18+00:00"
+      },
+      {
+        "id": 92797132,
+        "subject": "Mediamonks B.V. is hiring a Chief Creative Officer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-10T16:26:28+00:00"
+      },
+      {
+        "id": 92793011,
+        "subject": "Direct message with itsdortee",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-10T16:05:47.680000+00:00"
+      },
+      {
+        "id": 92792785,
+        "subject": "UMEI 3D，您可能错过了价值 1,597美金 的销售机会",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-10T16:04:52+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-10T14:34:40.769Z",
+    "gorgiasUpdated": "2026-04-10T17:36:28.010Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
