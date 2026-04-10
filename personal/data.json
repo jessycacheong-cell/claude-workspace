@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T22:02:47.548Z",
+  "lastUpdated": "2026-04-10T23:54:53.613Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 92863960,
+        "subject": "Security alert",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-10T22:43:10+00:00"
+      },
+      {
         "id": 92852381,
         "subject": "The data is in: spring is TikTok Shop's biggest quarter",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-10T16:44:34+00:00"
-      },
-      {
-        "id": 92799426,
-        "subject": "You can get ahead with a PayPal Business Loan",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-10T16:38:18+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-10T22:02:47.325Z",
+    "gorgiasUpdated": "2026-04-10T23:54:53.495Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
