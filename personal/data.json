@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T06:21:46.618Z",
+  "lastUpdated": "2026-04-10T10:17:46.171Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 92744881,
+        "subject": "I love your products 😘",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-10T10:16:45+00:00"
+      },
+      {
         "id": 92729915,
         "subject": "Your trademark \" UMEI  \"maybe copied in China",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-10T03:16:42+00:00"
-      },
-      {
-        "id": 92703578,
-        "subject": "Refund Initiated for Order 112-5578225-5474637",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-10T00:20:37+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-10T06:21:46.445Z",
+    "gorgiasUpdated": "2026-04-10T10:17:45.965Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
