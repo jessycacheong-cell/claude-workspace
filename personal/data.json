@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T23:54:53.613Z",
+  "lastUpdated": "2026-04-11T05:39:01.421Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 92893339,
+        "subject": "Charles Wu Has An Update for You, UMEI 3D",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-11T03:33:13+00:00"
+      },
+      {
+        "id": 92887536,
+        "subject": "UMEI, add Carolina Fernandes - Mentora da Pacce Scuderia,Analista de Comunicação",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-11T02:16:12+00:00"
+      },
+      {
+        "id": 92883882,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-11T01:29:10+00:00"
+      },
+      {
         "id": 92863960,
         "subject": "Security alert",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-10T21:19:49.320000+00:00"
-      },
-      {
-        "id": 92845766,
-        "subject": "Refund Initiated for Order 111-7515676-5471455",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-10T20:38:28+00:00"
-      },
-      {
-        "id": 92839492,
-        "subject": "The missing link in your upskilling strategy (hint: it's not a course)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-10T20:01:26+00:00"
-      },
-      {
-        "id": 92800480,
-        "subject": "💌 Build beautiful emails in minutes",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-10T16:44:34+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-10T23:54:53.495Z",
+    "gorgiasUpdated": "2026-04-11T05:39:01.289Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
