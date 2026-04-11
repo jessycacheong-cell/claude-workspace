@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T19:52:33.345Z",
+  "lastUpdated": "2026-04-11T21:51:21.617Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 92979372,
+        "subject": "Direct message with _demiera",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-11T20:48:49.608000+00:00"
+      },
+      {
+        "id": 92979247,
+        "subject": "Direct message with zerolovetennis",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-11T20:47:27.407000+00:00"
+      },
+      {
         "id": 92950356,
         "subject": "[Action requested] There’s still time to review CherelynnB",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-11T12:35:52+00:00"
-      },
-      {
-        "id": 92893339,
-        "subject": "Charles Wu Has An Update for You, UMEI 3D",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-11T03:33:13+00:00"
-      },
-      {
-        "id": 92887536,
-        "subject": "UMEI, add Carolina Fernandes - Mentora da Pacce Scuderia,Analista de Comunicação",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-11T02:16:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-11T19:52:33.153Z",
+    "gorgiasUpdated": "2026-04-11T21:51:21.334Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
