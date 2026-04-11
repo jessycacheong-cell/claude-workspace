@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T11:46:29.352Z",
+  "lastUpdated": "2026-04-11T14:08:24.988Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 92918914,
+        "subject": "Re: Order delivery",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-11T12:35:52+00:00"
+      },
+      {
         "id": 92893339,
         "subject": "Charles Wu Has An Update for You, UMEI 3D",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-10T22:43:10+00:00"
-      },
-      {
-        "id": 92852381,
-        "subject": "The data is in: spring is TikTok Shop's biggest quarter",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-10T21:19:49.320000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-11T11:46:29.000Z",
+    "gorgiasUpdated": "2026-04-11T14:08:24.812Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
