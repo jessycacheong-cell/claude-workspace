@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T12:04:10.161Z",
+  "lastUpdated": "2026-04-12T14:27:27.030Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93048008,
+        "subject": "I like it",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-12T13:43:17+00:00"
+      },
+      {
         "id": 93006542,
         "subject": "This is how sellers go viral on TikTok 🔥",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-11T16:43:45+00:00"
-      },
-      {
-        "id": 92946674,
-        "subject": "You appeared in recent searches",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-11T16:16:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-12T12:04:10.015Z",
+    "gorgiasUpdated": "2026-04-12T14:27:26.858Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
