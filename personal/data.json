@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T19:55:50.465Z",
+  "lastUpdated": "2026-04-12T21:53:53.612Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93110565,
+        "subject": "You’ve got new messages from CherelynnB",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-12T21:16:14+00:00"
+      },
+      {
         "id": 93092796,
         "subject": "Direct message with hisham.radi",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-11T20:48:49.608000+00:00"
-      },
-      {
-        "id": 92979247,
-        "subject": "Direct message with zerolovetennis",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-11T20:47:27.407000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-12T19:55:50.230Z",
+    "gorgiasUpdated": "2026-04-12T21:53:53.372Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
