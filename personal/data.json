@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-12T23:56:17.919Z",
+  "lastUpdated": "2026-04-13T07:28:21.855Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,10 +90,31 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93153365,
+        "subject": "We're making some changes to our PayPal legal agreements",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-13T07:09:07+00:00"
+      },
+      {
+        "id": 93140386,
+        "subject": "Amazon",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-13T03:09:12+00:00"
+      },
+      {
+        "id": 93126404,
+        "subject": "Direct message with officer_fb",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-13T00:15:19.161000+00:00"
+      },
+      {
         "id": 93120335,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-04-12T23:06:19+00:00"
       },
       {
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-12T21:16:14+00:00"
-      },
-      {
-        "id": 93092796,
-        "subject": "Direct message with hisham.radi",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-12T18:22:10.297000+00:00"
-      },
-      {
-        "id": 93048008,
-        "subject": "I like it",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-12T13:43:17+00:00"
-      },
-      {
-        "id": 93006542,
-        "subject": "This is how sellers go viral on TikTok 🔥",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-12T01:02:32.996000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-12T23:56:17.697Z",
+    "gorgiasUpdated": "2026-04-13T07:28:21.632Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
