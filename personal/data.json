@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T11:57:05.667Z",
+  "lastUpdated": "2026-04-13T16:41:24.934Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 93158258,
-        "subject": "Weekly CX Boost for Umeistore",
+        "id": 93223666,
+        "subject": "通过面向 B2B 客户的广告活动增加销售额。",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-13T08:33:56+00:00"
+        "timestamp": "2026-04-13T16:28:54+00:00"
       },
       {
-        "id": 93155247,
-        "subject": "Apr 13, 2026 bill for UMEI Store",
+        "id": 93217803,
+        "subject": "We Want Your Thoughts: Share Your Voice!",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-13T07:33:01.645000+00:00"
+        "timestamp": "2026-04-13T16:03:01+00:00"
       },
       {
-        "id": 93153365,
-        "subject": "We're making some changes to our PayPal legal agreements",
+        "id": 93200853,
+        "subject": "889 Compliance Just Got Easier on Seller Central!",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-13T07:09:07+00:00"
+        "timestamp": "2026-04-13T14:49:32+00:00"
       },
       {
-        "id": 93140386,
-        "subject": "Amazon",
+        "id": 93199592,
+        "subject": "(No subject)",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-13T03:09:12+00:00"
+        "status": "open",
+        "timestamp": "2026-04-13T14:44:47+00:00"
       },
       {
-        "id": 93126404,
-        "subject": "Direct message with officer_fb",
+        "id": 93195436,
+        "subject": "Update to Klaviyo Sub-Processor List",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-13T00:15:19.161000+00:00"
+        "timestamp": "2026-04-13T14:31:00.962000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-13T11:57:05.496Z",
+    "gorgiasUpdated": "2026-04-13T16:41:24.664Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
