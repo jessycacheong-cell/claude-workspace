@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T20:15:03.736Z",
+  "lastUpdated": "2026-04-13T23:06:14.263Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 93269303,
-        "subject": "Your payment is on the way",
+        "id": 93321095,
+        "subject": "Refund Initiated for Order 111-4688113-3040238",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-13T18:58:38+00:00"
+        "timestamp": "2026-04-13T21:47:13+00:00"
       },
       {
-        "id": 93255488,
-        "subject": "UMEI, follow Olaf Boettger - VP, Johnson Controls Business System - Innovation at Johnson Controls",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-13T18:15:59+00:00"
-      },
-      {
-        "id": 93254933,
-        "subject": "Refund Initiated for Order 111-0743420-1782648",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-13T18:14:17+00:00"
-      },
-      {
-        "id": 93254458,
-        "subject": "Refund Initiated for Order 111-4028801-3754664",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-13T18:12:49+00:00"
-      },
-      {
-        "id": 93250459,
-        "subject": "Primetime TV Awards Red Carpet Swag bag",
+        "id": 93314239,
+        "subject": "April spots filling fast — don't wait 🌸",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-04-13T18:00:32+00:00"
+        "timestamp": "2026-04-13T21:21:47.813000+00:00"
+      },
+      {
+        "id": 93304256,
+        "subject": "Help drive sales with powerful features",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-13T20:46:57+00:00"
+      },
+      {
+        "id": 93302484,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-13T20:40:55+00:00"
+      },
+      {
+        "id": 93301906,
+        "subject": "UMEI, your posts got 7 impressions last week",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-13T20:39:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-13T20:15:03.554Z",
+    "gorgiasUpdated": "2026-04-13T23:06:14.072Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
