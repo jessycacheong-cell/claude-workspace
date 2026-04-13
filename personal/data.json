@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T07:28:21.855Z",
+  "lastUpdated": "2026-04-13T11:57:05.667Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93158258,
+        "subject": "Weekly CX Boost for Umeistore",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-13T08:33:56+00:00"
+      },
+      {
+        "id": 93155247,
+        "subject": "Apr 13, 2026 bill for UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-13T07:33:01.645000+00:00"
+      },
+      {
         "id": 93153365,
         "subject": "We're making some changes to our PayPal legal agreements",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-13T00:15:19.161000+00:00"
-      },
-      {
-        "id": 93120335,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-12T23:06:19+00:00"
-      },
-      {
-        "id": 93110565,
-        "subject": "You’ve got new messages from CherelynnB",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-12T21:16:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-13T07:28:21.632Z",
+    "gorgiasUpdated": "2026-04-13T11:57:05.496Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
