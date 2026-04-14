@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T15:53:37.265Z",
+  "lastUpdated": "2026-04-14T20:13:44.543Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 93439433,
-        "subject": "Say hello to April updates",
+        "id": 93487928,
+        "subject": "Play, explore, repeat",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-14T15:29:43+00:00"
+        "timestamp": "2026-04-14T19:32:36+00:00"
       },
       {
-        "id": 93421103,
-        "subject": "Direct message with stefannotices",
+        "id": 93459210,
+        "subject": "Enjoy 25% off. Hope to hear from you soon.",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-14T13:56:50.528000+00:00"
+        "timestamp": "2026-04-14T17:04:09+00:00"
       },
       {
-        "id": 93418154,
-        "subject": "Your New Seller Summit schedule: No flights, no hassle, just expert guidance",
+        "id": 93454814,
+        "subject": "Three quick ways to reach even more buyers",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-14T13:37:53+00:00"
+        "timestamp": "2026-04-14T16:44:01.011000+00:00"
       },
       {
-        "id": 93397249,
-        "subject": "You’ve got new messages from Design Panda",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-14T10:15:40+00:00"
-      },
-      {
-        "id": 93393661,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 93448158,
+        "subject": "Your 5 lowest-performing metrics",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-14T09:15:01+00:00"
+        "timestamp": "2026-04-14T16:10:26.898000+00:00"
+      },
+      {
+        "id": 93476240,
+        "subject": "Get the ultimate guide for Seedance 2.0",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-14T15:37:21+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-14T15:53:37.086Z",
+    "gorgiasUpdated": "2026-04-14T20:13:44.380Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
