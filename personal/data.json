@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T10:48:57.925Z",
+  "lastUpdated": "2026-04-14T15:53:37.265Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93439433,
+        "subject": "Say hello to April updates",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-14T15:29:43+00:00"
+      },
+      {
+        "id": 93421103,
+        "subject": "Direct message with stefannotices",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-14T13:56:50.528000+00:00"
+      },
+      {
+        "id": 93418154,
+        "subject": "Your New Seller Summit schedule: No flights, no hassle, just expert guidance",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-14T13:37:53+00:00"
+      },
+      {
         "id": 93397249,
         "subject": "You’ve got new messages from Design Panda",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-14T09:15:01+00:00"
-      },
-      {
-        "id": 93379876,
-        "subject": "You’ve got new messages from CherelynnB",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-14T05:10:59+00:00"
-      },
-      {
-        "id": 93376690,
-        "subject": "Tom Milner and others share their thoughts on LinkedIn",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-14T04:16:02+00:00"
-      },
-      {
-        "id": 93375881,
-        "subject": "Message from Tony Pulickal",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-14T04:04:02.316000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-14T10:48:57.690Z",
+    "gorgiasUpdated": "2026-04-14T15:53:37.086Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
