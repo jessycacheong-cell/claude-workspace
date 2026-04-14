@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T23:06:14.263Z",
+  "lastUpdated": "2026-04-14T06:13:25.740Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93379876,
+        "subject": "You’ve got new messages from CherelynnB",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-14T05:10:59+00:00"
+      },
+      {
+        "id": 93376690,
+        "subject": "Tom Milner and others share their thoughts on LinkedIn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-14T04:16:02+00:00"
+      },
+      {
+        "id": 93375881,
+        "subject": "Message from Tony Pulickal",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-14T04:04:02.316000+00:00"
+      },
+      {
+        "id": 93364565,
+        "subject": "Direct message with wagmahn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-14T02:03:38.631000+00:00"
+      },
+      {
         "id": 93321095,
         "subject": "Refund Initiated for Order 111-4688113-3040238",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-13T21:47:13+00:00"
-      },
-      {
-        "id": 93314239,
-        "subject": "April spots filling fast — don't wait 🌸",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-13T21:21:47.813000+00:00"
-      },
-      {
-        "id": 93304256,
-        "subject": "Help drive sales with powerful features",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-13T20:46:57+00:00"
-      },
-      {
-        "id": 93302484,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-13T20:40:55+00:00"
-      },
-      {
-        "id": 93301906,
-        "subject": "UMEI, your posts got 7 impressions last week",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-13T20:39:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-13T23:06:14.072Z",
+    "gorgiasUpdated": "2026-04-14T06:13:25.397Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
