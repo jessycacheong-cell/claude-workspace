@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T20:15:18.246Z",
+  "lastUpdated": "2026-04-14T21:30:32.907Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93505844,
+        "subject": "Your AI agent is standing by",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-14T21:14:49+00:00"
+      },
+      {
+        "id": 93499844,
+        "subject": "Brighten their day with a text",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-14T20:39:03+00:00"
+      },
+      {
         "id": 93487928,
         "subject": "Play, explore, repeat",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-14T16:44:01.011000+00:00"
-      },
-      {
-        "id": 93448158,
-        "subject": "Your 5 lowest-performing metrics",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-14T16:10:26.898000+00:00"
-      },
-      {
-        "id": 93476240,
-        "subject": "Get the ultimate guide for Seedance 2.0",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-14T15:37:21+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-14T20:13:44.380Z",
+    "gorgiasUpdated": "2026-04-14T21:30:32.726Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
