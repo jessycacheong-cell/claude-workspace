@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T06:13:25.740Z",
+  "lastUpdated": "2026-04-14T10:48:57.925Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93397249,
+        "subject": "You’ve got new messages from Design Panda",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-14T10:15:40+00:00"
+      },
+      {
+        "id": 93393661,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-14T09:15:01+00:00"
+      },
+      {
         "id": 93379876,
         "subject": "You’ve got new messages from CherelynnB",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-14T04:04:02.316000+00:00"
-      },
-      {
-        "id": 93364565,
-        "subject": "Direct message with wagmahn",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-14T02:03:38.631000+00:00"
-      },
-      {
-        "id": 93321095,
-        "subject": "Refund Initiated for Order 111-4688113-3040238",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-13T21:47:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-14T06:13:25.397Z",
+    "gorgiasUpdated": "2026-04-14T10:48:57.690Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
