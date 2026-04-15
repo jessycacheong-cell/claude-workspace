@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T16:13:06.154Z",
+  "lastUpdated": "2026-04-15T17:43:50.229Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93629727,
+        "subject": "Google Payments: Canada DST fee account credits",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-15T16:32:14+00:00"
+      },
+      {
+        "id": 93627053,
+        "subject": "Fund more business purchases with a loan from PayPal",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-15T16:19:06+00:00"
+      },
+      {
+        "id": 93626440,
+        "subject": "Pumpinheart is hiring a MedTech Advisory Board Member",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-15T16:16:01+00:00"
+      },
+      {
         "id": 93604442,
         "subject": "Lucas",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-15T14:00:17+00:00"
-      },
-      {
-        "id": 93599647,
-        "subject": "Still chasing leads manually? There's a better way",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-15T14:00:14+00:00"
-      },
-      {
-        "id": 93597988,
-        "subject": "💌 You're invited to The Lead Summit 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-15T13:53:07+00:00"
-      },
-      {
-        "id": 93592594,
-        "subject": "Oops, wrong video last time 🤡",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-15T13:19:50+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-15T16:13:05.931Z",
+    "gorgiasUpdated": "2026-04-15T17:43:49.949Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
