@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T11:14:50.647Z",
+  "lastUpdated": "2026-04-15T12:42:36.077Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93583080,
+        "subject": "Share request for \"UMEI3D Shoe Concept Survey  (Responses)\"",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-15T12:02:58+00:00"
+      },
+      {
         "id": 93551697,
         "subject": "Charles Wu Has An Update for You, UMEI 3D",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-14T21:14:49+00:00"
-      },
-      {
-        "id": 93499844,
-        "subject": "Brighten their day with a text",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-14T20:39:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-15T11:14:50.459Z",
+    "gorgiasUpdated": "2026-04-15T12:42:35.934Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
