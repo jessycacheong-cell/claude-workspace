@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T01:07:54.518Z",
+  "lastUpdated": "2026-04-15T04:16:21.734Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93551697,
+        "subject": "Charles Wu Has An Update for You, UMEI 3D",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-15T03:32:59+00:00"
+      },
+      {
+        "id": 93544654,
+        "subject": "UMEI, add Roosevelt Racers - Robotics & Engineering Design",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-15T02:16:00+00:00"
+      },
+      {
+        "id": 93539174,
+        "subject": "Your receipt from Photo App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-15T01:25:08+00:00"
+      },
+      {
         "id": 93505844,
         "subject": "Your AI agent is standing by",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-14T20:39:03+00:00"
-      },
-      {
-        "id": 93487928,
-        "subject": "Play, explore, repeat",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-14T19:32:36+00:00"
-      },
-      {
-        "id": 93459210,
-        "subject": "Enjoy 25% off. Hope to hear from you soon.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-14T17:04:09+00:00"
-      },
-      {
-        "id": 93454814,
-        "subject": "Three quick ways to reach even more buyers",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-14T16:44:01.011000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-15T01:07:54.371Z",
+    "gorgiasUpdated": "2026-04-15T04:16:21.477Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
