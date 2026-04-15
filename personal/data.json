@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T22:01:50.364Z",
+  "lastUpdated": "2026-04-15T22:58:19.978Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93696226,
+        "subject": "Your Imagine access ends on April 16th",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-15T22:42:45+00:00"
+      },
+      {
+        "id": 93692045,
+        "subject": "UMEI, your puzzle is ready 🧩",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-15T22:13:19+00:00"
+      },
+      {
         "id": 93681418,
         "subject": "It’s time to focus on the discussion, not documentation",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-15T20:53:43.090000+00:00"
-      },
-      {
-        "id": 93678539,
-        "subject": "Your competitors launched in April. You still can.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-15T20:51:11.627000+00:00"
-      },
-      {
-        "id": 93652549,
-        "subject": "🌍Earth Day assets. Get ready.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-15T18:30:20+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-15T22:01:50.066Z",
+    "gorgiasUpdated": "2026-04-15T22:58:19.838Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
