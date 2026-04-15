@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T17:59:07.350Z",
+  "lastUpdated": "2026-04-15T19:41:18.956Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93652549,
+        "subject": "🌍Earth Day assets. Get ready.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-15T18:30:20+00:00"
+      },
+      {
         "id": 93629727,
         "subject": "Google Payments: Canada DST fee account credits",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-15T14:21:32+00:00"
-      },
-      {
-        "id": 93599615,
-        "subject": "Seedance 2.0 is live add FOR EVERYONE on Arcads",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-15T14:00:17+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-15T17:43:49.949Z",
+    "gorgiasUpdated": "2026-04-15T19:41:18.833Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
