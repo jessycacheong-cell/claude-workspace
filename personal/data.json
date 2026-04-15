@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T19:41:18.956Z",
+  "lastUpdated": "2026-04-15T21:03:55.712Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93679298,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-15T20:55:49+00:00"
+      },
+      {
+        "id": 93678979,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-15T20:53:43.090000+00:00"
+      },
+      {
+        "id": 93678539,
+        "subject": "Your competitors launched in April. You still can.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-15T20:51:11.627000+00:00"
+      },
+      {
         "id": 93652549,
         "subject": "🌍Earth Day assets. Get ready.",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-15T16:32:14+00:00"
-      },
-      {
-        "id": 93627053,
-        "subject": "Fund more business purchases with a loan from PayPal",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-15T16:19:06+00:00"
-      },
-      {
-        "id": 93626440,
-        "subject": "Pumpinheart is hiring a MedTech Advisory Board Member",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-15T16:16:01+00:00"
-      },
-      {
-        "id": 93604442,
-        "subject": "Lucas",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-15T14:21:32+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-15T19:41:18.833Z",
+    "gorgiasUpdated": "2026-04-15T21:03:55.519Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
