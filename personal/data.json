@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T21:03:55.712Z",
+  "lastUpdated": "2026-04-15T22:01:50.364Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93681418,
+        "subject": "It’s time to focus on the discussion, not documentation",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-15T21:07:59+00:00"
+      },
+      {
         "id": 93679298,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -100,7 +107,7 @@
         "id": 93678979,
         "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-04-15T20:53:43.090000+00:00"
       },
       {
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-15T18:30:20+00:00"
-      },
-      {
-        "id": 93629727,
-        "subject": "Google Payments: Canada DST fee account credits",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-15T16:32:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-15T21:03:55.519Z",
+    "gorgiasUpdated": "2026-04-15T22:01:50.066Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
