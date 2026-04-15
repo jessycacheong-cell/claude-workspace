@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T12:42:36.077Z",
+  "lastUpdated": "2026-04-15T14:49:43.060Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 93583080,
-        "subject": "Share request for \"UMEI3D Shoe Concept Survey  (Responses)\"",
+        "id": 93604442,
+        "subject": "Lucas",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-15T12:02:58+00:00"
+        "status": "open",
+        "timestamp": "2026-04-15T14:21:32+00:00"
       },
       {
-        "id": 93551697,
-        "subject": "Charles Wu Has An Update for You, UMEI 3D",
+        "id": 93599615,
+        "subject": "Seedance 2.0 is live add FOR EVERYONE on Arcads",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-15T03:32:59+00:00"
+        "timestamp": "2026-04-15T14:00:17+00:00"
       },
       {
-        "id": 93544654,
-        "subject": "UMEI, add Roosevelt Racers - Robotics & Engineering Design",
+        "id": 93599647,
+        "subject": "Still chasing leads manually? There's a better way",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-15T02:16:00+00:00"
+        "timestamp": "2026-04-15T14:00:14+00:00"
       },
       {
-        "id": 93539174,
-        "subject": "Your receipt from Photo App",
+        "id": 93597988,
+        "subject": "💌 You're invited to The Lead Summit 2026",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-15T01:25:08+00:00"
+        "timestamp": "2026-04-15T13:53:07+00:00"
       },
       {
-        "id": 93505844,
-        "subject": "Your AI agent is standing by",
+        "id": 93592594,
+        "subject": "Oops, wrong video last time 🤡",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-14T21:14:49+00:00"
+        "timestamp": "2026-04-15T13:19:50+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-15T12:42:35.934Z",
+    "gorgiasUpdated": "2026-04-15T14:49:42.836Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
