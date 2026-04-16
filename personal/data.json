@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T11:18:13.251Z",
+  "lastUpdated": "2026-04-16T12:46:11.419Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93761076,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-16T12:21:07.509000+00:00"
+      },
+      {
+        "id": 93758713,
+        "subject": "Your marketing is running. Do you know what's working?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-16T12:01:15+00:00"
+      },
+      {
         "id": 93728211,
         "subject": "Direct message with austinthephilosurfer",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-16T01:26:32.657000+00:00"
-      },
-      {
-        "id": 93699818,
-        "subject": "Love it",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-15T23:09:46+00:00"
-      },
-      {
-        "id": 93696226,
-        "subject": "Your Imagine access ends on April 16th",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-15T22:42:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-16T11:18:13.058Z",
+    "gorgiasUpdated": "2026-04-16T12:46:11.261Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
