@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T03:44:26.136Z",
+  "lastUpdated": "2026-04-16T06:11:39.709Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93728211,
+        "subject": "Direct message with austinthephilosurfer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-16T03:52:01.534000+00:00"
+      },
+      {
         "id": 93726918,
         "subject": "Lily Robertson and others share their thoughts on LinkedIn",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-15T22:42:45+00:00"
-      },
-      {
-        "id": 93692045,
-        "subject": "UMEI, your puzzle is ready 🧩",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-15T22:13:19+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-16T03:44:25.443Z",
+    "gorgiasUpdated": "2026-04-16T06:11:39.512Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
