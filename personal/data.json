@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T15:04:58.216Z",
+  "lastUpdated": "2026-04-16T16:47:25.339Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93804493,
+        "subject": "Voice Message from 13478946208",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-16T16:31:32+00:00"
+      },
+      {
+        "id": 93801205,
+        "subject": "You appeared in recent searches",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-16T16:16:01+00:00"
+      },
+      {
         "id": 93780707,
         "subject": "Gorgias News: Our 2026 spring release is out",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-16T14:00:45+00:00"
-      },
-      {
-        "id": 93770959,
-        "subject": "Local event, expert guidance: New Seller Summit schedule is live",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-16T13:35:01+00:00"
-      },
-      {
-        "id": 93761076,
-        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-16T12:21:07.509000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-16T15:04:57.953Z",
+    "gorgiasUpdated": "2026-04-16T16:47:25.120Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
