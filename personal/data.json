@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T23:56:12.084Z",
+  "lastUpdated": "2026-04-16T03:44:26.136Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93726918,
+        "subject": "Lily Robertson and others share their thoughts on LinkedIn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-16T03:33:00+00:00"
+      },
+      {
+        "id": 93715214,
+        "subject": "Direct message with f.artssss",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-16T01:26:32.657000+00:00"
+      },
+      {
         "id": 93699818,
         "subject": "Love it",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-15T22:13:19+00:00"
-      },
-      {
-        "id": 93681418,
-        "subject": "It’s time to focus on the discussion, not documentation",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-15T21:07:59+00:00"
-      },
-      {
-        "id": 93679298,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-15T20:55:49+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-15T23:56:11.952Z",
+    "gorgiasUpdated": "2026-04-16T03:44:25.443Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
