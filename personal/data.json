@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T21:01:12.352Z",
+  "lastUpdated": "2026-04-16T21:57:00.981Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,10 +90,17 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93857843,
+        "subject": "See your illustrations from all sides",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-16T21:12:41+00:00"
+      },
+      {
         "id": 93820883,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-04-16T17:48:48+00:00"
       },
       {
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-16T16:16:01+00:00"
-      },
-      {
-        "id": 93780707,
-        "subject": "Gorgias News: Our 2026 spring release is out",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-16T14:30:25+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-16T21:01:12.230Z",
+    "gorgiasUpdated": "2026-04-16T21:57:00.820Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
