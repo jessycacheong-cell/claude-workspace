@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T18:02:52.687Z",
+  "lastUpdated": "2026-04-16T18:16:26.617Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93820883,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-16T17:48:48+00:00"
+      },
+      {
+        "id": 93811158,
+        "subject": "Start somewhere new",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-16T17:05:59+00:00"
+      },
+      {
         "id": 93804493,
         "subject": "Voice Message from 13478946208",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-16T14:30:25+00:00"
-      },
-      {
-        "id": 93778795,
-        "subject": "Connect to Canva with two time-saving integrations",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-16T14:14:01+00:00"
-      },
-      {
-        "id": 93775018,
-        "subject": "Product Update: Meet Your AI Team for Shopify",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-16T14:00:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-16T16:47:25.120Z",
+    "gorgiasUpdated": "2026-04-16T18:16:26.480Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
