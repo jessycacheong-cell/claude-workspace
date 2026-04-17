@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T23:55:13.276Z",
+  "lastUpdated": "2026-04-17T03:41:08.248Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93901194,
+        "subject": "Aether Racing - STEM Racing Team viewed…",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-17T03:32:57+00:00"
+      },
+      {
         "id": 93866764,
         "subject": "Refund Initiated for Order 111-4688113-3040238",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-16T17:48:48+00:00"
-      },
-      {
-        "id": 93811158,
-        "subject": "Start somewhere new",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-16T17:05:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-16T23:55:13.079Z",
+    "gorgiasUpdated": "2026-04-17T03:41:08.049Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
