@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T14:23:08.610Z",
+  "lastUpdated": "2026-04-17T15:39:57.138Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,11 +90,25 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93959062,
+        "subject": "Invitation: Help us benchmark the best LMS software for 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-17T15:00:55+00:00"
+      },
+      {
         "id": 93938693,
         "subject": "UMEI, set it once—recover abandoned carts automatically",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-17T13:01:10+00:00"
+      },
+      {
+        "id": 93963621,
+        "subject": "Seedance 2.0 just went full HD!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-17T12:30:22+00:00"
       },
       {
         "id": 93933963,
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-17T05:48:15.011000+00:00"
-      },
-      {
-        "id": 93908058,
-        "subject": "It’s not goodbye just yet",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-17T05:30:57.340000+00:00"
-      },
-      {
-        "id": 93903233,
-        "subject": "Critical security alert",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-17T04:03:05+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-17T14:23:08.424Z",
+    "gorgiasUpdated": "2026-04-17T15:39:56.971Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
