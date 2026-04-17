@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T21:00:47.377Z",
+  "lastUpdated": "2026-04-17T21:57:42.984Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94034496,
+        "subject": "3 things top TikTok Shop sellers do differently",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-17T21:32:36.002000+00:00"
+      },
+      {
         "id": 93997717,
         "subject": "Smartsheet Contributors can do more for free!",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-17T17:14:32+00:00"
-      },
-      {
-        "id": 93976409,
-        "subject": "You're eligible to apply for a PayPal Business Loan",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-17T16:20:41+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-17T21:00:47.081Z",
+    "gorgiasUpdated": "2026-04-17T21:57:42.830Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
