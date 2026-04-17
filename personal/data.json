@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T17:40:51.592Z",
+  "lastUpdated": "2026-04-17T18:32:41.151Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93997717,
+        "subject": "Smartsheet Contributors can do more for free!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-17T18:05:30+00:00"
+      },
+      {
+        "id": 93993632,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-17T17:43:32+00:00"
+      },
+      {
         "id": 93988643,
         "subject": "Payment Confirmation",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-17T16:20:41+00:00"
-      },
-      {
-        "id": 93975033,
-        "subject": "Jack & Jill is hiring a Founder's Associate at Tryrama.com",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-17T16:16:02+00:00"
-      },
-      {
-        "id": 93973088,
-        "subject": "pick pack ship",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-17T16:08:21+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-17T17:30:08.649Z",
+    "gorgiasUpdated": "2026-04-17T18:32:40.990Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
