@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T15:39:57.138Z",
+  "lastUpdated": "2026-04-17T16:35:30.907Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93976409,
+        "subject": "You're eligible to apply for a PayPal Business Loan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-17T16:20:41+00:00"
+      },
+      {
+        "id": 93975033,
+        "subject": "Jack & Jill is hiring a Founder's Associate at Tryrama.com",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-17T16:16:02+00:00"
+      },
+      {
+        "id": 93973088,
+        "subject": "pick pack ship",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-17T16:08:21+00:00"
+      },
+      {
         "id": 93959062,
         "subject": "Invitation: Help us benchmark the best LMS software for 2026",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-17T13:01:10+00:00"
-      },
-      {
-        "id": 93963621,
-        "subject": "Seedance 2.0 just went full HD!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-17T12:30:22+00:00"
-      },
-      {
-        "id": 93933963,
-        "subject": "We've been building. Here's what's ready for you 👉",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-17T12:19:38+00:00"
-      },
-      {
-        "id": 93908880,
-        "subject": "[UMEI Store] Order #1686 placed by Bradley Mankoff",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-17T05:48:15.011000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-17T15:39:56.971Z",
+    "gorgiasUpdated": "2026-04-17T16:35:30.678Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
