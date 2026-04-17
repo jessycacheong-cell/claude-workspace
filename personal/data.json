@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T11:10:28.702Z",
+  "lastUpdated": "2026-04-17T12:40:23.367Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 93933963,
+        "subject": "We've been building. Here's what's ready for you 👉",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-17T12:19:38+00:00"
+      },
+      {
         "id": 93908880,
         "subject": "[UMEI Store] Order #1686 placed by Bradley Mankoff",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-17T03:32:57+00:00"
-      },
-      {
-        "id": 93866764,
-        "subject": "Refund Initiated for Order 111-4688113-3040238",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-16T22:11:38+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-17T11:10:28.553Z",
+    "gorgiasUpdated": "2026-04-17T12:40:23.161Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
