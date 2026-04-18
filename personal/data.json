@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-17T23:53:45.459Z",
+  "lastUpdated": "2026-04-18T03:27:46.304Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94064232,
+        "subject": "UMEI, add Anna Mykytsey - Social Media Manager",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-18T02:16:01+00:00"
+      },
+      {
         "id": 94051443,
         "subject": "👏👏🔥🔥",
         "customer": "Unknown",
@@ -114,18 +121,11 @@
         "id": 93993632,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-04-17T17:43:32+00:00"
-      },
-      {
-        "id": 93988643,
-        "subject": "Payment Confirmation",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-17T17:16:47+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-17T23:53:45.273Z",
+    "gorgiasUpdated": "2026-04-18T03:27:46.180Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
