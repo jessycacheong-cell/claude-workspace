@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T11:47:18.138Z",
+  "lastUpdated": "2026-04-18T13:33:53.403Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94093514,
+        "subject": "ATTENTION: New Free B2B Metrics—Track & Optimize Revenue",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-18T12:11:35+00:00"
+      },
+      {
         "id": 94069776,
         "subject": "Lily Robertson and others share their thoughts on LinkedIn",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-17T21:32:36.002000+00:00"
-      },
-      {
-        "id": 93997717,
-        "subject": "Smartsheet Contributors can do more for free!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-17T18:05:30+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-18T11:47:17.918Z",
+    "gorgiasUpdated": "2026-04-18T13:33:53.232Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
