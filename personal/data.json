@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T22:53:18.370Z",
+  "lastUpdated": "2026-04-18T23:49:29.268Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94169361,
+        "subject": "Refund Initiated for Order 114-9859607-8858629",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-18T23:13:07+00:00"
+      },
+      {
         "id": 94121616,
         "subject": "You appeared in recent searches",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-18T12:11:35+00:00"
-      },
-      {
-        "id": 94069776,
-        "subject": "Lily Robertson and others share their thoughts on LinkedIn",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-18T03:32:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-18T22:53:18.184Z",
+    "gorgiasUpdated": "2026-04-18T23:49:29.132Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
