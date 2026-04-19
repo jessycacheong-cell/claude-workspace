@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T21:49:58.698Z",
+  "lastUpdated": "2026-04-19T22:53:41.257Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94272776,
+        "subject": "Direct message with speedlumatech",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-19T22:27:22.186000+00:00"
+      },
+      {
+        "id": 94272750,
+        "subject": "DLP 3D-printing sevice for footwear",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-19T22:27:04+00:00"
+      },
+      {
         "id": 94251197,
         "subject": "Refund Initiated for Order 113-3525718-3253841",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-19T07:59:06+00:00"
-      },
-      {
-        "id": 94187731,
-        "subject": "STEM Racing - Team SW1FT and Charles Wu Have Updates for You, UMEI 3D",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-19T03:32:59+00:00"
-      },
-      {
-        "id": 94174273,
-        "subject": "Refund Initiated for Order 112-3436696-4363416",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-19T00:12:30+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-19T21:49:58.508Z",
+    "gorgiasUpdated": "2026-04-19T22:53:41.124Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
