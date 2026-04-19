@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T17:51:17.531Z",
+  "lastUpdated": "2026-04-19T19:06:20.371Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94251197,
+        "subject": "Refund Initiated for Order 113-3525718-3253841",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-19T18:47:07+00:00"
+      },
+      {
         "id": 94242716,
         "subject": "This is straight fire 🔥 bro, you should go for placements in movies and TV. Check out DropDaySync’s sync platform, sign up and p",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-19T00:12:30+00:00"
-      },
-      {
-        "id": 94174086,
-        "subject": "Refund Initiated for Order 113-1695991-0073848",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-19T00:10:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-19T17:51:17.347Z",
+    "gorgiasUpdated": "2026-04-19T19:06:20.199Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
