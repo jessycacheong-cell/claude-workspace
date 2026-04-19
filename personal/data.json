@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T23:49:29.268Z",
+  "lastUpdated": "2026-04-19T03:47:27.500Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94187731,
+        "subject": "STEM Racing - Team SW1FT and Charles Wu Have Updates for You, UMEI 3D",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-19T03:32:59+00:00"
+      },
+      {
+        "id": 94174273,
+        "subject": "Refund Initiated for Order 112-3436696-4363416",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-19T00:12:30+00:00"
+      },
+      {
+        "id": 94174086,
+        "subject": "Refund Initiated for Order 113-1695991-0073848",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-19T00:10:31+00:00"
+      },
+      {
         "id": 94169361,
         "subject": "Refund Initiated for Order 114-9859607-8858629",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-18T16:15:58+00:00"
-      },
-      {
-        "id": 94121160,
-        "subject": "Direct message with applied.wisdom.eu",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-18T16:12:32.782000+00:00"
-      },
-      {
-        "id": 94119499,
-        "subject": "Reconnect with AI and create with precision",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-18T16:02:00+00:00"
-      },
-      {
-        "id": 94093514,
-        "subject": "ATTENTION: New Free B2B Metrics—Track & Optimize Revenue",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-18T12:11:35+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-18T23:49:29.132Z",
+    "gorgiasUpdated": "2026-04-19T03:47:27.337Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
