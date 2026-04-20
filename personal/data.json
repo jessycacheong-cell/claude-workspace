@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T15:42:27.277Z",
+  "lastUpdated": "2026-04-20T17:17:39.139Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94384279,
+        "subject": "Your Week In Reviews For UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-20T17:02:24+00:00"
+      },
+      {
+        "id": 94382236,
+        "subject": "Add Judge.me widgets to your new theme",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-20T16:53:14+00:00"
+      },
+      {
         "id": 94363727,
         "subject": "Your review import is finished",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-20T14:37:14+00:00"
-      },
-      {
-        "id": 94349470,
-        "subject": "Hey John good to see you it’s been a long time!",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-20T14:22:56+00:00"
-      },
-      {
-        "id": 94333125,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-20T12:51:07+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-20T15:42:27.031Z",
+    "gorgiasUpdated": "2026-04-20T17:17:38.530Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
