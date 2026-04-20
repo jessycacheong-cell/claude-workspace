@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T23:00:31.390Z",
+  "lastUpdated": "2026-04-20T23:55:54.404Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94461793,
+        "subject": "Direct message with ruben.heijboer",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-20T23:01:07.045000+00:00"
+      },
+      {
         "id": 94449125,
         "subject": "Spring 2026 sellers are moving early 🌸",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-20T20:47:31+00:00"
-      },
-      {
-        "id": 94435509,
-        "subject": "UMEI, your posts got 9 impressions last week",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-20T20:38:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-20T23:00:31.236Z",
+    "gorgiasUpdated": "2026-04-20T23:55:54.274Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
