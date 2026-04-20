@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T19:44:13.390Z",
+  "lastUpdated": "2026-04-20T20:59:23.553Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94437407,
+        "subject": "Powerful tools are waiting for you",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-20T20:47:31+00:00"
+      },
+      {
+        "id": 94435509,
+        "subject": "UMEI, your posts got 9 impressions last week",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-20T20:38:59+00:00"
+      },
+      {
+        "id": 94428951,
+        "subject": "It's been 1 year since: \"Help Us Shape the Future of Comfort – Aero Padding Sizing Survey\"",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-20T20:14:02+00:00"
+      },
+      {
+        "id": 94427228,
+        "subject": "Happy 1-Year Anniversary!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-20T20:08:06+00:00"
+      },
+      {
         "id": 94401082,
         "subject": "Follow Elliott Hill, President and Chief Executive Officer, plus Derek Grundy",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-20T18:16:20+00:00"
-      },
-      {
-        "id": 94398869,
-        "subject": "🚀 New: Message followers, polls & more",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-20T18:05:33+00:00"
-      },
-      {
-        "id": 94392157,
-        "subject": "Add a backup payment to avoid order disruptions",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-20T17:37:15+00:00"
-      },
-      {
-        "id": 94384279,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-20T17:02:24+00:00"
-      },
-      {
-        "id": 94382236,
-        "subject": "Add Judge.me widgets to your new theme",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-20T16:53:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-20T19:44:13.240Z",
+    "gorgiasUpdated": "2026-04-20T20:59:23.384Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
