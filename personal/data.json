@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T06:25:55.622Z",
+  "lastUpdated": "2026-04-20T08:38:25.773Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94314530,
+        "subject": "Weekly CX Boost for Umeistore",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-20T08:34:00+00:00"
+      },
+      {
+        "id": 94310900,
+        "subject": "You’ve got new messages from Design Panda",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-20T07:25:49+00:00"
+      },
+      {
         "id": 94297750,
         "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-20T00:12:45+00:00"
-      },
-      {
-        "id": 94276565,
-        "subject": "Direct message with jessiannwilliams2001",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-19T23:10:03.425000+00:00"
-      },
-      {
-        "id": 94272776,
-        "subject": "Direct message with speedlumatech",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-19T22:27:22.186000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-20T06:25:55.387Z",
+    "gorgiasUpdated": "2026-04-20T08:38:25.536Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
