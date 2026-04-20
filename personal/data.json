@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T17:51:03.950Z",
+  "lastUpdated": "2026-04-20T18:39:30.742Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94401082,
+        "subject": "Follow Elliott Hill, President and Chief Executive Officer, plus Derek Grundy",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-20T18:16:20+00:00"
+      },
+      {
+        "id": 94398869,
+        "subject": "🚀 New: Message followers, polls & more",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-20T18:05:33+00:00"
+      },
+      {
+        "id": 94392157,
+        "subject": "Add a backup payment to avoid order disruptions",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-20T17:37:15+00:00"
+      },
+      {
         "id": 94384279,
         "subject": "Your Week In Reviews For UMEI Store",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-20T16:53:14+00:00"
-      },
-      {
-        "id": 94363727,
-        "subject": "Your review import is finished",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-20T15:31:00+00:00"
-      },
-      {
-        "id": 94360840,
-        "subject": "Artlist Studio is here: The complete AI production platform",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-20T15:18:14+00:00"
-      },
-      {
-        "id": 94352224,
-        "subject": "Try FBA in one region—with no upfront costs",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-20T14:37:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-20T17:17:38.530Z",
+    "gorgiasUpdated": "2026-04-20T18:39:30.552Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
