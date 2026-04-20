@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T23:50:43.064Z",
+  "lastUpdated": "2026-04-20T03:49:03.550Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94297750,
+        "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-20T03:32:58+00:00"
+      },
+      {
+        "id": 94284618,
+        "subject": "🔥🔥",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-20T00:41:08+00:00"
+      },
+      {
+        "id": 94282178,
+        "subject": "🔥👏👏",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-20T00:12:45+00:00"
+      },
+      {
         "id": 94276565,
         "subject": "Direct message with jessiannwilliams2001",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-19T22:27:22.186000+00:00"
-      },
-      {
-        "id": 94272750,
-        "subject": "DLP 3D-printing sevice for footwear",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-19T22:27:04+00:00"
-      },
-      {
-        "id": 94251197,
-        "subject": "Refund Initiated for Order 113-3525718-3253841",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-19T18:47:07+00:00"
-      },
-      {
-        "id": 94242716,
-        "subject": "This is straight fire 🔥 bro, you should go for placements in movies and TV. Check out DropDaySync’s sync platform, sign up and p",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-19T17:26:34+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-19T23:50:42.932Z",
+    "gorgiasUpdated": "2026-04-20T03:49:03.426Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
