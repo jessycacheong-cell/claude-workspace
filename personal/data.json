@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T11:54:38.993Z",
+  "lastUpdated": "2026-04-20T14:07:54.609Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94333125,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-20T12:51:07+00:00"
+      },
+      {
         "id": 94314530,
         "subject": "Weekly CX Boost for Umeistore",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-20T00:41:08+00:00"
-      },
-      {
-        "id": 94282178,
-        "subject": "🔥👏👏",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-20T00:12:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-20T11:54:38.761Z",
+    "gorgiasUpdated": "2026-04-20T14:07:54.437Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
