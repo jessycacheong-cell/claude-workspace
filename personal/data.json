@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T12:44:34.513Z",
+  "lastUpdated": "2026-04-21T14:53:12.811Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94547922,
+        "subject": "Last chance to grab a seat",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-21T14:20:55+00:00"
+      },
+      {
+        "id": 94544385,
+        "subject": "Your campaigns are working. Your hiring? | Zoho Recruit",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-21T14:02:47+00:00"
+      },
+      {
+        "id": 94543040,
+        "subject": "Mention in therealets_'s story",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-21T13:58:00.475000+00:00"
+      },
+      {
+        "id": 94539828,
+        "subject": "Your final opportunity to save! Early-bird pricing extended for a limited time!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-21T13:39:06+00:00"
+      },
+      {
         "id": 94514678,
         "subject": "Refund Initiated for Order 113-1493173-9314642",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-21T09:57:43+00:00"
-      },
-      {
-        "id": 94502036,
-        "subject": "Confirmation of update to your Automated Fulfillable Inventory settings",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-21T06:22:55+00:00"
-      },
-      {
-        "id": 94491881,
-        "subject": "Charles Wu - President reacted to this post: Meet Coach Sean Rogers—a…",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-21T03:33:27+00:00"
-      },
-      {
-        "id": 94478171,
-        "subject": "Supermetrics Invoice txn_3TOSwp2mjH4XVMmx1RENELKp",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-21T01:18:03+00:00"
-      },
-      {
-        "id": 94476745,
-        "subject": "I’d like to collaborate 😍",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-21T01:05:08+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-21T12:44:34.277Z",
+    "gorgiasUpdated": "2026-04-21T14:53:12.648Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
