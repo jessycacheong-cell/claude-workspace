@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T23:55:54.404Z",
+  "lastUpdated": "2026-04-21T03:42:56.214Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94491881,
+        "subject": "Charles Wu - President reacted to this post: Meet Coach Sean Rogers—a…",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-21T03:33:27+00:00"
+      },
+      {
+        "id": 94478171,
+        "subject": "Supermetrics Invoice txn_3TOSwp2mjH4XVMmx1RENELKp",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-21T01:18:03+00:00"
+      },
+      {
+        "id": 94476745,
+        "subject": "I’d like to collaborate 😍",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-21T01:05:08+00:00"
+      },
+      {
         "id": 94461793,
         "subject": "Direct message with ruben.heijboer",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-20T21:38:51.235000+00:00"
-      },
-      {
-        "id": 94447693,
-        "subject": "You’ve got new messages from Design Panda",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-20T21:31:42+00:00"
-      },
-      {
-        "id": 94445646,
-        "subject": "First hours tracked",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-20T21:22:39+00:00"
-      },
-      {
-        "id": 94437407,
-        "subject": "Powerful tools are waiting for you",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-20T20:47:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-20T23:55:54.274Z",
+    "gorgiasUpdated": "2026-04-21T03:42:56.043Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
