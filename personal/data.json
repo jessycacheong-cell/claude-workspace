@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T16:19:10.935Z",
+  "lastUpdated": "2026-04-21T17:38:30.895Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94585798,
+        "subject": "Come back and join us for 25% off",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-21T17:03:58+00:00"
+      },
+      {
+        "id": 94575956,
+        "subject": "Zoho Campaigns Subscription - Payment Renewal Ahead!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-21T16:22:27+00:00"
+      },
+      {
         "id": 94569372,
         "subject": "[Action required] ⚠️ Add Smile to your new Shopify theme",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-21T14:02:47+00:00"
-      },
-      {
-        "id": 94543040,
-        "subject": "Mention in therealets_'s story",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-21T13:58:00.475000+00:00"
-      },
-      {
-        "id": 94539828,
-        "subject": "Your final opportunity to save! Early-bird pricing extended for a limited time!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-21T13:39:06+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-21T16:19:10.774Z",
+    "gorgiasUpdated": "2026-04-21T17:38:30.700Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
