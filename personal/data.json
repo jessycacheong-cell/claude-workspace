@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T06:11:45.366Z",
+  "lastUpdated": "2026-04-21T08:20:32.330Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94502036,
+        "subject": "Confirmation of update to your Automated Fulfillable Inventory settings",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-21T06:22:55+00:00"
+      },
+      {
         "id": 94491881,
         "subject": "Charles Wu - President reacted to this post: Meet Coach Sean Rogers—a…",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-20T23:01:07.045000+00:00"
-      },
-      {
-        "id": 94449125,
-        "subject": "Spring 2026 sellers are moving early 🌸",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-20T21:38:51.235000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-21T06:11:45.151Z",
+    "gorgiasUpdated": "2026-04-21T08:20:32.137Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
