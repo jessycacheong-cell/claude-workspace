@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T14:53:12.811Z",
+  "lastUpdated": "2026-04-21T16:19:10.935Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94569372,
+        "subject": "[Action required] ⚠️ Add Smile to your new Shopify theme",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-21T15:55:32+00:00"
+      },
+      {
         "id": 94547922,
         "subject": "Last chance to grab a seat",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-21T13:39:06+00:00"
-      },
-      {
-        "id": 94514678,
-        "subject": "Refund Initiated for Order 113-1493173-9314642",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-21T09:57:43+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-21T14:53:12.648Z",
+    "gorgiasUpdated": "2026-04-21T16:19:10.774Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
