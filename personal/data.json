@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T17:52:37.983Z",
+  "lastUpdated": "2026-04-21T18:43:57.290Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94604181,
+        "subject": "Useful, unusual, unforgettable",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-21T18:35:54+00:00"
+      },
+      {
         "id": 94585798,
         "subject": "Come back and join us for 25% off",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-21T14:20:55+00:00"
-      },
-      {
-        "id": 94544385,
-        "subject": "Your campaigns are working. Your hiring? | Zoho Recruit",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-21T14:02:47+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-21T17:38:30.700Z",
+    "gorgiasUpdated": "2026-04-21T18:43:57.069Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
