@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T20:11:32.034Z",
+  "lastUpdated": "2026-04-21T21:27:17.171Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94629131,
+        "subject": "Expand your reach and boost your engagement with SMS",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-21T20:44:16+00:00"
+      },
+      {
         "id": 94604181,
         "subject": "Useful, unusual, unforgettable",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-21T15:55:32+00:00"
-      },
-      {
-        "id": 94547922,
-        "subject": "Last chance to grab a seat",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-21T14:20:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-21T20:11:31.861Z",
+    "gorgiasUpdated": "2026-04-21T21:27:17.044Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
