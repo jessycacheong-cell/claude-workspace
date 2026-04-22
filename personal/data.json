@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T03:38:04.670Z",
+  "lastUpdated": "2026-04-22T05:51:12.215Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94683853,
+        "subject": "Hyoku Team and others share their thoughts on LinkedIn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-22T04:16:02+00:00"
+      },
+      {
         "id": 94681007,
         "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-22T01:25:09+00:00"
-      },
-      {
-        "id": 94661881,
-        "subject": "Direct message with kanyewest",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-22T00:26:58.328000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-22T03:38:04.432Z",
+    "gorgiasUpdated": "2026-04-22T05:51:12.063Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
