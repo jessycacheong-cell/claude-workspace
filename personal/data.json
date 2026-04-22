@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T00:05:46.278Z",
+  "lastUpdated": "2026-04-22T03:38:04.670Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
-        "id": 94657648,
-        "subject": "Direct message with _demiera",
+        "id": 94681007,
+        "subject": "STEM Racing - Team SW1FT Has An Update for You, UMEI 3D",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-22T03:32:58+00:00"
+      },
+      {
+        "id": 94674076,
+        "subject": "UMEI, add Kirsty Taylor - Team Manager",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-22T02:16:00+00:00"
+      },
+      {
+        "id": 94669339,
+        "subject": "Follow-up with Umei3d",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-04-21T23:50:08.044000+00:00"
+        "timestamp": "2026-04-22T01:32:53+00:00"
       },
       {
-        "id": 94654432,
-        "subject": "Your Klaviyo Inc subscription will renew soon",
+        "id": 94668576,
+        "subject": "Your receipt from Photo App",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-21T23:24:59+00:00"
+        "timestamp": "2026-04-22T01:25:09+00:00"
       },
       {
-        "id": 94629131,
-        "subject": "Expand your reach and boost your engagement with SMS",
+        "id": 94661881,
+        "subject": "Direct message with kanyewest",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-21T20:44:16+00:00"
-      },
-      {
-        "id": 94604181,
-        "subject": "Useful, unusual, unforgettable",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-21T18:35:54+00:00"
-      },
-      {
-        "id": 94585798,
-        "subject": "Come back and join us for 25% off",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-21T17:03:58+00:00"
+        "timestamp": "2026-04-22T00:26:58.328000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-22T00:05:46.103Z",
+    "gorgiasUpdated": "2026-04-22T03:38:04.432Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
