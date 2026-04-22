@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-21T23:21:02.773Z",
+  "lastUpdated": "2026-04-22T00:05:46.278Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94657648,
+        "subject": "Direct message with _demiera",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-21T23:50:08.044000+00:00"
+      },
+      {
+        "id": 94654432,
+        "subject": "Your Klaviyo Inc subscription will renew soon",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-21T23:24:59+00:00"
+      },
+      {
         "id": 94629131,
         "subject": "Expand your reach and boost your engagement with SMS",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-21T17:03:58+00:00"
-      },
-      {
-        "id": 94575956,
-        "subject": "Zoho Campaigns Subscription - Payment Renewal Ahead!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-21T16:22:27+00:00"
-      },
-      {
-        "id": 94569372,
-        "subject": "[Action required] ⚠️ Add Smile to your new Shopify theme",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-21T15:55:32+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-21T23:21:02.621Z",
+    "gorgiasUpdated": "2026-04-22T00:05:46.103Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
