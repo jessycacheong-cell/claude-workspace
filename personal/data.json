@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T20:12:55.641Z",
+  "lastUpdated": "2026-04-22T21:32:28.497Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94810446,
+        "subject": "The sellers winning in 2026 moved early. Here's what they did.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-22T21:03:23.513000+00:00"
+      },
+      {
         "id": 94801039,
         "subject": "Built for what’s next",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-22T14:46:40+00:00"
-      },
-      {
-        "id": 94721203,
-        "subject": "Introducing Agent Workflows",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-22T13:07:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-22T20:12:55.475Z",
+    "gorgiasUpdated": "2026-04-22T21:32:28.343Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
