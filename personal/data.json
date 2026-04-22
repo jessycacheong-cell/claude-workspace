@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T05:51:12.215Z",
+  "lastUpdated": "2026-04-22T08:03:47.474Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94691909,
+        "subject": "Act today & improve Sales on Excess Inventory",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-22T06:59:01+00:00"
+      },
+      {
         "id": 94683853,
         "subject": "Hyoku Team and others share their thoughts on LinkedIn",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-22T01:32:53+00:00"
-      },
-      {
-        "id": 94668576,
-        "subject": "Your receipt from Photo App",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-22T01:25:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-22T05:51:12.063Z",
+    "gorgiasUpdated": "2026-04-22T08:03:47.234Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
