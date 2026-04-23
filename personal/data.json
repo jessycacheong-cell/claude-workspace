@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T21:58:09.811Z",
+  "lastUpdated": "2026-04-23T23:02:32.735Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94996262,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-23T22:37:10+00:00"
+      },
+      {
+        "id": 94992167,
+        "subject": "Direct message with _jake_leary",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-23T22:08:21.932000+00:00"
+      },
+      {
         "id": 94948447,
         "subject": "Find your next favorite",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-23T15:48:26.160000+00:00"
-      },
-      {
-        "id": 94901457,
-        "subject": "⏱️ First response time varies 5.5x across verticals",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-23T13:53:07+00:00"
-      },
-      {
-        "id": 94895147,
-        "subject": "Thanks for installing Okendo",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-23T13:14:48+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-23T21:58:09.687Z",
+    "gorgiasUpdated": "2026-04-23T23:02:32.598Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
