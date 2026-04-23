@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T12:43:19.501Z",
+  "lastUpdated": "2026-04-23T15:20:43.863Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94901457,
+        "subject": "⏱️ First response time varies 5.5x across verticals",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-23T13:53:07+00:00"
+      },
+      {
+        "id": 94895147,
+        "subject": "Thanks for installing Okendo",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-23T13:14:48+00:00"
+      },
+      {
+        "id": 94894062,
+        "subject": "Direct message with fielddaysupps",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-23T13:06:53.319000+00:00"
+      },
+      {
         "id": 94887685,
         "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-23T12:15:26+00:00"
-      },
-      {
-        "id": 94881763,
-        "subject": "Message from Lewis Lin",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-23T11:13:32.627000+00:00"
-      },
-      {
-        "id": 94850359,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-23T02:21:44+00:00"
-      },
-      {
-        "id": 94833117,
-        "subject": "Re: Warranty? - Talk to Us – UMEI3D Shopify",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-22T23:49:03.761279+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-23T12:43:19.230Z",
+    "gorgiasUpdated": "2026-04-23T15:20:43.667Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
