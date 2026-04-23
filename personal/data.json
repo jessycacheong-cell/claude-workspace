@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T01:12:13.157Z",
+  "lastUpdated": "2026-04-23T04:37:53.077Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94850359,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-23T02:21:44+00:00"
+      },
+      {
         "id": 94833117,
         "subject": "Re: Warranty? - Talk to Us – UMEI3D Shopify",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-22T20:05:14+00:00"
-      },
-      {
-        "id": 94756050,
-        "subject": "通过面向 B2B 客户的广告活动增加销售额。",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-22T16:14:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-23T01:12:12.986Z",
+    "gorgiasUpdated": "2026-04-23T04:37:52.827Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
