@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T18:02:10.436Z",
+  "lastUpdated": "2026-04-23T18:15:29.170Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94948447,
+        "subject": "Find your next favorite",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-23T17:51:46+00:00"
+      },
+      {
         "id": 94930493,
         "subject": "You appeared in 1 search",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-23T13:14:48+00:00"
-      },
-      {
-        "id": 94894062,
-        "subject": "Direct message with fielddaysupps",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-23T13:06:53.319000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-23T17:03:22.015Z",
+    "gorgiasUpdated": "2026-04-23T18:15:28.976Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
