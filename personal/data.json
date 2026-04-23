@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T10:08:33.181Z",
+  "lastUpdated": "2026-04-23T11:35:50.145Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 94881763,
+        "subject": "Message from Lewis Lin",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-23T11:13:32.627000+00:00"
+      },
+      {
         "id": 94850359,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-22T21:03:23.513000+00:00"
-      },
-      {
-        "id": 94801039,
-        "subject": "Built for what’s next",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-22T20:05:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-23T10:08:33.009Z",
+    "gorgiasUpdated": "2026-04-23T11:35:49.919Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
