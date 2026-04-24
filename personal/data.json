@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T20:27:43.623Z",
+  "lastUpdated": "2026-04-24T21:30:27.100Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 95147906,
+        "subject": "Updates to our partner ads setting control",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-24T20:38:47+00:00"
+      },
+      {
         "id": 95135919,
         "subject": "Using AI but not in the strategy convo?",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-24T15:05:32+00:00"
-      },
-      {
-        "id": 95075012,
-        "subject": "Small tools. Big results 💰",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-24T14:19:41+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-24T20:27:43.404Z",
+    "gorgiasUpdated": "2026-04-24T21:30:26.968Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
