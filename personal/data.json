@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T06:18:56.247Z",
+  "lastUpdated": "2026-04-24T08:34:36.496Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 95039535,
+        "subject": "Zoho Campaigns - Your subscription is renewed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-24T07:48:07+00:00"
+      },
+      {
+        "id": 95038954,
+        "subject": "🎯🎯🎯",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-24T07:31:56+00:00"
+      },
+      {
+        "id": 95035596,
+        "subject": "Bonjour 👋 Umei3d Do you see what I am seeing in your website???",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-24T06:42:01+00:00"
+      },
+      {
         "id": 95032000,
         "subject": "✅ Umei, finish setting up your Apple iPhone with Google",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-24T05:21:43+00:00"
-      },
-      {
-        "id": 95031961,
-        "subject": "Security alert",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-24T05:21:27+00:00"
-      },
-      {
-        "id": 95026555,
-        "subject": "Direct message with lura_s4tarkey",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-24T03:43:54.225000+00:00"
-      },
-      {
-        "id": 95025837,
-        "subject": "You appeared in 1 searches this week",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-24T03:32:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-24T06:18:56.045Z",
+    "gorgiasUpdated": "2026-04-24T08:34:36.111Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
