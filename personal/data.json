@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T21:30:27.100Z",
+  "lastUpdated": "2026-04-24T22:25:47.191Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 95158140,
+        "subject": "Bloom your store this April — on us 🌷",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-24T21:41:25.836000+00:00"
+      },
+      {
         "id": 95147906,
         "subject": "Updates to our partner ads setting control",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-24T16:16:02+00:00"
-      },
-      {
-        "id": 95083076,
-        "subject": "Refund Initiated for Order 111-7410554-8191443",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-24T15:05:32+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-24T21:30:26.968Z",
+    "gorgiasUpdated": "2026-04-24T22:25:47.059Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
