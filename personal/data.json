@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T22:25:47.191Z",
+  "lastUpdated": "2026-04-24T23:22:47.777Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 95169762,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-24T23:15:27+00:00"
+      },
+      {
         "id": 95158140,
         "subject": "Bloom your store this April — on us 🌷",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-24T19:27:28.470000+00:00"
-      },
-      {
-        "id": 95096707,
-        "subject": "Goodwin Recruiting is hiring a Small Business Owner",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-24T16:16:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-24T22:25:47.059Z",
+    "gorgiasUpdated": "2026-04-24T23:22:47.574Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
