@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T18:26:25.467Z",
+  "lastUpdated": "2026-04-24T19:37:01.239Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 95135919,
+        "subject": "Using AI but not in the strategy convo?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-24T19:31:12+00:00"
+      },
+      {
+        "id": 95135135,
+        "subject": "illuminkatie replied to your story",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-24T19:27:28.470000+00:00"
+      },
+      {
         "id": 95096707,
         "subject": "Goodwin Recruiting is hiring a Small Business Owner",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-24T14:19:41+00:00"
-      },
-      {
-        "id": 95062131,
-        "subject": "🤖  Make money while you sleep",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-24T13:01:17+00:00"
-      },
-      {
-        "id": 95048915,
-        "subject": "Invoice - 50101928756 from ZOHO Corporation.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-24T10:41:20+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-24T18:26:25.256Z",
+    "gorgiasUpdated": "2026-04-24T19:37:01.023Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
