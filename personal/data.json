@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T01:03:57.046Z",
+  "lastUpdated": "2026-04-25T04:06:30.547Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 95193419,
+        "subject": "[ALERT] You've reached 90% of your monthly limit.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-25T04:04:45.963000+00:00"
+      },
+      {
+        "id": 95186461,
+        "subject": "UMEI, add Roosevelt Racers - Robotics & Engineering Design 💬",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-25T02:15:59+00:00"
+      },
+      {
         "id": 95178144,
         "subject": "Klaviyo Invoice",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-25T00:05:42+00:00"
-      },
-      {
-        "id": 95169762,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-24T23:15:27+00:00"
-      },
-      {
-        "id": 95158140,
-        "subject": "Bloom your store this April — on us 🌷",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-24T21:41:25.836000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-25T01:03:56.891Z",
+    "gorgiasUpdated": "2026-04-25T04:06:30.336Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
