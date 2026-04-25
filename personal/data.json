@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T16:08:25.341Z",
+  "lastUpdated": "2026-04-25T17:00:33.859Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-03-31T16:14:25.520Z",
     "gorgias": [
       {
+        "id": 95247793,
+        "subject": "You appeared in 1 search",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-25T16:16:00+00:00"
+      },
+      {
         "id": 95194017,
         "subject": "New Balance Senior Global Marketing Director, Performance recently posted",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-25T00:39:56.974000+00:00"
-      },
-      {
-        "id": 95177371,
-        "subject": "Your receipt from Klaviyo Inc #2658-5774-4961",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-25T00:31:19+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-25T16:08:25.159Z",
+    "gorgiasUpdated": "2026-04-25T17:00:33.656Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
