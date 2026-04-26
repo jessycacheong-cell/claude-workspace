@@ -750,6 +750,15 @@
     </div>
   </div>
 
+  <!-- Today Agenda (writable notes) -->
+  <div class="bc bc-4 fade-up" id="today">
+    <div class="bc-label" style="display:flex;align-items:center;justify-content:space-between;">
+      <span>Today's Agenda — <span id="today-date-label">—</span></span>
+      <span id="agenda-save-indicator" style="font-size:10px;color:var(--text-3);font-weight:600;letter-spacing:.04em;">—</span>
+    </div>
+    <textarea id="agenda-notes" placeholder="What's on your plate today? Write it here..." style="width:100%;min-height:180px;margin-top:10px;padding:14px 16px;background:rgba(255,255,255,0.02);border:1px solid var(--border);border-radius:12px;color:var(--text-1);font-family:'Roboto',sans-serif;font-size:13px;line-height:1.65;resize:vertical;outline:none;transition:border-color .18s,background .18s;" onfocus="this.style.borderColor='var(--border-blue)';this.style.background='rgba(253,105,105,0.04)';" onblur="this.style.borderColor='var(--border)';this.style.background='rgba(255,255,255,0.02)';"></textarea>
+  </div>
+
   <!-- Inbox Snapshot -->
   <div class="bc bc-12 fade-up" id="inbox-card">
     <div class="bc-label">Inbox Snapshot</div>
@@ -935,18 +944,6 @@
       <div class="df-legend-item"><div class="df-legend-line" style="background:#4ade80;opacity:.7"></div> Data write</div>
       <div class="df-legend-item"><div class="df-legend-line" style="background:var(--text-3);opacity:.5;border-top:2px dashed var(--text-3);height:0"></div> Coming soon</div>
       <div class="df-legend-item" style="margin-left:auto;color:var(--text-3);">Refreshes every 5 min · No manual input needed</div>
-    </div>
-  </div>
-
-  <!-- Today Agenda -->
-  <div class="bc bc-8 fade-up" id="today">
-    <div class="bc-label">Today's Agenda — <span id="today-date-label">—</span></div>
-    <div class="today-inner">
-      <div class="today-card-header"><div class="today-card-title">Google Calendar</div><span class="badge badge-blue" id="event-count-badge">—</span></div>
-      <div id="agenda-summary" style="font-size:11px;color:#f97316;margin-bottom:8px;padding:4px 6px;background:rgba(249,115,22,0.08);border-radius:6px;display:none;"></div>
-      <div class="today-events" id="today-events">
-        <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading events...</div>
-      </div>
     </div>
   </div>
 
@@ -1885,7 +1882,7 @@ function renderGantt(gantt){
     const width=Math.max(2,endOffset-startOffset);
     const sc=GANTT_STATUS_COLORS[t.status]||GANTT_STATUS_COLORS['Not started'];
     const teamColor=GANTT_TEAM_COLORS[t.team]||'var(--text-3)';
-    const milestone=t.milestone?'<span style="margin-right:4px;">⭐</span>':'';
+    const milestone='';
     const dateStr=t.start?new Date(t.start).toLocaleDateString('en-US',{month:'short',day:'numeric'}):'';
     const endStr=t.end&&t.end!==t.start?' → '+new Date(t.end).toLocaleDateString('en-US',{month:'short',day:'numeric'}):'';
     const titleAttr=`${t.name}\n${t.status}${t.team?' · '+t.team:''}\n${dateStr}${endStr}`;
@@ -1894,7 +1891,7 @@ function renderGantt(gantt){
     const rowDelay=(i*0.04).toFixed(2)+'s';
     const barDelay=(i*0.04+0.15).toFixed(2)+'s';
     const barCls='gantt-bar'+(t.status==='In progress'?' in-progress':'');
-    return `<${tag} ${link} class="gantt-row" style="display:grid;grid-template-columns:320px 1fr;gap:10px;align-items:center;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.03);text-decoration:none;color:inherit;cursor:${t.url?'pointer':'default'};animation-delay:${rowDelay};" title="${titleAttr.replace(/"/g,'&quot;')}">
+    return `<${tag} ${link} class="gantt-row" style="display:grid;grid-template-columns:minmax(420px,1.2fr) 1fr;gap:10px;align-items:center;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.03);text-decoration:none;color:inherit;cursor:${t.url?'pointer':'default'};animation-delay:${rowDelay};" title="${titleAttr.replace(/"/g,'&quot;')}">
       <div style="display:flex;align-items:center;gap:6px;min-width:0;font-size:12px;color:var(--text-1);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
         ${milestone}<span style="width:6px;height:6px;border-radius:50%;background:${teamColor};flex-shrink:0;"></span>
         <span style="overflow:hidden;text-overflow:ellipsis;">${t.name}</span>
@@ -1907,7 +1904,7 @@ function renderGantt(gantt){
   }).join('');
 
   chart.innerHTML=`
-    <div style="display:grid;grid-template-columns:320px 1fr;gap:10px;margin-bottom:6px;">
+    <div style="display:grid;grid-template-columns:minmax(420px,1.2fr) 1fr;gap:10px;margin-bottom:6px;">
       <div style="font-size:9px;color:var(--text-3);font-weight:700;letter-spacing:.06em;text-transform:uppercase;">TASK</div>
       <div style="display:flex;">${axisHtml}</div>
     </div>
@@ -1954,6 +1951,26 @@ function renderNextSession(items){const el=document.getElementById('next-session
 function renderAgenda(events){const el=document.getElementById('today-events');const badge=document.getElementById('event-count-badge');if(!el)return;if(!events||!events.length){el.innerHTML='<div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">No events today</div>';if(badge)badge.textContent='0 events';return;}if(badge)badge.textContent=events.length+' event'+(events.length!==1?'s':'');el.innerHTML=events.map(ev=>{const timeEl=ev.allDay?'<span class="event-time allday">ALL DAY</span>':`<span class="event-time">${ev.time}</span>`;const desc=ev.desc?`<div class="event-desc">${ev.desc}</div>`:'';return`<div class="today-event">${timeEl}<div><div class="event-title">${ev.title}</div>${desc}</div></div>`;}).join('');}
 function setEl(id,val){const el=document.getElementById(id);if(el&&val!==undefined)el.textContent=val;}
 loadData();setInterval(loadData,5*60*1000);window.addEventListener('load',loadTodos);
+
+/* ── AGENDA NOTES (writable, localStorage-backed) ── */
+(function initAgendaNotes(){
+  const ta=document.getElementById('agenda-notes');
+  const ind=document.getElementById('agenda-save-indicator');
+  if(!ta)return;
+  const key='agenda-notes-'+new Date().toISOString().slice(0,10);
+  ta.value=localStorage.getItem(key)||'';
+  ind.textContent=ta.value?'Saved':'Empty';
+  let t=null;
+  ta.addEventListener('input',()=>{
+    ind.textContent='Saving…';ind.style.color='var(--yellow)';
+    clearTimeout(t);
+    t=setTimeout(()=>{
+      localStorage.setItem(key,ta.value);
+      ind.textContent='Saved';ind.style.color='var(--green)';
+      setTimeout(()=>{ind.style.color='var(--text-3)';},1500);
+    },400);
+  });
+})();
 
 function renderShopifyData(s){
   if(!s) return;
