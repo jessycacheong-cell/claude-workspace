@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T19:11:24.872Z",
+  "lastUpdated": "2026-04-26T19:13:37.574Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,24 @@
   "inbox": {
     "gmail": [
       {
+        "from": "GitHub",
+        "subject": "[GitHub] A personal access token (classic) has been added to your account",
+        "timestamp": "2026-04-26T18:22:31.000Z",
+        "unread": true
+      },
+      {
+        "from": "GitHub",
+        "subject": "[GitHub] Sudo email verification code",
+        "timestamp": "2026-04-26T18:20:59.000Z",
+        "unread": false
+      },
+      {
+        "from": "SHEIN",
+        "subject": "💝Only 9 pieces left: Shop your WISHLIST now>",
+        "timestamp": "2026-04-26T18:06:54.000Z",
+        "unread": true
+      },
+      {
         "from": "MINIUSA",
         "subject": "Control the drive, right from your phone.",
         "timestamp": "2026-04-26T14:10:59.000Z",
@@ -67,27 +85,9 @@
         "subject": "Reminder - Your opinion matters: 4 minutes for your feedback",
         "timestamp": "2026-04-26T13:14:38.000Z",
         "unread": true
-      },
-      {
-        "from": "GitHub",
-        "subject": "[GitHub] Sudo email verification code",
-        "timestamp": "2026-04-26T05:03:09.000Z",
-        "unread": false
-      },
-      {
-        "from": "Mermaid",
-        "subject": "📕 Your Mermaid cheat sheet (bookmark this)",
-        "timestamp": "2026-04-26T01:29:41.000Z",
-        "unread": true
-      },
-      {
-        "from": "GitHub",
-        "subject": "[GitHub] A personal access token (classic) has been added to your account",
-        "timestamp": "2026-04-26T01:10:53.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-04-26T18:04:28.827Z",
+    "gmailUpdated": "2026-04-26T19:13:37.441Z",
     "gorgias": [
       {
         "id": 95382495,
