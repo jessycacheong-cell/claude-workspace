@@ -1,0 +1,55 @@
+name: OutlookBot
+
+on:
+  repository_dispatch:
+    types: [outlook-update]
+  workflow_dispatch:
+
+jobs:
+  receive-outlook:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Pull latest data before writing
+        run: git pull origin main
+
+      - name: Write Outlook emails to data.json
+        env:
+          PAYLOAD: ${{ toJson(github.event.client_payload) }}
+        run: |
+          node << 'EOF'
+          const fs = require('fs');
+          const payload = JSON.parse(process.env.PAYLOAD || '{}');
+          const raw = payload.emails || [];
+
+          if (!raw.length) {
+            console.log('No emails in payload — skipping update');
+            process.exit(0);
+          }
+
+          const emails = raw.slice(0, 5).map(m => ({
+            from: (m.from && (m.from.name || m.from.address)) || m.fromName || m.fromAddress || 'Unknown',
+            subject: m.subject || '(no subject)',
+            timestamp: m.timestamp || m.receivedDateTime || new Date().toISOString(),
+            unread: m.unread === true || m.isRead === false
+          }));
+
+          const data = JSON.parse(fs.readFileSync('personal/data.json', 'utf8'));
+          data.inbox = data.inbox || {};
+          data.inbox.outlook = emails;
+          data.inbox.outlookUpdated = new Date().toISOString();
+          data.lastUpdated = new Date().toISOString();
+          fs.writeFileSync('personal/data.json', JSON.stringify(data, null, 2));
+          console.log('Outlook updated:', emails.length, 'emails');
+          EOF
+
+      - name: Commit and push
+        run: |
+          git config user.name "OutlookBot"
+          git config user.email "bot@jessyca-dashboard"
+          git add personal/data.json
+          git diff --staged --quiet || git commit -m "OutlookBot: refresh inbox via Power Automate [skip ci]"
+          git push || (git pull --rebase origin main && git push)

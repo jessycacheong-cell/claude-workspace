@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T23:52:13.190Z",
+  "lastUpdated": "2026-04-25T22:10:00.000Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,45 +57,38 @@
   "inbox": {
     "gmail": [
       {
-        "from": "UFIT Administration",
-        "subject": "Qualifying Criteria",
-        "timestamp": "2026-03-31T13:07:48.000Z",
-        "unread": false
-      },
-      {
-        "from": "Arcads",
-        "subject": "Introducing AI Worfklows",
-        "timestamp": "2026-03-31T11:46:00.000Z",
+        "from": "SiriusXM",
+        "subject": "Personalized recommendations just for you",
+        "timestamp": "2026-04-25T22:02:28.000Z",
         "unread": true
       },
       {
-        "from": "Peter from Rendair",
-        "subject": "📅 Jessyca C. Archer, Schedule Your Rendair Tour Today",
-        "timestamp": "2026-03-31T04:08:32.000Z",
+        "from": "Google",
+        "subject": "Jessyca C., finish setting up your Apple iPhone with Google",
+        "timestamp": "2026-04-25T21:56:10.000Z",
         "unread": true
       },
       {
-        "from": "ANAVRIN®",
-        "subject": "Is That Kit Still on Your Mind? ✨",
-        "timestamp": "2026-03-31T01:52:35.000Z",
+        "from": "Granola",
+        "subject": "Get more done",
+        "timestamp": "2026-04-25T21:05:59.000Z",
         "unread": true
       },
       {
-        "from": "ANAVRIN®",
-        "subject": "We Saw You Looking",
-        "timestamp": "2026-03-31T01:52:21.000Z",
+        "from": "Bank of America",
+        "subject": "Zelle® payment of $2,000.00 to MARK LORICH has been sent",
+        "timestamp": "2026-04-25T19:25:25.000Z",
+        "unread": true
+      },
+      {
+        "from": "Apple",
+        "subject": "Your Apple Account was used to sign in to iCloud on an iPhone 15 Pro",
+        "timestamp": "2026-04-25T19:03:06.000Z",
         "unread": true
       }
     ],
-    "gmailUpdated": "2026-03-31T16:14:25.520Z",
+    "gmailUpdated": "2026-04-25T22:10:00.000Z",
     "gorgias": [
-      {
-        "id": 95264892,
-        "subject": "The data is in: spring is TikTok Shop's biggest quarter",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-25T18:28:25.164000+00:00"
-      },
       {
         "id": 95247793,
         "subject": "You appeared in 1 search",
@@ -123,9 +116,16 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-25T02:15:59+00:00"
+      },
+      {
+        "id": 95178144,
+        "subject": "Klaviyo Invoice",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-25T00:39:56.974000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-25T23:52:13.058Z",
+    "gorgiasUpdated": "2026-04-25T17:54:30.326Z",
     "gorgiasSummary": "",
     "gmailSummary": ""
   },
