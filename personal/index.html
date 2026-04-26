@@ -1774,7 +1774,8 @@ function timeAgo(iso){const d=new Date(iso),now=new Date(),s=Math.floor((now-d)/
 
 const GANTT_TEAM_COLORS={'Christine':'#22d47a','Kwan':'#a78bfa','Drew Trinidad':'#9ca3af','Erica':'#ec4899','John Pointe':'#22d47a','Marcus & Joseph':'#fbbf24'};
 const GANTT_STATUS_COLORS={'Done':{bar:'rgba(34,212,122,0.55)',border:'#22d47a',text:'#22d47a'},'In progress':{bar:'rgba(76,176,255,0.45)',border:'#4cb0ff',text:'#4cb0ff'},'Not started':{bar:'rgba(255,255,255,0.06)',border:'rgba(255,255,255,0.15)',text:'var(--text-3)'}};
-const GANTT_WINDOW_DAYS=30;
+const GANTT_WINDOW_DAYS=42;
+const GANTT_DAYS_BEFORE=10;
 
 function renderGantt(gantt){
   const empty=document.getElementById('gantt-empty');
@@ -1786,8 +1787,8 @@ function renderGantt(gantt){
     return;
   }
   const today=new Date();today.setHours(0,0,0,0);
-  const winStart=today;
-  const winEnd=new Date(today.getTime()+GANTT_WINDOW_DAYS*86400000);
+  const winStart=new Date(today.getTime()-GANTT_DAYS_BEFORE*86400000);
+  const winEnd=new Date(today.getTime()+(GANTT_WINDOW_DAYS-GANTT_DAYS_BEFORE)*86400000);
   const tasks=gantt.tasks.filter(t=>{
     if(!t.start && !t.end) return false;
     const s=t.start?new Date(t.start):null;
@@ -1814,9 +1815,9 @@ function renderGantt(gantt){
   const days=[];
   for(let i=0;i<GANTT_WINDOW_DAYS;i++){days.push(new Date(winStart.getTime()+i*86400000));}
   const axisHtml=days.map((d,i)=>{
-    const isToday=i===0;
+    const isToday=i===GANTT_DAYS_BEFORE;
     const isMonday=d.getDay()===1;
-    const showLabel=i===0||isMonday||i===GANTT_WINDOW_DAYS-1;
+    const showLabel=i===0||isMonday||i===GANTT_WINDOW_DAYS-1||isToday;
     return `<div style="flex:1;min-width:0;border-left:1px solid ${isToday?'rgba(253,105,105,0.4)':'rgba(255,255,255,0.04)'};padding:0 0 4px 4px;font-size:9px;color:${isToday?'#FD6969':'var(--text-3)'};font-weight:${isToday?'700':'500'};">${showLabel?(d.getMonth()+1)+'/'+d.getDate():'&nbsp;'}</div>`;
   }).join('');
 
@@ -1840,8 +1841,8 @@ function renderGantt(gantt){
         <span style="overflow:hidden;text-overflow:ellipsis;">${t.name}</span>
       </div>
       <div style="position:relative;height:20px;background:rgba(255,255,255,0.02);border-radius:6px;overflow:hidden;">
-        <div style="position:absolute;left:0;top:0;bottom:0;width:${100/GANTT_WINDOW_DAYS}%;background:rgba(253,105,105,0.08);border-right:1px dashed rgba(253,105,105,0.4);"></div>
-        <div style="position:absolute;left:${startOffset}%;width:${width}%;top:3px;bottom:3px;background:${sc.bar};border:1px solid ${sc.border};border-radius:4px;display:flex;align-items:center;padding:0 6px;font-size:10px;font-weight:700;color:${sc.text};white-space:nowrap;overflow:hidden;">${t.progress!=null?t.progress+'%':t.status}</div>
+        <div style="position:absolute;left:${GANTT_DAYS_BEFORE/GANTT_WINDOW_DAYS*100}%;top:0;bottom:0;width:${100/GANTT_WINDOW_DAYS}%;background:rgba(253,105,105,0.08);border-left:1px dashed rgba(253,105,105,0.4);"></div>
+        <div style="position:absolute;left:${startOffset}%;width:${width}%;top:3px;bottom:3px;background:${sc.bar};border:1px solid ${sc.border};border-radius:4px;display:flex;align-items:center;padding:0 6px;font-size:10px;font-weight:700;color:${sc.text};white-space:nowrap;overflow:hidden;">${t.progress!=null?Math.min(100,Math.round(t.progress>1?t.progress:t.progress*100))+'%':t.status}</div>
       </div>
     </${tag}>`;
   }).join('');

@@ -80,7 +80,8 @@ jobs:
               const start = props['Start Date']?.date?.start || null;
               const end = props['End Date']?.date?.start || props['Start Date']?.date?.end || null;
               const milestone = props['Milestone']?.checkbox === true;
-              const progress = props['% Complete']?.formula?.number != null ? Math.round(props['% Complete'].formula.number * 100) : null;
+              const rawPct = props['% Complete']?.formula?.number;
+              const progress = rawPct != null ? Math.min(100, Math.round(rawPct > 1 ? rawPct : rawPct * 100)) : null;
               return { name, status, team, start, end, milestone, progress, url: p.url };
             }).filter(t => t.start || t.end);
 
