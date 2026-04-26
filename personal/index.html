@@ -758,17 +758,24 @@
     </div>
   </div>
 
-  <!-- Today Agenda (writable notes) -->
-  <div class="bc bc-4 fade-up" id="today">
+  <!-- Meeting Prep (writable launchpad) -->
+  <div class="bc bc-4 fade-up" id="meeting-prep">
     <div class="bc-label" style="display:flex;align-items:center;justify-content:space-between;">
-      <span>Today's Agenda — <span id="today-date-label">—</span></span>
-      <span id="agenda-save-indicator" style="font-size:10px;color:var(--text-3);font-weight:600;letter-spacing:.04em;">—</span>
+      <span>🎯 Meeting Prep</span>
+      <button id="mp-clear-btn" style="background:none;border:1px solid var(--border);color:var(--text-3);font-size:9px;font-weight:700;letter-spacing:.04em;padding:3px 8px;border-radius:5px;cursor:pointer;font-family:'Roboto',sans-serif;transition:all .15s;" onmouseover="this.style.borderColor='var(--red)';this.style.color='var(--red)';" onmouseout="this.style.borderColor='var(--border)';this.style.color='var(--text-3)';">CLEAR ALL</button>
     </div>
-    <textarea id="agenda-notes" placeholder="What's on your plate today? Write it here..." style="width:100%;min-height:180px;margin-top:10px;padding:14px 16px;background:rgba(255,255,255,0.02);border:1px solid var(--border);border-radius:12px;color:var(--text-1);font-family:'Roboto',sans-serif;font-size:13px;line-height:1.65;resize:vertical;outline:none;transition:border-color .18s,background .18s;" onfocus="this.style.borderColor='var(--border-blue)';this.style.background='rgba(253,105,105,0.04)';" onblur="this.style.borderColor='var(--border)';this.style.background='rgba(255,255,255,0.02)';"></textarea>
+    <textarea id="mp-notes" placeholder="Talking points, agenda, context…" style="width:100%;min-height:70px;margin-top:10px;padding:10px 12px;background:rgba(255,255,255,0.02);border:1px solid var(--border);border-radius:10px;color:var(--text-1);font-family:'Roboto',sans-serif;font-size:12px;line-height:1.55;resize:vertical;outline:none;transition:border-color .18s,background .18s;" onfocus="this.style.borderColor='var(--border-blue)';this.style.background='rgba(253,105,105,0.04)';" onblur="this.style.borderColor='var(--border)';this.style.background='rgba(255,255,255,0.02)';"></textarea>
+    <div style="font-size:9px;color:var(--text-3);font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin:12px 0 6px;">Pinned Links</div>
+    <div id="mp-links" style="display:flex;flex-direction:column;gap:5px;min-height:40px;"></div>
+    <div style="display:flex;gap:5px;margin-top:10px;">
+      <input id="mp-label" placeholder="Label" style="flex:1;min-width:0;padding:7px 9px;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:7px;color:var(--text-1);font-family:'Roboto',sans-serif;font-size:11px;outline:none;">
+      <input id="mp-url" placeholder="URL" style="flex:1.5;min-width:0;padding:7px 9px;background:rgba(255,255,255,0.03);border:1px solid var(--border);border-radius:7px;color:var(--text-1);font-family:'Roboto',sans-serif;font-size:11px;outline:none;">
+      <button id="mp-add-btn" style="padding:7px 11px;background:rgba(253,105,105,0.12);border:1px solid var(--border-blue);border-radius:7px;color:var(--blue);font-weight:700;font-size:13px;cursor:pointer;font-family:'Roboto',sans-serif;transition:all .15s;line-height:1;" onmouseover="this.style.background='rgba(253,105,105,0.22)';" onmouseout="this.style.background='rgba(253,105,105,0.12)';">+</button>
+    </div>
   </div>
 
   <!-- Inbox Snapshot -->
-  <div class="bc bc-12 fade-up" id="inbox-card">
+  <div class="bc bc-8 fade-up" id="inbox-card">
     <div class="bc-label">Inbox Snapshot</div>
     <div class="inbox-grid">
       <div class="inbox-col">
@@ -796,6 +803,15 @@
         <a href="https://outlook.office.com/mail/" target="_blank" style="font-size:10px;color:#22d47a;text-decoration:none;margin-top:4px;text-align:center;display:block;">Open Outlook ↗</a>
       </div>
     </div>
+  </div>
+
+  <!-- Today Agenda (writable notes) -->
+  <div class="bc bc-4 fade-up" id="today">
+    <div class="bc-label" style="display:flex;align-items:center;justify-content:space-between;">
+      <span>Today's Agenda — <span id="today-date-label">—</span></span>
+      <span id="agenda-save-indicator" style="font-size:10px;color:var(--text-3);font-weight:600;letter-spacing:.04em;">—</span>
+    </div>
+    <textarea id="agenda-notes" placeholder="What's on your plate today? Write it here..." style="width:100%;min-height:180px;margin-top:10px;padding:14px 16px;background:rgba(255,255,255,0.02);border:1px solid var(--border);border-radius:12px;color:var(--text-1);font-family:'Roboto',sans-serif;font-size:13px;line-height:1.65;resize:vertical;outline:none;transition:border-color .18s,background .18s;" onfocus="this.style.borderColor='var(--border-blue)';this.style.background='rgba(253,105,105,0.04)';" onblur="this.style.borderColor='var(--border)';this.style.background='rgba(255,255,255,0.02)';"></textarea>
   </div>
 
   <!-- Milestone Countdown (follows Gantt · 1-month window) -->
@@ -1003,19 +1019,6 @@
     </div>
   </div>
 
-  <!-- Last Session -->
-  <div class="bc bc-4" id="todo">
-    <div class="bc-label">Last Session</div>
-    <div style="background:rgba(255,255,255,0.025);border-radius:12px;padding:12px;margin-bottom:12px;">
-      <div style="font-size:11px;font-weight:700;color:var(--blue);margin-bottom:6px;" id="last-session-date">—</div>
-      <div style="font-size:12px;color:var(--text-2);line-height:1.7;" id="last-session-summary">Loading...</div>
-    </div>
-    <div class="bc-label" style="margin-top:4px;">Next Session</div>
-    <div class="todo-list" id="next-session-list">
-      <div style="font-size:12px;color:var(--text-3);text-align:center;padding:16px 0;">Loading...</div>
-    </div>
-  </div>
-
   <!-- Completion (synced from Notion To-Do DB via CompletionBot) -->
   <div class="bc bc-4 fade-up" id="completion-card">
     <div class="bc-label" style="display:flex;align-items:center;justify-content:space-between;">
@@ -1087,75 +1090,7 @@
     </div>
   </div>
 
-  <!-- Everything Behind the Scenes (mini) -->
-  <div class="bc bc-12">
-    <div class="bc-label">Everything Behind the Scenes</div>
 
-    <!-- MCP -->
-    <div class="bts-mini-section">
-      <div class="bts-mini-label mcp">⚡ MCP Connected — live during session</div>
-      <div class="bts-mini-chips">
-        <span class="bts-chip">🗒️ Notion</span>
-        <span class="bts-chip">📧 Gmail</span>
-        <span class="bts-chip">📅 Google Cal</span>
-        <span class="bts-chip">📊 Klaviyo</span>
-        <span class="bts-chip">🎨 Canva</span>
-        <span class="bts-chip">📱 Blotato</span>
-        <span class="bts-chip">🖼️ Figma</span>
-      </div>
-    </div>
-
-    <!-- API -->
-    <div class="bts-mini-section">
-      <div class="bts-mini-label api">🔑 API Connected — token-based</div>
-      <div class="bts-mini-chips">
-        <span class="bts-chip api">🐙 GitHub (NOTION_TOKEN)</span>
-        <span class="bts-chip api">📊 Google Sheets (Shopify)</span>
-      </div>
-    </div>
-
-    <!-- Local Files -->
-    <div class="bts-mini-section">
-      <div class="bts-mini-label local">📁 Local Files — Claude reads on open</div>
-      <div class="bts-local-flow">
-        <div class="bts-local-files">
-          <div class="bts-local-file">📄 CLAUDE.md <span>project brief</span></div>
-          <div class="bts-local-file">🧠 MEMORY.md <span>J's memory</span></div>
-          <div class="bts-local-file">📄 dashboard.html <span>app file</span></div>
-        </div>
-        <div class="bts-local-arrow">
-          <div class="bts-local-arrow-line"></div>
-          <div class="bts-local-arrow-head">→</div>
-          <div class="bts-local-arrow-line"></div>
-        </div>
-        <div class="bts-local-claude">
-          <div class="bts-local-claude-icon">🤖</div>
-          <div class="bts-local-claude-label">Claude reads</div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Session Log -->
-  <div class="bc bc-12" id="todaylog">
-    <div class="bc-label">Today's Session Log</div>
-    <div class="session-log-inner">
-      <div class="session-log-top">
-        <div><div style="font-size:15px;font-weight:700;color:var(--text-1);">Today's Productivity</div><div style="font-size:12px;color:var(--text-2);margin-top:3px;" id="prod-date">—</div></div>
-        <div style="text-align:right;">
-          <div style="font-size:38px;font-weight:800;color:var(--green);text-shadow:0 0 20px rgba(74,222,128,0.35);letter-spacing:-1.5px;" id="prod-score">—%</div>
-          <div class="metric-status good">Good Progress</div>
-        </div>
-      </div>
-      <div style="display:flex;flex-direction:column;gap:4px;margin-bottom:14px;">
-        <div class="prod-row"><div class="prod-label">Today's Progress</div><div class="prod-bar"><div class="prod-fill" id="bar-ms" style="background:var(--yellow);width:0%"></div></div><div class="prod-pct" id="pct-ms">0%</div></div>
-        <div class="prod-note">Milestone 1 — Feedback & Fixes (Mar 17–22). Updated by MilestoneBot each morning.</div>
-        <div class="prod-row"><div class="prod-label">Today's Vibe</div><div class="prod-bar"><div class="prod-fill" id="bar-vibe" style="background:linear-gradient(90deg,var(--blue),var(--purple));width:100%"></div></div><div class="prod-pct" id="pct-vibe" style="color:var(--blue);">🔥</div></div>
-        <div class="prod-note" id="vibe-note">Mar 21 — Cloud migration complete. MilestoneBot live. You shipped something real today.</div>
-      </div>
-      <div class="card" style="border-color:rgba(253,105,105,0.12);"><div style="font-size:13px;color:var(--text-2);line-height:1.7;" id="today-log">Loading today's log...</div></div>
-    </div>
-  </div>
 
 </div>
 
@@ -1193,8 +1128,8 @@ function getNextAgentRun(){const now=new Date();let minDiff=Infinity,nextName=''
 function updateCountdown(){const el=document.getElementById('next-agent-run');if(!el)return;const{name,label}=getNextAgentRun();el.textContent=`${name} runs in ${label}`;}
 updateCountdown();setInterval(updateCountdown,30000);
 
-function updateProductivity(msProg){document.getElementById('bar-ms').style.width=msProg+'%';document.getElementById('pct-ms').textContent=msProg+'%';document.getElementById('prod-date').textContent=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});setGauge(msProg);updateTodoBar();}
-function updateProdScore(){document.getElementById('prod-score').textContent='100%';syncHeroScore(100);}
+function updateProductivity(msProg){const ba=document.getElementById('bar-ms'),pc=document.getElementById('pct-ms'),pd=document.getElementById('prod-date');if(ba)ba.style.width=msProg+'%';if(pc)pc.textContent=msProg+'%';if(pd)pd.textContent=new Date().toLocaleDateString('en-US',{weekday:'long',month:'long',day:'numeric'});if(typeof setGauge==='function')setGauge(msProg);if(typeof updateTodoBar==='function')updateTodoBar();}
+function updateProdScore(){const ps=document.getElementById('prod-score');if(ps)ps.textContent='100%';if(typeof syncHeroScore==='function')syncHeroScore(100);}
 
 function toggleRepo(id){document.getElementById(id).classList.toggle('open');}
 
@@ -2009,6 +1944,68 @@ function renderCompletion(c){
 }
 function setEl(id,val){const el=document.getElementById(id);if(el&&val!==undefined)el.textContent=val;}
 loadData();setInterval(loadData,5*60*1000);window.addEventListener('load',loadTodos);
+
+/* ── MEETING PREP (writable launchpad, localStorage-backed) ── */
+(function initMeetingPrep(){
+  const notes=document.getElementById('mp-notes');
+  const list=document.getElementById('mp-links');
+  const labelI=document.getElementById('mp-label');
+  const urlI=document.getElementById('mp-url');
+  const addBtn=document.getElementById('mp-add-btn');
+  const clearBtn=document.getElementById('mp-clear-btn');
+  if(!notes||!list)return;
+  const NK='meeting-prep-notes';
+  const LK='meeting-prep-links';
+  notes.value=localStorage.getItem(NK)||'';
+  let links=[];
+  try{links=JSON.parse(localStorage.getItem(LK)||'[]');}catch{links=[];}
+  let nt=null;
+  notes.addEventListener('input',()=>{
+    clearTimeout(nt);
+    nt=setTimeout(()=>localStorage.setItem(NK,notes.value),300);
+  });
+  function save(){localStorage.setItem(LK,JSON.stringify(links));}
+  function favicon(u){try{const h=new URL(u).hostname;return `https://www.google.com/s2/favicons?domain=${h}&sz=32`;}catch{return '';}}
+  function render(){
+    if(!links.length){list.innerHTML='<div style="font-size:11px;color:var(--text-3);text-align:center;padding:10px 0;font-style:italic;">No links yet — add one below</div>';return;}
+    list.innerHTML=links.map((l,i)=>`
+      <div class="mp-link-row" data-idx="${i}" style="display:flex;align-items:center;gap:8px;padding:7px 10px;background:rgba(255,255,255,0.025);border:1px solid var(--border);border-radius:8px;transition:all .15s;cursor:pointer;" onmouseover="this.style.background='rgba(253,105,105,0.08)';this.style.borderColor='var(--border-blue)';" onmouseout="this.style.background='rgba(255,255,255,0.025)';this.style.borderColor='var(--border)';">
+        <img src="${favicon(l.url)}" style="width:14px;height:14px;border-radius:3px;flex-shrink:0;" onerror="this.style.display='none'">
+        <span style="flex:1;font-size:12px;color:var(--text-1);font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${l.label||l.url}</span>
+        <span class="mp-del" data-idx="${i}" style="color:var(--text-3);font-size:14px;padding:0 4px;line-height:1;font-weight:700;cursor:pointer;transition:color .15s;" onmouseover="this.style.color='var(--red)';event.stopPropagation();" onmouseout="this.style.color='var(--text-3)';" title="Remove">×</span>
+      </div>
+    `).join('');
+    list.querySelectorAll('.mp-link-row').forEach(row=>{
+      row.addEventListener('click',e=>{
+        if(e.target.classList.contains('mp-del'))return;
+        const idx=+row.dataset.idx;window.open(links[idx].url,'_blank');
+      });
+    });
+    list.querySelectorAll('.mp-del').forEach(x=>{
+      x.addEventListener('click',e=>{
+        e.stopPropagation();
+        const idx=+x.dataset.idx;
+        links.splice(idx,1);save();render();
+      });
+    });
+  }
+  function add(){
+    const url=urlI.value.trim();if(!url)return;
+    let u=url;if(!/^https?:\/\//i.test(u))u='https://'+u;
+    links.push({label:labelI.value.trim(),url:u});
+    save();render();
+    labelI.value='';urlI.value='';labelI.focus();
+  }
+  addBtn.addEventListener('click',add);
+  [labelI,urlI].forEach(i=>i.addEventListener('keydown',e=>{if(e.key==='Enter')add();}));
+  clearBtn.addEventListener('click',()=>{
+    if(!links.length && !notes.value)return;
+    if(confirm('Clear all meeting prep notes and links?')){
+      links=[];notes.value='';save();localStorage.removeItem(NK);render();
+    }
+  });
+  render();
+})();
 
 /* ── AGENDA NOTES (writable, localStorage-backed) ── */
 (function initAgendaNotes(){
