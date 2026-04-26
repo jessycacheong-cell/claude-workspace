@@ -6,7 +6,7 @@
 <title>J's Command Center</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 <style>
   :root {
     --bg:        #04050a;
@@ -36,7 +36,7 @@
   body {
     background: var(--bg);
     color: var(--text-1);
-    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family: 'Roboto', -apple-system, BlinkMacSystemFont, sans-serif;
     font-size: 15px;
     min-height: 100vh;
     overflow-x: hidden;
@@ -541,7 +541,7 @@
   .pomo-digits { font-size:26px; font-weight:800; color:var(--text-1); letter-spacing:-1px; }
   .pomo-mode   { font-size:9px; text-transform:uppercase; letter-spacing:.08em; color:var(--text-2); margin-top:2px; }
   .pomo-btns   { display:flex; gap:7px; flex-wrap:wrap; justify-content:center; }
-  .pomo-btn { padding:7px 14px; border-radius:10px; border:1px solid var(--border); background:rgba(255,255,255,0.04); color:var(--text-1); font-size:11px; font-weight:600; cursor:pointer; transition:all .2s; font-family:'Space Grotesk',sans-serif; }
+  .pomo-btn { padding:7px 14px; border-radius:10px; border:1px solid var(--border); background:rgba(255,255,255,0.04); color:var(--text-1); font-size:11px; font-weight:600; cursor:pointer; transition:all .2s; font-family:'Roboto',sans-serif; }
   .pomo-btn:hover { background:rgba(255,255,255,0.08); border-color:rgba(255,255,255,0.12); }
   .pomo-btn.primary { background:var(--blue); border-color:var(--blue); color:#fff; }
   .pomo-btn.primary:hover { opacity:.88; }
@@ -813,7 +813,7 @@
         <span style="color:#4cb0ff;background:rgba(76,176,255,0.10);border:1px solid rgba(76,176,255,0.28);padding:2px 7px;border-radius:6px;"><span id="gantt-prog-count">0</span> IN PROGRESS</span>
         <span style="color:#22d47a;background:rgba(34,212,122,0.10);border:1px solid rgba(34,212,122,0.28);padding:2px 7px;border-radius:6px;"><span id="gantt-done-count">0</span> DONE</span>
         <span id="gantt-updated" style="color:var(--text-3);font-size:9px;font-weight:600;margin-left:4px;">—</span>
-        <button id="gantt-refresh-btn" onclick="refreshGantt()" style="margin-left:6px;padding:3px 10px;border-radius:6px;border:1px solid rgba(69,131,253,0.32);background:rgba(69,131,253,0.10);color:#4583fd;font-size:10px;font-weight:700;letter-spacing:.04em;cursor:pointer;font-family:'Space Grotesk',sans-serif;transition:all .15s;display:flex;align-items:center;gap:4px;" onmouseover="this.style.background='rgba(69,131,253,0.18)';this.style.borderColor='rgba(69,131,253,0.5)';" onmouseout="this.style.background='rgba(69,131,253,0.10)';this.style.borderColor='rgba(69,131,253,0.32)';"><span id="gantt-refresh-icon">🔄</span> <span id="gantt-refresh-label">SYNC</span></button>
+        <button id="gantt-refresh-btn" onclick="refreshGantt()" style="margin-left:6px;padding:3px 10px;border-radius:6px;border:1px solid rgba(69,131,253,0.32);background:rgba(69,131,253,0.10);color:#4583fd;font-size:10px;font-weight:700;letter-spacing:.04em;cursor:pointer;font-family:'Roboto',sans-serif;transition:all .15s;display:flex;align-items:center;gap:4px;" onmouseover="this.style.background='rgba(69,131,253,0.18)';this.style.borderColor='rgba(69,131,253,0.5)';" onmouseout="this.style.background='rgba(69,131,253,0.10)';this.style.borderColor='rgba(69,131,253,0.32)';"><span id="gantt-refresh-icon">🔄</span> <span id="gantt-refresh-label">SYNC</span></button>
       </span>
     </div>
     <div id="gantt-container" style="margin-top:12px;">
@@ -1138,7 +1138,7 @@ updateTime();setInterval(updateTime,1000);
 
 document.getElementById('today-date-label').textContent=new Date().toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric'});
 
-function showToast(msg,type='info'){let wrap=document.getElementById('toast-wrap');if(!wrap){wrap=document.createElement('div');wrap.id='toast-wrap';wrap.style.cssText='position:fixed;bottom:24px;right:20px;z-index:9999;display:flex;flex-direction:column;gap:8px;pointer-events:none;';document.body.appendChild(wrap);}const t=document.createElement('div');const color=type==='success'?'var(--green)':type==='error'?'var(--red)':'var(--blue)';t.style.cssText=`background:rgba(10,11,18,0.97);backdrop-filter:blur(20px);border:1px solid ${color};border-left:3px solid ${color};border-radius:12px;padding:10px 16px;font-size:12px;color:var(--text-1);box-shadow:0 4px 24px rgba(0,0,0,0.6);opacity:0;transform:translateY(8px);transition:all .25s ease;max-width:260px;font-family:'Space Grotesk',sans-serif;`;t.textContent=msg;wrap.appendChild(t);requestAnimationFrame(()=>{t.style.opacity='1';t.style.transform='translateY(0)';});setTimeout(()=>{t.style.opacity='0';t.style.transform='translateY(8px)';setTimeout(()=>t.remove(),300);},3000);}
+function showToast(msg,type='info'){let wrap=document.getElementById('toast-wrap');if(!wrap){wrap=document.createElement('div');wrap.id='toast-wrap';wrap.style.cssText='position:fixed;bottom:24px;right:20px;z-index:9999;display:flex;flex-direction:column;gap:8px;pointer-events:none;';document.body.appendChild(wrap);}const t=document.createElement('div');const color=type==='success'?'var(--green)':type==='error'?'var(--red)':'var(--blue)';t.style.cssText=`background:rgba(10,11,18,0.97);backdrop-filter:blur(20px);border:1px solid ${color};border-left:3px solid ${color};border-radius:12px;padding:10px 16px;font-size:12px;color:var(--text-1);box-shadow:0 4px 24px rgba(0,0,0,0.6);opacity:0;transform:translateY(8px);transition:all .25s ease;max-width:260px;font-family:'Roboto',sans-serif;`;t.textContent=msg;wrap.appendChild(t);requestAnimationFrame(()=>{t.style.opacity='1';t.style.transform='translateY(0)';});setTimeout(()=>{t.style.opacity='0';t.style.transform='translateY(8px)';setTimeout(()=>t.remove(),300);},3000);}
 
 const TODO_KEY='j-dashboard-todos';
 function saveTodos(){const s={};document.querySelectorAll('.todo-item[data-id]').forEach(el=>{s[el.dataset.id]=el.classList.contains('done');});localStorage.setItem(TODO_KEY,JSON.stringify(s));}
