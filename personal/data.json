@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T01:15:09.076Z",
+  "lastUpdated": "2026-04-26T01:17:26.953Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -248,7 +248,7 @@
         "start": "2026-04-20",
         "end": "2026-04-20",
         "milestone": false,
-        "progress": 10000,
+        "progress": 100,
         "url": "https://www.notion.so/Meet-every-pillar-lead-Xavier-Kevin-Kuan-Drew-Jessica-Chen-34a2c564dcb181029a21e31ae94d2bb4"
       },
       {
@@ -258,7 +258,7 @@
         "start": "2026-04-20",
         "end": "2026-04-20",
         "milestone": true,
-        "progress": 10000,
+        "progress": 100,
         "url": "https://www.notion.so/1-1-with-Christine-scorecard-walkthrough-Month-3-gates-expectations-34a2c564dcb1810a8d6acf058f96e80a"
       },
       {
@@ -268,7 +268,7 @@
         "start": "2026-04-20",
         "end": "2026-04-21",
         "milestone": false,
-        "progress": 10000,
+        "progress": 100,
         "url": "https://www.notion.so/Read-both-training-decks-company-overview-ops-deep-dive-34a2c564dcb18118b042fafaa880b805"
       },
       {
@@ -278,7 +278,7 @@
         "start": "2026-04-21",
         "end": "2026-04-21",
         "milestone": true,
-        "progress": 10000,
+        "progress": 100,
         "url": "https://www.notion.so/Tour-Machlin-Ct-with-FM-first-real-world-look-at-a-live-location-34a2c564dcb1812f977eddd33351c029"
       },
       {
@@ -288,7 +288,7 @@
         "start": "2026-04-20",
         "end": "2026-04-23",
         "milestone": true,
-        "progress": 10000,
+        "progress": 100,
         "url": "https://www.notion.so/System-access-live-Yardi-UNIS-app-cubework-com-Notion-Google-Drive-Claude-34a2c564dcb181489044f731e277f01e"
       },
       {
@@ -298,7 +298,7 @@
         "start": "2026-04-22",
         "end": "2026-04-22",
         "milestone": true,
-        "progress": 10000,
+        "progress": 100,
         "url": "https://www.notion.so/Old-PM-reality-what-Erika-did-manually-every-day-what-broke-34a2c564dcb1815fac05f41ed8767376"
       },
       {
@@ -308,7 +308,7 @@
         "start": "2026-04-24",
         "end": "2026-04-26",
         "milestone": false,
-        "progress": 10000,
+        "progress": 100,
         "url": "https://www.notion.so/Agent-architecture-walkthrough-Align-with-Kwan-34a2c564dcb181759fffcfb65ee1a536"
       },
       {
@@ -342,6 +342,6 @@
         "url": "https://www.notion.so/Do-field-observation-site-visit-34a2c564dcb1818b8f71c09a79bbb22f"
       }
     ],
-    "updatedAt": "2026-04-26T01:00:36.699Z"
+    "updatedAt": "2026-04-26T01:17:26.952Z"
   }
 }
