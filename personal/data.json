@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T14:26:07.768Z",
+  "lastUpdated": "2026-04-26T14:27:46.066Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "MINIUSA",
+        "subject": "Control the drive, right from your phone.",
+        "timestamp": "2026-04-26T14:10:59.000Z",
+        "unread": true
+      },
+      {
         "from": "Bank of America",
         "subject": "Reminder - Your opinion matters: 4 minutes for your feedback",
         "timestamp": "2026-04-26T13:14:38.000Z",
@@ -79,15 +85,9 @@
         "subject": "[GitHub] A personal access token (classic) has been added to your account",
         "timestamp": "2026-04-26T01:10:53.000Z",
         "unread": true
-      },
-      {
-        "from": "GitHub",
-        "subject": "[GitHub] A personal access token (classic) has been added to your account",
-        "timestamp": "2026-04-25T23:42:23.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-04-26T13:40:35.077Z",
+    "gmailUpdated": "2026-04-26T14:27:45.918Z",
     "gorgias": [
       {
         "id": 95362794,
