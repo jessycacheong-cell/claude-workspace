@@ -786,6 +786,7 @@
         <span style="color:#4cb0ff;background:rgba(76,176,255,0.10);border:1px solid rgba(76,176,255,0.28);padding:2px 7px;border-radius:6px;"><span id="gantt-prog-count">0</span> IN PROGRESS</span>
         <span style="color:#22d47a;background:rgba(34,212,122,0.10);border:1px solid rgba(34,212,122,0.28);padding:2px 7px;border-radius:6px;"><span id="gantt-done-count">0</span> DONE</span>
         <span id="gantt-updated" style="color:var(--text-3);font-size:9px;font-weight:600;margin-left:4px;">—</span>
+        <button id="gantt-refresh-btn" onclick="refreshGantt()" style="margin-left:6px;padding:3px 10px;border-radius:6px;border:1px solid rgba(69,131,253,0.32);background:rgba(69,131,253,0.10);color:#4583fd;font-size:10px;font-weight:700;letter-spacing:.04em;cursor:pointer;font-family:'Space Grotesk',sans-serif;transition:all .15s;display:flex;align-items:center;gap:4px;" onmouseover="this.style.background='rgba(69,131,253,0.18)';this.style.borderColor='rgba(69,131,253,0.5)';" onmouseout="this.style.background='rgba(69,131,253,0.10)';this.style.borderColor='rgba(69,131,253,0.32)';"><span id="gantt-refresh-icon">🔄</span> <span id="gantt-refresh-label">SYNC</span></button>
       </span>
     </div>
     <div id="gantt-container" style="margin-top:12px;">
@@ -1771,6 +1772,34 @@ if(data.agendaSummary)showSummary('agenda-summary',data.agendaSummary);
 if(data.milestoneSummary)showSummary('milestone-summary',data.milestoneSummary);
 }
 function timeAgo(iso){const d=new Date(iso),now=new Date(),s=Math.floor((now-d)/1000);if(s<60)return'just now';if(s<3600)return Math.floor(s/60)+'m ago';if(s<86400)return Math.floor(s/3600)+'h ago';return Math.floor(s/86400)+'d ago';}
+
+const _ganttSpinStyle=document.createElement('style');_ganttSpinStyle.textContent='@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}';document.head.appendChild(_ganttSpinStyle);
+
+async function refreshGantt(){
+  const btn=document.getElementById('gantt-refresh-btn');
+  const icon=document.getElementById('gantt-refresh-icon');
+  const label=document.getElementById('gantt-refresh-label');
+  if(!btn||btn.disabled)return;
+  btn.disabled=true;
+  icon.style.display='inline-block';
+  icon.style.animation='spin 1s linear infinite';
+  label.textContent='SYNCING';
+  try{
+    const res=await fetch('/.netlify/functions/refresh-gantt',{method:'POST'});
+    if(!res.ok)throw new Error('HTTP '+res.status);
+    label.textContent='WAITING';
+    showToast('Gantt sync started — refreshing in 15s','success');
+    setTimeout(async()=>{
+      label.textContent='LOADING';
+      await loadData();
+      label.textContent='SYNCED ✓';
+      setTimeout(()=>{label.textContent='SYNC';icon.style.animation='';btn.disabled=false;},2500);
+    },15000);
+  }catch(e){
+    showToast('Sync failed: '+e.message,'error');
+    label.textContent='SYNC';icon.style.animation='';btn.disabled=false;
+  }
+}
 
 const GANTT_TEAM_COLORS={'Christine':'#22d47a','Kwan':'#a78bfa','Drew Trinidad':'#9ca3af','Erica':'#ec4899','John Pointe':'#22d47a','Marcus & Joseph':'#fbbf24'};
 const GANTT_STATUS_COLORS={'Done':{bar:'rgba(34,212,122,0.55)',border:'#22d47a',text:'#22d47a'},'In progress':{bar:'rgba(76,176,255,0.45)',border:'#4cb0ff',text:'#4cb0ff'},'Not started':{bar:'rgba(255,255,255,0.06)',border:'rgba(255,255,255,0.15)',text:'var(--text-3)'}};

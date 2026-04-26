@@ -1,0 +1,6 @@
+[build]
+  publish = "personal"
+
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
