@@ -30,10 +30,18 @@ jobs:
             process.exit(0);
           }
 
+          function parseFrom(v) {
+            if (!v) return 'Unknown';
+            if (typeof v === 'string') {
+              const m = v.match(/^(.+?)\s*<.+?>$/);
+              return m ? m[1].replace(/^["']|["']$/g, '').trim() : v;
+            }
+            return v.name || v.emailAddress?.name || v.address || v.emailAddress?.address || 'Unknown';
+          }
           const emails = raw.slice(0, 5).map(m => ({
-            from: (m.from && (m.from.name || m.from.address)) || m.fromName || m.fromAddress || 'Unknown',
-            subject: m.subject || '(no subject)',
-            timestamp: m.timestamp || m.receivedDateTime || new Date().toISOString(),
+            from: parseFrom(m.from || m.fromName || m.fromAddress),
+            subject: m.subject || m.bodyPreview || '(no subject)',
+            timestamp: m.timestamp || m.receivedDateTime || m.receivedTime || new Date().toISOString(),
             unread: m.unread === true || m.isRead === false
           }));
 
