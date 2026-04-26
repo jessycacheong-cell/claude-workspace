@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T21:52:02.054Z",
+  "lastUpdated": "2026-04-26T22:02:23.575Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Apple",
+        "subject": "Your recent download with your Apple Account",
+        "timestamp": "2026-04-26T21:35:09.000Z",
+        "unread": true
+      },
+      {
         "from": "GitHub",
         "subject": "[GitHub] A personal access token (classic) has been added to your account",
         "timestamp": "2026-04-26T18:22:31.000Z",
@@ -79,15 +85,9 @@
         "subject": "Control the drive, right from your phone.",
         "timestamp": "2026-04-26T14:10:59.000Z",
         "unread": true
-      },
-      {
-        "from": "Bank of America",
-        "subject": "Reminder - Your opinion matters: 4 minutes for your feedback",
-        "timestamp": "2026-04-26T13:14:38.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-04-26T21:21:24.793Z",
+    "gmailUpdated": "2026-04-26T22:02:23.080Z",
     "gorgias": [
       {
         "id": 95382495,
