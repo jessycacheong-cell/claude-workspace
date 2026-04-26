@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T13:38:18.594Z",
+  "lastUpdated": "2026-04-26T13:39:50.732Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-04-26T12:02:19.005Z",
     "gorgias": [
       {
+        "id": 95362794,
+        "subject": "Re: Yes",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-26T12:20:57+00:00"
+      },
+      {
+        "id": 95362809,
+        "subject": "Re: Yes",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-26T12:20:46+00:00"
+      },
+      {
         "id": 95359203,
         "subject": "Light, flexible soles for your 3D printed slides & Glides?",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-26T05:44:21+00:00"
-      },
-      {
-        "id": 95335760,
-        "subject": "Refund Initiated for Order 114-4796248-1043439",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-26T02:14:22+00:00"
-      },
-      {
-        "id": 95329607,
-        "subject": "Direct message with 3jmccollum",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-26T00:58:32.801000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-26T12:07:26.147Z",
+    "gorgiasUpdated": "2026-04-26T13:39:50.454Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
