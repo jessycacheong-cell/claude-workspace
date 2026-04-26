@@ -183,8 +183,8 @@
   .inbox-subject { font-size:11px; color:var(--text-1); white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:1.4; }
   .inbox-meta { font-size:10px; color:var(--text-3); margin-top:1px; }
   .inbox-empty { font-size:11px; color:var(--text-3); text-align:center; padding:20px 0; }
-  .inbox-gorgias .inbox-from { color:#22d47a; }
-  .inbox-outlook .inbox-from { color:#4cb0ff; }
+  .inbox-gorgias .inbox-from { color:#4cb0ff; }
+  .inbox-outlook .inbox-from { color:#22d47a; }
   .inbox-updated { font-size:9px; color:var(--text-3); }
   .dot { width:6px; height:6px; border-radius:50%; background:currentColor; flex-shrink:0; }
   .pulse { animation:pulse 2s infinite; }
@@ -760,7 +760,7 @@
       </div>
       <div class="inbox-col inbox-gorgias">
         <div class="inbox-col-header">
-          <span class="inbox-col-title">🎧 Gorgias <span style="font-size:9px;font-weight:700;color:#22d47a;background:rgba(34,212,122,0.12);border:1px solid rgba(34,212,122,0.28);border-radius:6px;padding:1px 6px;margin-left:4px;letter-spacing:.04em;">AI AGENT</span></span>
+          <span class="inbox-col-title">🎧 Gorgias <span style="font-size:9px;font-weight:700;color:#4cb0ff;background:rgba(76,176,255,0.12);border:1px solid rgba(76,176,255,0.28);border-radius:6px;padding:1px 6px;margin-left:4px;letter-spacing:.04em;">AI AGENT</span></span>
           <span class="inbox-updated" id="gorgias-updated">—</span>
         </div>
         <div id="gorgias-list"><div class="inbox-empty">Loading...</div></div>
@@ -772,7 +772,7 @@
           <span class="inbox-updated" id="outlook-updated">—</span>
         </div>
         <div id="outlook-list"><div class="inbox-empty">Loading...</div></div>
-        <a href="https://outlook.office.com/mail/" target="_blank" style="font-size:10px;color:#4cb0ff;text-decoration:none;margin-top:4px;text-align:center;display:block;">Open Outlook ↗</a>
+        <a href="https://outlook.office.com/mail/" target="_blank" style="font-size:10px;color:#22d47a;text-decoration:none;margin-top:4px;text-align:center;display:block;">Open Outlook ↗</a>
       </div>
     </div>
   </div>
@@ -813,28 +813,23 @@
         <div class="df-nodes">
           <div class="df-node active" id="dfn-notion">
             <div class="df-node-icon">🗒️</div>
-            <div><div class="df-node-name">Notion</div><div class="df-node-role">Milestones · Session logs</div></div>
+            <div><div class="df-node-name">Notion</div><div class="df-node-role">jessyca.cheong@cubework.com · Gantt</div></div>
             <div class="df-node-pip on"></div>
           </div>
           <div class="df-node active" id="dfn-gmail">
             <div class="df-node-icon">📧</div>
-            <div><div class="df-node-name">Gmail</div><div class="df-node-role">Inbox snapshot · live</div></div>
+            <div><div class="df-node-name">Gmail</div><div class="df-node-role">jessycacheong@gmail.com · Inbox</div></div>
             <div class="df-node-pip on"></div>
           </div>
           <div class="df-node active" id="dfn-gorgias">
             <div class="df-node-icon">🎧</div>
-            <div><div class="df-node-name">Gorgias</div><div class="df-node-role">UMEI support tickets · live</div></div>
+            <div><div class="df-node-name">Gorgias</div><div class="df-node-role">AI agent tickets · live</div></div>
             <div class="df-node-pip on"></div>
           </div>
-          <div class="df-node active" id="dfn-sheets">
-            <div class="df-node-icon">📊</div>
-            <div><div class="df-node-name">Google Sheets</div><div class="df-node-role">Shopify · Supermetrics</div></div>
-            <div class="df-node-pip on"></div>
-          </div>
-          <div class="df-node dim" id="dfn-gcal">
+          <div class="df-node active" id="dfn-outlook">
             <div class="df-node-icon">📅</div>
-            <div><div class="df-node-name">Google Cal</div><div class="df-node-role">Today's agenda · coming soon</div></div>
-            <div class="df-node-pip soon"></div>
+            <div><div class="df-node-name">Outlook</div><div class="df-node-role">jessyca.cheong@cubework.com · Inbox</div></div>
+            <div class="df-node-pip on"></div>
           </div>
         </div>
       </div>
@@ -848,10 +843,10 @@
             <span class="df-section-label github">⚡ GitHub Actions — 24/7 Cloud</span>
             <div class="df-section-line"></div>
           </div>
-          <div class="df-bot live" id="dfb-milestone">
-            <div class="df-bot-glow"></div>
+          <div class="df-bot live" id="dfb-gantt">
+            <div class="df-bot-glow" style="background:radial-gradient(ellipse at 20% 50%, rgba(167,139,250,0.12) 0%, transparent 70%);"></div>
             <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">MilestoneBot</div><div class="df-bot-sched">9AM daily · Notion → data.json</div></div>
+            <div class="df-bot-info"><div class="df-bot-name">NotionGanttBot</div><div class="df-bot-sched">Every 30min · Notion → data.json</div></div>
             <span class="df-badge live">LIVE</span>
           </div>
           <div class="df-bot live" id="dfb-inbox">
@@ -866,9 +861,10 @@
             <div class="df-bot-info"><div class="df-bot-name">GmailBot</div><div class="df-bot-sched">Every 15min · Gmail → data.json</div></div>
             <span class="df-badge live">LIVE</span>
           </div>
-          <div class="df-bot live" id="dfb-calendar">
+          <div class="df-bot live" id="dfb-outlook">
+            <div class="df-bot-glow" style="background:radial-gradient(ellipse at 20% 50%, rgba(34,212,122,0.12) 0%, transparent 70%);"></div>
             <div class="df-bot-icon">🤖</div>
-            <div class="df-bot-info"><div class="df-bot-name">CalendarBot</div><div class="df-bot-sched">Every 15min · GCal → data.json</div></div>
+            <div class="df-bot-info"><div class="df-bot-name">OutlookBot</div><div class="df-bot-sched">Every 15min · Power Automate → data.json</div></div>
             <span class="df-badge live">LIVE</span>
           </div>
         </div>
@@ -893,7 +889,7 @@
               <div class="df-win-dot" style="background:#ff5f57;"></div>
               <div class="df-win-dot" style="background:#febc2e;"></div>
               <div class="df-win-dot" style="background:#28c840;"></div>
-              <span class="df-win-url">jessycacheong-cell.netlify.app</span>
+              <span class="df-win-url">j-command-center.netlify.app</span>
             </div>
             <div class="df-win-body">
               <div class="df-node-icon">🖥️</div>
@@ -1388,17 +1384,17 @@ function drawFlowLines(){
   }
 
   // Sources → GitHub Bots
-  addConn('dfn-notion','dfb-milestone','right','left','#FD6969',true,2.0);
+  addConn('dfn-notion','dfb-gantt','right','left','#a78bfa',true,2.0);
   addConn('dfn-gorgias','dfb-inbox','right','left','#22d47a',true,2.2);
   // Sources → Claude Bots
   addConn('dfn-gmail','dfb-gmail','right','left','#4583fd',true,1.8);
-  addConn('dfn-gcal','dfb-calendar','right','left','#a78bfa',true,1.6);
+  addConn('dfn-outlook','dfb-outlook','right','left','#22d47a',true,2.0);
   // GitHub Bots → Output
-  addConn('dfb-milestone','dfn-datajson','right','left','#4ade80',true,2.2);
+  addConn('dfb-gantt','dfn-datajson','right','left','#a78bfa',true,2.0);
   addConn('dfb-inbox','dfn-datajson','right','left','#22d47a',true,1.9);
   // Claude Bots → Output
   addConn('dfb-gmail','dfn-datajson','right','left','#4583fd',true,1.8);
-  addConn('dfb-calendar','dfn-datajson','right','left','#a78bfa',true,1.6);
+  addConn('dfb-outlook','dfn-datajson','right','left','#22d47a',true,2.0);
   // Output: data.json → netlify → dashboard
   addConn('dfn-datajson','dfn-dashboard','bottom','top','#4ade80',true,1.8);
   addConn('dfn-netlify','dfn-dashboard','bottom','top','#FD6969',true,2.6);
@@ -1773,7 +1769,16 @@ if(data.milestoneSummary)showSummary('milestone-summary',data.milestoneSummary);
 }
 function timeAgo(iso){const d=new Date(iso),now=new Date(),s=Math.floor((now-d)/1000);if(s<60)return'just now';if(s<3600)return Math.floor(s/60)+'m ago';if(s<86400)return Math.floor(s/3600)+'h ago';return Math.floor(s/86400)+'d ago';}
 
-const _ganttSpinStyle=document.createElement('style');_ganttSpinStyle.textContent='@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}';document.head.appendChild(_ganttSpinStyle);
+const _ganttSpinStyle=document.createElement('style');_ganttSpinStyle.textContent=`
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+@keyframes ganttGrow{from{transform:scaleX(0)}to{transform:scaleX(1)}}
+@keyframes ganttFadeIn{from{opacity:0;transform:translateY(4px)}to{opacity:1;transform:translateY(0)}}
+@keyframes ganttShimmer{0%{background-position:-200% 0}100%{background-position:200% 0}}
+.gantt-row{animation:ganttFadeIn 0.4s cubic-bezier(0.22,1,0.36,1) backwards;}
+.gantt-bar{transform:scaleX(0);transform-origin:left;animation:ganttGrow 0.7s cubic-bezier(0.22,1,0.36,1) forwards;}
+.gantt-bar.in-progress::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 0%,rgba(255,255,255,0.18) 50%,transparent 100%);background-size:200% 100%;animation:ganttShimmer 2.4s linear infinite;border-radius:4px;pointer-events:none;}
+.gantt-row:hover .gantt-bar{filter:brightness(1.18);}
+`;document.head.appendChild(_ganttSpinStyle);
 
 async function refreshGantt(){
   const btn=document.getElementById('gantt-refresh-btn');
@@ -1850,7 +1855,7 @@ function renderGantt(gantt){
     return `<div style="flex:1;min-width:0;border-left:1px solid ${isToday?'rgba(253,105,105,0.4)':'rgba(255,255,255,0.04)'};padding:0 0 4px 4px;font-size:9px;color:${isToday?'#FD6969':'var(--text-3)'};font-weight:${isToday?'700':'500'};">${showLabel?(d.getMonth()+1)+'/'+d.getDate():'&nbsp;'}</div>`;
   }).join('');
 
-  const rowHtml=tasks.map(t=>{
+  const rowHtml=tasks.map((t,i)=>{
     const s=new Date(t.start||t.end);
     const e=t.end?new Date(t.end):s;
     const startOffset=Math.max(0,(s-winStart)/(GANTT_WINDOW_DAYS*86400000)*100);
@@ -1864,20 +1869,23 @@ function renderGantt(gantt){
     const titleAttr=`${t.name}\n${t.status}${t.team?' · '+t.team:''}\n${dateStr}${endStr}`;
     const link=t.url?`href="${t.url}" target="_blank"`:'';
     const tag=t.url?'a':'div';
-    return `<${tag} ${link} style="display:grid;grid-template-columns:200px 1fr;gap:10px;align-items:center;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.03);text-decoration:none;color:inherit;cursor:${t.url?'pointer':'default'};" title="${titleAttr.replace(/"/g,'&quot;')}">
+    const rowDelay=(i*0.04).toFixed(2)+'s';
+    const barDelay=(i*0.04+0.15).toFixed(2)+'s';
+    const barCls='gantt-bar'+(t.status==='In progress'?' in-progress':'');
+    return `<${tag} ${link} class="gantt-row" style="display:grid;grid-template-columns:320px 1fr;gap:10px;align-items:center;padding:6px 0;border-bottom:1px solid rgba(255,255,255,0.03);text-decoration:none;color:inherit;cursor:${t.url?'pointer':'default'};animation-delay:${rowDelay};" title="${titleAttr.replace(/"/g,'&quot;')}">
       <div style="display:flex;align-items:center;gap:6px;min-width:0;font-size:12px;color:var(--text-1);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
         ${milestone}<span style="width:6px;height:6px;border-radius:50%;background:${teamColor};flex-shrink:0;"></span>
         <span style="overflow:hidden;text-overflow:ellipsis;">${t.name}</span>
       </div>
       <div style="position:relative;height:20px;background:rgba(255,255,255,0.02);border-radius:6px;overflow:hidden;">
         <div style="position:absolute;left:${GANTT_DAYS_BEFORE/GANTT_WINDOW_DAYS*100}%;top:0;bottom:0;width:${100/GANTT_WINDOW_DAYS}%;background:rgba(253,105,105,0.08);border-left:1px dashed rgba(253,105,105,0.4);"></div>
-        <div style="position:absolute;left:${startOffset}%;width:${width}%;top:3px;bottom:3px;background:${sc.bar};border:1px solid ${sc.border};border-radius:4px;display:flex;align-items:center;padding:0 6px;font-size:10px;font-weight:700;color:${sc.text};white-space:nowrap;overflow:hidden;">${t.progress!=null?Math.min(100,Math.round(t.progress>1?t.progress:t.progress*100))+'%':t.status}</div>
+        <div class="${barCls}" style="position:absolute;left:${startOffset}%;width:${width}%;top:3px;bottom:3px;background:${sc.bar};border:1px solid ${sc.border};border-radius:4px;display:flex;align-items:center;padding:0 6px;font-size:10px;font-weight:700;color:${sc.text};white-space:nowrap;overflow:hidden;animation-delay:${barDelay};transition:filter .2s;">${t.progress!=null?Math.min(100,Math.round(t.progress>1?t.progress:t.progress*100))+'%':t.status}</div>
       </div>
     </${tag}>`;
   }).join('');
 
   chart.innerHTML=`
-    <div style="display:grid;grid-template-columns:200px 1fr;gap:10px;margin-bottom:6px;">
+    <div style="display:grid;grid-template-columns:320px 1fr;gap:10px;margin-bottom:6px;">
       <div style="font-size:9px;color:var(--text-3);font-weight:700;letter-spacing:.06em;text-transform:uppercase;">TASK</div>
       <div style="display:flex;">${axisHtml}</div>
     </div>
@@ -1915,7 +1923,7 @@ function renderInbox(inbox){
       <div class="inbox-item">
         <div class="inbox-from">${m.from}</div>
         <div class="inbox-subject">${m.subject}</div>
-        <div class="inbox-meta">${m.timestamp?timeAgo(m.timestamp):m.time}${m.unread?' · <span style="color:#4cb0ff">unread</span>':''}</div>
+        <div class="inbox-meta">${m.timestamp?timeAgo(m.timestamp):m.time}${m.unread?' · <span style="color:#22d47a">unread</span>':''}</div>
       </div>`).join('');
   } else if(outlookEl){ outlookEl.innerHTML='<div class="inbox-empty" style="line-height:1.5;">Not connected yet<br><span style="font-size:10px;opacity:.7;">Needs Microsoft Graph + bot</span></div>'; }
   if(outlookUp && inbox.outlookUpdated) outlookUp.textContent='Updated '+new Date(inbox.outlookUpdated).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
