@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T03:45:10.014Z",
+  "lastUpdated": "2026-04-26T03:52:58.974Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-04-25T22:10:00.000Z",
     "gorgias": [
       {
+        "id": 95335760,
+        "subject": "Refund Initiated for Order 114-4796248-1043439",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-26T02:14:22+00:00"
+      },
+      {
+        "id": 95329607,
+        "subject": "Direct message with 3jmccollum",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-26T00:58:32.801000+00:00"
+      },
+      {
+        "id": 95321426,
+        "subject": "Refund Initiated for Order 113-0712411-7560233",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-25T23:52:11+00:00"
+      },
+      {
+        "id": 95264892,
+        "subject": "The data is in: spring is TikTok Shop's biggest quarter",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-25T18:28:25.164000+00:00"
+      },
+      {
         "id": 95247793,
         "subject": "You appeared in 1 search",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-25T16:16:00+00:00"
-      },
-      {
-        "id": 95194017,
-        "subject": "New Balance Senior Global Marketing Director, Performance recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-25T04:16:00+00:00"
-      },
-      {
-        "id": 95193419,
-        "subject": "[ALERT] You've reached 90% of your monthly limit.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-25T04:04:45.963000+00:00"
-      },
-      {
-        "id": 95186461,
-        "subject": "UMEI, add Roosevelt Racers - Robotics & Engineering Design 💬",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-25T02:15:59+00:00"
-      },
-      {
-        "id": 95178144,
-        "subject": "Klaviyo Invoice",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-25T00:39:56.974000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-25T17:54:30.326Z",
+    "gorgiasUpdated": "2026-04-26T03:52:58.821Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
