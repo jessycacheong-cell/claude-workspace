@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T22:55:02.696Z",
+  "lastUpdated": "2026-04-26T22:55:48.078Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-04-26T22:02:23.080Z",
     "gorgias": [
       {
+        "id": 95421555,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-26T22:01:47+00:00"
+      },
+      {
         "id": 95382495,
         "subject": "Return Order #1686",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-26T11:11:40+00:00"
-      },
-      {
-        "id": 95354424,
-        "subject": "The data is in: spring is TikTok Shop's biggest quarter",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-26T09:08:10.961000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-26T21:52:01.885Z",
+    "gorgiasUpdated": "2026-04-26T22:55:47.932Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
