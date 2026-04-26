@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T05:00:11.530Z",
+  "lastUpdated": "2026-04-26T05:04:18.720Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,37 +57,37 @@
   "inbox": {
     "gmail": [
       {
-        "from": "SiriusXM",
-        "subject": "Personalized recommendations just for you",
-        "timestamp": "2026-04-25T22:02:28.000Z",
+        "from": "GitHub",
+        "subject": "[GitHub] Sudo email verification code",
+        "timestamp": "2026-04-26T05:03:09.000Z",
+        "unread": false
+      },
+      {
+        "from": "Mermaid",
+        "subject": "📕 Your Mermaid cheat sheet (bookmark this)",
+        "timestamp": "2026-04-26T01:29:41.000Z",
         "unread": true
       },
       {
-        "from": "Google",
-        "subject": "Jessyca C., finish setting up your Apple iPhone with Google",
-        "timestamp": "2026-04-25T21:56:10.000Z",
+        "from": "GitHub",
+        "subject": "[GitHub] A personal access token (classic) has been added to your account",
+        "timestamp": "2026-04-26T01:10:53.000Z",
         "unread": true
       },
       {
-        "from": "Granola",
-        "subject": "Get more done",
-        "timestamp": "2026-04-25T21:05:59.000Z",
+        "from": "GitHub",
+        "subject": "[GitHub] A personal access token (classic) has been added to your account",
+        "timestamp": "2026-04-25T23:42:23.000Z",
         "unread": true
       },
       {
-        "from": "Bank of America",
-        "subject": "Zelle® payment of $2,000.00 to MARK LORICH has been sent",
-        "timestamp": "2026-04-25T19:25:25.000Z",
-        "unread": true
-      },
-      {
-        "from": "Apple",
-        "subject": "Your Apple Account was used to sign in to iCloud on an iPhone 15 Pro",
-        "timestamp": "2026-04-25T19:03:06.000Z",
-        "unread": true
+        "from": "GitHub",
+        "subject": "[GitHub] Sudo email verification code",
+        "timestamp": "2026-04-25T23:40:56.000Z",
+        "unread": false
       }
     ],
-    "gmailUpdated": "2026-04-25T22:10:00.000Z",
+    "gmailUpdated": "2026-04-26T05:04:18.581Z",
     "gorgias": [
       {
         "id": 95335760,
