@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 <style>
   :root {
     --bg:        #04050a;
@@ -949,20 +950,86 @@
     </div>
   </div>
 
-  <!-- Build Streak + Milestone Countdown -->
-  <div class="bc bc-4 fade-up" id="streak-card" style="border-color:rgba(255,140,66,0.14);">
-    <div class="bc-label">Build Streak</div>
-    <div class="streak-card-inner">
-      <span class="streak-fire">🔥</span>
-      <div class="streak-num" id="streak-num">1</div>
-      <div class="streak-label">Day Streak · Building</div>
-      <div class="streak-sub" id="streak-sub">Just getting started!</div>
-      <div class="streak-best" id="streak-best">Best: 1 day</div>
-      <div class="streak-dots" id="streak-dots"></div>
-      <div class="streak-badges" id="streak-badges"></div>
+  <!-- Cubework U.S. Locations Map -->
+  <div class="bc bc-12 fade-up" id="cubework-map-card">
+    <div class="bc-label" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;">
+      <span style="display:flex;align-items:center;gap:10px;">
+        <svg class="cw-globe" width="28" height="28" viewBox="0 0 100 100" style="flex-shrink:0;">
+          <defs>
+            <radialGradient id="cw-globe-fill" cx="35%" cy="35%" r="70%">
+              <stop offset="0%" stop-color="#4583fd" stop-opacity="0.55"/>
+              <stop offset="60%" stop-color="#1a3a8a" stop-opacity="0.35"/>
+              <stop offset="100%" stop-color="#000814" stop-opacity="0.6"/>
+            </radialGradient>
+          </defs>
+          <circle cx="50" cy="50" r="44" fill="url(#cw-globe-fill)" stroke="#4583fd" stroke-width="1.2" stroke-opacity="0.85"/>
+          <g class="cw-globe-spin" style="transform-origin:50px 50px;">
+            <ellipse cx="50" cy="50" rx="44" ry="14" fill="none" stroke="#cfe0ff" stroke-width="0.9" stroke-opacity="0.55"/>
+            <ellipse cx="50" cy="50" rx="44" ry="28" fill="none" stroke="#cfe0ff" stroke-width="0.7" stroke-opacity="0.4"/>
+            <ellipse cx="50" cy="50" rx="44" ry="42" fill="none" stroke="#cfe0ff" stroke-width="0.6" stroke-opacity="0.3"/>
+            <line x1="50" y1="6" x2="50" y2="94" stroke="#cfe0ff" stroke-width="0.7" stroke-opacity="0.5"/>
+          </g>
+          <ellipse cx="50" cy="50" rx="14" ry="44" fill="none" stroke="#cfe0ff" stroke-width="0.7" stroke-opacity="0.4"/>
+          <ellipse cx="50" cy="50" rx="28" ry="44" fill="none" stroke="#cfe0ff" stroke-width="0.6" stroke-opacity="0.3"/>
+          <circle cx="50" cy="50" r="44" fill="none" stroke="#fd6969" stroke-width="0.8" stroke-opacity="0.5"/>
+          <!-- pulse dot for LA -->
+          <circle cx="22" cy="58" r="2" fill="#fd6969">
+            <animate attributeName="r" values="1.5;3.5;1.5" dur="2s" repeatCount="indefinite"/>
+            <animate attributeName="fill-opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+          </circle>
+          <!-- pulse dot for NYC -->
+          <circle cx="78" cy="42" r="2" fill="#4583fd">
+            <animate attributeName="r" values="1.5;3.5;1.5" dur="2s" begin="1s" repeatCount="indefinite"/>
+            <animate attributeName="fill-opacity" values="1;0.3;1" dur="2s" begin="1s" repeatCount="indefinite"/>
+          </circle>
+        </svg>
+        <span>Cubework — U.S. Locations</span>
+      </span>
+      <span style="display:flex;gap:10px;align-items:center;font-size:11px;font-weight:600;letter-spacing:.03em;color:var(--text-2);">
+        <span style="display:flex;align-items:center;gap:5px;"><span style="width:9px;height:9px;border-radius:50%;background:#3186cc;display:inline-block;"></span>City-grouped</span>
+        <span style="display:flex;align-items:center;gap:5px;"><span style="width:9px;height:9px;border-radius:50%;background:#d33d2a;display:inline-block;"></span>LA individual</span>
+      </span>
     </div>
+    <div style="margin-top:8px;border-radius:14px;overflow:hidden;border:1px solid var(--border);background:#0a0a0e;position:relative;">
+      <div id="cubework-leaflet-map" style="width:100%;height:480px;background:#0a0a0e;"></div>
+      <!-- View toggle (overlay) -->
+      <div id="cubework-view-toggle" style="position:absolute;top:12px;left:12px;z-index:500;display:flex;background:rgba(15,16,24,0.92);border:1px solid rgba(255,255,255,0.12);border-radius:10px;padding:3px;backdrop-filter:blur(10px);font-family:Poppins,sans-serif;box-shadow:0 4px 14px rgba(0,0,0,0.4);">
+        <button data-view="us" class="cw-view-btn cw-view-active" style="background:rgba(69,131,253,0.18);color:#cfe0ff;border:0;font-family:Poppins,sans-serif;font-size:11px;font-weight:700;letter-spacing:.05em;padding:6px 13px;border-radius:7px;cursor:pointer;transition:all .15s;">🌎 U.S.</button>
+        <button data-view="la" class="cw-view-btn" style="background:transparent;color:rgba(234,234,234,0.6);border:0;font-family:Poppins,sans-serif;font-size:11px;font-weight:700;letter-spacing:.05em;padding:6px 13px;border-radius:7px;cursor:pointer;transition:all .15s;">📍 LA Area</button>
+      </div>
+
+      <!-- Chat overlay (right side, inside map) -->
+      <div id="cw-chat-overlay" style="position:absolute;top:12px;right:12px;z-index:500;width:280px;background:rgba(15,16,24,0.94);border:1px solid rgba(255,255,255,0.12);border-radius:12px;backdrop-filter:blur(14px);box-shadow:0 8px 24px rgba(0,0,0,0.55);font-family:Poppins,sans-serif;display:flex;flex-direction:column;overflow:hidden;">
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:9px 12px;border-bottom:1px solid rgba(255,255,255,0.08);">
+          <span style="display:flex;align-items:center;gap:6px;font-size:10px;font-weight:700;letter-spacing:.08em;color:#22d47a;text-transform:uppercase;">
+            <span style="width:5px;height:5px;border-radius:50%;background:#22d47a;display:inline-block;animation:pulse 2s infinite;"></span>
+            Ask Locations
+          </span>
+          <div style="display:flex;gap:6px;">
+            <button id="cw-chat-clear" title="Clear chat" style="background:transparent;border:1px solid rgba(255,255,255,0.12);color:rgba(234,234,234,0.55);font-family:Poppins,sans-serif;font-size:9px;font-weight:700;letter-spacing:.06em;padding:3px 7px;border-radius:5px;cursor:pointer;transition:all .15s;" onmouseover="this.style.borderColor='#fd6969';this.style.color='#fd6969';" onmouseout="this.style.borderColor='rgba(255,255,255,0.12)';this.style.color='rgba(234,234,234,0.55)';">CLEAR</button>
+            <button id="cw-chat-toggle" title="Hide" style="background:transparent;border:1px solid rgba(255,255,255,0.12);color:rgba(234,234,234,0.55);font-family:Poppins,sans-serif;font-size:11px;font-weight:700;padding:0 7px;border-radius:5px;cursor:pointer;line-height:1.5;transition:all .15s;" onmouseover="this.style.borderColor='rgba(255,255,255,0.3)';this.style.color='#fff';" onmouseout="this.style.borderColor='rgba(255,255,255,0.12)';this.style.color='rgba(234,234,234,0.55)';">−</button>
+          </div>
+        </div>
+        <div id="cw-chat-body">
+          <div id="cw-chat-msgs" style="display:flex;flex-direction:column;gap:5px;height:280px;overflow-y:auto;padding:10px 12px;font-size:11.5px;line-height:1.45;"></div>
+          <div style="display:flex;gap:6px;padding:8px 10px 10px;border-top:1px solid rgba(255,255,255,0.06);">
+            <input id="cw-chat-input" placeholder="e.g. Dallas to NYC" style="flex:1;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);border-radius:7px;padding:6px 9px;color:#eaeaea;font-family:Poppins,sans-serif;font-size:11.5px;outline:none;transition:border-color .15s,background .15s;" onfocus="this.style.borderColor='rgba(69,131,253,0.5)';this.style.background='rgba(69,131,253,0.07)';" onblur="this.style.borderColor='rgba(255,255,255,0.1)';this.style.background='rgba(255,255,255,0.04)';">
+            <button id="cw-chat-send" style="background:rgba(69,131,253,0.22);border:1px solid rgba(69,131,253,0.45);border-radius:7px;color:#cfe0ff;font-family:Poppins,sans-serif;font-weight:700;font-size:10.5px;padding:0 11px;cursor:pointer;letter-spacing:.05em;transition:all .15s;" onmouseover="this.style.background='rgba(69,131,253,0.32)';" onmouseout="this.style.background='rgba(69,131,253,0.22)';">SEND</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Horizontal LA sites strip -->
+    <div style="margin-top:10px;border-radius:14px;border:1px solid rgba(253,105,105,0.22);background:rgba(253,105,105,0.04);padding:12px 14px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:9px;">
+        <span style="font-size:10px;font-weight:700;letter-spacing:.08em;color:#fd6969;text-transform:uppercase;">LA Area · 8 Sites</span>
+        <span style="font-size:10px;font-weight:600;color:rgba(234,234,234,0.4);">Click to zoom</span>
+      </div>
+      <div id="cubework-la-list" style="display:flex;gap:8px;overflow-x:auto;font-family:Poppins,sans-serif;padding-bottom:2px;"></div>
+    </div>
+
   </div>
-  <canvas id="streak-confetti" style="display:none;"></canvas>
+
 
   <!-- Pomodoro -->
   <div class="bc bc-4 br-2" style="border-color:rgba(253,105,105,0.14);" id="pomo-card">
@@ -1036,6 +1103,476 @@
 
 <div class="footer">J's Command Center · Built with Claude Code · <span id="footer-date"></span></div>
 <div style="display:none"><span id="clock"></span><span id="clock-date"></span></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+<script>
+/* ── CUBEWORK MAP (Leaflet + dark tiles) ─────────────────────────────── */
+(function initCubeworkMap(){
+  const el=document.getElementById('cubework-leaflet-map');
+  if(!el || typeof L==='undefined') return;
+
+  const map=L.map(el,{
+    center:[39.5,-98.35],
+    zoom:4,
+    minZoom:3,
+    maxZoom:11,
+    zoomControl:true,
+    attributionControl:false,
+    scrollWheelZoom:false
+  });
+  // Carto Dark Matter tiles — clean dark Google-Maps-style basemap
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',{
+    subdomains:'abcd',
+    maxZoom:19
+  }).addTo(map);
+  L.control.attribution({prefix:false,position:'bottomright'})
+    .addAttribution('© OpenStreetMap · © CARTO').addTo(map);
+
+  // 8 LA-area locations — INDIVIDUAL red pins
+  const LA=[
+    {n:'Cubework Irvine',         a:'2323 Main St, Irvine, CA',          c:[33.6846,-117.8265]},
+    {n:'Cubework Ontario',        a:'3950 E Airport Dr, Ontario, CA',    c:[34.0633,-117.6509]},
+    {n:'Cubework City of Industry',a:'Pellissier Rd, City of Industry, CA',c:[34.0195,-117.9586]},
+    {n:'Cubework La Mirada',      a:'Valley View Ave, La Mirada, CA',    c:[33.9172,-118.0120]},
+    {n:'Cubework Azusa',          a:'S Azusa Ave, Azusa, CA',            c:[34.1336,-117.9076]},
+    {n:'Cubework Walnut',         a:'Machlin Ct, Walnut, CA',            c:[34.0203,-117.8654]},
+    {n:'Cubework Compton',        a:'Reyes Ave, Compton, CA',            c:[33.8958,-118.2201]},
+    {n:'Cubework Torrance',       a:'Western Ave, Torrance, CA',         c:[33.8358,-118.3406]}
+  ];
+  // 8 non-LA cities — ONE blue pin each
+  const CITIES=[
+    {city:'Hayward, CA',         c:[37.6688,-122.0808]},
+    {city:'West Sacramento, CA', c:[38.5805,-121.5302]},
+    {city:'Plano, TX',           c:[33.0198,-96.6989]},
+    {city:'Dallas, TX',          c:[32.7767,-96.7970]},
+    {city:'Kansas City, MO',     c:[39.0997,-94.5786]},
+    {city:'Glendale, AZ',        c:[33.5387,-112.1860]},
+    {city:'Woodridge, IL',       c:[41.7475,-88.0367]},
+    {city:'New York, NY',        c:[40.7128,-74.0060]}
+  ];
+
+  const redIcon=L.divIcon({
+    className:'cw-pin-red',
+    html:'<div style="width:14px;height:14px;border-radius:50%;background:#fd6969;border:2px solid #fff;box-shadow:0 0 0 4px rgba(253,105,105,0.25),0 2px 8px rgba(0,0,0,0.6);"></div>',
+    iconSize:[14,14],iconAnchor:[7,7]
+  });
+  const blueIcon=L.divIcon({
+    className:'cw-pin-blue',
+    html:'<div style="width:14px;height:14px;border-radius:50%;background:#4583fd;border:2px solid #fff;box-shadow:0 0 0 4px rgba(69,131,253,0.25),0 2px 8px rgba(0,0,0,0.6);"></div>',
+    iconSize:[14,14],iconAnchor:[7,7]
+  });
+
+  // ── Arrow + distance state ───────────────────────────────────────
+  let lastSelected=null;          // {coord:[lat,lon], label:string}
+  let currentArrow=null;          // L.polyline
+  let currentArrowLabel=null;     // L.marker
+  function haversineMi(a,b){
+    const R=3958.8, toRad=d=>d*Math.PI/180;
+    const dLat=toRad(b[0]-a[0]), dLon=toRad(b[1]-a[1]);
+    const la1=toRad(a[0]), la2=toRad(b[0]);
+    const x=Math.sin(dLat/2)**2 + Math.cos(la1)*Math.cos(la2)*Math.sin(dLon/2)**2;
+    return 2*R*Math.asin(Math.sqrt(x));
+  }
+  function clearArrow(){
+    if(currentArrow){map.removeLayer(currentArrow);currentArrow=null;}
+    if(currentArrowLabel){map.removeLayer(currentArrowLabel);currentArrowLabel=null;}
+  }
+  function drawArrow(from,to,fromLabel,toLabel){
+    clearArrow();
+    const miles=haversineMi(from.coord,to.coord);
+    const milesText=miles<10?miles.toFixed(1):Math.round(miles).toLocaleString();
+    currentArrow=L.polyline([from.coord,to.coord],{
+      color:'#fd6969',weight:2.5,opacity:0.9,
+      dashArray:'8,8',className:'cw-arrow-line'
+    }).addTo(map);
+    // Distance label at midpoint
+    const mid=[(from.coord[0]+to.coord[0])/2,(from.coord[1]+to.coord[1])/2];
+    const labelHtml='<div class="cw-arrow-label">'+
+      '<span class="cw-arrow-from">'+fromLabel+'</span>'+
+      '<span class="cw-arrow-arrow">→</span>'+
+      '<span class="cw-arrow-to">'+toLabel+'</span>'+
+      '<span class="cw-arrow-mi">'+milesText+' mi</span>'+
+    '</div>';
+    currentArrowLabel=L.marker(mid,{
+      icon:L.divIcon({className:'cw-arrow-label-wrap',html:labelHtml,iconSize:[null,null]}),
+      interactive:false
+    }).addTo(map);
+  }
+  function selectLocation(coord,label){
+    if(lastSelected && (lastSelected.coord[0]!==coord[0] || lastSelected.coord[1]!==coord[1])){
+      drawArrow(lastSelected,{coord},lastSelected.label,label);
+    }
+    lastSelected={coord,label};
+  }
+
+  // Build LA pins with hover tooltips + collect for sidebar
+  const laMarkers=[];
+  LA.forEach(p=>{
+    const short=p.n.replace('Cubework ','');
+    const m=L.marker(p.c,{icon:redIcon,title:p.n})
+      .bindTooltip(short,{
+        direction:'top',offset:[0,-10],
+        className:'cw-tip-red'
+      })
+      .bindPopup('<b style="font-family:Poppins,sans-serif;color:#fd6969">'+p.n+'</b><br><span style="font-family:Poppins,sans-serif;font-size:12px;color:rgba(234,234,234,0.7)">'+p.a+'</span>')
+      .addTo(map);
+    m.on('click',()=>selectLocation(p.c,short));
+    laMarkers.push({marker:m,name:p.n,addr:p.a,coord:p.c});
+  });
+  // Blue city pins with PERMANENT labels
+  CITIES.forEach(p=>{
+    const m=L.marker(p.c,{icon:blueIcon})
+      .bindTooltip(p.city,{
+        permanent:true,direction:'right',offset:[10,0],
+        className:'cw-tip-blue'
+      })
+      .bindPopup('<b style="font-family:Poppins,sans-serif;color:#4583fd">'+p.city+'</b><br><span style="font-family:Poppins,sans-serif;font-size:12px;color:rgba(234,234,234,0.7)">1 location</span>')
+      .addTo(map);
+    m.on('click',()=>selectLocation(p.c,p.city));
+  });
+
+  // Build horizontal LA chips strip
+  const listEl=document.getElementById('cubework-la-list');
+  if(listEl){
+    listEl.innerHTML=laMarkers.map((row,i)=>{
+      const short=row.name.replace('Cubework ','');
+      return '<button data-idx="'+i+'" class="cw-la-item" style="flex-shrink:0;text-align:left;background:rgba(255,255,255,0.03);border:1px solid rgba(253,105,105,0.18);border-radius:9px;padding:7px 12px;color:#eaeaea;font-family:Poppins,sans-serif;font-size:11.5px;font-weight:600;cursor:pointer;transition:all .15s;display:flex;align-items:center;gap:7px;white-space:nowrap;">'+
+        '<span style="width:7px;height:7px;border-radius:50%;background:#fd6969;flex-shrink:0;box-shadow:0 0 0 3px rgba(253,105,105,0.18);"></span>'+
+        short+
+      '</button>';
+    }).join('');
+    listEl.querySelectorAll('.cw-la-item').forEach(btn=>{
+      btn.addEventListener('mouseenter',()=>{btn.style.background='rgba(253,105,105,0.14)';btn.style.borderColor='rgba(253,105,105,0.5)';btn.style.transform='translateY(-1px)';});
+      btn.addEventListener('mouseleave',()=>{btn.style.background='rgba(255,255,255,0.03)';btn.style.borderColor='rgba(253,105,105,0.18)';btn.style.transform='translateY(0)';});
+      btn.addEventListener('click',()=>{
+        const i=+btn.dataset.idx;const row=laMarkers[i];
+        const short=row.name.replace('Cubework ','');
+        selectLocation(row.coord,short);
+        map.setView(row.coord,13,{animate:true});
+        row.marker.openPopup();
+      });
+    });
+  }
+
+  // U.S. <-> LA view toggle
+  const US_VIEW={center:[39.5,-98.35],zoom:4};
+  const LA_BOUNDS=L.latLngBounds(LA.map(p=>p.c)).pad(0.25);
+  const toggleBtns=document.querySelectorAll('#cubework-view-toggle .cw-view-btn');
+  function setActive(view){
+    toggleBtns.forEach(b=>{
+      const active=b.dataset.view===view;
+      b.classList.toggle('cw-view-active',active);
+      b.style.background=active ? (view==='us'?'rgba(69,131,253,0.18)':'rgba(253,105,105,0.18)') : 'transparent';
+      b.style.color=active ? (view==='us'?'#cfe0ff':'#ffd5d5') : 'rgba(234,234,234,0.6)';
+    });
+  }
+  toggleBtns.forEach(b=>{
+    b.addEventListener('click',()=>{
+      const view=b.dataset.view;
+      setActive(view);
+      clearArrow();lastSelected=null;
+      if(view==='us'){
+        map.flyTo(US_VIEW.center,US_VIEW.zoom,{animate:true,duration:1.2});
+      } else {
+        map.flyToBounds(LA_BOUNDS,{animate:true,duration:1.2,paddingTopLeft:[40,40],paddingBottomRight:[40,40]});
+      }
+    });
+  });
+
+  // Re-fit on first paint
+  setTimeout(()=>map.invalidateSize(),100);
+
+  // ── LOCATIONS CHAT (rule-based, no API key) ───────────────────────
+  const ALL_LOCS=[
+    ...LA.map(p=>({name:p.n.replace('Cubework ',''),addr:p.a,coord:p.c,kind:'la',
+                   aliases:[p.n.replace('Cubework ','').toLowerCase()]})),
+    ...CITIES.map(p=>{
+      const city=p.city.split(',')[0].trim().toLowerCase();
+      const aliases=[p.city.toLowerCase(),city];
+      if(city==='new york') aliases.push('nyc','ny','new york city');
+      if(city==='kansas city') aliases.push('kc','kansas');
+      if(city==='west sacramento') aliases.push('sacramento','west sac');
+      if(city==='los angeles') aliases.push('la','los angeles');
+      return {name:p.city,coord:p.c,kind:'city',aliases};
+    })
+  ];
+  // "LA" as alias resolves to a centroid of LA pins
+  const LA_CENTROID={
+    name:'LA Area',
+    coord:[LA.reduce((a,p)=>a+p.c[0],0)/LA.length, LA.reduce((a,p)=>a+p.c[1],0)/LA.length],
+    kind:'meta', aliases:['la','los angeles','la area']
+  };
+
+  function findLoc(text){
+    const t=' '+text.toLowerCase()+' ';
+    let best=null;
+    [...ALL_LOCS,LA_CENTROID].forEach(loc=>{
+      loc.aliases.forEach(a=>{
+        const idx=t.indexOf(' '+a+' ')>=0 ? t.indexOf(' '+a+' ') :
+                  t.indexOf(a)>=0 ? t.indexOf(a) : -1;
+        if(idx>=0 && (!best || a.length>best.alias.length)){
+          best={loc,alias:a,idx};
+        }
+      });
+    });
+    return best;
+  }
+  function findTwoLocs(text){
+    const t=text.toLowerCase();
+    // Try "from X to Y" pattern first
+    const m=t.match(/from\s+(.+?)\s+to\s+(.+)/);
+    if(m){
+      const a=findLoc(m[1]), b=findLoc(m[2]);
+      if(a && b && a.loc!==b.loc) return [a.loc,b.loc];
+    }
+    // Otherwise: find first two distinct location mentions in order
+    const found=[];const seen=new Set();
+    [...ALL_LOCS,LA_CENTROID].forEach(loc=>{
+      loc.aliases.forEach(a=>{
+        const i=t.indexOf(a);
+        if(i>=0 && !seen.has(loc.name)){found.push({loc,i});seen.add(loc.name);}
+      });
+    });
+    found.sort((x,y)=>x.i-y.i);
+    if(found.length>=2) return [found[0].loc,found[1].loc];
+    return null;
+  }
+  function fmtDist(mi){return mi<10?mi.toFixed(1):Math.round(mi).toLocaleString();}
+  function fmtDriveTime(mi){
+    // estimate: 60 mph average highway/city blend
+    const hrs=(mi*1.3)/60;
+    if(hrs<1) return Math.round(hrs*60)+' min';
+    const h=Math.floor(hrs), m=Math.round((hrs-h)*60);
+    return h+'h '+(m?m+'m':'');
+  }
+
+  function answer(q){
+    const t=q.toLowerCase().trim();
+    if(!t) return null;
+    // Greetings
+    if(/^(hi|hey|hello|yo|sup)\b/.test(t)){
+      return 'Hey 👋 Try asking: <i>"distance from Dallas to NYC"</i>, <i>"drive time from Irvine to Compton"</i>, <i>"how many in Texas"</i>, or <i>"nearest to Plano"</i>.';
+    }
+    // Help
+    if(/help|what can you do|examples/.test(t)){
+      return 'I can answer:<br>• <b>Distance</b>: "how far from X to Y"<br>• <b>Drive time</b>: "drive time from X to Y"<br>• <b>Count</b>: "how many in California"<br>• <b>List</b>: "list LA sites" or "all locations"<br>• <b>Nearest</b>: "nearest to Plano"';
+    }
+    // List intents
+    if(/list|show.*all|all locations|all sites|every/.test(t)){
+      if(/\bla\b|los angeles/.test(t)){
+        return '<b>LA Area · 8 sites:</b><br>'+LA.map(p=>'• '+p.n.replace('Cubework ','')).join('<br>');
+      }
+      if(/cit(y|ies)|non.la|outside la/.test(t)){
+        return '<b>Non-LA cities · 8 markets:</b><br>'+CITIES.map(p=>'• '+p.city).join('<br>');
+      }
+      return '<b>All 16 Cubework locations:</b><br>'+
+        '<b>LA Area:</b> '+LA.map(p=>p.n.replace('Cubework ','')).join(', ')+'<br>'+
+        '<b>Other cities:</b> '+CITIES.map(p=>p.city).join(', ');
+    }
+    // Count by state
+    const stateMatch=t.match(/\b(california|ca|texas|tx|arizona|az|missouri|mo|illinois|il|new york|ny)\b/);
+    if(/how many|count/.test(t) && stateMatch){
+      const s=stateMatch[1];
+      const map={california:'CA',ca:'CA',texas:'TX',tx:'TX',arizona:'AZ',az:'AZ',
+                 missouri:'MO',mo:'MO',illinois:'IL',il:'IL','new york':'NY',ny:'NY'};
+      const code=map[s];
+      const inLA=code==='CA'?LA.length:0;
+      const cityCount=CITIES.filter(c=>c.city.endsWith(', '+code)).length;
+      const total=inLA+cityCount;
+      if(total===0) return 'No Cubework locations in '+code+' yet.';
+      let out=total+' Cubework location'+(total>1?'s':'')+' in '+code+':';
+      if(inLA) out+='<br>• '+inLA+' LA-area sites';
+      CITIES.filter(c=>c.city.endsWith(', '+code)).forEach(c=>{out+='<br>• '+c.city.split(',')[0];});
+      return out;
+    }
+    // Nearest to X
+    const nearM=t.match(/nearest|closest/);
+    if(nearM){
+      const loc=findLoc(t);
+      if(!loc) return 'Which location should I find the nearest to? Try "nearest to Plano".';
+      const others=[...ALL_LOCS].filter(l=>l.name!==loc.loc.name);
+      let min=Infinity, near=null;
+      others.forEach(o=>{
+        const d=haversineMi(loc.loc.coord,o.coord);
+        if(d<min){min=d;near=o;}
+      });
+      return '<b>'+near.name+'</b> is the closest Cubework site to <b>'+loc.loc.name+'</b> — '+fmtDist(min)+' mi away (~'+fmtDriveTime(min)+' drive).';
+    }
+    // Distance / drive time between two
+    const isDrive=/driv|how long|time/.test(t);
+    const isDist=/far|distance|miles|how long|drive|drives/.test(t) || isDrive;
+    const pair=findTwoLocs(t);
+    if(pair){
+      const [a,b]=pair;
+      const mi=haversineMi(a.coord,b.coord);
+      // Draw the arrow on the map for this query
+      selectLocation(a.coord,a.name); selectLocation(b.coord,b.name);
+      if(isDrive){
+        return '<b>'+a.name+'</b> → <b>'+b.name+'</b><br>~'+fmtDist(mi*1.3)+' mi by road · ~'+fmtDriveTime(mi)+' drive (estimate)';
+      }
+      return '<b>'+a.name+'</b> → <b>'+b.name+'</b><br>'+fmtDist(mi)+' mi straight-line · ~'+fmtDriveTime(mi)+' drive';
+    }
+    // Single location info
+    const single=findLoc(t);
+    if(single){
+      const l=single.loc;
+      if(l.kind==='la')return '<b>'+l.name+'</b> — '+l.addr+' (LA Area site)';
+      if(l.kind==='city')return '<b>'+l.name+'</b> — 1 Cubework location';
+      return '<b>'+l.name+'</b> — center of the LA cluster (8 sites).';
+    }
+    return "I didn't catch a location. Try <i>\"distance from Dallas to NYC\"</i> or type <i>help</i>.";
+  }
+
+  // Wire chat UI
+  const chatMsgs=document.getElementById('cw-chat-msgs');
+  const chatInput=document.getElementById('cw-chat-input');
+  const chatSend=document.getElementById('cw-chat-send');
+  function appendMsg(html,who){
+    const wrap=document.createElement('div');
+    wrap.className='cw-msg cw-msg-'+who;
+    wrap.innerHTML=html;
+    chatMsgs.appendChild(wrap);
+    chatMsgs.scrollTop=chatMsgs.scrollHeight;
+  }
+  appendMsg('Hey! Ask me anything about the 16 Cubework locations 🌐<br><span style="opacity:.6;font-size:11px;">Try: "drive time from Irvine to Compton" or "how many in Texas"</span>','bot');
+  function send(){
+    const q=chatInput.value.trim();if(!q)return;
+    appendMsg(q.replace(/</g,'&lt;'),'user');
+    chatInput.value='';
+    setTimeout(()=>appendMsg(answer(q)||"Hmm, I couldn't parse that. Try <i>help</i>.",'bot'),250);
+  }
+  chatSend && chatSend.addEventListener('click',send);
+  chatInput && chatInput.addEventListener('keydown',e=>{if(e.key==='Enter')send();});
+  const chatClear=document.getElementById('cw-chat-clear');
+  function resetChat(){
+    chatMsgs.innerHTML='';
+    appendMsg('Hey! Ask me anything about the 16 Cubework locations 🌐<br><span style="opacity:.6;font-size:10.5px;">Try: "drive time from Irvine to Compton" or "how many in Texas"</span>','bot');
+    clearArrow();lastSelected=null;
+  }
+  chatClear && chatClear.addEventListener('click',resetChat);
+
+  // Stop map from receiving events when interacting with chat overlay
+  const chatOverlay=document.getElementById('cw-chat-overlay');
+  if(chatOverlay){
+    L.DomEvent.disableClickPropagation(chatOverlay);
+    L.DomEvent.disableScrollPropagation(chatOverlay);
+  }
+
+  // Minimize / restore chat
+  const chatToggle=document.getElementById('cw-chat-toggle');
+  const chatBody=document.getElementById('cw-chat-body');
+  let chatHidden=false;
+  chatToggle && chatToggle.addEventListener('click',()=>{
+    chatHidden=!chatHidden;
+    chatBody.style.display=chatHidden?'none':'';
+    chatToggle.textContent=chatHidden?'+':'−';
+    chatToggle.title=chatHidden?'Show':'Hide';
+  });
+})();
+</script>
+<style>
+  #cubework-leaflet-map .leaflet-popup-content-wrapper{background:#13141c;border:1px solid rgba(255,255,255,0.12);border-radius:10px;color:#eaeaea;}
+  #cubework-leaflet-map .leaflet-popup-tip{background:#13141c;}
+  #cubework-leaflet-map .leaflet-popup-content{margin:10px 14px;line-height:1.5;}
+  #cubework-leaflet-map .leaflet-popup-content span{color:rgba(234,234,234,0.7) !important;}
+  #cubework-leaflet-map .leaflet-control-zoom a{background:#13141c;color:#eaeaea;border-color:rgba(255,255,255,0.12);}
+  #cubework-leaflet-map .leaflet-control-zoom a:hover{background:#1f2030;}
+  #cubework-leaflet-map .leaflet-control-attribution{background:rgba(0,0,0,0.5);color:rgba(255,255,255,0.4);font-size:9px;}
+  #cubework-leaflet-map .leaflet-control-attribution a{color:rgba(255,255,255,0.5);}
+  /* Permanent city labels (blue) */
+  #cubework-leaflet-map .cw-tip-blue{
+    background:rgba(20,22,32,0.92);
+    border:1px solid rgba(69,131,253,0.55);
+    color:#cfe0ff;
+    font-family:'Poppins',sans-serif;
+    font-size:11px;
+    font-weight:600;
+    padding:3px 8px;
+    border-radius:6px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.5);
+    white-space:nowrap;
+  }
+  #cubework-leaflet-map .cw-tip-blue::before{display:none;}
+  /* Hover tooltips (red LA pins) */
+  #cubework-leaflet-map .cw-tip-red{
+    background:rgba(253,105,105,0.95);
+    border:1px solid #fff;
+    color:#fff;
+    font-family:'Poppins',sans-serif;
+    font-size:11px;
+    font-weight:700;
+    padding:4px 9px;
+    border-radius:6px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.6);
+    white-space:nowrap;
+    letter-spacing:.02em;
+  }
+  #cubework-leaflet-map .cw-tip-red::before{border-top-color:rgba(253,105,105,0.95);}
+  #cubework-la-list::-webkit-scrollbar{height:5px;}
+  #cubework-la-list::-webkit-scrollbar-thumb{background:rgba(253,105,105,0.25);border-radius:3px;}
+  #cubework-la-list::-webkit-scrollbar-thumb:hover{background:rgba(253,105,105,0.4);}
+  #cubework-la-list::-webkit-scrollbar-track{background:transparent;}
+  /* View toggle buttons */
+  .cw-view-btn:hover:not(.cw-view-active){background:rgba(255,255,255,0.06)!important;color:#eaeaea!important;}
+  /* Animated arrow line (between selected locations) */
+  @keyframes cwArrowFlow{to{stroke-dashoffset:-32;}}
+  @keyframes cwArrowDraw{from{stroke-dashoffset:1200;}to{stroke-dashoffset:0;}}
+  #cubework-leaflet-map .cw-arrow-line{
+    filter:drop-shadow(0 0 4px rgba(253,105,105,0.6));
+    animation:cwArrowDraw 0.7s ease-out, cwArrowFlow 1.2s linear 0.7s infinite;
+  }
+  /* Distance label between locations */
+  .cw-arrow-label-wrap{background:transparent;border:0;}
+  .cw-arrow-label{
+    display:inline-flex;align-items:center;gap:7px;
+    background:rgba(15,16,24,0.95);
+    border:1px solid rgba(253,105,105,0.55);
+    border-radius:9px;
+    padding:5px 11px;
+    font-family:'Poppins',sans-serif;
+    font-size:11px;
+    font-weight:600;
+    color:#eaeaea;
+    white-space:nowrap;
+    box-shadow:0 4px 14px rgba(0,0,0,0.55), 0 0 24px rgba(253,105,105,0.15);
+    transform:translate(-50%,-50%);
+    animation:cwLabelPop 0.45s cubic-bezier(.2,.9,.3,1.4) both;
+  }
+  @keyframes cwLabelPop{
+    0%{opacity:0;transform:translate(-50%,-50%) scale(0.6);}
+    100%{opacity:1;transform:translate(-50%,-50%) scale(1);}
+  }
+  .cw-arrow-from{color:rgba(234,234,234,0.7);}
+  .cw-arrow-arrow{color:#fd6969;font-weight:900;animation:cwArrowPulse 1.4s ease-in-out infinite;}
+  @keyframes cwArrowPulse{0%,100%{opacity:0.6;transform:translateX(0);}50%{opacity:1;transform:translateX(2px);}}
+  .cw-arrow-to{color:#fff;font-weight:700;}
+  .cw-arrow-mi{
+    color:#fd6969;font-weight:800;letter-spacing:.04em;
+    background:rgba(253,105,105,0.12);
+    border:1px solid rgba(253,105,105,0.35);
+    border-radius:5px;padding:1px 7px;margin-left:3px;
+    font-size:10.5px;
+  }
+  /* Chat bubbles */
+  .cw-msg{padding:8px 12px;border-radius:10px;max-width:85%;animation:cwMsgIn .3s ease-out;}
+  @keyframes cwMsgIn{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:translateY(0);}}
+  .cw-msg-user{align-self:flex-end;background:rgba(69,131,253,0.16);border:1px solid rgba(69,131,253,0.32);color:#cfe0ff;}
+  .cw-msg-bot{align-self:flex-start;background:rgba(255,255,255,0.04);border:1px solid var(--border);color:var(--text-1);}
+  .cw-msg-bot b{color:#fd6969;}
+  .cw-msg-bot i{color:rgba(234,234,234,0.6);font-style:normal;background:rgba(255,255,255,0.04);padding:1px 5px;border-radius:4px;font-size:11.5px;}
+  #cw-chat-msgs::-webkit-scrollbar{width:5px;}
+  #cw-chat-msgs::-webkit-scrollbar-thumb{background:rgba(255,255,255,0.1);border-radius:3px;}
+  /* Rotating wireframe globe */
+  @keyframes cwGlobeSpin{from{transform:rotateY(0deg);}to{transform:rotateY(360deg);}}
+  .cw-globe{filter:drop-shadow(0 0 8px rgba(69,131,253,0.35));}
+  .cw-globe .cw-globe-spin{
+    transform-box:fill-box;
+    transform-origin:center;
+    animation:cwGlobeSpin 8s linear infinite;
+  }
+  @keyframes cwGlobeFloat{0%,100%{transform:translateY(0);}50%{transform:translateY(-2px);}}
+  .cw-globe{animation:cwGlobeFloat 4s ease-in-out infinite;}
+</style>
 
 <script>
 const fadeObserver=new IntersectionObserver(entries=>{entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');fadeObserver.unobserve(e.target);}});},{threshold:.01,rootMargin:'0px 0px -20px 0px'});
@@ -1111,6 +1648,8 @@ function streakConfetti(){
   draw();
 }
 function initStreak(){
+  // Streak card removed — bail if its elements aren't in the DOM
+  if(!document.getElementById('streak-num'))return;
   // Streak is manually updated — only changes when a build milestone is confirmed
   const d={streak:1,best:1,milestonesSeen:[]};
   const isNewDay=false;
