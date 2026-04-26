@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T00:07:19.712Z",
+  "lastUpdated": "2026-04-26T00:15:08.012Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,37 +130,37 @@
     "gmailSummary": "",
     "outlook": [
       {
-        "from": "Unknown",
+        "from": "team@mail.notion.so",
         "subject": "Want to use Notion 50% faster?",
         "timestamp": "2026-04-25T17:00:13+00:00",
         "unread": true
       },
       {
-        "from": "Unknown",
+        "from": "Erika.Xu@cubework.com",
         "subject": "Accepted: Property + Operations Flow Review",
         "timestamp": "2026-04-24T22:48:41+00:00",
         "unread": false
       },
       {
-        "from": "Unknown",
+        "from": "walnut_meeting_room@cubework.com",
         "subject": "Accepted: Property + Operations Flow Review",
         "timestamp": "2026-04-24T22:33:10+00:00",
         "unread": false
       },
       {
-        "from": "Unknown",
+        "from": "no-reply@teams.mail.microsoft",
         "subject": "Clarissa Rodriguez is trying to reach you in Microsoft Teams",
         "timestamp": "2026-04-24T17:35:05+00:00",
         "unread": false
       },
       {
-        "from": "Unknown",
+        "from": "no-reply@cubework.com",
         "subject": "Your OTP for Authentication",
         "timestamp": "2026-04-24T17:19:23+00:00",
         "unread": false
       }
     ],
-    "outlookUpdated": "2026-04-26T00:07:19.712Z"
+    "outlookUpdated": "2026-04-26T00:15:08.006Z"
   },
   "agenda": [
     {
