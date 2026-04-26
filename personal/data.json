@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T09:12:10.488Z",
+  "lastUpdated": "2026-04-26T09:13:07.558Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-04-26T08:57:31.861Z",
     "gorgias": [
       {
+        "id": 95354424,
+        "subject": "The data is in: spring is TikTok Shop's biggest quarter",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-26T09:08:10.961000+00:00"
+      },
+      {
         "id": 95346424,
         "subject": "Your Google Play Order Receipt from Apr 25, 2026",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-25T23:52:11+00:00"
-      },
-      {
-        "id": 95264892,
-        "subject": "The data is in: spring is TikTok Shop's biggest quarter",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-25T18:28:25.164000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-26T08:06:33.125Z",
+    "gorgiasUpdated": "2026-04-26T09:13:06.959Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
