@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T11:24:49.230Z",
+  "lastUpdated": "2026-04-26T11:24:57.536Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-04-26T10:42:50.758Z",
     "gorgias": [
       {
+        "id": 95359203,
+        "subject": "Light, flexible soles for your 3D printed slides & Glides?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-26T11:11:40+00:00"
+      },
+      {
         "id": 95354424,
         "subject": "The data is in: spring is TikTok Shop's biggest quarter",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-26T00:58:32.801000+00:00"
-      },
-      {
-        "id": 95321426,
-        "subject": "Refund Initiated for Order 113-0712411-7560233",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-25T23:52:11+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-26T10:26:49.538Z",
+    "gorgiasUpdated": "2026-04-26T11:24:57.276Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
