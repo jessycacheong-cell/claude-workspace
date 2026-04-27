@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T19:45:10.194Z",
+  "lastUpdated": "2026-04-27T19:48:10.971Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "opensky",
+        "subject": "Congrats on your new opensky card!",
+        "timestamp": "2026-04-27T18:33:03.000Z",
+        "unread": true
+      },
+      {
         "from": "Alec Brian Dsouza",
         "subject": "1164 -Palmdale-Product Trainer 1",
         "timestamp": "2026-04-27T16:57:25.000Z",
@@ -79,15 +85,9 @@
         "subject": "⏳ 5 Days Left If You Haven’t Claimed Your LOONA Yet!",
         "timestamp": "2026-04-27T14:04:12.000Z",
         "unread": true
-      },
-      {
-        "from": "Unisco",
-        "subject": "Unisco mentioned you in their announcement",
-        "timestamp": "2026-04-27T14:01:10.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-04-27T18:02:59.643Z",
+    "gmailUpdated": "2026-04-27T19:48:10.774Z",
     "gorgias": [
       {
         "id": 95550263,
