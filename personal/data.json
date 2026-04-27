@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T18:00:10.046Z",
+  "lastUpdated": "2026-04-27T18:02:59.863Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Alec Brian Dsouza",
+        "subject": "1164 -Palmdale-Product Trainer 1",
+        "timestamp": "2026-04-27T16:57:25.000Z",
+        "unread": true
+      },
+      {
         "from": "Pinterest",
         "subject": "Formula one for Jessyca",
         "timestamp": "2026-04-27T16:32:58.000Z",
@@ -79,15 +85,9 @@
         "subject": "Unisco mentioned you in their announcement",
         "timestamp": "2026-04-27T14:01:10.000Z",
         "unread": true
-      },
-      {
-        "from": "Starbucks",
-        "subject": "Miranda. Andy. Nigel. Emily. 👠☕",
-        "timestamp": "2026-04-27T12:10:46.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-04-27T16:55:02.618Z",
+    "gmailUpdated": "2026-04-27T18:02:59.643Z",
     "gorgias": [
       {
         "id": 95534941,
