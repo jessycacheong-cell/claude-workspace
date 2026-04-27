@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T17:00:10.993Z",
+  "lastUpdated": "2026-04-27T17:10:03.116Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-04-27T16:55:02.618Z",
     "gorgias": [
       {
+        "id": 95534941,
+        "subject": "Your Week In Reviews For UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-27T17:02:33+00:00"
+      },
+      {
+        "id": 95520433,
+        "subject": "Update to Shopify Payments terms: personalized payment methods at checkout",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-27T15:57:24+00:00"
+      },
+      {
+        "id": 95515434,
+        "subject": "New exclusives for Creative Cloud members",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-27T15:34:55+00:00"
+      },
+      {
         "id": 95501987,
         "subject": "Store review update",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-27T14:27:37+00:00"
-      },
-      {
-        "id": 95495326,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-27T14:00:16+00:00"
-      },
-      {
-        "id": 95486693,
-        "subject": "Early-bird pricing has been extended—Register now for $99",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-27T13:07:33+00:00"
-      },
-      {
-        "id": 95485403,
-        "subject": "Ask anything about tracking conversions of your Google Ads",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-27T13:00:47+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-27T15:17:51.757Z",
+    "gorgiasUpdated": "2026-04-27T17:10:02.983Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
