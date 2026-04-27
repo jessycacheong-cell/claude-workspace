@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T17:10:03.116Z",
+  "lastUpdated": "2026-04-27T17:15:12.208Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,6 +130,12 @@
     "gmailSummary": "",
     "outlook": [
       {
+        "from": "team@mail.notion.so",
+        "subject": "Perfect meeting memory ",
+        "timestamp": "2026-04-27T17:00:35+00:00",
+        "unread": true
+      },
+      {
         "from": "Erika.Xu@cubework.com",
         "subject": "Accepted: Property + Operations Flow Review",
         "timestamp": "2026-04-27T16:11:32+00:00",
@@ -152,15 +158,9 @@
         "subject": "Notion Calendar is designed for focus",
         "timestamp": "2026-04-27T07:01:24+00:00",
         "unread": true
-      },
-      {
-        "from": "jessyca.cheong@cubework.com",
-        "subject": "https://j-command-center.netlify.app/",
-        "timestamp": "2026-04-26T21:19:51+00:00",
-        "unread": false
       }
     ],
-    "outlookUpdated": "2026-04-27T17:00:10.985Z"
+    "outlookUpdated": "2026-04-27T17:15:12.201Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-04-27T16:56:13.482Z",
