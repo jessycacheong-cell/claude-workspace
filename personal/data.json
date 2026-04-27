@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T21:00:09.142Z",
+  "lastUpdated": "2026-04-27T21:14:51.906Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -220,6 +220,16 @@
   "gantt": {
     "tasks": [
       {
+        "name": "Organize AI-agent content requirements",
+        "status": "Not started",
+        "team": "Christine",
+        "start": "2026-04-29",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Organize-AI-agent-content-requirements-34a2c564dcb18085b78af78ec2d500d3"
+      },
+      {
         "name": "Meet every pillar lead: Xavier, Kevin, Kuan, Drew, Jessica Chen",
         "status": "Done",
         "team": "Christine",
@@ -230,7 +240,7 @@
         "url": "https://www.notion.so/Meet-every-pillar-lead-Xavier-Kevin-Kuan-Drew-Jessica-Chen-34a2c564dcb181029a21e31ae94d2bb4"
       },
       {
-        "name": "1:1 with Christine — scorecard walkthrough, Month 3 gates, expectations",
+        "name": "1:1 with Christine scorecard walkthrough, Month 3 gates, expectations",
         "status": "Done",
         "team": "Christine",
         "start": "2026-04-20",
@@ -240,7 +250,7 @@
         "url": "https://www.notion.so/1-1-with-Christine-scorecard-walkthrough-Month-3-gates-expectations-34a2c564dcb1810a8d6acf058f96e80a"
       },
       {
-        "name": "Read both training decks — company overview + ops deep dive",
+        "name": "Read both training decks  company overview + ops deep dive",
         "status": "Done",
         "team": "Christine",
         "start": "2026-04-20",
@@ -250,7 +260,7 @@
         "url": "https://www.notion.so/Read-both-training-decks-company-overview-ops-deep-dive-34a2c564dcb18118b042fafaa880b805"
       },
       {
-        "name": "Tour Machlin Ct with FM — first real-world look at a live location",
+        "name": "Tour Machlin Ct with FM  first real-world look at a live location",
         "status": "Done",
         "team": "Kwan",
         "start": "2026-04-21",
@@ -270,8 +280,8 @@
         "url": "https://www.notion.so/System-access-live-Yardi-UNIS-app-cubework-com-Notion-Google-Drive-Claude-34a2c564dcb181489044f731e277f01e"
       },
       {
-        "name": "Old PM reality — what Erika did manually every day, what broke",
-        "status": "Not started",
+        "name": "Old PM reality  what Erika did manually every day, what broke",
+        "status": "Done",
         "team": "Erica",
         "start": "2026-04-22",
         "end": "2026-04-22",
@@ -283,8 +293,8 @@
         "name": "Agent architecture walkthrough//Align with Kwan",
         "status": "Not started",
         "team": "Kwan",
-        "start": "2026-04-24",
-        "end": "2026-04-26",
+        "start": "2026-04-23",
+        "end": "2026-04-24",
         "milestone": false,
         "progress": 100,
         "url": "https://www.notion.so/Agent-architecture-walkthrough-Align-with-Kwan-34a2c564dcb181759fffcfb65ee1a536"
@@ -304,22 +314,172 @@
         "status": "Not started",
         "team": "Drew Trinidad",
         "start": "2026-04-22",
-        "end": null,
+        "end": "2026-04-23",
         "milestone": true,
-        "progress": 0,
+        "progress": 100,
         "url": "https://www.notion.so/Map-the-current-operational-workflow-before-designing-more-34a2c564dcb1818994afe82a59978ed1"
       },
       {
         "name": "Do field observation / site visit",
         "status": "Not started",
         "team": "Kwan",
-        "start": "2026-04-24",
+        "start": "2026-04-29",
         "end": null,
         "milestone": true,
         "progress": 0,
         "url": "https://www.notion.so/Do-field-observation-site-visit-34a2c564dcb1818b8f71c09a79bbb22f"
+      },
+      {
+        "name": "Talk to Drew / facility side after you have some structure",
+        "status": "In progress",
+        "team": "Marcus & Joseph",
+        "start": "2026-04-30",
+        "end": null,
+        "milestone": true,
+        "progress": 0,
+        "url": "https://www.notion.so/Talk-to-Drew-facility-side-after-you-have-some-structure-34a2c564dcb181989a8bd5851005efc4"
+      },
+      {
+        "name": "Create the temporary data collection layer",
+        "status": "Not started",
+        "team": "Marcus & Joseph",
+        "start": "2026-04-27",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Create-the-temporary-data-collection-layer-34a2c564dcb1819db9fbf4635ffd685d"
+      },
+      {
+        "name": "Review 50+ UNIS tickets — patterns, failures, what never gets closed",
+        "status": "Not started",
+        "team": "Marcus & Joseph",
+        "start": "2026-04-30",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Review-50-UNIS-tickets-patterns-failures-what-never-gets-closed-34a2c564dcb181b7ac76d2806097db78"
+      },
+      {
+        "name": "Independent — start building Notion structure from everything extracted",
+        "status": "In progress",
+        "team": "Christine",
+        "start": "2026-05-01",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Independent-start-building-Notion-structure-from-everything-extracted-34a2c564dcb181d98322e51dde4ece8b"
+      },
+      {
+        "name": "Month 1: complete the Phase 1 audit of Facility Operations and deliver it to Christine on Day 30",
+        "status": "Not started",
+        "team": null,
+        "start": "2026-05-20",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Month-1-complete-the-Phase-1-audit-of-Facility-Operations-and-deliver-it-to-Christine-on-Day-30-34b2c564dcb180eb8aabe84c811252c9"
+      },
+      {
+        "name": "Month 3: G1Ops audit complete//Gate 2 — All 50 AI agents live, stable, and QA'd//Gate 3 — SOPs + QA protocol running//Gate 4 — Lead PM layer in place",
+        "status": "Not started",
+        "team": null,
+        "start": "2026-06-26",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Month-3-G1Ops-audit-complete-Gate-2-All-50-AI-agents-live-stable-and-QA-d-Gate-3-SOPs-QA--34f2c564dcb1800a87ace9923ed3e409"
+      },
+      {
+        "name": "Playbook build // 10 request types documented",
+        "status": "Not started",
+        "team": null,
+        "start": "2026-05-22",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Playbook-build-10-request-types-documented-34f2c564dcb1800a9b9dd3e6e691b4e5"
+      },
+      {
+        "name": "Regional restructuring support",
+        "status": "Not started",
+        "team": null,
+        "start": "2026-05-27",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Regional-restructuring-support-34f2c564dcb18037a501f756345ad9c6"
+      },
+      {
+        "name": "QA dashboard live by Month 2 — Notion-based v1 is acceptable",
+        "status": "Not started",
+        "team": null,
+        "start": "2026-05-22",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/QA-dashboard-live-by-Month-2-Notion-based-v1-is-acceptable-34f2c564dcb18045aec2ffe012a0b0fb"
+      },
+      {
+        "name": "Site visit to Texas (11 buildings), South Carolina, and New York/New Jersey",
+        "status": "Not started",
+        "team": null,
+        "start": "2026-05-01",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Site-visit-to-Texas-11-buildings-South-Carolina-and-New-York-New-Jersey-34f2c564dcb1805a8f76dc84372bd7c2"
+      },
+      {
+        "name": "Month 2:  is the most operationally intense period of your first 90 days. Two things must be true by Day 60: all 50 AI Property Managers are live, and the QA dashboard is running. These are your non-negotiables.",
+        "status": "Not started",
+        "team": null,
+        "start": "2026-05-21",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Month-2-is-the-most-operationally-intense-period-of-your-first-90-days-Two-things-must-be-true-by-34f2c564dcb18072bce5d051f29ef9e6"
+      },
+      {
+        "name": "Month 3 gate review with Christine//All four gates met = early raise. Missing any gate = next checkpoint is Month 6 formal review, then Month 8 year-end. Walk into that review with documentation for every gate — don't rely on memory or verbal claims.",
+        "status": "Not started",
+        "team": null,
+        "start": "2026-07-20",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Month-3-gate-review-with-Christine-All-four-gates-met-early-raise-Missing-any-gate-next-checkp-34f2c564dcb180789484e494b3958323"
+      },
+      {
+        "name": "Facility Ops SOP library — first draft",
+        "status": "Not started",
+        "team": null,
+        "start": "2026-05-26",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Facility-Ops-SOP-library-first-draft-34f2c564dcb180839f70e3302d45cafd"
+      },
+      {
+        "name": "Month 3:",
+        "status": "Not started",
+        "team": null,
+        "start": "2026-06-23",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Month-3-34f2c564dcb1808b9bceef295e662b43"
+      },
+      {
+        "name": "Day 60: KPI targets from your scorecard: all 50 AI agents live, QA dashboard live and running, 2,500+ tenant emails processed, all playbooks documented, agent accuracy >85%, response time <5 min average, 10 request-type playbooks done, Facility Ops SOP first draft in Notion, Lead PM plan proposed, SLA compliance >75%.",
+        "status": "Not started",
+        "team": null,
+        "start": "2026-06-20",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Day-60-KPI-targets-from-your-scorecard-all-50-AI-agents-live-QA-dashboard-live-and-running-2-500-34f2c564dcb180eda320ca0a322fd1bc"
       }
     ],
-    "updatedAt": "2026-04-27T19:56:14.492Z"
+    "updatedAt": "2026-04-27T21:14:51.905Z"
   }
 }
