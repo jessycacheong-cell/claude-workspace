@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T15:16:36.942Z",
+  "lastUpdated": "2026-04-27T15:17:51.937Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-04-27T15:11:39.072Z",
     "gorgias": [
       {
+        "id": 95501987,
+        "subject": "Store review update",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-27T14:33:21+00:00"
+      },
+      {
+        "id": 95500692,
+        "subject": "New in Seedance 2.0: face upload",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-27T14:27:37+00:00"
+      },
+      {
+        "id": 95495326,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-27T14:00:16+00:00"
+      },
+      {
         "id": 95486693,
         "subject": "Early-bird pricing has been extended—Register now for $99",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-27T13:00:47+00:00"
-      },
-      {
-        "id": 95478554,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-27T12:01:49+00:00"
-      },
-      {
-        "id": 95474607,
-        "subject": "Here's your invoice for 2026-04-27",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-27T11:13:56+00:00"
-      },
-      {
-        "id": 95474604,
-        "subject": "Review and approve sugarfreeeu’s weekly report",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-27T11:13:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-27T13:07:46.352Z",
+    "gorgiasUpdated": "2026-04-27T15:17:51.757Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
