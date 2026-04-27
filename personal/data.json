@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T04:40:24.018Z",
+  "lastUpdated": "2026-04-27T04:40:58.356Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "iCloud",
+        "subject": "Welcome to iCloud. Here’s how to get started.",
+        "timestamp": "2026-04-27T03:21:54.000Z",
+        "unread": true
+      },
+      {
         "from": "Apple",
         "subject": "Your recent download with your Apple Account",
         "timestamp": "2026-04-26T21:35:09.000Z",
@@ -79,15 +85,9 @@
         "subject": "💝Only 9 pieces left: Shop your WISHLIST now>",
         "timestamp": "2026-04-26T18:06:54.000Z",
         "unread": true
-      },
-      {
-        "from": "MINIUSA",
-        "subject": "Control the drive, right from your phone.",
-        "timestamp": "2026-04-26T14:10:59.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-04-27T01:14:36.818Z",
+    "gmailUpdated": "2026-04-27T04:40:58.187Z",
     "gorgias": [
       {
         "id": 95421555,
