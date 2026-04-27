@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T19:48:10.971Z",
+  "lastUpdated": "2026-04-27T19:55:57.956Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-04-27T19:48:10.774Z",
     "gorgias": [
       {
+        "id": 95558321,
+        "subject": "Your payment is on the way",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-27T18:58:47+00:00"
+      },
+      {
         "id": 95550263,
         "subject": "Robert Herjavec is popular in your network 🔥",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-27T15:57:24+00:00"
-      },
-      {
-        "id": 95515434,
-        "subject": "New exclusives for Creative Cloud members",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-27T15:34:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-27T18:19:36.241Z",
+    "gorgiasUpdated": "2026-04-27T19:55:57.769Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
