@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T18:00:06.365Z",
+  "lastUpdated": "2026-04-27T18:00:10.046Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,21 +130,27 @@
     "gmailSummary": "",
     "outlook": [
       {
+        "from": "kuan.goh@cubework.com",
+        "subject": "Accepted: Property + Operations Flow Review",
+        "timestamp": "2026-04-27T17:50:12+00:00",
+        "unread": true
+      },
+      {
+        "from": "Erika.Xu@cubework.com",
+        "subject": "Accepted: Property + Operations Flow Review",
+        "timestamp": "2026-04-27T17:46:32+00:00",
+        "unread": true
+      },
+      {
+        "from": "walnut_meeting_room@cubework.com",
+        "subject": "Accepted: Property + Operations Flow Review",
+        "timestamp": "2026-04-27T17:46:29+00:00",
+        "unread": true
+      },
+      {
         "from": "team@mail.notion.so",
         "subject": "Perfect meeting memory ",
         "timestamp": "2026-04-27T17:00:35+00:00",
-        "unread": true
-      },
-      {
-        "from": "Erika.Xu@cubework.com",
-        "subject": "Accepted: Property + Operations Flow Review",
-        "timestamp": "2026-04-27T16:11:32+00:00",
-        "unread": true
-      },
-      {
-        "from": "Erika.Xu@cubework.com",
-        "subject": "Accepted: Property + Operations Flow Review",
-        "timestamp": "2026-04-27T16:11:19+00:00",
         "unread": true
       },
       {
@@ -152,15 +158,9 @@
         "subject": "Debbie Bernal is trying to reach you in Microsoft Teams",
         "timestamp": "2026-04-27T13:49:10+00:00",
         "unread": true
-      },
-      {
-        "from": "team@mail.notion.so",
-        "subject": "Notion Calendar is designed for focus",
-        "timestamp": "2026-04-27T07:01:24+00:00",
-        "unread": true
       }
     ],
-    "outlookUpdated": "2026-04-27T17:45:10.466Z"
+    "outlookUpdated": "2026-04-27T18:00:10.040Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-04-27T16:56:13.482Z",
