@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T21:14:51.906Z",
+  "lastUpdated": "2026-04-27T21:14:53.862Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-04-27T20:59:04.941Z",
     "gorgias": [
       {
+        "id": 95578641,
+        "subject": "UMEI, your posts got 9 impressions last week",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-27T20:39:13+00:00"
+      },
+      {
+        "id": 95572920,
+        "subject": "You’ve got new messages from CherelynnB",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-27T20:11:04+00:00"
+      },
+      {
         "id": 95558321,
         "subject": "Your payment is on the way",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-27T18:12:00+00:00"
-      },
-      {
-        "id": 95534941,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-27T17:02:33+00:00"
-      },
-      {
-        "id": 95520433,
-        "subject": "Update to Shopify Payments terms: personalized payment methods at checkout",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-27T15:57:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-27T19:55:57.769Z",
+    "gorgiasUpdated": "2026-04-27T21:14:53.721Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
