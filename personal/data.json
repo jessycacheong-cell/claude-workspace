@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T15:17:51.937Z",
+  "lastUpdated": "2026-04-27T16:15:12.737Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,37 +130,37 @@
     "gmailSummary": "",
     "outlook": [
       {
-        "from": "team@mail.notion.so",
-        "subject": "Want to use Notion 50% faster?",
-        "timestamp": "2026-04-25T17:00:13+00:00",
+        "from": "Erika.Xu@cubework.com",
+        "subject": "Accepted: Property + Operations Flow Review",
+        "timestamp": "2026-04-27T16:11:32+00:00",
         "unread": true
       },
       {
         "from": "Erika.Xu@cubework.com",
         "subject": "Accepted: Property + Operations Flow Review",
-        "timestamp": "2026-04-24T22:48:41+00:00",
-        "unread": false
-      },
-      {
-        "from": "walnut_meeting_room@cubework.com",
-        "subject": "Accepted: Property + Operations Flow Review",
-        "timestamp": "2026-04-24T22:33:10+00:00",
-        "unread": false
+        "timestamp": "2026-04-27T16:11:19+00:00",
+        "unread": true
       },
       {
         "from": "no-reply@teams.mail.microsoft",
-        "subject": "Clarissa Rodriguez is trying to reach you in Microsoft Teams",
-        "timestamp": "2026-04-24T17:35:05+00:00",
-        "unread": false
+        "subject": "Debbie Bernal is trying to reach you in Microsoft Teams",
+        "timestamp": "2026-04-27T13:49:10+00:00",
+        "unread": true
       },
       {
-        "from": "no-reply@cubework.com",
-        "subject": "Your OTP for Authentication",
-        "timestamp": "2026-04-24T17:19:23+00:00",
+        "from": "team@mail.notion.so",
+        "subject": "Notion Calendar is designed for focus",
+        "timestamp": "2026-04-27T07:01:24+00:00",
+        "unread": true
+      },
+      {
+        "from": "jessyca.cheong@cubework.com",
+        "subject": "https://j-command-center.netlify.app/",
+        "timestamp": "2026-04-26T21:19:51+00:00",
         "unread": false
       }
     ],
-    "outlookUpdated": "2026-04-26T17:00:14.161Z"
+    "outlookUpdated": "2026-04-27T16:15:12.631Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-04-27T15:13:51.245Z",
