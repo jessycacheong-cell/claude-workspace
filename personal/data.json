@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T18:18:33.235Z",
+  "lastUpdated": "2026-04-27T18:19:36.460Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-04-27T18:02:59.643Z",
     "gorgias": [
       {
+        "id": 95550263,
+        "subject": "Robert Herjavec is popular in your network 🔥",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-27T18:16:59+00:00"
+      },
+      {
+        "id": 95549262,
+        "subject": "Contacting support about my order",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-27T18:12:00+00:00"
+      },
+      {
         "id": 95534941,
         "subject": "Your Week In Reviews For UMEI Store",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-27T15:34:55+00:00"
-      },
-      {
-        "id": 95501987,
-        "subject": "Store review update",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-27T14:33:21+00:00"
-      },
-      {
-        "id": 95500692,
-        "subject": "New in Seedance 2.0: face upload",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-27T14:27:37+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-27T17:10:02.983Z",
+    "gorgiasUpdated": "2026-04-27T18:19:36.241Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
