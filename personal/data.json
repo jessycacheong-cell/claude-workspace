@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T22:45:10.945Z",
+  "lastUpdated": "2026-04-27T22:49:56.992Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "PayPal Communications",
+        "subject": "We're making some changes to our PayPal legal agreements",
+        "timestamp": "2026-04-27T22:31:10.000Z",
+        "unread": true
+      },
+      {
         "from": "Paylocity",
         "subject": "IMPORTANT: Dana Cardwell posted an announcement",
         "timestamp": "2026-04-27T20:55:03.000Z",
@@ -79,15 +85,9 @@
         "subject": "Congrats on your new opensky card!",
         "timestamp": "2026-04-27T18:33:03.000Z",
         "unread": false
-      },
-      {
-        "from": "Alec Brian Dsouza",
-        "subject": "1164 -Palmdale-Product Trainer 1",
-        "timestamp": "2026-04-27T16:57:25.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-04-27T21:53:54.141Z",
+    "gmailUpdated": "2026-04-27T22:49:56.817Z",
     "gorgias": [
       {
         "id": 95590596,
