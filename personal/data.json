@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T16:25:14.760Z",
+  "lastUpdated": "2026-04-28T16:27:19.562Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-04-28T14:36:11.920Z",
     "gorgias": [
       {
+        "id": 95709716,
+        "subject": "Make your next move",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-28T16:06:31+00:00"
+      },
+      {
+        "id": 95696453,
+        "subject": "A quick note on Essential Subscriptions 👀",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-28T15:05:12+00:00"
+      },
+      {
+        "id": 95695656,
+        "subject": "Your Smartsheet account expires in a few days",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-28T15:02:08+00:00"
+      },
+      {
         "id": 95684087,
         "subject": "The Review: April updates from Okendo",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-28T13:47:09+00:00"
-      },
-      {
-        "id": 95668400,
-        "subject": "Prime Day live webinar: Maximize your brand visibility",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-28T12:21:52+00:00"
-      },
-      {
-        "id": 95666617,
-        "subject": "Updated product page for Wix Studio Storefront",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-28T12:06:20+00:00"
-      },
-      {
-        "id": 95636541,
-        "subject": "New Balance Senior Global Marketing Director, Performance recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-28T04:16:01+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-28T14:39:09.159Z",
+    "gorgiasUpdated": "2026-04-28T16:27:19.264Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
