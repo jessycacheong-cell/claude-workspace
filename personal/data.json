@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T16:30:13.771Z",
+  "lastUpdated": "2026-04-28T16:45:12.150Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,6 +130,18 @@
     "gmailSummary": "",
     "outlook": [
       {
+        "from": "justin.cho@cubework.com",
+        "subject": "Accepted: Flow Overview (Sales)",
+        "timestamp": "2026-04-28T16:37:55+00:00",
+        "unread": true
+      },
+      {
+        "from": "walnut_meeting_room@cubework.com",
+        "subject": "Accepted: Flow Overview (Sales)",
+        "timestamp": "2026-04-28T16:37:11+00:00",
+        "unread": true
+      },
+      {
         "from": "team@mail.notion.so",
         "subject": "Stay present.  Notion AI's got the notes.",
         "timestamp": "2026-04-28T15:38:57+00:00",
@@ -146,21 +158,9 @@
         "subject": "Erika Xu sent a message",
         "timestamp": "2026-04-28T02:22:48+00:00",
         "unread": true
-      },
-      {
-        "from": "kuan.goh@cubework.com",
-        "subject": "Accepted: Property + Operations Flow Review",
-        "timestamp": "2026-04-27T17:50:12+00:00",
-        "unread": true
-      },
-      {
-        "from": "Erika.Xu@cubework.com",
-        "subject": "Accepted: Property + Operations Flow Review",
-        "timestamp": "2026-04-27T17:46:32+00:00",
-        "unread": true
       }
     ],
-    "outlookUpdated": "2026-04-28T16:30:13.662Z"
+    "outlookUpdated": "2026-04-28T16:45:11.808Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-04-28T15:27:52.319Z",
