@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T23:32:17.599Z",
+  "lastUpdated": "2026-04-28T23:33:50.190Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-04-28T23:09:29.374Z",
     "gorgias": [
       {
+        "id": 95780011,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-28T22:48:23+00:00"
+      },
+      {
+        "id": 95779732,
+        "subject": "You’ve got new messages from CherelynnB",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-28T22:45:56+00:00"
+      },
+      {
         "id": 95732165,
         "subject": "How HubSpot runs 25+ AI agents in production — Glean:LIVE May",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-28T16:30:32+00:00"
-      },
-      {
-        "id": 95709716,
-        "subject": "Make your next move",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-28T16:06:31+00:00"
-      },
-      {
-        "id": 95696453,
-        "subject": "A quick note on Essential Subscriptions 👀",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-28T15:05:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-28T22:36:16.965Z",
+    "gorgiasUpdated": "2026-04-28T23:33:50.025Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
