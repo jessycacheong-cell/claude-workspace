@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T02:15:08.906Z",
+  "lastUpdated": "2026-04-28T02:30:10.937Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,6 +130,12 @@
     "gmailSummary": "",
     "outlook": [
       {
+        "from": "no-reply@teams.mail.microsoft",
+        "subject": "Erika Xu sent a message",
+        "timestamp": "2026-04-28T02:22:48+00:00",
+        "unread": true
+      },
+      {
         "from": "kuan.goh@cubework.com",
         "subject": "Accepted: Property + Operations Flow Review",
         "timestamp": "2026-04-27T17:50:12+00:00",
@@ -152,15 +158,9 @@
         "subject": "Perfect meeting memory ",
         "timestamp": "2026-04-27T17:00:35+00:00",
         "unread": true
-      },
-      {
-        "from": "no-reply@teams.mail.microsoft",
-        "subject": "Debbie Bernal is trying to reach you in Microsoft Teams",
-        "timestamp": "2026-04-27T13:49:10+00:00",
-        "unread": true
       }
     ],
-    "outlookUpdated": "2026-04-28T02:15:08.830Z"
+    "outlookUpdated": "2026-04-28T02:30:10.937Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-04-28T00:12:42.220Z",
