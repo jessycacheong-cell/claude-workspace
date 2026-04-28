@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T18:00:13.844Z",
+  "lastUpdated": "2026-04-28T18:02:28.114Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Pinterest",
+        "subject": "Architectural graphics for Jessyca",
+        "timestamp": "2026-04-28T16:32:31.000Z",
+        "unread": true
+      },
+      {
         "from": "Jianbo from Loona",
         "subject": "🚨 Your $20 deposit is about to expire!",
         "timestamp": "2026-04-28T14:07:08.000Z",
@@ -79,15 +85,9 @@
         "subject": "Still thinking? Here's why people stick with Mermaid",
         "timestamp": "2026-04-28T01:29:42.000Z",
         "unread": true
-      },
-      {
-        "from": "Publer",
-        "subject": "Your post didn't get published",
-        "timestamp": "2026-04-28T00:12:35.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-04-28T16:27:27.305Z",
+    "gmailUpdated": "2026-04-28T18:02:27.956Z",
     "gorgias": [
       {
         "id": 95709716,
