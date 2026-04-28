@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T05:02:05.166Z",
+  "lastUpdated": "2026-04-28T05:02:07.964Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-04-28T02:40:42.188Z",
     "gorgias": [
       {
-        "id": 95590596,
-        "subject": "Your store + Shopify + TikTok Shop = unstoppable 💪",
+        "id": 95636541,
+        "subject": "New Balance Senior Global Marketing Director, Performance recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-28T04:16:01+00:00"
+      },
+      {
+        "id": 95632843,
+        "subject": "Take action to fix your setup",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-28T03:24:45+00:00"
+      },
+      {
+        "id": 95632454,
+        "subject": "Re:",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-04-27T21:45:10.838000+00:00"
+        "timestamp": "2026-04-28T03:19:37+00:00"
       },
       {
-        "id": 95578641,
-        "subject": "UMEI, your posts got 9 impressions last week",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-27T20:39:13+00:00"
-      },
-      {
-        "id": 95572920,
-        "subject": "You’ve got new messages from CherelynnB",
+        "id": 95627579,
+        "subject": "Neeeed some of these 🔥🔥",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-04-27T20:11:04+00:00"
+        "timestamp": "2026-04-28T02:32:46+00:00"
       },
       {
-        "id": 95558321,
-        "subject": "Your payment is on the way",
+        "id": 95627172,
+        "subject": "Follow-up with Umei3d",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-27T18:58:47+00:00"
-      },
-      {
-        "id": 95550263,
-        "subject": "Robert Herjavec is popular in your network 🔥",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-27T18:16:59+00:00"
+        "status": "open",
+        "timestamp": "2026-04-28T02:28:54+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-28T01:19:46.594Z",
+    "gorgiasUpdated": "2026-04-28T05:02:07.813Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
