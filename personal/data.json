@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T12:00:58.405Z",
+  "lastUpdated": "2026-04-28T12:01:42.283Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Master Saw",
+        "subject": "Jessyca, your blueprint isn't fully unlocked yet",
+        "timestamp": "2026-04-28T11:45:50.000Z",
+        "unread": true
+      },
+      {
         "from": "Mermaid",
         "subject": "Still thinking? Here's why people stick with Mermaid",
         "timestamp": "2026-04-28T01:29:42.000Z",
@@ -79,15 +85,9 @@
         "subject": "IMPORTANT: Dana Cardwell posted an announcement",
         "timestamp": "2026-04-27T20:55:03.000Z",
         "unread": true
-      },
-      {
-        "from": "Alec Brian Dsouza",
-        "subject": "1164 -Palmdale-Product Trainer 1",
-        "timestamp": "2026-04-27T20:00:40.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-04-28T10:10:55.004Z",
+    "gmailUpdated": "2026-04-28T12:01:42.136Z",
     "gorgias": [
       {
         "id": 95636541,
