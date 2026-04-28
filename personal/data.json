@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T06:45:11.139Z",
+  "lastUpdated": "2026-04-28T07:00:10.209Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -131,6 +131,12 @@
     "outlook": [
       {
         "from": "no-reply@teams.mail.microsoft",
+        "subject": "Kuan Goh sent a message",
+        "timestamp": "2026-04-28T06:45:21+00:00",
+        "unread": true
+      },
+      {
+        "from": "no-reply@teams.mail.microsoft",
         "subject": "Erika Xu sent a message",
         "timestamp": "2026-04-28T02:22:48+00:00",
         "unread": true
@@ -152,15 +158,9 @@
         "subject": "Accepted: Property + Operations Flow Review",
         "timestamp": "2026-04-27T17:46:29+00:00",
         "unread": true
-      },
-      {
-        "from": "team@mail.notion.so",
-        "subject": "Perfect meeting memory ",
-        "timestamp": "2026-04-27T17:00:35+00:00",
-        "unread": true
       }
     ],
-    "outlookUpdated": "2026-04-28T06:45:11.073Z"
+    "outlookUpdated": "2026-04-28T07:00:10.202Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-04-28T06:44:41.523Z",
