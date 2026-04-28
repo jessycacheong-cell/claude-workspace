@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T18:08:04.266Z",
+  "lastUpdated": "2026-04-28T18:08:29.383Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -235,7 +235,7 @@
         "team": "Christine",
         "start": "2026-04-20",
         "end": null,
-        "milestone": false,
+        "milestone": true,
         "progress": 100,
         "url": "https://www.notion.so/Meet-every-pillar-lead-Xavier-Kevin-Kuan-Drew-Jessica-Chen-34a2c564dcb181029a21e31ae94d2bb4"
       },
@@ -255,7 +255,7 @@
         "team": "Christine",
         "start": "2026-04-20",
         "end": null,
-        "milestone": false,
+        "milestone": true,
         "progress": 100,
         "url": "https://www.notion.so/Read-both-training-decks-company-overview-ops-deep-dive-34a2c564dcb18118b042fafaa880b805"
       },
@@ -305,7 +305,7 @@
         "team": "Jessyca",
         "start": "2026-04-22",
         "end": null,
-        "milestone": true,
+        "milestone": false,
         "progress": 100,
         "url": "https://www.notion.so/Define-the-exact-scope-of-version-1-Focus-on-one-location-one-workflow-first-rather-than-trying-t-34a2c564dcb18184ab2dfe99b4b53fe0"
       },
@@ -315,19 +315,19 @@
         "team": "Jessyca",
         "start": "2026-04-22",
         "end": null,
-        "milestone": true,
+        "milestone": false,
         "progress": 100,
         "url": "https://www.notion.so/Map-the-current-operational-workflow-before-designing-more-34a2c564dcb1818994afe82a59978ed1"
       },
       {
-        "name": "Do field observation / site visit",
+        "name": "Do field observation / site visit (Walnut)",
         "status": "Not started",
         "team": "Jessyca",
-        "start": "2026-04-29",
+        "start": "2026-04-28",
         "end": null,
-        "milestone": true,
-        "progress": 0,
-        "url": "https://www.notion.so/Do-field-observation-site-visit-34a2c564dcb1818b8f71c09a79bbb22f"
+        "milestone": false,
+        "progress": 100,
+        "url": "https://www.notion.so/Do-field-observation-site-visit-Walnut-34a2c564dcb1818b8f71c09a79bbb22f"
       },
       {
         "name": "Talk to Drew / facility side after you have some structure",
@@ -335,8 +335,8 @@
         "team": "Drew Trinidad",
         "start": "2026-04-30",
         "end": null,
-        "milestone": true,
-        "progress": 0,
+        "milestone": false,
+        "progress": 100,
         "url": "https://www.notion.so/Talk-to-Drew-facility-side-after-you-have-some-structure-34a2c564dcb181989a8bd5851005efc4"
       },
       {
@@ -376,7 +376,7 @@
         "start": "2026-05-20",
         "end": null,
         "milestone": false,
-        "progress": 0,
+        "progress": 100,
         "url": "https://www.notion.so/Month-1-complete-the-Phase-1-audit-of-Facility-Operations-and-deliver-it-to-Christine-on-Day-30-34b2c564dcb180eb8aabe84c811252c9"
       },
       {
@@ -446,7 +446,7 @@
         "start": "2026-07-20",
         "end": null,
         "milestone": false,
-        "progress": 0,
+        "progress": 100,
         "url": "https://www.notion.so/Month-3-gate-review-with-Christine-All-four-gates-met-early-raise-Missing-any-gate-next-checkp-34f2c564dcb180789484e494b3958323"
       },
       {
@@ -476,7 +476,7 @@
         "start": "2026-06-20",
         "end": null,
         "milestone": false,
-        "progress": 0,
+        "progress": 100,
         "url": "https://www.notion.so/Day-60-KPI-targets-from-your-scorecard-all-50-AI-agents-live-QA-dashboard-live-and-running-2-500-34f2c564dcb180eda320ca0a322fd1bc"
       },
       {
@@ -486,7 +486,7 @@
         "start": "2026-07-19",
         "end": null,
         "milestone": true,
-        "progress": 0,
+        "progress": 100,
         "url": "https://www.notion.so/Month-3-Complete-Gate-Review-Early-Raise-Decision-34f2c564dcb181238794c03cd2f0222f"
       },
       {
@@ -496,7 +496,7 @@
         "start": "2026-06-19",
         "end": null,
         "milestone": true,
-        "progress": 0,
+        "progress": 100,
         "url": "https://www.notion.so/Month-2-Complete-All-50-AI-Agents-Live-QA-Dashboard-34f2c564dcb1814bb183c73056108023"
       },
       {
@@ -506,10 +506,20 @@
         "start": "2026-05-20",
         "end": null,
         "milestone": true,
-        "progress": 0,
+        "progress": 100,
         "url": "https://www.notion.so/Month-1-Complete-Audit-Delivered-to-Christine-34f2c564dcb18178aae8f3746d299eb2"
+      },
+      {
+        "name": "Do field observation / site visit (Out of Walnut)",
+        "status": "Not started",
+        "team": "Jessyca",
+        "start": "2026-04-29",
+        "end": null,
+        "milestone": false,
+        "progress": 0,
+        "url": "https://www.notion.so/Do-field-observation-site-visit-Out-of-Walnut-3502c564dcb18010a191d1ee52c97b56"
       }
     ],
-    "updatedAt": "2026-04-28T16:25:14.760Z"
+    "updatedAt": "2026-04-28T18:08:29.383Z"
   }
 }
