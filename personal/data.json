@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T14:38:54.580Z",
+  "lastUpdated": "2026-04-28T14:39:09.323Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-04-28T14:36:11.920Z",
     "gorgias": [
       {
+        "id": 95684087,
+        "subject": "The Review: April updates from Okendo",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-28T14:03:54+00:00"
+      },
+      {
+        "id": 95681094,
+        "subject": "This Earth Day, discover business essentials with sustainability certifications",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-28T13:47:09+00:00"
+      },
+      {
+        "id": 95668400,
+        "subject": "Prime Day live webinar: Maximize your brand visibility",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-28T12:21:52+00:00"
+      },
+      {
+        "id": 95666617,
+        "subject": "Updated product page for Wix Studio Storefront",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-28T12:06:20+00:00"
+      },
+      {
         "id": 95636541,
         "subject": "New Balance Senior Global Marketing Director, Performance recently posted",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-28T04:16:01+00:00"
-      },
-      {
-        "id": 95632843,
-        "subject": "Take action to fix your setup",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-28T03:24:45+00:00"
-      },
-      {
-        "id": 95632454,
-        "subject": "Re:",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-28T03:19:37+00:00"
-      },
-      {
-        "id": 95627579,
-        "subject": "Neeeed some of these 🔥🔥",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-28T02:32:46+00:00"
-      },
-      {
-        "id": 95627172,
-        "subject": "Follow-up with Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-28T02:28:54+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-28T12:00:58.248Z",
+    "gorgiasUpdated": "2026-04-28T14:39:09.159Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
