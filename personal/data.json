@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T15:30:14.541Z",
+  "lastUpdated": "2026-04-28T15:45:14.457Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,6 +130,12 @@
     "gmailSummary": "",
     "outlook": [
       {
+        "from": "team@mail.notion.so",
+        "subject": "Stay present.  Notion AI's got the notes.",
+        "timestamp": "2026-04-28T15:38:57+00:00",
+        "unread": true
+      },
+      {
         "from": "no-reply@teams.mail.microsoft",
         "subject": "Kuan Goh sent a message",
         "timestamp": "2026-04-28T06:45:21+00:00",
@@ -152,15 +158,9 @@
         "subject": "Accepted: Property + Operations Flow Review",
         "timestamp": "2026-04-27T17:46:32+00:00",
         "unread": true
-      },
-      {
-        "from": "walnut_meeting_room@cubework.com",
-        "subject": "Accepted: Property + Operations Flow Review",
-        "timestamp": "2026-04-27T17:46:29+00:00",
-        "unread": true
       }
     ],
-    "outlookUpdated": "2026-04-28T15:30:14.537Z"
+    "outlookUpdated": "2026-04-28T15:45:14.380Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-04-28T15:27:52.319Z",
