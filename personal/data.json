@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T18:02:28.114Z",
+  "lastUpdated": "2026-04-28T18:08:04.266Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-04-28T18:02:27.956Z",
     "gorgias": [
       {
+        "id": 95732165,
+        "subject": "How HubSpot runs 25+ AI agents in production — Glean:LIVE May",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-28T18:03:08+00:00"
+      },
+      {
+        "id": 95721193,
+        "subject": "Act now: 25% off your business reorder",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-28T17:04:14+00:00"
+      },
+      {
+        "id": 95714757,
+        "subject": "Adobe eLearning News – April 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-28T16:30:32+00:00"
+      },
+      {
         "id": 95709716,
         "subject": "Make your next move",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-28T15:05:12+00:00"
-      },
-      {
-        "id": 95695656,
-        "subject": "Your Smartsheet account expires in a few days",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-28T15:02:08+00:00"
-      },
-      {
-        "id": 95684087,
-        "subject": "The Review: April updates from Okendo",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-28T14:03:54+00:00"
-      },
-      {
-        "id": 95681094,
-        "subject": "This Earth Day, discover business essentials with sustainability certifications",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-28T13:47:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-28T16:27:19.264Z",
+    "gorgiasUpdated": "2026-04-28T18:08:04.119Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
