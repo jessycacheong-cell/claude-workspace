@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T16:54:09.048Z",
+  "lastUpdated": "2026-04-29T17:08:57.488Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-04-29T16:19:01.375Z",
     "gorgias": [
       {
+        "id": 95883038,
+        "subject": "Be part of the Next Wave",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T16:15:46+00:00"
+      },
+      {
+        "id": 95877364,
+        "subject": "New features, more creative possibilities",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T15:47:58+00:00"
+      },
+      {
         "id": 95855142,
         "subject": "👍 Fix your CSAT in 5 minutes",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-29T13:27:48+00:00"
-      },
-      {
-        "id": 95849712,
-        "subject": "[Webinar] Inside NOBULL’s Community-Driven Growth Strategy",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T13:20:17+00:00"
-      },
-      {
-        "id": 95843645,
-        "subject": "Is your store ready for Mother's Day?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T12:34:39+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-29T15:27:08.259Z",
+    "gorgiasUpdated": "2026-04-29T17:08:57.343Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
