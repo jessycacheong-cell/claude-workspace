@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T12:54:40.511Z",
+  "lastUpdated": "2026-04-29T13:09:52.911Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-04-29T12:19:47.789Z",
     "gorgias": [
       {
+        "id": 95843645,
+        "subject": "Is your store ready for Mother's Day?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T12:34:39+00:00"
+      },
+      {
+        "id": 95841363,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T12:14:18.017000+00:00"
+      },
+      {
         "id": 95812513,
         "subject": "Beth Myers recently posted",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-29T01:58:26+00:00"
-      },
-      {
-        "id": 95797968,
-        "subject": "Your receipt from Photo App",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T01:25:11+00:00"
-      },
-      {
-        "id": 95785567,
-        "subject": "Josh Rodriguez left a 1 star review for 'Men's Moonwalker Glides'",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-28T23:33:50+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-29T11:17:15.250Z",
+    "gorgiasUpdated": "2026-04-29T13:09:52.767Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
