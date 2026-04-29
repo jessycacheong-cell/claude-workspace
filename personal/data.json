@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T07:33:43.385Z",
+  "lastUpdated": "2026-04-29T09:00:42.437Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Google Cloud",
+        "subject": "[Product Update] Automatic enablement of new OpenTelemetry ingestion API",
+        "timestamp": "2026-04-29T06:45:08.000Z",
+        "unread": true
+      },
+      {
         "from": "Jianbo via Kickstarter",
         "subject": "New message about Loona Deskmate: The Cutest Desk Robot That Actually Helps",
         "timestamp": "2026-04-29T04:57:18.000Z",
@@ -79,15 +85,9 @@
         "subject": "Architectural graphics for Jessyca",
         "timestamp": "2026-04-28T16:32:31.000Z",
         "unread": true
-      },
-      {
-        "from": "Jianbo from Loona",
-        "subject": "🚨 Your $20 deposit is about to expire!",
-        "timestamp": "2026-04-28T14:07:08.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-04-29T06:37:15.054Z",
+    "gmailUpdated": "2026-04-29T09:00:42.296Z",
     "gorgias": [
       {
         "id": 95812513,
