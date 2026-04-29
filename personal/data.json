@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T21:42:13.536Z",
+  "lastUpdated": "2026-04-29T21:42:36.893Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-04-29T20:39:17.496Z",
     "gorgias": [
       {
+        "id": 95941075,
+        "subject": "Direct message with speedlumatech",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-29T21:28:32.510000+00:00"
+      },
+      {
+        "id": 95939659,
+        "subject": "Distribution Opportunity For Umei",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T21:18:20+00:00"
+      },
+      {
+        "id": 95935113,
+        "subject": "You can now set a default device view in heatmaps",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T20:47:25+00:00"
+      },
+      {
         "id": 95909094,
         "subject": "Make your own major sports moment",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-29T16:15:46+00:00"
-      },
-      {
-        "id": 95877364,
-        "subject": "New features, more creative possibilities",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T15:47:58+00:00"
-      },
-      {
-        "id": 95855142,
-        "subject": "👍 Fix your CSAT in 5 minutes",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T13:53:03+00:00"
-      },
-      {
-        "id": 95851899,
-        "subject": "Discover and support Veteran entrepreneurs",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T13:34:19+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-29T20:18:45.201Z",
+    "gorgiasUpdated": "2026-04-29T21:42:36.708Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
