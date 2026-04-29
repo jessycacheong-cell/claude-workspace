@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T13:10:06.616Z",
+  "lastUpdated": "2026-04-29T14:36:39.657Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,24 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Loona",
+        "subject": "Exclusive for our PetBot family: Loona is growing up",
+        "timestamp": "2026-04-29T14:08:21.000Z",
+        "unread": true
+      },
+      {
+        "from": "Jianbo from Loona",
+        "subject": "Dear Future Loona Owner, We’re holding your spot 🎁",
+        "timestamp": "2026-04-29T14:02:15.000Z",
+        "unread": true
+      },
+      {
+        "from": "Amazon Pharmacy",
+        "subject": "Have your medication delivered, just like everything else",
+        "timestamp": "2026-04-29T13:31:36.000Z",
+        "unread": true
+      },
+      {
         "from": "Marius from PLSFIX",
         "subject": "Good news: PLSFIX is back online",
         "timestamp": "2026-04-29T09:09:44.000Z",
@@ -67,27 +85,9 @@
         "subject": "[Product Update] Automatic enablement of new OpenTelemetry ingestion API",
         "timestamp": "2026-04-29T06:45:08.000Z",
         "unread": true
-      },
-      {
-        "from": "Jianbo via Kickstarter",
-        "subject": "New message about Loona Deskmate: The Cutest Desk Robot That Actually Helps",
-        "timestamp": "2026-04-29T04:57:18.000Z",
-        "unread": true
-      },
-      {
-        "from": "Lizette Hernandez",
-        "subject": "Aflac meeting invitation",
-        "timestamp": "2026-04-29T00:51:26.000Z",
-        "unread": false
-      },
-      {
-        "from": "Aquent",
-        "subject": "See salary data for your job title and location",
-        "timestamp": "2026-04-28T18:05:33.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-04-29T12:19:47.789Z",
+    "gmailUpdated": "2026-04-29T14:36:39.511Z",
     "gorgias": [
       {
         "id": 95843645,
