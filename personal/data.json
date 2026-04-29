@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T00:15:08.658Z",
+  "lastUpdated": "2026-04-29T00:30:09.818Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -133,34 +133,34 @@
         "from": "team@mail.notion.so",
         "subject": "Unlock the best features in Notion",
         "timestamp": "2026-04-28T17:00:40+00:00",
-        "unread": true
+        "unread": false
       },
       {
         "from": "justin.cho@cubework.com",
         "subject": "Accepted: Flow Overview (Sales)",
         "timestamp": "2026-04-28T16:37:55+00:00",
-        "unread": true
+        "unread": false
       },
       {
         "from": "walnut_meeting_room@cubework.com",
         "subject": "Accepted: Flow Overview (Sales)",
         "timestamp": "2026-04-28T16:37:11+00:00",
-        "unread": true
+        "unread": false
       },
       {
         "from": "team@mail.notion.so",
         "subject": "Stay present.  Notion AI's got the notes.",
         "timestamp": "2026-04-28T15:38:57+00:00",
-        "unread": true
+        "unread": false
       },
       {
         "from": "no-reply@teams.mail.microsoft",
         "subject": "Kuan Goh sent a message",
         "timestamp": "2026-04-28T06:45:21+00:00",
-        "unread": true
+        "unread": false
       }
     ],
-    "outlookUpdated": "2026-04-29T00:15:08.651Z"
+    "outlookUpdated": "2026-04-29T00:30:09.726Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-04-28T23:30:40.301Z",
