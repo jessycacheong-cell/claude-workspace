@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T22:38:08.781Z",
+  "lastUpdated": "2026-04-29T23:08:32.849Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-04-29T22:38:08.632Z",
     "gorgias": [
       {
+        "id": 95944634,
+        "subject": "Your FBA capacity limits for May",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T21:51:50+00:00"
+      },
+      {
+        "id": 95943440,
+        "subject": "Spring is peak season. Is your inventory ready?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-29T21:45:31.866000+00:00"
+      },
+      {
         "id": 95941075,
         "subject": "Direct message with speedlumatech",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-29T20:47:25+00:00"
-      },
-      {
-        "id": 95909094,
-        "subject": "Make your own major sports moment",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T18:32:33+00:00"
-      },
-      {
-        "id": 95883038,
-        "subject": "Be part of the Next Wave",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T16:15:46+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-29T21:42:36.708Z",
+    "gorgiasUpdated": "2026-04-29T23:08:32.688Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
