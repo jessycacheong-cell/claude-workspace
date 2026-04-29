@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T15:25:23.492Z",
+  "lastUpdated": "2026-04-29T15:27:08.391Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-04-29T14:36:39.511Z",
     "gorgias": [
       {
+        "id": 95855142,
+        "subject": "👍 Fix your CSAT in 5 minutes",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T13:53:03+00:00"
+      },
+      {
+        "id": 95851899,
+        "subject": "Discover and support Veteran entrepreneurs",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T13:34:19+00:00"
+      },
+      {
+        "id": 95850788,
+        "subject": "Your questions answered at Summit Central—New Seller Summit, May 20, in Anaheim",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T13:27:48+00:00"
+      },
+      {
+        "id": 95849712,
+        "subject": "[Webinar] Inside NOBULL’s Community-Driven Growth Strategy",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T13:20:17+00:00"
+      },
+      {
         "id": 95843645,
         "subject": "Is your store ready for Mother's Day?",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-29T12:34:39+00:00"
-      },
-      {
-        "id": 95841363,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T12:14:18.017000+00:00"
-      },
-      {
-        "id": 95812513,
-        "subject": "Beth Myers recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T04:16:15+00:00"
-      },
-      {
-        "id": 95803108,
-        "subject": "💬 Add Liam Jones, Chief Manufacturing Engineer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T02:16:03+00:00"
-      },
-      {
-        "id": 95801316,
-        "subject": "Special offer for Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-29T01:58:26+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-29T13:09:52.767Z",
+    "gorgiasUpdated": "2026-04-29T15:27:08.259Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
