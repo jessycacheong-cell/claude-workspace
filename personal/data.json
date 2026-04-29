@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T06:30:08.273Z",
+  "lastUpdated": "2026-04-29T06:37:15.241Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Jianbo via Kickstarter",
+        "subject": "New message about Loona Deskmate: The Cutest Desk Robot That Actually Helps",
+        "timestamp": "2026-04-29T04:57:18.000Z",
+        "unread": true
+      },
+      {
         "from": "Lizette Hernandez",
         "subject": "Aflac meeting invitation",
         "timestamp": "2026-04-29T00:51:26.000Z",
@@ -79,15 +85,9 @@
         "subject": "🚨 Your $20 deposit is about to expire!",
         "timestamp": "2026-04-28T14:07:08.000Z",
         "unread": true
-      },
-      {
-        "from": "Harry Reddy",
-        "subject": "Remote Job: Learning & Development PM",
-        "timestamp": "2026-04-28T13:52:14.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-04-29T04:02:09.404Z",
+    "gmailUpdated": "2026-04-29T06:37:15.054Z",
     "gorgias": [
       {
         "id": 95812513,
