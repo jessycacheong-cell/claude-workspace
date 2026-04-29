@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T15:27:08.391Z",
+  "lastUpdated": "2026-04-29T16:19:01.570Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Hansel Sapkota",
+        "subject": " Your brain is full. Let me give you a second one. 🧠 ( FREE SECONDD BRAIN + 40% OFF )",
+        "timestamp": "2026-04-29T15:25:32.000Z",
+        "unread": true
+      },
+      {
         "from": "Loona",
         "subject": "Exclusive for our PetBot family: Loona is growing up",
         "timestamp": "2026-04-29T14:08:21.000Z",
@@ -78,16 +84,10 @@
         "from": "Marius from PLSFIX",
         "subject": "Good news: PLSFIX is back online",
         "timestamp": "2026-04-29T09:09:44.000Z",
-        "unread": true
-      },
-      {
-        "from": "Google Cloud",
-        "subject": "[Product Update] Automatic enablement of new OpenTelemetry ingestion API",
-        "timestamp": "2026-04-29T06:45:08.000Z",
-        "unread": true
+        "unread": false
       }
     ],
-    "gmailUpdated": "2026-04-29T14:36:39.511Z",
+    "gmailUpdated": "2026-04-29T16:19:01.375Z",
     "gorgias": [
       {
         "id": 95855142,
