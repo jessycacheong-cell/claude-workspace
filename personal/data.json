@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T04:45:12.522Z",
+  "lastUpdated": "2026-04-29T04:59:11.424Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-04-29T04:02:09.404Z",
     "gorgias": [
       {
+        "id": 95812513,
+        "subject": "Beth Myers recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T04:16:15+00:00"
+      },
+      {
+        "id": 95803108,
+        "subject": "💬 Add Liam Jones, Chief Manufacturing Engineer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T02:16:03+00:00"
+      },
+      {
+        "id": 95801316,
+        "subject": "Special offer for Umei3d",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-29T01:58:26+00:00"
+      },
+      {
+        "id": 95797968,
+        "subject": "Your receipt from Photo App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T01:25:11+00:00"
+      },
+      {
         "id": 95785567,
         "subject": "Josh Rodriguez left a 1 star review for 'Men's Moonwalker Glides'",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-28T23:33:50+00:00"
-      },
-      {
-        "id": 95780011,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-28T22:48:23+00:00"
-      },
-      {
-        "id": 95779732,
-        "subject": "You’ve got new messages from CherelynnB",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-28T22:45:56+00:00"
-      },
-      {
-        "id": 95732165,
-        "subject": "How HubSpot runs 25+ AI agents in production — Glean:LIVE May",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-28T18:03:08+00:00"
-      },
-      {
-        "id": 95721193,
-        "subject": "Act now: 25% off your business reorder",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-28T17:04:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-29T01:21:29.411Z",
+    "gorgiasUpdated": "2026-04-29T04:59:11.265Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
