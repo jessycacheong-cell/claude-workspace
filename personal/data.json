@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T17:09:04.572Z",
+  "lastUpdated": "2026-04-29T17:55:51.957Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Jin Dental Aesthetics",
+        "subject": "Jin Dental Aesthetics Recall Reminder",
+        "timestamp": "2026-04-29T17:29:18.000Z",
+        "unread": true
+      },
+      {
         "from": "Hansel Sapkota",
         "subject": " Your brain is full. Let me give you a second one. 🧠 ( FREE SECONDD BRAIN + 40% OFF )",
         "timestamp": "2026-04-29T15:25:32.000Z",
@@ -79,15 +85,9 @@
         "subject": "Have your medication delivered, just like everything else",
         "timestamp": "2026-04-29T13:31:36.000Z",
         "unread": true
-      },
-      {
-        "from": "Marius from PLSFIX",
-        "subject": "Good news: PLSFIX is back online",
-        "timestamp": "2026-04-29T09:09:44.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-04-29T16:19:01.375Z",
+    "gmailUpdated": "2026-04-29T17:55:51.776Z",
     "gorgias": [
       {
         "id": 95883038,
