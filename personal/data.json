@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T18:45:06.110Z",
+  "lastUpdated": "2026-04-29T18:46:33.491Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-04-29T17:55:51.776Z",
     "gorgias": [
       {
+        "id": 95909094,
+        "subject": "Make your own major sports moment",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T18:32:33+00:00"
+      },
+      {
         "id": 95883038,
         "subject": "Be part of the Next Wave",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-29T13:34:19+00:00"
-      },
-      {
-        "id": 95850788,
-        "subject": "Your questions answered at Summit Central—New Seller Summit, May 20, in Anaheim",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T13:27:48+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-29T17:08:57.343Z",
+    "gorgiasUpdated": "2026-04-29T18:46:33.298Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
