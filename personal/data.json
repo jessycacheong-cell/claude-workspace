@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T17:30:17.799Z",
+  "lastUpdated": "2026-04-30T17:43:23.728Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-04-30T16:55:27.014Z",
     "gorgias": [
       {
+        "id": 96064012,
+        "subject": "Refund Initiated for Order 111-2420596-3249053",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-30T16:44:33+00:00"
+      },
+      {
+        "id": 96057043,
+        "subject": "You appeared in recent searches",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-30T16:15:59+00:00"
+      },
+      {
         "id": 96036335,
         "subject": "Your Business Deserves More: Get a Certification, Get Seen!",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-30T13:07:57.264000+00:00"
-      },
-      {
-        "id": 96018308,
-        "subject": "Open this before the earthworms do",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-30T13:04:57+00:00"
-      },
-      {
-        "id": 96012504,
-        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-30T12:17:41.096000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-30T16:07:58.513Z",
+    "gorgiasUpdated": "2026-04-30T17:43:23.554Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
