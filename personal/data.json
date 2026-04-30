@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T22:10:04.432Z",
+  "lastUpdated": "2026-04-30T22:30:09.095Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,37 +130,37 @@
     "gmailSummary": "",
     "outlook": [
       {
+        "from": "atlas@cubework-kb-team.atlassian.net",
+        "subject": "Your organization now has Goals, Projects, and more",
+        "timestamp": "2026-04-30T22:18:47+00:00",
+        "unread": true
+      },
+      {
+        "from": "noreply+aaaeb00@id.atlassian.com",
+        "subject": "7970HW is your verification code",
+        "timestamp": "2026-04-30T22:11:47+00:00",
+        "unread": true
+      },
+      {
+        "from": "john.puente@cubework.com",
+        "subject": "RE: Data migration training ",
+        "timestamp": "2026-04-30T19:05:45+00:00",
+        "unread": false
+      },
+      {
         "from": "kuan.goh@cubework.com",
         "subject": "Re: Data migration training ",
         "timestamp": "2026-04-30T18:56:46+00:00",
-        "unread": true
+        "unread": false
       },
       {
         "from": "no-reply@teams.mail.microsoft",
         "subject": "Ramon Ontiveros sent a message",
         "timestamp": "2026-04-30T15:12:44+00:00",
         "unread": false
-      },
-      {
-        "from": "no-reply@teams.mail.microsoft",
-        "subject": "Juan Fidel Gevero sent a message",
-        "timestamp": "2026-04-30T13:44:58+00:00",
-        "unread": false
-      },
-      {
-        "from": "no-reply@teams.mail.microsoft",
-        "subject": "Justin Cho sent a message",
-        "timestamp": "2026-04-30T01:37:15+00:00",
-        "unread": false
-      },
-      {
-        "from": "Erika.Xu@cubework.com",
-        "subject": "Accepted: Next Session — FAQ Review (Yardi) ",
-        "timestamp": "2026-04-30T00:54:47+00:00",
-        "unread": false
       }
     ],
-    "outlookUpdated": "2026-04-30T19:00:12.061Z"
+    "outlookUpdated": "2026-04-30T22:30:09.089Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-04-30T22:10:03.964Z",
