@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T11:00:35.318Z",
+  "lastUpdated": "2026-04-30T11:03:11.016Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-04-30T09:33:10.529Z",
     "gorgias": [
       {
+        "id": 96002113,
+        "subject": "2good2betruetmg replied to your story",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-30T10:14:56.850000+00:00"
+      },
+      {
         "id": 95996056,
         "subject": "Apr 30, 2026 bill for My Store",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-30T01:26:14+00:00"
-      },
-      {
-        "id": 95967228,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-30T01:02:16+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-30T09:01:28.505Z",
+    "gorgiasUpdated": "2026-04-30T11:03:10.810Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
