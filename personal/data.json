@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T17:00:10.281Z",
+  "lastUpdated": "2026-04-30T17:03:03.739Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -295,7 +295,7 @@
         "team": "Kuan",
         "start": "2026-04-23",
         "end": null,
-        "milestone": false,
+        "milestone": true,
         "progress": 100,
         "url": "https://app.notion.com/p/Agent-architecture-walkthrough-Align-with-Kwan-34a2c564dcb181759fffcfb65ee1a536"
       },
@@ -518,8 +518,38 @@
         "milestone": false,
         "progress": 100,
         "url": "https://app.notion.com/p/Do-field-observation-site-visit-Out-of-Walnut-3502c564dcb18010a191d1ee52c97b56"
+      },
+      {
+        "name": "Extract Data - CS (non ticket), tickets and summarize",
+        "status": "Not started",
+        "team": "Jessyca",
+        "start": "2026-04-27",
+        "end": null,
+        "milestone": false,
+        "progress": 75,
+        "url": "https://app.notion.com/p/Extract-Data-CS-non-ticket-tickets-and-summarize-3512c564dcb180fa9537e14bfccd7d30"
+      },
+      {
+        "name": "WEEK 2 GOAL: Have a draft workflow prepared, confirm the direction, and have sample data ready to begin building.",
+        "status": "Not started",
+        "team": null,
+        "start": "2026-04-27",
+        "end": null,
+        "milestone": false,
+        "progress": 75,
+        "url": "https://app.notion.com/p/WEEK-2-GOAL-Have-a-draft-workflow-prepared-confirm-the-direction-and-have-sample-data-ready-to-be-3522c564dcb180eeb528d72b3c84f51d"
+      },
+      {
+        "name": "WEEK 1 GOAL:  Fully understand the goals, operations, required access, and build a solid understanding of the tasks and overall objectives.",
+        "status": "Not started",
+        "team": "Jessyca",
+        "start": "2026-04-20",
+        "end": null,
+        "milestone": true,
+        "progress": 100,
+        "url": "https://app.notion.com/p/WEEK-1-GOAL-Fully-understand-the-goals-operations-required-access-and-build-a-solid-understandi-3522c564dcb180f3b1e6c67b4b6033d1"
       }
     ],
-    "updatedAt": "2026-04-30T15:20:36.413Z"
+    "updatedAt": "2026-04-30T17:03:03.739Z"
   }
 }
