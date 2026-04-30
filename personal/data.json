@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T07:15:10.419Z",
+  "lastUpdated": "2026-04-30T07:25:55.641Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "First Backer Shop",
+        "subject": "Kickstarter Favorites. Now Shoppable. Plus 10% Off 🎉",
+        "timestamp": "2026-04-30T06:22:23.000Z",
+        "unread": true
+      },
+      {
         "from": "SiriusXM",
         "subject": "Yan, get 3 more months of the All Access Plan in your MINI Hardtop 2 Door",
         "timestamp": "2026-04-30T01:01:30.000Z",
@@ -79,15 +85,9 @@
         "subject": "Jin Dental Aesthetics Recall Reminder",
         "timestamp": "2026-04-29T17:29:18.000Z",
         "unread": true
-      },
-      {
-        "from": "Hansel Sapkota",
-        "subject": " Your brain is full. Let me give you a second one. 🧠 ( FREE SECONDD BRAIN + 40% OFF )",
-        "timestamp": "2026-04-29T15:25:32.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-04-30T04:53:18.340Z",
+    "gmailUpdated": "2026-04-30T07:25:55.437Z",
     "gorgias": [
       {
         "id": 95976361,
