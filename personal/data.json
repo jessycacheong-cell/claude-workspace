@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T18:15:15.339Z",
+  "lastUpdated": "2026-04-30T18:21:32.976Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -513,21 +513,21 @@
         "name": "Do field observation / site visit (Out of Walnut)",
         "status": "Not started",
         "team": "Giovanni Martinez",
-        "start": "2026-04-29",
+        "start": "2026-05-03",
         "end": null,
         "milestone": false,
-        "progress": 100,
+        "progress": 0,
         "url": "https://app.notion.com/p/Do-field-observation-site-visit-Out-of-Walnut-3502c564dcb18010a191d1ee52c97b56"
       },
       {
-        "name": "Extract Data - CS (non ticket), tickets and summarize",
+        "name": "Extract Data - CS (non ticket), tickets and summarize/analyze - meeting",
         "status": "Not started",
         "team": "Jessyca",
         "start": "2026-04-27",
         "end": null,
         "milestone": false,
         "progress": 75,
-        "url": "https://app.notion.com/p/Extract-Data-CS-non-ticket-tickets-and-summarize-3512c564dcb180fa9537e14bfccd7d30"
+        "url": "https://app.notion.com/p/Extract-Data-CS-non-ticket-tickets-and-summarize-analyze-meeting-3512c564dcb180fa9537e14bfccd7d30"
       },
       {
         "name": "WEEK 2 GOAL: Have a draft workflow prepared, confirm the direction, and have sample data ready to begin building.",
@@ -550,6 +550,6 @@
         "url": "https://app.notion.com/p/WEEK-1-GOAL-Fully-understand-the-goals-operations-required-access-and-build-a-solid-understandi-3522c564dcb180f3b1e6c67b4b6033d1"
       }
     ],
-    "updatedAt": "2026-04-30T17:03:03.739Z"
+    "updatedAt": "2026-04-30T18:21:32.976Z"
   }
 }
