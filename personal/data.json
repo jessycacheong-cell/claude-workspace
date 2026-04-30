@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T14:30:14.313Z",
+  "lastUpdated": "2026-04-30T14:37:05.680Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-04-30T13:04:22.335Z",
     "gorgias": [
       {
+        "id": 96029801,
+        "subject": "We've updated our Terms of Use and Acceptable Use Policy",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-30T14:13:01+00:00"
+      },
+      {
+        "id": 96018775,
+        "subject": "Direct message with james.hueyy",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-30T13:07:57.264000+00:00"
+      },
+      {
+        "id": 96018308,
+        "subject": "Open this before the earthworms do",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-30T13:04:57+00:00"
+      },
+      {
         "id": 96012504,
         "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-30T11:48:49+00:00"
-      },
-      {
-        "id": 96002113,
-        "subject": "2good2betruetmg replied to your story",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-30T10:14:56.850000+00:00"
-      },
-      {
-        "id": 95996056,
-        "subject": "Apr 30, 2026 bill for My Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-30T08:15:41.383000+00:00"
-      },
-      {
-        "id": 95976361,
-        "subject": "DLP 3D-printing sevice for footwear",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-30T02:34:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-30T12:22:18.835Z",
+    "gorgiasUpdated": "2026-04-30T14:37:05.478Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
