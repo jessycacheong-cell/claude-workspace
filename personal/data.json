@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T21:13:25.764Z",
+  "lastUpdated": "2026-04-30T21:13:57.806Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-04-30T20:57:43.048Z",
     "gorgias": [
       {
+        "id": 96109504,
+        "subject": "Big updates, new opportunities",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-30T20:31:34+00:00"
+      },
+      {
         "id": 96064012,
         "subject": "Refund Initiated for Order 111-2420596-3249053",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-30T14:13:01+00:00"
-      },
-      {
-        "id": 96018775,
-        "subject": "Direct message with james.hueyy",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-30T13:07:57.264000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-30T19:46:23.058Z",
+    "gorgiasUpdated": "2026-04-30T21:13:57.636Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
