@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T01:30:16.558Z",
+  "lastUpdated": "2026-04-30T01:45:21.812Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,6 +130,12 @@
     "gmailSummary": "",
     "outlook": [
       {
+        "from": "no-reply@teams.mail.microsoft",
+        "subject": "Justin Cho sent a message",
+        "timestamp": "2026-04-30T01:37:15+00:00",
+        "unread": true
+      },
+      {
         "from": "Erika.Xu@cubework.com",
         "subject": "Accepted: Next Session — FAQ Review (Yardi) ",
         "timestamp": "2026-04-30T00:54:47+00:00",
@@ -152,15 +158,9 @@
         "subject": "In two weeks: Ivan Zhao announces Notion’s Developer Platform",
         "timestamp": "2026-04-29T20:49:23+00:00",
         "unread": true
-      },
-      {
-        "from": "team@mail.notion.so",
-        "subject": "4 quick wins for your workspace",
-        "timestamp": "2026-04-29T17:00:32+00:00",
-        "unread": true
       }
     ],
-    "outlookUpdated": "2026-04-30T01:30:16.467Z"
+    "outlookUpdated": "2026-04-30T01:45:21.802Z"
   },
   "agenda": [
     {
