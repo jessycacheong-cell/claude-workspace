@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T21:15:24.243Z",
+  "lastUpdated": "2026-04-30T21:55:23.687Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -72,13 +72,13 @@
         "from": "Siri RSI",
         "subject": "Product Trainer 1 - Palmdale California 93550-7401- NGC - 1164",
         "timestamp": "2026-04-30T18:35:56.000Z",
-        "unread": true
+        "unread": false
       },
       {
         "from": "opensky",
         "subject": "Your opensky card is on the way!",
         "timestamp": "2026-04-30T18:33:12.000Z",
-        "unread": true
+        "unread": false
       },
       {
         "from": "SHEIN",
@@ -87,7 +87,7 @@
         "unread": false
       }
     ],
-    "gmailUpdated": "2026-04-30T20:57:43.048Z",
+    "gmailUpdated": "2026-04-30T21:55:23.516Z",
     "gorgias": [
       {
         "id": 96109504,
