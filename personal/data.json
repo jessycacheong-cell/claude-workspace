@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T09:01:28.689Z",
+  "lastUpdated": "2026-04-30T09:03:15.638Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -162,16 +162,8 @@
     ],
     "outlookUpdated": "2026-04-30T09:00:16.698Z"
   },
-  "agenda": [
-    {
-      "title": "New Contact Lens",
-      "time": "2:00 PM",
-      "end": "3:00 PM",
-      "allDay": false,
-      "calendar": "jessycacheong@gmail.com"
-    }
-  ],
-  "agendaUpdated": "2026-04-30T06:36:28.071Z",
+  "agenda": [],
+  "agendaUpdated": "2026-04-30T09:03:15.461Z",
   "shopify": {
     "orders": "—",
     "revenue": "—",
