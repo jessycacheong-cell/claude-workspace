@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T15:00:09.350Z",
+  "lastUpdated": "2026-04-30T15:15:17.357Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -131,6 +131,12 @@
     "outlook": [
       {
         "from": "no-reply@teams.mail.microsoft",
+        "subject": "Ramon Ontiveros sent a message",
+        "timestamp": "2026-04-30T15:12:44+00:00",
+        "unread": true
+      },
+      {
+        "from": "no-reply@teams.mail.microsoft",
         "subject": "Juan Fidel Gevero sent a message",
         "timestamp": "2026-04-30T13:44:58+00:00",
         "unread": true
@@ -152,15 +158,9 @@
         "subject": "Accepted: Next Session — FAQ Review (Yardi) ",
         "timestamp": "2026-04-29T23:42:51+00:00",
         "unread": true
-      },
-      {
-        "from": "walnut_meeting_room@cubework.com",
-        "subject": "Accepted: Next Session — FAQ Review (Yardi) ",
-        "timestamp": "2026-04-29T23:19:36+00:00",
-        "unread": true
       }
     ],
-    "outlookUpdated": "2026-04-30T15:00:09.341Z"
+    "outlookUpdated": "2026-04-30T15:15:17.350Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-04-30T14:24:39.000Z",
