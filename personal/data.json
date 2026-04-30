@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T00:07:34.429Z",
+  "lastUpdated": "2026-04-30T01:00:08.575Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,37 +130,37 @@
     "gmailSummary": "",
     "outlook": [
       {
-        "from": "team@mail.notion.so",
-        "subject": "Unlock the best features in Notion",
-        "timestamp": "2026-04-28T17:00:40+00:00",
-        "unread": false
+        "from": "Erika.Xu@cubework.com",
+        "subject": "Accepted: Next Session — FAQ Review (Yardi) ",
+        "timestamp": "2026-04-30T00:54:47+00:00",
+        "unread": true
       },
       {
-        "from": "justin.cho@cubework.com",
-        "subject": "Accepted: Flow Overview (Sales)",
-        "timestamp": "2026-04-28T16:37:55+00:00",
-        "unread": false
+        "from": "kuan.goh@cubework.com",
+        "subject": "Accepted: Next Session — FAQ Review (Yardi) ",
+        "timestamp": "2026-04-29T23:42:51+00:00",
+        "unread": true
       },
       {
         "from": "walnut_meeting_room@cubework.com",
-        "subject": "Accepted: Flow Overview (Sales)",
-        "timestamp": "2026-04-28T16:37:11+00:00",
-        "unread": false
+        "subject": "Accepted: Next Session — FAQ Review (Yardi) ",
+        "timestamp": "2026-04-29T23:19:36+00:00",
+        "unread": true
       },
       {
         "from": "team@mail.notion.so",
-        "subject": "Stay present.  Notion AI's got the notes.",
-        "timestamp": "2026-04-28T15:38:57+00:00",
-        "unread": false
+        "subject": "In two weeks: Ivan Zhao announces Notion’s Developer Platform",
+        "timestamp": "2026-04-29T20:49:23+00:00",
+        "unread": true
       },
       {
-        "from": "no-reply@teams.mail.microsoft",
-        "subject": "Kuan Goh sent a message",
-        "timestamp": "2026-04-28T06:45:21+00:00",
-        "unread": false
+        "from": "team@mail.notion.so",
+        "subject": "4 quick wins for your workspace",
+        "timestamp": "2026-04-29T17:00:32+00:00",
+        "unread": true
       }
     ],
-    "outlookUpdated": "2026-04-29T07:00:10.095Z"
+    "outlookUpdated": "2026-04-30T01:00:08.566Z"
   },
   "agenda": [
     {
