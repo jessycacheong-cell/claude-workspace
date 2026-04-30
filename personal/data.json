@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T22:32:10.082Z",
+  "lastUpdated": "2026-04-30T22:32:30.104Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-04-30T21:55:23.516Z",
     "gorgias": [
       {
+        "id": 96123615,
+        "subject": "Love this",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-30T21:56:44+00:00"
+      },
+      {
         "id": 96109504,
         "subject": "Big updates, new opportunities",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-30T14:48:25+00:00"
-      },
-      {
-        "id": 96029801,
-        "subject": "We've updated our Terms of Use and Acceptable Use Policy",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-30T14:13:01+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-30T21:13:57.636Z",
+    "gorgiasUpdated": "2026-04-30T22:32:29.931Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
