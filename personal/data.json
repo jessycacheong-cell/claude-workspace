@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T04:00:10.204Z",
+  "lastUpdated": "2026-04-30T04:00:50.865Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-04-30T01:22:18.832Z",
     "gorgias": [
       {
+        "id": 95976361,
+        "subject": "DLP 3D-printing sevice for footwear",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-30T02:34:13+00:00"
+      },
+      {
+        "id": 95969904,
+        "subject": "I owe you an explanation...",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-30T01:29:04+00:00"
+      },
+      {
+        "id": 95969642,
+        "subject": "[Action Required] Amazon RDS PostgreSQL minor versions deprecating on May 31, 2026 [AWS Account: 381492252471] [US-WEST-2]",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-30T01:26:14+00:00"
+      },
+      {
+        "id": 95967228,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-04-30T01:02:16+00:00"
+      },
+      {
         "id": 95960022,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-04-29T23:53:27+00:00"
-      },
-      {
-        "id": 95958845,
-        "subject": "Fresh start in our puzzle, UMEI 🌼",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T23:42:32+00:00"
-      },
-      {
-        "id": 95944634,
-        "subject": "Your FBA capacity limits for May",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T21:51:50+00:00"
-      },
-      {
-        "id": 95943440,
-        "subject": "Spring is peak season. Is your inventory ready?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-29T21:45:31.866000+00:00"
-      },
-      {
-        "id": 95941075,
-        "subject": "Direct message with speedlumatech",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-29T21:28:32.510000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-30T00:06:20.344Z",
+    "gorgiasUpdated": "2026-04-30T04:00:50.715Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
