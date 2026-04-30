@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T12:16:06.532Z",
+  "lastUpdated": "2026-04-30T12:22:19.020Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-04-30T11:19:18.661Z",
     "gorgias": [
       {
+        "id": 96012504,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-30T12:17:41.096000+00:00"
+      },
+      {
+        "id": 96009268,
+        "subject": "🎉 First $1M month to creators + big redesign to MCP Configurator",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-30T11:48:49+00:00"
+      },
+      {
         "id": 96002113,
         "subject": "2good2betruetmg replied to your story",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-30T02:34:13+00:00"
-      },
-      {
-        "id": 95969904,
-        "subject": "I owe you an explanation...",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-04-30T01:29:04+00:00"
-      },
-      {
-        "id": 95969642,
-        "subject": "[Action Required] Amazon RDS PostgreSQL minor versions deprecating on May 31, 2026 [AWS Account: 381492252471] [US-WEST-2]",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-30T01:26:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-30T11:03:10.810Z",
+    "gorgiasUpdated": "2026-04-30T12:22:18.835Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
