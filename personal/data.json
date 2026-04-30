@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T19:46:23.194Z",
+  "lastUpdated": "2026-04-30T19:49:28.331Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,37 +57,37 @@
   "inbox": {
     "gmail": [
       {
+        "from": "G Naresh",
+        "subject": "Immediate Requirement Product Trainer @ Palmdale CA",
+        "timestamp": "2026-04-30T19:46:28.000Z",
+        "unread": false
+      },
+      {
+        "from": "G Naresh",
+        "subject": "Immediate Requirement Product Trainer 1 @ Palmdale CA ",
+        "timestamp": "2026-04-30T19:29:44.000Z",
+        "unread": true
+      },
+      {
+        "from": "Siri RSI",
+        "subject": "Product Trainer 1 - Palmdale California 93550-7401- NGC - 1164",
+        "timestamp": "2026-04-30T18:35:56.000Z",
+        "unread": true
+      },
+      {
+        "from": "opensky",
+        "subject": "Your opensky card is on the way!",
+        "timestamp": "2026-04-30T18:33:12.000Z",
+        "unread": true
+      },
+      {
         "from": "SHEIN",
         "subject": "💝Only 8 pieces left: Shop your WISHLIST now>",
         "timestamp": "2026-04-30T18:06:24.000Z",
         "unread": true
-      },
-      {
-        "from": "First Backer",
-        "subject": "Bring Far Subjects Close",
-        "timestamp": "2026-04-30T16:05:54.000Z",
-        "unread": true
-      },
-      {
-        "from": "Puneet from Careerflow",
-        "subject": "read the JD?",
-        "timestamp": "2026-04-30T14:02:48.000Z",
-        "unread": true
-      },
-      {
-        "from": "First Backer Shop",
-        "subject": "Kickstarter Favorites. Now Shoppable. Plus 10% Off 🎉",
-        "timestamp": "2026-04-30T06:22:23.000Z",
-        "unread": true
-      },
-      {
-        "from": "SiriusXM",
-        "subject": "Yan, get 3 more months of the All Access Plan in your MINI Hardtop 2 Door",
-        "timestamp": "2026-04-30T01:01:30.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-04-30T18:08:00.406Z",
+    "gmailUpdated": "2026-04-30T19:49:28.136Z",
     "gorgias": [
       {
         "id": 96064012,
