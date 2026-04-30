@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T18:04:17.485Z",
+  "lastUpdated": "2026-04-30T18:08:00.642Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "SHEIN",
+        "subject": "💝Only 8 pieces left: Shop your WISHLIST now>",
+        "timestamp": "2026-04-30T18:06:24.000Z",
+        "unread": true
+      },
+      {
         "from": "First Backer",
         "subject": "Bring Far Subjects Close",
         "timestamp": "2026-04-30T16:05:54.000Z",
@@ -79,15 +85,9 @@
         "subject": "Yan, get 3 more months of the All Access Plan in your MINI Hardtop 2 Door",
         "timestamp": "2026-04-30T01:01:30.000Z",
         "unread": true
-      },
-      {
-        "from": "Zapier News",
-        "subject": "New ways to govern (and enable) AI",
-        "timestamp": "2026-04-29T22:11:48.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-04-30T16:55:27.014Z",
+    "gmailUpdated": "2026-04-30T18:08:00.406Z",
     "gorgias": [
       {
         "id": 96064012,
