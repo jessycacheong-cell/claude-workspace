@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T18:52:32.801Z",
+  "lastUpdated": "2026-04-30T19:00:12.068Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,6 +130,12 @@
     "gmailSummary": "",
     "outlook": [
       {
+        "from": "kuan.goh@cubework.com",
+        "subject": "Re: Data migration training ",
+        "timestamp": "2026-04-30T18:56:46+00:00",
+        "unread": true
+      },
+      {
         "from": "no-reply@teams.mail.microsoft",
         "subject": "Ramon Ontiveros sent a message",
         "timestamp": "2026-04-30T15:12:44+00:00",
@@ -152,15 +158,9 @@
         "subject": "Accepted: Next Session — FAQ Review (Yardi) ",
         "timestamp": "2026-04-30T00:54:47+00:00",
         "unread": false
-      },
-      {
-        "from": "kuan.goh@cubework.com",
-        "subject": "Accepted: Next Session — FAQ Review (Yardi) ",
-        "timestamp": "2026-04-29T23:42:51+00:00",
-        "unread": false
       }
     ],
-    "outlookUpdated": "2026-04-30T18:45:15.104Z"
+    "outlookUpdated": "2026-04-30T19:00:12.061Z"
   },
   "agenda": [],
   "agendaUpdated": "2026-04-30T18:52:32.579Z",
