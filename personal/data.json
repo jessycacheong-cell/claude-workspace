@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T23:36:18.480Z",
+  "lastUpdated": "2026-04-30T00:06:20.613Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-04-29T23:36:18.332Z",
     "gorgias": [
       {
+        "id": 95960022,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T23:53:27+00:00"
+      },
+      {
+        "id": 95958845,
+        "subject": "Fresh start in our puzzle, UMEI 🌼",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-04-29T23:42:32+00:00"
+      },
+      {
         "id": 95944634,
         "subject": "Your FBA capacity limits for May",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-04-29T21:28:32.510000+00:00"
-      },
-      {
-        "id": 95939659,
-        "subject": "Distribution Opportunity For Umei",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T21:18:20+00:00"
-      },
-      {
-        "id": 95935113,
-        "subject": "You can now set a default device view in heatmaps",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-29T20:47:25+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-29T23:08:32.688Z",
+    "gorgiasUpdated": "2026-04-30T00:06:20.344Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
