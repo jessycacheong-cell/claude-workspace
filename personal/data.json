@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T12:39:01.853Z",
+  "lastUpdated": "2026-05-01T12:39:36.327Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-01T11:32:58.374Z",
     "gorgias": [
       {
+        "id": 96191422,
+        "subject": "Community AMA: Sell internationally with Shopify experts",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-01T12:05:15+00:00"
+      },
+      {
         "id": 96184930,
         "subject": "New message for Umei3d",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-01T03:33:02+00:00"
-      },
-      {
-        "id": 96161483,
-        "subject": "Direct message with swift.f1is",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-01T03:24:17.138000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-01T11:20:06.626Z",
+    "gorgiasUpdated": "2026-05-01T12:39:36.158Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
