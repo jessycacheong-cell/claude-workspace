@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T01:24:51.641Z",
+  "lastUpdated": "2026-05-01T02:47:58.190Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "OpenAI",
+        "subject": "Update to our privacy policy and more controls",
+        "timestamp": "2026-05-01T01:42:41.000Z",
+        "unread": true
+      },
+      {
         "from": "G Naresh",
         "subject": "Immediate Requirement Product Trainer @ Palmdale CA",
         "timestamp": "2026-04-30T19:46:28.000Z",
@@ -79,15 +85,9 @@
         "subject": "Your opensky card is on the way!",
         "timestamp": "2026-04-30T18:33:12.000Z",
         "unread": false
-      },
-      {
-        "from": "SHEIN",
-        "subject": "💝Only 8 pieces left: Shop your WISHLIST now>",
-        "timestamp": "2026-04-30T18:06:24.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-04-30T23:51:17.835Z",
+    "gmailUpdated": "2026-05-01T02:47:57.973Z",
     "gorgias": [
       {
         "id": 96149637,
