@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T06:46:35.139Z",
+  "lastUpdated": "2026-05-01T07:51:43.557Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-01T06:14:23.250Z",
     "gorgias": [
       {
-        "id": 96149637,
-        "subject": "Direct message with austinthephilosurfer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-01T01:13:35.952000+00:00"
-      },
-      {
-        "id": 96147016,
-        "subject": "Refund Initiated for Order 113-1718693-3299407",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-01T00:49:39+00:00"
-      },
-      {
-        "id": 96123615,
-        "subject": "Love this",
+        "id": 96168206,
+        "subject": "I’ve gotta get some more! I only use mine for slippers !",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-04-30T21:56:44+00:00"
+        "timestamp": "2026-05-01T05:20:08+00:00"
       },
       {
-        "id": 96109504,
-        "subject": "Big updates, new opportunities",
+        "id": 96162157,
+        "subject": "HILOS posted: The Griphoria is now in market.  Alexander Wang's 3D-printed stiletto —… 💡",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-30T20:31:34+00:00"
+        "timestamp": "2026-05-01T03:33:02+00:00"
       },
       {
-        "id": 96064012,
-        "subject": "Refund Initiated for Order 111-2420596-3249053",
+        "id": 96161483,
+        "subject": "Direct message with swift.f1is",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-01T03:24:17.138000+00:00"
+      },
+      {
+        "id": 96160956,
+        "subject": "Your receipt from Auth0 by Okta #2893-5792",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-04-30T16:44:33+00:00"
+        "timestamp": "2026-05-01T03:16:39+00:00"
+      },
+      {
+        "id": 96156076,
+        "subject": "Need every color",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-01T02:16:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-01T01:24:49.110Z",
+    "gorgiasUpdated": "2026-05-01T07:51:43.356Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
