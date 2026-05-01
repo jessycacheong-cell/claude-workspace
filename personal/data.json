@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T00:06:23.222Z",
+  "lastUpdated": "2026-05-01T01:24:49.274Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-04-30T23:51:17.835Z",
     "gorgias": [
       {
+        "id": 96149637,
+        "subject": "Direct message with austinthephilosurfer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-01T01:13:35.952000+00:00"
+      },
+      {
+        "id": 96147016,
+        "subject": "Refund Initiated for Order 113-1718693-3299407",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-01T00:49:39+00:00"
+      },
+      {
         "id": 96123615,
         "subject": "Love this",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-04-30T16:44:33+00:00"
-      },
-      {
-        "id": 96057043,
-        "subject": "You appeared in recent searches",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-30T16:15:59+00:00"
-      },
-      {
-        "id": 96036335,
-        "subject": "Your Business Deserves More: Get a Certification, Get Seen!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-04-30T14:48:25+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-04-30T23:32:40.093Z",
+    "gorgiasUpdated": "2026-05-01T01:24:49.110Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
