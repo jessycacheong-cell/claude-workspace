@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T11:19:31.826Z",
+  "lastUpdated": "2026-05-01T11:20:06.774Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-01T10:03:59.323Z",
     "gorgias": [
       {
+        "id": 96184930,
+        "subject": "New message for Umei3d",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-01T10:43:30+00:00"
+      },
+      {
         "id": 96177807,
         "subject": "How your Moonwalker recovery step lifts — lighter sole, full grip",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-01T03:24:17.138000+00:00"
-      },
-      {
-        "id": 96160956,
-        "subject": "Your receipt from Auth0 by Okta #2893-5792",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-01T03:16:39+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-01T09:56:31.879Z",
+    "gorgiasUpdated": "2026-05-01T11:20:06.626Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
