@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T16:10:48.769Z",
+  "lastUpdated": "2026-05-01T16:30:16.952Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,37 +130,37 @@
     "gmailSummary": "",
     "outlook": [
       {
-        "from": "atlas@cubework-kb-team.atlassian.net",
-        "subject": "Your organization now has Goals, Projects, and more",
-        "timestamp": "2026-04-30T22:18:47+00:00",
+        "from": "no-reply@cubework.com",
+        "subject": "Your OTP for Authentication",
+        "timestamp": "2026-05-01T16:23:51+00:00",
         "unread": true
       },
       {
-        "from": "noreply+aaaeb00@id.atlassian.com",
-        "subject": "7970HW is your verification code",
-        "timestamp": "2026-04-30T22:11:47+00:00",
+        "from": "no-reply@cubework.com",
+        "subject": "Your OTP for Authentication",
+        "timestamp": "2026-05-01T16:22:53+00:00",
+        "unread": false
+      },
+      {
+        "from": "no-reply@cubework.com",
+        "subject": "Your OTP for Authentication",
+        "timestamp": "2026-05-01T16:17:27+00:00",
+        "unread": false
+      },
+      {
+        "from": "team@mail.notion.so",
+        "subject": "Find answers across all of your tools",
+        "timestamp": "2026-05-01T15:39:04+00:00",
         "unread": true
-      },
-      {
-        "from": "john.puente@cubework.com",
-        "subject": "RE: Data migration training ",
-        "timestamp": "2026-04-30T19:05:45+00:00",
-        "unread": false
-      },
-      {
-        "from": "kuan.goh@cubework.com",
-        "subject": "Re: Data migration training ",
-        "timestamp": "2026-04-30T18:56:46+00:00",
-        "unread": false
       },
       {
         "from": "no-reply@teams.mail.microsoft",
-        "subject": "Ramon Ontiveros sent a message",
-        "timestamp": "2026-04-30T15:12:44+00:00",
-        "unread": false
+        "subject": "Debbie Bernal sent a message",
+        "timestamp": "2026-05-01T14:59:25+00:00",
+        "unread": true
       }
     ],
-    "outlookUpdated": "2026-04-30T23:15:08.836Z"
+    "outlookUpdated": "2026-05-01T16:30:16.847Z"
   },
   "agenda": [
     {
