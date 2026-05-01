@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T21:31:11.002Z",
+  "lastUpdated": "2026-05-01T21:32:27.925Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-01T20:33:04.273Z",
     "gorgias": [
       {
+        "id": 96284075,
+        "subject": "The sellers winning in 2026 moved early. Here's what they did.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-01T21:05:27.284000+00:00"
+      },
+      {
+        "id": 96283257,
+        "subject": "Direct message with susanmcdjewelry",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-01T21:00:53.501000+00:00"
+      },
+      {
         "id": 96259707,
         "subject": "jessiannwilliams2001 replied to your story",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-01T16:06:13+00:00"
-      },
-      {
-        "id": 96231525,
-        "subject": "You’ve got new messages from CherelynnB",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-01T16:02:38+00:00"
-      },
-      {
-        "id": 96203643,
-        "subject": "Networking opportunities and extended Q&As on the West Coast—final call on early-bird pricing!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-01T13:34:08+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-01T20:10:39.434Z",
+    "gorgiasUpdated": "2026-05-01T21:32:27.742Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
