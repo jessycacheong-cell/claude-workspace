@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T17:10:00.032Z",
+  "lastUpdated": "2026-05-01T17:13:01.968Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,10 +57,16 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Pinterest",
+        "subject": "Formula 1 drivers for Jessyca",
+        "timestamp": "2026-05-01T16:35:43.000Z",
+        "unread": true
+      },
+      {
         "from": "Jianbo from Loona",
         "subject": "Final 24h to upgrade your workspace 🤖✨",
         "timestamp": "2026-05-01T14:02:26.000Z",
-        "unread": true
+        "unread": false
       },
       {
         "from": "Jianbo from Loona",
@@ -72,22 +78,16 @@
         "from": "Anil Kumar",
         "subject": "Opportunity in Palmdale California",
         "timestamp": "2026-05-01T13:26:13.000Z",
-        "unread": true
+        "unread": false
       },
       {
         "from": "OpenAI",
         "subject": "Update to our privacy policy and more controls",
         "timestamp": "2026-05-01T01:42:41.000Z",
         "unread": true
-      },
-      {
-        "from": "G Naresh",
-        "subject": "Immediate Requirement Product Trainer @ Palmdale CA",
-        "timestamp": "2026-04-30T19:46:28.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-05-01T16:09:58.882Z",
+    "gmailUpdated": "2026-05-01T17:13:01.784Z",
     "gorgias": [
       {
         "id": 96234407,
