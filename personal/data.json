@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T18:45:10.352Z",
+  "lastUpdated": "2026-05-01T18:45:27.605Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-01T18:10:45.604Z",
     "gorgias": [
       {
+        "id": 96259707,
+        "subject": "jessiannwilliams2001 replied to your story",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-01T18:36:36.809000+00:00"
+      },
+      {
         "id": 96234407,
         "subject": "Jack & Jill is hiring a Founder's Associate ($120k–$140k + Equity) at $3M Seed-funded AI supply chain startup",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-01T13:34:08+00:00"
-      },
-      {
-        "id": 96198209,
-        "subject": "Upgrade store //",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-01T13:01:50+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-01T17:38:14.135Z",
+    "gorgiasUpdated": "2026-05-01T18:45:27.376Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
