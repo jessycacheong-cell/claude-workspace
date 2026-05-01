@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T23:15:07.737Z",
+  "lastUpdated": "2026-05-01T23:30:09.396Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,6 +130,12 @@
     "gmailSummary": "",
     "outlook": [
       {
+        "from": "info@e.atlassian.com",
+        "subject": "Missing one of these in your Confluence workspace?",
+        "timestamp": "2026-05-01T23:17:14+00:00",
+        "unread": true
+      },
+      {
         "from": "no-reply@teams.mail.microsoft",
         "subject": "Giovanni Martinez and John Puente sent 2 messages to your chat",
         "timestamp": "2026-05-01T20:58:39+00:00",
@@ -152,15 +158,9 @@
         "subject": "Your OTP for Authentication",
         "timestamp": "2026-05-01T16:22:53+00:00",
         "unread": false
-      },
-      {
-        "from": "no-reply@cubework.com",
-        "subject": "Your OTP for Authentication",
-        "timestamp": "2026-05-01T16:17:27+00:00",
-        "unread": false
       }
     ],
-    "outlookUpdated": "2026-05-01T23:15:07.729Z"
+    "outlookUpdated": "2026-05-01T23:30:09.321Z"
   },
   "agenda": [
     {
