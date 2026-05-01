@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T22:31:05.767Z",
+  "lastUpdated": "2026-05-01T22:34:54.068Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Sunil SR",
+        "subject": "Product Trainer role at Palmdale California",
+        "timestamp": "2026-05-01T22:16:46.000Z",
+        "unread": true
+      },
+      {
         "from": "Sarah Noor",
         "subject": "Job Opportunities - Trainer - Palmdale, CA",
         "timestamp": "2026-05-01T21:22:46.000Z",
@@ -79,15 +85,9 @@
         "subject": "Final 24h to upgrade your workspace 🤖✨",
         "timestamp": "2026-05-01T14:02:26.000Z",
         "unread": false
-      },
-      {
-        "from": "Jianbo from Loona",
-        "subject": "⏰ Last 24 Hours! Complete Your Loona Order If you haven’t",
-        "timestamp": "2026-05-01T14:01:47.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-05-01T21:37:27.347Z",
+    "gmailUpdated": "2026-05-01T22:34:53.852Z",
     "gorgias": [
       {
         "id": 96289497,
