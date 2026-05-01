@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T23:36:15.982Z",
+  "lastUpdated": "2026-05-01T23:45:10.226Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -133,19 +133,19 @@
         "from": "info@e.atlassian.com",
         "subject": "Missing one of these in your Confluence workspace?",
         "timestamp": "2026-05-01T23:17:14+00:00",
-        "unread": true
+        "unread": false
       },
       {
         "from": "no-reply@teams.mail.microsoft",
         "subject": "Giovanni Martinez and John Puente sent 2 messages to your chat",
         "timestamp": "2026-05-01T20:58:39+00:00",
-        "unread": true
+        "unread": false
       },
       {
         "from": "Erika.Xu@cubework.com",
         "subject": "Facility mangement Mock UI",
         "timestamp": "2026-05-01T17:24:16+00:00",
-        "unread": true
+        "unread": false
       },
       {
         "from": "no-reply@cubework.com",
@@ -160,7 +160,7 @@
         "unread": false
       }
     ],
-    "outlookUpdated": "2026-05-01T23:30:09.321Z"
+    "outlookUpdated": "2026-05-01T23:45:10.135Z"
   },
   "agenda": [
     {
