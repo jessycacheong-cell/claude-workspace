@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T08:25:03.136Z",
+  "lastUpdated": "2026-05-01T08:33:33.306Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -162,8 +162,30 @@
     ],
     "outlookUpdated": "2026-04-30T23:15:08.836Z"
   },
-  "agenda": [],
-  "agendaUpdated": "2026-05-01T06:46:34.932Z",
+  "agenda": [
+    {
+      "title": "Have you paid?",
+      "time": "6:30 AM",
+      "end": "7:30 AM",
+      "allDay": false,
+      "calendar": "jessycacheong@gmail.com"
+    },
+    {
+      "title": "Labour Day",
+      "time": "All Day",
+      "end": "",
+      "allDay": true,
+      "calendar": "Holidays in Malaysia"
+    },
+    {
+      "title": "Labour Day",
+      "time": "All Day",
+      "end": "",
+      "allDay": true,
+      "calendar": "Holidays in China"
+    }
+  ],
+  "agendaUpdated": "2026-05-01T08:33:33.101Z",
   "shopify": {
     "orders": "—",
     "revenue": "—",
