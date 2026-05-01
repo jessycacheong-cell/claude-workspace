@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T14:04:14.918Z",
+  "lastUpdated": "2026-05-01T14:05:22.625Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-01T12:41:15.963Z",
     "gorgias": [
       {
+        "id": 96203643,
+        "subject": "Networking opportunities and extended Q&As on the West Coast—final call on early-bird pricing!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-01T13:34:08+00:00"
+      },
+      {
+        "id": 96198209,
+        "subject": "Upgrade store //",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-01T13:01:50+00:00"
+      },
+      {
         "id": 96191422,
         "subject": "Community AMA: Sell internationally with Shopify experts",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-01T08:21:43+00:00"
-      },
-      {
-        "id": 96168206,
-        "subject": "I’ve gotta get some more! I only use mine for slippers !",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-01T05:20:08+00:00"
-      },
-      {
-        "id": 96162157,
-        "subject": "HILOS posted: The Griphoria is now in market.  Alexander Wang's 3D-printed stiletto —… 💡",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-01T03:33:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-01T12:39:36.158Z",
+    "gorgiasUpdated": "2026-05-01T14:05:22.456Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
