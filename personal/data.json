@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T19:35:47.392Z",
+  "lastUpdated": "2026-05-01T19:37:55.791Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Sarah Noor",
+        "subject": "Job Opportunities - Trainer - Palmdale, CA",
+        "timestamp": "2026-05-01T19:16:57.000Z",
+        "unread": true
+      },
+      {
         "from": "Pinterest",
         "subject": "Formula 1 drivers for Jessyca",
         "timestamp": "2026-05-01T16:35:43.000Z",
@@ -79,15 +85,9 @@
         "subject": "Opportunity in Palmdale California",
         "timestamp": "2026-05-01T13:26:13.000Z",
         "unread": false
-      },
-      {
-        "from": "OpenAI",
-        "subject": "Update to our privacy policy and more controls",
-        "timestamp": "2026-05-01T01:42:41.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-05-01T18:10:45.604Z",
+    "gmailUpdated": "2026-05-01T19:37:55.622Z",
     "gorgias": [
       {
         "id": 96259707,
