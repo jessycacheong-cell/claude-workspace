@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T17:15:10.934Z",
+  "lastUpdated": "2026-05-01T17:30:14.063Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,10 +130,16 @@
     "gmailSummary": "",
     "outlook": [
       {
+        "from": "Erika.Xu@cubework.com",
+        "subject": "Facility mangement Mock UI",
+        "timestamp": "2026-05-01T17:24:16+00:00",
+        "unread": true
+      },
+      {
         "from": "no-reply@cubework.com",
         "subject": "Your OTP for Authentication",
         "timestamp": "2026-05-01T16:23:51+00:00",
-        "unread": true
+        "unread": false
       },
       {
         "from": "no-reply@cubework.com",
@@ -152,15 +158,9 @@
         "subject": "Find answers across all of your tools",
         "timestamp": "2026-05-01T15:39:04+00:00",
         "unread": true
-      },
-      {
-        "from": "no-reply@teams.mail.microsoft",
-        "subject": "Debbie Bernal sent a message",
-        "timestamp": "2026-05-01T14:59:25+00:00",
-        "unread": true
       }
     ],
-    "outlookUpdated": "2026-05-01T17:15:10.847Z"
+    "outlookUpdated": "2026-05-01T17:30:14.049Z"
   },
   "agenda": [
     {
