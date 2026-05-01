@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T21:32:27.925Z",
+  "lastUpdated": "2026-05-01T21:37:27.475Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -59,6 +59,12 @@
       {
         "from": "Sarah Noor",
         "subject": "Job Opportunities - Trainer - Palmdale, CA",
+        "timestamp": "2026-05-01T21:22:46.000Z",
+        "unread": true
+      },
+      {
+        "from": "Sarah Noor",
+        "subject": "Job Opportunities - Trainer - Palmdale, CA",
         "timestamp": "2026-05-01T19:16:57.000Z",
         "unread": true
       },
@@ -79,15 +85,9 @@
         "subject": "⏰ Last 24 Hours! Complete Your Loona Order If you haven’t",
         "timestamp": "2026-05-01T14:01:47.000Z",
         "unread": true
-      },
-      {
-        "from": "Anil Kumar",
-        "subject": "Opportunity in Palmdale California",
-        "timestamp": "2026-05-01T13:26:13.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-05-01T20:33:04.273Z",
+    "gmailUpdated": "2026-05-01T21:37:27.347Z",
     "gorgias": [
       {
         "id": 96284075,
