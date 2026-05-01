@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T16:30:16.952Z",
+  "lastUpdated": "2026-05-01T16:35:12.442Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-01T16:09:58.882Z",
     "gorgias": [
       {
+        "id": 96234407,
+        "subject": "Jack & Jill is hiring a Founder's Associate ($120k–$140k + Equity) at $3M Seed-funded AI supply chain startup",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-01T16:16:06+00:00"
+      },
+      {
+        "id": 96232433,
+        "subject": "Coming soon ≠ doing nothing",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-01T16:06:13+00:00"
+      },
+      {
+        "id": 96231525,
+        "subject": "You’ve got new messages from CherelynnB",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-01T16:02:38+00:00"
+      },
+      {
         "id": 96203643,
         "subject": "Networking opportunities and extended Q&As on the West Coast—final call on early-bird pricing!",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-01T13:01:50+00:00"
-      },
-      {
-        "id": 96191422,
-        "subject": "Community AMA: Sell internationally with Shopify experts",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-01T12:05:15+00:00"
-      },
-      {
-        "id": 96184930,
-        "subject": "New message for Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-01T10:43:30+00:00"
-      },
-      {
-        "id": 96177807,
-        "subject": "How your Moonwalker recovery step lifts — lighter sole, full grip",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-01T08:21:43+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-01T15:12:24.490Z",
+    "gorgiasUpdated": "2026-05-01T16:35:11.917Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
