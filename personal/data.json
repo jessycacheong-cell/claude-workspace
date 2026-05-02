@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T09:09:02.470Z",
+  "lastUpdated": "2026-05-02T09:20:39.778Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "altamed@myworkday.com",
+        "subject": "Thank you for applying to AltaMed - JR8414 PACE Program Coordinator",
+        "timestamp": "2026-05-02T08:23:25.000Z",
+        "unread": true
+      },
+      {
         "from": "Emmanuel Crouy",
         "subject": "We're offering you a free JobCopilot trial",
         "timestamp": "2026-05-02T05:32:56.000Z",
@@ -79,15 +85,9 @@
         "subject": "Job Opportunities - Trainer - Palmdale, CA",
         "timestamp": "2026-05-01T21:22:46.000Z",
         "unread": true
-      },
-      {
-        "from": "Sarah Noor",
-        "subject": "Job Opportunities - Trainer - Palmdale, CA",
-        "timestamp": "2026-05-01T19:16:57.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-05-02T08:09:13.708Z",
+    "gmailUpdated": "2026-05-02T09:20:39.600Z",
     "gorgias": [
       {
         "id": 96318085,
