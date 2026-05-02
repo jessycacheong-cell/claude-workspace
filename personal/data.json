@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T19:14:56.691Z",
+  "lastUpdated": "2026-05-02T19:42:00.051Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,24 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Santander Consumer USA",
+        "subject": "One Time Passcode: 438367 | Santander Consumer USA",
+        "timestamp": "2026-05-02T19:32:10.000Z",
+        "unread": false
+      },
+      {
+        "from": "Santander Consumer USA",
+        "subject": "One Time Passcode: 438367 | Santander Consumer USA",
+        "timestamp": "2026-05-02T19:31:32.000Z",
+        "unread": false
+      },
+      {
+        "from": "Santander Consumer USA",
+        "subject": "Welcome to MyAccount",
+        "timestamp": "2026-05-02T19:31:23.000Z",
+        "unread": true
+      },
+      {
         "from": "MINI Insurance",
         "subject": "Hi Pik yan! Protect your new COOPER C 2 DOOR OXFORD EDITION with MINI's Insurance program!",
         "timestamp": "2026-05-02T16:14:58.000Z",
@@ -67,27 +85,9 @@
         "subject": "Celebrate National Matcha Day! 🍵",
         "timestamp": "2026-05-02T15:32:44.000Z",
         "unread": true
-      },
-      {
-        "from": "MINIUSA",
-        "subject": "Ready when you are.",
-        "timestamp": "2026-05-02T14:15:37.000Z",
-        "unread": true
-      },
-      {
-        "from": "altamed@myworkday.com",
-        "subject": "Thank you for applying to AltaMed - JR8414 PACE Program Coordinator",
-        "timestamp": "2026-05-02T08:23:25.000Z",
-        "unread": true
-      },
-      {
-        "from": "Emmanuel Crouy",
-        "subject": "We're offering you a free JobCopilot trial",
-        "timestamp": "2026-05-02T05:32:56.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-05-02T18:34:54.325Z",
+    "gmailUpdated": "2026-05-02T19:41:59.874Z",
     "gorgias": [
       {
         "id": 96377198,
