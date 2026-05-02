@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T20:07:53.826Z",
+  "lastUpdated": "2026-05-02T20:23:13.884Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,37 +57,37 @@
   "inbox": {
     "gmail": [
       {
-        "from": "Santander Consumer USA",
-        "subject": "One Time Passcode: 438367 | Santander Consumer USA",
-        "timestamp": "2026-05-02T19:32:10.000Z",
-        "unread": false
-      },
-      {
-        "from": "Santander Consumer USA",
-        "subject": "One Time Passcode: 438367 | Santander Consumer USA",
-        "timestamp": "2026-05-02T19:31:32.000Z",
-        "unread": false
-      },
-      {
-        "from": "Santander Consumer USA",
-        "subject": "Welcome to MyAccount",
-        "timestamp": "2026-05-02T19:31:23.000Z",
+        "from": "Bank of America",
+        "subject": "You're enrolled in Keep the Change",
+        "timestamp": "2026-05-02T20:20:20.000Z",
         "unread": true
       },
       {
-        "from": "MINI Insurance",
-        "subject": "Hi Pik yan! Protect your new COOPER C 2 DOOR OXFORD EDITION with MINI's Insurance program!",
-        "timestamp": "2026-05-02T16:14:58.000Z",
+        "from": "GEICO",
+        "subject": ":D ATTENTION PLEASE: Your ID cards are now available ❯❯❯",
+        "timestamp": "2026-05-02T20:06:21.000Z",
         "unread": true
       },
       {
-        "from": "Starbucks",
-        "subject": "Celebrate National Matcha Day! 🍵",
-        "timestamp": "2026-05-02T15:32:44.000Z",
+        "from": "GEICO",
+        "subject": "Confirming your recent billing transaction",
+        "timestamp": "2026-05-02T20:01:51.000Z",
+        "unread": true
+      },
+      {
+        "from": "Bank of America",
+        "subject": "Zelle® payment of $2,000.00 to MARK LORICH has been sent",
+        "timestamp": "2026-05-02T19:55:13.000Z",
+        "unread": true
+      },
+      {
+        "from": "Bank of America",
+        "subject": "You set up a recurring payment",
+        "timestamp": "2026-05-02T19:52:59.000Z",
         "unread": true
       }
     ],
-    "gmailUpdated": "2026-05-02T19:41:59.874Z",
+    "gmailUpdated": "2026-05-02T20:23:13.731Z",
     "gorgias": [
       {
         "id": 96377198,
