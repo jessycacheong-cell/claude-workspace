@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T06:08:09.924Z",
+  "lastUpdated": "2026-05-02T06:29:59.717Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Emmanuel Crouy",
+        "subject": "We're offering you a free JobCopilot trial",
+        "timestamp": "2026-05-02T05:32:56.000Z",
+        "unread": true
+      },
+      {
         "from": "Jianbo from Loona",
         "subject": "Final Call: $200 vs $299 🚨",
         "timestamp": "2026-05-02T01:45:28.000Z",
@@ -79,15 +85,9 @@
         "subject": "Job Opportunities - Trainer - Palmdale, CA",
         "timestamp": "2026-05-01T19:16:57.000Z",
         "unread": true
-      },
-      {
-        "from": "Pinterest",
-        "subject": "Formula 1 drivers for Jessyca",
-        "timestamp": "2026-05-01T16:35:43.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-05-02T04:38:36.372Z",
+    "gmailUpdated": "2026-05-02T06:29:59.530Z",
     "gorgias": [
       {
         "id": 96318085,
