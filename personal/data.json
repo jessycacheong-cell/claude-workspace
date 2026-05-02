@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T17:03:03.375Z",
+  "lastUpdated": "2026-05-02T17:03:55.738Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-02T16:57:52.646Z",
     "gorgias": [
       {
+        "id": 96377198,
+        "subject": "Extra funds could be available for your business",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-02T16:32:05+00:00"
+      },
+      {
+        "id": 96375343,
+        "subject": "You appeared in recent searches",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-02T16:15:57+00:00"
+      },
+      {
         "id": 96368452,
         "subject": "Spring is peak season. Is your inventory ready?",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-02T02:15:58+00:00"
-      },
-      {
-        "id": 96305663,
-        "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-02T00:02:38+00:00"
-      },
-      {
-        "id": 96289497,
-        "subject": "Refund Initiated for Order 113-6658573-5354664",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-01T21:43:35+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-02T15:57:58.486Z",
+    "gorgiasUpdated": "2026-05-02T17:03:55.561Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
