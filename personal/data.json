@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T23:57:20.711Z",
+  "lastUpdated": "2026-05-02T23:57:29.855Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-02T23:26:51.347Z",
     "gorgias": [
       {
+        "id": 96452532,
+        "subject": "Direct message with _demiera",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-02T23:30:19.071000+00:00"
+      },
+      {
+        "id": 96450281,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-02T23:17:03+00:00"
+      },
+      {
         "id": 96428444,
         "subject": "A new device logged into your account",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-02T16:32:05+00:00"
-      },
-      {
-        "id": 96375343,
-        "subject": "You appeared in recent searches",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-02T16:15:57+00:00"
-      },
-      {
-        "id": 96368452,
-        "subject": "Spring is peak season. Is your inventory ready?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-02T15:20:21.749000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-02T23:00:50.145Z",
+    "gorgiasUpdated": "2026-05-02T23:57:29.617Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
