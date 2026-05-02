@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T13:44:06.832Z",
+  "lastUpdated": "2026-05-02T13:44:18.307Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-02T13:21:17.043Z",
     "gorgias": [
       {
+        "id": 96352232,
+        "subject": "Sign in to your Google Photos Account to keep using Face Groups",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-02T12:52:13+00:00"
+      },
+      {
         "id": 96318085,
         "subject": "💬 Add Angus Leung",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-01T21:05:27.284000+00:00"
-      },
-      {
-        "id": 96283257,
-        "subject": "Direct message with susanmcdjewelry",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-01T21:00:53.501000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-02T11:56:10.830Z",
+    "gorgiasUpdated": "2026-05-02T13:44:18.178Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
