@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T21:55:32.342Z",
+  "lastUpdated": "2026-05-02T21:55:57.568Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-02T21:06:43.338Z",
     "gorgias": [
       {
+        "id": 96428444,
+        "subject": "A new device logged into your account",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-02T21:16:59+00:00"
+      },
+      {
+        "id": 96428327,
+        "subject": "Your temporary Notion login code",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-02T21:16:24+00:00"
+      },
+      {
         "id": 96377198,
         "subject": "Extra funds could be available for your business",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-02T15:20:21.749000+00:00"
-      },
-      {
-        "id": 96352232,
-        "subject": "Sign in to your Google Photos Account to keep using Face Groups",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-02T12:52:13+00:00"
-      },
-      {
-        "id": 96318085,
-        "subject": "💬 Add Angus Leung",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-02T02:15:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-02T20:58:32.449Z",
+    "gorgiasUpdated": "2026-05-02T21:55:57.401Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
