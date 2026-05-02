@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T21:58:58.388Z",
+  "lastUpdated": "2026-05-02T22:38:51.817Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -58,36 +58,36 @@
     "gmail": [
       {
         "from": "Airtable",
+        "subject": "Your Airtable workspace will be moved to the Free plan",
+        "timestamp": "2026-05-02T22:17:01.000Z",
+        "unread": false
+      },
+      {
+        "from": "Airtable",
         "subject": "Your Airtable statement for the My First Workspace workspace - May 02, 2026",
         "timestamp": "2026-05-02T21:43:07.000Z",
-        "unread": true
+        "unread": false
       },
       {
         "from": "First Backer",
         "subject": "Bring The Water Park Home",
         "timestamp": "2026-05-02T21:02:09.000Z",
-        "unread": true
+        "unread": false
       },
       {
         "from": "Bank of America",
         "subject": "You set up a recurring payment",
         "timestamp": "2026-05-02T20:23:16.000Z",
-        "unread": true
+        "unread": false
       },
       {
         "from": "Bank of America",
         "subject": "You're enrolled in Keep the Change",
         "timestamp": "2026-05-02T20:20:20.000Z",
         "unread": true
-      },
-      {
-        "from": "GEICO",
-        "subject": ":D ATTENTION PLEASE: Your ID cards are now available ❯❯❯",
-        "timestamp": "2026-05-02T20:06:21.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-05-02T21:57:28.626Z",
+    "gmailUpdated": "2026-05-02T22:38:51.652Z",
     "gorgias": [
       {
         "id": 96428444,
