@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T03:51:49.556Z",
+  "lastUpdated": "2026-05-02T04:38:36.588Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Jianbo from Loona",
+        "subject": "Final Call: $200 vs $299 🚨",
+        "timestamp": "2026-05-02T01:45:28.000Z",
+        "unread": true
+      },
+      {
         "from": "Sunil SR",
         "subject": "Product Trainer role at Palmdale California",
         "timestamp": "2026-05-01T22:16:46.000Z",
@@ -79,15 +85,9 @@
         "subject": "Formula 1 drivers for Jessyca",
         "timestamp": "2026-05-01T16:35:43.000Z",
         "unread": true
-      },
-      {
-        "from": "Jianbo from Loona",
-        "subject": "Final 24h to upgrade your workspace 🤖✨",
-        "timestamp": "2026-05-01T14:02:26.000Z",
-        "unread": false
       }
     ],
-    "gmailUpdated": "2026-05-02T01:17:57.768Z",
+    "gmailUpdated": "2026-05-02T04:38:36.372Z",
     "gorgias": [
       {
         "id": 96305663,
