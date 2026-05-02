@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T04:46:04.889Z",
+  "lastUpdated": "2026-05-02T04:46:18.408Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-02T04:38:36.372Z",
     "gorgias": [
       {
+        "id": 96318085,
+        "subject": "💬 Add Angus Leung",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-02T02:15:58+00:00"
+      },
+      {
         "id": 96305663,
         "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-01T21:00:53.501000+00:00"
-      },
-      {
-        "id": 96259707,
-        "subject": "jessiannwilliams2001 replied to your story",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-01T18:36:36.809000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-02T01:15:53.138Z",
+    "gorgiasUpdated": "2026-05-02T04:46:18.250Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
