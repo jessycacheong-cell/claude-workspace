@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T15:57:58.699Z",
+  "lastUpdated": "2026-05-02T16:00:36.720Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,6 +57,12 @@
   "inbox": {
     "gmail": [
       {
+        "from": "Starbucks",
+        "subject": "Celebrate National Matcha Day! 🍵",
+        "timestamp": "2026-05-02T15:32:44.000Z",
+        "unread": true
+      },
+      {
         "from": "MINIUSA",
         "subject": "Ready when you are.",
         "timestamp": "2026-05-02T14:15:37.000Z",
@@ -79,15 +85,9 @@
         "subject": "Final Call: $200 vs $299 🚨",
         "timestamp": "2026-05-02T01:45:28.000Z",
         "unread": true
-      },
-      {
-        "from": "Sunil SR",
-        "subject": "Product Trainer role at Palmdale California",
-        "timestamp": "2026-05-01T22:16:46.000Z",
-        "unread": true
       }
     ],
-    "gmailUpdated": "2026-05-02T15:11:44.334Z",
+    "gmailUpdated": "2026-05-02T16:00:36.433Z",
     "gorgias": [
       {
         "id": 96368452,
