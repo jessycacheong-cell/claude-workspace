@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T17:04:17.754Z",
+  "lastUpdated": "2026-05-03T17:04:21.353Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 96536163,
+        "subject": "You're nearing your monthly sessions limit",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-03T16:47:22+00:00"
+      },
+      {
         "id": 96452532,
         "subject": "Direct message with _demiera",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-02T21:16:24+00:00"
-      },
-      {
-        "id": 96377198,
-        "subject": "Extra funds could be available for your business",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-02T16:32:05+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-03T15:58:30.495Z",
+    "gorgiasUpdated": "2026-05-03T17:04:21.131Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
