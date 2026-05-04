@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T06:50:36.306Z",
+  "lastUpdated": "2026-05-04T08:02:41.069Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 96606937,
+        "subject": "👏👏👏👏👏👏",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-04T07:32:37+00:00"
+      },
+      {
+        "id": 96600155,
+        "subject": "You hit your monthly sessions limit",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-04T05:25:49+00:00"
+      },
+      {
         "id": 96594532,
         "subject": "Love this",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-04T03:03:09+00:00"
-      },
-      {
-        "id": 96591064,
-        "subject": "Direct message with logan.gm.5280",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-04T02:49:47.834000+00:00"
-      },
-      {
-        "id": 96590307,
-        "subject": "Would be sick 🔥",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-04T02:38:36+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-04T05:03:45.692Z",
+    "gorgiasUpdated": "2026-05-04T08:02:40.859Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
