@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T09:30:22.062Z",
+  "lastUpdated": "2026-05-04T10:22:45.179Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 96615320,
+        "subject": "Product details inquiry from Amazon customer Zeshan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-04T10:04:20+00:00"
+      },
+      {
+        "id": 96608446,
+        "subject": "Direct message with sneaker_sean",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-04T08:04:33.711000+00:00"
+      },
+      {
         "id": 96606937,
         "subject": "👏👏👏👏👏👏",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-04T03:42:18+00:00"
-      },
-      {
-        "id": 96594323,
-        "subject": "Direct message with biwerfamily",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-04T03:38:14.251000+00:00"
-      },
-      {
-        "id": 96592051,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-04T03:03:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-04T08:02:40.859Z",
+    "gorgiasUpdated": "2026-05-04T10:22:44.997Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
