@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T04:04:11.177Z",
+  "lastUpdated": "2026-05-04T05:03:45.824Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
-        "id": 96536163,
-        "subject": "You're nearing your monthly sessions limit",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-03T16:47:22+00:00"
-      },
-      {
-        "id": 96452532,
-        "subject": "Direct message with _demiera",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-02T23:30:19.071000+00:00"
-      },
-      {
-        "id": 96450281,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 96594532,
+        "subject": "Love this",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-05-02T23:17:03+00:00"
+        "timestamp": "2026-05-04T03:42:18+00:00"
       },
       {
-        "id": 96428444,
-        "subject": "A new device logged into your account",
+        "id": 96594323,
+        "subject": "Direct message with biwerfamily",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-02T21:16:59+00:00"
+        "status": "open",
+        "timestamp": "2026-05-04T03:38:14.251000+00:00"
       },
       {
-        "id": 96428327,
-        "subject": "Your temporary Notion login code",
+        "id": 96592051,
+        "subject": "Love this",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-02T21:16:24+00:00"
+        "status": "open",
+        "timestamp": "2026-05-04T03:03:09+00:00"
+      },
+      {
+        "id": 96591064,
+        "subject": "Direct message with logan.gm.5280",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-04T02:49:47.834000+00:00"
+      },
+      {
+        "id": 96590307,
+        "subject": "Would be sick 🔥",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-04T02:38:36+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-04T01:18:26.082Z",
+    "gorgiasUpdated": "2026-05-04T05:03:45.692Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
