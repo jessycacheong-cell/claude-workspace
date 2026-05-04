@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T18:09:18.615Z",
+  "lastUpdated": "2026-05-04T18:51:02.054Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 96698432,
+        "subject": "UMEI, meet ulf poschardt at Axel Springer SE 🤛",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-04T18:16:00+00:00"
+      },
+      {
+        "id": 96681124,
+        "subject": "Your Week In Reviews For UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-04T17:02:13+00:00"
+      },
+      {
         "id": 96679588,
         "subject": "(No subject)",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-04T16:39:34+00:00"
-      },
-      {
-        "id": 96668085,
-        "subject": "Learn what's next for creative work",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-04T16:02:31+00:00"
-      },
-      {
-        "id": 96667624,
-        "subject": "Welcome to Airtable! Let’s start building",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-04T16:01:06+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-04T16:58:30.023Z",
+    "gorgiasUpdated": "2026-05-04T18:51:01.866Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
