@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T21:12:18.513Z",
+  "lastUpdated": "2026-05-05T21:12:34.136Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 96910770,
+        "subject": "Free Educational Webinars Available in May!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-05T19:59:20+00:00"
+      },
+      {
         "id": 96893177,
         "subject": "New Audits: Page Structure, CTAs, Site Speed, more",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-05T18:05:12+00:00"
-      },
-      {
-        "id": 96887563,
-        "subject": "May insights: Help engineering teams ship with clarity and confidence",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-05T18:02:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-05T19:50:06.550Z",
+    "gorgiasUpdated": "2026-05-05T21:12:33.907Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
