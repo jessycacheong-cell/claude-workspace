@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T16:15:19.640Z",
+  "lastUpdated": "2026-05-05T18:01:29.111Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 96883377,
+        "subject": "What happens after \"order confirmed\"? 🚚",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-05T17:41:31+00:00"
+      },
+      {
+        "id": 96875867,
+        "subject": "Your exclusive returning-customer discount",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-05T17:04:16+00:00"
+      },
+      {
+        "id": 96872876,
+        "subject": "Order #81242137 - Your Monthly Monitoring Report",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-05T16:53:04+00:00"
+      },
+      {
+        "id": 96869200,
+        "subject": "The product roadmap your customers wish you had",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-05T16:31:18+00:00"
+      },
+      {
         "id": 96837259,
         "subject": "The old way already feels outdated",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-05T14:16:52+00:00"
-      },
-      {
-        "id": 96829802,
-        "subject": "Network with our featured partners at New Seller Summit—May 20",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-05T13:38:20+00:00"
-      },
-      {
-        "id": 96818021,
-        "subject": "Amazon Business Pulse: Smarter buying, better business",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-05T12:24:41+00:00"
-      },
-      {
-        "id": 96788455,
-        "subject": "Vote on What We Build Next",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-05T05:07:41+00:00"
-      },
-      {
-        "id": 96785233,
-        "subject": "Justin Pua and others share their thoughts on LinkedIn",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-05T04:15:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-05T16:15:19.437Z",
+    "gorgiasUpdated": "2026-05-05T18:01:28.806Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
