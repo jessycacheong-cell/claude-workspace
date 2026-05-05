@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T03:46:37.078Z",
+  "lastUpdated": "2026-05-05T06:26:51.377Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,10 +90,31 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 96788455,
+        "subject": "Vote on What We Build Next",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-05T05:07:41+00:00"
+      },
+      {
+        "id": 96785233,
+        "subject": "Justin Pua and others share their thoughts on LinkedIn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-05T04:15:59+00:00"
+      },
+      {
+        "id": 96784358,
+        "subject": "[ALERT] You've reached 95% of your monthly limit.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-05T04:04:58.121000+00:00"
+      },
+      {
         "id": 96774349,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-05-05T02:13:53+00:00"
       },
       {
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-04T20:52:18.642000+00:00"
-      },
-      {
-        "id": 96698432,
-        "subject": "UMEI, meet ulf poschardt at Axel Springer SE 🤛",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-04T18:16:00+00:00"
-      },
-      {
-        "id": 96681124,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-04T17:02:13+00:00"
-      },
-      {
-        "id": 96679588,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-04T16:55:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-05T03:46:36.883Z",
+    "gorgiasUpdated": "2026-05-05T06:26:51.187Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
