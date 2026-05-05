@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T03:45:12.095Z",
+  "lastUpdated": "2026-05-05T03:46:37.078Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 96774349,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-05T02:13:53+00:00"
+      },
+      {
         "id": 96727882,
         "subject": "The simplest way to start selling this April",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-04T16:55:40+00:00"
-      },
-      {
-        "id": 96677363,
-        "subject": "Refund Initiated for Order 114-2988269-5811439",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-04T16:45:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-05T00:06:30.736Z",
+    "gorgiasUpdated": "2026-05-05T03:46:36.883Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
