@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T19:49:21.114Z",
+  "lastUpdated": "2026-05-05T19:50:06.758Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
-        "id": 96883377,
-        "subject": "What happens after \"order confirmed\"? 🚚",
+        "id": 96893177,
+        "subject": "New Audits: Page Structure, CTAs, Site Speed, more",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-05T17:41:31+00:00"
+        "timestamp": "2026-05-05T18:29:43+00:00"
       },
       {
-        "id": 96875867,
-        "subject": "Your exclusive returning-customer discount",
+        "id": 96891372,
+        "subject": "Tell us about your experience with Adobe Illustrator",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-05T17:04:16+00:00"
+        "timestamp": "2026-05-05T18:20:52+00:00"
       },
       {
-        "id": 96872876,
-        "subject": "Order #81242137 - Your Monthly Monitoring Report",
+        "id": 96890430,
+        "subject": "UMEI, meet Brandon Johnson at City of Chicago 🤛",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-05T16:53:04+00:00"
+        "timestamp": "2026-05-05T18:15:58+00:00"
       },
       {
-        "id": 96869200,
-        "subject": "The product roadmap your customers wish you had",
+        "id": 96888210,
+        "subject": "However you play, make, or collect",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-05T16:31:18+00:00"
+        "timestamp": "2026-05-05T18:05:12+00:00"
       },
       {
-        "id": 96837259,
-        "subject": "The old way already feels outdated",
+        "id": 96887563,
+        "subject": "May insights: Help engineering teams ship with clarity and confidence",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-05T14:16:52+00:00"
+        "timestamp": "2026-05-05T18:02:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-05T18:01:28.806Z",
+    "gorgiasUpdated": "2026-05-05T19:50:06.550Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
