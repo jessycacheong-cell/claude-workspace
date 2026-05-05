@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T22:33:57.809Z",
+  "lastUpdated": "2026-05-05T22:34:15.634Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 96930314,
+        "subject": "More leadership, less admin (plus: a new, highly requested feature)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-05T21:58:13+00:00"
+      },
+      {
+        "id": 96925313,
+        "subject": "Your Google Analytics performance report is in for April 8th - May 5th",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-05T21:24:03+00:00"
+      },
+      {
         "id": 96910770,
         "subject": "Free Educational Webinars Available in May!",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-05T18:20:52+00:00"
-      },
-      {
-        "id": 96890430,
-        "subject": "UMEI, meet Brandon Johnson at City of Chicago 🤛",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-05T18:15:58+00:00"
-      },
-      {
-        "id": 96888210,
-        "subject": "However you play, make, or collect",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-05T18:05:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-05T21:12:33.907Z",
+    "gorgiasUpdated": "2026-05-05T22:34:15.494Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
