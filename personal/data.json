@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T01:14:45.985Z",
+  "lastUpdated": "2026-05-06T04:59:40.427Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 96974298,
+        "subject": "Nike Director of Engineering recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-06T04:15:59+00:00"
+      },
+      {
+        "id": 96961118,
+        "subject": "💬 Add Max Zylberman, Engineering Academy Student",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-06T02:15:58+00:00"
+      },
+      {
+        "id": 96955680,
+        "subject": "Your receipt from Photo App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-06T01:25:09+00:00"
+      },
+      {
         "id": 96930314,
         "subject": "More leadership, less admin (plus: a new, highly requested feature)",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-05T21:24:03+00:00"
-      },
-      {
-        "id": 96910770,
-        "subject": "Free Educational Webinars Available in May!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-05T19:59:20+00:00"
-      },
-      {
-        "id": 96893177,
-        "subject": "New Audits: Page Structure, CTAs, Site Speed, more",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-05T18:29:43+00:00"
-      },
-      {
-        "id": 96891372,
-        "subject": "Tell us about your experience with Adobe Illustrator",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-05T18:20:52+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-06T01:14:45.796Z",
+    "gorgiasUpdated": "2026-05-06T04:59:40.155Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
