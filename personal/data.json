@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T17:07:58.453Z",
+  "lastUpdated": "2026-05-06T17:09:19.762Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
-        "id": 96990265,
-        "subject": "New message for Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-06T08:38:52+00:00"
-      },
-      {
-        "id": 96989703,
-        "subject": "How does dual-color PVC boost structural grip for UMEI Glides?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-06T08:27:20+00:00"
-      },
-      {
-        "id": 96974298,
-        "subject": "Nike Director of Engineering recently posted",
+        "id": 97051876,
+        "subject": "Learn Airtable by building your first AI app",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-06T04:15:59+00:00"
+        "timestamp": "2026-05-06T16:04:33+00:00"
       },
       {
-        "id": 96961118,
-        "subject": "💬 Add Max Zylberman, Engineering Academy Student",
+        "id": 97048213,
+        "subject": "Top deals for business: Yumei, save with limited-time deals",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-06T02:15:58+00:00"
+        "timestamp": "2026-05-06T15:49:11+00:00"
       },
       {
-        "id": 96955680,
-        "subject": "Your receipt from Photo App",
+        "id": 97023227,
+        "subject": "🤖 Only 20% of brands are doing this — are you one of them?",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-06T01:25:09+00:00"
+        "timestamp": "2026-05-06T13:53:05+00:00"
+      },
+      {
+        "id": 97021448,
+        "subject": "What does a loyalty program that actually works look like?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-06T13:43:26+00:00"
+      },
+      {
+        "id": 97017485,
+        "subject": "Quietly launching this (for e-com brands)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-06T13:19:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-06T12:17:29.944Z",
+    "gorgiasUpdated": "2026-05-06T17:09:19.586Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
