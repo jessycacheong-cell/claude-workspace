@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T18:54:10.726Z",
+  "lastUpdated": "2026-05-06T18:58:10.448Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 97078063,
+        "subject": "Floral assets for spring",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-06T18:02:37+00:00"
+      },
+      {
+        "id": 97074469,
+        "subject": "Seller Growth Summit is bringing learning, networking, and expert guidance to the East Coast",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-06T17:46:26+00:00"
+      },
+      {
+        "id": 97067105,
+        "subject": "A new way to get paid: USDC on Shopify Payments",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-06T17:11:28.061000+00:00"
+      },
+      {
         "id": 97051876,
         "subject": "Learn Airtable by building your first AI app",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-06T15:49:11+00:00"
-      },
-      {
-        "id": 97023227,
-        "subject": "🤖 Only 20% of brands are doing this — are you one of them?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-06T13:53:05+00:00"
-      },
-      {
-        "id": 97021448,
-        "subject": "What does a loyalty program that actually works look like?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-06T13:43:26+00:00"
-      },
-      {
-        "id": 97017485,
-        "subject": "Quietly launching this (for e-com brands)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-06T13:19:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-06T17:09:19.586Z",
+    "gorgiasUpdated": "2026-05-06T18:58:09.154Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
