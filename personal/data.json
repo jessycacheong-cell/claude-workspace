@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T14:45:01.588Z",
+  "lastUpdated": "2026-05-07T14:45:46.747Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
-        "id": 97169140,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 97217076,
+        "subject": "PDF exports and answer insights, now in Tally",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-07T04:33:22+00:00"
+        "timestamp": "2026-05-07T14:03:36.254000+00:00"
       },
       {
-        "id": 97148323,
-        "subject": "Are customers seeing your shipping options clearly?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-07T00:47:49+00:00"
-      },
-      {
-        "id": 97120300,
-        "subject": "⏳ Your spring ad credits are expiring unused",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-06T21:50:25.286000+00:00"
-      },
-      {
-        "id": 97094466,
-        "subject": "The next wave of everyday tech",
+        "id": 97217024,
+        "subject": "Field notes on the agent development lifecycle",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-06T19:22:20+00:00"
+        "timestamp": "2026-05-07T14:03:24+00:00"
       },
       {
-        "id": 97078063,
-        "subject": "Floral assets for spring",
+        "id": 97216460,
+        "subject": "Product Update: AI carts + Tabs 2.0",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-06T18:02:37+00:00"
+        "timestamp": "2026-05-07T14:00:38+00:00"
+      },
+      {
+        "id": 97214336,
+        "subject": "Network with our featured partners at New Seller Summit—May 20",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-07T13:48:08+00:00"
+      },
+      {
+        "id": 97204825,
+        "subject": "Get repeat customers without ad spend",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-07T12:48:56+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-07T12:02:29.705Z",
+    "gorgiasUpdated": "2026-05-07T14:45:46.554Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
