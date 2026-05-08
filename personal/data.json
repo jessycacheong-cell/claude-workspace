@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T18:04:16.446Z",
+  "lastUpdated": "2026-05-08T19:42:28.222Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 97433828,
+        "subject": "Three sets of research, one pattern.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-08T18:01:29+00:00"
+      },
+      {
+        "id": 97431727,
+        "subject": "The East Coast Amazon seller growth event is here—Register now",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-08T17:48:40+00:00"
+      },
+      {
         "id": 97421585,
         "subject": "Reminder: Tell us about your experience with Adobe Illustrator",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-08T15:20:53+00:00"
-      },
-      {
-        "id": 97398648,
-        "subject": "UMEI Store: 3 ad numbers worth checking",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-08T14:50:12+00:00"
-      },
-      {
-        "id": 97391436,
-        "subject": "Direct message with zerolovetennis",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-08T14:05:28.922000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-08T17:42:22.921Z",
+    "gorgiasUpdated": "2026-05-08T19:42:27.883Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
