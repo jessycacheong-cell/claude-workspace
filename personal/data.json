@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T21:13:49.715Z",
+  "lastUpdated": "2026-05-08T21:14:00.071Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 97459570,
+        "subject": "Spring into selling, up to $1,900 in free ads 🌸",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-08T20:18:31.609000+00:00"
+      },
+      {
         "id": 97433828,
         "subject": "Three sets of research, one pattern.",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-08T15:21:01+00:00"
-      },
-      {
-        "id": 97404470,
-        "subject": "This audio makes me wanna go to sleep 😴 it’s so calming 😍",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-08T15:20:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-08T19:42:27.883Z",
+    "gorgiasUpdated": "2026-05-08T21:13:59.916Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
