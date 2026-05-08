@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T22:33:26.613Z",
+  "lastUpdated": "2026-05-08T22:33:29.908Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 97475095,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-08T22:03:58+00:00"
+      },
+      {
+        "id": 97473489,
+        "subject": "Refund Initiated for Order 112-9739854-4458664",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-08T21:54:20+00:00"
+      },
+      {
         "id": 97459570,
         "subject": "Spring into selling, up to $1,900 in free ads 🌸",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-08T17:48:40+00:00"
-      },
-      {
-        "id": 97421585,
-        "subject": "Reminder: Tell us about your experience with Adobe Illustrator",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-08T16:48:37+00:00"
-      },
-      {
-        "id": 97404486,
-        "subject": "And I love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-08T15:21:01+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-08T21:13:59.916Z",
+    "gorgiasUpdated": "2026-05-08T22:33:29.750Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
