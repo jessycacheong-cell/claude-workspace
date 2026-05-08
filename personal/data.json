@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T12:16:40.643Z",
+  "lastUpdated": "2026-05-08T14:12:32.876Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 97391436,
+        "subject": "Direct message with zerolovetennis",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-08T14:05:28.922000+00:00"
+      },
+      {
+        "id": 97377335,
+        "subject": "Umeistore — quick note after looking at your support",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-08T12:21:55+00:00"
+      },
+      {
         "id": 97287369,
         "subject": "Your Gorgias Inc receipt [#1356-1163]",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-07T19:06:59+00:00"
-      },
-      {
-        "id": 97279815,
-        "subject": "Build AI Skills for Your Business.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-07T19:04:12+00:00"
-      },
-      {
-        "id": 97262224,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-07T17:43:07+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-08T11:43:19.653Z",
+    "gorgiasUpdated": "2026-05-08T14:12:32.721Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
