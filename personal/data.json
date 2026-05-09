@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T01:19:34.513Z",
+  "lastUpdated": "2026-05-09T04:55:01.996Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 97511502,
+        "subject": "Nike Principal Software Engineer: Tech Modernization recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-09T04:16:00+00:00"
+      },
+      {
+        "id": 97503465,
+        "subject": "UMEI, add Liam Weakley - Team Manager & Head Engineer 💬",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-09T02:16:00+00:00"
+      },
+      {
         "id": 97475095,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-08T20:18:31.609000+00:00"
-      },
-      {
-        "id": 97433828,
-        "subject": "Three sets of research, one pattern.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-08T18:01:29+00:00"
-      },
-      {
-        "id": 97431727,
-        "subject": "The East Coast Amazon seller growth event is here—Register now",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-08T17:48:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-09T01:19:34.363Z",
+    "gorgiasUpdated": "2026-05-09T04:55:01.832Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
