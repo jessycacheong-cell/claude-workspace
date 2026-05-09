@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T07:19:18.090Z",
+  "lastUpdated": "2026-05-09T07:20:14.795Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 97517087,
+        "subject": "Your Google Play Order Receipt from May 8, 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-09T06:23:03+00:00"
+      },
+      {
         "id": 97511502,
         "subject": "Nike Principal Software Engineer: Tech Modernization recently posted",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-08T21:54:20+00:00"
-      },
-      {
-        "id": 97459570,
-        "subject": "Spring into selling, up to $1,900 in free ads 🌸",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-08T20:18:31.609000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-09T04:55:01.832Z",
+    "gorgiasUpdated": "2026-05-09T07:20:14.648Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
