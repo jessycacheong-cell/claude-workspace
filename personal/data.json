@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T20:23:46.054Z",
+  "lastUpdated": "2026-05-09T20:23:51.419Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-03T04:10:52.526Z",
     "gorgias": [
       {
+        "id": 97593213,
+        "subject": "Direct message with austinthephilosurfer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-09T20:02:40.546000+00:00"
+      },
+      {
+        "id": 97588173,
+        "subject": "We're sorry to see you go",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-09T19:13:18.862000+00:00"
+      },
+      {
         "id": 97565858,
         "subject": "Learn what a PayPal Business Loan can do for your business",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-09T06:23:03+00:00"
-      },
-      {
-        "id": 97511502,
-        "subject": "Nike Principal Software Engineer: Tech Modernization recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-09T04:16:00+00:00"
-      },
-      {
-        "id": 97503465,
-        "subject": "UMEI, add Liam Weakley - Team Manager & Head Engineer 💬",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-09T02:16:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-09T18:04:11.071Z",
+    "gorgiasUpdated": "2026-05-09T20:23:51.263Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
