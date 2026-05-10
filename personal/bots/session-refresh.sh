@@ -23,7 +23,7 @@ TODAY=$(date +"%Y-%m-%d")
 
 1. Use Gmail MCP to fetch the 5 most recent inbox emails
 2. Use Google Calendar MCP to fetch today's events across ALL calendars (not just primary). First list all calendars, then fetch events for each one for ${TODAY}. Also check for Google Tasks visible in the calendar view.
-3. Read C:/Users/J/Desktop/claude-workspace/personal/data.json
+3. Read C:/Users/J/OneDrive/Desktop/claude-workspace/personal/data.json
 4. Update ONLY these fields (leave everything else unchanged):
    - lastUpdated: current ISO timestamp
    - inbox.gmail: array of {from (name only, no email), subject, timestamp (ISO string), unread (boolean)}
@@ -31,10 +31,10 @@ TODAY=$(date +"%Y-%m-%d")
    - agenda: array of {title, time (h:MM AM/PM format), end, allDay}
    - agendaUpdated: current ISO timestamp
 5. Write the updated JSON back to the file
-6. Run: git -C C:/Users/J/Desktop/claude-workspace pull --rebase origin main
-7. Run: git -C C:/Users/J/Desktop/claude-workspace add personal/data.json
-8. Run: git -C C:/Users/J/Desktop/claude-workspace commit -m 'SessionBot: refresh Gmail + Calendar [skip ci]'
-9. Run: git -C C:/Users/J/Desktop/claude-workspace push origin main
+6. Run: git -C C:/Users/J/OneDrive/Desktop/claude-workspace pull --rebase origin main
+7. Run: git -C C:/Users/J/OneDrive/Desktop/claude-workspace add personal/data.json
+8. Run: git -C C:/Users/J/OneDrive/Desktop/claude-workspace commit -m 'SessionBot: refresh Gmail + Calendar [skip ci]'
+9. Run: git -C C:/Users/J/OneDrive/Desktop/claude-workspace push origin main
 
 Do this completely and silently." 2>/dev/null
 
