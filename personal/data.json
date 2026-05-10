@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T13:51:15.604Z",
+  "lastUpdated": "2026-05-10T13:51:47.723Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 97658989,
+        "subject": "Direct message with kickamatics",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-10T13:51:21.496000+00:00"
+      },
+      {
+        "id": 97657810,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-10T13:35:45+00:00"
+      },
+      {
         "id": 97643060,
         "subject": "Re: Shopify development //",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-10T01:58:10.254000+00:00"
-      },
-      {
-        "id": 97621523,
-        "subject": "kyreewalker1 replied to your story",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-10T01:22:16.752000+00:00"
-      },
-      {
-        "id": 97611918,
-        "subject": "Bring back the moonwalker!!!!",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-09T23:21:37+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-10T12:00:15.313Z",
+    "gorgiasUpdated": "2026-05-10T13:51:47.532Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
