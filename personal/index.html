@@ -695,6 +695,40 @@
   .running-name { font-size:14px; font-weight:600; color:var(--text-1); }
   .running-sub  { font-size:11px; color:var(--text-2); margin-top:1px; }
 
+  /* ── CLAUDE PET ── */
+  .claude-pet {
+    position:fixed; bottom:18px; right:18px; z-index:9999;
+    display:flex; align-items:center; gap:10px;
+    background:rgba(20,24,38,0.92); backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,0.12); border-radius:999px;
+    padding:8px 14px 8px 8px; cursor:pointer;
+    box-shadow:0 6px 18px rgba(0,0,0,0.35);
+    transition:transform .2s ease, border-color .2s ease;
+    font-family:inherit;
+  }
+  .claude-pet:hover { transform:translateY(-2px); border-color:rgba(158,197,255,0.45); }
+  .claude-pet-face {
+    width:36px; height:36px; border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    flex-shrink:0; color:#cc785c;
+    background:rgba(204,120,92,0.12);
+    transition:background .3s ease, color .3s ease;
+  }
+  .claude-pet-face svg { width:24px; height:24px; image-rendering:pixelated; shape-rendering:crispEdges; }
+  .claude-pet.active .claude-pet-face  { background:rgba(34,212,122,0.18);  color:#22d47a; animation:pet-bounce 1.4s ease-in-out infinite; }
+  .claude-pet.idle .claude-pet-face    { background:rgba(245,158,11,0.18);  color:#f59e0b; animation:pet-sway 3s ease-in-out infinite; }
+  .claude-pet.resting .claude-pet-face { background:rgba(167,139,250,0.15); color:#a78bfa; }
+  .claude-pet.asleep .claude-pet-face  { background:rgba(255,255,255,0.06); color:rgba(255,255,255,0.4); opacity:0.85; }
+  @keyframes pet-bounce { 0%,100% { transform:translateY(0); } 50% { transform:translateY(-3px); } }
+  @keyframes pet-sway   { 0%,100% { transform:rotate(-4deg); } 50% { transform:rotate(4deg); } }
+  .claude-pet-info { display:flex; flex-direction:column; line-height:1.2; min-width:0; }
+  .claude-pet-status { font-size:10px; font-weight:700; letter-spacing:.05em; text-transform:uppercase; color:var(--text-2); }
+  .claude-pet.active   .claude-pet-status { color:var(--green); }
+  .claude-pet.idle     .claude-pet-status { color:#f59e0b; }
+  .claude-pet.resting  .claude-pet-status { color:#a78bfa; }
+  .claude-pet.asleep   .claude-pet-status { color:var(--text-3); }
+  .claude-pet-action { font-size:11px; color:var(--text-1); white-space:nowrap; max-width:200px; overflow:hidden; text-overflow:ellipsis; }
+
   /* ── FADE UP ── */
   .fade-up { opacity:0; transform:translateY(20px); transition:opacity .55s ease, transform .55s ease; }
   .fade-up.visible { opacity:1; transform:translateY(0); }
@@ -2529,6 +2563,93 @@ function renderShopifyData(s){
 
 function updateAgentStates(){/* dead code retained as no-op for compatibility */}
 
+// ── CLAUDE PET ──
+function renderClaudePet(data){
+  const pet = document.getElementById('claude-pet');
+  if(!pet) return;
+  const statusEl = pet.querySelector('.claude-pet-status');
+  const actionEl = pet.querySelector('.claude-pet-action');
+
+  const sources = [
+    {ts:data?.inbox?.gmailUpdated,   label:'refreshed Gmail',    icon:'📧'},
+    {ts:data?.inbox?.outlookUpdated, label:'synced Outlook',     icon:'📨'},
+    {ts:data?.inbox?.gorgiasUpdated, label:'checked Gorgias',    icon:'🎧'},
+    {ts:data?.agendaUpdated,         label:'loaded calendar',    icon:'📅'},
+    {ts:data?.lastUpdated,           label:'updated dashboard',  icon:'🤖'},
+  ].filter(s=>s.ts).map(s=>({...s, ms:new Date(s.ts).getTime()}))
+   .sort((a,b)=>b.ms-a.ms);
+
+  if(!sources.length){
+    pet.className='claude-pet asleep';
+    statusEl.textContent='No signal';
+    actionEl.textContent='Waiting for first sync';
+    return;
+  }
+
+  const latest=sources[0];
+  const ageMin=(Date.now()-latest.ms)/60000;
+  let mood, status;
+  if(ageMin < 5)      { mood='active';  status='Active'; }
+  else if(ageMin<30)  { mood='idle';    status='Idle'; }
+  else if(ageMin<120) { mood='resting'; status='Resting'; }
+  else                { mood='asleep';  status='Asleep'; }
+
+  const timeAgo = ageMin<1 ? 'just now'
+    : ageMin<60 ? Math.floor(ageMin)+'m ago'
+    : ageMin<1440 ? Math.floor(ageMin/60)+'h ago'
+    : Math.floor(ageMin/1440)+'d ago';
+
+  pet.className='claude-pet '+mood;
+  faceEl.textContent=face;
+  statusEl.textContent=status;
+  actionEl.textContent=`${latest.icon} ${latest.label} ${timeAgo}`;
+  pet.title=sources.map(s=>{
+    const a=(Date.now()-s.ms)/60000;
+    const t=a<1?'just now':a<60?Math.floor(a)+'m':a<1440?Math.floor(a/60)+'h':Math.floor(a/1440)+'d';
+    return `${s.icon} ${s.label} — ${t}`;
+  }).join('\n');
+}
+
+// Hook into existing renderData flow
+const _origRender = window.renderData;
+if(typeof _origRender === 'function'){
+  window.renderData = function(data){
+    _origRender(data);
+    renderClaudePet(data);
+  };
+}
+
+// Click pet to manually refresh dashboard
+document.addEventListener('click', e=>{
+  if(e.target.closest('#claude-pet')) loadData();
+});
+
 </script>
+<!-- Claude pixel pet -->
+<div id="claude-pet" class="claude-pet asleep" title="Click to refresh dashboard">
+  <div class="claude-pet-face">
+    <svg viewBox="0 0 9 9" fill="currentColor" aria-hidden="true">
+      <rect x="4" y="0" width="1" height="9"/>
+      <rect x="0" y="4" width="9" height="1"/>
+      <rect x="1" y="1" width="1" height="1"/>
+      <rect x="2" y="2" width="1" height="1"/>
+      <rect x="3" y="3" width="1" height="1"/>
+      <rect x="7" y="1" width="1" height="1"/>
+      <rect x="6" y="2" width="1" height="1"/>
+      <rect x="5" y="3" width="1" height="1"/>
+      <rect x="1" y="7" width="1" height="1"/>
+      <rect x="2" y="6" width="1" height="1"/>
+      <rect x="3" y="5" width="1" height="1"/>
+      <rect x="7" y="7" width="1" height="1"/>
+      <rect x="6" y="6" width="1" height="1"/>
+      <rect x="5" y="5" width="1" height="1"/>
+    </svg>
+  </div>
+  <div class="claude-pet-info">
+    <span class="claude-pet-status">Loading</span>
+    <span class="claude-pet-action">Checking on the bots...</span>
+  </div>
+</div>
+
 </body>
 </html>
