@@ -1,8 +1,11 @@
 name: CalendarBot
 
 on:
-  schedule:
-    - cron: '5,20,35,50 * * * *'
+  # Schedule disabled — Calendar refresh now handled by Claude SessionStart hook
+  # (personal/bots/session-refresh.sh) using Claude's Calendar MCP, which avoids
+  # the 7-day Google OAuth refresh-token expiry. Kept as manual fallback.
+  # schedule:
+  #   - cron: '5,20,35,50 * * * *'
   workflow_dispatch:
 
 jobs:

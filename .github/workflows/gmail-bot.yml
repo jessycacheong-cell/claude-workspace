@@ -1,8 +1,12 @@
 name: GmailBot
 
 on:
-  schedule:
-    - cron: '2,17,32,47 * * * *'
+  # Schedule disabled — Gmail refresh now handled by Claude SessionStart hook
+  # (personal/bots/session-refresh.sh) using Claude's Gmail MCP, which avoids
+  # the 7-day Google OAuth refresh-token expiry that kept breaking this bot.
+  # Kept as workflow_dispatch fallback in case OAuth path is restored later.
+  # schedule:
+  #   - cron: '2,17,32,47 * * * *'
   workflow_dispatch:
 
 jobs:
