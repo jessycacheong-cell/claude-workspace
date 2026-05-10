@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T22:00:10.987Z",
+  "lastUpdated": "2026-05-10T22:00:14.404Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 97702336,
+        "subject": "UMEI, your subscription just ended",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-10T21:23:14+00:00"
+      },
+      {
         "id": 97664162,
         "subject": "Access your PayPal funds instantly",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-10T09:03:31+00:00"
-      },
-      {
-        "id": 97627315,
-        "subject": "[UMEI Store] Order #1690 placed by Maxwell Kaliczynski",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-10T02:55:27+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-10T21:01:54.839Z",
+    "gorgiasUpdated": "2026-05-10T22:00:14.245Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
