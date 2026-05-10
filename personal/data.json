@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T01:23:58.923Z",
+  "lastUpdated": "2026-05-10T01:50:00.000Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -57,37 +57,37 @@
   "inbox": {
     "gmail": [
       {
-        "from": "Airtable",
-        "subject": "Your Airtable workspace will be moved to the Free plan",
-        "timestamp": "2026-05-02T22:17:01.000Z",
-        "unread": false
-      },
-      {
-        "from": "Airtable",
-        "subject": "Your Airtable statement for the My First Workspace workspace - May 02, 2026",
-        "timestamp": "2026-05-02T21:43:07.000Z",
-        "unread": false
-      },
-      {
-        "from": "First Backer",
-        "subject": "Bring The Water Park Home",
-        "timestamp": "2026-05-02T21:02:09.000Z",
-        "unread": false
-      },
-      {
-        "from": "Bank of America",
-        "subject": "You set up a recurring payment",
-        "timestamp": "2026-05-02T20:23:16.000Z",
-        "unread": false
-      },
-      {
-        "from": "Bank of America",
-        "subject": "You're enrolled in Keep the Change",
-        "timestamp": "2026-05-02T20:20:20.000Z",
+        "from": "Job Copilot",
+        "subject": "Fresh job openings this week 🔎",
+        "timestamp": "2026-05-10T01:46:43.000Z",
         "unread": true
+      },
+      {
+        "from": "Granola",
+        "subject": "Re: Change payment method",
+        "timestamp": "2026-05-10T00:37:13.000Z",
+        "unread": true
+      },
+      {
+        "from": "Whole Foods Market",
+        "subject": "Your Receipt Preference Has Been Updated",
+        "timestamp": "2026-05-09T23:22:08.000Z",
+        "unread": false
+      },
+      {
+        "from": "Whole Foods Market",
+        "subject": "You're Now Saving More With Prime",
+        "timestamp": "2026-05-09T23:20:52.000Z",
+        "unread": false
+      },
+      {
+        "from": "Google Pay",
+        "subject": "Jessyca C., you added a new card to use with Google Pay",
+        "timestamp": "2026-05-09T19:50:48.000Z",
+        "unread": false
       }
     ],
-    "gmailUpdated": "2026-05-03T04:10:52.526Z",
+    "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
         "id": 97621523,
@@ -197,9 +197,9 @@
   "automations": [
     {
       "name": "GmailBot",
-      "lastRun": "2026-03-24T18:00:00.000Z",
+      "lastRun": "2026-05-10T01:50:00.000Z",
       "status": "ok",
-      "schedule": "Every 15min",
+      "schedule": "On Claude open",
       "target": "Gmail → data.json"
     },
     {
