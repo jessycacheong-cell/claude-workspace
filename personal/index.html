@@ -187,6 +187,16 @@
   .inbox-gorgias .inbox-from { color:#4cb0ff; }
   .inbox-outlook .inbox-from { color:#22d47a; }
   .inbox-updated { font-size:9px; color:var(--text-3); }
+  .inbox-refresh {
+    background:transparent; border:1px solid rgba(255,255,255,0.12); color:var(--text-2);
+    border-radius:6px; padding:1px 5px; font-size:10px; cursor:pointer; line-height:1;
+    margin-left:6px; transition:all .15s;
+  }
+  .inbox-refresh:hover { border-color:rgba(255,255,255,0.28); color:var(--text-1); background:rgba(255,255,255,0.05); }
+  .inbox-refresh:active { transform:scale(0.92); }
+  .inbox-refresh.spinning { pointer-events:none; }
+  .inbox-refresh.spinning span { display:inline-block; animation:spin .8s linear infinite; }
+  @keyframes spin { to { transform:rotate(360deg); } }
   .dot { width:6px; height:6px; border-radius:50%; background:currentColor; flex-shrink:0; }
   .pulse { animation:pulse 2s infinite; }
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.3} }
@@ -822,7 +832,10 @@
       <div class="inbox-col">
         <div class="inbox-col-header">
           <span class="inbox-col-title">📧 Gmail</span>
-          <span class="inbox-updated" id="gmail-updated">—</span>
+          <span style="display:flex;align-items:center;">
+            <span class="inbox-updated" id="gmail-updated">—</span>
+            <button class="inbox-refresh" data-inbox="gmail" title="Refresh inbox"><span>🔄</span></button>
+          </span>
         </div>
         <div id="gmail-list"><div class="inbox-empty">Loading...</div></div>
         <div id="gmail-summary" style="font-size:11px;color:#f97316;margin-top:6px;padding:4px 6px;background:rgba(249,115,22,0.08);border-radius:6px;display:none;"></div>
@@ -840,7 +853,10 @@
       <div class="inbox-col inbox-outlook">
         <div class="inbox-col-header">
           <span class="inbox-col-title">📧 Outlook — Cubework</span>
-          <span class="inbox-updated" id="outlook-updated">—</span>
+          <span style="display:flex;align-items:center;">
+            <span class="inbox-updated" id="outlook-updated">—</span>
+            <button class="inbox-refresh" data-inbox="outlook" title="Refresh inbox"><span>🔄</span></button>
+          </span>
         </div>
         <div id="outlook-list"><div class="inbox-empty">Loading...</div></div>
         <a href="https://outlook.office.com/mail/" target="_blank" style="font-size:10px;color:#22d47a;text-decoration:none;margin-top:4px;text-align:center;display:block;">Open Outlook ↗</a>
@@ -2416,6 +2432,7 @@ function renderCompletion(c){
   if(u && c.updatedAt) u.textContent='UPDATED '+new Date(c.updatedAt).toLocaleTimeString('en-US',{hour:'2-digit',minute:'2-digit'});
 }
 function setEl(id,val){const el=document.getElementById(id);if(el&&val!==undefined)el.textContent=val;}
+document.querySelectorAll('.inbox-refresh').forEach(btn=>{btn.addEventListener('click',async()=>{btn.classList.add('spinning');try{await loadData();}finally{setTimeout(()=>btn.classList.remove('spinning'),600);}});});
 loadData();setInterval(loadData,5*60*1000);window.addEventListener('load',loadTodos);
 
 /* ── MEETING PREP (writable launchpad, localStorage-backed) ── */
