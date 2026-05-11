@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T17:15:18.965Z",
+  "lastUpdated": "2026-05-11T17:30:19.909Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -132,8 +132,14 @@
       {
         "from": "david.rodriguez@cubework.com",
         "subject": "RE: Phone number transfer ",
-        "timestamp": "2026-05-11T17:08:15+00:00",
+        "timestamp": "2026-05-11T17:25:48+00:00",
         "unread": true
+      },
+      {
+        "from": "david.rodriguez@cubework.com",
+        "subject": "RE: Phone number transfer ",
+        "timestamp": "2026-05-11T17:08:15+00:00",
+        "unread": false
       },
       {
         "from": "PowerAutomateNoReply@microsoft.com",
@@ -152,15 +158,9 @@
         "subject": "Re: Phone number transfer ",
         "timestamp": "2026-05-09T22:00:45+00:00",
         "unread": false
-      },
-      {
-        "from": "billing@mail.notion.so",
-        "subject": "Payment failure for Notion",
-        "timestamp": "2026-05-09T04:23:48+00:00",
-        "unread": false
       }
     ],
-    "outlookUpdated": "2026-05-11T17:15:18.957Z"
+    "outlookUpdated": "2026-05-11T17:30:19.762Z"
   },
   "agenda": [
     {
