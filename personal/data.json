@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T08:00:12.202Z",
+  "lastUpdated": "2026-05-11T08:02:53.053Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 97742667,
+        "subject": "You’ve got new messages from Design Panda",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-11T06:55:46+00:00"
+      },
+      {
         "id": 97725882,
         "subject": "🔥🔥🔥",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-10T13:51:21.496000+00:00"
-      },
-      {
-        "id": 97657810,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-10T13:35:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-11T04:20:10.729Z",
+    "gorgiasUpdated": "2026-05-11T08:02:52.876Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
