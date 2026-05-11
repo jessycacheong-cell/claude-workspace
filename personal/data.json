@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T16:30:17.784Z",
+  "lastUpdated": "2026-05-11T16:42:25.445Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 97762447,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 97809852,
+        "subject": "You can get ahead with a PayPal Business Loan",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-11T11:55:14+00:00"
+        "timestamp": "2026-05-11T16:28:05+00:00"
       },
       {
-        "id": 97742667,
-        "subject": "You’ve got new messages from Design Panda",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-11T06:55:46+00:00"
-      },
-      {
-        "id": 97725882,
-        "subject": "🔥🔥🔥",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-11T01:58:53+00:00"
-      },
-      {
-        "id": 97702336,
-        "subject": "UMEI, your subscription just ended",
+        "id": 97806928,
+        "subject": "Your latest benchmarks are in. Did you make moves last month?",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-10T21:23:14+00:00"
+        "timestamp": "2026-05-11T16:17:42.482000+00:00"
       },
       {
-        "id": 97664162,
-        "subject": "Access your PayPal funds instantly",
+        "id": 97806202,
+        "subject": "提升在亚马逊企业购上的销售额。",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-10T14:51:38+00:00"
+        "timestamp": "2026-05-11T16:14:27+00:00"
+      },
+      {
+        "id": 97803614,
+        "subject": "Adobe would like your input – please take our survey",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-11T16:02:06+00:00"
+      },
+      {
+        "id": 97803213,
+        "subject": "Your job just got easier with Airtable templates",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-11T16:01:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-11T14:05:32.498Z",
+    "gorgiasUpdated": "2026-05-11T16:42:25.271Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
