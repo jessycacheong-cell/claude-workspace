@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T04:15:07.713Z",
+  "lastUpdated": "2026-05-11T04:20:11.002Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 97725882,
+        "subject": "🔥🔥🔥",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-11T01:58:53+00:00"
+      },
+      {
         "id": 97702336,
         "subject": "UMEI, your subscription just ended",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-10T13:35:45+00:00"
-      },
-      {
-        "id": 97643060,
-        "subject": "Re: Shopify development //",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-10T09:03:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-11T00:03:50.221Z",
+    "gorgiasUpdated": "2026-05-11T04:20:10.729Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
