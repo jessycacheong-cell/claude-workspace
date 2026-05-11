@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T22:15:09.634Z",
+  "lastUpdated": "2026-05-11T22:16:55.322Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 97866082,
+        "subject": "umei_3d, Get More 2,000 Instagram Followers and 2,000 Facebook Likes here",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-11T21:22:46+00:00"
+      },
+      {
         "id": 97858742,
         "subject": "UMEI, your posts got 5 impressions last week",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-11T18:56:58.020000+00:00"
-      },
-      {
-        "id": 97835704,
-        "subject": "Yumei, the creativity on Behance will amaze you",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-11T18:34:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-11T20:52:41.067Z",
+    "gorgiasUpdated": "2026-05-11T22:16:55.151Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
