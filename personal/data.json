@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T21:45:09.893Z",
+  "lastUpdated": "2026-05-11T22:00:16.129Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,6 +130,12 @@
     "gmailSummary": "",
     "outlook": [
       {
+        "from": "Erika.Xu@cubework.com",
+        "subject": "IT helpdesk SOP",
+        "timestamp": "2026-05-11T21:53:16+00:00",
+        "unread": true
+      },
+      {
         "from": "casey.weber@cubework.com",
         "subject": "training reviews",
         "timestamp": "2026-05-11T19:47:41+00:00",
@@ -152,15 +158,9 @@
         "subject": "1 of your flow(s) have failed",
         "timestamp": "2026-05-10T19:35:18+00:00",
         "unread": false
-      },
-      {
-        "from": "no-reply@navan.com",
-        "subject": "First reminder: A friendly reminder to activate your account",
-        "timestamp": "2026-05-10T13:00:36+00:00",
-        "unread": false
       }
     ],
-    "outlookUpdated": "2026-05-11T21:45:09.886Z"
+    "outlookUpdated": "2026-05-11T22:00:15.833Z"
   },
   "agenda": [
     {
