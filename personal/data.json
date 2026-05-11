@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T23:30:07.979Z",
+  "lastUpdated": "2026-05-11T23:35:32.102Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -235,6 +235,16 @@
   "gantt": {
     "tasks": [
       {
+        "name": "Refer to facility SOP to start building Knowledge base for AI automation",
+        "status": "Not started",
+        "team": null,
+        "start": "2026-05-08",
+        "end": null,
+        "milestone": false,
+        "progress": 43,
+        "url": "https://www.notion.so/Refer-to-facility-SOP-to-start-building-Knowledge-base-for-AI-automation-3522c564dcb1807ab24ced4d54846dbe"
+      },
+      {
         "name": "WEEK 2 GOAL: Have a draft workflow prepared, confirm the direction, and have sample data ready to begin building.",
         "status": "Not started",
         "team": null,
@@ -390,8 +400,8 @@
         "team": "Christine",
         "start": "2026-05-01",
         "end": null,
-        "milestone": false,
-        "progress": 0,
+        "milestone": true,
+        "progress": 100,
         "url": "https://www.notion.so/Site-visit-to-Texas-11-buildings-South-Carolina-and-New-York-New-Jersey-34f2c564dcb1805a8f76dc84372bd7c2"
       },
       {
@@ -555,16 +565,16 @@
         "url": "https://www.notion.so/Review-50-UNIS-tickets-patterns-failures-what-never-gets-closed-34a2c564dcb181b7ac76d2806097db78"
       },
       {
-        "name": "Independent — start building Notion structure from everything extracted",
+        "name": "Independent — start building Notion/KB structure from everything extracted",
         "status": "Not started",
         "team": "Jessyca",
         "start": "2026-05-01",
         "end": null,
         "milestone": false,
-        "progress": 0,
-        "url": "https://www.notion.so/Independent-start-building-Notion-structure-from-everything-extracted-34a2c564dcb181d98322e51dde4ece8b"
+        "progress": 48,
+        "url": "https://www.notion.so/Independent-start-building-Notion-KB-structure-from-everything-extracted-34a2c564dcb181d98322e51dde4ece8b"
       }
     ],
-    "updatedAt": "2026-05-11T22:36:16.964Z"
+    "updatedAt": "2026-05-11T23:35:32.102Z"
   }
 }
