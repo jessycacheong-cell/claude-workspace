@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T19:00:16.339Z",
+  "lastUpdated": "2026-05-11T19:07:23.481Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 97809852,
-        "subject": "You can get ahead with a PayPal Business Loan",
+        "id": 97840090,
+        "subject": "Your payment is on the way",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-11T16:28:05+00:00"
+        "timestamp": "2026-05-11T18:58:27+00:00"
       },
       {
-        "id": 97806928,
-        "subject": "Your latest benchmarks are in. Did you make moves last month?",
+        "id": 97839853,
+        "subject": "Direct message with gottschalk.torsten",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-11T16:17:42.482000+00:00"
+        "status": "open",
+        "timestamp": "2026-05-11T18:56:58.020000+00:00"
       },
       {
-        "id": 97806202,
-        "subject": "提升在亚马逊企业购上的销售额。",
+        "id": 97835704,
+        "subject": "Yumei, the creativity on Behance will amaze you",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-11T16:14:27+00:00"
+        "timestamp": "2026-05-11T18:34:58+00:00"
       },
       {
-        "id": 97803614,
-        "subject": "Adobe would like your input – please take our survey",
+        "id": 97832125,
+        "subject": "UMEI, meet Federica Sansone at ManpowerGroup Italia 🤛",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-11T16:02:06+00:00"
+        "timestamp": "2026-05-11T18:15:58+00:00"
       },
       {
-        "id": 97803213,
-        "subject": "Your job just got easier with Airtable templates",
+        "id": 97816901,
+        "subject": "Your Week In Reviews For UMEI Store",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-11T16:01:09+00:00"
+        "timestamp": "2026-05-11T17:02:17+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-11T16:42:25.271Z",
+    "gorgiasUpdated": "2026-05-11T19:07:23.322Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
