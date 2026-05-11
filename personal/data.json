@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T19:45:14.532Z",
+  "lastUpdated": "2026-05-11T20:00:09.780Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -130,10 +130,16 @@
     "gmailSummary": "",
     "outlook": [
       {
+        "from": "casey.weber@cubework.com",
+        "subject": "training reviews",
+        "timestamp": "2026-05-11T19:47:41+00:00",
+        "unread": true
+      },
+      {
         "from": "david.rodriguez@cubework.com",
         "subject": "RE: Phone number transfer ",
         "timestamp": "2026-05-11T17:25:48+00:00",
-        "unread": true
+        "unread": false
       },
       {
         "from": "david.rodriguez@cubework.com",
@@ -145,22 +151,16 @@
         "from": "PowerAutomateNoReply@microsoft.com",
         "subject": "1 of your flow(s) have failed",
         "timestamp": "2026-05-10T19:35:18+00:00",
-        "unread": true
+        "unread": false
       },
       {
         "from": "no-reply@navan.com",
         "subject": "First reminder: A friendly reminder to activate your account",
         "timestamp": "2026-05-10T13:00:36+00:00",
         "unread": true
-      },
-      {
-        "from": "kuan.goh@cubework.com",
-        "subject": "Re: Phone number transfer ",
-        "timestamp": "2026-05-09T22:00:45+00:00",
-        "unread": false
       }
     ],
-    "outlookUpdated": "2026-05-11T19:45:14.525Z"
+    "outlookUpdated": "2026-05-11T20:00:09.774Z"
   },
   "agenda": [
     {
