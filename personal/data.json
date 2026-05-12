@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T05:00:09.356Z",
+  "lastUpdated": "2026-05-12T05:08:32.361Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 97913193,
+        "subject": "Nike Senior Director Global Stores  Training & Service recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-12T04:16:00+00:00"
+      },
+      {
+        "id": 97911777,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-12T03:54:58+00:00"
+      },
+      {
+        "id": 97910279,
+        "subject": "Got 10 minutes? Tell us about Illustrator and get $15",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-12T03:31:10+00:00"
+      },
+      {
         "id": 97887647,
         "subject": "Bloom your store this April — on us 🌷",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-11T21:22:46+00:00"
-      },
-      {
-        "id": 97858742,
-        "subject": "UMEI, your posts got 5 impressions last week",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-11T20:39:00+00:00"
-      },
-      {
-        "id": 97845975,
-        "subject": "Boost your Account Health with tips from fellow sellers",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-11T19:28:47+00:00"
-      },
-      {
-        "id": 97840090,
-        "subject": "Your payment is on the way",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-11T18:58:27+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-12T01:22:01.356Z",
+    "gorgiasUpdated": "2026-05-12T05:08:32.207Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
