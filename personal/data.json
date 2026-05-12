@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T08:00:11.293Z",
+  "lastUpdated": "2026-05-12T08:03:44.659Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 97924641,
+        "subject": "Refund Initiated for Order 114-4796248-1043439",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-12T07:47:06+00:00"
+      },
+      {
         "id": 97913193,
         "subject": "Nike Senior Director Global Stores  Training & Service recently posted",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-11T23:58:42.162000+00:00"
-      },
-      {
-        "id": 97866082,
-        "subject": "umei_3d, Get More 2,000 Instagram Followers and 2,000 Facebook Likes here",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-11T21:22:46+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-12T05:08:32.207Z",
+    "gorgiasUpdated": "2026-05-12T08:03:44.469Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
