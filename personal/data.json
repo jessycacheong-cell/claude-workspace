@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T05:08:32.361Z",
+  "lastUpdated": "2026-05-12T05:08:35.205Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -241,7 +241,7 @@
         "start": "2026-05-08",
         "end": null,
         "milestone": false,
-        "progress": 43,
+        "progress": 57,
         "url": "https://www.notion.so/Refer-to-facility-SOP-to-start-building-Knowledge-base-for-AI-automation-3522c564dcb1807ab24ced4d54846dbe"
       },
       {
@@ -571,10 +571,10 @@
         "start": "2026-05-01",
         "end": null,
         "milestone": false,
-        "progress": 48,
+        "progress": 52,
         "url": "https://www.notion.so/Independent-start-building-Notion-KB-structure-from-everything-extracted-34a2c564dcb181d98322e51dde4ece8b"
       }
     ],
-    "updatedAt": "2026-05-11T23:35:32.102Z"
+    "updatedAt": "2026-05-12T05:08:35.205Z"
   }
 }
