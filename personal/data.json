@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T01:15:08.354Z",
+  "lastUpdated": "2026-05-12T01:22:01.532Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 97887647,
+        "subject": "Bloom your store this April — on us 🌷",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-11T23:58:42.162000+00:00"
+      },
+      {
         "id": 97866082,
         "subject": "umei_3d, Get More 2,000 Instagram Followers and 2,000 Facebook Likes here",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-11T18:58:27+00:00"
-      },
-      {
-        "id": 97839853,
-        "subject": "Direct message with gottschalk.torsten",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-11T18:56:58.020000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-11T23:36:29.703Z",
+    "gorgiasUpdated": "2026-05-12T01:22:01.356Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
