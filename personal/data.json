@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T22:21:00.507Z",
+  "lastUpdated": "2026-05-12T22:21:06.845Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98049174,
+        "subject": "This month, AI showed up everywhere at Zoho ✨",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-12T19:02:24+00:00"
+      },
+      {
         "id": 97996161,
         "subject": "Enjoy 25% off—just for returning customers",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-12T14:11:27+00:00"
-      },
-      {
-        "id": 97952706,
-        "subject": "One week out, one short trip—final spots for New Seller Summit",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-12T13:25:28+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-12T21:05:55.163Z",
+    "gorgiasUpdated": "2026-05-12T22:21:06.658Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
