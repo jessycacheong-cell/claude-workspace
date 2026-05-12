@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T17:00:17.074Z",
+  "lastUpdated": "2026-05-12T17:36:04.998Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 97996161,
+        "subject": "Enjoy 25% off—just for returning customers",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-12T17:03:59+00:00"
+      },
+      {
+        "id": 97985899,
+        "subject": "Where creative worlds collide",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-12T16:11:46+00:00"
+      },
+      {
+        "id": 97980717,
+        "subject": "Updates to Shopify's Supplemental Terms for Agentic Storefronts",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-12T15:49:04.270000+00:00"
+      },
+      {
         "id": 97960864,
         "subject": "Omnisend MCP is now available in ChatGPT",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-12T13:25:28+00:00"
-      },
-      {
-        "id": 97941360,
-        "subject": "Ask anything about AEO vs SEO for your store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-12T12:00:38.751000+00:00"
-      },
-      {
-        "id": 97926698,
-        "subject": "UMEI: Cost-effective PVC/TPR soles for your 3D-printed slides & Glides?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-12T08:16:49+00:00"
-      },
-      {
-        "id": 97924641,
-        "subject": "Refund Initiated for Order 114-4796248-1043439",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-12T07:47:06+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-12T15:31:03.082Z",
+    "gorgiasUpdated": "2026-05-12T17:36:04.834Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
