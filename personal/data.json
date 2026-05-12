@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T10:30:16.960Z",
+  "lastUpdated": "2026-05-12T10:40:05.574Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 97926698,
+        "subject": "UMEI: Cost-effective PVC/TPR soles for your 3D-printed slides & Glides?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-12T08:16:49+00:00"
+      },
+      {
         "id": 97924641,
         "subject": "Refund Initiated for Order 114-4796248-1043439",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-12T03:31:10+00:00"
-      },
-      {
-        "id": 97887647,
-        "subject": "Bloom your store this April — on us 🌷",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-11T23:58:42.162000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-12T08:03:44.469Z",
+    "gorgiasUpdated": "2026-05-12T10:40:05.416Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
