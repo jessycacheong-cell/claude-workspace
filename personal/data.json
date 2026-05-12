@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T15:30:45.495Z",
+  "lastUpdated": "2026-05-12T15:31:03.233Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 97960864,
+        "subject": "Omnisend MCP is now available in ChatGPT",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-12T14:11:27+00:00"
+      },
+      {
+        "id": 97952706,
+        "subject": "One week out, one short trip—final spots for New Seller Summit",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-12T13:25:28+00:00"
+      },
+      {
         "id": 97941360,
         "subject": "Ask anything about AEO vs SEO for your store",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-12T07:47:06+00:00"
-      },
-      {
-        "id": 97913193,
-        "subject": "Nike Senior Director Global Stores  Training & Service recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-12T04:16:00+00:00"
-      },
-      {
-        "id": 97911777,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-12T03:54:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-12T12:28:35.478Z",
+    "gorgiasUpdated": "2026-05-12T15:31:03.082Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
