@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T01:26:15.189Z",
+  "lastUpdated": "2026-05-13T01:27:57.816Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98080083,
+        "subject": "Your receipt from Photo App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-13T01:25:08+00:00"
+      },
+      {
+        "id": 98073394,
+        "subject": "Add or update a List Price to your listings",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-13T00:23:43+00:00"
+      },
+      {
         "id": 98049174,
         "subject": "This month, AI showed up everywhere at Zoho ✨",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-12T16:11:46+00:00"
-      },
-      {
-        "id": 97980717,
-        "subject": "Updates to Shopify's Supplemental Terms for Agentic Storefronts",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-12T15:49:04.270000+00:00"
-      },
-      {
-        "id": 97960864,
-        "subject": "Omnisend MCP is now available in ChatGPT",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-12T14:11:27+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-12T23:39:27.484Z",
+    "gorgiasUpdated": "2026-05-13T01:27:57.640Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
