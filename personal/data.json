@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T05:32:12.931Z",
+  "lastUpdated": "2026-05-13T05:32:35.305Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98097476,
+        "subject": "Nike Senior Director Global Stores  Training & Service recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-13T04:15:59+00:00"
+      },
+      {
+        "id": 98087405,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-13T02:36:23+00:00"
+      },
+      {
+        "id": 98085452,
+        "subject": "UMEI, add Oliver Chernikeeff - Director of Engineering 💬",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-13T02:15:58+00:00"
+      },
+      {
         "id": 98080083,
         "subject": "Your receipt from Photo App",
         "customer": "Unknown",
@@ -97,35 +118,14 @@
         "timestamp": "2026-05-13T01:25:08+00:00"
       },
       {
-        "id": 98073394,
-        "subject": "Add or update a List Price to your listings",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-13T00:23:43+00:00"
-      },
-      {
-        "id": 98049174,
-        "subject": "This month, AI showed up everywhere at Zoho ✨",
+        "id": 98101163,
+        "subject": "Kling AI Effect: Viral Korean Baseball Trend",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-05-12T19:02:24+00:00"
-      },
-      {
-        "id": 97996161,
-        "subject": "Enjoy 25% off—just for returning customers",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-12T17:03:59+00:00"
-      },
-      {
-        "id": 97985899,
-        "subject": "Where creative worlds collide",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-12T16:11:46+00:00"
+        "timestamp": "2026-05-13T00:36:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-13T01:27:57.640Z",
+    "gorgiasUpdated": "2026-05-13T05:32:35.133Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
