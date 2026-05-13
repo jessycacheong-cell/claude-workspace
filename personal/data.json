@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T08:20:22.562Z",
+  "lastUpdated": "2026-05-13T11:13:38.073Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98112820,
+        "subject": "May 13, 2026 bill for UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-13T08:48:26+00:00"
+      },
+      {
         "id": 98097476,
         "subject": "Nike Senior Director Global Stores  Training & Service recently posted",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-13T01:25:08+00:00"
-      },
-      {
-        "id": 98101163,
-        "subject": "Kling AI Effect: Viral Korean Baseball Trend",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-13T00:36:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-13T08:20:22.074Z",
+    "gorgiasUpdated": "2026-05-13T11:13:37.895Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
