@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T13:37:58.099Z",
+  "lastUpdated": "2026-05-13T13:38:07.843Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 98112820,
-        "subject": "May 13, 2026 bill for UMEI Store",
+        "id": 98137501,
+        "subject": "Direct message with kowotobii",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-13T08:48:26+00:00"
+        "status": "open",
+        "timestamp": "2026-05-13T13:24:04.699000+00:00"
       },
       {
-        "id": 98097476,
-        "subject": "Nike Senior Director Global Stores  Training & Service recently posted",
+        "id": 98135590,
+        "subject": "You’ve got new messages from Design Panda",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-13T04:15:59+00:00"
+        "status": "open",
+        "timestamp": "2026-05-13T13:11:39+00:00"
       },
       {
-        "id": 98087405,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 98134272,
+        "subject": "Direct message with jessiannwilliams2001",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-13T02:36:23+00:00"
+        "status": "open",
+        "timestamp": "2026-05-13T13:03:02.002000+00:00"
       },
       {
-        "id": 98085452,
-        "subject": "UMEI, add Oliver Chernikeeff - Director of Engineering 💬",
+        "id": 98133436,
+        "subject": "Direct message with business.supportadmin736",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-13T02:15:58+00:00"
+        "status": "open",
+        "timestamp": "2026-05-13T12:58:34.429000+00:00"
       },
       {
-        "id": 98080083,
-        "subject": "Your receipt from Photo App",
+        "id": 98128960,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-13T01:25:08+00:00"
+        "timestamp": "2026-05-13T12:22:27.140000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-13T11:13:37.895Z",
+    "gorgiasUpdated": "2026-05-13T13:38:07.689Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
