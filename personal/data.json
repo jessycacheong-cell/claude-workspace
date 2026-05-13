@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T20:07:08.982Z",
+  "lastUpdated": "2026-05-13T20:21:47.791Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98209566,
+        "subject": "A clearer view of what AI Agent & other automation features are doing for you",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-13T19:46:09+00:00"
+      },
+      {
+        "id": 98207607,
+        "subject": "What if customer insights could reduce churn?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-13T19:34:00+00:00"
+      },
+      {
+        "id": 98200147,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-13T18:51:27+00:00"
+      },
+      {
+        "id": 98195913,
+        "subject": "3.5: Notion Developer Platform",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-13T18:27:16+00:00"
+      },
+      {
         "id": 98175019,
         "subject": "Direct message with business.supportadmin815",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-13T16:36:43.847000+00:00"
-      },
-      {
-        "id": 98167414,
-        "subject": "Make your app work for you with automations",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-13T16:00:35+00:00"
-      },
-      {
-        "id": 98162843,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-13T15:38:19+00:00"
-      },
-      {
-        "id": 98147230,
-        "subject": "A day in New York City could change the way you grow your Amazon business",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-13T14:19:26+00:00"
-      },
-      {
-        "id": 98144372,
-        "subject": "Come for the insights, leave with a pair of NOBULL shoes 👟",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-13T14:04:15+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-13T18:13:17.719Z",
+    "gorgiasUpdated": "2026-05-13T20:21:47.570Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
