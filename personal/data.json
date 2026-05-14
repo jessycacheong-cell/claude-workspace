@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T23:33:14.239Z",
+  "lastUpdated": "2026-05-14T23:33:17.202Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98400441,
+        "subject": "Check out the top features you might have missed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-14T21:24:01+00:00"
+      },
+      {
+        "id": 98399117,
+        "subject": "An open invitation, always",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-14T21:14:49+00:00"
+      },
+      {
         "id": 98389385,
         "subject": "Your Omnisend account is about to be deleted",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-14T20:06:53+00:00"
-      },
-      {
-        "id": 98386370,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-14T19:57:25+00:00"
-      },
-      {
-        "id": 98377985,
-        "subject": "New puzzle today, UMEI 🌱",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-14T19:06:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-14T20:55:46.254Z",
+    "gorgiasUpdated": "2026-05-14T23:33:16.777Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
