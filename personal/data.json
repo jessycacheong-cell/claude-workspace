@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T11:01:24.629Z",
+  "lastUpdated": "2026-05-14T13:02:08.033Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98308635,
+        "subject": "It took some balls for us to do it",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-14T13:01:12+00:00"
+      },
+      {
+        "id": 98305791,
+        "subject": "[Webinar] Turning CX, Reviews & Loyalty into a Unified Revenue Channel",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-14T12:37:45+00:00"
+      },
+      {
+        "id": 98304619,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-14T12:27:41.310000+00:00"
+      },
+      {
         "id": 98267672,
         "subject": "Last chance: Got 10 minutes? Tell us about Illustrator and get $15",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-14T03:21:28+00:00"
-      },
-      {
-        "id": 98260739,
-        "subject": "Your Omnisend account is about to be deleted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-14T02:15:15+00:00"
-      },
-      {
-        "id": 98259987,
-        "subject": "Your store + Shopify + TikTok Shop = unstoppable 💪",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-14T02:08:20.337000+00:00"
-      },
-      {
-        "id": 98232950,
-        "subject": "Smarter pool care starts here",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-13T22:15:38+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-14T11:01:24.468Z",
+    "gorgiasUpdated": "2026-05-14T13:02:07.878Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
