@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T18:28:44.174Z",
+  "lastUpdated": "2026-05-14T19:22:11.193Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98377985,
+        "subject": "New puzzle today, UMEI 🌱",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-14T19:06:55+00:00"
+      },
+      {
+        "id": 98368961,
+        "subject": "Deluxe editions, dungeons, and unlikely discoveries",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-14T18:17:06+00:00"
+      },
+      {
         "id": 98348994,
         "subject": "THE LATEST: New SMS tools and a smarter email builder",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-14T14:09:36+00:00"
-      },
-      {
-        "id": 98314590,
-        "subject": "There's still time—New Seller Summit is just a short trip away, May 20",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-14T13:36:27+00:00"
-      },
-      {
-        "id": 98308635,
-        "subject": "It took some balls for us to do it",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-14T13:01:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-14T17:24:21.779Z",
+    "gorgiasUpdated": "2026-05-14T19:22:10.988Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
