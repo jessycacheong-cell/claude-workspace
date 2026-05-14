@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T05:30:27.167Z",
+  "lastUpdated": "2026-05-14T05:30:31.280Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98267672,
+        "subject": "Last chance: Got 10 minutes? Tell us about Illustrator and get $15",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-14T03:30:47+00:00"
+      },
+      {
+        "id": 98267005,
+        "subject": "Exclusive offer for Umei3d",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-14T03:21:28+00:00"
+      },
+      {
+        "id": 98260739,
+        "subject": "Your Omnisend account is about to be deleted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-14T02:15:15+00:00"
+      },
+      {
+        "id": 98259987,
+        "subject": "Your store + Shopify + TikTok Shop = unstoppable 💪",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-14T02:08:20.337000+00:00"
+      },
+      {
         "id": 98232950,
         "subject": "Smarter pool care starts here",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-13T22:15:38+00:00"
-      },
-      {
-        "id": 98209566,
-        "subject": "A clearer view of what AI Agent & other automation features are doing for you",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-13T19:46:09+00:00"
-      },
-      {
-        "id": 98207607,
-        "subject": "What if customer insights could reduce churn?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-13T19:34:00+00:00"
-      },
-      {
-        "id": 98200147,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-13T18:51:27+00:00"
-      },
-      {
-        "id": 98195913,
-        "subject": "3.5: Notion Developer Platform",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-13T18:27:16+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-14T01:30:08.678Z",
+    "gorgiasUpdated": "2026-05-14T05:30:31.099Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
