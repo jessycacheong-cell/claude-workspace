@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T20:55:31.395Z",
+  "lastUpdated": "2026-05-14T20:55:46.457Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98389385,
+        "subject": "Your Omnisend account is about to be deleted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-14T20:15:06+00:00"
+      },
+      {
+        "id": 98389154,
+        "subject": "logan.gm.5280 replied to your story",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-14T20:14:00.329000+00:00"
+      },
+      {
+        "id": 98388046,
+        "subject": "🚀🌕",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-14T20:06:53+00:00"
+      },
+      {
+        "id": 98386370,
+        "subject": "Love this",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-14T19:57:25+00:00"
+      },
+      {
         "id": 98377985,
         "subject": "New puzzle today, UMEI 🌱",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-14T19:06:55+00:00"
-      },
-      {
-        "id": 98368961,
-        "subject": "Deluxe editions, dungeons, and unlikely discoveries",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-14T18:17:06+00:00"
-      },
-      {
-        "id": 98348994,
-        "subject": "THE LATEST: New SMS tools and a smarter email builder",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-14T16:31:36+00:00"
-      },
-      {
-        "id": 98345980,
-        "subject": "You appeared in 4 searches",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-14T16:15:59+00:00"
-      },
-      {
-        "id": 98320782,
-        "subject": "Re: [Create your update Shopify website for a?]",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-14T14:09:36+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-14T19:22:10.988Z",
+    "gorgiasUpdated": "2026-05-14T20:55:46.254Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
