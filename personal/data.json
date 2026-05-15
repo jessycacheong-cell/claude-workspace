@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T21:38:10.311Z",
+  "lastUpdated": "2026-05-15T21:38:54.076Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98565893,
+        "subject": "UMEI, you have free AI generations",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-15T21:23:19+00:00"
+      },
+      {
         "id": 98511732,
         "subject": "Oho Group is hiring a Founder's Associate",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-15T13:54:10.126000+00:00"
-      },
-      {
-        "id": 98484687,
-        "subject": "L3D Printed sneakper solution provider",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-15T13:53:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-15T20:22:11.637Z",
+    "gorgiasUpdated": "2026-05-15T21:38:53.912Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
