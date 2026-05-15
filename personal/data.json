@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T08:24:20.884Z",
+  "lastUpdated": "2026-05-15T08:28:43.091Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98451116,
+        "subject": "You’ve got new messages from Design Panda",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-15T06:36:09+00:00"
+      },
+      {
+        "id": 98450896,
+        "subject": "Umei3d",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-15T06:31:54+00:00"
+      },
+      {
         "id": 98443565,
         "subject": "Nike VP, Jordan Visioneering & LA28 recently posted",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-15T00:42:00+00:00"
-      },
-      {
-        "id": 98400441,
-        "subject": "Check out the top features you might have missed",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-14T21:24:01+00:00"
-      },
-      {
-        "id": 98399117,
-        "subject": "An open invitation, always",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-14T21:14:49+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-15T05:37:26.344Z",
+    "gorgiasUpdated": "2026-05-15T08:28:42.900Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
