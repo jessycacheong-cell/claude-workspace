@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T01:27:19.683Z",
+  "lastUpdated": "2026-05-15T05:37:26.503Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98443565,
+        "subject": "Nike VP, Jordan Visioneering & LA28 recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-15T04:16:00+00:00"
+      },
+      {
+        "id": 98440694,
+        "subject": "You appeared in 4 searches this week",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-15T03:32:59+00:00"
+      },
+      {
+        "id": 98424855,
+        "subject": "Is this for real",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-15T00:42:00+00:00"
+      },
+      {
         "id": 98400441,
         "subject": "Check out the top features you might have missed",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-14T21:14:49+00:00"
-      },
-      {
-        "id": 98389385,
-        "subject": "Your Omnisend account is about to be deleted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-14T20:15:06+00:00"
-      },
-      {
-        "id": 98389154,
-        "subject": "logan.gm.5280 replied to your story",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-14T20:14:00.329000+00:00"
-      },
-      {
-        "id": 98388046,
-        "subject": "🚀🌕",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-14T20:06:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-14T23:33:16.777Z",
+    "gorgiasUpdated": "2026-05-15T05:37:26.344Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
