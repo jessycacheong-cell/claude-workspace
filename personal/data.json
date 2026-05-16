@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T17:12:12.800Z",
+  "lastUpdated": "2026-05-16T17:36:18.978Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -118,14 +118,14 @@
         "timestamp": "2026-05-16T15:20:21.967000+00:00"
       },
       {
-        "id": 98641173,
-        "subject": "Bring pro-level 3D scanning anywhere",
+        "id": 98667002,
+        "subject": "Create Viral AI Broadcast Videos in One Click",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-16T13:45:39+00:00"
+        "status": "open",
+        "timestamp": "2026-05-16T14:07:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-16T16:32:18.908Z",
+    "gorgiasUpdated": "2026-05-16T17:36:18.784Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
