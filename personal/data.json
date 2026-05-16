@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T16:07:57.348Z",
+  "lastUpdated": "2026-05-16T16:32:19.067Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98660237,
+        "subject": "Fund more business purchases with a loan from PayPal",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-16T16:28:06+00:00"
+      },
+      {
+        "id": 98658726,
+        "subject": "You appeared in 4 searches",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-16T16:15:58+00:00"
+      },
+      {
+        "id": 98656474,
+        "subject": "Browse templates to streamline your next project",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-16T16:01:27+00:00"
+      },
+      {
+        "id": 98651645,
+        "subject": "New customer message on May 16, 2026 at 8:20 am",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-16T15:20:21.967000+00:00"
+      },
+      {
         "id": 98641173,
         "subject": "Bring pro-level 3D scanning anywhere",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-16T13:45:39+00:00"
-      },
-      {
-        "id": 98632492,
-        "subject": "Direct message with madzia8191",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-16T12:09:20.548000+00:00"
-      },
-      {
-        "id": 98615524,
-        "subject": "Mechanical Property Test Report of Elastomer Material – SGS",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-16T06:47:57+00:00"
-      },
-      {
-        "id": 98608364,
-        "subject": "[UMEI Store] Order #1691 placed by Jordan Le",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-16T04:17:56.024000+00:00"
-      },
-      {
-        "id": 98607544,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-16T04:05:29+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-16T15:13:30.295Z",
+    "gorgiasUpdated": "2026-05-16T16:32:18.908Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
