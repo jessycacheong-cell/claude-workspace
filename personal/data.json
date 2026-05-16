@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T04:59:46.428Z",
+  "lastUpdated": "2026-05-16T04:59:52.452Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 98587668,
-        "subject": "3 things top TikTok Shop sellers do differently",
+        "id": 98608364,
+        "subject": "[UMEI Store] Order #1691 placed by Jordan Le",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-05-16T00:18:31.221000+00:00"
+        "timestamp": "2026-05-16T04:17:56.024000+00:00"
       },
       {
-        "id": 98586080,
-        "subject": "How business chats work on Instagram Direct",
+        "id": 98607544,
+        "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-16T00:03:11+00:00"
+        "timestamp": "2026-05-16T04:05:29+00:00"
       },
       {
-        "id": 98565893,
-        "subject": "UMEI, you have free AI generations",
+        "id": 98605157,
+        "subject": "Lewis Lin Has An Update for You, UMEI 3D",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-15T21:23:19+00:00"
+        "timestamp": "2026-05-16T03:33:00+00:00"
       },
       {
-        "id": 98511732,
-        "subject": "Oho Group is hiring a Founder's Associate",
+        "id": 98599809,
+        "subject": "Thanks for upgrading to Plus",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-15T16:15:59+00:00"
+        "timestamp": "2026-05-16T02:27:54+00:00"
       },
       {
-        "id": 98508640,
-        "subject": "Start organizing your app with your team",
+        "id": 98598778,
+        "subject": "UMEI, add Hyoku Team - Team Hyoku 💬",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-15T16:01:33+00:00"
+        "timestamp": "2026-05-16T02:16:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-16T01:21:39.238Z",
+    "gorgiasUpdated": "2026-05-16T04:59:52.267Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
