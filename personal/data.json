@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T07:23:35.533Z",
+  "lastUpdated": "2026-05-17T09:22:17.516Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98732307,
+        "subject": "LIVE selling: the strategy top TikTok sellers swear by",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-17T08:30:13.912000+00:00"
+      },
+      {
         "id": 98728112,
         "subject": "Airtable workspace switched to the Free plan",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-17T03:09:38+00:00"
-      },
-      {
-        "id": 98717457,
-        "subject": "003338 : Verify your email for n8n",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-17T03:07:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-17T07:23:35.265Z",
+    "gorgiasUpdated": "2026-05-17T09:22:17.308Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
