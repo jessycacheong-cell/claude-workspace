@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T15:12:56.290Z",
+  "lastUpdated": "2026-05-17T15:14:07.323Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98754721,
+        "subject": "Use your PayPal Balance wherever you shop",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-17T14:51:43+00:00"
+      },
+      {
         "id": 98732307,
         "subject": "LIVE selling: the strategy top TikTok sellers swear by",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-17T03:12:08+00:00"
-      },
-      {
-        "id": 98717557,
-        "subject": "Welcome to n8n!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-17T03:09:38+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-17T13:54:22.967Z",
+    "gorgiasUpdated": "2026-05-17T15:14:07.153Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
