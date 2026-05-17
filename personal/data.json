@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T04:16:53.109Z",
+  "lastUpdated": "2026-05-17T04:17:20.873Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 98704402,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 98717682,
+        "subject": "Security alert",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-17T00:00:10+00:00"
+        "timestamp": "2026-05-17T03:12:08+00:00"
       },
       {
-        "id": 98700055,
-        "subject": "[Action required] ⚠️ Add Smile to your new Shopify theme",
+        "id": 98717557,
+        "subject": "Welcome to n8n!",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-16T23:05:07+00:00"
+        "timestamp": "2026-05-17T03:09:38+00:00"
       },
       {
-        "id": 98660237,
-        "subject": "Fund more business purchases with a loan from PayPal",
+        "id": 98717457,
+        "subject": "003338 : Verify your email for n8n",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-16T16:28:06+00:00"
+        "timestamp": "2026-05-17T03:07:59+00:00"
       },
       {
-        "id": 98658726,
-        "subject": "You appeared in 4 searches",
+        "id": 98715038,
+        "subject": "Your 20% UMEI code 🎉",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-16T16:15:58+00:00"
+        "timestamp": "2026-05-17T02:29:45+00:00"
       },
       {
-        "id": 98656474,
-        "subject": "Browse templates to streamline your next project",
+        "id": 98713477,
+        "subject": "unsubscribe",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-16T16:01:27+00:00"
+        "status": "open",
+        "timestamp": "2026-05-17T02:03:30+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-17T00:04:09.889Z",
+    "gorgiasUpdated": "2026-05-17T04:17:20.717Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
