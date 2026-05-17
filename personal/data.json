@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T22:04:48.582Z",
+  "lastUpdated": "2026-05-17T22:06:11.170Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98796406,
+        "subject": "Mention in spokeblomma's story",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-17T22:02:33.486000+00:00"
+      },
+      {
         "id": 98754721,
         "subject": "Use your PayPal Balance wherever you shop",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-17T04:46:48.841000+00:00"
-      },
-      {
-        "id": 98717682,
-        "subject": "Security alert",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-17T03:12:08+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-17T21:07:41.865Z",
+    "gorgiasUpdated": "2026-05-17T22:06:11.015Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
