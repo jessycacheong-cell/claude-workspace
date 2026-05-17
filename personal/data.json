@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T07:23:15.603Z",
+  "lastUpdated": "2026-05-17T07:23:35.533Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98728112,
+        "subject": "Airtable workspace switched to the Free plan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-17T07:04:29+00:00"
+      },
+      {
+        "id": 98722299,
+        "subject": "LIVE selling: the strategy top TikTok sellers swear by",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-17T04:46:48.841000+00:00"
+      },
+      {
         "id": 98717682,
         "subject": "Security alert",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-17T03:07:59+00:00"
-      },
-      {
-        "id": 98715038,
-        "subject": "Your 20% UMEI code 🎉",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-17T02:29:45+00:00"
-      },
-      {
-        "id": 98713477,
-        "subject": "unsubscribe",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-17T02:03:30+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-17T04:17:20.717Z",
+    "gorgiasUpdated": "2026-05-17T07:23:35.265Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
