@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T00:03:25.783Z",
+  "lastUpdated": "2026-05-17T00:04:10.056Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98704402,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-17T00:00:10+00:00"
+      },
+      {
+        "id": 98700055,
+        "subject": "[Action required] ⚠️ Add Smile to your new Shopify theme",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-16T23:05:07+00:00"
+      },
+      {
         "id": 98660237,
         "subject": "Fund more business purchases with a loan from PayPal",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-16T16:01:27+00:00"
-      },
-      {
-        "id": 98651645,
-        "subject": "New customer message on May 16, 2026 at 8:20 am",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-16T15:20:21.967000+00:00"
-      },
-      {
-        "id": 98667002,
-        "subject": "Create Viral AI Broadcast Videos in One Click",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-16T14:07:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-16T23:03:48.362Z",
+    "gorgiasUpdated": "2026-05-17T00:04:09.889Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
