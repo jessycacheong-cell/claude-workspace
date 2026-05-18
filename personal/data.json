@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T22:34:00.938Z",
+  "lastUpdated": "2026-05-18T23:17:17.779Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98980448,
+        "subject": "New customer message on May 18, 2026 at 4:10 pm",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-18T23:10:22.037000+00:00"
+      },
+      {
+        "id": 98980375,
+        "subject": "New customer message on May 18, 2026 at 4:09 pm",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-18T23:09:47.968000+00:00"
+      },
+      {
+        "id": 98977330,
+        "subject": "Built-in discovery. Zero ad spend. Start now.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-18T22:46:59.176000+00:00"
+      },
+      {
+        "id": 98972715,
+        "subject": "Limited time offer: Extend Your Team Trial by 14 Days!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-18T22:13:46+00:00"
+      },
+      {
         "id": 98966673,
         "subject": "Direct message with zerolovetennis",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-18T21:36:33.143000+00:00"
-      },
-      {
-        "id": 98963258,
-        "subject": "Precision engraving meets metal mastery",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-18T21:16:09+00:00"
-      },
-      {
-        "id": 98956837,
-        "subject": "UMEI, your posts got 26 impressions last week",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-18T20:38:57+00:00"
-      },
-      {
-        "id": 98950015,
-        "subject": "Why AI can’t replace the next generation of workers",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-18T20:00:29+00:00"
-      },
-      {
-        "id": 98936589,
-        "subject": "Smarter meetings start with My Notes",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-18T18:55:37+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-18T21:49:33.082Z",
+    "gorgiasUpdated": "2026-05-18T23:17:17.614Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
