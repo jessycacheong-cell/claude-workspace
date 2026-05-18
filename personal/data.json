@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T00:07:25.124Z",
+  "lastUpdated": "2026-05-18T00:10:07.051Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98807316,
+        "subject": "Sizing",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-18T00:07:47+00:00"
+      },
+      {
+        "id": 98806166,
+        "subject": "⚠️ Your workflow failed. Get alerts next time",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-17T23:56:13+00:00"
+      },
+      {
+        "id": 98806125,
+        "subject": "Question about sizing",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-17T23:55:35+00:00"
+      },
+      {
+        "id": 98802728,
+        "subject": "Shoes sizing question",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-17T23:15:01+00:00"
+      },
+      {
         "id": 98796406,
         "subject": "Mention in spokeblomma's story",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-17T22:02:33.486000+00:00"
-      },
-      {
-        "id": 98754721,
-        "subject": "Use your PayPal Balance wherever you shop",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-17T14:51:43+00:00"
-      },
-      {
-        "id": 98732307,
-        "subject": "LIVE selling: the strategy top TikTok sellers swear by",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-17T08:30:13.912000+00:00"
-      },
-      {
-        "id": 98728112,
-        "subject": "Airtable workspace switched to the Free plan",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-17T07:04:29+00:00"
-      },
-      {
-        "id": 98722299,
-        "subject": "LIVE selling: the strategy top TikTok sellers swear by",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-17T04:46:48.841000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-17T23:09:48.576Z",
+    "gorgiasUpdated": "2026-05-18T00:10:06.824Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
