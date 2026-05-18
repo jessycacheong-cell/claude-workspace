@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T15:54:19.997Z",
+  "lastUpdated": "2026-05-18T16:32:24.870Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 98845259,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 98902564,
+        "subject": "Add a backup payment to avoid order disruptions",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-18T09:30:34+00:00"
+        "timestamp": "2026-05-18T16:21:07+00:00"
       },
       {
-        "id": 98842798,
-        "subject": "You’ve got new messages from Design Panda",
+        "id": 98901149,
+        "subject": "Mention in _gettingjacked's story",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-05-18T08:41:03+00:00"
+        "timestamp": "2026-05-18T16:14:38.956000+00:00"
       },
       {
-        "id": 98840610,
-        "subject": "UMEI 3D team: Fast sole samples for your next Moonwalker/Glides test?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-18T08:05:14+00:00"
-      },
-      {
-        "id": 98818763,
-        "subject": "Refund Initiated for Order 111-7993785-3667462",
+        "id": 98899145,
+        "subject": "Your 5 lowest-performing metrics",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-18T02:24:34+00:00"
+        "timestamp": "2026-05-18T16:05:04.408000+00:00"
       },
       {
-        "id": 98811139,
-        "subject": "Just visited your feed",
+        "id": 98896613,
+        "subject": "What you can do with just one image",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-18T00:50:37+00:00"
+        "timestamp": "2026-05-18T15:54:42+00:00"
+      },
+      {
+        "id": 98877425,
+        "subject": "Return Filing Tool Coming Soon",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-18T14:18:43+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-18T12:46:12.554Z",
+    "gorgiasUpdated": "2026-05-18T16:32:24.655Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
