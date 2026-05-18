@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T20:00:24.244Z",
+  "lastUpdated": "2026-05-18T20:17:51.118Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 98950015,
+        "subject": "Why AI can’t replace the next generation of workers",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-18T20:00:29+00:00"
+      },
+      {
+        "id": 98936589,
+        "subject": "Smarter meetings start with My Notes",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-18T18:55:37+00:00"
+      },
+      {
         "id": 98925935,
         "subject": "Prof. Dr. Mahmut F. Akşit, Chief Executive Officer/Genel Müdür, is popular in your network",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-18T17:06:58+00:00"
-      },
-      {
-        "id": 98911005,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-18T17:02:38+00:00"
-      },
-      {
-        "id": 98905163,
-        "subject": "Markdown and markup tips to move inventory profitably",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-18T16:33:55.814000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-18T18:22:09.150Z",
+    "gorgiasUpdated": "2026-05-18T20:17:50.761Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
