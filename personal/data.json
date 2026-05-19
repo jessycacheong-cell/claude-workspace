@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T16:30:06.300Z",
+  "lastUpdated": "2026-05-19T18:24:24.654Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99110949,
+        "subject": "Your most-trusted business tools, now 25% off",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-19T17:03:59+00:00"
+      },
+      {
+        "id": 99109396,
+        "subject": "How Glean runs on Glean",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-19T17:03:31+00:00"
+      },
+      {
+        "id": 99103632,
+        "subject": "Direct message with himeon44",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-19T16:42:17.047000+00:00"
+      },
+      {
+        "id": 99100587,
+        "subject": "Adobe eLearning News – May 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-19T16:30:41+00:00"
+      },
+      {
         "id": 99092728,
         "subject": "Build a better experience with Interfaces",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-19T16:01:20+00:00"
-      },
-      {
-        "id": 99084898,
-        "subject": "Manage ad campaigns with Claude and Gemini — now live",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-19T15:30:55+00:00"
-      },
-      {
-        "id": 99063275,
-        "subject": "Your Search Analytics wishlist (3-min survey)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-19T14:02:59+00:00"
-      },
-      {
-        "id": 99061614,
-        "subject": "Memorial Day Sale: May 15-26",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-19T13:55:21+00:00"
-      },
-      {
-        "id": 99058325,
-        "subject": "Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-19T13:35:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-19T16:30:06.117Z",
+    "gorgiasUpdated": "2026-05-19T18:24:24.460Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
