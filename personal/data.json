@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T16:30:04.323Z",
+  "lastUpdated": "2026-05-19T16:30:06.300Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 99046859,
-        "subject": "Your brand has a story. Is it selling?",
+        "id": 99092728,
+        "subject": "Build a better experience with Interfaces",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-19T12:14:23.280000+00:00"
+        "timestamp": "2026-05-19T16:01:20+00:00"
       },
       {
-        "id": 99043077,
-        "subject": "umei3d@gmail.com",
+        "id": 99084898,
+        "subject": "Manage ad campaigns with Claude and Gemini — now live",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-19T15:30:55+00:00"
+      },
+      {
+        "id": 99063275,
+        "subject": "Your Search Analytics wishlist (3-min survey)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-19T14:02:59+00:00"
+      },
+      {
+        "id": 99061614,
+        "subject": "Memorial Day Sale: May 15-26",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-19T13:55:21+00:00"
+      },
+      {
+        "id": 99058325,
+        "subject": "Umei3d",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-05-19T11:41:31+00:00"
-      },
-      {
-        "id": 99021923,
-        "subject": "Act today & improve Sales on Excess Inventory",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-19T06:22:07+00:00"
-      },
-      {
-        "id": 99014686,
-        "subject": "Billy Fields and others share their thoughts on LinkedIn",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-19T04:16:00+00:00"
-      },
-      {
-        "id": 99011914,
-        "subject": "Take action to fix your setup",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-19T03:36:57+00:00"
+        "timestamp": "2026-05-19T13:35:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-19T12:52:46.990Z",
+    "gorgiasUpdated": "2026-05-19T16:30:06.117Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
