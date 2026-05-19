@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T12:51:42.834Z",
+  "lastUpdated": "2026-05-19T12:52:47.180Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99046859,
+        "subject": "Your brand has a story. Is it selling?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-19T12:14:23.280000+00:00"
+      },
+      {
+        "id": 99043077,
+        "subject": "umei3d@gmail.com",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-19T11:41:31+00:00"
+      },
+      {
         "id": 99021923,
         "subject": "Act today & improve Sales on Excess Inventory",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-19T03:36:57+00:00"
-      },
-      {
-        "id": 98980448,
-        "subject": "New customer message on May 18, 2026 at 4:10 pm",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-18T23:10:22.037000+00:00"
-      },
-      {
-        "id": 98980375,
-        "subject": "New customer message on May 18, 2026 at 4:09 pm",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-18T23:09:47.968000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-19T10:03:31.781Z",
+    "gorgiasUpdated": "2026-05-19T12:52:46.990Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
