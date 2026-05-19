@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T21:57:17.156Z",
+  "lastUpdated": "2026-05-19T21:57:45.994Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99165638,
+        "subject": "Start creating engaging content with the Artlist Academy",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-19T21:24:02+00:00"
+      },
+      {
+        "id": 99165531,
+        "subject": "All the tips you need to get it right on the first try",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-19T21:23:21+00:00"
+      },
+      {
         "id": 99110949,
         "subject": "Your most-trusted business tools, now 25% off",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-19T16:42:17.047000+00:00"
-      },
-      {
-        "id": 99100587,
-        "subject": "Adobe eLearning News – May 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-19T16:30:41+00:00"
-      },
-      {
-        "id": 99092728,
-        "subject": "Build a better experience with Interfaces",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-19T16:01:20+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-19T20:18:10.108Z",
+    "gorgiasUpdated": "2026-05-19T21:57:45.810Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
