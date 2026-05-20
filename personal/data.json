@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T01:33:23.107Z",
+  "lastUpdated": "2026-05-20T01:33:41.665Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99195698,
+        "subject": "Your receipt from Photo App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-20T01:25:08+00:00"
+      },
+      {
         "id": 99165638,
         "subject": "Start creating engaging content with the Artlist Academy",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-19T17:03:31+00:00"
-      },
-      {
-        "id": 99103632,
-        "subject": "Direct message with himeon44",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-19T16:42:17.047000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-19T23:19:28.330Z",
+    "gorgiasUpdated": "2026-05-20T01:33:41.456Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
