@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T05:48:44.795Z",
+  "lastUpdated": "2026-05-20T05:49:32.209Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99210938,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-20T04:09:38+00:00"
+      },
+      {
+        "id": 99201022,
+        "subject": "UMEI, add William Leung - Chassis Engineer 💬",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-20T02:15:59+00:00"
+      },
+      {
         "id": 99195698,
         "subject": "Your receipt from Photo App",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-19T21:23:21+00:00"
-      },
-      {
-        "id": 99110949,
-        "subject": "Your most-trusted business tools, now 25% off",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-19T17:03:59+00:00"
-      },
-      {
-        "id": 99109396,
-        "subject": "How Glean runs on Glean",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-19T17:03:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-20T01:33:41.456Z",
+    "gorgiasUpdated": "2026-05-20T05:49:32.045Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
