@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T12:36:33.243Z",
+  "lastUpdated": "2026-05-20T12:37:31.673Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99245539,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-20T12:23:08.578000+00:00"
+      },
+      {
+        "id": 99243793,
+        "subject": "Business essentials from Veteran-owned sellers",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-20T12:08:33+00:00"
+      },
+      {
         "id": 99229984,
         "subject": "Introducing Store Reviews",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-20T02:15:59+00:00"
-      },
-      {
-        "id": 99195698,
-        "subject": "Your receipt from Photo App",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-20T01:25:08+00:00"
-      },
-      {
-        "id": 99165638,
-        "subject": "Start creating engaging content with the Artlist Academy",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-19T21:24:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-20T09:52:29.807Z",
+    "gorgiasUpdated": "2026-05-20T12:37:31.489Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
