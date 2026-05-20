@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T05:49:32.209Z",
+  "lastUpdated": "2026-05-20T09:52:30.039Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,10 +90,17 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99229984,
+        "subject": "Introducing Store Reviews",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-20T09:26:51+00:00"
+      },
+      {
         "id": 99210938,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-05-20T04:09:38+00:00"
       },
       {
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-19T21:24:02+00:00"
-      },
-      {
-        "id": 99165531,
-        "subject": "All the tips you need to get it right on the first try",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-19T21:23:21+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-20T05:49:32.045Z",
+    "gorgiasUpdated": "2026-05-20T09:52:29.807Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
