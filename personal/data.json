@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T22:13:22.058Z",
+  "lastUpdated": "2026-05-20T22:42:38.461Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99358440,
+        "subject": "Scale faster with TikTok Shop's creator network 🤝",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-20T22:13:21.052000+00:00"
+      },
+      {
+        "id": 99352167,
+        "subject": "Smarter tools for work, play, and everything in between",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-20T21:31:04+00:00"
+      },
+      {
         "id": 99339650,
         "subject": "👏👏🔥🔥",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-20T15:15:56.802000+00:00"
-      },
-      {
-        "id": 99276324,
-        "subject": "Personalized guidance to get you to your next growth milestone",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-20T15:15:35+00:00"
-      },
-      {
-        "id": 99267528,
-        "subject": "Your CX Team Might Be Leaving Revenue on the Table",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-20T14:31:52+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-20T21:07:29.329Z",
+    "gorgiasUpdated": "2026-05-20T22:42:38.301Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
