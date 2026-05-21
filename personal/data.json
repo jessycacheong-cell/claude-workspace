@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T04:40:05.604Z",
+  "lastUpdated": "2026-05-21T04:58:05.297Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 99368535,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-20T23:26:40+00:00"
-      },
-      {
-        "id": 99358440,
-        "subject": "Scale faster with TikTok Shop's creator network 🤝",
+        "id": 99400541,
+        "subject": "40% off ends May 31 — last chance to grab your UMEI slides 🏃",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-05-20T22:13:21.052000+00:00"
+        "timestamp": "2026-05-21T04:43:26+00:00"
       },
       {
-        "id": 99352167,
-        "subject": "Smarter tools for work, play, and everything in between",
+        "id": 99398916,
+        "subject": "TikTok for Business login alerts",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-20T21:31:04+00:00"
+        "timestamp": "2026-05-21T04:21:43.678000+00:00"
       },
       {
-        "id": 99339650,
-        "subject": "👏👏🔥🔥",
+        "id": 99398777,
+        "subject": "TikTok for Business Verification help",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-05-20T20:16:01+00:00"
+        "timestamp": "2026-05-21T04:19:46.033000+00:00"
       },
       {
-        "id": 99289212,
-        "subject": "[ALERT] You've reached 100% of your monthly limit.",
+        "id": 99398450,
+        "subject": "Billy Fields and others share their thoughts on LinkedIn",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-20T16:11:42.249000+00:00"
+        "timestamp": "2026-05-21T04:15:58+00:00"
+      },
+      {
+        "id": 99385604,
+        "subject": "Account Compliance Assessment",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-21T01:52:08+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-21T00:15:56.133Z",
+    "gorgiasUpdated": "2026-05-21T04:58:05.131Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
