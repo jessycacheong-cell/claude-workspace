@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-21T15:49:31.352Z",
+  "lastUpdated": "2026-05-21T16:00:10.288Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 99400541,
-        "subject": "40% off ends May 31 — last chance to grab your UMEI slides 🏃",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-21T04:43:26+00:00"
-      },
-      {
-        "id": 99398916,
-        "subject": "TikTok for Business login alerts",
+        "id": 99464183,
+        "subject": "Prime Day is coming: Lower your ACOS with 5 proven strategies",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-21T04:21:43.678000+00:00"
+        "timestamp": "2026-05-21T15:23:08+00:00"
       },
       {
-        "id": 99398777,
-        "subject": "TikTok for Business Verification help",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-21T04:19:46.033000+00:00"
-      },
-      {
-        "id": 99398450,
-        "subject": "Billy Fields and others share their thoughts on LinkedIn",
+        "id": 99461254,
+        "subject": "Automated unfulfillable FBA inventory removal notification",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-21T04:15:58+00:00"
+        "timestamp": "2026-05-21T15:10:08+00:00"
       },
       {
-        "id": 99385604,
-        "subject": "Account Compliance Assessment",
+        "id": 99456114,
+        "subject": "Incident identified 🕵️",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-21T01:52:08+00:00"
+        "status": "closed",
+        "timestamp": "2026-05-21T14:43:41+00:00"
+      },
+      {
+        "id": 99450856,
+        "subject": "Seller News: May 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-21T14:19:12+00:00"
+      },
+      {
+        "id": 99449348,
+        "subject": "Your smarter checkout experience is coming May 27",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-21T14:11:52.191000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-21T12:25:18.346Z",
+    "gorgiasUpdated": "2026-05-21T16:00:10.107Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
