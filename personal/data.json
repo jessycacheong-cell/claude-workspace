@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T23:42:22.681Z",
+  "lastUpdated": "2026-05-22T23:42:51.976Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99721460,
+        "subject": "LIVE selling: the strategy top TikTok sellers swear by",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-22T22:40:39.729000+00:00"
+      },
+      {
         "id": 99698215,
         "subject": "Everyone has an AI persona",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-22T16:02:35+00:00"
-      },
-      {
-        "id": 99642748,
-        "subject": "You’re barely scratching the surface of Workflows 👀",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-22T15:23:16+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-22T22:16:02.955Z",
+    "gorgiasUpdated": "2026-05-22T23:42:51.798Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
