@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T05:47:42.057Z",
+  "lastUpdated": "2026-05-22T05:48:14.744Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99575166,
+        "subject": "Lucía Zamora and others share their thoughts on LinkedIn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-22T03:33:01+00:00"
+      },
+      {
+        "id": 99573015,
+        "subject": "Confirmation of update to your Automated Fulfillable Inventory settings",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-22T03:06:49+00:00"
+      },
+      {
         "id": 99561276,
         "subject": "Umei3d",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-21T23:17:02+00:00"
-      },
-      {
-        "id": 99496877,
-        "subject": "The people shaping enterprise AI — on stage at Glean:GO 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-21T18:01:53+00:00"
-      },
-      {
-        "id": 99480061,
-        "subject": "Improve those email benchmarks in 1 hour",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-21T16:32:28.991000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-22T01:33:21.548Z",
+    "gorgiasUpdated": "2026-05-22T05:48:14.590Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
