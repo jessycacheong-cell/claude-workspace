@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T18:28:43.149Z",
+  "lastUpdated": "2026-05-22T19:15:46.620Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99669424,
+        "subject": "A smarter wearable, styled as jewelry",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-22T17:31:53+00:00"
+      },
+      {
         "id": 99668070,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-22T14:20:16+00:00"
-      },
-      {
-        "id": 99626511,
-        "subject": "Need all of this 🔥👏",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-22T14:03:44+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-22T17:27:33.621Z",
+    "gorgiasUpdated": "2026-05-22T19:15:46.398Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
