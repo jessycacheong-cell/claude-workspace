@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T20:55:39.603Z",
+  "lastUpdated": "2026-05-22T20:57:14.139Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99698215,
+        "subject": "Everyone has an AI persona",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-22T20:01:08+00:00"
+      },
+      {
         "id": 99669424,
         "subject": "A smarter wearable, styled as jewelry",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-22T15:23:16+00:00"
-      },
-      {
-        "id": 99629937,
-        "subject": "Three Mindset Shifts from Fernando Mendoza on Competing at the Highest Level",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-22T14:20:16+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-22T19:15:46.398Z",
+    "gorgiasUpdated": "2026-05-22T20:57:13.964Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
