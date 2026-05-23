@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T21:05:34.032Z",
+  "lastUpdated": "2026-05-23T21:33:15.771Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99840923,
+        "subject": "Limited time! Get 40% off AI Annual",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-23T21:23:27+00:00"
+      },
+      {
         "id": 99809721,
         "subject": "UMEI STORE: Flexible shoe production for comfort-focused styles",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-23T09:26:30.120000+00:00"
-      },
-      {
-        "id": 99758447,
-        "subject": "jessiannwilliams2001 replied to your story",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-23T06:05:55.657000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-23T20:29:03.018Z",
+    "gorgiasUpdated": "2026-05-23T21:33:15.589Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
