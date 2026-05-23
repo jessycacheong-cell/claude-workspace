@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T22:03:39.284Z",
+  "lastUpdated": "2026-05-23T22:32:36.045Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99847018,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-23T22:30:36+00:00"
+      },
+      {
         "id": 99840923,
         "subject": "Limited time! Get 40% off AI Annual",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-23T14:34:35.018000+00:00"
-      },
-      {
-        "id": 99767973,
-        "subject": "🚀 Boost your video traffic and followers on TikTok today!",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-23T09:26:30.120000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-23T21:33:15.589Z",
+    "gorgiasUpdated": "2026-05-23T22:32:35.893Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
