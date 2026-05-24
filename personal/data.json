@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T18:44:02.549Z",
+  "lastUpdated": "2026-05-24T18:48:06.605Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99928153,
+        "subject": "TikTok for Business login alerts",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-24T18:33:21.714000+00:00"
+      },
+      {
+        "id": 99928076,
+        "subject": "TikTok for Business Verification help",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-24T18:32:30.710000+00:00"
+      },
+      {
+        "id": 99923011,
+        "subject": "Refund Initiated for Order 114-7361061-8357856",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-24T17:40:48+00:00"
+      },
+      {
         "id": 99912886,
         "subject": "Love these shoes!!",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-24T14:43:53+00:00"
-      },
-      {
-        "id": 99902894,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-24T14:38:03+00:00"
-      },
-      {
-        "id": 99891863,
-        "subject": "Very cool",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-24T12:36:03+00:00"
-      },
-      {
-        "id": 99889188,
-        "subject": "New customer message on May 24, 2026 at 4:54 am",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-24T11:54:24.062000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-24T17:40:07.487Z",
+    "gorgiasUpdated": "2026-05-24T18:48:04.441Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
