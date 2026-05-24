@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T13:56:38.994Z",
+  "lastUpdated": "2026-05-24T13:58:13.098Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,10 +90,17 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99891863,
+        "subject": "Very cool",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-24T12:36:03+00:00"
+      },
+      {
         "id": 99889188,
         "subject": "New customer message on May 24, 2026 at 4:54 am",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-05-24T11:54:24.062000+00:00"
       },
       {
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-24T05:35:35+00:00"
-      },
-      {
-        "id": 99871028,
-        "subject": "n8n password reset",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-24T04:26:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-24T12:08:46.621Z",
+    "gorgiasUpdated": "2026-05-24T13:58:12.951Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
