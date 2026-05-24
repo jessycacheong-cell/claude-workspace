@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T15:17:52.848Z",
+  "lastUpdated": "2026-05-24T15:18:59.371Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99903448,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-24T14:43:53+00:00"
+      },
+      {
+        "id": 99902894,
+        "subject": "Love this",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-24T14:38:03+00:00"
+      },
+      {
         "id": 99891863,
         "subject": "Very cool",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-24T11:38:14+00:00"
-      },
-      {
-        "id": 99879656,
-        "subject": "Zoho Campaigns - Your subscription is renewed",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-24T08:02:02+00:00"
-      },
-      {
-        "id": 99873800,
-        "subject": "Welcome to Descript. Let AI do the heavy lifting.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-24T05:35:35+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-24T13:58:12.951Z",
+    "gorgiasUpdated": "2026-05-24T15:18:59.120Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
