@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T14:16:16.701Z",
+  "lastUpdated": "2026-05-25T16:01:25.517Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100032667,
+        "subject": "Ready for your next level? Get personalized support at Seller Growth Summit",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-25T14:45:53+00:00"
+      },
+      {
         "id": 100010981,
         "subject": "New customer message on May 25, 2026 at 5:35 am",
         "customer": "Unknown",
@@ -107,7 +114,7 @@
         "id": 99997567,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-05-25T09:54:02+00:00"
       },
       {
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-25T08:09:49+00:00"
-      },
-      {
-        "id": 99980403,
-        "subject": "Stop exporting between four apps to make one video",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-25T05:35:38+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-25T12:42:19.783Z",
+    "gorgiasUpdated": "2026-05-25T16:01:25.340Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
