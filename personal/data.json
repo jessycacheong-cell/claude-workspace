@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T16:39:33.834Z",
+  "lastUpdated": "2026-05-25T17:52:06.215Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100062478,
+        "subject": "This is Umei3d right?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-25T17:46:41+00:00"
+      },
+      {
+        "id": 100060720,
+        "subject": "Security alert",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-25T17:34:12+00:00"
+      },
+      {
+        "id": 100055904,
+        "subject": "Your Week In Reviews For UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-25T17:02:19+00:00"
+      },
+      {
         "id": 100032667,
         "subject": "Ready for your next level? Get personalized support at Seller Growth Summit",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-25T12:35:43+00:00"
-      },
-      {
-        "id": 100006855,
-        "subject": "Your Google Ads questions, answered by experts",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-25T12:01:08.089000+00:00"
-      },
-      {
-        "id": 99997567,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-25T09:54:02+00:00"
-      },
-      {
-        "id": 99990632,
-        "subject": "UMEI x molded soles: 2 ways to upgrade 3D upper structure",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-25T08:09:49+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-25T16:01:25.340Z",
+    "gorgiasUpdated": "2026-05-25T17:52:06.022Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
