@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T20:12:47.015Z",
+  "lastUpdated": "2026-05-25T21:20:58.291Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100087108,
+        "subject": "Your first 60 days — we've got you 🌼",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-25T20:51:56.190000+00:00"
+      },
+      {
+        "id": 100085546,
+        "subject": "UMEI, your posts got 14 impressions last week",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-25T20:38:59+00:00"
+      },
+      {
+        "id": 100082958,
+        "subject": "TikTok For Business Invoice # BDTTUSA20263146983",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-25T20:18:51+00:00"
+      },
+      {
         "id": 100072231,
         "subject": "Your payment is on the way",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-25T17:46:41+00:00"
-      },
-      {
-        "id": 100060720,
-        "subject": "Security alert",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-25T17:34:12+00:00"
-      },
-      {
-        "id": 100055904,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-25T17:02:19+00:00"
-      },
-      {
-        "id": 100032667,
-        "subject": "Ready for your next level? Get personalized support at Seller Growth Summit",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-25T14:45:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-25T19:55:51.014Z",
+    "gorgiasUpdated": "2026-05-25T21:20:58.129Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
