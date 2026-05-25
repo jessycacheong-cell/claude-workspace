@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T18:21:25.210Z",
+  "lastUpdated": "2026-05-25T19:55:51.170Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100072231,
+        "subject": "Your payment is on the way",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-25T18:58:20+00:00"
+      },
+      {
         "id": 100062478,
         "subject": "This is Umei3d right?",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-25T14:45:53+00:00"
-      },
-      {
-        "id": 100010981,
-        "subject": "New customer message on May 25, 2026 at 5:35 am",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-25T12:35:43+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-25T17:52:06.022Z",
+    "gorgiasUpdated": "2026-05-25T19:55:51.014Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
