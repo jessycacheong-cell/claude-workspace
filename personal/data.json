@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T01:36:14.092Z",
+  "lastUpdated": "2026-05-25T04:47:32.550Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 99975979,
+        "subject": "Srinidhi Karthik and others share their thoughts on LinkedIn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-25T04:16:00+00:00"
+      },
+      {
+        "id": 99970453,
+        "subject": "Re: Structure-driven comfort for UMEI’s winter recovery moments",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-25T02:55:58+00:00"
+      },
+      {
+        "id": 99960284,
+        "subject": "Klaviyo Invoice",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-25T00:46:08.257000+00:00"
+      },
+      {
+        "id": 99959441,
+        "subject": "Your receipt from Klaviyo Inc #2341-6788",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-25T00:35:07+00:00"
+      },
+      {
         "id": 99942361,
         "subject": "Refund Initiated for Order 113-3890625-2119421",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-24T21:09:14+00:00"
-      },
-      {
-        "id": 99939135,
-        "subject": "Your 20% UMEI code 🎉",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-24T20:33:56+00:00"
-      },
-      {
-        "id": 99939013,
-        "subject": "Your 20% UMEI code 🎉",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-24T20:32:35+00:00"
-      },
-      {
-        "id": 99937436,
-        "subject": "Your Omnisend account will be deleted in 3 days",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-24T20:15:09+00:00"
-      },
-      {
-        "id": 99928153,
-        "subject": "TikTok for Business login alerts",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-24T18:33:21.714000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-24T23:41:28.863Z",
+    "gorgiasUpdated": "2026-05-25T04:47:32.352Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
