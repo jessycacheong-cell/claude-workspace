@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T16:59:39.137Z",
+  "lastUpdated": "2026-05-26T17:46:16.111Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 100178507,
-        "subject": "(1) Pending RSVP: Makrii webinar — May 27, 6 PM CEST",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-26T13:26:37+00:00"
-      },
-      {
-        "id": 100174047,
-        "subject": "Introducing the Loox API",
+        "id": 100227068,
+        "subject": "Direct message with madmanjumps",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-05-26T13:01:27+00:00"
+        "timestamp": "2026-05-26T17:34:49.539000+00:00"
       },
       {
-        "id": 100140060,
-        "subject": "Google Ads: Quarterly reminder about Google Ads terms and policies",
+        "id": 100221517,
+        "subject": "[UMEI Store] Order #1710 placed by Jim Linder",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-26T06:18:22+00:00"
+        "status": "open",
+        "timestamp": "2026-05-26T17:06:14.811000+00:00"
       },
       {
-        "id": 100138461,
-        "subject": "Your Google Play Order Receipt from May 25, 2026",
+        "id": 100221370,
+        "subject": "Act now: 25% off your business reorder",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-26T05:44:19+00:00"
+        "timestamp": "2026-05-26T17:03:55+00:00"
       },
       {
-        "id": 100138023,
-        "subject": "Edit videos like a pro",
+        "id": 100219259,
+        "subject": "Your subscription for AI Image Generator - CreArt will renew on Jun 26, 2026",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-26T05:35:40+00:00"
+        "timestamp": "2026-05-26T16:55:48+00:00"
+      },
+      {
+        "id": 100197065,
+        "subject": "与 B2B 顾客一起实现 Prime 会员日销售额增长",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-26T15:07:36+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-26T14:16:51.721Z",
+    "gorgiasUpdated": "2026-05-26T17:46:15.944Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
