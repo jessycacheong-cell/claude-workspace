@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T13:37:15.548Z",
+  "lastUpdated": "2026-05-26T14:16:51.930Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100178507,
+        "subject": "(1) Pending RSVP: Makrii webinar — May 27, 6 PM CEST",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-26T13:26:37+00:00"
+      },
+      {
+        "id": 100174047,
+        "subject": "Introducing the Loox API",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-26T13:01:27+00:00"
+      },
+      {
         "id": 100140060,
         "subject": "Google Ads: Quarterly reminder about Google Ads terms and policies",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-26T05:35:40+00:00"
-      },
-      {
-        "id": 100106988,
-        "subject": "Direct message with djwunda",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-25T23:49:58.943000+00:00"
-      },
-      {
-        "id": 100087108,
-        "subject": "Your first 60 days — we've got you 🌼",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-25T20:51:56.190000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-26T08:08:21.926Z",
+    "gorgiasUpdated": "2026-05-26T14:16:51.721Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
