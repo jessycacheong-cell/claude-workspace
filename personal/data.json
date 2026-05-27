@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T00:16:30.493Z",
+  "lastUpdated": "2026-05-27T01:36:04.685Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100300696,
+        "subject": "Your receipt from Photo App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-27T01:25:08+00:00"
+      },
+      {
         "id": 100287297,
         "subject": "Your puzzle today, UMEI 🧩",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-26T17:56:32+00:00"
-      },
-      {
-        "id": 100227068,
-        "subject": "Direct message with madmanjumps",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-26T17:34:49.539000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-26T23:32:59.616Z",
+    "gorgiasUpdated": "2026-05-27T01:36:04.510Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
