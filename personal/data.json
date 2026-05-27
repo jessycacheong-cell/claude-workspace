@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T21:06:45.260Z",
+  "lastUpdated": "2026-05-27T22:05:45.699Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100453922,
+        "subject": "How to turn one TikTok video into a sales funnel",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-27T21:48:26.822000+00:00"
+      },
+      {
+        "id": 100438423,
+        "subject": "Stop relying on empathy to deliver tough feedback",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-27T20:14:07+00:00"
+      },
+      {
         "id": 100428584,
         "subject": "🌎TikTok World is now on demand",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-27T18:32:19+00:00"
-      },
-      {
-        "id": 100420384,
-        "subject": "Your Gorgias data, now inside Claude and ChatGPT",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-27T18:31:51+00:00"
-      },
-      {
-        "id": 100392318,
-        "subject": "Research reminder: we'd still love your input (+ $15 thank you)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-27T16:00:58.702000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-27T19:46:27.709Z",
+    "gorgiasUpdated": "2026-05-27T22:05:45.481Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
