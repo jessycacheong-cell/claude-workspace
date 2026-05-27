@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T12:30:32.027Z",
+  "lastUpdated": "2026-05-27T14:01:29.713Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100364723,
+        "subject": "📺 Most brands are on the wrong channel for AI support",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-27T13:53:05+00:00"
+      },
+      {
+        "id": 100351016,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-27T12:22:49.110000+00:00"
+      },
+      {
         "id": 100320323,
         "subject": "Make video that looks good by default",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-27T02:15:59+00:00"
-      },
-      {
-        "id": 100304088,
-        "subject": "FREE Strategic pricing tools for B2B success",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-27T01:59:48+00:00"
-      },
-      {
-        "id": 100303619,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-27T01:55:25+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-27T10:16:54.749Z",
+    "gorgiasUpdated": "2026-05-27T14:01:29.549Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
