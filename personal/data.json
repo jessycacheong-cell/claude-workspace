@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T04:36:44.070Z",
+  "lastUpdated": "2026-05-28T05:53:30.102Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100507473,
+        "subject": "Cut the busywork, not your flow",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-28T05:35:49+00:00"
+      },
+      {
         "id": 100488611,
         "subject": "Refund Initiated for Order 113-0678203-1096240",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-27T19:15:50.259000+00:00"
-      },
-      {
-        "id": 100424257,
-        "subject": "Direct message with logan.gm.5280",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-27T18:52:23.193000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-28T01:24:15.398Z",
+    "gorgiasUpdated": "2026-05-28T05:53:29.086Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
