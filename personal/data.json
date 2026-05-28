@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T12:01:38.909Z",
+  "lastUpdated": "2026-05-28T14:21:57.151Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 100507473,
-        "subject": "Cut the busywork, not your flow",
+        "id": 100546353,
+        "subject": " [Webinar] A Deep Dive into Terra Kaffe's Recipe for Loyalty",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-28T05:35:49+00:00"
+        "timestamp": "2026-05-28T13:18:19+00:00"
       },
       {
-        "id": 100488611,
-        "subject": "Refund Initiated for Order 113-0678203-1096240",
+        "id": 100544709,
+        "subject": "Don't open this until you've put on your SPF",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-28T01:23:34+00:00"
+        "timestamp": "2026-05-28T13:08:15+00:00"
       },
       {
-        "id": 100453922,
-        "subject": "How to turn one TikTok video into a sales funnel",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-27T21:48:26.822000+00:00"
-      },
-      {
-        "id": 100438423,
-        "subject": "Stop relying on empathy to deliver tough feedback",
+        "id": 100542831,
+        "subject": "Your mind maps can do more than you think",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-27T20:14:07+00:00"
+        "timestamp": "2026-05-28T12:59:19+00:00"
       },
       {
-        "id": 100428584,
-        "subject": "🌎TikTok World is now on demand",
+        "id": 100538124,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-05-27T19:15:50.259000+00:00"
+        "timestamp": "2026-05-28T12:25:30.331000+00:00"
+      },
+      {
+        "id": 100535939,
+        "subject": "Congratulations! Unlock Exclusive Support to Maximize Your TikTok Ads Performance 🚀",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-28T12:03:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-28T10:22:31.325Z",
+    "gorgiasUpdated": "2026-05-28T14:21:56.972Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
