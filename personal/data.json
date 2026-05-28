@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T00:10:02.818Z",
+  "lastUpdated": "2026-05-28T01:24:15.543Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100488611,
+        "subject": "Refund Initiated for Order 113-0678203-1096240",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-28T01:23:34+00:00"
+      },
+      {
         "id": 100453922,
         "subject": "How to turn one TikTok video into a sales funnel",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-27T18:52:23.193000+00:00"
-      },
-      {
-        "id": 100420567,
-        "subject": "Updates to Terms of Service",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-27T18:32:19+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-27T23:36:55.626Z",
+    "gorgiasUpdated": "2026-05-28T01:24:15.398Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
