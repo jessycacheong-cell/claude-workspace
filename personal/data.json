@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T12:25:22.019Z",
+  "lastUpdated": "2026-05-29T16:06:05.430Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100734469,
+        "subject": "Following Up: Exclusive Support for Your TikTok Ads",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-29T15:20:28+00:00"
+      },
+      {
+        "id": 100734200,
+        "subject": "Following Up: Exclusive Support for Your TikTok Ads",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-29T15:18:52+00:00"
+      },
+      {
+        "id": 100720909,
+        "subject": "Our Shopify experts have something to share",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-29T14:07:27+00:00"
+      },
+      {
         "id": 100682874,
         "subject": "Create scroll-stopping clips for social media in minutes",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-29T05:28:24+00:00"
-      },
-      {
-        "id": 100672726,
-        "subject": "Regarding address",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-29T02:51:05+00:00"
-      },
-      {
-        "id": 100670824,
-        "subject": "Your brand umeistore has been deleted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-29T02:30:07+00:00"
-      },
-      {
-        "id": 100662971,
-        "subject": "Your FBA capacity limits for June",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-29T01:09:41+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-29T11:53:04.787Z",
+    "gorgiasUpdated": "2026-05-29T16:06:05.032Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
