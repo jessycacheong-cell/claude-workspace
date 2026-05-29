@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T19:27:17.337Z",
+  "lastUpdated": "2026-05-29T21:13:16.774Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100791994,
+        "subject": "3D-level fit, built for scale — Winter Foam Runner structure details",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-29T21:04:47+00:00"
+      },
+      {
+        "id": 100784614,
+        "subject": "Your brand UMEI Store has been deleted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-29T20:15:05+00:00"
+      },
+      {
+        "id": 100778600,
+        "subject": "Your summer creator reading list ☀️",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-29T19:36:34+00:00"
+      },
+      {
+        "id": 100773139,
+        "subject": "UMEI, Your ImagineArt Team Space is live — invite your first teammate",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-29T19:03:06.314000+00:00"
+      },
+      {
         "id": 100761359,
         "subject": "Free Educational Webinars Available in June!",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-29T17:52:32+00:00"
-      },
-      {
-        "id": 100734469,
-        "subject": "Following Up: Exclusive Support for Your TikTok Ads",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-29T15:20:28+00:00"
-      },
-      {
-        "id": 100734200,
-        "subject": "Following Up: Exclusive Support for Your TikTok Ads",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-29T15:18:52+00:00"
-      },
-      {
-        "id": 100720909,
-        "subject": "Our Shopify experts have something to share",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-29T14:07:27+00:00"
-      },
-      {
-        "id": 100682874,
-        "subject": "Create scroll-stopping clips for social media in minutes",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-29T05:35:50+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-29T18:40:24.525Z",
+    "gorgiasUpdated": "2026-05-29T21:13:16.611Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
