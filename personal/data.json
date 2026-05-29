@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T16:27:02.278Z",
+  "lastUpdated": "2026-05-29T18:40:24.692Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100761359,
+        "subject": "Free Educational Webinars Available in June!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-29T17:52:32+00:00"
+      },
+      {
         "id": 100734469,
         "subject": "Following Up: Exclusive Support for Your TikTok Ads",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-29T05:35:50+00:00"
-      },
-      {
-        "id": 100682506,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-29T05:28:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-29T16:06:05.032Z",
+    "gorgiasUpdated": "2026-05-29T18:40:24.525Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
