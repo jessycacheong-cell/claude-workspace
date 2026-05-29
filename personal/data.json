@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T22:54:44.241Z",
+  "lastUpdated": "2026-05-29T22:56:05.685Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100795047,
+        "subject": "170M spring shoppers. Your store. Let's go.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-29T21:27:29.576000+00:00"
+      },
+      {
         "id": 100791994,
         "subject": "3D-level fit, built for scale — Winter Foam Runner structure details",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-29T19:03:06.314000+00:00"
-      },
-      {
-        "id": 100761359,
-        "subject": "Free Educational Webinars Available in June!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-29T17:52:32+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-29T21:13:16.611Z",
+    "gorgiasUpdated": "2026-05-29T22:56:05.530Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
