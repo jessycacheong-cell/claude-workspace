@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T00:17:19.858Z",
+  "lastUpdated": "2026-05-29T04:38:49.454Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100672726,
+        "subject": "Regarding address",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-29T02:51:05+00:00"
+      },
+      {
+        "id": 100670824,
+        "subject": "Your brand umeistore has been deleted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-29T02:30:07+00:00"
+      },
+      {
+        "id": 100662971,
+        "subject": "Your FBA capacity limits for June",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-29T01:09:41+00:00"
+      },
+      {
         "id": 100617426,
         "subject": "How Vercel made AI agent workflows work in practice",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-28T18:44:15+00:00"
-      },
-      {
-        "id": 100603804,
-        "subject": "Following Up: Exclusive Support for Your TikTok Ads",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-28T18:20:40+00:00"
-      },
-      {
-        "id": 100603781,
-        "subject": "Following Up: Exclusive Support for Your TikTok Ads",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-28T18:20:31+00:00"
-      },
-      {
-        "id": 100597520,
-        "subject": "Following Up: Exclusive Support for Your TikTok Ads",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-28T17:44:54+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-28T23:52:08.907Z",
+    "gorgiasUpdated": "2026-05-29T04:38:49.278Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
