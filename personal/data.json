@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T22:35:11.067Z",
+  "lastUpdated": "2026-05-30T22:37:14.712Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100916226,
+        "subject": "Refund Initiated for Order 111-0603536-8637846",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-30T22:32:23+00:00"
+      },
+      {
         "id": 100910802,
         "subject": "Video is blocked in some territories: Driving Porsche in 3D Printed Slides",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-30T17:20:37+00:00"
-      },
-      {
-        "id": 100875538,
-        "subject": "You appeared in recent searches",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-30T16:15:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-30T21:37:40.204Z",
+    "gorgiasUpdated": "2026-05-30T22:37:14.532Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
