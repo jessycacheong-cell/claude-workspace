@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T04:37:44.355Z",
+  "lastUpdated": "2026-05-30T04:37:54.964Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100828483,
+        "subject": "You appeared in recent searches",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-30T03:33:12+00:00"
+      },
+      {
+        "id": 100823387,
+        "subject": "👤 UMEI, add Anna Mykytsey",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-30T02:16:00+00:00"
+      },
+      {
+        "id": 100816265,
+        "subject": "[Action Required] Amazon RDS PostgreSQL minor versions deprecating on May 31, 2026 [AWS Account: 381492252471] [US-WEST-2]",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-30T00:44:41+00:00"
+      },
+      {
         "id": 100795047,
         "subject": "170M spring shoppers. Your store. Let's go.",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-29T21:04:47+00:00"
-      },
-      {
-        "id": 100784614,
-        "subject": "Your brand UMEI Store has been deleted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-29T20:15:05+00:00"
-      },
-      {
-        "id": 100778600,
-        "subject": "Your summer creator reading list ☀️",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-29T19:36:34+00:00"
-      },
-      {
-        "id": 100773139,
-        "subject": "UMEI, Your ImagineArt Team Space is live — invite your first teammate",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-29T19:03:06.314000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-30T00:16:17.098Z",
+    "gorgiasUpdated": "2026-05-30T04:37:54.803Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
