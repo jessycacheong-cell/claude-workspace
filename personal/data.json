@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T16:37:39.363Z",
+  "lastUpdated": "2026-05-30T17:18:57.643Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100875538,
+        "subject": "You appeared in recent searches",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-30T16:15:58+00:00"
+      },
+      {
         "id": 100870870,
         "subject": "Direct message with chico.surf",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-30T10:25:17+00:00"
-      },
-      {
-        "id": 100839767,
-        "subject": "May 30, 2026 bill for My Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-30T07:59:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-30T15:49:57.726Z",
+    "gorgiasUpdated": "2026-05-30T17:18:57.430Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
