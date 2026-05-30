@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T07:30:13.572Z",
+  "lastUpdated": "2026-05-30T07:31:04.793Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100833921,
+        "subject": "Your product photos stood out, Umeistore",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-30T05:38:00+00:00"
+      },
+      {
         "id": 100828483,
         "subject": "You appeared in recent searches",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-29T21:27:29.576000+00:00"
-      },
-      {
-        "id": 100791994,
-        "subject": "3D-level fit, built for scale — Winter Foam Runner structure details",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-29T21:04:47+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-30T04:37:54.803Z",
+    "gorgiasUpdated": "2026-05-30T07:31:04.600Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
