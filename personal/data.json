@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T15:20:29.442Z",
+  "lastUpdated": "2026-05-30T15:49:57.907Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100870870,
+        "subject": "Direct message with chico.surf",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-30T15:39:31.444000+00:00"
+      },
+      {
         "id": 100845309,
         "subject": "Envie documentos de verificação da conta até July 29, 2026 para evitar a desativação",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-30T07:59:55+00:00"
-      },
-      {
-        "id": 100833921,
-        "subject": "Your product photos stood out, Umeistore",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-30T05:38:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-30T14:16:53.849Z",
+    "gorgiasUpdated": "2026-05-30T15:49:57.726Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
