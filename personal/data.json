@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T17:57:31.818Z",
+  "lastUpdated": "2026-05-30T18:44:16.008Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100885016,
+        "subject": "Direct message with ilia_darsa",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-30T17:29:04.828000+00:00"
+      },
+      {
+        "id": 100884050,
+        "subject": "Carlos Valle left a 5 star review for 'Men's Moonwalker Slides'",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-30T17:20:37+00:00"
+      },
+      {
         "id": 100875538,
         "subject": "You appeared in recent searches",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-30T10:30:37+00:00"
-      },
-      {
-        "id": 100845115,
-        "subject": "Certification complete",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-30T10:26:45+00:00"
-      },
-      {
-        "id": 100845059,
-        "subject": "[Formal Notice – Immediate Action Required] Review and certify your business information within 20 days to avoid account deactivation",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-30T10:25:17+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-30T17:18:57.430Z",
+    "gorgiasUpdated": "2026-05-30T18:44:15.835Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
