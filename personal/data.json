@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T06:00:53.136Z",
+  "lastUpdated": "2026-05-31T08:20:46.062Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100941829,
+        "subject": "Go from rough to refined video with precision edits",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-31T05:35:57+00:00"
+      },
+      {
         "id": 100932706,
         "subject": "Important updates to our Terms and Conditions and Privacy Notice",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-31T00:34:18.053000+00:00"
-      },
-      {
-        "id": 100916226,
-        "subject": "Refund Initiated for Order 111-0603536-8637846",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-30T22:32:23+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-31T04:47:38.995Z",
+    "gorgiasUpdated": "2026-05-31T08:20:45.828Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
