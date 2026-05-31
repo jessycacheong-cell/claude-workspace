@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T09:20:44.950Z",
+  "lastUpdated": "2026-05-31T10:34:13.925Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100952014,
+        "subject": "How to turn one TikTok video into a sales funnel",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-31T10:01:51.600000+00:00"
+      },
+      {
         "id": 100941829,
         "subject": "Go from rough to refined video with precision edits",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-05-31T01:56:05.798000+00:00"
-      },
-      {
-        "id": 100925452,
-        "subject": "Mention in _demiera's story",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-31T00:34:18.053000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-31T08:20:45.828Z",
+    "gorgiasUpdated": "2026-05-31T10:34:13.782Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
