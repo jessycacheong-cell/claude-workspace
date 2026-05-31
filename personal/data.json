@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T01:37:31.648Z",
+  "lastUpdated": "2026-05-31T04:47:39.162Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 100932706,
+        "subject": "Important updates to our Terms and Conditions and Privacy Notice",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-31T02:25:55.841000+00:00"
+      },
+      {
+        "id": 100931226,
+        "subject": "Your n8n trial has ended: upgrade now to keep workflows active",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-31T02:01:48+00:00"
+      },
+      {
+        "id": 100930905,
+        "subject": "New customer message on May 30, 2026 at 6:56 pm",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-05-31T01:56:05.798000+00:00"
+      },
+      {
+        "id": 100925452,
+        "subject": "Mention in _demiera's story",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-05-31T00:34:18.053000+00:00"
+      },
+      {
         "id": 100916226,
         "subject": "Refund Initiated for Order 111-0603536-8637846",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-05-30T22:32:23+00:00"
-      },
-      {
-        "id": 100910802,
-        "subject": "Video is blocked in some territories: Driving Porsche in 3D Printed Slides",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-30T21:28:42+00:00"
-      },
-      {
-        "id": 100908647,
-        "subject": "Direct message with austinthephilosurfer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-30T21:07:41.721000+00:00"
-      },
-      {
-        "id": 100885016,
-        "subject": "Direct message with ilia_darsa",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-05-30T17:29:04.828000+00:00"
-      },
-      {
-        "id": 100884050,
-        "subject": "Carlos Valle left a 5 star review for 'Men's Moonwalker Slides'",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-05-30T17:20:37+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-05-30T23:40:09.500Z",
+    "gorgiasUpdated": "2026-05-31T04:47:38.995Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
