@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T13:16:24.756Z",
+  "lastUpdated": "2026-06-01T16:27:57.842Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101125282,
+        "subject": "Add a backup payment to avoid order disruptions",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-01T16:20:08+00:00"
+      },
+      {
+        "id": 101121812,
+        "subject": "An instrument you already know how to play",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-01T16:05:38+00:00"
+      },
+      {
+        "id": 101118170,
+        "subject": "New Creative Cloud member perks just landed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-01T15:50:18+00:00"
+      },
+      {
+        "id": 101117234,
+        "subject": "Primetime TV Awards Red Carpet Swag bag",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-01T15:47:17+00:00"
+      },
+      {
         "id": 101055691,
         "subject": "UMEI 3D: Your sole partner — always here for Moonwalker & Glides",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-01T08:10:48+00:00"
-      },
-      {
-        "id": 101045475,
-        "subject": "Supermetrics invite: Recover your missing Meta data (25 spots)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-01T05:58:32+00:00"
-      },
-      {
-        "id": 101044299,
-        "subject": "Share your creation with your team, your audience, or the whole world",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-01T05:35:59+00:00"
-      },
-      {
-        "id": 101040216,
-        "subject": "Nike Nike Families - Career + Care Council Lead recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-01T04:15:58+00:00"
-      },
-      {
-        "id": 101036599,
-        "subject": "Your receipt from Auth0 by Okta #2871-7671",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-01T03:15:17+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-01T10:39:16.066Z",
+    "gorgiasUpdated": "2026-06-01T16:27:57.545Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
