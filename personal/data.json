@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T20:46:04.639Z",
+  "lastUpdated": "2026-06-01T20:49:44.592Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -218,7 +218,7 @@
     },
     {
       "name": "MilestoneBot",
-      "lastRun": "2026-05-31T17:54:07.761Z",
+      "lastRun": "2026-06-01T20:49:44.593Z",
       "status": "ok",
       "schedule": "9AM daily",
       "target": "Notion → data.json"
