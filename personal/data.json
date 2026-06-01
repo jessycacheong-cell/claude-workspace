@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T19:11:40.262Z",
+  "lastUpdated": "2026-06-01T20:46:04.639Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 101125282,
-        "subject": "Add a backup payment to avoid order disruptions",
+        "id": 101190456,
+        "subject": "UMEI, your posts got 13 impressions last week",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-01T16:20:08+00:00"
+        "timestamp": "2026-06-01T20:39:02+00:00"
       },
       {
-        "id": 101121812,
-        "subject": "An instrument you already know how to play",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-01T16:05:38+00:00"
-      },
-      {
-        "id": 101118170,
-        "subject": "New Creative Cloud member perks just landed",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-01T15:50:18+00:00"
-      },
-      {
-        "id": 101117234,
-        "subject": "Primetime TV Awards Red Carpet Swag bag",
+        "id": 101188833,
+        "subject": "Return",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-06-01T15:47:17+00:00"
+        "timestamp": "2026-06-01T20:31:38+00:00"
       },
       {
-        "id": 101055691,
-        "subject": "UMEI 3D: Your sole partner — always here for Moonwalker & Glides",
+        "id": 101167253,
+        "subject": "UMEI, Take a quick look at your ImagineArt Team Space",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-01T08:10:48+00:00"
+        "status": "closed",
+        "timestamp": "2026-06-01T19:03:20.298000+00:00"
+      },
+      {
+        "id": 101161047,
+        "subject": "Important updates to the Google Ads Terms of Service",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-01T18:36:47+00:00"
+      },
+      {
+        "id": 101149376,
+        "subject": "Prime Day is coming—are you set?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-01T17:55:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-01T16:27:57.545Z",
+    "gorgiasUpdated": "2026-06-01T20:46:04.497Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
