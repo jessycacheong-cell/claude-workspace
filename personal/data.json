@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T09:16:20.227Z",
+  "lastUpdated": "2026-06-02T11:06:56.483Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101304247,
+        "subject": "Your 20% UMEI code 🎉",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-02T09:44:00+00:00"
+      },
+      {
         "id": 101271022,
         "subject": "Direct message with himeon44",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-02T01:35:34.344000+00:00"
-      },
-      {
-        "id": 101258806,
-        "subject": "Direct message with tmk_aquarist",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-02T01:27:07.781000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-02T06:18:59.925Z",
+    "gorgiasUpdated": "2026-06-02T11:06:56.333Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
