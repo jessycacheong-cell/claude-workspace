@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T12:58:13.431Z",
+  "lastUpdated": "2026-06-02T15:08:06.321Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101350377,
+        "subject": "与 B2B 顾客一起实现 Prime 会员日销售额增长",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-02T15:07:25+00:00"
+      },
+      {
+        "id": 101344487,
+        "subject": "Prime Day is coming",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-02T14:38:28+00:00"
+      },
+      {
+        "id": 101323333,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-02T12:49:34+00:00"
+      },
+      {
+        "id": 101314382,
+        "subject": "You hit your monthly sessions limit",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-02T11:38:53+00:00"
+      },
+      {
         "id": 101304247,
         "subject": "Your 20% UMEI code 🎉",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-02T09:44:00+00:00"
-      },
-      {
-        "id": 101271022,
-        "subject": "Direct message with himeon44",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-02T02:47:14.678000+00:00"
-      },
-      {
-        "id": 101267733,
-        "subject": "You're leaving $1,900 on the table 👀",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-02T02:22:30.003000+00:00"
-      },
-      {
-        "id": 101263893,
-        "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-02T01:57:33+00:00"
-      },
-      {
-        "id": 101260398,
-        "subject": "Your store. Live today. <font color=\"#fe2c55\">Buyers already waiting.</font>",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-02T01:35:34.344000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-02T11:06:56.333Z",
+    "gorgiasUpdated": "2026-06-02T15:08:06.104Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
