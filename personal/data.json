@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T04:57:48.876Z",
+  "lastUpdated": "2026-06-02T06:19:00.064Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101271022,
+        "subject": "Direct message with himeon44",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-02T02:47:14.678000+00:00"
+      },
+      {
+        "id": 101267733,
+        "subject": "You're leaving $1,900 on the table 👀",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-02T02:22:30.003000+00:00"
+      },
+      {
+        "id": 101263893,
+        "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-02T01:57:33+00:00"
+      },
+      {
+        "id": 101260398,
+        "subject": "Your store. Live today. <font color=\"#fe2c55\">Buyers already waiting.</font>",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-02T01:35:34.344000+00:00"
+      },
+      {
         "id": 101258806,
         "subject": "Direct message with tmk_aquarist",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-02T01:27:07.781000+00:00"
-      },
-      {
-        "id": 101256633,
-        "subject": "New customer message on June 1, 2026 at 6:15 pm",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-02T01:15:25.865000+00:00"
-      },
-      {
-        "id": 101223137,
-        "subject": "The simplest way to start selling in 2026",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-01T22:17:58.972000+00:00"
-      },
-      {
-        "id": 101201886,
-        "subject": "Refund Initiated for Order 114-6290123-9403466",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-01T21:15:28+00:00"
-      },
-      {
-        "id": 101190456,
-        "subject": "UMEI, your posts got 13 impressions last week",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-01T20:39:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-02T01:35:07.707Z",
+    "gorgiasUpdated": "2026-06-02T06:18:59.925Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
