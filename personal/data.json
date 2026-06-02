@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T23:18:25.830Z",
+  "lastUpdated": "2026-06-02T23:59:59.648Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101474330,
+        "subject": "Your puzzle today, UMEI 🧩",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-02T23:29:53+00:00"
+      },
+      {
         "id": 101421396,
         "subject": "Your exclusive returning-customer discount",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-02T18:58:05+00:00"
-      },
-      {
-        "id": 101396139,
-        "subject": "June insights: How AI coworkers actually move work forward",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-02T18:02:01+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-02T22:02:42.163Z",
+    "gorgiasUpdated": "2026-06-02T23:59:59.333Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
