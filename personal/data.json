@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T21:22:05.827Z",
+  "lastUpdated": "2026-06-02T22:02:42.324Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101421396,
+        "subject": "Your exclusive returning-customer discount",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-02T19:33:51+00:00"
+      },
+      {
+        "id": 101412509,
+        "subject": "Regarding my order",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-02T19:02:14+00:00"
+      },
+      {
+        "id": 101411514,
+        "subject": "Voice Message from 12063797118",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-02T18:59:01+00:00"
+      },
+      {
+        "id": 101411329,
+        "subject": "Voice Message from 12063797118",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-02T18:58:05+00:00"
+      },
+      {
         "id": 101396139,
         "subject": "June insights: How AI coworkers actually move work forward",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-02T18:02:01+00:00"
-      },
-      {
-        "id": 101369588,
-        "subject": "Extra funds could be available for your business",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-02T16:19:43+00:00"
-      },
-      {
-        "id": 101358595,
-        "subject": "Your Loom profile is now on Atlassian – log in to continue",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-02T15:40:40+00:00"
-      },
-      {
-        "id": 101356050,
-        "subject": "I have 4 targeted Q2 idea for gmail grôwth?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-02T15:30:26+00:00"
-      },
-      {
-        "id": 101354575,
-        "subject": "Your Shopify store is missing a 24/7 salesperson",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-02T15:23:38+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-02T18:53:12.602Z",
+    "gorgiasUpdated": "2026-06-02T22:02:42.163Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
