@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T17:10:11.738Z",
+  "lastUpdated": "2026-06-03T18:55:49.141Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101634742,
+        "subject": "Introducing the AI Productivity Suite built for how you work",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-03T16:58:43+00:00"
+      },
+      {
+        "id": 101602257,
+        "subject": "与 B2B 顾客一起实现 Prime 会员日销售额增长",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-03T15:05:12+00:00"
+      },
+      {
         "id": 101598504,
         "subject": "Seller Growth Summit speaker lineup announced—register before June 6 for early-bird pricing",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-03T12:01:06+00:00"
-      },
-      {
-        "id": 101516187,
-        "subject": "Tai Huynh - Founder CEO reacted to this post: Manufacturing leaders in the…",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-03T04:16:00+00:00"
-      },
-      {
-        "id": 101501960,
-        "subject": "👤 UMEI, add Gary Foote",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-03T02:15:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-03T15:00:07.161Z",
+    "gorgiasUpdated": "2026-06-03T18:55:48.953Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
