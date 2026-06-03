@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T22:50:48.788Z",
+  "lastUpdated": "2026-06-03T23:57:58.356Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101722337,
+        "subject": "Love this",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-03T23:43:55+00:00"
+      },
+      {
+        "id": 101721547,
+        "subject": "❤️❤️",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-03T23:37:45+00:00"
+      },
+      {
+        "id": 101721005,
+        "subject": "Direct message with _demiera",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-03T23:33:07.099000+00:00"
+      },
+      {
+        "id": 101720924,
+        "subject": "🔥🔥🔥",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-03T23:32:24+00:00"
+      },
+      {
         "id": 101707412,
         "subject": "Introducing PineDrama performance auction in Smart+ Upgraded Experience",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-03T21:58:36.262000+00:00"
-      },
-      {
-        "id": 101705172,
-        "subject": "Summer's brightest ideas are here",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-03T21:45:31+00:00"
-      },
-      {
-        "id": 101701621,
-        "subject": "Framer 3.0 is almost here",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-03T21:24:40+00:00"
-      },
-      {
-        "id": 101687897,
-        "subject": "UMEI — Test your next style in 10 pcs (custom graphics included)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-03T20:20:31+00:00"
-      },
-      {
-        "id": 101679626,
-        "subject": "Interest in Moonwalker slide",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-03T19:38:43+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-03T22:03:41.211Z",
+    "gorgiasUpdated": "2026-06-03T23:57:58.189Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
