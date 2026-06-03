@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T02:11:49.000Z",
+  "lastUpdated": "2026-06-03T05:07:51.042Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101516187,
+        "subject": "Tai Huynh - Founder CEO reacted to this post: Manufacturing leaders in the…",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-03T04:16:00+00:00"
+      },
+      {
+        "id": 101501960,
+        "subject": "👤 UMEI, add Gary Foote",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-03T02:15:59+00:00"
+      },
+      {
+        "id": 101500577,
+        "subject": "Your Google Analytics performance report is in for May 6th - June 2nd",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-03T02:06:44+00:00"
+      },
+      {
+        "id": 101494514,
+        "subject": "Your receipt from Photo App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-03T01:25:07+00:00"
+      },
+      {
         "id": 101474330,
         "subject": "Your puzzle today, UMEI 🧩",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-02T23:29:53+00:00"
-      },
-      {
-        "id": 101421396,
-        "subject": "Your exclusive returning-customer discount",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-02T19:33:51+00:00"
-      },
-      {
-        "id": 101412509,
-        "subject": "Regarding my order",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-02T19:02:14+00:00"
-      },
-      {
-        "id": 101411514,
-        "subject": "Voice Message from 12063797118",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-02T18:59:01+00:00"
-      },
-      {
-        "id": 101411329,
-        "subject": "Voice Message from 12063797118",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-02T18:58:05+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-02T23:59:59.333Z",
+    "gorgiasUpdated": "2026-06-03T05:07:50.873Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
