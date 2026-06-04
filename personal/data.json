@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T22:54:08.186Z",
+  "lastUpdated": "2026-06-04T23:48:35.928Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101904427,
+        "subject": "Your puzzle today, UMEI 🧩",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-04T23:29:53+00:00"
+      },
+      {
+        "id": 101896986,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-04T22:33:01+00:00"
+      },
+      {
+        "id": 101895414,
+        "subject": "With Analytics AI, your past campaigns hold future growth",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-04T22:20:23+00:00"
+      },
+      {
         "id": 101844836,
         "subject": "Receive payments faster with Express Payout",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-04T17:15:04+00:00"
-      },
-      {
-        "id": 101838110,
-        "subject": "AI Agent Alpha for Instagram Direct Messages finally LIVE 🚀",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-04T16:45:05+00:00"
-      },
-      {
-        "id": 101833613,
-        "subject": "Reminder: You're eligible to apply for a business loan",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-04T16:21:39+00:00"
-      },
-      {
-        "id": 101832401,
-        "subject": "You appeared in recent searches",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-04T16:16:26+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-04T22:10:13.281Z",
+    "gorgiasUpdated": "2026-06-04T23:48:35.767Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
