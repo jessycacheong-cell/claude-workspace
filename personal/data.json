@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T17:20:37.420Z",
+  "lastUpdated": "2026-06-04T18:27:51.991Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 101817270,
-        "subject": "与 B2B 顾客一起实现 Prime 会员日销售额增长",
+        "id": 101844836,
+        "subject": "Receive payments faster with Express Payout",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-04T15:05:33+00:00"
+        "timestamp": "2026-06-04T17:21:24+00:00"
       },
       {
-        "id": 101805430,
-        "subject": "Voice Message from 17147601060",
+        "id": 101843679,
+        "subject": "Why the future of work belongs to learners",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-04T14:08:48+00:00"
+        "timestamp": "2026-06-04T17:15:04+00:00"
       },
       {
-        "id": 101803595,
-        "subject": "Close deal 34% faster without changing your GTM Strategy",
+        "id": 101838110,
+        "subject": "AI Agent Alpha for Instagram Direct Messages finally LIVE 🚀",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-04T14:01:32+00:00"
+        "timestamp": "2026-06-04T16:45:05+00:00"
       },
       {
-        "id": 101803319,
-        "subject": "Product Update: Instant MCP + Claude",
+        "id": 101833613,
+        "subject": "Reminder: You're eligible to apply for a business loan",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-04T14:00:24+00:00"
+        "timestamp": "2026-06-04T16:21:39+00:00"
       },
       {
-        "id": 101792236,
-        "subject": "Direct message with mdmonjurul107",
+        "id": 101832401,
+        "subject": "You appeared in recent searches",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-04T12:55:50.308000+00:00"
+        "status": "closed",
+        "timestamp": "2026-06-04T16:16:26+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-04T16:03:36.256Z",
+    "gorgiasUpdated": "2026-06-04T18:27:51.555Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
