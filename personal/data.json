@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T10:43:14.906Z",
+  "lastUpdated": "2026-06-04T12:13:53.255Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101776171,
+        "subject": "UniTel Voice Notice: New Invoice 784909",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-04T10:49:14+00:00"
+      },
+      {
         "id": 101767265,
         "subject": "Your 20% UMEI code 🎉",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-04T03:19:21.079000+00:00"
-      },
-      {
-        "id": 101738270,
-        "subject": "Refund Initiated for Order 114-8590965-3027445",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-04T02:01:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-04T08:57:56.949Z",
+    "gorgiasUpdated": "2026-06-04T12:13:53.084Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
