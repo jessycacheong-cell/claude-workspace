@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T14:08:54.014Z",
+  "lastUpdated": "2026-06-04T16:03:36.402Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 101776171,
-        "subject": "UniTel Voice Notice: New Invoice 784909",
+        "id": 101817270,
+        "subject": "与 B2B 顾客一起实现 Prime 会员日销售额增长",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-04T10:49:14+00:00"
+        "timestamp": "2026-06-04T15:05:33+00:00"
       },
       {
-        "id": 101767265,
-        "subject": "Your 20% UMEI code 🎉",
+        "id": 101805430,
+        "subject": "Voice Message from 17147601060",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-04T08:49:48+00:00"
+        "timestamp": "2026-06-04T14:08:48+00:00"
       },
       {
-        "id": 101760410,
-        "subject": "The sellers winning in 2026 moved early",
+        "id": 101803595,
+        "subject": "Close deal 34% faster without changing your GTM Strategy",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-04T07:02:36.636000+00:00"
+        "status": "closed",
+        "timestamp": "2026-06-04T14:01:32+00:00"
       },
       {
-        "id": 101751540,
-        "subject": "The sellers winning in 2026 moved early",
+        "id": 101803319,
+        "subject": "Product Update: Instant MCP + Claude",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-04T04:28:40.254000+00:00"
+        "status": "closed",
+        "timestamp": "2026-06-04T14:00:24+00:00"
       },
       {
-        "id": 101746587,
-        "subject": "The sellers winning in 2026 moved early",
+        "id": 101792236,
+        "subject": "Direct message with mdmonjurul107",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-06-04T03:19:21.079000+00:00"
+        "timestamp": "2026-06-04T12:55:50.308000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-04T12:13:53.084Z",
+    "gorgiasUpdated": "2026-06-04T16:03:36.256Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
