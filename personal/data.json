@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T01:47:02.513Z",
+  "lastUpdated": "2026-06-04T05:01:14.961Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101751540,
+        "subject": "The sellers winning in 2026 moved early",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-04T04:28:40.254000+00:00"
+      },
+      {
+        "id": 101746587,
+        "subject": "The sellers winning in 2026 moved early",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-04T03:19:21.079000+00:00"
+      },
+      {
+        "id": 101738270,
+        "subject": "Refund Initiated for Order 114-8590965-3027445",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-04T02:01:59+00:00"
+      },
+      {
+        "id": 101724185,
+        "subject": "Skies out Thighs out GLIDES OUT☀️",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-03T23:58:52+00:00"
+      },
+      {
         "id": 101722337,
         "subject": "Love this",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-03T23:43:55+00:00"
-      },
-      {
-        "id": 101721547,
-        "subject": "❤️❤️",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-03T23:37:45+00:00"
-      },
-      {
-        "id": 101721005,
-        "subject": "Direct message with _demiera",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-03T23:33:07.099000+00:00"
-      },
-      {
-        "id": 101720924,
-        "subject": "🔥🔥🔥",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-03T23:32:24+00:00"
-      },
-      {
-        "id": 101707412,
-        "subject": "Introducing PineDrama performance auction in Smart+ Upgraded Experience",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-03T21:58:36.262000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-03T23:57:58.189Z",
+    "gorgiasUpdated": "2026-06-04T05:01:14.799Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
