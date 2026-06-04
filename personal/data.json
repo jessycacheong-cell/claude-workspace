@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T06:53:38.466Z",
+  "lastUpdated": "2026-06-04T08:57:57.109Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101767265,
+        "subject": "Your 20% UMEI code 🎉",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-04T08:49:48+00:00"
+      },
+      {
+        "id": 101760410,
+        "subject": "The sellers winning in 2026 moved early",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-04T07:02:36.636000+00:00"
+      },
+      {
         "id": 101751540,
         "subject": "The sellers winning in 2026 moved early",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-04T02:01:59+00:00"
-      },
-      {
-        "id": 101724185,
-        "subject": "Skies out Thighs out GLIDES OUT☀️",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-03T23:58:52+00:00"
-      },
-      {
-        "id": 101722337,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-03T23:43:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-04T05:01:14.799Z",
+    "gorgiasUpdated": "2026-06-04T08:57:56.949Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
