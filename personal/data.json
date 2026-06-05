@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T21:10:28.130Z",
+  "lastUpdated": "2026-06-05T21:10:33.920Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102057589,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-05T20:53:06+00:00"
+      },
+      {
+        "id": 102034982,
+        "subject": "Do you have a so-what problem?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-05T19:01:17+00:00"
+      },
+      {
+        "id": 102017412,
+        "subject": "Lo Tri left a 5 star review for 'Men's Moonwalker Glides'",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-05T17:33:45+00:00"
+      },
+      {
         "id": 101984700,
         "subject": "First Time Certified Sellers Grew 10% More in a Year!",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-05T11:29:49+00:00"
-      },
-      {
-        "id": 101931980,
-        "subject": "Direct message with himeon44",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-05T04:19:26.932000+00:00"
-      },
-      {
-        "id": 101931817,
-        "subject": "Direct message with tmk_aquarist",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-05T04:16:27.618000+00:00"
-      },
-      {
-        "id": 101931788,
-        "subject": "Nike posted: Welcome to the roster!  Our interns are already moving – from orientation to… 💡",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-05T04:16:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-05T17:31:20.250Z",
+    "gorgiasUpdated": "2026-06-05T21:10:33.760Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
