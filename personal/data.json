@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T12:18:05.628Z",
+  "lastUpdated": "2026-06-05T12:18:11.372Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,10 +90,17 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101957944,
+        "subject": "Incident resolved ✅",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-05T11:29:49+00:00"
+      },
+      {
         "id": 101931980,
         "subject": "Direct message with himeon44",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-06-05T04:19:26.932000+00:00"
       },
       {
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-05T03:32:59+00:00"
-      },
-      {
-        "id": 101904427,
-        "subject": "Your puzzle today, UMEI 🧩",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-04T23:29:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-05T08:50:58.673Z",
+    "gorgiasUpdated": "2026-06-05T12:18:11.186Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
