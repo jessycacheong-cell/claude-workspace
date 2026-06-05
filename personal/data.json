@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T00:17:43.441Z",
+  "lastUpdated": "2026-06-05T04:43:28.653Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 101931980,
+        "subject": "Direct message with himeon44",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-05T04:19:26.932000+00:00"
+      },
+      {
+        "id": 101931817,
+        "subject": "Direct message with tmk_aquarist",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-05T04:16:27.618000+00:00"
+      },
+      {
+        "id": 101931788,
+        "subject": "Nike posted: Welcome to the roster!  Our interns are already moving – from orientation to… 💡",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-05T04:16:00+00:00"
+      },
+      {
+        "id": 101928872,
+        "subject": "You appeared in recent searches",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-05T03:32:59+00:00"
+      },
+      {
         "id": 101904427,
         "subject": "Your puzzle today, UMEI 🧩",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-04T23:29:53+00:00"
-      },
-      {
-        "id": 101896986,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-04T22:33:01+00:00"
-      },
-      {
-        "id": 101895414,
-        "subject": "With Analytics AI, your past campaigns hold future growth",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-04T22:20:23+00:00"
-      },
-      {
-        "id": 101844836,
-        "subject": "Receive payments faster with Express Payout",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-04T17:21:24+00:00"
-      },
-      {
-        "id": 101843679,
-        "subject": "Why the future of work belongs to learners",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-04T17:15:04+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-04T23:48:35.767Z",
+    "gorgiasUpdated": "2026-06-05T04:43:28.490Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
