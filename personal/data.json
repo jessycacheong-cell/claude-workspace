@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T04:16:34.049Z",
+  "lastUpdated": "2026-06-06T04:40:40.600Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 102068618,
-        "subject": "p0: jdw101168279977 -1-1 exchange",
+        "id": 102102508,
+        "subject": "How to turn one TikTok video into a sales funnel",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-06-05T22:11:59+00:00"
+        "timestamp": "2026-06-06T04:32:01.299000+00:00"
       },
       {
-        "id": 102068578,
-        "subject": "Still importing recordings into Descript? There's a faster way.",
+        "id": 102096049,
+        "subject": "Security alert",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-05T22:11:38+00:00"
+        "timestamp": "2026-06-06T02:55:41+00:00"
       },
       {
-        "id": 102068038,
-        "subject": "Voice Message from 15748762709",
+        "id": 102093450,
+        "subject": "You are enrolled in Advanced Protection",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-05T22:06:57+00:00"
+        "timestamp": "2026-06-06T02:22:45+00:00"
       },
       {
-        "id": 102067836,
-        "subject": "🔥🔥🔥🔥🔥🔥",
+        "id": 102092919,
+        "subject": "👤 UMEI, add Bridget Ogwezi",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-05T22:05:04+00:00"
+        "status": "closed",
+        "timestamp": "2026-06-06T02:15:57+00:00"
       },
       {
-        "id": 102066874,
-        "subject": "[UMEI Store] Order #1725 placed by stephen dion",
+        "id": 102092800,
+        "subject": "Shopify customer complaint notice",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-05T21:59:20+00:00"
+        "status": "closed",
+        "timestamp": "2026-06-06T02:14:11.227000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-06T00:17:35.193Z",
+    "gorgiasUpdated": "2026-06-06T04:40:40.467Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
