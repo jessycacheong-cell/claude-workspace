@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-06T09:35:47.901Z",
+  "lastUpdated": "2026-06-06T10:17:27.003Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102116875,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-06T09:54:23+00:00"
+      },
+      {
         "id": 102102508,
         "subject": "How to turn one TikTok video into a sales funnel",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-06T02:15:57+00:00"
-      },
-      {
-        "id": 102092800,
-        "subject": "Shopify customer complaint notice",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-06T02:14:11.227000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-06T08:00:45.266Z",
+    "gorgiasUpdated": "2026-06-06T10:17:26.836Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
