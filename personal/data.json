@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T16:41:29.328Z",
+  "lastUpdated": "2026-06-07T16:41:41.433Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102266490,
+        "subject": "Build your skills with free Airtable courses",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-07T15:59:04+00:00"
+      },
+      {
+        "id": 102260841,
+        "subject": "Your sales report won't show you this.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-07T15:05:42.644000+00:00"
+      },
+      {
         "id": 102246116,
         "subject": "Quick question?",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-06T09:54:23+00:00"
-      },
-      {
-        "id": 102102508,
-        "subject": "How to turn one TikTok video into a sales funnel",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-06T04:32:01.299000+00:00"
-      },
-      {
-        "id": 102096049,
-        "subject": "Security alert",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-06T02:55:41+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-07T14:58:00.824Z",
+    "gorgiasUpdated": "2026-06-07T16:41:41.267Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
