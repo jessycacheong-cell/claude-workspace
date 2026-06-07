@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T12:47:23.180Z",
+  "lastUpdated": "2026-06-07T12:48:22.210Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102246116,
+        "subject": "Quick question?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-07T12:28:49+00:00"
+      },
+      {
         "id": 102152336,
         "subject": "You appeared in recent searches",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-06T02:55:41+00:00"
-      },
-      {
-        "id": 102093450,
-        "subject": "You are enrolled in Advanced Protection",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-06T02:22:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-07T10:54:42.658Z",
+    "gorgiasUpdated": "2026-06-07T12:48:21.999Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
