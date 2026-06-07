@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T19:44:10.190Z",
+  "lastUpdated": "2026-06-07T19:57:23.651Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102290659,
+        "subject": "Your Gorgias Inc receipt [#1328-9294]",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-07T19:45:11+00:00"
+      },
+      {
+        "id": 102290526,
+        "subject": "Thank you for your payment",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-07T19:43:54+00:00"
+      },
+      {
         "id": 102266490,
         "subject": "Build your skills with free Airtable courses",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-07T12:28:49+00:00"
-      },
-      {
-        "id": 102152336,
-        "subject": "You appeared in recent searches",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-06T16:16:00+00:00"
-      },
-      {
-        "id": 102116875,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-06T09:54:23+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-07T18:17:03.312Z",
+    "gorgiasUpdated": "2026-06-07T19:57:23.488Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
