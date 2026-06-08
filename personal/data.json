@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T23:21:16.790Z",
+  "lastUpdated": "2026-06-08T23:22:00.553Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102478940,
+        "subject": "170M buyers. Your store. Let's go.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-08T22:17:08.285000+00:00"
+      },
+      {
         "id": 102472405,
         "subject": "Direct message with hanselaquino",
         "customer": "Unknown",
@@ -100,7 +107,7 @@
         "id": 102472245,
         "subject": "Direct message with lt_shinysides7",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-06-08T21:32:58.867000+00:00"
       },
       {
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-08T21:31:13.201000+00:00"
-      },
-      {
-        "id": 102471623,
-        "subject": "Direct message with _demiera",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-08T21:29:24.308000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-08T21:59:04.427Z",
+    "gorgiasUpdated": "2026-06-08T23:22:00.373Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
