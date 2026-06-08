@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T21:59:01.960Z",
+  "lastUpdated": "2026-06-08T21:59:04.669Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 102452975,
-        "subject": "Why Merchants Are Migrating To FastCommerce",
+        "id": 102472405,
+        "subject": "Direct message with hanselaquino",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-08T21:33:57.869000+00:00"
+      },
+      {
+        "id": 102472245,
+        "subject": "Direct message with lt_shinysides7",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-08T21:32:58.867000+00:00"
+      },
+      {
+        "id": 102472023,
+        "subject": "Direct message with _jake_leary",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-06-08T19:45:03.536000+00:00"
+        "timestamp": "2026-06-08T21:31:44.806000+00:00"
       },
       {
-        "id": 102444274,
-        "subject": "Your payment is on the way",
+        "id": 102471946,
+        "subject": "Direct message with james.hueyy",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-08T18:58:39+00:00"
+        "timestamp": "2026-06-08T21:31:13.201000+00:00"
       },
       {
-        "id": 102430273,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 102471623,
+        "subject": "Direct message with _demiera",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-08T17:45:26+00:00"
-      },
-      {
-        "id": 102421547,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-08T17:02:17+00:00"
-      },
-      {
-        "id": 102413308,
-        "subject": "Voice Message from 17148844362",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-08T16:24:09+00:00"
+        "timestamp": "2026-06-08T21:29:24.308000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-08T19:50:39.651Z",
+    "gorgiasUpdated": "2026-06-08T21:59:04.427Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
