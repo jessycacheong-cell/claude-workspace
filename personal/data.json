@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T19:49:12.033Z",
+  "lastUpdated": "2026-06-08T19:50:39.821Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102452975,
+        "subject": "Why Merchants Are Migrating To FastCommerce",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-08T19:45:03.536000+00:00"
+      },
+      {
+        "id": 102444274,
+        "subject": "Your payment is on the way",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-08T18:58:39+00:00"
+      },
+      {
+        "id": 102430273,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-08T17:45:26+00:00"
+      },
+      {
         "id": 102421547,
         "subject": "Your Week In Reviews For UMEI Store",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-08T16:24:09+00:00"
-      },
-      {
-        "id": 102413047,
-        "subject": "Voice Message from 17148844362",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-08T16:22:49+00:00"
-      },
-      {
-        "id": 102409622,
-        "subject": "How businesses are preparing for AI-driven commerce",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-08T16:07:26+00:00"
-      },
-      {
-        "id": 102407075,
-        "subject": "From draft to design, new in Illustrator",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-08T15:57:18+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-08T17:37:07.788Z",
+    "gorgiasUpdated": "2026-06-08T19:50:39.651Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
