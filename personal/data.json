@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T12:48:49.696Z",
+  "lastUpdated": "2026-06-09T12:49:25.003Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102547059,
+        "subject": "Refund Initiated for Order 113-4118676-7609831",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-09T11:49:11+00:00"
+      },
+      {
         "id": 102535904,
         "subject": "Direct message with sanjeevkumarsingh6216",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-08T22:17:08.285000+00:00"
-      },
-      {
-        "id": 102472405,
-        "subject": "Direct message with hanselaquino",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-08T21:33:57.869000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-09T10:00:51.316Z",
+    "gorgiasUpdated": "2026-06-09T12:49:24.841Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
