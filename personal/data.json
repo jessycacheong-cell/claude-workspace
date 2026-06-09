@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T18:20:04.755Z",
+  "lastUpdated": "2026-06-09T18:34:59.739Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 102604040,
-        "subject": "Your latest benchmarks are in. Did you make moves last month?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-09T16:10:08.348000+00:00"
-      },
-      {
-        "id": 102593605,
-        "subject": "Happy Fiverrsary!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-09T15:30:14.101000+00:00"
-      },
-      {
-        "id": 102590475,
-        "subject": "向企业顾客推广这些 ASIN",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-09T15:16:43+00:00"
-      },
-      {
-        "id": 102583825,
-        "subject": "New customer message on June 9, 2026 at 7:50 am",
+        "id": 102628306,
+        "subject": "Here’s what’s new at Zoom 🚀",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-06-09T14:50:14+00:00"
+        "timestamp": "2026-06-09T17:57:56+00:00"
       },
       {
-        "id": 102571425,
-        "subject": "Still using another CRM? No hard feelings.",
+        "id": 102615509,
+        "subject": "Refund Initiated for Order 112-2070965-5381008",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-09T14:00:26+00:00"
+        "timestamp": "2026-06-09T17:06:15+00:00"
+      },
+      {
+        "id": 102615735,
+        "subject": "Enjoy 25% off—just for returning customers",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-09T17:03:53+00:00"
+      },
+      {
+        "id": 102613982,
+        "subject": "Voice Message from 13528035469",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-09T16:59:47+00:00"
+      },
+      {
+        "id": 102607927,
+        "subject": "Adobe eLearning News – June 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-09T16:30:44+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-09T16:11:37.841Z",
+    "gorgiasUpdated": "2026-06-09T18:34:59.527Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
