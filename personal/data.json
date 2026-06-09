@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T23:55:39.457Z",
+  "lastUpdated": "2026-06-09T23:55:47.450Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102677752,
+        "subject": "Your puzzle today, UMEI 🧩",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-09T23:29:50+00:00"
+      },
+      {
         "id": 102655447,
         "subject": "CX in the age of AI: what the data says you should do now",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-09T17:06:15+00:00"
-      },
-      {
-        "id": 102615735,
-        "subject": "Enjoy 25% off—just for returning customers",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-09T17:03:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-09T22:12:15.558Z",
+    "gorgiasUpdated": "2026-06-09T23:55:47.253Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
