@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T16:11:29.296Z",
+  "lastUpdated": "2026-06-09T16:11:38.016Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 102547059,
-        "subject": "Refund Initiated for Order 113-4118676-7609831",
+        "id": 102604040,
+        "subject": "Your latest benchmarks are in. Did you make moves last month?",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-09T11:49:11+00:00"
+        "timestamp": "2026-06-09T16:10:08.348000+00:00"
       },
       {
-        "id": 102535904,
-        "subject": "Direct message with sanjeevkumarsingh6216",
+        "id": 102593605,
+        "subject": "Happy Fiverrsary!",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-09T09:26:14.396000+00:00"
+        "timestamp": "2026-06-09T15:30:14.101000+00:00"
       },
       {
-        "id": 102526604,
-        "subject": "New privacy settings for Search services",
+        "id": 102590475,
+        "subject": "向企业顾客推广这些 ASIN",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-09T06:56:30+00:00"
+        "timestamp": "2026-06-09T15:16:43+00:00"
       },
       {
-        "id": 102505486,
-        "subject": "New customer message on June 8, 2026 at 6:51 pm",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-09T01:51:12+00:00"
-      },
-      {
-        "id": 102478940,
-        "subject": "170M buyers. Your store. Let's go.",
+        "id": 102583825,
+        "subject": "New customer message on June 9, 2026 at 7:50 am",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-06-08T22:17:08.285000+00:00"
+        "timestamp": "2026-06-09T14:50:14+00:00"
+      },
+      {
+        "id": 102571425,
+        "subject": "Still using another CRM? No hard feelings.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-09T14:00:26+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-09T12:49:24.841Z",
+    "gorgiasUpdated": "2026-06-09T16:11:37.841Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
