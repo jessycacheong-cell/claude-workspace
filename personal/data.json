@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T10:00:39.295Z",
+  "lastUpdated": "2026-06-09T10:00:51.476Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102535904,
+        "subject": "Direct message with sanjeevkumarsingh6216",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-09T09:26:14.396000+00:00"
+      },
+      {
+        "id": 102526604,
+        "subject": "New privacy settings for Search services",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-09T06:56:30+00:00"
+      },
+      {
         "id": 102505486,
         "subject": "New customer message on June 8, 2026 at 6:51 pm",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-08T21:33:57.869000+00:00"
-      },
-      {
-        "id": 102472245,
-        "subject": "Direct message with lt_shinysides7",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-08T21:32:58.867000+00:00"
-      },
-      {
-        "id": 102472023,
-        "subject": "Direct message with _jake_leary",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-08T21:31:44.806000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-09T05:50:48.245Z",
+    "gorgiasUpdated": "2026-06-09T10:00:51.316Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
