@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T05:50:40.611Z",
+  "lastUpdated": "2026-06-09T05:50:48.442Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102505486,
+        "subject": "New customer message on June 8, 2026 at 6:51 pm",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-09T01:51:12+00:00"
+      },
+      {
         "id": 102478940,
         "subject": "170M buyers. Your store. Let's go.",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-08T21:31:44.806000+00:00"
-      },
-      {
-        "id": 102471946,
-        "subject": "Direct message with james.hueyy",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-08T21:31:13.201000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-09T01:29:31.606Z",
+    "gorgiasUpdated": "2026-06-09T05:50:48.245Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
