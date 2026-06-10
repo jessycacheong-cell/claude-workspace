@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T22:56:00.759Z",
+  "lastUpdated": "2026-06-10T23:14:34.508Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102844104,
+        "subject": "170M buyers. Your store. Let's go.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-10T22:40:04.912000+00:00"
+      },
+      {
         "id": 102827987,
         "subject": "Welcome to Your TikTok Ads Growth Program (June Onboarding)",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-10T18:03:16+00:00"
-      },
-      {
-        "id": 102798335,
-        "subject": "AI adoption is up. So is botshitting.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-10T18:01:44+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-10T21:37:20.700Z",
+    "gorgiasUpdated": "2026-06-10T23:14:34.357Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
