@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T21:11:39.410Z",
+  "lastUpdated": "2026-06-10T21:37:20.846Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102827987,
+        "subject": "Welcome to Your TikTok Ads Growth Program (June Onboarding)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-10T20:50:55+00:00"
+      },
+      {
+        "id": 102827563,
+        "subject": "TIKTOK: $34.00 USD",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-10T20:48:05+00:00"
+      },
+      {
+        "id": 102818077,
+        "subject": "Updates to improve your product titles begin on July 27",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-10T19:49:27+00:00"
+      },
+      {
         "id": 102798761,
         "subject": "Refund Initiated for Order 111-3969148-4731407",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-10T18:01:44+00:00"
-      },
-      {
-        "id": 102797901,
-        "subject": "SurveyMonkey LaunchPad is here 🚀",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-10T18:00:16+00:00"
-      },
-      {
-        "id": 102789973,
-        "subject": "What's new at Zoho for growing businesses? 😇 ",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-10T17:10:48+00:00"
-      },
-      {
-        "id": 102780600,
-        "subject": "Order #81242137 - Your Monthly Monitoring Report",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-10T16:28:23+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-10T19:17:41.127Z",
+    "gorgiasUpdated": "2026-06-10T21:37:20.700Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
