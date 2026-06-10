@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T18:38:56.848Z",
+  "lastUpdated": "2026-06-10T19:17:41.326Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 102769981,
-        "subject": "Direct message with austinthephilosurfer",
+        "id": 102798761,
+        "subject": "Refund Initiated for Order 111-3969148-4731407",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-10T15:41:00.763000+00:00"
+        "timestamp": "2026-06-10T18:03:16+00:00"
       },
       {
-        "id": 102768665,
-        "subject": "了解您的广告在那些投放渠道的效果更出色。",
+        "id": 102798335,
+        "subject": "AI adoption is up. So is botshitting.",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-10T15:33:51+00:00"
+        "timestamp": "2026-06-10T18:01:44+00:00"
       },
       {
-        "id": 102767914,
-        "subject": "Huge updates for your reviews",
+        "id": 102797901,
+        "subject": "SurveyMonkey LaunchPad is here 🚀",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-10T18:00:16+00:00"
+      },
+      {
+        "id": 102789973,
+        "subject": "What's new at Zoho for growing businesses? 😇 ",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-06-10T15:30:33+00:00"
+        "timestamp": "2026-06-10T17:10:48+00:00"
       },
       {
-        "id": 102754156,
-        "subject": "Your next coffee break—Inside Terra Kaffe’s Loyalty Flywheel ",
+        "id": 102780600,
+        "subject": "Order #81242137 - Your Monthly Monitoring Report",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-10T14:20:12+00:00"
-      },
-      {
-        "id": 102737478,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-10T12:41:14.989000+00:00"
+        "timestamp": "2026-06-10T16:28:23+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-10T16:24:32.106Z",
+    "gorgiasUpdated": "2026-06-10T19:17:41.127Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
