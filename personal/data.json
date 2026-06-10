@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T16:02:42.112Z",
+  "lastUpdated": "2026-06-10T16:24:32.274Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 102725340,
-        "subject": "🔥",
+        "id": 102769981,
+        "subject": "Direct message with austinthephilosurfer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-10T15:41:00.763000+00:00"
+      },
+      {
+        "id": 102768665,
+        "subject": "了解您的广告在那些投放渠道的效果更出色。",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-10T15:33:51+00:00"
+      },
+      {
+        "id": 102767914,
+        "subject": "Huge updates for your reviews",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-06-10T10:33:36+00:00"
+        "timestamp": "2026-06-10T15:30:33+00:00"
       },
       {
-        "id": 102704116,
-        "subject": "New Balance Internal Communications Manager EMEA recently posted",
+        "id": 102754156,
+        "subject": "Your next coffee break—Inside Terra Kaffe’s Loyalty Flywheel ",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-10T04:16:00+00:00"
+        "timestamp": "2026-06-10T14:20:12+00:00"
       },
       {
-        "id": 102695021,
-        "subject": "👤 UMEI, add Finn Krause",
+        "id": 102737478,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-10T02:16:01+00:00"
-      },
-      {
-        "id": 102694192,
-        "subject": "Refund Initiated for Order 112-6378529-3549840",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-10T02:08:30+00:00"
-      },
-      {
-        "id": 102690115,
-        "subject": "Your receipt from Photo App",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-10T01:25:08+00:00"
+        "timestamp": "2026-06-10T12:41:14.989000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-10T12:34:47.431Z",
+    "gorgiasUpdated": "2026-06-10T16:24:32.106Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
