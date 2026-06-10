@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T04:41:44.236Z",
+  "lastUpdated": "2026-06-10T04:42:40.094Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102704116,
+        "subject": "New Balance Internal Communications Manager EMEA recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-10T04:16:00+00:00"
+      },
+      {
+        "id": 102695021,
+        "subject": "👤 UMEI, add Finn Krause",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-10T02:16:01+00:00"
+      },
+      {
+        "id": 102694192,
+        "subject": "Refund Initiated for Order 112-6378529-3549840",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-10T02:08:30+00:00"
+      },
+      {
+        "id": 102690115,
+        "subject": "Your receipt from Photo App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-10T01:25:08+00:00"
+      },
+      {
         "id": 102677752,
         "subject": "Your puzzle today, UMEI 🧩",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-09T23:29:50+00:00"
-      },
-      {
-        "id": 102655447,
-        "subject": "CX in the age of AI: what the data says you should do now",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-09T20:45:14+00:00"
-      },
-      {
-        "id": 102643370,
-        "subject": "Return Filing Tool Now Available",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-09T19:30:59+00:00"
-      },
-      {
-        "id": 102628306,
-        "subject": "Here’s what’s new at Zoom 🚀",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-09T17:57:56+00:00"
-      },
-      {
-        "id": 102615509,
-        "subject": "Refund Initiated for Order 112-2070965-5381008",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-09T17:06:15+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-09T23:55:47.253Z",
+    "gorgiasUpdated": "2026-06-10T04:42:39.931Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
