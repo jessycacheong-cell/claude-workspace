@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T11:13:43.777Z",
+  "lastUpdated": "2026-06-11T11:45:20.118Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102896086,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-11T10:15:06+00:00"
+      },
+      {
+        "id": 102890421,
+        "subject": "FBA reimbursement notification",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-11T08:45:19+00:00"
+      },
+      {
         "id": 102876706,
         "subject": "Direct message with hess_haven",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-10T22:40:04.912000+00:00"
-      },
-      {
-        "id": 102827987,
-        "subject": "Welcome to Your TikTok Ads Growth Program (June Onboarding)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-10T20:50:55+00:00"
-      },
-      {
-        "id": 102827563,
-        "subject": "TIKTOK: $34.00 USD",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-10T20:48:05+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-11T07:01:26.046Z",
+    "gorgiasUpdated": "2026-06-11T11:45:19.927Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
