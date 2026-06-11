@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T01:34:47.439Z",
+  "lastUpdated": "2026-06-11T02:02:56.972Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102855406,
+        "subject": "Mention in madmanjumps's story",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-11T00:15:42.455000+00:00"
+      },
+      {
         "id": 102844104,
         "subject": "170M buyers. Your store. Let's go.",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-10T19:49:27+00:00"
-      },
-      {
-        "id": 102798761,
-        "subject": "Refund Initiated for Order 111-3969148-4731407",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-10T18:03:16+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-10T23:14:34.357Z",
+    "gorgiasUpdated": "2026-06-11T02:02:52.987Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
