@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T06:21:50.557Z",
+  "lastUpdated": "2026-06-11T07:01:26.233Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 102876706,
+        "subject": "Direct message with hess_haven",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-11T04:16:49.627000+00:00"
+      },
+      {
         "id": 102855406,
         "subject": "Mention in madmanjumps's story",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-10T20:48:05+00:00"
-      },
-      {
-        "id": 102818077,
-        "subject": "Updates to improve your product titles begin on July 27",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-10T19:49:27+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-11T02:02:52.987Z",
+    "gorgiasUpdated": "2026-06-11T07:01:26.046Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
