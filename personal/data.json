@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T14:13:48.977Z",
+  "lastUpdated": "2026-06-12T17:24:53.511Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103121333,
+        "subject": "Update to Google Ads Policy",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-12T16:39:57+00:00"
+      },
+      {
+        "id": 103118651,
+        "subject": "Direct message with pedro.ugc",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-12T16:27:33.451000+00:00"
+      },
+      {
+        "id": 103096629,
+        "subject": "Incident identified 🕵️",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-12T14:32:17+00:00"
+      },
+      {
         "id": 103066731,
         "subject": "Badges that know who's shopping 👀",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-12T08:52:24+00:00"
-      },
-      {
-        "id": 103056016,
-        "subject": "Jun 12, 2026 bill for UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-12T07:24:23+00:00"
-      },
-      {
-        "id": 103053679,
-        "subject": "Direct message with rudro94206",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-12T06:50:40.508000+00:00"
-      },
-      {
-        "id": 103046704,
-        "subject": "New Balance posted: When Katharine Stewart reflects on her 20 years at New Balance, one theme… 💡",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-12T04:16:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-12T14:13:39.730Z",
+    "gorgiasUpdated": "2026-06-12T17:24:53.326Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
