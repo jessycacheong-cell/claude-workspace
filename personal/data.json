@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T10:51:01.680Z",
+  "lastUpdated": "2026-06-12T10:51:03.943Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103066731,
+        "subject": "Badges that know who's shopping 👀",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-12T10:37:32+00:00"
+      },
+      {
+        "id": 103060302,
+        "subject": "FBA reimbursement notification",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-12T08:52:24+00:00"
+      },
+      {
+        "id": 103056016,
+        "subject": "Jun 12, 2026 bill for UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-12T07:24:23+00:00"
+      },
+      {
+        "id": 103053679,
+        "subject": "Direct message with rudro94206",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-12T06:50:40.508000+00:00"
+      },
+      {
         "id": 103046704,
         "subject": "New Balance posted: When Katharine Stewart reflects on her 20 years at New Balance, one theme… 💡",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-12T04:16:03+00:00"
-      },
-      {
-        "id": 103026824,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-12T00:15:49+00:00"
-      },
-      {
-        "id": 103019433,
-        "subject": "Your puzzle today, UMEI 🧩",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-11T23:07:00+00:00"
-      },
-      {
-        "id": 103016770,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-11T22:44:31+00:00"
-      },
-      {
-        "id": 103011025,
-        "subject": "[Action Required] Boost Your GMV with Free AI-Generated Video Ads (Limited Offer)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-11T22:00:09.387000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-12T06:18:35.444Z",
+    "gorgiasUpdated": "2026-06-12T10:51:03.814Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
