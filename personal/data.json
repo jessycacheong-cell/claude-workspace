@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T06:15:56.113Z",
+  "lastUpdated": "2026-06-12T06:18:35.607Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103046704,
+        "subject": "New Balance posted: When Katharine Stewart reflects on her 20 years at New Balance, one theme… 💡",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-12T04:16:03+00:00"
+      },
+      {
         "id": 103026824,
         "subject": "(No subject)",
         "customer": "Unknown",
@@ -107,7 +114,7 @@
         "id": 103016770,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-06-11T22:44:31+00:00"
       },
       {
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-11T22:00:09.387000+00:00"
-      },
-      {
-        "id": 102990432,
-        "subject": "Weekly CX Boost for Umeistore",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-11T19:45:54+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-12T01:39:04.952Z",
+    "gorgiasUpdated": "2026-06-12T06:18:35.444Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
