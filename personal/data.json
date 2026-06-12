@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T23:01:44.461Z",
+  "lastUpdated": "2026-06-12T23:01:56.880Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103175499,
+        "subject": "Sell $5K in Summer, get $200 back. Here's how.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-12T22:16:17.086000+00:00"
+      },
+      {
         "id": 103163476,
         "subject": "Voice Message from 16465803951",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-12T16:39:57+00:00"
-      },
-      {
-        "id": 103118651,
-        "subject": "Direct message with pedro.ugc",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-12T16:27:33.451000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-12T21:18:29.946Z",
+    "gorgiasUpdated": "2026-06-12T23:01:56.734Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
