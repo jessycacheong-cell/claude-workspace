@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T01:32:47.019Z",
+  "lastUpdated": "2026-06-13T01:33:08.333Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103191636,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-13T00:58:48+00:00"
+      },
+      {
+        "id": 103190685,
+        "subject": "Re: Order #1727 confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-13T00:47:50+00:00"
+      },
+      {
         "id": 103175499,
         "subject": "Sell $5K in Summer, get $200 back. Here's how.",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-12T19:05:46+00:00"
-      },
-      {
-        "id": 103147820,
-        "subject": "Important: Your Loom workspace is moving to Atlassian soon",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-12T19:02:35+00:00"
-      },
-      {
-        "id": 103121333,
-        "subject": "Update to Google Ads Policy",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-12T16:39:57+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-12T23:01:56.734Z",
+    "gorgiasUpdated": "2026-06-13T01:33:08.141Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
