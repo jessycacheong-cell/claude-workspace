@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T09:31:33.744Z",
+  "lastUpdated": "2026-06-13T09:31:56.067Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103217145,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-13T09:23:07+00:00"
+      },
+      {
         "id": 103202140,
         "subject": "You appeared in recent searches",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-13T00:58:48+00:00"
-      },
-      {
-        "id": 103190685,
-        "subject": "Re: Order #1727 confirmed",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-13T00:47:50+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-13T06:00:57.654Z",
+    "gorgiasUpdated": "2026-06-13T09:31:55.830Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
