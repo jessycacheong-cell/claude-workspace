@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T20:08:57.697Z",
+  "lastUpdated": "2026-06-14T20:09:02.692Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103371825,
+        "subject": "We Value Your Feedback - Amazon Lending",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-14T19:47:22+00:00"
+      },
+      {
         "id": 103348529,
         "subject": "UMEI — Structural alignment for your 3D-printed uppers?",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-13T21:23:31+00:00"
-      },
-      {
-        "id": 103253579,
-        "subject": "You appeared in recent searches",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-13T16:15:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-14T18:21:58.778Z",
+    "gorgiasUpdated": "2026-06-14T20:09:02.530Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
