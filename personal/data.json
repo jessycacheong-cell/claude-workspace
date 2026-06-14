@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T21:36:14.571Z",
+  "lastUpdated": "2026-06-14T21:37:31.133Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103375224,
+        "subject": "Return order #1722",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-14T20:24:56+00:00"
+      },
+      {
         "id": 103371825,
         "subject": "We Value Your Feedback - Amazon Lending",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-14T01:08:35+00:00"
-      },
-      {
-        "id": 103287429,
-        "subject": "UMEI, there’s still time to get 40% off",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-13T21:23:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-14T20:09:02.530Z",
+    "gorgiasUpdated": "2026-06-14T21:37:30.987Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
