@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T20:37:52.746Z",
+  "lastUpdated": "2026-06-15T20:38:07.515Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103510729,
+        "subject": "Andrew Clarke, Global President - Mars Snacking, is popular in your network",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-15T18:16:00+00:00"
+      },
+      {
+        "id": 103509509,
+        "subject": "Direct message with atlratpackruns",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-15T18:10:46.749000+00:00"
+      },
+      {
+        "id": 103507926,
+        "subject": "Voice Message from 15756356128",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-15T18:03:53+00:00"
+      },
+      {
         "id": 103494449,
         "subject": "Your Week In Reviews For UMEI Store",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-15T16:30:56+00:00"
-      },
-      {
-        "id": 103480632,
-        "subject": "Your 5 lowest-performing metrics",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-15T16:04:11.857000+00:00"
-      },
-      {
-        "id": 103474260,
-        "subject": "了解您的广告在那些投放渠道的效果更出色。",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-15T15:36:35+00:00"
-      },
-      {
-        "id": 103473530,
-        "subject": "Distribution Opportunity For Umei",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-15T15:33:21+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-15T17:34:03.820Z",
+    "gorgiasUpdated": "2026-06-15T20:38:07.125Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
