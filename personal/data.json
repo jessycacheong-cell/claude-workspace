@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T22:36:26.621Z",
+  "lastUpdated": "2026-06-15T22:37:59.880Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103568554,
+        "subject": "Summer 2026 sellers are moving early 😎",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-15T22:32:34.415000+00:00"
+      },
+      {
         "id": 103510729,
         "subject": "Andrew Clarke, Global President - Mars Snacking, is popular in your network",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-15T17:02:33+00:00"
-      },
-      {
-        "id": 103486946,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-15T16:30:56+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-15T20:38:07.125Z",
+    "gorgiasUpdated": "2026-06-15T22:37:59.718Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
