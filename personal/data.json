@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T17:33:39.070Z",
+  "lastUpdated": "2026-06-15T17:34:04.013Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 103375224,
-        "subject": "Return order #1722",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-14T20:24:56+00:00"
-      },
-      {
-        "id": 103371825,
-        "subject": "We Value Your Feedback - Amazon Lending",
+        "id": 103494449,
+        "subject": "Your Week In Reviews For UMEI Store",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-14T19:47:22+00:00"
+        "timestamp": "2026-06-15T17:02:33+00:00"
       },
       {
-        "id": 103348529,
-        "subject": "UMEI — Structural alignment for your 3D-printed uppers?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-14T15:33:18+00:00"
-      },
-      {
-        "id": 103341495,
+        "id": 103486946,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-14T14:12:47+00:00"
+        "timestamp": "2026-06-15T16:30:56+00:00"
       },
       {
-        "id": 103303846,
-        "subject": "Payout for Jun 15, 2026 (-$59.40 USD)",
+        "id": 103480632,
+        "subject": "Your 5 lowest-performing metrics",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-14T01:08:35+00:00"
+        "timestamp": "2026-06-15T16:04:11.857000+00:00"
+      },
+      {
+        "id": 103474260,
+        "subject": "了解您的广告在那些投放渠道的效果更出色。",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-15T15:36:35+00:00"
+      },
+      {
+        "id": 103473530,
+        "subject": "Distribution Opportunity For Umei",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-15T15:33:21+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-15T12:39:03.268Z",
+    "gorgiasUpdated": "2026-06-15T17:34:03.820Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
