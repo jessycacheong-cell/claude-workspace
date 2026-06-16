@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T06:14:05.711Z",
+  "lastUpdated": "2026-06-16T06:14:15.310Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103621084,
+        "subject": "Arek Chyliński (he/him/his) recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-16T04:16:29+00:00"
+      },
+      {
+        "id": 103616332,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-16T03:33:46+00:00"
+      },
+      {
         "id": 103568554,
         "subject": "Summer 2026 sellers are moving early 😎",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-15T18:10:46.749000+00:00"
-      },
-      {
-        "id": 103507926,
-        "subject": "Voice Message from 15756356128",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-15T18:03:53+00:00"
-      },
-      {
-        "id": 103494449,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-15T17:02:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-16T00:15:38.235Z",
+    "gorgiasUpdated": "2026-06-16T06:14:15.144Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
