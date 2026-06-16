@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T20:28:54.973Z",
+  "lastUpdated": "2026-06-16T22:33:17.680Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103802737,
+        "subject": "Direct message with _demiera",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-16T22:04:53.629000+00:00"
+      },
+      {
+        "id": 103794268,
+        "subject": "Re: Order #1704 confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-16T21:18:05+00:00"
+      },
+      {
         "id": 103775002,
         "subject": "Help shape Klaviyo's personalization (10 minutes)",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-16T17:45:16+00:00"
-      },
-      {
-        "id": 103740690,
-        "subject": "Your most-trusted business tools, now 25% off",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-16T17:05:54+00:00"
-      },
-      {
-        "id": 103738731,
-        "subject": "Direct message with himeon44",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-16T17:00:54.495000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-16T20:28:54.822Z",
+    "gorgiasUpdated": "2026-06-16T22:33:17.498Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
