@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T20:27:44.883Z",
+  "lastUpdated": "2026-06-16T20:28:54.973Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 103666813,
-        "subject": "Recovery footwear in SOUK Studio?",
+        "id": 103775002,
+        "subject": "Help shape Klaviyo's personalization (10 minutes)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-16T11:45:46+00:00"
+        "timestamp": "2026-06-16T19:40:46+00:00"
       },
       {
-        "id": 103652116,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 103766290,
+        "subject": "在 Prime 会员日脱颖而出",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-16T09:40:51+00:00"
+        "timestamp": "2026-06-16T19:02:55+00:00"
       },
       {
-        "id": 103644567,
-        "subject": "Yumei, the creativity on Behance will amaze you",
+        "id": 103748441,
+        "subject": "Stop measuring automation rate + CSAT",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-16T08:16:33+00:00"
+        "timestamp": "2026-06-16T17:45:16+00:00"
       },
       {
-        "id": 103635400,
-        "subject": "Refund Initiated for Order 113-3366347-4288256",
+        "id": 103740690,
+        "subject": "Your most-trusted business tools, now 25% off",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-16T06:47:42+00:00"
+        "timestamp": "2026-06-16T17:05:54+00:00"
       },
       {
-        "id": 103621084,
-        "subject": "Arek Chyliński (he/him/his) recently posted",
+        "id": 103738731,
+        "subject": "Direct message with himeon44",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-16T04:16:29+00:00"
+        "status": "open",
+        "timestamp": "2026-06-16T17:00:54.495000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-16T11:55:35.050Z",
+    "gorgiasUpdated": "2026-06-16T20:28:54.822Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
