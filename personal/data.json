@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T19:16:46.826Z",
+  "lastUpdated": "2026-06-17T19:47:45.699Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104009822,
+        "subject": "Upcoming changes to the tax service in Canada",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-17T19:37:46+00:00"
+      },
+      {
+        "id": 103983637,
+        "subject": "Auto-Enrollment in Amazon Manufacturer Support - Respond in 30 Days",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-17T17:57:08+00:00"
+      },
+      {
+        "id": 103974758,
+        "subject": "Prime Day is next week. Your $50 offer awaits.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-17T17:22:41+00:00"
+      },
+      {
         "id": 103971832,
         "subject": "Refund Initiated for Order 113-0031106-7193869",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-17T16:56:11+00:00"
-      },
-      {
-        "id": 103967321,
-        "subject": "Explore the Spring ’26 Edition",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-17T16:55:04.770000+00:00"
-      },
-      {
-        "id": 103964029,
-        "subject": "Get increased New Selection Program (2026) benefits starting July 30",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-17T16:42:52+00:00"
-      },
-      {
-        "id": 103946026,
-        "subject": "Re: Refund notification",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-17T15:34:22+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-17T17:19:11.024Z",
+    "gorgiasUpdated": "2026-06-17T19:47:45.531Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
