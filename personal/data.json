@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T00:01:45.202Z",
+  "lastUpdated": "2026-06-17T00:02:26.373Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103812306,
+        "subject": "Your puzzle today, UMEI 🧩",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-16T23:06:57+00:00"
+      },
+      {
         "id": 103802737,
         "subject": "Direct message with _demiera",
         "customer": "Unknown",
@@ -100,7 +107,7 @@
         "id": 103794268,
         "subject": "Re: Order #1704 confirmed",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-06-16T21:18:05+00:00"
       },
       {
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-16T19:02:55+00:00"
-      },
-      {
-        "id": 103748441,
-        "subject": "Stop measuring automation rate + CSAT",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-16T17:45:16+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-16T22:33:17.498Z",
+    "gorgiasUpdated": "2026-06-17T00:02:26.182Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
