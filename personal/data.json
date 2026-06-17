@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T23:08:45.049Z",
+  "lastUpdated": "2026-06-17T23:49:57.476Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104056399,
+        "subject": "LIVE selling: the strategy top TikTok sellers swear by",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-17T22:41:55.034000+00:00"
+      },
+      {
         "id": 104009822,
         "subject": "Upcoming changes to the tax service in Canada",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-17T17:10:40+00:00"
-      },
-      {
-        "id": 103967530,
-        "subject": "Expanded ads partner solutions in the EEA, the UK, and Switzerland",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-17T16:56:11+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-17T22:09:03.380Z",
+    "gorgiasUpdated": "2026-06-17T23:49:57.319Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
