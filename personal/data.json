@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T09:59:31.494Z",
+  "lastUpdated": "2026-06-17T10:01:45.302Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 103885187,
+        "subject": "We’ve updated Framer’s legal terms",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-17T09:58:16+00:00"
+      },
+      {
+        "id": 103876858,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-17T08:35:27+00:00"
+      },
+      {
+        "id": 103876163,
+        "subject": "Introducing Framer 3.0",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-17T08:29:28+00:00"
+      },
+      {
+        "id": 103862699,
+        "subject": "I’ve sent you a connection request",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-17T06:16:03+00:00"
+      },
+      {
         "id": 103852971,
         "subject": "Welcome to Astra",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-17T04:39:41+00:00"
-      },
-      {
-        "id": 103848023,
-        "subject": "Your Astra plan is now active",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-17T03:54:49+00:00"
-      },
-      {
-        "id": 103846443,
-        "subject": "Your Topaz Labs order from June 16, 2026 is complete",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-17T03:39:33+00:00"
-      },
-      {
-        "id": 103845243,
-        "subject": "You shared some Google Account data with astra.app",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-17T03:29:44+00:00"
-      },
-      {
-        "id": 103845237,
-        "subject": "Your account on Topaz Labs",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-17T03:29:42+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-17T05:08:59.582Z",
+    "gorgiasUpdated": "2026-06-17T10:01:45.144Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
