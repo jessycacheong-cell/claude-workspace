@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T13:55:09.968Z",
+  "lastUpdated": "2026-06-17T13:56:52.594Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 103885187,
-        "subject": "We’ve updated Framer’s legal terms",
+        "id": 103913910,
+        "subject": "Someone's about to start Xmind where you once did",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-17T09:58:16+00:00"
+        "timestamp": "2026-06-17T13:05:23+00:00"
       },
       {
-        "id": 103876858,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 103903902,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-17T08:35:27+00:00"
+        "status": "open",
+        "timestamp": "2026-06-17T12:23:29.562000+00:00"
       },
       {
-        "id": 103876163,
-        "subject": "Introducing Framer 3.0",
+        "id": 103901490,
+        "subject": "Big news: Loox is launching Reviewers.com",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-17T08:29:28+00:00"
+        "status": "open",
+        "timestamp": "2026-06-17T12:04:52+00:00"
       },
       {
-        "id": 103862699,
-        "subject": "I’ve sent you a connection request",
+        "id": 103895712,
+        "subject": "Re: Refund please",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-17T06:16:03+00:00"
+        "timestamp": "2026-06-17T11:24:45+00:00"
       },
       {
-        "id": 103852971,
-        "subject": "Welcome to Astra",
+        "id": 103891123,
+        "subject": "I didn't checkout",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-17T04:39:41+00:00"
+        "status": "open",
+        "timestamp": "2026-06-17T10:46:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-17T10:01:45.144Z",
+    "gorgiasUpdated": "2026-06-17T13:56:52.398Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
