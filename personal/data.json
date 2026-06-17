@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T17:17:56.008Z",
+  "lastUpdated": "2026-06-17T17:19:11.205Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 103913910,
-        "subject": "Someone's about to start Xmind where you once did",
+        "id": 103971832,
+        "subject": "Refund Initiated for Order 113-0031106-7193869",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-17T17:10:40+00:00"
+      },
+      {
+        "id": 103967530,
+        "subject": "Expanded ads partner solutions in the EEA, the UK, and Switzerland",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-17T13:05:23+00:00"
+        "timestamp": "2026-06-17T16:56:11+00:00"
       },
       {
-        "id": 103903902,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-17T12:23:29.562000+00:00"
-      },
-      {
-        "id": 103901490,
-        "subject": "Big news: Loox is launching Reviewers.com",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-17T12:04:52+00:00"
-      },
-      {
-        "id": 103895712,
-        "subject": "Re: Refund please",
+        "id": 103967321,
+        "subject": "Explore the Spring ’26 Edition",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-17T11:24:45+00:00"
+        "timestamp": "2026-06-17T16:55:04.770000+00:00"
       },
       {
-        "id": 103891123,
-        "subject": "I didn't checkout",
+        "id": 103964029,
+        "subject": "Get increased New Selection Program (2026) benefits starting July 30",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-17T10:46:33+00:00"
+        "status": "closed",
+        "timestamp": "2026-06-17T16:42:52+00:00"
+      },
+      {
+        "id": 103946026,
+        "subject": "Re: Refund notification",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-17T15:34:22+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-17T13:56:52.398Z",
+    "gorgiasUpdated": "2026-06-17T17:19:11.024Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
