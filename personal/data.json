@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T10:58:49.942Z",
+  "lastUpdated": "2026-06-18T13:39:15.496Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104214688,
+        "subject": "Accelerate Pavilion: where partnerships, community, and innovation meet. Save $100.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-18T12:55:18+00:00"
+      },
+      {
+        "id": 104209305,
+        "subject": "The skittle and chocolate round candy mounted ink pens.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-18T12:29:25+00:00"
+      },
+      {
+        "id": 104208898,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-18T12:27:16.844000+00:00"
+      },
+      {
+        "id": 104207471,
+        "subject": "Stop guessing what converts →",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-18T12:19:39+00:00"
+      },
+      {
         "id": 104135481,
         "subject": "UMEI3D, an item in your cart just got cheaper 💸",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-18T05:04:28.500000+00:00"
-      },
-      {
-        "id": 104131314,
-        "subject": "Controlling your output: Precise vs. Creative",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-18T04:40:26+00:00"
-      },
-      {
-        "id": 104127221,
-        "subject": "Caroline Schalk and others share their thoughts on LinkedIn",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-18T04:15:59+00:00"
-      },
-      {
-        "id": 104114382,
-        "subject": "Direct message with hess_haven",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-18T03:10:14.776000+00:00"
-      },
-      {
-        "id": 104056399,
-        "subject": "LIVE selling: the strategy top TikTok sellers swear by",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-17T22:41:55.034000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-18T09:42:31.673Z",
+    "gorgiasUpdated": "2026-06-18T13:39:15.160Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
