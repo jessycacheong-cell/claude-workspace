@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T15:51:32.304Z",
+  "lastUpdated": "2026-06-19T16:38:19.151Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -345,16 +345,6 @@
         "url": "https://app.notion.com/p/Month-3-gate-review-with-Christine-All-four-gates-met-early-raise-Missing-any-gate-next-checkp-34f2c564dcb180789484e494b3958323"
       },
       {
-        "name": "SOP#3: Area Lead (AL) Regional PA Maintenance",
-        "status": "Not started",
-        "team": null,
-        "start": "2026-06-19",
-        "end": null,
-        "milestone": false,
-        "progress": 0,
-        "url": "https://app.notion.com/p/SOP-3-Area-Lead-AL-Regional-PA-Maintenance-34f2c564dcb1800a87ace9923ed3e409"
-      },
-      {
         "name": "SOP#2: Project Management Flow",
         "status": "Not started",
         "team": null,
@@ -375,23 +365,13 @@
         "url": "https://app.notion.com/p/Day-60-KPI-targets-from-your-scorecard-all-50-AI-agents-live-QA-dashboard-live-and-running-2-500-34f2c564dcb180eda320ca0a322fd1bc"
       },
       {
-        "name": "SOP#1: Maintenance & Custodial Flow",
-        "status": "Not started",
-        "team": null,
-        "start": "2026-06-05",
-        "end": null,
-        "milestone": false,
-        "progress": 100,
-        "url": "https://app.notion.com/p/SOP-1-Maintenance-Custodial-Flow-34f2c564dcb18037a501f756345ad9c6"
-      },
-      {
         "name": "App.cubework essentials (To replace Yardi) - PA escalation",
         "status": "Not started",
         "team": null,
         "start": "2026-06-05",
         "end": null,
         "milestone": false,
-        "progress": 0,
+        "progress": 100,
         "url": "https://app.notion.com/p/App-cubework-essentials-To-replace-Yardi-PA-escalation-34f2c564dcb180839f70e3302d45cafd"
       },
       {
@@ -595,6 +575,6 @@
         "url": "https://app.notion.com/p/Knowledge-Base-Directory-List-Phase-1-Explore-Teams-API-feasibility-34a2c564dcb181d98322e51dde4ece8b"
       }
     ],
-    "updatedAt": "2026-06-19T13:46:59.528Z"
+    "updatedAt": "2026-06-19T16:38:19.151Z"
   }
 }
