@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T18:05:45.198Z",
+  "lastUpdated": "2026-06-19T18:20:12.143Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -305,36 +305,6 @@
         "url": "https://app.notion.com/p/Do-field-observation-site-visit-Out-of-Walnut-3502c564dcb18010a191d1ee52c97b56"
       },
       {
-        "name": "🏁 Month 3 Complete — Gate Review + Early Raise Decision",
-        "status": "Not started",
-        "team": "Christine",
-        "start": "2026-07-19",
-        "end": null,
-        "milestone": true,
-        "progress": 0,
-        "url": "https://app.notion.com/p/Month-3-Complete-Gate-Review-Early-Raise-Decision-34f2c564dcb181238794c03cd2f0222f"
-      },
-      {
-        "name": "🏁 Month 2 Complete — All 50 AI Agents Live + QA Dashboard",
-        "status": "Not started",
-        "team": "Christine",
-        "start": "2026-06-19",
-        "end": null,
-        "milestone": true,
-        "progress": 100,
-        "url": "https://app.notion.com/p/Month-2-Complete-All-50-AI-Agents-Live-QA-Dashboard-34f2c564dcb1814bb183c73056108023"
-      },
-      {
-        "name": "🏁 Month 1 Complete — Audit Delivered to Christine",
-        "status": "Not started",
-        "team": "Christine",
-        "start": "2026-05-20",
-        "end": null,
-        "milestone": true,
-        "progress": 100,
-        "url": "https://app.notion.com/p/Month-1-Complete-Audit-Delivered-to-Christine-34f2c564dcb18178aae8f3746d299eb2"
-      },
-      {
         "name": "Month 3 gate review with Christine//All four gates met = early raise. Missing any gate = next checkpoint is Month 6 formal review, then Month 8 year-end. Walk into that review with documentation for every gate — don't rely on memory or verbal claims.",
         "status": "Not started",
         "team": null,
@@ -343,16 +313,6 @@
         "milestone": false,
         "progress": 0,
         "url": "https://app.notion.com/p/Month-3-gate-review-with-Christine-All-four-gates-met-early-raise-Missing-any-gate-next-checkp-34f2c564dcb180789484e494b3958323"
-      },
-      {
-        "name": "SOP#2: Project Management Flow",
-        "status": "Not started",
-        "team": null,
-        "start": "2026-06-12",
-        "end": null,
-        "milestone": false,
-        "progress": 100,
-        "url": "https://app.notion.com/p/SOP-2-Project-Management-Flow-34f2c564dcb1808b9bceef295e662b43"
       },
       {
         "name": "Day 60: KPI targets from your scorecard: all 50 AI agents live, QA dashboard live and running, 2,500+ tenant emails processed, all playbooks documented, agent accuracy >85%, response time <5 min average, 10 request-type playbooks done, Facility Ops SOP first draft in Notion, Lead PM plan proposed, SLA compliance >75%.",
@@ -380,7 +340,7 @@
         "team": null,
         "start": "2026-05-22",
         "end": null,
-        "milestone": false,
+        "milestone": true,
         "progress": 100,
         "url": "https://app.notion.com/p/Contact-Directory-List-Live-connected-with-Teams-QA-analytics-is-built-34f2c564dcb18045aec2ffe012a0b0fb"
       },
@@ -575,6 +535,6 @@
         "url": "https://app.notion.com/p/Knowledge-Base-Directory-List-Phase-1-Explore-Teams-API-feasibility-34a2c564dcb181d98322e51dde4ece8b"
       }
     ],
-    "updatedAt": "2026-06-19T16:38:19.151Z"
+    "updatedAt": "2026-06-19T18:20:12.143Z"
   }
 }
