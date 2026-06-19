@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T21:47:54.192Z",
+  "lastUpdated": "2026-06-19T22:33:17.488Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104534196,
+        "subject": "Loud Solutions is hiring a Founder",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-19T22:16:00+00:00"
+      },
+      {
+        "id": 104533711,
+        "subject": "Your store + Shopify + TikTok Shop = unstoppable 💪",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-19T22:11:45.522000+00:00"
+      },
+      {
         "id": 104506102,
         "subject": "在 Prime 会员日脱颖而出",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-19T18:17:48.400000+00:00"
-      },
-      {
-        "id": 104493524,
-        "subject": "Refund Initiated for Order 114-4292909-7193020",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-19T18:03:19+00:00"
-      },
-      {
-        "id": 104462011,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-19T15:32:05+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-19T21:18:35.503Z",
+    "gorgiasUpdated": "2026-06-19T22:33:17.316Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
