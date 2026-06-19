@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T18:27:53.275Z",
+  "lastUpdated": "2026-06-19T20:01:08.836Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104506102,
+        "subject": "在 Prime 会员日脱颖而出",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-19T19:03:23+00:00"
+      },
+      {
+        "id": 104502086,
+        "subject": "Your Loom workspace integration is complete – check out what’s new",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-19T18:42:49+00:00"
+      },
+      {
+        "id": 104496892,
+        "subject": "Direct message with inkline.arts",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-19T18:17:48.400000+00:00"
+      },
+      {
         "id": 104493524,
         "subject": "Refund Initiated for Order 114-4292909-7193020",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-19T15:32:05+00:00"
-      },
-      {
-        "id": 104447672,
-        "subject": "Complete this short survey for a chance to receive $100 ad credit!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-19T14:21:32.883000+00:00"
-      },
-      {
-        "id": 104428415,
-        "subject": "Business Essentials meets Prime Day",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-19T12:10:17+00:00"
-      },
-      {
-        "id": 104402074,
-        "subject": "Achieve professional motion with frame interpolation",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-19T04:39:48+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-19T18:05:44.981Z",
+    "gorgiasUpdated": "2026-06-19T20:01:08.692Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
