@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T00:13:13.097Z",
+  "lastUpdated": "2026-06-19T02:20:42.520Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104384076,
+        "subject": "Refund Initiated for Order 111-9886377-2298612",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-19T00:50:59+00:00"
+      },
+      {
+        "id": 104383731,
+        "subject": "Hey umei3d, quick one",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-19T00:46:48+00:00"
+      },
+      {
+        "id": 104383148,
+        "subject": "Who sent me here? ​",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-19T00:40:08+00:00"
+      },
+      {
+        "id": 104376730,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-18T23:40:56+00:00"
+      },
+      {
         "id": 104350515,
         "subject": "Google Analytics: Update to your Shopify events via server-to-server integration",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-18T20:28:54+00:00"
-      },
-      {
-        "id": 104326609,
-        "subject": "在 Prime 会员日脱颖而出",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-18T19:03:46+00:00"
-      },
-      {
-        "id": 104284419,
-        "subject": "Turn your segments into conversion machines",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-18T16:46:09.295000+00:00"
-      },
-      {
-        "id": 104277848,
-        "subject": "You're eligible to apply for a PayPal Business Loan",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-18T16:24:50+00:00"
-      },
-      {
-        "id": 104275953,
-        "subject": "You appeared in recent searches",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-18T16:18:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-18T23:22:45.069Z",
+    "gorgiasUpdated": "2026-06-19T02:20:42.044Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
