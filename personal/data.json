@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-19T05:36:57.871Z",
+  "lastUpdated": "2026-06-19T08:17:17.326Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104402074,
+        "subject": "Achieve professional motion with frame interpolation",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-19T04:39:48+00:00"
+      },
+      {
+        "id": 104400778,
+        "subject": "Ari Malhotra and others share their thoughts on LinkedIn",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-19T04:16:01+00:00"
+      },
+      {
+        "id": 104397982,
+        "subject": "New skill available: Puzzle solving 🧩",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-19T03:29:55+00:00"
+      },
+      {
+        "id": 104392873,
+        "subject": "[UMEI Store] Order #1740 placed by Juana Bryant",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-19T02:22:00+00:00"
+      },
+      {
         "id": 104384076,
         "subject": "Refund Initiated for Order 111-9886377-2298612",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-19T00:50:59+00:00"
-      },
-      {
-        "id": 104383731,
-        "subject": "Hey umei3d, quick one",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-19T00:46:48+00:00"
-      },
-      {
-        "id": 104383148,
-        "subject": "Who sent me here? ​",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-19T00:40:08+00:00"
-      },
-      {
-        "id": 104376730,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-18T23:40:56+00:00"
-      },
-      {
-        "id": 104350515,
-        "subject": "Google Analytics: Update to your Shopify events via server-to-server integration",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-18T20:28:54+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-19T02:20:42.044Z",
+    "gorgiasUpdated": "2026-06-19T08:17:17.115Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
