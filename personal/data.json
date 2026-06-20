@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T15:08:43.869Z",
+  "lastUpdated": "2026-06-20T16:44:23.545Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104608815,
+        "subject": "You appeared in recent searches",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-20T16:16:05+00:00"
+      },
+      {
         "id": 104594709,
         "subject": "专门为您打造的 Prime 会员日广告活动",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-20T00:50:25+00:00"
-      },
-      {
-        "id": 104534196,
-        "subject": "Loud Solutions is hiring a Founder",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-19T22:16:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-20T14:54:44.217Z",
+    "gorgiasUpdated": "2026-06-20T16:44:23.307Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
