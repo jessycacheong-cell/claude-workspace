@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T00:18:31.376Z",
+  "lastUpdated": "2026-06-20T04:37:34.810Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104554452,
+        "subject": "👤 UMEI, add Harvest Thant",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-20T02:15:59+00:00"
+      },
+      {
+        "id": 104547938,
+        "subject": "umei3d",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-20T00:50:25+00:00"
+      },
+      {
         "id": 104534196,
         "subject": "Loud Solutions is hiring a Founder",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-19T19:03:23+00:00"
-      },
-      {
-        "id": 104502086,
-        "subject": "Your Loom workspace integration is complete – check out what’s new",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-19T18:42:49+00:00"
-      },
-      {
-        "id": 104496892,
-        "subject": "Direct message with inkline.arts",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-19T18:17:48.400000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-19T23:44:17.167Z",
+    "gorgiasUpdated": "2026-06-20T04:37:34.647Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
