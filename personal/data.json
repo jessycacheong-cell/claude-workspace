@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T12:57:29.239Z",
+  "lastUpdated": "2026-06-20T14:54:44.361Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104594709,
+        "subject": "专门为您打造的 Prime 会员日广告活动",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-20T14:14:03+00:00"
+      },
+      {
         "id": 104566645,
         "subject": "Your introductory price for Monica AI: Ultimate AI Assist will end on Jun 27, 2026",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-19T22:16:00+00:00"
-      },
-      {
-        "id": 104533711,
-        "subject": "Your store + Shopify + TikTok Shop = unstoppable 💪",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-19T22:11:45.522000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-20T12:17:39.718Z",
+    "gorgiasUpdated": "2026-06-20T14:54:44.217Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
