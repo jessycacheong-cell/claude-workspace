@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T20:06:20.528Z",
+  "lastUpdated": "2026-06-20T20:38:35.052Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104630851,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-20T19:32:47+00:00"
+      },
+      {
         "id": 104608815,
         "subject": "You appeared in recent searches",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-20T02:15:59+00:00"
-      },
-      {
-        "id": 104547938,
-        "subject": "umei3d",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-20T00:50:25+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-20T18:43:18.306Z",
+    "gorgiasUpdated": "2026-06-20T20:38:34.896Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
