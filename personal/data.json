@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T18:14:24.135Z",
+  "lastUpdated": "2026-06-21T18:50:01.555Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104713257,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-21T17:32:02+00:00"
+      },
+      {
         "id": 104706812,
         "subject": "Zoho Campaigns Subscription - Payment Renewal Ahead!",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-21T01:18:39+00:00"
-      },
-      {
-        "id": 104654895,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-21T00:22:43+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-21T17:09:56.164Z",
+    "gorgiasUpdated": "2026-06-21T18:50:01.381Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
