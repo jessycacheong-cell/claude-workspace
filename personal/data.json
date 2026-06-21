@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T16:17:37.028Z",
+  "lastUpdated": "2026-06-21T17:09:56.350Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104706812,
+        "subject": "Zoho Campaigns Subscription - Payment Renewal Ahead!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-21T16:21:06+00:00"
+      },
+      {
         "id": 104674950,
         "subject": "😍😍😍😍",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-21T00:22:43+00:00"
-      },
-      {
-        "id": 104651678,
-        "subject": "Direct message with logan.gm.5280",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-20T23:37:34.696000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-21T15:29:38.576Z",
+    "gorgiasUpdated": "2026-06-21T17:09:56.164Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
