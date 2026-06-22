@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T17:16:32.209Z",
+  "lastUpdated": "2026-06-22T19:56:02.113Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104878492,
+        "subject": "UNDFTD X MNWLKR",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-22T19:44:10+00:00"
+      },
+      {
+        "id": 104871048,
+        "subject": "在 Prime 会员日脱颖而出",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-22T19:05:20+00:00"
+      },
+      {
+        "id": 104861428,
+        "subject": "Hugo Clément, Journaliste présentateur, is popular in your network",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-22T18:18:15+00:00"
+      },
+      {
+        "id": 104844649,
+        "subject": "Your Week In Reviews For UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-22T17:02:32+00:00"
+      },
+      {
         "id": 104809574,
         "subject": "Complex edits, made effortless",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-22T14:20:51+00:00"
-      },
-      {
-        "id": 104797137,
-        "subject": "Ready for Prime Day?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-22T13:09:40+00:00"
-      },
-      {
-        "id": 104776658,
-        "subject": "Propuesta de patrocinio local y solidario - Proyecto IMPREXA",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-22T09:06:39+00:00"
-      },
-      {
-        "id": 104762001,
-        "subject": "Tai Huynh posted: PrototyperLab.com seems right up our alley. 💡",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-22T04:16:02+00:00"
-      },
-      {
-        "id": 104760702,
-        "subject": "More than 27 of your products aren’t on Google  ",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-22T03:53:22+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-22T16:15:12.869Z",
+    "gorgiasUpdated": "2026-06-22T19:56:01.857Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
