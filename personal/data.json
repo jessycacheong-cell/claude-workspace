@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T06:09:43.967Z",
+  "lastUpdated": "2026-06-22T11:18:18.468Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104776658,
+        "subject": "Propuesta de patrocinio local y solidario - Proyecto IMPREXA",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-22T09:06:39+00:00"
+      },
+      {
         "id": 104762001,
         "subject": "Tai Huynh posted: PrototyperLab.com seems right up our alley. 💡",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-21T23:24:35+00:00"
-      },
-      {
-        "id": 104713257,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-21T17:32:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-22T05:26:05.060Z",
+    "gorgiasUpdated": "2026-06-22T11:18:18.261Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
