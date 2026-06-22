@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T20:21:00.916Z",
+  "lastUpdated": "2026-06-22T22:14:45.932Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104899880,
+        "subject": "Update to backup payment methods",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-22T21:40:02+00:00"
+      },
+      {
+        "id": 104886581,
+        "subject": "Balance paid on your Amazon seller account",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-22T20:26:41+00:00"
+      },
+      {
         "id": 104878492,
         "subject": "UNDFTD X MNWLKR",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-22T18:18:15+00:00"
-      },
-      {
-        "id": 104844649,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-22T17:02:32+00:00"
-      },
-      {
-        "id": 104809574,
-        "subject": "Complex edits, made effortless",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-22T14:20:51+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-22T19:56:01.857Z",
+    "gorgiasUpdated": "2026-06-22T22:14:45.764Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
