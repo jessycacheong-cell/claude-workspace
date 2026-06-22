@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-22T00:19:49.401Z",
+  "lastUpdated": "2026-06-22T05:26:05.308Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104762001,
+        "subject": "Tai Huynh posted: PrototyperLab.com seems right up our alley. 💡",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-22T04:16:02+00:00"
+      },
+      {
+        "id": 104760702,
+        "subject": "More than 27 of your products aren’t on Google  ",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-22T03:53:22+00:00"
+      },
+      {
+        "id": 104756373,
+        "subject": "Direct message with chriswoodis",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-22T02:41:21.551000+00:00"
+      },
+      {
         "id": 104742100,
         "subject": "Your Klaviyo Inc subscription will renew soon",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-21T17:32:02+00:00"
-      },
-      {
-        "id": 104706812,
-        "subject": "Zoho Campaigns Subscription - Payment Renewal Ahead!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-21T16:21:06+00:00"
-      },
-      {
-        "id": 104674950,
-        "subject": "😍😍😍😍",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-21T07:26:31+00:00"
-      },
-      {
-        "id": 104665823,
-        "subject": "You have 1 new invitation",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-21T03:32:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-21T23:54:12.851Z",
+    "gorgiasUpdated": "2026-06-22T05:26:05.060Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
