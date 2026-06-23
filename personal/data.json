@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T14:02:20.657Z",
+  "lastUpdated": "2026-06-23T14:02:48.249Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104980853,
+        "subject": "Prime Day is here until June 26th",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-23T12:33:44+00:00"
+      },
+      {
+        "id": 104978898,
+        "subject": "Get Essential Subscriptions free with the Founders plan 👉",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-23T12:15:57+00:00"
+      },
+      {
         "id": 104964688,
         "subject": "Your free campaign for stunning video reviews is waiting",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-23T09:28:59+00:00"
-      },
-      {
-        "id": 104956692,
-        "subject": "Re: Traffic & Sales",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-23T07:33:17+00:00"
-      },
-      {
-        "id": 104947984,
-        "subject": "Your competitors are already selling. Are you?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-23T04:55:10.700000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-23T11:29:14.714Z",
+    "gorgiasUpdated": "2026-06-23T14:02:48.067Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
