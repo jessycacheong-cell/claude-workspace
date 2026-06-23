@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T18:26:32.709Z",
+  "lastUpdated": "2026-06-23T18:28:54.790Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105039740,
+        "subject": "Weekly CX Boost for Umeistore",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-23T17:15:07+00:00"
+      },
+      {
+        "id": 105037212,
+        "subject": "More Time to Transition to Helpdesk 2.0",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-23T17:04:26+00:00"
+      },
+      {
+        "id": 105037896,
+        "subject": "Act now: 25% off your business reorder",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-23T17:04:23+00:00"
+      },
+      {
         "id": 105026670,
         "subject": "I still want to connect",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-23T15:47:06+00:00"
-      },
-      {
-        "id": 105005777,
-        "subject": "Order# 1725 return",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-23T14:43:35+00:00"
-      },
-      {
-        "id": 104999386,
-        "subject": "We Want Your Thoughts: Share Your Voice!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-23T14:12:00+00:00"
-      },
-      {
-        "id": 104997951,
-        "subject": "Redeem your credits before they expire soon!",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-23T14:01:41+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-23T16:37:46.747Z",
+    "gorgiasUpdated": "2026-06-23T18:28:54.630Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
