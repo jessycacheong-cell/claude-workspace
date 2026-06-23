@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T08:06:27.002Z",
+  "lastUpdated": "2026-06-23T08:07:12.575Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104956692,
+        "subject": "Re: Traffic & Sales",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-23T07:33:17+00:00"
+      },
+      {
+        "id": 104947984,
+        "subject": "Your competitors are already selling. Are you?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-23T04:55:10.700000+00:00"
+      },
+      {
         "id": 104935865,
         "subject": "👤 UMEI, add Martim Trigo",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-22T23:47:22+00:00"
-      },
-      {
-        "id": 104899880,
-        "subject": "Update to backup payment methods",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-22T21:40:02+00:00"
-      },
-      {
-        "id": 104886581,
-        "subject": "Balance paid on your Amazon seller account",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-22T20:26:41+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-23T04:17:18.504Z",
+    "gorgiasUpdated": "2026-06-23T08:07:12.339Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
