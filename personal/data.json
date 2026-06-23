@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T11:27:11.952Z",
+  "lastUpdated": "2026-06-23T11:29:14.941Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 104964688,
+        "subject": "Your free campaign for stunning video reviews is waiting",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-23T09:51:06+00:00"
+      },
+      {
+        "id": 104964685,
+        "subject": "5 ways to grow your store with video reviews",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-23T09:51:06+00:00"
+      },
+      {
+        "id": 104963473,
+        "subject": "FBA reimbursement notification",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-23T09:28:59+00:00"
+      },
+      {
         "id": 104956692,
         "subject": "Re: Traffic & Sales",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-23T04:55:10.700000+00:00"
-      },
-      {
-        "id": 104935865,
-        "subject": "👤 UMEI, add Martim Trigo",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-23T02:16:01+00:00"
-      },
-      {
-        "id": 104931259,
-        "subject": "TikTok Shop account new user login",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-23T01:35:11.424000+00:00"
-      },
-      {
-        "id": 104917963,
-        "subject": "Refund Initiated for Order 114-6544458-9083416",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-22T23:47:22+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-23T08:07:12.339Z",
+    "gorgiasUpdated": "2026-06-23T11:29:14.714Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
