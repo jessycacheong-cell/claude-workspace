@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T12:28:14.532Z",
+  "lastUpdated": "2026-06-24T15:21:24.299Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 105158282,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "id": 105188133,
+        "subject": "Save big– shop exclusive Prime Day deals now",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-24T15:15:24+00:00"
+      },
+      {
+        "id": 105179658,
+        "subject": "Let's get your store on TikTok Shop",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-24T14:30:21.370000+00:00"
+      },
+      {
+        "id": 105179158,
+        "subject": "(No subject)",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-06-24T12:22:09.285000+00:00"
+        "timestamp": "2026-06-24T14:27:48+00:00"
       },
       {
-        "id": 105151879,
-        "subject": "Act today & improve Sales on Excess Inventory",
+        "id": 105173912,
+        "subject": "Product Update: New brand intelligence and canvas controls",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-24T11:18:28+00:00"
+        "timestamp": "2026-06-24T14:00:26+00:00"
       },
       {
-        "id": 105138558,
-        "subject": "Zoho Campaigns - Your subscription is renewed",
+        "id": 105168490,
+        "subject": "Invoice - 50102179313 from ZOHO Corporation.",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-24T07:52:07+00:00"
-      },
-      {
-        "id": 105128046,
-        "subject": "New Balance Head of retail Operations EMEA recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-24T04:16:04+00:00"
-      },
-      {
-        "id": 105117511,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-24T01:58:33+00:00"
+        "timestamp": "2026-06-24T13:31:43+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-24T12:28:14.368Z",
+    "gorgiasUpdated": "2026-06-24T15:21:23.970Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
