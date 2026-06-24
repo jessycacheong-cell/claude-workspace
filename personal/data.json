@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T17:29:26.576Z",
+  "lastUpdated": "2026-06-24T17:29:41.204Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105200670,
+        "subject": "ICYMI: Spring ’26 Edition",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-24T16:18:26+00:00"
+      },
+      {
+        "id": 105197631,
+        "subject": "Glean named a Market Shaper in Gartner report",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-24T16:02:47+00:00"
+      },
+      {
         "id": 105188133,
         "subject": "Save big– shop exclusive Prime Day deals now",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-24T14:27:48+00:00"
-      },
-      {
-        "id": 105173912,
-        "subject": "Product Update: New brand intelligence and canvas controls",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-24T14:00:26+00:00"
-      },
-      {
-        "id": 105168490,
-        "subject": "Invoice - 50102179313 from ZOHO Corporation.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-24T13:31:43+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-24T15:21:23.970Z",
+    "gorgiasUpdated": "2026-06-24T17:29:40.988Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
