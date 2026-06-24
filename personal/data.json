@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T09:48:43.170Z",
+  "lastUpdated": "2026-06-24T09:48:54.537Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105138558,
+        "subject": "Zoho Campaigns - Your subscription is renewed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-24T07:52:07+00:00"
+      },
+      {
         "id": 105128046,
         "subject": "New Balance Head of retail Operations EMEA recently posted",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-24T00:19:24.404000+00:00"
-      },
-      {
-        "id": 105108074,
-        "subject": "🌊🌊",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-24T00:17:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-24T05:47:30.761Z",
+    "gorgiasUpdated": "2026-06-24T09:48:54.350Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
