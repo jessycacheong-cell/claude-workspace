@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T22:38:47.840Z",
+  "lastUpdated": "2026-06-24T22:49:45.201Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105261306,
+        "subject": "Direct message with lt_shinysides7",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-24T22:35:31.025000+00:00"
+      },
+      {
+        "id": 105260872,
+        "subject": "Direct message with logan.gm.5280",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-24T22:31:41.882000+00:00"
+      },
+      {
+        "id": 105259078,
+        "subject": "Altura Ventures LLC is hiring a Chief Executive Officer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-24T22:15:59+00:00"
+      },
+      {
         "id": 105240006,
         "subject": "[UMEI Store] Order #1745 placed by Ivan Roa",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-24T19:01:17+00:00"
-      },
-      {
-        "id": 105200670,
-        "subject": "ICYMI: Spring ’26 Edition",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-24T16:18:26+00:00"
-      },
-      {
-        "id": 105197631,
-        "subject": "Glean named a Market Shaper in Gartner report",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-24T16:02:47+00:00"
-      },
-      {
-        "id": 105188133,
-        "subject": "Save big– shop exclusive Prime Day deals now",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-24T15:15:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-24T21:11:26.835Z",
+    "gorgiasUpdated": "2026-06-24T22:49:44.902Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
