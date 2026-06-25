@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T10:51:19.339Z",
+  "lastUpdated": "2026-06-25T11:18:41.395Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105307552,
+        "subject": "Learn more about our updated Terms of Service",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-25T09:33:56+00:00"
+      },
+      {
         "id": 105300434,
         "subject": "Never start from a blank page again",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-25T02:03:18+00:00"
-      },
-      {
-        "id": 105278505,
-        "subject": "Klaviyo Invoice",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-25T01:30:26.834000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-25T08:29:39.874Z",
+    "gorgiasUpdated": "2026-06-25T11:18:41.232Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
