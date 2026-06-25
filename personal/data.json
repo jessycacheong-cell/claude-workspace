@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T23:42:06.552Z",
+  "lastUpdated": "2026-06-25T23:43:06.445Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105446920,
+        "subject": "Direct message with eddy_palermo",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-25T23:41:21.665000+00:00"
+      },
+      {
+        "id": 105446409,
+        "subject": "Direct message with mokhsbar",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-25T23:36:40.344000+00:00"
+      },
+      {
+        "id": 105442376,
+        "subject": "Your FBA capacity limits for July",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-25T23:04:44+00:00"
+      },
+      {
         "id": 105409225,
         "subject": "Your First Quick and Free Certification Could Mean +10% B2B Growth",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-25T19:26:46.158000+00:00"
-      },
-      {
-        "id": 105401659,
-        "subject": "在 Prime 会员日脱颖而出",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-25T19:06:55+00:00"
-      },
-      {
-        "id": 105389434,
-        "subject": "support",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-25T18:10:18+00:00"
-      },
-      {
-        "id": 105357886,
-        "subject": "Prime deals — here for one more day",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-25T15:37:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-25T22:08:12.185Z",
+    "gorgiasUpdated": "2026-06-25T23:43:06.196Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
