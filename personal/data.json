@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T08:00:54.087Z",
+  "lastUpdated": "2026-06-25T08:29:40.092Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105300434,
+        "subject": "Never start from a blank page again",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-25T07:27:59+00:00"
+      },
+      {
         "id": 105291143,
         "subject": "New customer message on June 24, 2026 at 9:22 pm",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-25T01:30:26.834000+00:00"
-      },
-      {
-        "id": 105273149,
-        "subject": "Your receipt from Klaviyo Inc #2604-6861-6455",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-25T00:28:25+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-25T04:48:55.067Z",
+    "gorgiasUpdated": "2026-06-25T08:29:39.874Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
