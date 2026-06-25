@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T13:23:54.181Z",
+  "lastUpdated": "2026-06-25T13:38:09.724Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105323268,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-25T12:31:22.963000+00:00"
+      },
+      {
+        "id": 105321716,
+        "subject": "Is your whole store just one page?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-25T12:19:45+00:00"
+      },
+      {
         "id": 105307552,
         "subject": "Learn more about our updated Terms of Service",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-25T04:22:13+00:00"
-      },
-      {
-        "id": 105282456,
-        "subject": "Beat the summer heat by selling — up to $1,900 in free ads 😎",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-25T02:16:16.204000+00:00"
-      },
-      {
-        "id": 105281393,
-        "subject": "New customer message on June 24, 2026 at 7:03 pm",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-25T02:03:18+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-25T11:18:41.232Z",
+    "gorgiasUpdated": "2026-06-25T13:38:09.541Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
