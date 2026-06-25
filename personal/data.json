@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T16:07:01.751Z",
+  "lastUpdated": "2026-06-25T16:08:42.647Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105357886,
+        "subject": "Prime deals — here for one more day",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-25T15:37:58+00:00"
+      },
+      {
         "id": 105323268,
         "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-25T07:27:59+00:00"
-      },
-      {
-        "id": 105291143,
-        "subject": "New customer message on June 24, 2026 at 9:22 pm",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-25T04:22:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-25T13:38:09.541Z",
+    "gorgiasUpdated": "2026-06-25T16:08:42.518Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
