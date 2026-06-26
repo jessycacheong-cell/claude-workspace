@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T22:21:48.365Z",
+  "lastUpdated": "2026-06-26T22:48:29.647Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105609011,
+        "subject": "Freedom Family Investments is hiring a Managing Partner",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-26T22:16:03+00:00"
+      },
+      {
+        "id": 105607575,
+        "subject": "Direct message with thpstrength",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-26T22:03:59.882000+00:00"
+      },
+      {
         "id": 105567624,
         "subject": "Lightweight EVA support for Moonwalker & Glides?",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-26T15:59:25.620000+00:00"
-      },
-      {
-        "id": 105524896,
-        "subject": "Prime Deals today. Gone tomorrow",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-26T14:50:54+00:00"
-      },
-      {
-        "id": 105524455,
-        "subject": "[Deals for You Days] UMEI3D, you left something behind!",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-26T14:48:36.484000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-26T21:37:38.745Z",
+    "gorgiasUpdated": "2026-06-26T22:48:29.433Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
