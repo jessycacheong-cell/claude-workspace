@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T19:21:13.537Z",
+  "lastUpdated": "2026-06-26T20:05:27.651Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105567624,
+        "subject": "Lightweight EVA support for Moonwalker & Glides?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-26T18:27:36+00:00"
+      },
+      {
         "id": 105548864,
         "subject": "Your Google Play Order Receipt from Jun 26, 2026",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-26T14:48:36.484000+00:00"
-      },
-      {
-        "id": 105519947,
-        "subject": "UMEI: One adapted Winter Foam Runner sample, ready for your review",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-26T14:25:29+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-26T18:01:35.998Z",
+    "gorgiasUpdated": "2026-06-26T20:05:27.395Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
