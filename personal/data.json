@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T01:51:31.463Z",
+  "lastUpdated": "2026-06-26T04:36:43.444Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105471133,
+        "subject": "Action needed: Review staff permissions before Aug 3, 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-26T04:35:28.568000+00:00"
+      },
+      {
+        "id": 105469973,
+        "subject": "Zellerfeld Shoe Company Inc. posted: Zellerfeld and Volumental are partnering to take the next step in custom… 💡",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-26T04:15:59+00:00"
+      },
+      {
+        "id": 105447296,
+        "subject": "Direct message with atlratpackruns",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-25T23:44:40.615000+00:00"
+      },
+      {
         "id": 105446920,
         "subject": "Direct message with eddy_palermo",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-25T23:36:40.344000+00:00"
-      },
-      {
-        "id": 105442376,
-        "subject": "Your FBA capacity limits for July",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-25T23:04:44+00:00"
-      },
-      {
-        "id": 105409225,
-        "subject": "Your First Quick and Free Certification Could Mean +10% B2B Growth",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-25T19:46:46+00:00"
-      },
-      {
-        "id": 105405665,
-        "subject": "Direct message with austinthephilosurfer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-25T19:26:46.158000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-25T23:43:06.196Z",
+    "gorgiasUpdated": "2026-06-26T04:36:43.244Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
