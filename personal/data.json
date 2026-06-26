@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T12:23:52.768Z",
+  "lastUpdated": "2026-06-26T13:34:34.140Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105508252,
+        "subject": "Not sure what to focus on next? An expert at Seller Café can help",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-26T13:15:33+00:00"
+      },
+      {
         "id": 105474698,
         "subject": "Your Google Play Order Receipt from Jun 25, 2026",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-25T23:44:40.615000+00:00"
-      },
-      {
-        "id": 105446920,
-        "subject": "Direct message with eddy_palermo",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-25T23:41:21.665000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-26T11:29:10.905Z",
+    "gorgiasUpdated": "2026-06-26T13:34:33.977Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
