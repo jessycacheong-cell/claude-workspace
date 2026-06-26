@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T15:14:13.668Z",
+  "lastUpdated": "2026-06-26T15:57:32.440Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105524896,
+        "subject": "Prime Deals today. Gone tomorrow",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-26T14:50:54+00:00"
+      },
+      {
+        "id": 105524455,
+        "subject": "[Deals for You Days] UMEI3D, you left something behind!",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-26T14:48:36.484000+00:00"
+      },
+      {
+        "id": 105519947,
+        "subject": "UMEI: One adapted Winter Foam Runner sample, ready for your review",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-26T14:25:29+00:00"
+      },
+      {
         "id": 105508252,
         "subject": "Not sure what to focus on next? An expert at Seller Café can help",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-26T05:44:23+00:00"
-      },
-      {
-        "id": 105471133,
-        "subject": "Action needed: Review staff permissions before Aug 3, 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-26T04:35:28.568000+00:00"
-      },
-      {
-        "id": 105469973,
-        "subject": "Zellerfeld Shoe Company Inc. posted: Zellerfeld and Volumental are partnering to take the next step in custom… 💡",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-26T04:15:59+00:00"
-      },
-      {
-        "id": 105447296,
-        "subject": "Direct message with atlratpackruns",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-25T23:44:40.615000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-26T13:34:33.977Z",
+    "gorgiasUpdated": "2026-06-26T15:57:32.271Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
