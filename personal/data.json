@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T19:54:59.706Z",
+  "lastUpdated": "2026-06-27T19:55:07.678Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105701704,
+        "subject": "TikTok Shop account new user login",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-27T19:26:41.819000+00:00"
+      },
+      {
         "id": 105680330,
         "subject": "Don’t build alone—invite your team",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-27T06:28:59.706000+00:00"
-      },
-      {
-        "id": 105643136,
-        "subject": "Your Google Play Order Receipt from Jun 26, 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-27T06:24:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-27T18:15:51.297Z",
+    "gorgiasUpdated": "2026-06-27T19:55:07.508Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
