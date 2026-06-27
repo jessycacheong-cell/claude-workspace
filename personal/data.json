@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T21:16:51.372Z",
+  "lastUpdated": "2026-06-27T21:17:26.482Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105711003,
+        "subject": "Direct message with madmanjumps",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-27T21:11:33.103000+00:00"
+      },
+      {
+        "id": 105708235,
+        "subject": "An email in your marketing automation was paused",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-27T20:38:22+00:00"
+      },
+      {
+        "id": 105704372,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-27T19:56:04+00:00"
+      },
+      {
         "id": 105701704,
         "subject": "TikTok Shop account new user login",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-27T15:59:02+00:00"
-      },
-      {
-        "id": 105670450,
-        "subject": "专门为您打造的 Prime 会员日广告活动",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-27T14:25:43+00:00"
-      },
-      {
-        "id": 105658176,
-        "subject": "Refund Initiated for Order 112-3303750-5318648",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-27T12:00:44+00:00"
-      },
-      {
-        "id": 105643312,
-        "subject": "Complete this short survey for a chance to receive $100 ad credit!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-27T06:28:59.706000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-27T19:55:07.508Z",
+    "gorgiasUpdated": "2026-06-27T21:17:26.315Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
