@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T15:23:44.190Z",
+  "lastUpdated": "2026-06-27T15:35:39.324Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105670450,
+        "subject": "专门为您打造的 Prime 会员日广告活动",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-27T14:25:43+00:00"
+      },
+      {
         "id": 105658176,
         "subject": "Refund Initiated for Order 112-3303750-5318648",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-27T03:25:53.849000+00:00"
-      },
-      {
-        "id": 105630032,
-        "subject": "👤 UMEI, add Muhammad A.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-27T02:15:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-27T14:03:54.968Z",
+    "gorgiasUpdated": "2026-06-27T15:35:39.102Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
