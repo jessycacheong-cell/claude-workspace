@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T14:03:11.371Z",
+  "lastUpdated": "2026-06-27T14:03:55.121Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105658176,
+        "subject": "Refund Initiated for Order 112-3303750-5318648",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-27T12:00:44+00:00"
+      },
+      {
         "id": 105643312,
         "subject": "Complete this short survey for a chance to receive $100 ad credit!",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-27T02:15:59+00:00"
-      },
-      {
-        "id": 105618732,
-        "subject": "🚀🌕",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-26T23:53:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-27T11:44:41.043Z",
+    "gorgiasUpdated": "2026-06-27T14:03:54.968Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
