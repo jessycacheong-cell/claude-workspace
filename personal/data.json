@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T07:37:50.935Z",
+  "lastUpdated": "2026-06-27T07:38:44.583Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105643312,
+        "subject": "Complete this short survey for a chance to receive $100 ad credit!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-27T06:28:59.706000+00:00"
+      },
+      {
+        "id": 105643136,
+        "subject": "Your Google Play Order Receipt from Jun 26, 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-27T06:24:13+00:00"
+      },
+      {
         "id": 105634717,
         "subject": "June spots filling fast — don't wait 😎",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-26T23:53:53+00:00"
-      },
-      {
-        "id": 105618230,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-26T23:47:40+00:00"
-      },
-      {
-        "id": 105609011,
-        "subject": "Freedom Family Investments is hiring a Managing Partner",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-26T22:16:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-27T04:38:37.445Z",
+    "gorgiasUpdated": "2026-06-27T07:38:44.417Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
