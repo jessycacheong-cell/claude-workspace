@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T01:38:07.186Z",
+  "lastUpdated": "2026-06-28T05:06:35.014Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105728009,
+        "subject": "Refund Initiated for Order 113-2011505-5387462",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-28T01:01:40+00:00"
+      },
+      {
+        "id": 105727499,
+        "subject": "Refund Initiated for Order 114-6544458-9083416",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-28T00:53:15+00:00"
+      },
+      {
         "id": 105711003,
         "subject": "Direct message with madmanjumps",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-27T19:56:04+00:00"
-      },
-      {
-        "id": 105701704,
-        "subject": "TikTok Shop account new user login",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-27T19:26:41.819000+00:00"
-      },
-      {
-        "id": 105680330,
-        "subject": "Don’t build alone—invite your team",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-27T15:59:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-28T00:12:33.417Z",
+    "gorgiasUpdated": "2026-06-28T05:06:34.827Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
