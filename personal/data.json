@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T22:40:28.505Z",
+  "lastUpdated": "2026-06-28T23:16:17.749Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105813896,
+        "subject": "New customer message on June 28, 2026 at 4:05 pm",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-28T23:05:22.702000+00:00"
+      },
+      {
         "id": 105758041,
         "subject": "Your Shopify store is missing a 24/7 salesperson - Most merchants lose 15-30% of sales overnight. Here's the fix.",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-27T21:11:33.103000+00:00"
-      },
-      {
-        "id": 105708235,
-        "subject": "An email in your marketing automation was paused",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-27T20:38:22+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-28T21:43:28.909Z",
+    "gorgiasUpdated": "2026-06-28T23:16:17.580Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
