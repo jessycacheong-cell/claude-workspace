@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T14:17:24.974Z",
+  "lastUpdated": "2026-06-29T16:07:47.048Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105905817,
+        "subject": "Get the latest in Photoshop and Illustrator",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-29T15:45:14+00:00"
+      },
+      {
+        "id": 105878538,
+        "subject": "Direct message with bsilverman86",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-29T13:31:57.609000+00:00"
+      },
+      {
+        "id": 105877047,
+        "subject": "Add a backup payment to avoid order disruptions",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-29T13:23:13+00:00"
+      },
+      {
+        "id": 105873612,
+        "subject": "5 ways to grow your store with video reviews",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-29T13:01:25+00:00"
+      },
+      {
         "id": 105866684,
         "subject": "Getting your products found by Google AI Overviews",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-29T12:03:44+00:00"
-      },
-      {
-        "id": 105849324,
-        "subject": "Jun 29, 2026 bill for My Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-29T08:04:35.481000+00:00"
-      },
-      {
-        "id": 105837086,
-        "subject": "Tai Huynh - Founder CEO reacted to this post: 🚨 Supplier Search – Vietnam…",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-29T04:16:03+00:00"
-      },
-      {
-        "id": 105824652,
-        "subject": "Direct message with eddy_palermo",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-29T01:17:32.920000+00:00"
-      },
-      {
-        "id": 105813896,
-        "subject": "New customer message on June 28, 2026 at 4:05 pm",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-28T23:05:22.702000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-29T12:06:36.324Z",
+    "gorgiasUpdated": "2026-06-29T16:07:46.891Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
