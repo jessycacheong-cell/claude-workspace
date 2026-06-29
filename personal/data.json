@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T19:23:13.465Z",
+  "lastUpdated": "2026-06-29T20:29:39.493Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105959958,
+        "subject": "Paulo Edmundo Fonseca Freire, Owner, is popular in your network",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-29T20:15:59+00:00"
+      },
+      {
         "id": 105921620,
         "subject": "Your Week In Reviews For UMEI Store",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-29T13:23:13+00:00"
-      },
-      {
-        "id": 105873612,
-        "subject": "5 ways to grow your store with video reviews",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-29T13:01:25+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-29T18:20:55.266Z",
+    "gorgiasUpdated": "2026-06-29T20:29:39.271Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
