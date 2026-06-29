@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T17:17:50.314Z",
+  "lastUpdated": "2026-06-29T18:20:55.429Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105921620,
+        "subject": "Your Week In Reviews For UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-29T17:02:29+00:00"
+      },
+      {
         "id": 105905817,
         "subject": "Get the latest in Photoshop and Illustrator",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-06-29T13:01:25+00:00"
-      },
-      {
-        "id": 105866684,
-        "subject": "Getting your products found by Google AI Overviews",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-29T12:03:44+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-29T16:07:46.891Z",
+    "gorgiasUpdated": "2026-06-29T18:20:55.266Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
