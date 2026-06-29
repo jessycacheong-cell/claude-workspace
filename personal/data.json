@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T04:55:44.643Z",
+  "lastUpdated": "2026-06-29T07:01:48.604Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105837086,
+        "subject": "Tai Huynh - Founder CEO reacted to this post: 🚨 Supplier Search – Vietnam…",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-29T04:16:03+00:00"
+      },
+      {
         "id": 105824652,
         "subject": "Direct message with eddy_palermo",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-28T01:01:40+00:00"
-      },
-      {
-        "id": 105727499,
-        "subject": "Refund Initiated for Order 114-6544458-9083416",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-28T00:53:15+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-29T01:52:48.865Z",
+    "gorgiasUpdated": "2026-06-29T07:01:48.431Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
