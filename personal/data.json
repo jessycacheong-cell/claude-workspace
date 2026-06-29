@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-29T09:56:03.059Z",
+  "lastUpdated": "2026-06-29T12:06:36.491Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 105866684,
+        "subject": "Getting your products found by Google AI Overviews",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-29T12:03:44+00:00"
+      },
+      {
+        "id": 105849324,
+        "subject": "Jun 29, 2026 bill for My Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-29T08:04:35.481000+00:00"
+      },
+      {
         "id": 105837086,
         "subject": "Tai Huynh - Founder CEO reacted to this post: 🚨 Supplier Search – Vietnam…",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-28T23:05:22.702000+00:00"
-      },
-      {
-        "id": 105758041,
-        "subject": "Your Shopify store is missing a 24/7 salesperson - Most merchants lose 15-30% of sales overnight. Here's the fix.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-28T12:33:29+00:00"
-      },
-      {
-        "id": 105728009,
-        "subject": "Refund Initiated for Order 113-2011505-5387462",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-28T01:01:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-29T07:01:48.431Z",
+    "gorgiasUpdated": "2026-06-29T12:06:36.324Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
