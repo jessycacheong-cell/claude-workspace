@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T15:16:31.193Z",
+  "lastUpdated": "2026-06-30T15:16:34.333Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106084716,
+        "subject": "The Review: June updates from Okendo",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-30T14:48:09+00:00"
+      },
+      {
+        "id": 106072846,
+        "subject": "The Amazon Accelerate 2026 speaker lineup is here! Register now to save $100",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-30T13:49:49+00:00"
+      },
+      {
+        "id": 106065033,
+        "subject": "Umei3d Llc, we miss you. Save 25%!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-30T13:04:04+00:00"
+      },
+      {
         "id": 106059148,
         "subject": "90% of shoppers filter for free shipping. Use it right.",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-30T06:32:15+00:00"
-      },
-      {
-        "id": 106021149,
-        "subject": "Built-in discovery. Zero ad spend. Start now.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-30T03:58:00.481000+00:00"
-      },
-      {
-        "id": 106010004,
-        "subject": "👤 UMEI, add Alia Wu",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-30T02:16:00+00:00"
-      },
-      {
-        "id": 105959958,
-        "subject": "Paulo Edmundo Fonseca Freire, Owner, is popular in your network",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-29T20:15:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-30T12:21:58.151Z",
+    "gorgiasUpdated": "2026-06-30T15:16:34.116Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
