@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T17:26:20.363Z",
+  "lastUpdated": "2026-06-30T17:26:21.896Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106113401,
+        "subject": "Weekly CX Boost for Umeistore",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-30T17:15:11+00:00"
+      },
+      {
+        "id": 106111905,
+        "subject": "Your exclusive returning-customer discount",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-30T17:03:52+00:00"
+      },
+      {
+        "id": 106107791,
+        "subject": "Smart Pricing: Join thousands of merchants pricing smarter",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-30T16:44:26.043000+00:00"
+      },
+      {
         "id": 106084716,
         "subject": "The Review: June updates from Okendo",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-30T13:49:49+00:00"
-      },
-      {
-        "id": 106065033,
-        "subject": "Umei3d Llc, we miss you. Save 25%!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-30T13:04:04+00:00"
-      },
-      {
-        "id": 106059148,
-        "subject": "90% of shoppers filter for free shipping. Use it right.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-30T12:19:28+00:00"
-      },
-      {
-        "id": 106032049,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-30T06:32:15+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-30T15:16:34.116Z",
+    "gorgiasUpdated": "2026-06-30T17:26:21.711Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
