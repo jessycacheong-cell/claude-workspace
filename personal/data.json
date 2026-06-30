@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T19:23:00.253Z",
+  "lastUpdated": "2026-06-30T19:23:06.880Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106130874,
+        "subject": "Updates to Google Play Terms of Service",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-30T18:55:39+00:00"
+      },
+      {
+        "id": 106119099,
+        "subject": "The recipe for effortless support: AI on top of your connected store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-30T17:47:08+00:00"
+      },
+      {
         "id": 106113401,
         "subject": "Weekly CX Boost for Umeistore",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-30T16:44:26.043000+00:00"
-      },
-      {
-        "id": 106084716,
-        "subject": "The Review: June updates from Okendo",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-30T14:48:09+00:00"
-      },
-      {
-        "id": 106072846,
-        "subject": "The Amazon Accelerate 2026 speaker lineup is here! Register now to save $100",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-30T13:49:49+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-30T17:26:21.711Z",
+    "gorgiasUpdated": "2026-06-30T19:23:06.704Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
