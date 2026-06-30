@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T05:51:33.171Z",
+  "lastUpdated": "2026-06-30T05:52:09.955Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106021149,
+        "subject": "Built-in discovery. Zero ad spend. Start now.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-06-30T03:58:00.481000+00:00"
+      },
+      {
+        "id": 106010004,
+        "subject": "👤 UMEI, add Alia Wu",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-30T02:16:00+00:00"
+      },
+      {
         "id": 105959958,
         "subject": "Paulo Edmundo Fonseca Freire, Owner, is popular in your network",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-29T15:45:14+00:00"
-      },
-      {
-        "id": 105878538,
-        "subject": "Direct message with bsilverman86",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-06-29T13:31:57.609000+00:00"
-      },
-      {
-        "id": 105877047,
-        "subject": "Add a backup payment to avoid order disruptions",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-29T13:23:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-29T23:13:44.337Z",
+    "gorgiasUpdated": "2026-06-30T05:52:09.781Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
