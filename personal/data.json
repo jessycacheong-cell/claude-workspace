@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T09:57:23.198Z",
+  "lastUpdated": "2026-06-30T09:57:42.317Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106032049,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-30T06:32:15+00:00"
+      },
+      {
         "id": 106021149,
         "subject": "Built-in discovery. Zero ad spend. Start now.",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-29T17:02:29+00:00"
-      },
-      {
-        "id": 105905817,
-        "subject": "Get the latest in Photoshop and Illustrator",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-29T15:45:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-30T05:52:09.781Z",
+    "gorgiasUpdated": "2026-06-30T09:57:42.121Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
