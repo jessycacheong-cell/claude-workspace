@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T12:21:31.678Z",
+  "lastUpdated": "2026-06-30T12:21:58.360Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106059148,
+        "subject": "90% of shoppers filter for free shipping. Use it right.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-06-30T12:19:28+00:00"
+      },
+      {
         "id": 106032049,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-06-29T20:15:59+00:00"
-      },
-      {
-        "id": 105921620,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-29T17:02:29+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-30T09:57:42.121Z",
+    "gorgiasUpdated": "2026-06-30T12:21:58.151Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
