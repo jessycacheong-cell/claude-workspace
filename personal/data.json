@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T22:38:22.913Z",
+  "lastUpdated": "2026-07-01T22:50:19.524Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106323215,
+        "subject": "Waabi is hiring a Co-Founder and CTO",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-01T22:16:01+00:00"
+      },
+      {
         "id": 106312317,
         "subject": "Inside the most funded tabletop role-playing game",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-01T18:21:12+00:00"
-      },
-      {
-        "id": 106279707,
-        "subject": "Why getting uncomfortable is key to career reinvention",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-01T17:39:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-01T21:10:26.983Z",
+    "gorgiasUpdated": "2026-07-01T22:50:19.331Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
