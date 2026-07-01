@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T08:53:59.447Z",
+  "lastUpdated": "2026-07-01T08:55:30.073Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106208948,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-01T08:32:08+00:00"
+      },
+      {
         "id": 106196224,
         "subject": "TikTok for Business login alerts",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-01T03:14:16+00:00"
-      },
-      {
-        "id": 106183065,
-        "subject": "View your US Q3-2026 CSBA fee rate",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-01T01:34:54+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-01T05:09:27.877Z",
+    "gorgiasUpdated": "2026-07-01T08:55:29.772Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
