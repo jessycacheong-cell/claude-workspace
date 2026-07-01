@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T05:09:21.711Z",
+  "lastUpdated": "2026-07-01T05:09:28.031Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 106162925,
-        "subject": "Your Google Analytics performance report is in for June 3rd - 30th",
+        "id": 106196224,
+        "subject": "TikTok for Business login alerts",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-30T22:23:10+00:00"
+        "timestamp": "2026-07-01T04:38:19.254000+00:00"
       },
       {
-        "id": 106130874,
-        "subject": "Updates to Google Play Terms of Service",
+        "id": 106196149,
+        "subject": "TikTok for Business Verification help",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-06-30T18:55:39+00:00"
+        "status": "open",
+        "timestamp": "2026-07-01T04:36:47.316000+00:00"
       },
       {
-        "id": 106119099,
-        "subject": "The recipe for effortless support: AI on top of your connected store",
+        "id": 106194904,
+        "subject": "New Balance Brand President & Chief Marketing Officer recently posted",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-30T17:47:08+00:00"
+        "timestamp": "2026-07-01T04:16:01+00:00"
       },
       {
-        "id": 106113401,
-        "subject": "Weekly CX Boost for Umeistore",
+        "id": 106191166,
+        "subject": "Your receipt from Auth0 by Okta #2904-9304",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-30T17:15:11+00:00"
+        "timestamp": "2026-07-01T03:14:16+00:00"
       },
       {
-        "id": 106111905,
-        "subject": "Your exclusive returning-customer discount",
+        "id": 106183065,
+        "subject": "View your US Q3-2026 CSBA fee rate",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-06-30T17:03:52+00:00"
+        "timestamp": "2026-07-01T01:34:54+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-06-30T22:53:48.519Z",
+    "gorgiasUpdated": "2026-07-01T05:09:27.877Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
