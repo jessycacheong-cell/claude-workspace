@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T19:21:51.551Z",
+  "lastUpdated": "2026-07-01T19:22:18.762Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106297267,
+        "subject": "Discovery now reads your page, not just your data",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-01T19:20:29+00:00"
+      },
+      {
+        "id": 106293077,
+        "subject": "Notion 3.6: Bring agents like Claude & Cursor into Notion",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-01T18:57:07+00:00"
+      },
+      {
+        "id": 106287047,
+        "subject": "Get paid faster with Express Payout",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-01T18:21:12+00:00"
+      },
+      {
+        "id": 106279707,
+        "subject": "Why getting uncomfortable is key to career reinvention",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-01T17:39:09+00:00"
+      },
+      {
         "id": 106273450,
         "subject": "Why some websites feel instantly trustworthy?",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-01T17:05:08+00:00"
-      },
-      {
-        "id": 106261176,
-        "subject": "July insights: AI adoption is easy. Building AI systems is harder",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-01T16:03:10+00:00"
-      },
-      {
-        "id": 106228542,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-01T12:56:31+00:00"
-      },
-      {
-        "id": 106225481,
-        "subject": "Top deals for business: Yumei, save with limited-time deals",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-01T12:29:42+00:00"
-      },
-      {
-        "id": 106225038,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-01T12:25:03.578000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-01T17:32:05.164Z",
+    "gorgiasUpdated": "2026-07-01T19:22:18.529Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
