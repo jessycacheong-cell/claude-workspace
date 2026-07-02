@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T13:04:01.195Z",
+  "lastUpdated": "2026-07-02T13:20:07.177Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106389754,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-02T12:28:56.939000+00:00"
+      },
+      {
+        "id": 106382187,
+        "subject": "[UMEI Store] Order #1747 placed by Abhijit Tambe",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-02T11:22:50+00:00"
+      },
+      {
         "id": 106362021,
         "subject": "【重要なお知らせ】ご連絡先変更のご案内",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-02T03:07:24+00:00"
-      },
-      {
-        "id": 106350208,
-        "subject": "Information needed to start your order",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-02T02:33:07+00:00"
-      },
-      {
-        "id": 106350182,
-        "subject": "Your order is confirmed — Order #FO1DF40BDF43",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-02T02:32:52+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-02T11:14:58.160Z",
+    "gorgiasUpdated": "2026-07-02T13:20:07.022Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
