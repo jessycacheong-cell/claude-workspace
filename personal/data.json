@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T07:52:59.947Z",
+  "lastUpdated": "2026-07-02T08:22:05.045Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106362021,
+        "subject": "【重要なお知らせ】ご連絡先変更のご案内",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-02T05:31:02+00:00"
+      },
+      {
         "id": 106359177,
         "subject": "Custom Clothing Order",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-02T02:32:52+00:00"
-      },
-      {
-        "id": 106350178,
-        "subject": "Here's your invoice for 2026-07-02",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-02T02:32:52+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-02T04:44:20.749Z",
+    "gorgiasUpdated": "2026-07-02T08:22:04.778Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
