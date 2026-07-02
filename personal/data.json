@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T23:52:35.560Z",
+  "lastUpdated": "2026-07-02T00:18:34.260Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106331879,
+        "subject": "How does UMEI’s 3D-printed upper pair with an EVA midsole?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-01T23:27:41+00:00"
+      },
+      {
         "id": 106323215,
         "subject": "Waabi is hiring a Co-Founder and CTO",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-01T18:57:07+00:00"
-      },
-      {
-        "id": 106287047,
-        "subject": "Get paid faster with Express Payout",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-01T18:21:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-01T22:50:19.331Z",
+    "gorgiasUpdated": "2026-07-02T00:18:34.077Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
