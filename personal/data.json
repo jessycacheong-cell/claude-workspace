@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T20:35:47.729Z",
+  "lastUpdated": "2026-07-02T21:21:02.739Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106469431,
+        "subject": "Your next Essential app is here 🎁",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-02T19:48:31+00:00"
+      },
+      {
         "id": 106449442,
         "subject": "🤖 Botsitting, botshitting, and how top teams get real AI results at work",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-02T16:09:24+00:00"
-      },
-      {
-        "id": 106410903,
-        "subject": "🤖 AI agents can now pay for 20,000+ tools on x402, plus 2x the RAM",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-02T14:38:21+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-02T19:46:24.847Z",
+    "gorgiasUpdated": "2026-07-02T21:21:02.495Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
