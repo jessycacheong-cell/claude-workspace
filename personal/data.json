@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T21:47:33.073Z",
+  "lastUpdated": "2026-07-02T22:42:52.215Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106491200,
+        "subject": "Love this",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-02T22:03:43+00:00"
+      },
+      {
         "id": 106469431,
         "subject": "Your next Essential app is here 🎁",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-02T16:21:54+00:00"
-      },
-      {
-        "id": 106429127,
-        "subject": "Hand your recordings to ChatGPT or Claude",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-02T16:09:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-02T21:21:02.495Z",
+    "gorgiasUpdated": "2026-07-02T22:42:51.931Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
