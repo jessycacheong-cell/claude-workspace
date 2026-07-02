@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T04:17:30.005Z",
+  "lastUpdated": "2026-07-02T04:44:20.915Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 106331879,
-        "subject": "How does UMEI’s 3D-printed upper pair with an EVA midsole?",
+        "id": 106359177,
+        "subject": "Custom Clothing Order",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-07-01T23:27:41+00:00"
+        "timestamp": "2026-07-02T04:37:14.314000+00:00"
       },
       {
-        "id": 106323215,
-        "subject": "Waabi is hiring a Co-Founder and CTO",
+        "id": 106353154,
+        "subject": "Security alert",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-01T22:16:01+00:00"
+        "timestamp": "2026-07-02T03:07:24+00:00"
       },
       {
-        "id": 106312317,
-        "subject": "Inside the most funded tabletop role-playing game",
+        "id": 106350208,
+        "subject": "Information needed to start your order",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-01T20:55:47+00:00"
+        "status": "open",
+        "timestamp": "2026-07-02T02:33:07+00:00"
       },
       {
-        "id": 106297267,
-        "subject": "Discovery now reads your page, not just your data",
+        "id": 106350182,
+        "subject": "Your order is confirmed — Order #FO1DF40BDF43",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-01T19:20:29+00:00"
+        "status": "open",
+        "timestamp": "2026-07-02T02:32:52+00:00"
       },
       {
-        "id": 106293077,
-        "subject": "Notion 3.6: Bring agents like Claude & Cursor into Notion",
+        "id": 106350178,
+        "subject": "Here's your invoice for 2026-07-02",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-01T18:57:07+00:00"
+        "status": "open",
+        "timestamp": "2026-07-02T02:32:52+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-02T00:18:34.077Z",
+    "gorgiasUpdated": "2026-07-02T04:44:20.749Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
