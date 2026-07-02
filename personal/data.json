@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T19:01:20.487Z",
+  "lastUpdated": "2026-07-02T19:46:25.018Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106449442,
+        "subject": "🤖 Botsitting, botshitting, and how top teams get real AI results at work",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-02T18:01:08+00:00"
+      },
+      {
         "id": 106444450,
         "subject": "Auto-Enrollment in Amazon Manufacturer Support - Respond in 30 Days",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-02T14:38:21+00:00"
-      },
-      {
-        "id": 106410775,
-        "subject": "You hit your monthly sessions limit",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-02T14:37:25+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-02T17:59:46.664Z",
+    "gorgiasUpdated": "2026-07-02T19:46:24.847Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
