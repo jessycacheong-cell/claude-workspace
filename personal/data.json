@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T22:38:28.997Z",
+  "lastUpdated": "2026-07-03T22:39:00.488Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106650331,
+        "subject": "Oneday is hiring a Entrepreneur in Residence",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-03T22:16:02+00:00"
+      },
+      {
         "id": 106639481,
         "subject": "Lo Tri left a 5 star review for 'Men's Moonwalker Slides'",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-03T17:08:50+00:00"
-      },
-      {
-        "id": 106584803,
-        "subject": "Extra funds could be available for your business",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-03T15:10:06+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-03T21:20:31.476Z",
+    "gorgiasUpdated": "2026-07-03T22:39:00.330Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
