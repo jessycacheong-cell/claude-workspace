@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T13:21:53.475Z",
+  "lastUpdated": "2026-07-03T15:22:25.817Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106584803,
+        "subject": "Extra funds could be available for your business",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-03T15:10:06+00:00"
+      },
+      {
+        "id": 106569292,
+        "subject": "Get answers from the people who build the tools you use every day. Save $100",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-03T13:37:33+00:00"
+      },
+      {
         "id": 106559325,
         "subject": "Direct message with atlratpackruns",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-03T03:44:54+00:00"
-      },
-      {
-        "id": 106521333,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-03T02:55:35+00:00"
-      },
-      {
-        "id": 106491200,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-02T22:03:43+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-03T13:05:50.997Z",
+    "gorgiasUpdated": "2026-07-03T15:22:25.615Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
