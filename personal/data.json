@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T21:20:08.234Z",
+  "lastUpdated": "2026-07-03T21:20:31.642Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106639481,
+        "subject": "Lo Tri left a 5 star review for 'Men's Moonwalker Slides'",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-03T20:47:12+00:00"
+      },
+      {
         "id": 106629295,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-03T15:10:06+00:00"
-      },
-      {
-        "id": 106569292,
-        "subject": "Get answers from the people who build the tools you use every day. Save $100",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-03T13:37:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-03T20:01:29.674Z",
+    "gorgiasUpdated": "2026-07-03T21:20:31.476Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
