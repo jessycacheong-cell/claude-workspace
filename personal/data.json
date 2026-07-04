@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T10:35:01.454Z",
+  "lastUpdated": "2026-07-04T11:43:54.157Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106691764,
+        "subject": "Shipping to Portugal",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-04T11:02:50+00:00"
+      },
+      {
         "id": 106678555,
         "subject": "Your competitors are already selling. Are you?",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-03T20:47:12+00:00"
-      },
-      {
-        "id": 106629295,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-03T19:31:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-04T09:48:50.862Z",
+    "gorgiasUpdated": "2026-07-04T11:43:53.989Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
