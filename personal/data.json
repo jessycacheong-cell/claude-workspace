@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T22:09:37.929Z",
+  "lastUpdated": "2026-07-04T22:35:35.869Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106750593,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-04T22:30:04+00:00"
+      },
+      {
+        "id": 106747008,
+        "subject": "Question about store location",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-04T21:36:39+00:00"
+      },
+      {
         "id": 106728470,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-04T12:55:27+00:00"
-      },
-      {
-        "id": 106691764,
-        "subject": "Shipping to Portugal",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-04T11:02:50+00:00"
-      },
-      {
-        "id": 106678555,
-        "subject": "Your competitors are already selling. Are you?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-04T05:33:17.650000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-04T21:35:36.666Z",
+    "gorgiasUpdated": "2026-07-04T22:35:35.651Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
