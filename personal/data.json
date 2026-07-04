@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T13:54:19.922Z",
+  "lastUpdated": "2026-07-04T13:54:42.521Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106698618,
+        "subject": "UniTel Voice Notice: New Invoice 795630",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-04T12:55:27+00:00"
+      },
+      {
         "id": 106691764,
         "subject": "Shipping to Portugal",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-03T22:16:02+00:00"
-      },
-      {
-        "id": 106639481,
-        "subject": "Lo Tri left a 5 star review for 'Men's Moonwalker Slides'",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-03T20:47:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-04T11:43:53.989Z",
+    "gorgiasUpdated": "2026-07-04T13:54:42.289Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
