@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T05:27:13.827Z",
+  "lastUpdated": "2026-07-04T07:11:30.757Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106678555,
+        "subject": "Your competitors are already selling. Are you?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-04T05:33:17.650000+00:00"
+      },
+      {
         "id": 106668571,
         "subject": "👤 UMEI, add Ricardo Costa",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-03T19:31:55+00:00"
-      },
-      {
-        "id": 106627581,
-        "subject": "Set your video workflow to run itself — from Claude or ChatGPT",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-03T19:18:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-04T03:57:23.129Z",
+    "gorgiasUpdated": "2026-07-04T07:11:30.571Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
