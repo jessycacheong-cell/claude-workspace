@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T23:41:47.001Z",
+  "lastUpdated": "2026-07-04T03:57:23.276Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106668571,
+        "subject": "👤 UMEI, add Ricardo Costa",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-04T02:16:00+00:00"
+      },
+      {
         "id": 106650331,
         "subject": "Oneday is hiring a Entrepreneur in Residence",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-03T19:18:58+00:00"
-      },
-      {
-        "id": 106607984,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-03T17:08:50+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-03T23:41:46.836Z",
+    "gorgiasUpdated": "2026-07-04T03:57:23.129Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
