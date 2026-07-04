@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T16:36:27.891Z",
+  "lastUpdated": "2026-07-04T16:37:32.981Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106715492,
+        "subject": "logo boxes",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-04T15:42:26+00:00"
+      },
+      {
         "id": 106698618,
         "subject": "UniTel Voice Notice: New Invoice 795630",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-04T02:16:00+00:00"
-      },
-      {
-        "id": 106650331,
-        "subject": "Oneday is hiring a Entrepreneur in Residence",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-03T22:16:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-04T15:19:19.240Z",
+    "gorgiasUpdated": "2026-07-04T16:37:32.820Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
