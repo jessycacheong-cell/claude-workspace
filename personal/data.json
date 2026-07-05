@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T15:24:19.477Z",
+  "lastUpdated": "2026-07-05T16:16:38.074Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106797409,
+        "subject": "Reminder: You're eligible to apply for a business loan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-05T15:07:39+00:00"
+      },
+      {
         "id": 106768052,
         "subject": "Direct message with jessiannwilliams2001",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-04T17:46:07+00:00"
-      },
-      {
-        "id": 106715492,
-        "subject": "logo boxes",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-04T15:42:26+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-05T14:50:56.748Z",
+    "gorgiasUpdated": "2026-07-05T16:16:37.913Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
