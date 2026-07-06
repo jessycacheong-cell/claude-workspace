@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T06:08:31.095Z",
+  "lastUpdated": "2026-07-06T06:08:46.748Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 106834719,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-05T22:04:31+00:00"
-      },
-      {
-        "id": 106797409,
-        "subject": "Reminder: You're eligible to apply for a business loan",
+        "id": 106863170,
+        "subject": "Direct message with austinthephilosurfer",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-05T15:07:39+00:00"
+        "timestamp": "2026-07-06T04:53:18.164000+00:00"
       },
       {
-        "id": 106768052,
-        "subject": "Direct message with jessiannwilliams2001",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-05T04:29:30.039000+00:00"
-      },
-      {
-        "id": 106750593,
-        "subject": "(No subject)",
+        "id": 106861497,
+        "subject": "HiveWatch recently posted",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-04T22:30:04+00:00"
+        "timestamp": "2026-07-06T04:16:10+00:00"
       },
       {
-        "id": 106747008,
-        "subject": "Question about store location",
+        "id": 106855790,
+        "subject": "Love this",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-07-04T21:36:39+00:00"
+        "timestamp": "2026-07-06T02:42:27+00:00"
+      },
+      {
+        "id": 106854542,
+        "subject": "Any updates?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-06T02:24:25+00:00"
+      },
+      {
+        "id": 106852858,
+        "subject": "Love this ❤️",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-06T02:00:44+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-06T01:19:43.357Z",
+    "gorgiasUpdated": "2026-07-06T06:08:46.587Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
