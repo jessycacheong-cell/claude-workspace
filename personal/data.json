@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T14:33:36.169Z",
+  "lastUpdated": "2026-07-06T14:33:53.428Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106902410,
+        "subject": "Still losing track of your work?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-06T14:00:07+00:00"
+      },
+      {
+        "id": 106899734,
+        "subject": "Register for Accelerate now to save $100. Early-bird pricing ends August 8",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-06T13:43:05+00:00"
+      },
+      {
+        "id": 106886166,
+        "subject": "Last call for the Founders plan 🎁",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-06T11:49:32+00:00"
+      },
+      {
         "id": 106880450,
         "subject": "Hi,",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-06T04:53:18.164000+00:00"
-      },
-      {
-        "id": 106861497,
-        "subject": "HiveWatch recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-06T04:16:10+00:00"
-      },
-      {
-        "id": 106855790,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-06T02:42:27+00:00"
-      },
-      {
-        "id": 106854542,
-        "subject": "Any updates?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-06T02:24:25+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-06T11:00:44.414Z",
+    "gorgiasUpdated": "2026-07-06T14:33:53.260Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
