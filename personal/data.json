@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T22:46:37.273Z",
+  "lastUpdated": "2026-07-06T22:46:47.041Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 106989076,
+        "subject": "This week: Make a video without leaving Claude or ChatGPT",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-06T21:24:12+00:00"
+      },
+      {
         "id": 106962394,
         "subject": "Your payment is on the way",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-06T17:02:32+00:00"
-      },
-      {
-        "id": 106929475,
-        "subject": "Get more from your membership with new perks",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-06T16:13:21+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-06T21:12:44.321Z",
+    "gorgiasUpdated": "2026-07-06T22:46:46.855Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
