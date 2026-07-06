@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T14:33:53.428Z",
+  "lastUpdated": "2026-07-06T17:23:01.337Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 106902410,
-        "subject": "Still losing track of your work?",
+        "id": 106941674,
+        "subject": "Re:[## 392411 ##] Unitel Voice Annual Plan - Anniversary",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-06T14:00:07+00:00"
+        "timestamp": "2026-07-06T17:12:07+00:00"
       },
       {
-        "id": 106899734,
-        "subject": "Register for Accelerate now to save $100. Early-bird pricing ends August 8",
+        "id": 106939766,
+        "subject": "Your Week In Reviews For UMEI Store",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-06T13:43:05+00:00"
+        "timestamp": "2026-07-06T17:02:32+00:00"
       },
       {
-        "id": 106886166,
-        "subject": "Last call for the Founders plan 🎁",
+        "id": 106929475,
+        "subject": "Get more from your membership with new perks",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-06T11:49:32+00:00"
+        "timestamp": "2026-07-06T16:13:21+00:00"
       },
       {
-        "id": 106880450,
-        "subject": "Hi,",
+        "id": 106926626,
+        "subject": "UMEI 3D, here are Updates to Manychat’s Privacy Policy",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-06T16:01:54.559000+00:00"
+      },
+      {
+        "id": 106909599,
+        "subject": "No pressure — just keeping the door open for UMEI",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-07-06T10:20:56+00:00"
-      },
-      {
-        "id": 106863170,
-        "subject": "Direct message with austinthephilosurfer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-06T04:53:18.164000+00:00"
+        "timestamp": "2026-07-06T14:36:19+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-06T14:33:53.260Z",
+    "gorgiasUpdated": "2026-07-06T17:23:01.131Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
