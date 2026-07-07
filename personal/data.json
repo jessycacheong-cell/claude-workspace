@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T20:29:09.812Z",
+  "lastUpdated": "2026-07-07T21:09:24.573Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107155949,
+        "subject": "Direct message with eddy_palermo",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-07T19:45:50.529000+00:00"
+      },
+      {
+        "id": 107155818,
+        "subject": "Your Gorgias Inc receipt [#1667-5671]",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-07T19:45:10+00:00"
+      },
+      {
+        "id": 107155600,
+        "subject": "Thank you for your payment",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-07T19:43:53+00:00"
+      },
+      {
         "id": 107139760,
         "subject": "We didn't update AI Agent. We rebuilt it.",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-07T17:15:04+00:00"
-      },
-      {
-        "id": 107123287,
-        "subject": "Holiday 2026: Same fees, same eligibility, earlier deadlines",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-07T17:05:42+00:00"
-      },
-      {
-        "id": 107124181,
-        "subject": "Enjoy 25% off—just for returning customers",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-07T17:04:55+00:00"
-      },
-      {
-        "id": 107112377,
-        "subject": "Smart Pricing: See what to discount, what to raise",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-07T16:14:49+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-07T19:12:11.813Z",
+    "gorgiasUpdated": "2026-07-07T21:09:24.360Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
