@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T13:49:15.121Z",
+  "lastUpdated": "2026-07-07T13:50:09.083Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107074878,
+        "subject": "Umei3d Llc, we miss you. Save 25%!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-07T13:04:46+00:00"
+      },
+      {
+        "id": 107074267,
+        "subject": "5 new updates for building instant trust",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-07T13:02:36+00:00"
+      },
+      {
+        "id": 107072226,
+        "subject": "Amazon Accelerate 2026: Find your people and grow together. Save $100",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-07T12:49:25+00:00"
+      },
+      {
         "id": 107054893,
         "subject": "Direct message with mrwhosetheboss",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-07T07:39:50+00:00"
-      },
-      {
-        "id": 107045048,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-07T06:55:40+00:00"
-      },
-      {
-        "id": 107026910,
-        "subject": "The data is in: Summer is TikTok Shop's biggest quarter",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-07T02:19:57.218000+00:00"
-      },
-      {
-        "id": 107026575,
-        "subject": "👤 UMEI, add Oliver Chernikeeff",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-07T02:15:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-07T11:17:08.975Z",
+    "gorgiasUpdated": "2026-07-07T13:50:08.507Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
