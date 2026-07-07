@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T04:35:50.078Z",
+  "lastUpdated": "2026-07-07T04:36:12.113Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107026910,
+        "subject": "The data is in: Summer is TikTok Shop's biggest quarter",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-07T02:19:57.218000+00:00"
+      },
+      {
+        "id": 107026575,
+        "subject": "👤 UMEI, add Oliver Chernikeeff",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-07T02:15:59+00:00"
+      },
+      {
+        "id": 107014450,
+        "subject": "Why coke doesn't need a logo",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-07T00:20:22+00:00"
+      },
+      {
         "id": 107006122,
         "subject": "Most Shopify stores lose buyers right before checkout",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-06T21:24:12+00:00"
-      },
-      {
-        "id": 106962394,
-        "subject": "Your payment is on the way",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-06T18:58:33+00:00"
-      },
-      {
-        "id": 106954422,
-        "subject": "Ubiratan Silva, Principal Product Designer, is popular in your network",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-06T18:16:12+00:00"
-      },
-      {
-        "id": 106941674,
-        "subject": "Re:[## 392411 ##] Unitel Voice Annual Plan - Anniversary",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-06T17:12:07+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-07T00:17:45.846Z",
+    "gorgiasUpdated": "2026-07-07T04:36:11.900Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
