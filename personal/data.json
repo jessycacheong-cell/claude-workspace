@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T09:34:18.808Z",
+  "lastUpdated": "2026-07-08T09:57:31.732Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107225710,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-08T07:21:14+00:00"
+      },
+      {
+        "id": 107225471,
+        "subject": "Framer Monthly",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-08T07:17:38+00:00"
+      },
+      {
         "id": 107214568,
         "subject": "Direct message with atlratpackruns",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-08T01:25:08+00:00"
-      },
-      {
-        "id": 107180215,
-        "subject": "Manage payments in the Amazon Seller App and More",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-07T22:23:01+00:00"
-      },
-      {
-        "id": 107179743,
-        "subject": "Correction: Updates to Google Play Terms of Service",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-07T22:19:10+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-08T07:11:28.470Z",
+    "gorgiasUpdated": "2026-07-08T09:57:31.509Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
