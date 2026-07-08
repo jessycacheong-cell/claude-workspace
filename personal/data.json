@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T17:48:54.186Z",
+  "lastUpdated": "2026-07-08T18:04:07.074Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107303101,
+        "subject": "You're invited to ZapConnect 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-08T17:35:17+00:00"
+      },
+      {
         "id": 107272474,
         "subject": "New Glean:GO speakers from Cisco, Capgemini, GM, and more",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-08T07:17:38+00:00"
-      },
-      {
-        "id": 107214568,
-        "subject": "Direct message with atlratpackruns",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-08T04:10:14.574000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-08T16:17:54.006Z",
+    "gorgiasUpdated": "2026-07-08T18:04:06.885Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
