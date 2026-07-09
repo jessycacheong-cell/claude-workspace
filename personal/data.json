@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T15:45:03.572Z",
+  "lastUpdated": "2026-07-09T17:04:00.669Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107470376,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-09T16:51:32+00:00"
+      },
+      {
+        "id": 107464361,
+        "subject": "Don't miss out on this limited-time funding offer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-09T16:21:34.357000+00:00"
+      },
+      {
+        "id": 107436711,
+        "subject": "[UMEI Store] Order #1750 placed by Kaley Pelphrey",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-09T14:16:48+00:00"
+      },
+      {
         "id": 107434906,
         "subject": "What’s new in Okendo: Q2 product updates",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-09T12:55:42.200000+00:00"
-      },
-      {
-        "id": 107421538,
-        "subject": "Join us at Accelerate for new networking experiences with sellers who get it",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-09T12:48:39+00:00"
-      },
-      {
-        "id": 107411597,
-        "subject": "on-model PDPs for UMEI Store, no studio",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-09T11:25:30+00:00"
-      },
-      {
-        "id": 107409648,
-        "subject": "Need new creatives for social media?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-09T11:01:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-09T14:11:29.992Z",
+    "gorgiasUpdated": "2026-07-09T17:04:00.485Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
