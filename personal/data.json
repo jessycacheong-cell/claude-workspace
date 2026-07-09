@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T09:55:01.733Z",
+  "lastUpdated": "2026-07-09T11:20:55.363Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107409648,
+        "subject": "Need new creatives for social media?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-09T11:01:14+00:00"
+      },
+      {
+        "id": 107409405,
+        "subject": "Want a professional phone and text plan?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-09T10:58:55+00:00"
+      },
+      {
         "id": 107375646,
         "subject": "3 things top TikTok Shop sellers do differently",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-09T01:10:22+00:00"
-      },
-      {
-        "id": 107350412,
-        "subject": "Outward Bound California is hiring a Board Member",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-08T22:16:01+00:00"
-      },
-      {
-        "id": 107335480,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-08T20:32:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-09T07:51:21.865Z",
+    "gorgiasUpdated": "2026-07-09T11:20:55.204Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
