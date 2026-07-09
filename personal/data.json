@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T01:14:03.056Z",
+  "lastUpdated": "2026-07-09T04:08:59.362Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107375646,
+        "subject": "3 things top TikTok Shop sellers do differently",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-09T02:05:53.927000+00:00"
+      },
+      {
+        "id": 107373584,
+        "subject": "Payout for Jul 10, 2026 (-$104.45 USD)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-09T01:48:27.176000+00:00"
+      },
+      {
+        "id": 107370177,
+        "subject": "😎",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-09T01:10:22+00:00"
+      },
+      {
         "id": 107350412,
         "subject": "Outward Bound California is hiring a Board Member",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-08T20:32:12+00:00"
-      },
-      {
-        "id": 107324256,
-        "subject": "Re: Your pair is on its way.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-08T19:28:26+00:00"
-      },
-      {
-        "id": 107318116,
-        "subject": "Direct message with jessiannwilliams2001",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-08T18:53:32.855000+00:00"
-      },
-      {
-        "id": 107303101,
-        "subject": "You're invited to ZapConnect 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-08T17:35:17+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-08T23:43:29.241Z",
+    "gorgiasUpdated": "2026-07-09T04:08:58.995Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
