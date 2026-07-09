@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T11:20:55.363Z",
+  "lastUpdated": "2026-07-09T14:11:30.161Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107434906,
+        "subject": "What’s new in Okendo: Q2 product updates",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-09T14:05:38+00:00"
+      },
+      {
+        "id": 107422400,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-09T12:55:42.200000+00:00"
+      },
+      {
+        "id": 107421538,
+        "subject": "Join us at Accelerate for new networking experiences with sellers who get it",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-09T12:48:39+00:00"
+      },
+      {
+        "id": 107411597,
+        "subject": "on-model PDPs for UMEI Store, no studio",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-09T11:25:30+00:00"
+      },
+      {
         "id": 107409648,
         "subject": "Need new creatives for social media?",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-09T11:01:14+00:00"
-      },
-      {
-        "id": 107409405,
-        "subject": "Want a professional phone and text plan?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-09T10:58:55+00:00"
-      },
-      {
-        "id": 107375646,
-        "subject": "3 things top TikTok Shop sellers do differently",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-09T02:05:53.927000+00:00"
-      },
-      {
-        "id": 107373584,
-        "subject": "Payout for Jul 10, 2026 (-$104.45 USD)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-09T01:48:27.176000+00:00"
-      },
-      {
-        "id": 107370177,
-        "subject": "😎",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-09T01:10:22+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-09T11:20:55.204Z",
+    "gorgiasUpdated": "2026-07-09T14:11:29.992Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
