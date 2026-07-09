@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09T20:00:32.372Z",
+  "lastUpdated": "2026-07-09T20:54:12.495Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107505520,
+        "subject": "The AI that survives BFCM is the one you can trust",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-09T20:00:29+00:00"
+      },
+      {
         "id": 107470376,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-09T14:05:38+00:00"
-      },
-      {
-        "id": 107422400,
-        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-09T12:55:42.200000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-09T18:58:09.277Z",
+    "gorgiasUpdated": "2026-07-09T20:54:12.315Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
