@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T23:33:47.095Z",
+  "lastUpdated": "2026-07-10T23:35:52.807Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -100,7 +100,7 @@
         "id": 107681825,
         "subject": "Direct message with biwerfamily",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-07-10T22:13:30.792000+00:00"
       },
       {
@@ -125,7 +125,7 @@
         "timestamp": "2026-07-10T18:01:11+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-10T22:37:08.760Z",
+    "gorgiasUpdated": "2026-07-10T23:35:52.661Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
