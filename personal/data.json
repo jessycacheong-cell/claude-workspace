@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T22:36:54.733Z",
+  "lastUpdated": "2026-07-10T22:37:08.942Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107682163,
+        "subject": "A Foundery is hiring a Founder",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-10T22:16:02+00:00"
+      },
+      {
+        "id": 107681825,
+        "subject": "Direct message with biwerfamily",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-10T22:13:30.792000+00:00"
+      },
+      {
         "id": 107660988,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-10T18:01:11+00:00"
-      },
-      {
-        "id": 107624304,
-        "subject": "Order #81242137 - Your Monthly Monitoring Report",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-10T16:29:58+00:00"
-      },
-      {
-        "id": 107624290,
-        "subject": "Order #81242137 - Your Monthly Monitoring Report",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-10T16:29:57+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-10T21:17:06.662Z",
+    "gorgiasUpdated": "2026-07-10T22:37:08.760Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
