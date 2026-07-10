@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T08:01:12.884Z",
+  "lastUpdated": "2026-07-10T08:02:06.667Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107562361,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-10T05:21:38+00:00"
+      },
+      {
         "id": 107559133,
         "subject": "HiveWatch posted: Your team handled 342 alarms today. About 1 in 3 were fake.  That's… 💡",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-09T16:51:32+00:00"
-      },
-      {
-        "id": 107464361,
-        "subject": "Don't miss out on this limited-time funding offer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-09T16:21:34.357000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-10T04:37:25.972Z",
+    "gorgiasUpdated": "2026-07-10T08:02:06.396Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
