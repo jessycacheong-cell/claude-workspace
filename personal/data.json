@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T16:00:35.707Z",
+  "lastUpdated": "2026-07-10T16:01:02.151Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 107562361,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 107610345,
+        "subject": "Learn what a PayPal Business Loan can do for your business",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-10T05:21:38+00:00"
+        "timestamp": "2026-07-10T15:09:34+00:00"
       },
       {
-        "id": 107559133,
-        "subject": "HiveWatch posted: Your team handled 342 alarms today. About 1 in 3 were fake.  That's… 💡",
+        "id": 107608055,
+        "subject": "The 3-tool workflow ends here",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-10T04:15:57+00:00"
+        "timestamp": "2026-07-10T14:59:14+00:00"
       },
       {
-        "id": 107550210,
-        "subject": "👤 UMEI, add Angus Leung",
+        "id": 107607339,
+        "subject": "Access your PayPal funds instantly",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-10T02:16:00+00:00"
+        "timestamp": "2026-07-10T14:54:24+00:00"
       },
       {
-        "id": 107505520,
-        "subject": "The AI that survives BFCM is the one you can trust",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-09T20:00:29+00:00"
-      },
-      {
-        "id": 107470376,
-        "subject": "You’ve got new messages from Likhon Acharjya",
+        "id": 107599129,
+        "subject": "Request for different size",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-07-09T16:51:32+00:00"
+        "timestamp": "2026-07-10T14:04:50+00:00"
+      },
+      {
+        "id": 107594522,
+        "subject": "The Accelerate Pavilion has everything your business needs—register now",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-10T13:36:18+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-10T13:31:20.949Z",
+    "gorgiasUpdated": "2026-07-10T16:01:01.834Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
