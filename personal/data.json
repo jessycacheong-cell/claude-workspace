@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T04:36:48.551Z",
+  "lastUpdated": "2026-07-10T04:37:26.130Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107559133,
+        "subject": "HiveWatch posted: Your team handled 342 alarms today. About 1 in 3 were fake.  That's… 💡",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-10T04:15:57+00:00"
+      },
+      {
+        "id": 107550210,
+        "subject": "👤 UMEI, add Angus Leung",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-10T02:16:00+00:00"
+      },
+      {
         "id": 107505520,
         "subject": "The AI that survives BFCM is the one you can trust",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-09T16:21:34.357000+00:00"
-      },
-      {
-        "id": 107436711,
-        "subject": "[UMEI Store] Order #1750 placed by Kaley Pelphrey",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-09T14:16:48+00:00"
-      },
-      {
-        "id": 107434906,
-        "subject": "What’s new in Okendo: Q2 product updates",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-09T14:05:38+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-10T00:15:51.255Z",
+    "gorgiasUpdated": "2026-07-10T04:37:25.972Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
