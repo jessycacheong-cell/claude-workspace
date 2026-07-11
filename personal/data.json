@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T15:10:07.927Z",
+  "lastUpdated": "2026-07-11T15:12:58.307Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107744334,
+        "subject": "Your domain will automatically renew on July 18, 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-11T14:52:06+00:00"
+      },
+      {
         "id": 107711103,
         "subject": "Your competitors launched in June. You still can.",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-11T00:20:40+00:00"
-      },
-      {
-        "id": 107682163,
-        "subject": "A Foundery is hiring a Founder",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-10T22:16:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-11T14:07:27.918Z",
+    "gorgiasUpdated": "2026-07-11T15:12:58.173Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
