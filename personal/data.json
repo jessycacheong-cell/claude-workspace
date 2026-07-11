@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T01:04:06.677Z",
+  "lastUpdated": "2026-07-11T01:04:48.788Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107696866,
+        "subject": "Direct message with logan.gm.5280",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-11T00:45:46.047000+00:00"
+      },
+      {
+        "id": 107694815,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-11T00:20:40+00:00"
+      },
+      {
         "id": 107682163,
         "subject": "A Foundery is hiring a Founder",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-10T19:55:35+00:00"
-      },
-      {
-        "id": 107646341,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-10T18:33:29+00:00"
-      },
-      {
-        "id": 107640056,
-        "subject": "Confident about you customer education ROI? Is your data?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-10T18:01:11+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-10T23:35:52.661Z",
+    "gorgiasUpdated": "2026-07-11T01:04:48.620Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
