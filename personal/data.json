@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T20:25:16.620Z",
+  "lastUpdated": "2026-07-11T21:01:43.594Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107781880,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-11T20:41:22+00:00"
+      },
+      {
         "id": 107770712,
         "subject": "New customer message on July 11, 2026 at 11:50 am",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-11T02:18:20.729000+00:00"
-      },
-      {
-        "id": 107696866,
-        "subject": "Direct message with logan.gm.5280",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-11T00:45:46.047000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-11T19:48:15.716Z",
+    "gorgiasUpdated": "2026-07-11T21:01:43.448Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
