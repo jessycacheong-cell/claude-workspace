@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T19:21:09.303Z",
+  "lastUpdated": "2026-07-11T19:48:15.939Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107770712,
+        "subject": "New customer message on July 11, 2026 at 11:50 am",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-11T18:50:14+00:00"
+      },
+      {
         "id": 107744334,
         "subject": "Your domain will automatically renew on July 18, 2026",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-11T00:45:46.047000+00:00"
-      },
-      {
-        "id": 107694815,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-11T00:20:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-11T18:33:25.025Z",
+    "gorgiasUpdated": "2026-07-11T19:48:15.716Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
