@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T13:50:01.627Z",
+  "lastUpdated": "2026-07-12T13:51:13.468Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107828689,
+        "subject": "One idea for UMEI Store's after-hours sales - Turn your 2 AM browsers into paid Shopify orders — automatically.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-12T12:32:51+00:00"
+      },
+      {
         "id": 107823061,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-11T20:41:22+00:00"
-      },
-      {
-        "id": 107770712,
-        "subject": "New customer message on July 11, 2026 at 11:50 am",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-11T18:50:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-12T12:05:52.670Z",
+    "gorgiasUpdated": "2026-07-12T13:51:13.325Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
