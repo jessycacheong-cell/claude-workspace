@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T10:58:12.985Z",
+  "lastUpdated": "2026-07-12T10:58:39.957Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107823061,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-12T10:07:00+00:00"
+      },
+      {
         "id": 107816780,
         "subject": "Jul 12, 2026 bill for UMEI Store",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-11T18:50:14+00:00"
-      },
-      {
-        "id": 107744334,
-        "subject": "Your domain will automatically renew on July 18, 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-11T14:52:06+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-12T09:11:09.176Z",
+    "gorgiasUpdated": "2026-07-12T10:58:39.712Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
