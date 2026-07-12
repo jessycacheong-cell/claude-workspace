@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T01:10:13.374Z",
+  "lastUpdated": "2026-07-12T03:52:08.516Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 107797916,
+        "subject": "New customer message on July 11, 2026 at 5:13 pm",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-12T00:13:01+00:00"
+      },
+      {
         "id": 107781880,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -111,21 +118,14 @@
         "timestamp": "2026-07-11T14:52:06+00:00"
       },
       {
-        "id": 107711103,
-        "subject": "Your competitors launched in June. You still can.",
+        "id": 107798329,
+        "subject": "Your Favorite Model, Now In Your Favorite Agent",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-07-11T04:16:07.795000+00:00"
-      },
-      {
-        "id": 107703903,
-        "subject": "How to turn one TikTok video into a sales funnel",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-11T02:18:20.729000+00:00"
+        "timestamp": "2026-07-11T09:47:51+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-12T00:06:44.430Z",
+    "gorgiasUpdated": "2026-07-12T03:52:08.317Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
