@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T21:09:40.675Z",
+  "lastUpdated": "2026-07-13T21:09:57.113Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108019352,
+        "subject": "Direct message with austinthephilosurfer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-13T20:29:42.641000+00:00"
+      },
+      {
         "id": 107999427,
         "subject": "Upcoming webinar: Sell B2B on Shopify using built-in tools",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-13T17:11:00+00:00"
-      },
-      {
-        "id": 107979995,
-        "subject": "➡️ Tomorrow: Find out what’s getting in the way of AI at work",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-13T17:02:30+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-13T19:43:32.529Z",
+    "gorgiasUpdated": "2026-07-13T21:09:56.908Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
