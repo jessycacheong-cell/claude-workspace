@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T15:48:44.473Z",
+  "lastUpdated": "2026-07-13T16:08:57.164Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 107937784,
-        "subject": "Your next big growth move in one room at Amazon Accelerate",
+        "id": 107965101,
+        "subject": "Primetime TV Awards Red Carpet Swag bag",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-13T15:49:55+00:00"
+      },
+      {
+        "id": 107964305,
+        "subject": "Use new pallet delivery ship option for your business customers",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-13T13:15:50+00:00"
+        "timestamp": "2026-07-13T15:46:02+00:00"
       },
       {
-        "id": 107922973,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 107954524,
+        "subject": "Product Update: Review Your Target-Based Bid Strategy Settings",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-13T10:34:44+00:00"
+        "timestamp": "2026-07-13T14:56:27+00:00"
       },
       {
-        "id": 107900143,
-        "subject": "jessiannwilliams2001 replied to your story",
+        "id": 107944951,
+        "subject": "Turn Zoho Campaigns data into insights with your $100 wallet credits",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-07-13T03:07:03.852000+00:00"
+        "timestamp": "2026-07-13T14:01:37+00:00"
       },
       {
-        "id": 107900043,
-        "subject": "Hola ❤️",
+        "id": 107939989,
+        "subject": "Complete your account set up by inviting your team",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-13T03:05:58+00:00"
-      },
-      {
-        "id": 107899951,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-13T03:04:23+00:00"
+        "status": "closed",
+        "timestamp": "2026-07-13T13:30:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-13T13:28:31.161Z",
+    "gorgiasUpdated": "2026-07-13T16:08:56.832Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
