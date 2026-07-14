@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T21:10:48.724Z",
+  "lastUpdated": "2026-07-14T21:34:03.388Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108197030,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-14T21:27:50+00:00"
+      },
+      {
         "id": 108150851,
         "subject": "Your go-to business products—now 25% off",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-14T15:05:03+00:00"
-      },
-      {
-        "id": 108119657,
-        "subject": "Build better events with Zoho Backstage & Zoho Campaigns",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-14T14:31:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-14T20:19:48.774Z",
+    "gorgiasUpdated": "2026-07-14T21:34:03.204Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
