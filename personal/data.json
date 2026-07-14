@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T22:10:41.575Z",
+  "lastUpdated": "2026-07-14T22:35:25.926Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108204236,
+        "subject": "YouTube Video Review Clip Usage?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-14T22:16:17+00:00"
+      },
+      {
+        "id": 108204172,
+        "subject": "Shopify In-Session: an afternoon of building with AI on July 16",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-14T22:15:44+00:00"
+      },
+      {
         "id": 108197030,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-14T16:15:42+00:00"
-      },
-      {
-        "id": 108130581,
-        "subject": "Direct message with mrwhosetheboss",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-14T15:27:46.964000+00:00"
-      },
-      {
-        "id": 108125894,
-        "subject": "Your Accelerate 2026 session catalog is now live",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-14T15:05:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-14T21:34:03.204Z",
+    "gorgiasUpdated": "2026-07-14T22:35:25.688Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
