@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T03:27:00.477Z",
+  "lastUpdated": "2026-07-14T04:13:28.922Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,10 +90,24 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108062783,
+        "subject": "Your store + Shopify + TikTok Shop = unstoppable 💪",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-14T02:29:14.093000+00:00"
+      },
+      {
+        "id": 108056443,
+        "subject": "出口遇国外客户要求产品责任险，投保成本如何核算",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-14T01:17:35+00:00"
+      },
+      {
         "id": 108054280,
         "subject": "(No subject)",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-07-14T00:55:01+00:00"
       },
       {
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-13T23:36:02+00:00"
-      },
-      {
-        "id": 108028630,
-        "subject": "Refund Initiated for Order 111-7171405-2817069",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-13T21:28:29+00:00"
-      },
-      {
-        "id": 108019352,
-        "subject": "Direct message with austinthephilosurfer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-13T20:29:42.641000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-14T01:00:20.057Z",
+    "gorgiasUpdated": "2026-07-14T04:13:28.729Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
