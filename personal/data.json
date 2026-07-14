@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T15:41:12.938Z",
+  "lastUpdated": "2026-07-14T16:01:12.404Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108130581,
+        "subject": "Direct message with mrwhosetheboss",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-14T15:27:46.964000+00:00"
+      },
+      {
+        "id": 108125894,
+        "subject": "Your Accelerate 2026 session catalog is now live",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-14T15:05:03+00:00"
+      },
+      {
+        "id": 108119657,
+        "subject": "Build better events with Zoho Backstage & Zoho Campaigns",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-14T14:31:03+00:00"
+      },
+      {
         "id": 108113767,
         "subject": "Direct message with lt_shinysides7",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-14T04:15:58+00:00"
-      },
-      {
-        "id": 108062783,
-        "subject": "Your store + Shopify + TikTok Shop = unstoppable 💪",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-14T02:29:14.093000+00:00"
-      },
-      {
-        "id": 108056443,
-        "subject": "出口遇国外客户要求产品责任险，投保成本如何核算",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-14T01:17:35+00:00"
-      },
-      {
-        "id": 108054280,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-14T00:55:01+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-14T14:26:27.842Z",
+    "gorgiasUpdated": "2026-07-14T16:01:12.178Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
