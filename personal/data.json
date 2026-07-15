@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T03:26:27.118Z",
+  "lastUpdated": "2026-07-15T04:15:24.266Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108231003,
+        "subject": "👤 UMEI, add Oliver Chernikeeff",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-15T02:16:01+00:00"
+      },
+      {
+        "id": 108225995,
+        "subject": "Your receipt from Photo App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-15T01:25:07+00:00"
+      },
+      {
         "id": 108222125,
         "subject": "thanks for the sponsorship to our players @umei_3d",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-14T22:15:44+00:00"
-      },
-      {
-        "id": 108197030,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-14T21:27:50+00:00"
-      },
-      {
-        "id": 108150851,
-        "subject": "Your go-to business products—now 25% off",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-14T17:04:47+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-15T00:57:01.412Z",
+    "gorgiasUpdated": "2026-07-15T04:15:24.073Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
