@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T18:41:59.935Z",
+  "lastUpdated": "2026-07-15T19:48:14.657Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108336748,
+        "subject": "Your product pages are missing the most convincing part",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-15T18:32:27+00:00"
+      },
+      {
         "id": 108308793,
         "subject": "Your 5 lowest-performing metrics",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-15T12:32:51.729000+00:00"
-      },
-      {
-        "id": 108257758,
-        "subject": "Get increased New Selection Program (2026) benefits starting July 30",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-15T09:45:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-15T18:17:59.868Z",
+    "gorgiasUpdated": "2026-07-15T19:48:14.474Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
