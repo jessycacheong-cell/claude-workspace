@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T00:02:28.607Z",
+  "lastUpdated": "2026-07-15T00:57:01.592Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108222125,
+        "subject": "thanks for the sponsorship to our players @umei_3d",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-15T00:45:33+00:00"
+      },
+      {
         "id": 108204236,
         "subject": "YouTube Video Review Clip Usage?",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-14T17:04:47+00:00"
-      },
-      {
-        "id": 108140082,
-        "subject": "Smart Pricing: This is the summer your pricing works for you",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-14T16:15:42+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-14T23:29:38.145Z",
+    "gorgiasUpdated": "2026-07-15T00:57:01.412Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
