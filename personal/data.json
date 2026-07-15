@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T15:43:45.402Z",
+  "lastUpdated": "2026-07-15T16:41:45.253Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108308793,
+        "subject": "Your 5 lowest-performing metrics",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-15T16:01:35.367000+00:00"
+      },
+      {
         "id": 108277660,
         "subject": "We partnered with Fuego (and we're funding your loyalty launch)",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-15T09:45:45+00:00"
-      },
-      {
-        "id": 108231003,
-        "subject": "👤 UMEI, add Oliver Chernikeeff",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-15T02:16:01+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-15T14:59:18.488Z",
+    "gorgiasUpdated": "2026-07-15T16:41:45.114Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
