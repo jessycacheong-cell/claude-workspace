@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T14:04:41.739Z",
+  "lastUpdated": "2026-07-15T14:59:18.701Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108277660,
+        "subject": "We partnered with Fuego (and we're funding your loyalty launch)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-15T13:15:07+00:00"
+      },
+      {
         "id": 108273113,
         "subject": "Tally AI is now available for everyone",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-15T02:16:01+00:00"
-      },
-      {
-        "id": 108225995,
-        "subject": "Your receipt from Photo App",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-15T01:25:07+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-15T12:55:38.891Z",
+    "gorgiasUpdated": "2026-07-15T14:59:18.488Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
