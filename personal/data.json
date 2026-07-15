@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T12:04:22.126Z",
+  "lastUpdated": "2026-07-15T12:55:39.139Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108273113,
+        "subject": "Tally AI is now available for everyone",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-15T12:46:47.633000+00:00"
+      },
+      {
+        "id": 108270751,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-15T12:32:51.729000+00:00"
+      },
+      {
         "id": 108257758,
         "subject": "Get increased New Selection Program (2026) benefits starting July 30",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-15T01:25:07+00:00"
-      },
-      {
-        "id": 108222125,
-        "subject": "thanks for the sponsorship to our players @umei_3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-15T00:45:33+00:00"
-      },
-      {
-        "id": 108204236,
-        "subject": "YouTube Video Review Clip Usage?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-14T22:16:17+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-15T11:13:06.772Z",
+    "gorgiasUpdated": "2026-07-15T12:55:38.891Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
