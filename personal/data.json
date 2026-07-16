@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T12:05:37.742Z",
+  "lastUpdated": "2026-07-16T13:04:56.123Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108434683,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-16T12:41:36.987000+00:00"
+      },
+      {
         "id": 108426405,
         "subject": "Global Warehousing and Distribution’s new China shipping options are live",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-16T03:08:20+00:00"
-      },
-      {
-        "id": 108399074,
-        "subject": "Your first 60 days — on us",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-16T03:01:51.103000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-16T11:20:13.288Z",
+    "gorgiasUpdated": "2026-07-16T13:04:55.938Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
