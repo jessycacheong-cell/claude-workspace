@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T10:30:58.744Z",
+  "lastUpdated": "2026-07-16T11:20:13.479Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108426405,
+        "subject": "Global Warehousing and Distribution’s new China shipping options are live",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-16T11:04:56+00:00"
+      },
+      {
         "id": 108408885,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-16T03:01:51.103000+00:00"
-      },
-      {
-        "id": 108397351,
-        "subject": "Review consolidated Shopping policies",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-16T02:40:26+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-16T09:24:18.913Z",
+    "gorgiasUpdated": "2026-07-16T11:20:13.288Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
