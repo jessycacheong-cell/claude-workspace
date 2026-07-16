@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T20:08:40.555Z",
+  "lastUpdated": "2026-07-16T21:12:47.419Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108516814,
+        "subject": "Love this",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-16T20:22:04+00:00"
+      },
+      {
         "id": 108488930,
         "subject": "feedback",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-16T15:18:16.578000+00:00"
-      },
-      {
-        "id": 108456450,
-        "subject": "The Glean:GO agenda is here!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-16T15:03:17+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-16T19:44:06.877Z",
+    "gorgiasUpdated": "2026-07-16T21:12:47.210Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
