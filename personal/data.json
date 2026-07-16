@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T16:00:35.424Z",
+  "lastUpdated": "2026-07-16T16:51:16.382Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108471492,
+        "subject": "Customized funding without the hassles of traditional financing",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-16T16:21:22+00:00"
+      },
+      {
+        "id": 108461312,
+        "subject": "Accelerate 2026: Sessions designed for where you are and where you’re going",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-16T15:29:56+00:00"
+      },
+      {
+        "id": 108459414,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-16T15:18:16.578000+00:00"
+      },
+      {
         "id": 108456450,
         "subject": "The Glean:GO agenda is here!",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-16T14:35:33+00:00"
-      },
-      {
-        "id": 108434683,
-        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-16T12:41:36.987000+00:00"
-      },
-      {
-        "id": 108426405,
-        "subject": "Global Warehousing and Distribution’s new China shipping options are live",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-16T11:04:56+00:00"
-      },
-      {
-        "id": 108408885,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-16T05:41:23+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-16T15:10:48.991Z",
+    "gorgiasUpdated": "2026-07-16T16:51:16.195Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
