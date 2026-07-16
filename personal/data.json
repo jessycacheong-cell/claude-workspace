@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T14:16:17.008Z",
+  "lastUpdated": "2026-07-16T15:10:49.228Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108456450,
+        "subject": "The Glean:GO agenda is here!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-16T15:03:17+00:00"
+      },
+      {
+        "id": 108451621,
+        "subject": "Chrome Extension Update: Watch Sessions Button + Auto-Login",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-16T14:35:33+00:00"
+      },
+      {
         "id": 108434683,
         "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-16T05:41:23+00:00"
-      },
-      {
-        "id": 108408710,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-16T05:37:47.095000+00:00"
-      },
-      {
-        "id": 108399646,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-16T03:08:20+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-16T13:04:55.938Z",
+    "gorgiasUpdated": "2026-07-16T15:10:48.991Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
