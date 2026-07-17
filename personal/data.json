@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T17:20:43.750Z",
+  "lastUpdated": "2026-07-17T17:20:59.244Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108638729,
+        "subject": "Refund Initiated for Order 111-9401511-5596228",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-17T17:01:16+00:00"
+      },
+      {
+        "id": 108638548,
+        "subject": "Refund Initiated for Order 114-9514797-0445828",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-17T17:00:35+00:00"
+      },
+      {
         "id": 108619159,
         "subject": "Fund more business purchases with a loan from PayPal",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-17T12:11:17+00:00"
-      },
-      {
-        "id": 108592650,
-        "subject": "Brutally honest advice about Instagram growth in 11mins ⌚",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-17T12:05:30+00:00"
-      },
-      {
-        "id": 108572851,
-        "subject": "Refund Initiated for Order 112-8942971-3445058",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-17T06:06:34+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-17T16:00:43.213Z",
+    "gorgiasUpdated": "2026-07-17T17:20:59.029Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
