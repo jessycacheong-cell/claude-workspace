@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T19:42:36.737Z",
+  "lastUpdated": "2026-07-17T19:45:46.438Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108669254,
+        "subject": "Payment Confirmation",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-17T19:38:19+00:00"
+      },
+      {
+        "id": 108669078,
+        "subject": "Filing Confirmation",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-17T19:37:13+00:00"
+      },
+      {
         "id": 108638729,
         "subject": "Refund Initiated for Order 111-9401511-5596228",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-17T15:11:33+00:00"
-      },
-      {
-        "id": 108615231,
-        "subject": "Use your PayPal Balance wherever you shop",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-17T14:54:26+00:00"
-      },
-      {
-        "id": 108593149,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-17T12:11:17+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-17T18:38:43.926Z",
+    "gorgiasUpdated": "2026-07-17T19:45:46.268Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
