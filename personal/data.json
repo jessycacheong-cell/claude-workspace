@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T01:07:17.748Z",
+  "lastUpdated": "2026-07-17T01:07:47.886Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108548168,
+        "subject": "Direct message with atlratpackruns",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-17T00:17:40.625000+00:00"
+      },
+      {
         "id": 108516814,
         "subject": "Love this",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-16T15:29:56+00:00"
-      },
-      {
-        "id": 108459414,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-16T15:18:16.578000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-16T23:32:48.751Z",
+    "gorgiasUpdated": "2026-07-17T01:07:47.692Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
