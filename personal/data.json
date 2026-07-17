@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T16:00:41.093Z",
+  "lastUpdated": "2026-07-17T16:00:43.407Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108619159,
+        "subject": "Fund more business purchases with a loan from PayPal",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-17T15:11:33+00:00"
+      },
+      {
+        "id": 108615231,
+        "subject": "Use your PayPal Balance wherever you shop",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-17T14:54:26+00:00"
+      },
+      {
         "id": 108593149,
         "subject": "(No subject)",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-17T06:06:34+00:00"
-      },
-      {
-        "id": 108567028,
-        "subject": "Lea Dombrowski recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-17T04:15:58+00:00"
-      },
-      {
-        "id": 108564508,
-        "subject": "Your Topaz Labs renewal order from July 16, 2026 is complete",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-17T03:39:54+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-17T14:14:52.438Z",
+    "gorgiasUpdated": "2026-07-17T16:00:43.213Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
