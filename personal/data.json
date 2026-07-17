@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T04:18:47.082Z",
+  "lastUpdated": "2026-07-17T04:22:13.604Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108567028,
+        "subject": "Lea Dombrowski recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-17T04:15:58+00:00"
+      },
+      {
+        "id": 108564508,
+        "subject": "Your Topaz Labs renewal order from July 16, 2026 is complete",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-17T03:39:54+00:00"
+      },
+      {
+        "id": 108563484,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-17T03:21:22+00:00"
+      },
+      {
         "id": 108548168,
         "subject": "Direct message with atlratpackruns",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-16T20:22:04+00:00"
-      },
-      {
-        "id": 108488930,
-        "subject": "feedback",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-16T17:51:36+00:00"
-      },
-      {
-        "id": 108471492,
-        "subject": "Customized funding without the hassles of traditional financing",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-16T16:21:22+00:00"
-      },
-      {
-        "id": 108461312,
-        "subject": "Accelerate 2026: Sessions designed for where you are and where you’re going",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-16T15:29:56+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-17T01:07:47.692Z",
+    "gorgiasUpdated": "2026-07-17T04:22:13.432Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
