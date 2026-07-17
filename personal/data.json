@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T04:22:13.604Z",
+  "lastUpdated": "2026-07-17T07:00:23.296Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108572851,
+        "subject": "Refund Initiated for Order 112-8942971-3445058",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-17T06:06:34+00:00"
+      },
+      {
         "id": 108567028,
         "subject": "Lea Dombrowski recently posted",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-17T00:17:40.625000+00:00"
-      },
-      {
-        "id": 108516814,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-16T20:22:04+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-17T04:22:13.432Z",
+    "gorgiasUpdated": "2026-07-17T07:00:23.130Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
