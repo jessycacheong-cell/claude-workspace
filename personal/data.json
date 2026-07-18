@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T00:03:14.796Z",
+  "lastUpdated": "2026-07-18T00:04:04.178Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108705222,
+        "subject": "Voice Message from 18329145441",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-17T23:37:48+00:00"
+      },
+      {
         "id": 108669254,
         "subject": "Payment Confirmation",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-17T17:00:35+00:00"
-      },
-      {
-        "id": 108619159,
-        "subject": "Fund more business purchases with a loan from PayPal",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-17T15:11:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-17T23:03:53.683Z",
+    "gorgiasUpdated": "2026-07-18T00:04:03.987Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
