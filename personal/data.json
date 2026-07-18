@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T05:49:44.195Z",
+  "lastUpdated": "2026-07-18T05:50:31.462Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108723469,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-18T03:46:28+00:00"
+      },
+      {
         "id": 108721168,
         "subject": "[UMEI Store] Order #1759 placed by Carlota Chavarri",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-18T00:38:10.217000+00:00"
-      },
-      {
-        "id": 108708894,
-        "subject": "Saff is hiring a Founder in Residence",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-18T00:15:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-18T03:25:13.374Z",
+    "gorgiasUpdated": "2026-07-18T05:50:31.293Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
