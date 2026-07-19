@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T19:21:03.015Z",
+  "lastUpdated": "2026-07-19T19:48:53.091Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108879620,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-19T19:41:11+00:00"
+      },
+      {
+        "id": 108879199,
+        "subject": "Direct message with donmiltongrowth",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-19T19:36:14.475000+00:00"
+      },
+      {
         "id": 108866656,
         "subject": "Domain renewal for umeistore.com bill for UMEI Store",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-19T14:11:30.292000+00:00"
-      },
-      {
-        "id": 108848824,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-19T13:53:37+00:00"
-      },
-      {
-        "id": 108773421,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-18T16:54:25+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-19T18:36:08.508Z",
+    "gorgiasUpdated": "2026-07-19T19:48:52.920Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
