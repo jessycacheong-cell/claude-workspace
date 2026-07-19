@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T16:07:09.935Z",
+  "lastUpdated": "2026-07-19T16:31:25.510Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108857340,
+        "subject": "You're eligible to apply for a PayPal Business Loan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-19T15:32:04+00:00"
+      },
+      {
         "id": 108850359,
         "subject": "Message from Received Badge",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-18T11:49:16.977000+00:00"
-      },
-      {
-        "id": 108723469,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-18T03:46:28+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-19T15:10:15.168Z",
+    "gorgiasUpdated": "2026-07-19T16:31:22.042Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
