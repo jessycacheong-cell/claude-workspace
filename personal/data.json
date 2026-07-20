@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T04:48:26.194Z",
+  "lastUpdated": "2026-07-20T07:23:50.696Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108919234,
+        "subject": "HILOS recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-20T04:15:58+00:00"
+      },
+      {
         "id": 108905305,
         "subject": "More than 27 of your products aren’t on Google  ",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-19T21:32:58+00:00"
-      },
-      {
-        "id": 108888500,
-        "subject": "Beautiful 😍 I love the gold color",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-19T21:30:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-20T04:01:24.445Z",
+    "gorgiasUpdated": "2026-07-20T07:23:50.526Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
