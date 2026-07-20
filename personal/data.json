@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T20:37:36.986Z",
+  "lastUpdated": "2026-07-20T20:37:59.875Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109033352,
+        "subject": "Balance paid on your Amazon seller account",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-20T20:16:23+00:00"
+      },
+      {
+        "id": 109023352,
+        "subject": "Join us for a new Marketing Success Season",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-20T19:19:55+00:00"
+      },
+      {
         "id": 109011408,
         "subject": "Mario Sergio Cortella, Professor, is popular in your network",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-20T17:02:30+00:00"
-      },
-      {
-        "id": 108993542,
-        "subject": "Yumei, the creativity on Behance will amaze you",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-20T16:45:03+00:00"
-      },
-      {
-        "id": 108980211,
-        "subject": "Hello",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-20T15:43:30+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-20T19:04:57.699Z",
+    "gorgiasUpdated": "2026-07-20T20:37:59.532Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
