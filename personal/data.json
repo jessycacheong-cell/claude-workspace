@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T13:28:09.810Z",
+  "lastUpdated": "2026-07-20T14:54:22.369Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108970306,
+        "subject": "Share benefits with your team by adding them to Amazon Business",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-20T14:54:13+00:00"
+      },
+      {
+        "id": 108952527,
+        "subject": "Umei3d Llc, we miss you. Save 25%!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-20T13:03:39+00:00"
+      },
+      {
         "id": 108919234,
         "subject": "HILOS recently posted",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-20T00:37:41.312000+00:00"
-      },
-      {
-        "id": 108901656,
-        "subject": "Direct message with austinthephilosurfer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-20T00:16:39.125000+00:00"
-      },
-      {
-        "id": 108888701,
-        "subject": "Gold pair would be 🔥",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-19T21:32:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-20T12:36:54.250Z",
+    "gorgiasUpdated": "2026-07-20T14:54:21.791Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
