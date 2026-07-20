@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T19:04:24.125Z",
+  "lastUpdated": "2026-07-20T19:04:57.878Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109011408,
+        "subject": "Mario Sergio Cortella, Professor, is popular in your network",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-20T18:15:58+00:00"
+      },
+      {
+        "id": 109003888,
+        "subject": "UMEI 3D - Moonwalker slides",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-20T17:37:49+00:00"
+      },
+      {
+        "id": 108996780,
+        "subject": "Your Week In Reviews For UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-20T17:02:30+00:00"
+      },
+      {
+        "id": 108993542,
+        "subject": "Yumei, the creativity on Behance will amaze you",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-20T16:45:03+00:00"
+      },
+      {
         "id": 108980211,
         "subject": "Hello",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-20T15:43:30+00:00"
-      },
-      {
-        "id": 108970306,
-        "subject": "Share benefits with your team by adding them to Amazon Business",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-20T14:54:13+00:00"
-      },
-      {
-        "id": 108952527,
-        "subject": "Umei3d Llc, we miss you. Save 25%!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-20T13:03:39+00:00"
-      },
-      {
-        "id": 108919234,
-        "subject": "HILOS recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-20T04:15:58+00:00"
-      },
-      {
-        "id": 108905305,
-        "subject": "More than 27 of your products aren’t on Google  ",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-20T01:00:34+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-20T16:41:32.155Z",
+    "gorgiasUpdated": "2026-07-20T19:04:57.699Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
