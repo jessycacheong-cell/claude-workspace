@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T15:30:55.351Z",
+  "lastUpdated": "2026-07-20T16:41:32.342Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 108980211,
+        "subject": "Hello",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-20T15:43:30+00:00"
+      },
+      {
         "id": 108970306,
         "subject": "Share benefits with your team by adding them to Amazon Business",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-20T01:00:34+00:00"
-      },
-      {
-        "id": 108903458,
-        "subject": "jessiannwilliams2001 replied to your story",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-20T00:37:41.312000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-20T14:54:21.791Z",
+    "gorgiasUpdated": "2026-07-20T16:41:32.155Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
