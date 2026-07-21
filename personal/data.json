@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T21:22:12.570Z",
+  "lastUpdated": "2026-07-21T21:22:40.417Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109207192,
+        "subject": "Re: Your pair is on its way.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-21T20:15:12+00:00"
+      },
+      {
         "id": 109191777,
         "subject": "Mention in biwerfamily's story",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-21T17:03:51+00:00"
-      },
-      {
-        "id": 109156868,
-        "subject": "Automated unfulfillable FBA inventory removal notification",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-21T15:48:23+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-21T19:46:19.264Z",
+    "gorgiasUpdated": "2026-07-21T21:22:40.234Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
