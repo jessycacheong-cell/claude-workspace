@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T03:37:23.044Z",
+  "lastUpdated": "2026-07-21T04:27:16.170Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109080264,
+        "subject": "👤 UMEI, add Isabella Millet Benquique",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-21T02:15:58+00:00"
+      },
+      {
+        "id": 109074499,
+        "subject": "Supermetrics Invoice txn_3TvSJi2mjH4XVMmx01RjNEt9",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-21T01:18:03+00:00"
+      },
+      {
         "id": 109033352,
         "subject": "Balance paid on your Amazon seller account",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-20T18:15:58+00:00"
-      },
-      {
-        "id": 109003888,
-        "subject": "UMEI 3D - Moonwalker slides",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-20T17:37:49+00:00"
-      },
-      {
-        "id": 108996780,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-20T17:02:30+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-21T01:03:35.108Z",
+    "gorgiasUpdated": "2026-07-21T04:27:15.976Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
