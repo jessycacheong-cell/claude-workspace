@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T23:35:51.656Z",
+  "lastUpdated": "2026-07-21T23:36:15.083Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109236095,
+        "subject": "Your Klaviyo Inc subscription will renew soon",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-21T23:25:59+00:00"
+      },
+      {
         "id": 109207192,
         "subject": "Re: Your pair is on its way.",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-21T17:29:18+00:00"
-      },
-      {
-        "id": 109173577,
-        "subject": "Act now: 25% off your business reorder",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-21T17:03:51+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-21T22:31:16.223Z",
+    "gorgiasUpdated": "2026-07-21T23:36:14.909Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
