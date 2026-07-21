@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T16:58:09.326Z",
+  "lastUpdated": "2026-07-21T17:40:33.403Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109177358,
+        "subject": "Action Required: Create a passkey today and protect your Google Ads account",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-21T17:30:29+00:00"
+      },
+      {
+        "id": 109177122,
+        "subject": "Zoho Campaigns Subscription - Payment Renewal Ahead!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-21T17:29:18+00:00"
+      },
+      {
+        "id": 109173577,
+        "subject": "Act now: 25% off your business reorder",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-21T17:03:51+00:00"
+      },
+      {
         "id": 109156868,
         "subject": "Automated unfulfillable FBA inventory removal notification",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-21T15:35:44+00:00"
-      },
-      {
-        "id": 109152514,
-        "subject": "Order number 1753",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-21T15:25:13+00:00"
-      },
-      {
-        "id": 109142525,
-        "subject": "New customer message on July 21, 2026 at 7:35 am",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-21T14:35:19+00:00"
-      },
-      {
-        "id": 109141933,
-        "subject": "You're invited: The smarter way to run events",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-21T14:30:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-21T16:04:32.928Z",
+    "gorgiasUpdated": "2026-07-21T17:40:33.149Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
