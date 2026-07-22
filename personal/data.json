@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T14:18:04.945Z",
+  "lastUpdated": "2026-07-22T14:18:32.450Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 109280608,
-        "subject": "(No subject)",
+        "id": 109306943,
+        "subject": "Gorgias Product Updates: AI Agent just took its biggest leap yet",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-22T14:01:51+00:00"
+      },
+      {
+        "id": 109306061,
+        "subject": "Product Update: Redesigned Instant",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-22T14:00:21+00:00"
+      },
+      {
+        "id": 109303933,
+        "subject": "[Webinar] The loyalty rebuild behind 2.2× more repeat purchases",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-22T13:46:00+00:00"
+      },
+      {
+        "id": 109295215,
+        "subject": "One idea for UMEI Store's after-hours sales - Turn your 2 AM browsers into paid Shopify orders — automatically.",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-07-22T09:29:38+00:00"
+        "timestamp": "2026-07-22T12:40:52+00:00"
       },
       {
-        "id": 109277138,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-22T08:16:09+00:00"
-      },
-      {
-        "id": 109257466,
-        "subject": "Brighten their day with a text",
+        "id": 109294369,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-22T02:47:42+00:00"
-      },
-      {
-        "id": 109249313,
-        "subject": "Your receipt from Photo App",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-22T01:25:08+00:00"
-      },
-      {
-        "id": 109236095,
-        "subject": "Your Klaviyo Inc subscription will renew soon",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-21T23:25:59+00:00"
+        "timestamp": "2026-07-22T12:32:57.196000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-22T12:00:27.404Z",
+    "gorgiasUpdated": "2026-07-22T14:18:31.807Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
