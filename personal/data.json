@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T10:04:03.195Z",
+  "lastUpdated": "2026-07-22T10:04:16.670Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109280608,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-22T09:29:38+00:00"
+      },
+      {
+        "id": 109277138,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-22T08:16:09+00:00"
+      },
+      {
         "id": 109257466,
         "subject": "Brighten their day with a text",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-21T23:25:59+00:00"
-      },
-      {
-        "id": 109207192,
-        "subject": "Re: Your pair is on its way.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-21T20:15:12+00:00"
-      },
-      {
-        "id": 109191777,
-        "subject": "Mention in biwerfamily's story",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-21T18:44:35.154000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-22T07:17:19.853Z",
+    "gorgiasUpdated": "2026-07-22T10:04:16.482Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
