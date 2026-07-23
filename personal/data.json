@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T21:39:37.685Z",
+  "lastUpdated": "2026-07-23T22:34:34.011Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109551468,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-23T21:37:34+00:00"
+      },
+      {
         "id": 109534307,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-23T16:30:45+00:00"
-      },
-      {
-        "id": 109474978,
-        "subject": "Seller News: July 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-23T14:17:51+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-23T21:18:21.661Z",
+    "gorgiasUpdated": "2026-07-23T22:34:33.829Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
