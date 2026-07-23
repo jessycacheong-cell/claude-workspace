@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T04:26:47.068Z",
+  "lastUpdated": "2026-07-23T04:30:13.777Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109423234,
+        "subject": "Direct message with tonnny1221",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-23T03:19:06.271000+00:00"
+      },
+      {
+        "id": 109416952,
+        "subject": "Which category are you?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-23T02:09:03+00:00"
+      },
+      {
+        "id": 109411716,
+        "subject": "Re: How Are They Feeling?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-23T01:17:13+00:00"
+      },
+      {
         "id": 109391929,
         "subject": "Direct message with lt_shinysides7",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-22T16:02:36+00:00"
-      },
-      {
-        "id": 109317223,
-        "subject": "Glean:GO featured speakers: DaVita, GM, and NVIDIA",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-22T15:03:55+00:00"
-      },
-      {
-        "id": 109311940,
-        "subject": "Share your feedback on Amazon Accelerate",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-22T14:32:04+00:00"
-      },
-      {
-        "id": 109306943,
-        "subject": "Gorgias Product Updates: AI Agent just took its biggest leap yet",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-22T14:01:51+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-23T01:07:37.984Z",
+    "gorgiasUpdated": "2026-07-23T04:30:13.616Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
