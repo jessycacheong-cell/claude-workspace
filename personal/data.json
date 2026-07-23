@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T17:43:52.056Z",
+  "lastUpdated": "2026-07-23T17:57:46.335Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109506333,
+        "subject": "Get faster, personalized support with Seller Assistant",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-23T17:07:33+00:00"
+      },
+      {
+        "id": 109499471,
+        "subject": "Adobe eLearning News – July 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-23T16:30:45+00:00"
+      },
+      {
         "id": 109474978,
         "subject": "Seller News: July 2026",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-23T13:46:36+00:00"
-      },
-      {
-        "id": 109468238,
-        "subject": "Mention in vintage._.record's story",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-23T13:39:38.998000+00:00"
-      },
-      {
-        "id": 109462041,
-        "subject": "Airline discounts and $100 off registration. Available for a limited time",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-23T12:59:23+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-23T16:11:51.738Z",
+    "gorgiasUpdated": "2026-07-23T17:57:46.171Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
