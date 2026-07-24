@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T18:43:48.860Z",
+  "lastUpdated": "2026-07-24T19:43:07.875Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109687127,
+        "subject": "Custom Clothing Inquiry",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-24T19:05:41.785000+00:00"
+      },
+      {
         "id": 109643045,
         "subject": "The AI tools every creator should be using in 2026 👀",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-24T04:16:03+00:00"
-      },
-      {
-        "id": 109588197,
-        "subject": "Refund Initiated for Order 114-7830536-8793843",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-24T03:26:27+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-24T17:47:14.141Z",
+    "gorgiasUpdated": "2026-07-24T19:43:07.562Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
