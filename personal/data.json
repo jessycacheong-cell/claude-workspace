@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T09:58:34.968Z",
+  "lastUpdated": "2026-07-24T09:58:40.178Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109603814,
+        "subject": "Zoho Campaigns - Your subscription is renewed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-24T08:10:27+00:00"
+      },
+      {
         "id": 109591427,
         "subject": "Tai Huynh recently posted",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-23T21:37:34+00:00"
-      },
-      {
-        "id": 109534307,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-23T19:45:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-24T07:14:14.214Z",
+    "gorgiasUpdated": "2026-07-24T09:58:39.901Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
