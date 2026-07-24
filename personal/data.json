@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-24T04:26:39.295Z",
+  "lastUpdated": "2026-07-24T04:27:09.447Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109591427,
+        "subject": "Tai Huynh recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-24T04:16:03+00:00"
+      },
+      {
+        "id": 109588197,
+        "subject": "Refund Initiated for Order 114-7830536-8793843",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-24T03:26:27+00:00"
+      },
+      {
+        "id": 109577935,
+        "subject": "[UMEI Store] Order #1762 placed by Terry Dilley",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-24T01:25:33.393000+00:00"
+      },
+      {
         "id": 109551468,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-23T19:45:58+00:00"
-      },
-      {
-        "id": 109520746,
-        "subject": "An AI transformation session you won't want to miss at ZapConnect",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-23T18:27:23+00:00"
-      },
-      {
-        "id": 109506333,
-        "subject": "Get faster, personalized support with Seller Assistant",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-23T17:07:33+00:00"
-      },
-      {
-        "id": 109499471,
-        "subject": "Adobe eLearning News – July 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-23T16:30:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-24T01:03:11.656Z",
+    "gorgiasUpdated": "2026-07-24T04:27:09.268Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
