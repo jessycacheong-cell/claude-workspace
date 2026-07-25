@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T04:22:06.259Z",
+  "lastUpdated": "2026-07-25T06:03:20.045Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109750426,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-25T05:34:03+00:00"
+      },
+      {
+        "id": 109748452,
+        "subject": "Hi Umei3d",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-25T04:50:18+00:00"
+      },
+      {
+        "id": 109748339,
+        "subject": "can @el_compita_vip  get a charcoal gray one",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-25T04:47:35+00:00"
+      },
+      {
+        "id": 109746679,
+        "subject": "Scale faster with TikTok Shop's creator network 🤝",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-25T04:09:12.701000+00:00"
+      },
+      {
         "id": 109744219,
         "subject": "Hey umei3d",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-25T03:24:15+00:00"
-      },
-      {
-        "id": 109739925,
-        "subject": "👤 UMEI, add Oliver Chernikeeff",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-25T02:16:05+00:00"
-      },
-      {
-        "id": 109736576,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-25T01:25:58+00:00"
-      },
-      {
-        "id": 109736067,
-        "subject": "Klaviyo Invoice",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-25T01:18:43.958000+00:00"
-      },
-      {
-        "id": 109731891,
-        "subject": "Your receipt from Klaviyo Inc #****-****-2721",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-25T00:28:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-25T03:33:09.168Z",
+    "gorgiasUpdated": "2026-07-25T06:03:19.902Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
