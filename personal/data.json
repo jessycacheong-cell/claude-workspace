@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T19:49:56.503Z",
+  "lastUpdated": "2026-07-25T19:51:01.864Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109809917,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-25T19:32:21+00:00"
+      },
+      {
         "id": 109766414,
         "subject": "Quick Update",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-25T04:47:35+00:00"
-      },
-      {
-        "id": 109746679,
-        "subject": "Scale faster with TikTok Shop's creator network 🤝",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-25T04:09:12.701000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-25T18:35:55.869Z",
+    "gorgiasUpdated": "2026-07-25T19:51:01.699Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
