@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T22:04:48.213Z",
+  "lastUpdated": "2026-07-25T22:05:58.289Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109813994,
+        "subject": "biwerfamily replied to your story",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-25T20:19:41.618000+00:00"
+      },
+      {
         "id": 109809917,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-25T04:50:18+00:00"
-      },
-      {
-        "id": 109748339,
-        "subject": "can @el_compita_vip  get a charcoal gray one",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-25T04:47:35+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-25T19:51:01.699Z",
+    "gorgiasUpdated": "2026-07-25T22:05:58.110Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
