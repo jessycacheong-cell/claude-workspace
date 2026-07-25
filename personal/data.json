@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T01:07:38.308Z",
+  "lastUpdated": "2026-07-25T03:33:09.302Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 109723262,
-        "subject": "Invoice - 50102304576 from ZOHO Corporation.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-24T22:58:30+00:00"
-      },
-      {
-        "id": 109687127,
-        "subject": "Custom Clothing Inquiry",
+        "id": 109744219,
+        "subject": "Hey umei3d",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-07-24T19:05:41.785000+00:00"
+        "timestamp": "2026-07-25T03:24:15+00:00"
       },
       {
-        "id": 109643045,
-        "subject": "The AI tools every creator should be using in 2026 👀",
+        "id": 109739925,
+        "subject": "👤 UMEI, add Oliver Chernikeeff",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-24T15:04:09+00:00"
+        "timestamp": "2026-07-25T02:16:05+00:00"
       },
       {
-        "id": 109633246,
-        "subject": "You asked for smarter AI tools. We're delivering at Accelerate 2026",
+        "id": 109736576,
+        "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-24T14:07:07+00:00"
+        "status": "open",
+        "timestamp": "2026-07-25T01:25:58+00:00"
       },
       {
-        "id": 109603814,
-        "subject": "Zoho Campaigns - Your subscription is renewed",
+        "id": 109736067,
+        "subject": "Klaviyo Invoice",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-24T08:10:27+00:00"
+        "timestamp": "2026-07-25T01:18:43.958000+00:00"
+      },
+      {
+        "id": 109731891,
+        "subject": "Your receipt from Klaviyo Inc #****-****-2721",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-25T00:28:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-24T23:42:42.259Z",
+    "gorgiasUpdated": "2026-07-25T03:33:09.168Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
