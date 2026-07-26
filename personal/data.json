@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T21:08:32.974Z",
+  "lastUpdated": "2026-07-26T21:09:03.472Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109902136,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-26T20:26:58.574000+00:00"
+      },
+      {
         "id": 109894221,
         "subject": "Refund Initiated for Order 112-2579873-4546615",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-26T02:57:50.408000+00:00"
-      },
-      {
-        "id": 109836910,
-        "subject": "Direct message with austinthephilosurfer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-26T01:49:26.459000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-26T19:51:23.168Z",
+    "gorgiasUpdated": "2026-07-26T21:09:03.239Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
