@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T17:54:30.244Z",
+  "lastUpdated": "2026-07-26T18:38:23.287Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109892543,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-26T18:35:49+00:00"
+      },
+      {
         "id": 109847141,
         "subject": "Your Google Play Order Receipt from Jul 25, 2026",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-25T20:19:41.618000+00:00"
-      },
-      {
-        "id": 109809917,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-25T19:32:21+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-26T17:12:03.498Z",
+    "gorgiasUpdated": "2026-07-26T18:38:23.085Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
