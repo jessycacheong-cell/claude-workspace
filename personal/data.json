@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T03:58:24.028Z",
+  "lastUpdated": "2026-07-27T05:29:15.319Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 109936700,
+        "subject": "Tai Huynh recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-27T04:16:02+00:00"
+      },
+      {
         "id": 109908400,
         "subject": "Direct message with an Instagram user",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-26T18:55:36+00:00"
-      },
-      {
-        "id": 109892543,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-26T18:35:49+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-27T01:15:42.665Z",
+    "gorgiasUpdated": "2026-07-27T05:29:15.146Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
