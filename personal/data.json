@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T16:31:21.631Z",
+  "lastUpdated": "2026-07-27T17:19:59.150Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110014667,
+        "subject": "Your Week In Reviews For UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-27T17:02:19+00:00"
+      },
+      {
+        "id": 110005138,
+        "subject": "Cut the busywork with new features",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-27T16:15:35+00:00"
+      },
+      {
+        "id": 109995664,
+        "subject": "Interested In Your Store",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-27T15:35:42+00:00"
+      },
+      {
         "id": 109986278,
         "subject": "Voice Message from 15166411300",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-27T13:57:03+00:00"
-      },
-      {
-        "id": 109975908,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-27T13:50:49+00:00"
-      },
-      {
-        "id": 109969350,
-        "subject": "logo boxes",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-27T13:06:53+00:00"
-      },
-      {
-        "id": 109968779,
-        "subject": "Umei3d Llc, we miss you. Save 25%!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-27T13:04:32+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-27T15:29:04.545Z",
+    "gorgiasUpdated": "2026-07-27T17:19:58.958Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
