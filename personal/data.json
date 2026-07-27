@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T21:20:37.211Z",
+  "lastUpdated": "2026-07-27T22:15:12.306Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110066764,
+        "subject": "Size 13 Moonwalker Slides",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-27T21:54:04+00:00"
+      },
+      {
+        "id": 110065191,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-27T21:42:19.809000+00:00"
+      },
+      {
         "id": 110032621,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-27T18:11:12+00:00"
-      },
-      {
-        "id": 110023428,
-        "subject": "Voice Message from 15166411300",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-27T17:48:22+00:00"
-      },
-      {
-        "id": 110020470,
-        "subject": "Don’t forget: Register for our live event",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-27T17:32:18+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-27T20:40:32.293Z",
+    "gorgiasUpdated": "2026-07-27T22:15:12.108Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
