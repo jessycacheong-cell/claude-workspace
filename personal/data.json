@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T13:56:01.499Z",
+  "lastUpdated": "2026-07-27T15:29:04.740Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 109953665,
-        "subject": "You’ve got new messages from Likhon Acharjya",
+        "id": 109986278,
+        "subject": "Voice Message from 15166411300",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-27T14:51:03+00:00"
+      },
+      {
+        "id": 109976805,
+        "subject": "Face time with the teams who built the AI tools at Accelerate 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-27T13:57:03+00:00"
+      },
+      {
+        "id": 109975908,
+        "subject": "(No subject)",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-07-27T09:55:55+00:00"
+        "timestamp": "2026-07-27T13:50:49+00:00"
       },
       {
-        "id": 109950579,
-        "subject": "Meet Rendair 2.0, our biggest update yet",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-27T08:02:40+00:00"
-      },
-      {
-        "id": 109936700,
-        "subject": "Tai Huynh recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-27T04:16:02+00:00"
-      },
-      {
-        "id": 109908400,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-26T21:38:28.175000+00:00"
-      },
-      {
-        "id": 109908382,
-        "subject": "Love this",
+        "id": 109969350,
+        "subject": "logo boxes",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-07-26T21:38:27+00:00"
+        "timestamp": "2026-07-27T13:06:53+00:00"
+      },
+      {
+        "id": 109968779,
+        "subject": "Umei3d Llc, we miss you. Save 25%!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-27T13:04:32+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-27T12:34:36.604Z",
+    "gorgiasUpdated": "2026-07-27T15:29:04.545Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
