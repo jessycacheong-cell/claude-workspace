@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T12:23:26.722Z",
+  "lastUpdated": "2026-07-28T13:17:22.322Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110140943,
+        "subject": "Get 1:1 guidance from Amazon experts. Book your Seller Café appointment now",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-28T12:56:17+00:00"
+      },
+      {
         "id": 110125072,
         "subject": "Direct message with zerolovetennis",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-28T03:12:49.368000+00:00"
-      },
-      {
-        "id": 110098231,
-        "subject": "👤 UMEI, add Angus Leung",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-28T02:16:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-28T11:37:08.088Z",
+    "gorgiasUpdated": "2026-07-28T13:17:22.095Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
