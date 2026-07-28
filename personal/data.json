@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T22:38:30.634Z",
+  "lastUpdated": "2026-07-28T22:39:07.712Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110229063,
+        "subject": "Your Google Analytics performance report is in for July 1st - 28th",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-28T21:24:03+00:00"
+      },
+      {
         "id": 110225710,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-28T19:10:40+00:00"
-      },
-      {
-        "id": 110202850,
-        "subject": "Voice Message from 15166411300",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-28T18:46:21+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-28T21:18:15.656Z",
+    "gorgiasUpdated": "2026-07-28T22:39:07.558Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
