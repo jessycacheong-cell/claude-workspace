@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T01:01:28.302Z",
+  "lastUpdated": "2026-07-28T03:29:13.823Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 110079310,
-        "subject": "⏳ Your Summer ad credits are expiring unused",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-27T23:22:14.730000+00:00"
-      },
-      {
-        "id": 110075676,
-        "subject": "Voice Message from 15166411300",
+        "id": 110104857,
+        "subject": "ZERO",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-27T22:54:48+00:00"
+        "timestamp": "2026-07-28T03:26:15+00:00"
       },
       {
-        "id": 110071745,
-        "subject": "Investigating new  minor incident 🔍",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-27T22:32:31+00:00"
-      },
-      {
-        "id": 110066764,
-        "subject": "Size 13 Moonwalker Slides",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-27T21:54:04+00:00"
-      },
-      {
-        "id": 110065191,
+        "id": 110103824,
         "subject": "Direct message with an Instagram user",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-27T21:42:19.809000+00:00"
+        "timestamp": "2026-07-28T03:12:49.368000+00:00"
+      },
+      {
+        "id": 110098231,
+        "subject": "👤 UMEI, add Angus Leung",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-28T02:16:03+00:00"
+      },
+      {
+        "id": 110094338,
+        "subject": "New seller? June is the best time to start 💰",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-28T01:36:06.217000+00:00"
+      },
+      {
+        "id": 110082890,
+        "subject": "Direct message with jessiannwilliams2001",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-27T23:51:12.414000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-27T23:41:18.233Z",
+    "gorgiasUpdated": "2026-07-28T03:29:13.663Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
