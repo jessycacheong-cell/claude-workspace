@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T10:12:25.927Z",
+  "lastUpdated": "2026-07-28T11:37:08.339Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110125072,
+        "subject": "Direct message with zerolovetennis",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-28T09:27:49.958000+00:00"
+      },
+      {
         "id": 110122804,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-28T02:16:03+00:00"
-      },
-      {
-        "id": 110094338,
-        "subject": "New seller? June is the best time to start 💰",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-28T01:36:06.217000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-28T09:20:31.033Z",
+    "gorgiasUpdated": "2026-07-28T11:37:08.088Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
