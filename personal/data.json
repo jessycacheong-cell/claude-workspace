@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T07:20:38.354Z",
+  "lastUpdated": "2026-07-28T09:20:31.239Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110122804,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-28T08:41:49+00:00"
+      },
+      {
         "id": 110104857,
         "subject": "ZERO",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-28T01:36:06.217000+00:00"
-      },
-      {
-        "id": 110082890,
-        "subject": "Direct message with jessiannwilliams2001",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-27T23:51:12.414000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-28T06:12:03.954Z",
+    "gorgiasUpdated": "2026-07-28T09:20:31.033Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
