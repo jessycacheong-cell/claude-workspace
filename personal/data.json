@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T15:02:36.739Z",
+  "lastUpdated": "2026-07-28T15:52:15.281Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110157989,
+        "subject": "Add WhatsApp to your notification preferences",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-28T14:37:55+00:00"
+      },
+      {
         "id": 110140943,
         "subject": "Get 1:1 guidance from Amazon experts. Book your Seller Café appointment now",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-28T03:26:15+00:00"
-      },
-      {
-        "id": 110103824,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-28T03:12:49.368000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-28T13:17:22.095Z",
+    "gorgiasUpdated": "2026-07-28T15:52:15.014Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
