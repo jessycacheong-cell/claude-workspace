@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T19:38:33.855Z",
+  "lastUpdated": "2026-07-29T19:38:39.740Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110362179,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-29T18:40:30.187000+00:00"
+      },
+      {
         "id": 110340062,
         "subject": "🎥 Launch your next product with reviews already live",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-29T14:19:06+00:00"
-      },
-      {
-        "id": 110316363,
-        "subject": "Re: Cancel subscription.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-29T14:17:41+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-29T17:52:30.258Z",
+    "gorgiasUpdated": "2026-07-29T19:38:39.579Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
