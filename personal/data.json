@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T14:55:59.456Z",
+  "lastUpdated": "2026-07-29T16:36:59.007Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110340062,
+        "subject": "🎥 Launch your next product with reviews already live",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-29T16:35:45+00:00"
+      },
+      {
+        "id": 110323673,
+        "subject": "Glean GO featured speakers: Dell, Motive and Infoblox",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-29T15:03:30+00:00"
+      },
+      {
+        "id": 110323419,
+        "subject": "Your leadership pipeline is missing a piece",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-29T15:02:29+00:00"
+      },
+      {
         "id": 110316603,
         "subject": "The Review: July updates from Okendo",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-29T14:17:41+00:00"
-      },
-      {
-        "id": 110304562,
-        "subject": "New this month: store credit rewards, retention offers & more →",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-29T13:00:49+00:00"
-      },
-      {
-        "id": 110301484,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-29T12:31:00.227000+00:00"
-      },
-      {
-        "id": 110284797,
-        "subject": "Jul 29, 2026 bill for My Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-29T08:14:12.397000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-29T14:55:59.224Z",
+    "gorgiasUpdated": "2026-07-29T16:36:58.747Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
