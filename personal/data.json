@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T14:55:53.218Z",
+  "lastUpdated": "2026-07-29T14:55:59.456Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110316603,
+        "subject": "The Review: July updates from Okendo",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-29T14:19:06+00:00"
+      },
+      {
+        "id": 110316363,
+        "subject": "Re: Cancel subscription.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-29T14:17:41+00:00"
+      },
+      {
+        "id": 110304562,
+        "subject": "New this month: store credit rewards, retention offers & more →",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-29T13:00:49+00:00"
+      },
+      {
         "id": 110301484,
         "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-29T08:14:12.397000+00:00"
-      },
-      {
-        "id": 110283480,
-        "subject": "RE: Your UMEI slides are waiting 👟 — don't miss out",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-29T07:52:14+00:00"
-      },
-      {
-        "id": 110273287,
-        "subject": "[UMEI Store] Order #1773 placed by T S",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-29T04:32:46+00:00"
-      },
-      {
-        "id": 110266206,
-        "subject": "Expand your reach and boost your engagement with SMS",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-29T02:50:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-29T12:31:57.134Z",
+    "gorgiasUpdated": "2026-07-29T14:55:59.224Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
