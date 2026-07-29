@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T20:33:10.327Z",
+  "lastUpdated": "2026-07-29T20:34:55.606Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110371928,
+        "subject": "Your FBA capacity limits for August",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-29T19:40:52+00:00"
+      },
+      {
         "id": 110362179,
         "subject": "Direct message with an Instagram user",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-29T15:02:29+00:00"
-      },
-      {
-        "id": 110316603,
-        "subject": "The Review: July updates from Okendo",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-29T14:19:06+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-29T19:38:39.579Z",
+    "gorgiasUpdated": "2026-07-29T20:34:55.422Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
