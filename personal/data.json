@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T04:24:28.314Z",
+  "lastUpdated": "2026-07-29T04:27:56.316Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110266206,
+        "subject": "Expand your reach and boost your engagement with SMS",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-29T02:50:53+00:00"
+      },
+      {
+        "id": 110261167,
+        "subject": "Direct message with luca.magnani",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-29T01:56:16.435000+00:00"
+      },
+      {
+        "id": 110258313,
+        "subject": "Your receipt from Photo App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-29T01:25:09+00:00"
+      },
+      {
         "id": 110251239,
         "subject": "Direct message with atlratpackruns",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-28T22:59:33+00:00"
-      },
-      {
-        "id": 110229063,
-        "subject": "Your Google Analytics performance report is in for July 1st - 28th",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-28T21:24:03+00:00"
-      },
-      {
-        "id": 110225710,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-28T21:03:48+00:00"
-      },
-      {
-        "id": 110224015,
-        "subject": "Received incorrect item",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-28T20:53:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-29T01:07:44.106Z",
+    "gorgiasUpdated": "2026-07-29T04:27:56.130Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
