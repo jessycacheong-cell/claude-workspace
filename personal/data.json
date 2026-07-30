@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T07:17:12.337Z",
+  "lastUpdated": "2026-07-30T07:17:33.791Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110429459,
+        "subject": "Summer into selling — up to $1,900 in free ads 😎",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-30T04:38:37.212000+00:00"
+      },
+      {
+        "id": 110428287,
+        "subject": "Tai Huynh - Founder CEO reacted to this post: As a product development firm…",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-30T04:16:05+00:00"
+      },
+      {
         "id": 110413248,
         "subject": "Your store. Live today. <font color=\"#fe2c55\">Buyers already waiting.</font>",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-29T22:41:41+00:00"
-      },
-      {
-        "id": 110395140,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-29T22:21:46.247000+00:00"
-      },
-      {
-        "id": 110394578,
-        "subject": "Ohhhhh, that orange… 🔥🔥🔥",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-29T22:17:21+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-30T04:15:52.120Z",
+    "gorgiasUpdated": "2026-07-30T07:17:33.528Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
