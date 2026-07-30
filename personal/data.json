@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T04:15:10.059Z",
+  "lastUpdated": "2026-07-30T04:15:52.329Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110413248,
+        "subject": "Your store. Live today. <font color=\"#fe2c55\">Buyers already waiting.</font>",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-30T01:08:57+00:00"
+      },
+      {
         "id": 110399943,
         "subject": "Designed for the way you live",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-29T22:17:21+00:00"
-      },
-      {
-        "id": 110394527,
-        "subject": "LOVE THIS",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-29T22:16:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-30T01:00:40.426Z",
+    "gorgiasUpdated": "2026-07-30T04:15:52.120Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
