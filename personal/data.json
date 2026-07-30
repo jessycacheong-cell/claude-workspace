@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T14:27:14.073Z",
+  "lastUpdated": "2026-07-30T14:27:30.511Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110461564,
+        "subject": "Early-bird pricing ends August 8. Save $100 before the price goes up",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-30T13:11:56+00:00"
+      },
+      {
+        "id": 110458067,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-30T12:43:27.583000+00:00"
+      },
+      {
         "id": 110451336,
         "subject": "Direct message with frankie_glenville_pizza",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-30T04:16:05+00:00"
-      },
-      {
-        "id": 110413248,
-        "subject": "Your store. Live today. <font color=\"#fe2c55\">Buyers already waiting.</font>",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-30T01:08:57+00:00"
-      },
-      {
-        "id": 110399943,
-        "subject": "Designed for the way you live",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-29T23:03:51+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-30T12:01:35.536Z",
+    "gorgiasUpdated": "2026-07-30T14:27:30.324Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
