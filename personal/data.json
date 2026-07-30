@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T19:46:09.548Z",
+  "lastUpdated": "2026-07-30T19:47:02.713Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110526456,
+        "subject": "Voice Message from 15166411300",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-30T19:25:07+00:00"
+      },
+      {
+        "id": 110513148,
+        "subject": "Something big is coming for creators",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-30T18:15:49+00:00"
+      },
+      {
         "id": 110504576,
         "subject": "We're making some changes to our PayPal legal agreements",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-30T13:11:56+00:00"
-      },
-      {
-        "id": 110458067,
-        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-30T12:43:27.583000+00:00"
-      },
-      {
-        "id": 110451336,
-        "subject": "Direct message with frankie_glenville_pizza",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-30T11:30:30.720000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-30T18:00:28.796Z",
+    "gorgiasUpdated": "2026-07-30T19:47:02.365Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
