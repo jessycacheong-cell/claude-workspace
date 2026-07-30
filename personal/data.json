@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T12:00:50.592Z",
+  "lastUpdated": "2026-07-30T12:01:35.748Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110451336,
+        "subject": "Direct message with frankie_glenville_pizza",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-30T11:30:30.720000+00:00"
+      },
+      {
         "id": 110429459,
         "subject": "Summer into selling — up to $1,900 in free ads 😎",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-29T23:03:51+00:00"
-      },
-      {
-        "id": 110397321,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-29T22:41:41+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-30T10:01:19.432Z",
+    "gorgiasUpdated": "2026-07-30T12:01:35.536Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
