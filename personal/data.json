@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T17:45:34.071Z",
+  "lastUpdated": "2026-07-30T18:00:29.161Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110504576,
+        "subject": "We're making some changes to our PayPal legal agreements",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-30T17:28:15+00:00"
+      },
+      {
+        "id": 110493147,
+        "subject": "3 reasons you can't miss ZapConnect—from 3 Zappy Award winners",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-30T16:19:45+00:00"
+      },
+      {
         "id": 110461564,
         "subject": "Early-bird pricing ends August 8. Save $100 before the price goes up",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-30T11:30:30.720000+00:00"
-      },
-      {
-        "id": 110429459,
-        "subject": "Summer into selling — up to $1,900 in free ads 😎",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-30T04:38:37.212000+00:00"
-      },
-      {
-        "id": 110428287,
-        "subject": "Tai Huynh - Founder CEO reacted to this post: As a product development firm…",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-30T04:16:05+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-30T16:12:01.829Z",
+    "gorgiasUpdated": "2026-07-30T18:00:28.796Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
