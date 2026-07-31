@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T06:51:53.416Z",
+  "lastUpdated": "2026-07-31T06:52:01.301Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110585699,
+        "subject": "HiveWatch recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-31T04:16:01+00:00"
+      },
+      {
         "id": 110573491,
         "subject": "New customer message on July 30, 2026 at 6:32 pm",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-30T22:01:25+00:00"
-      },
-      {
-        "id": 110550331,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-30T22:00:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-31T04:04:18.623Z",
+    "gorgiasUpdated": "2026-07-31T06:52:01.025Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
