@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T16:19:44.020Z",
+  "lastUpdated": "2026-07-31T16:54:01.826Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 110613179,
-        "subject": "New customer message on July 31, 2026 at 5:37 am",
+        "id": 110654135,
+        "subject": "Order #81242137 - Your Monthly Monitoring Report",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-31T12:37:01+00:00"
+        "timestamp": "2026-07-31T16:53:01+00:00"
       },
       {
-        "id": 110611351,
-        "subject": "Your Seller Café appointment is waiting. Save $100 before early-bird pricing ends on Aug. 8",
+        "id": 110647270,
+        "subject": "(No subject)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-31T12:16:52+00:00"
+        "timestamp": "2026-07-31T16:12:09+00:00"
       },
       {
-        "id": 110598124,
-        "subject": "Act today & improve Sales on Excess Inventory",
+        "id": 110641287,
+        "subject": "UNDFTD X MNWLKR",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-31T08:31:27+00:00"
+        "status": "open",
+        "timestamp": "2026-07-31T15:39:50+00:00"
       },
       {
-        "id": 110585699,
-        "subject": "HiveWatch recently posted",
+        "id": 110640615,
+        "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-31T04:16:01+00:00"
+        "status": "open",
+        "timestamp": "2026-07-31T15:36:00+00:00"
       },
       {
-        "id": 110573491,
-        "subject": "New customer message on July 30, 2026 at 6:32 pm",
+        "id": 110638200,
+        "subject": "Taxpayers' Bill of Rights Meeting 2026",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-07-31T01:32:41.020000+00:00"
+        "timestamp": "2026-07-31T15:22:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-31T15:06:03.494Z",
+    "gorgiasUpdated": "2026-07-31T16:54:01.641Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
