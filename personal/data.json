@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T04:04:01.657Z",
+  "lastUpdated": "2026-07-31T04:04:18.754Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110573491,
+        "subject": "New customer message on July 30, 2026 at 6:32 pm",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-31T01:32:41.020000+00:00"
+      },
+      {
+        "id": 110573206,
+        "subject": "GPT 5.6 Terra and Luna now use 50% fewer credits",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-31T01:29:16+00:00"
+      },
+      {
+        "id": 110570382,
+        "subject": "Hello buddy",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-07-31T00:58:00+00:00"
+      },
+      {
         "id": 110550595,
         "subject": "Are you fixing the right problems of the website?",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-07-30T22:00:02+00:00"
-      },
-      {
-        "id": 110526456,
-        "subject": "Voice Message from 15166411300",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-30T19:25:07+00:00"
-      },
-      {
-        "id": 110513148,
-        "subject": "Something big is coming for creators",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-30T18:15:49+00:00"
-      },
-      {
-        "id": 110504576,
-        "subject": "We're making some changes to our PayPal legal agreements",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-30T17:28:15+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-31T00:12:49.642Z",
+    "gorgiasUpdated": "2026-07-31T04:04:18.623Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
