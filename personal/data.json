@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T09:50:28.017Z",
+  "lastUpdated": "2026-07-31T09:50:32.280Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110598124,
+        "subject": "Act today & improve Sales on Excess Inventory",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-07-31T08:31:27+00:00"
+      },
+      {
         "id": 110585699,
         "subject": "HiveWatch recently posted",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-07-31T00:58:00+00:00"
-      },
-      {
-        "id": 110550595,
-        "subject": "Are you fixing the right problems of the website?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-07-30T22:01:25+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-07-31T06:52:01.025Z",
+    "gorgiasUpdated": "2026-07-31T09:50:32.079Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
