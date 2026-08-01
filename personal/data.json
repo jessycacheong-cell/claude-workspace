@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T04:31:47.761Z",
+  "lastUpdated": "2026-08-01T04:34:06.534Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 110702398,
-        "subject": "Love this",
+        "id": 110731308,
+        "subject": "Your store could be live by tomorrow 🚀",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-07-31T22:00:53+00:00"
+        "timestamp": "2026-08-01T03:56:45.517000+00:00"
       },
       {
-        "id": 110671461,
-        "subject": "Love this I need good vibes my way after being sunburnt at Indiana beach",
+        "id": 110729076,
+        "subject": "Your receipt from Auth0 by Okta #2629-0918",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-31T18:31:09+00:00"
+        "status": "closed",
+        "timestamp": "2026-08-01T03:14:46+00:00"
       },
       {
-        "id": 110670317,
-        "subject": "Look out. @balenciaga @prada @gucci",
+        "id": 110725274,
+        "subject": "👤 UMEI, add Angus Leung",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-31T18:24:54+00:00"
+        "status": "closed",
+        "timestamp": "2026-08-01T02:16:03+00:00"
       },
       {
-        "id": 110669793,
-        "subject": "🏆⚽️",
+        "id": 110724617,
+        "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-31T18:22:10+00:00"
+        "status": "closed",
+        "timestamp": "2026-08-01T02:05:30+00:00"
       },
       {
-        "id": 110669420,
-        "subject": "🧢⚾️",
+        "id": 110722666,
+        "subject": "View your US Q3-2026 CSBA fee rate",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-07-31T18:20:24+00:00"
+        "status": "closed",
+        "timestamp": "2026-08-01T01:38:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-01T01:09:30.852Z",
+    "gorgiasUpdated": "2026-08-01T04:34:06.376Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
