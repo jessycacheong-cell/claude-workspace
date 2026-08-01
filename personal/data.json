@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T22:06:27.500Z",
+  "lastUpdated": "2026-08-01T22:08:13.467Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110809752,
+        "subject": "Refund Initiated for Order 111-5691324-3307424",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-01T21:17:06+00:00"
+      },
+      {
+        "id": 110809740,
+        "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-01T21:16:55+00:00"
+      },
+      {
         "id": 110808080,
         "subject": "Here's your invoice for 2026-08-01",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-01T20:36:24+00:00"
-      },
-      {
-        "id": 110797789,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-01T19:13:38+00:00"
-      },
-      {
-        "id": 110794466,
-        "subject": "Direct message with chrey_a",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-01T18:43:24.123000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-01T21:06:27.730Z",
+    "gorgiasUpdated": "2026-08-01T22:08:13.280Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
