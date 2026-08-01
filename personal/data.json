@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T09:16:46.737Z",
+  "lastUpdated": "2026-08-01T09:19:41.465Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110742120,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-01T07:52:45.781000+00:00"
+      },
+      {
         "id": 110731308,
         "subject": "Your store could be live by tomorrow 🚀",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-01T02:05:30+00:00"
-      },
-      {
-        "id": 110722666,
-        "subject": "View your US Q3-2026 CSBA fee rate",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-01T01:38:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-01T07:09:46.359Z",
+    "gorgiasUpdated": "2026-08-01T09:19:41.256Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
