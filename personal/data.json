@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T19:48:36.816Z",
+  "lastUpdated": "2026-08-01T19:51:50.477Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110797789,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-01T19:13:38+00:00"
+      },
+      {
+        "id": 110794466,
+        "subject": "Direct message with chrey_a",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-01T18:43:24.123000+00:00"
+      },
+      {
         "id": 110776594,
         "subject": "Accept payment in more ways with the PayPal app",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-01T12:32:27+00:00"
-      },
-      {
-        "id": 110742120,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-01T07:52:45.781000+00:00"
-      },
-      {
-        "id": 110731308,
-        "subject": "Your store could be live by tomorrow 🚀",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-01T03:56:45.517000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-01T18:37:49.097Z",
+    "gorgiasUpdated": "2026-08-01T19:51:50.321Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
