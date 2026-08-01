@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T21:06:17.857Z",
+  "lastUpdated": "2026-08-01T21:06:27.888Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110808080,
+        "subject": "Here's your invoice for 2026-08-01",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-01T20:58:34+00:00"
+      },
+      {
+        "id": 110808079,
+        "subject": "Thanks for your tip",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-01T20:58:34+00:00"
+      },
+      {
+        "id": 110806101,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-01T20:36:24+00:00"
+      },
+      {
         "id": 110797789,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-01T18:43:24.123000+00:00"
-      },
-      {
-        "id": 110776594,
-        "subject": "Accept payment in more ways with the PayPal app",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-01T16:09:43+00:00"
-      },
-      {
-        "id": 110774058,
-        "subject": "Message from Pending Badge",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-01T15:47:32.639000+00:00"
-      },
-      {
-        "id": 110755052,
-        "subject": "You asked. We built it. See what’s new at Accelerate 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-01T12:32:27+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-01T19:51:50.321Z",
+    "gorgiasUpdated": "2026-08-01T21:06:27.730Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
