@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T21:06:46.623Z",
+  "lastUpdated": "2026-08-02T21:07:27.394Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110899452,
+        "subject": "Privately rate your recent order",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-02T20:56:10+00:00"
+      },
+      {
         "id": 110890122,
         "subject": "Direct message with an Instagram user",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-02T13:47:21+00:00"
-      },
-      {
-        "id": 110846973,
-        "subject": "You hit your monthly sessions limit",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-02T08:39:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-02T19:50:10.421Z",
+    "gorgiasUpdated": "2026-08-02T21:07:27.197Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
