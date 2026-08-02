@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T03:46:44.195Z",
+  "lastUpdated": "2026-08-02T04:07:23.520Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110835742,
+        "subject": "GONE SURFING. @usopenofsurf",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-02T03:38:02+00:00"
+      },
+      {
+        "id": 110833194,
+        "subject": "Your 20% UMEI code 🎉",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-02T02:43:29+00:00"
+      },
+      {
+        "id": 110823441,
+        "subject": "Your Pro order from Design Panda is complete",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-02T00:11:48+00:00"
+      },
+      {
+        "id": 110823439,
+        "subject": "[Action requested] Leave a review for sugarfreeeu",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-02T00:11:48+00:00"
+      },
+      {
         "id": 110809752,
         "subject": "Refund Initiated for Order 111-5691324-3307424",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-01T21:17:06+00:00"
-      },
-      {
-        "id": 110809740,
-        "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-01T21:16:55+00:00"
-      },
-      {
-        "id": 110808080,
-        "subject": "Here's your invoice for 2026-08-01",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-01T20:58:34+00:00"
-      },
-      {
-        "id": 110808079,
-        "subject": "Thanks for your tip",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-01T20:58:34+00:00"
-      },
-      {
-        "id": 110806101,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-01T20:36:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-02T00:10:12.109Z",
+    "gorgiasUpdated": "2026-08-02T04:07:23.324Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
