@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T15:13:34.457Z",
+  "lastUpdated": "2026-08-02T15:42:11.256Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110864100,
+        "subject": "Love this and good luck",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-02T14:24:08+00:00"
+      },
+      {
         "id": 110862837,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -100,7 +107,7 @@
         "id": 110861327,
         "subject": "Umei3d",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-08-02T13:47:21+00:00"
       },
       {
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-02T07:55:03.192000+00:00"
-      },
-      {
-        "id": 110835742,
-        "subject": "GONE SURFING. @usopenofsurf",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-02T03:38:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-02T14:11:30.281Z",
+    "gorgiasUpdated": "2026-08-02T15:42:11.079Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
