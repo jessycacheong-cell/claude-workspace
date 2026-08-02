@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T09:17:30.573Z",
+  "lastUpdated": "2026-08-02T09:17:51.619Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110846973,
+        "subject": "You hit your monthly sessions limit",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-02T08:39:55+00:00"
+      },
+      {
+        "id": 110845263,
+        "subject": "UMEI 3D, here are Updates to Manychat’s Privacy Policy",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-02T07:55:03.192000+00:00"
+      },
+      {
         "id": 110835742,
         "subject": "GONE SURFING. @usopenofsurf",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-02T00:11:48+00:00"
-      },
-      {
-        "id": 110823439,
-        "subject": "[Action requested] Leave a review for sugarfreeeu",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-02T00:11:48+00:00"
-      },
-      {
-        "id": 110809752,
-        "subject": "Refund Initiated for Order 111-5691324-3307424",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-01T21:17:06+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-02T06:43:10.474Z",
+    "gorgiasUpdated": "2026-08-02T09:17:51.412Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
