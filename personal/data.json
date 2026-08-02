@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T19:48:13.858Z",
+  "lastUpdated": "2026-08-02T19:50:10.617Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110890122,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-02T19:14:33.613000+00:00"
+      },
+      {
         "id": 110864100,
         "subject": "Love this and good luck",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-02T08:39:55+00:00"
-      },
-      {
-        "id": 110845263,
-        "subject": "UMEI 3D, here are Updates to Manychat’s Privacy Policy",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-02T07:55:03.192000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-02T18:36:52.759Z",
+    "gorgiasUpdated": "2026-08-02T19:50:10.421Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
