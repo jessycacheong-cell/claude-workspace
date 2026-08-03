@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T03:48:26.402Z",
+  "lastUpdated": "2026-08-03T04:18:53.797Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110916352,
+        "subject": "Direct message with biwerfamily",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-03T00:25:48.728000+00:00"
+      },
+      {
         "id": 110899452,
         "subject": "Privately rate your recent order",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-02T14:06:47+00:00"
-      },
-      {
-        "id": 110861327,
-        "subject": "Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-02T13:47:21+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-03T00:10:26.956Z",
+    "gorgiasUpdated": "2026-08-03T04:18:53.490Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
