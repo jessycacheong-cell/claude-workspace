@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T13:47:00.627Z",
+  "lastUpdated": "2026-08-03T14:01:15.931Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110964454,
+        "subject": "Umei3d Llc, we miss you. Save 25%!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-03T13:05:29+00:00"
+      },
+      {
+        "id": 110960933,
+        "subject": "Final week of early-bird pricing for Amazon Accelerate 2026—ends August 8",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-03T12:38:24+00:00"
+      },
+      {
         "id": 110934275,
         "subject": "🌊🌊🌊",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-02T20:56:10+00:00"
-      },
-      {
-        "id": 110890122,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-02T19:14:33.613000+00:00"
-      },
-      {
-        "id": 110864100,
-        "subject": "Love this and good luck",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-02T14:24:08+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-03T11:39:17.522Z",
+    "gorgiasUpdated": "2026-08-03T14:01:15.755Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
