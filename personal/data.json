@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T23:15:33.357Z",
+  "lastUpdated": "2026-08-03T23:16:19.264Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111061435,
+        "subject": "New customer message on August 3, 2026 at 3:19 pm",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-03T22:19:19.441000+00:00"
+      },
+      {
+        "id": 111059276,
+        "subject": "Out of curiosity",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-03T22:02:56+00:00"
+      },
+      {
         "id": 111043586,
         "subject": "Direct message with jessiannwilliams2001",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-03T18:16:00+00:00"
-      },
-      {
-        "id": 111011380,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-03T17:28:10+00:00"
-      },
-      {
-        "id": 111006665,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-03T17:03:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-03T21:45:28.839Z",
+    "gorgiasUpdated": "2026-08-03T23:16:19.112Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
