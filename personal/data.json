@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T16:36:09.722Z",
+  "lastUpdated": "2026-08-03T16:37:20.326Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 110964454,
-        "subject": "Umei3d Llc, we miss you. Save 25%!",
+        "id": 111001526,
+        "subject": "Return Request. Order 1772",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-03T16:37:12+00:00"
+      },
+      {
+        "id": 110998002,
+        "subject": "Our MSS speakers lineup is now live",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-03T13:05:29+00:00"
+        "timestamp": "2026-08-03T16:17:52+00:00"
       },
       {
-        "id": 110960933,
-        "subject": "Final week of early-bird pricing for Amazon Accelerate 2026—ends August 8",
+        "id": 110989517,
+        "subject": "Social media promotion codes will be retired",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-03T12:38:24+00:00"
+        "timestamp": "2026-08-03T15:34:21+00:00"
       },
       {
-        "id": 110934275,
-        "subject": "🌊🌊🌊",
+        "id": 110987891,
+        "subject": "Your membership has more in store",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-03T05:00:18+00:00"
+        "status": "closed",
+        "timestamp": "2026-08-03T15:25:01+00:00"
       },
       {
-        "id": 110916352,
-        "subject": "Direct message with biwerfamily",
+        "id": 110987760,
+        "subject": "Extra funds could be available for your business",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-03T00:25:48.728000+00:00"
-      },
-      {
-        "id": 110899452,
-        "subject": "Privately rate your recent order",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-02T20:56:10+00:00"
+        "status": "closed",
+        "timestamp": "2026-08-03T15:24:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-03T14:01:15.755Z",
+    "gorgiasUpdated": "2026-08-03T16:37:20.037Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
