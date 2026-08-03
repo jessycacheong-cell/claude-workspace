@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-03T07:38:45.263Z",
+  "lastUpdated": "2026-08-03T08:01:40.434Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 110934275,
+        "subject": "🌊🌊🌊",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-03T05:00:18+00:00"
+      },
+      {
         "id": 110916352,
         "subject": "Direct message with biwerfamily",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-02T14:24:08+00:00"
-      },
-      {
-        "id": 110862837,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-02T14:06:47+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-03T04:18:53.490Z",
+    "gorgiasUpdated": "2026-08-03T08:01:40.246Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
