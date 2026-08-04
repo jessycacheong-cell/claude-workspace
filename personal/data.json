@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T16:59:51.252Z",
+  "lastUpdated": "2026-08-04T17:00:35.867Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111171289,
+        "subject": "Access funding without a long wait",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-04T16:48:48+00:00"
+      },
+      {
         "id": 111149320,
         "subject": "Follow-up with Umei3d",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-04T13:00:59+00:00"
-      },
-      {
-        "id": 111118656,
-        "subject": "UniTel Voice Notice: New Invoice 806375",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-04T10:51:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-04T15:06:53.191Z",
+    "gorgiasUpdated": "2026-08-04T17:00:35.696Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
