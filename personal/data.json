@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T07:19:12.339Z",
+  "lastUpdated": "2026-08-04T07:19:53.009Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111104925,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-04T06:49:22.199000+00:00"
+      },
+      {
         "id": 111096704,
         "subject": "HiveWatch posted: \"GSOC\" gets thrown around a lot in security. But what is it?  A Global… 🗣️",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-04T02:52:54+00:00"
-      },
-      {
-        "id": 111086983,
-        "subject": "👤 UMEI, add Naser Fawzi Al-Qatami",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-04T02:16:04+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-04T04:26:13.465Z",
+    "gorgiasUpdated": "2026-08-04T07:19:52.827Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
