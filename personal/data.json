@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T20:39:09.887Z",
+  "lastUpdated": "2026-08-04T20:39:22.108Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -93,7 +93,7 @@
         "id": 111192606,
         "subject": "Direct message with lt_shinysides7",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-08-04T18:42:57.477000+00:00"
       },
       {
@@ -125,7 +125,7 @@
         "timestamp": "2026-08-04T17:15:11+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-04T18:47:03.186Z",
+    "gorgiasUpdated": "2026-08-04T20:39:21.918Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
