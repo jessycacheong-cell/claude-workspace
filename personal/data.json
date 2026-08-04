@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T18:46:30.434Z",
+  "lastUpdated": "2026-08-04T18:47:03.423Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 111171289,
-        "subject": "Access funding without a long wait",
+        "id": 111192606,
+        "subject": "Direct message with lt_shinysides7",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-04T16:48:48+00:00"
+        "timestamp": "2026-08-04T18:42:57.477000+00:00"
       },
       {
-        "id": 111149320,
-        "subject": "Follow-up with Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-04T14:56:18+00:00"
-      },
-      {
-        "id": 111135539,
-        "subject": "Ree: Re:",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-04T13:36:14+00:00"
-      },
-      {
-        "id": 111131754,
-        "subject": "Direct message with an Instagram user",
+        "id": 111191660,
+        "subject": "An invitation to migrate to Klaviyo’s email sending infrastructure",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-04T13:10:49.032000+00:00"
+        "timestamp": "2026-08-04T18:37:18.416000+00:00"
       },
       {
-        "id": 111130124,
-        "subject": "Accelerate 2026 isn’t what you’re expecting—it's bigger! Early-bird pricing ends Aug. 8",
+        "id": 111186569,
+        "subject": "[Webinar] Their loyalty program was collecting dust. Here's how they fixed it. ",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-04T13:00:59+00:00"
+        "timestamp": "2026-08-04T18:10:30+00:00"
+      },
+      {
+        "id": 111182650,
+        "subject": "Return",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-04T17:49:36+00:00"
+      },
+      {
+        "id": 111176537,
+        "subject": "Weekly CX Boost for Umeistore",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-04T17:15:11+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-04T17:00:35.696Z",
+    "gorgiasUpdated": "2026-08-04T18:47:03.186Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
