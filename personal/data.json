@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T15:06:14.570Z",
+  "lastUpdated": "2026-08-04T15:06:53.354Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111149320,
+        "subject": "Follow-up with Umei3d",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-04T14:56:18+00:00"
+      },
+      {
+        "id": 111135539,
+        "subject": "Ree: Re:",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-04T13:36:14+00:00"
+      },
+      {
+        "id": 111131754,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-04T13:10:49.032000+00:00"
+      },
+      {
+        "id": 111130124,
+        "subject": "Accelerate 2026 isn’t what you’re expecting—it's bigger! Early-bird pricing ends Aug. 8",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-04T13:00:59+00:00"
+      },
+      {
         "id": 111118656,
         "subject": "UniTel Voice Notice: New Invoice 806375",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-04T10:51:33+00:00"
-      },
-      {
-        "id": 111104925,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-04T06:49:22.199000+00:00"
-      },
-      {
-        "id": 111096704,
-        "subject": "HiveWatch posted: \"GSOC\" gets thrown around a lot in security. But what is it?  A Global… 🗣️",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-04T04:16:12+00:00"
-      },
-      {
-        "id": 111095951,
-        "subject": "[UMEI Store] Order #1784 placed by Dang Nguyen",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-04T04:06:25+00:00"
-      },
-      {
-        "id": 111092629,
-        "subject": "Enhance Your Insights: Google & YouTube App Update for Google Analytics",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-04T03:22:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-04T12:27:36.578Z",
+    "gorgiasUpdated": "2026-08-04T15:06:53.191Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
