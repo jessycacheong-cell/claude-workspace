@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T07:20:22.667Z",
+  "lastUpdated": "2026-08-05T07:20:40.644Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111272107,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-05T07:08:03+00:00"
+      },
+      {
         "id": 111263024,
         "subject": "Ana Farrington recently posted",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-05T01:25:08+00:00"
-      },
-      {
-        "id": 111246243,
-        "subject": "Are you {cname}?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-05T01:06:46+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-05T04:24:37.622Z",
+    "gorgiasUpdated": "2026-08-05T07:20:40.468Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
