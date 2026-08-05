@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-05T12:25:14.561Z",
+  "lastUpdated": "2026-08-05T14:58:54.435Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111296610,
+        "subject": "New in August: More reach with your reviews, faster ways to manage them",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-05T13:03:30+00:00"
+      },
+      {
+        "id": 111294982,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-05T12:51:56.707000+00:00"
+      },
+      {
+        "id": 111292476,
+        "subject": "Make the case for Amazon Accelerate. Here's how.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-05T12:28:35+00:00"
+      },
+      {
         "id": 111272107,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-05T04:16:01+00:00"
-      },
-      {
-        "id": 111254247,
-        "subject": "Security alert",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-05T02:30:04+00:00"
-      },
-      {
-        "id": 111253997,
-        "subject": "ι love Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-05T02:27:15+00:00"
-      },
-      {
-        "id": 111248239,
-        "subject": "Your receipt from Photo App",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-05T01:25:08+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-05T10:14:06.643Z",
+    "gorgiasUpdated": "2026-08-05T14:58:54.240Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
