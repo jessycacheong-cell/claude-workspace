@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-06T00:59:44.743Z",
+  "lastUpdated": "2026-08-06T01:00:23.024Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111400733,
+        "subject": "Reminder to privately rate your recent order",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-06T00:12:38+00:00"
+      },
+      {
         "id": 111348872,
         "subject": "WhatsApp marketing is now part of Shopify Messaging",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-05T15:24:28+00:00"
-      },
-      {
-        "id": 111296610,
-        "subject": "New in August: More reach with your reviews, faster ways to manage them",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-05T13:03:30+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-05T23:15:29.046Z",
+    "gorgiasUpdated": "2026-08-06T01:00:22.856Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
