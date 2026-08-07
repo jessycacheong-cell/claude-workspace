@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T12:25:18.683Z",
+  "lastUpdated": "2026-08-07T12:25:20.783Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111605833,
+        "subject": "How to get on PR box lists as a new creator 📦",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-07T12:09:40+00:00"
+      },
+      {
         "id": 111598831,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-07T06:16:07+00:00"
-      },
-      {
-        "id": 111560310,
-        "subject": "Annyeong haseyo",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-07T00:22:01+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-07T11:27:39.828Z",
+    "gorgiasUpdated": "2026-08-07T12:25:20.623Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
