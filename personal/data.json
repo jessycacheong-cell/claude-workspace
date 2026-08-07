@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T11:27:03.325Z",
+  "lastUpdated": "2026-08-07T11:27:39.996Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111598831,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-07T10:46:33+00:00"
+      },
+      {
         "id": 111596065,
         "subject": "Catch up on the latest stories from inside our brand told by the people who know it best.",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-07T00:22:01+00:00"
-      },
-      {
-        "id": 111543098,
-        "subject": "Weekend purchase Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-06T22:01:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-07T10:31:25.128Z",
+    "gorgiasUpdated": "2026-08-07T11:27:39.828Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
