@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T19:56:48.010Z",
+  "lastUpdated": "2026-08-07T20:18:15.583Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111683460,
+        "subject": "Your Gorgias Inc receipt [#1402-5287]",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-07T19:45:09+00:00"
+      },
+      {
+        "id": 111683280,
+        "subject": "Thank you for your payment",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-07T19:43:53+00:00"
+      },
+      {
         "id": 111631495,
         "subject": "Notice of a data breach affecting your Tally account",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-07T12:09:40+00:00"
-      },
-      {
-        "id": 111598831,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-07T10:46:33+00:00"
-      },
-      {
-        "id": 111596065,
-        "subject": "Catch up on the latest stories from inside our brand told by the people who know it best.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-07T10:05:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-07T19:10:41.721Z",
+    "gorgiasUpdated": "2026-08-07T20:18:15.412Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
