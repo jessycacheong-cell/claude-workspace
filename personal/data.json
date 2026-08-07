@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T20:53:18.530Z",
+  "lastUpdated": "2026-08-07T21:19:46.689Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111691732,
+        "subject": "Your FBA removal request is complete (G9Aag5N/W8)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-07T20:40:50+00:00"
+      },
+      {
         "id": 111683460,
         "subject": "Your Gorgias Inc receipt [#1402-5287]",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-07T12:39:58+00:00"
-      },
-      {
-        "id": 111605833,
-        "subject": "How to get on PR box lists as a new creator 📦",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-07T12:09:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-07T20:18:15.412Z",
+    "gorgiasUpdated": "2026-08-07T21:19:46.505Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
