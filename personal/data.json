@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T06:50:46.749Z",
+  "lastUpdated": "2026-08-07T06:50:50.605Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111584748,
+        "subject": "HiveWatch posted: Your #SOC gets an alarm. The operator opens the VMS. Then the badge log. Then… 🗣️",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-07T06:16:07+00:00"
+      },
+      {
         "id": 111560310,
         "subject": "Annyeong haseyo",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-06T17:30:05.511000+00:00"
-      },
-      {
-        "id": 111481280,
-        "subject": "Your business loan offer is waiting. Apply in minutes.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-06T15:50:22+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-07T05:19:58.754Z",
+    "gorgiasUpdated": "2026-08-07T06:50:50.473Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
