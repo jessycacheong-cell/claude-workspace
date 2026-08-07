@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T00:28:01.010Z",
+  "lastUpdated": "2026-08-07T00:29:26.818Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 111466912,
-        "subject": "Automated unfulfillable FBA inventory removal notification",
+        "id": 111560310,
+        "subject": "Annyeong haseyo",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-06T14:26:29+00:00"
+        "status": "open",
+        "timestamp": "2026-08-07T00:22:01+00:00"
       },
       {
-        "id": 111457731,
-        "subject": "License Verification for TT Norms Pro on umeistore.com website",
+        "id": 111543098,
+        "subject": "Weekend purchase Umei3d",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-06T13:30:38+00:00"
+        "status": "open",
+        "timestamp": "2026-08-06T22:01:33+00:00"
       },
       {
-        "id": 111455554,
-        "subject": "We’re putting $1 M behind bold ideas.",
+        "id": 111537987,
+        "subject": "Create your first ChatGPT ad in minutes",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-06T13:15:50+00:00"
+        "status": "open",
+        "timestamp": "2026-08-06T21:24:16.110000+00:00"
       },
       {
-        "id": 111455012,
-        "subject": "[Webinar] The Ultimate Shopify Customer Journey",
+        "id": 111499342,
+        "subject": "Direct message with an Instagram user",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-06T13:12:22+00:00"
+        "timestamp": "2026-08-06T17:30:05.511000+00:00"
       },
       {
-        "id": 111454303,
-        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "id": 111481280,
+        "subject": "Your business loan offer is waiting. Apply in minutes.",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-06T13:07:25.227000+00:00"
+        "timestamp": "2026-08-06T15:50:22+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-06T14:58:00.486Z",
+    "gorgiasUpdated": "2026-08-07T00:29:26.650Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
