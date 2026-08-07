@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T21:51:21.615Z",
+  "lastUpdated": "2026-08-07T22:15:23.774Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111704140,
+        "subject": "Love this ive been wearing my @umei_3d wave clogs all week and I love them it’s very therapeutic on my feet!",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-07T22:03:33+00:00"
+      },
+      {
         "id": 111691732,
         "subject": "Your FBA removal request is complete (G9Aag5N/W8)",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-07T15:14:18.966000+00:00"
-      },
-      {
-        "id": 111608622,
-        "subject": "Accelerate 2026: Need approval to attend? This template does the heavy lifting.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-07T12:39:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-07T21:19:46.505Z",
+    "gorgiasUpdated": "2026-08-07T22:15:23.387Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
