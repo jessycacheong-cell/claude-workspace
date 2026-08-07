@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T20:18:15.583Z",
+  "lastUpdated": "2026-08-07T20:53:18.530Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -277,7 +277,7 @@
       {
         "name": "WEEK 1 GOAL:  Fully understand the goals, operations, required access, and build a solid understanding of the tasks and overall objectives.",
         "status": "Not started",
-        "team": "Jessyca",
+        "team": null,
         "start": "2026-04-20",
         "end": null,
         "milestone": true,
@@ -287,7 +287,7 @@
       {
         "name": "Extract Data - CS (non ticket), tickets and summarize/analyze - meeting",
         "status": "Not started",
-        "team": "Jessyca",
+        "team": null,
         "start": "2026-04-27",
         "end": null,
         "milestone": false,
@@ -297,7 +297,7 @@
       {
         "name": "Do field observation / site visit (Out of Walnut)",
         "status": "Not started",
-        "team": "Giovanni Martinez",
+        "team": null,
         "start": "2026-05-03",
         "end": null,
         "milestone": false,
@@ -357,7 +357,7 @@
       {
         "name": "Site visit to Texas (11 buildings), South Carolina, and New York/New Jersey",
         "status": "Not started",
-        "team": "Christine",
+        "team": null,
         "start": "2026-05-01",
         "end": null,
         "milestone": true,
@@ -367,7 +367,7 @@
       {
         "name": "Knowledge Base - Structure (Without SOP)",
         "status": "Not started",
-        "team": "Jessyca",
+        "team": null,
         "start": "2026-05-11",
         "end": null,
         "milestone": false,
@@ -377,7 +377,7 @@
       {
         "name": "Month 1: complete the Phase 1 audit of Facility Operations and deliver it to Christine on Day 30",
         "status": "Not started",
-        "team": "Jessyca",
+        "team": null,
         "start": "2026-05-11",
         "end": null,
         "milestone": false,
@@ -387,7 +387,7 @@
       {
         "name": "Organize AI-agent content requirements",
         "status": "Not started",
-        "team": "Kuan",
+        "team": null,
         "start": "2026-04-29",
         "end": null,
         "milestone": false,
@@ -397,7 +397,7 @@
       {
         "name": "Meet every pillar lead: Xavier, Kevin, Kuan, Drew, Jessica Chen",
         "status": "Not started",
-        "team": "Christine",
+        "team": null,
         "start": "2026-04-20",
         "end": null,
         "milestone": true,
@@ -407,7 +407,7 @@
       {
         "name": "1:1 with Christine scorecard walkthrough, Month 3 gates, expectations",
         "status": "Not started",
-        "team": "Christine",
+        "team": null,
         "start": "2026-04-20",
         "end": null,
         "milestone": true,
@@ -417,7 +417,7 @@
       {
         "name": "Read both training decks  company overview + ops deep dive",
         "status": "Not started",
-        "team": "Christine",
+        "team": null,
         "start": "2026-04-20",
         "end": null,
         "milestone": true,
@@ -427,7 +427,7 @@
       {
         "name": "Tour Machlin Ct with FM  first real-world look at a live location",
         "status": "Not started",
-        "team": "Kuan",
+        "team": null,
         "start": "2026-04-21",
         "end": null,
         "milestone": true,
@@ -437,7 +437,7 @@
       {
         "name": "System access live: Yardi, UNIS, app.cubework.com, Notion, Google Drive, Claude",
         "status": "Not started",
-        "team": "Erica",
+        "team": null,
         "start": "2026-04-20",
         "end": null,
         "milestone": true,
@@ -447,7 +447,7 @@
       {
         "name": "Old PM reality  what Erika did manually every day, what broke",
         "status": "Not started",
-        "team": "Erica",
+        "team": null,
         "start": "2026-04-22",
         "end": null,
         "milestone": true,
@@ -457,7 +457,7 @@
       {
         "name": "Agent architecture walkthrough//Align with Kwan",
         "status": "Not started",
-        "team": "Kuan",
+        "team": null,
         "start": "2026-04-23",
         "end": null,
         "milestone": true,
@@ -467,7 +467,7 @@
       {
         "name": "Define the exact scope of version 1//Focus on one location / one workflow first rather than trying to solve everything at once.",
         "status": "Not started",
-        "team": "Jessyca",
+        "team": null,
         "start": "2026-04-22",
         "end": null,
         "milestone": false,
@@ -477,7 +477,7 @@
       {
         "name": "Map the current operational workflow before designing more",
         "status": "Not started",
-        "team": "Jessyca",
+        "team": null,
         "start": "2026-04-22",
         "end": null,
         "milestone": false,
@@ -487,7 +487,7 @@
       {
         "name": "Do field observation / site visit (Walnut)",
         "status": "Not started",
-        "team": "Jessyca",
+        "team": null,
         "start": "2026-04-28",
         "end": null,
         "milestone": false,
@@ -497,7 +497,7 @@
       {
         "name": "Talk to Drew / facility side after you have some structure",
         "status": "Not started",
-        "team": "Drew Trinidad",
+        "team": null,
         "start": "2026-04-30",
         "end": null,
         "milestone": false,
@@ -507,7 +507,7 @@
       {
         "name": "Create the temporary data collection layer",
         "status": "Not started",
-        "team": "Jessyca",
+        "team": null,
         "start": "2026-04-27",
         "end": null,
         "milestone": false,
@@ -517,7 +517,7 @@
       {
         "name": "Review 50+ UNIS tickets — patterns, failures, what never gets closed",
         "status": "Not started",
-        "team": "Jessyca",
+        "team": null,
         "start": "2026-04-29",
         "end": null,
         "milestone": false,
@@ -527,7 +527,7 @@
       {
         "name": "Knowledge Base - Directory List Phase 1 - Explore Teams API feasibility",
         "status": "Not started",
-        "team": "Jessyca",
+        "team": null,
         "start": "2026-05-11",
         "end": null,
         "milestone": false,
@@ -535,6 +535,6 @@
         "url": "https://app.notion.com/p/Knowledge-Base-Directory-List-Phase-1-Explore-Teams-API-feasibility-34a2c564dcb181d98322e51dde4ece8b"
       }
     ],
-    "updatedAt": "2026-08-07T19:56:48.010Z"
+    "updatedAt": "2026-08-07T20:53:18.529Z"
   }
 }
