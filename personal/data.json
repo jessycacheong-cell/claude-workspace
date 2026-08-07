@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T13:55:14.272Z",
+  "lastUpdated": "2026-08-07T13:55:35.282Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111608622,
+        "subject": "Accelerate 2026: Need approval to attend? This template does the heavy lifting.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-07T12:39:58+00:00"
+      },
+      {
         "id": 111605833,
         "subject": "How to get on PR box lists as a new creator 📦",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-07T07:30:36+00:00"
-      },
-      {
-        "id": 111584748,
-        "subject": "HiveWatch posted: Your #SOC gets an alarm. The operator opens the VMS. Then the badge log. Then… 🗣️",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-07T06:16:07+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-07T12:25:20.623Z",
+    "gorgiasUpdated": "2026-08-07T13:55:34.688Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
