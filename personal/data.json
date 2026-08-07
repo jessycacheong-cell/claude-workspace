@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T16:05:14.869Z",
+  "lastUpdated": "2026-08-07T16:06:05.165Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111631495,
+        "subject": "Notice of a data breach affecting your Tally account",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-07T15:14:18.966000+00:00"
+      },
+      {
         "id": 111608622,
         "subject": "Accelerate 2026: Need approval to attend? This template does the heavy lifting.",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-07T10:05:02+00:00"
-      },
-      {
-        "id": 111588752,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-07T07:30:36+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-07T15:05:43.791Z",
+    "gorgiasUpdated": "2026-08-07T16:06:04.949Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
