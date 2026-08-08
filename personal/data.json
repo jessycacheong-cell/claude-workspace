@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T18:53:38.133Z",
+  "lastUpdated": "2026-08-08T18:54:01.019Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111790531,
+        "subject": "Love this",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-08T18:09:15+00:00"
+      },
+      {
         "id": 111773359,
         "subject": "New customer message on August 8, 2026 at 8:26 am",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-08T02:50:08+00:00"
-      },
-      {
-        "id": 111726862,
-        "subject": "👤 UMEI, add Angus Leung",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-08T02:16:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-08T17:42:41.782Z",
+    "gorgiasUpdated": "2026-08-08T18:54:00.853Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
