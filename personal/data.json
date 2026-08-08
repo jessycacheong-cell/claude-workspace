@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T17:41:46.564Z",
+  "lastUpdated": "2026-08-08T17:42:41.940Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -93,7 +93,7 @@
         "id": 111773359,
         "subject": "New customer message on August 8, 2026 at 8:26 am",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-08-08T15:26:56.770000+00:00"
       },
       {
@@ -125,7 +125,7 @@
         "timestamp": "2026-08-08T02:16:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-08T16:48:31.321Z",
+    "gorgiasUpdated": "2026-08-08T17:42:41.782Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
