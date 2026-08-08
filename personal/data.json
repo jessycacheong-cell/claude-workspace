@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T15:39:55.714Z",
+  "lastUpdated": "2026-08-08T15:41:16.296Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111773359,
+        "subject": "New customer message on August 8, 2026 at 8:26 am",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-08T15:26:56.770000+00:00"
+      },
+      {
         "id": 111749820,
         "subject": "Save $100 on registration before early-bird pricing ends today!",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-08T02:16:03+00:00"
-      },
-      {
-        "id": 111710975,
-        "subject": "Direct message with niiinij",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-07T23:06:10.284000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-08T14:45:44.698Z",
+    "gorgiasUpdated": "2026-08-08T15:41:16.057Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
