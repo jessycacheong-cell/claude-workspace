@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T10:46:28.690Z",
+  "lastUpdated": "2026-08-08T10:47:42.145Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111749820,
+        "subject": "Save $100 on registration before early-bird pricing ends today!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-08T10:29:52+00:00"
+      },
+      {
         "id": 111747346,
         "subject": "FBA reimbursement notification",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-07T23:06:10.284000+00:00"
-      },
-      {
-        "id": 111708797,
-        "subject": "Learn How a Latina Founder Built a Sellout LIVE Business 🚀",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-07T22:45:15.622000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-08T09:50:17.927Z",
+    "gorgiasUpdated": "2026-08-08T10:47:41.986Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
