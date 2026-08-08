@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T02:16:19.132Z",
+  "lastUpdated": "2026-08-08T02:17:36.328Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111726862,
+        "subject": "👤 UMEI, add Angus Leung",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-08T02:16:03+00:00"
+      },
+      {
         "id": 111710975,
         "subject": "Direct message with niiinij",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-07T22:03:33+00:00"
-      },
-      {
-        "id": 111691732,
-        "subject": "Your FBA removal request is complete (G9Aag5N/W8)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-07T20:40:50+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-08T00:03:29.638Z",
+    "gorgiasUpdated": "2026-08-08T02:17:36.091Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
