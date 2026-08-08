@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-08T20:43:58.680Z",
+  "lastUpdated": "2026-08-08T20:44:44.261Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111803061,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-08T20:26:14.643000+00:00"
+      },
+      {
         "id": 111790531,
         "subject": "Love this",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-08T09:24:43+00:00"
-      },
-      {
-        "id": 111728990,
-        "subject": "Delete a word. Skip the jump cut.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-08T02:50:08+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-08T20:02:05.832Z",
+    "gorgiasUpdated": "2026-08-08T20:44:43.977Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
