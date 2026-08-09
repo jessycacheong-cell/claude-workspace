@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T04:02:48.322Z",
+  "lastUpdated": "2026-08-09T05:15:06.932Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111839359,
+        "subject": "Direct message with hydromind",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-09T05:02:50.261000+00:00"
+      },
+      {
         "id": 111828578,
         "subject": "Umei3d",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-08T20:26:14.643000+00:00"
-      },
-      {
-        "id": 111790531,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-08T18:09:15+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-09T04:02:48.169Z",
+    "gorgiasUpdated": "2026-08-09T05:15:06.751Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
