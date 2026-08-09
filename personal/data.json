@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T14:47:32.453Z",
+  "lastUpdated": "2026-08-09T15:04:13.203Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111894918,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-09T14:40:06.301000+00:00"
+      },
+      {
         "id": 111888666,
         "subject": "Your next-level Accelerate agenda is here—early-bird ends this week!",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-09T00:16:31+00:00"
-      },
-      {
-        "id": 111815535,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-08T23:00:29.482000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-09T14:16:59.252Z",
+    "gorgiasUpdated": "2026-08-09T15:04:12.979Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
