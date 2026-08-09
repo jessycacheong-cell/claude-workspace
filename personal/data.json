@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T22:45:02.568Z",
+  "lastUpdated": "2026-08-09T22:46:00.089Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111937993,
+        "subject": "[For Shopify Store] Reply Faster to shoppers and recover more sales with AI",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-09T22:34:23+00:00"
+      },
+      {
         "id": 111908342,
         "subject": "Message from Amber McCaslin Andrus",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-09T05:02:50.261000+00:00"
-      },
-      {
-        "id": 111828578,
-        "subject": "Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-09T02:08:21+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-09T21:44:42.807Z",
+    "gorgiasUpdated": "2026-08-09T22:45:59.877Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
