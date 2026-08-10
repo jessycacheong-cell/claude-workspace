@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T12:27:38.651Z",
+  "lastUpdated": "2026-08-10T12:28:12.206Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111992505,
+        "subject": "Missing License for TT Norms Pro on umeistore.com website",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-10T12:03:41+00:00"
+      },
+      {
         "id": 111986579,
         "subject": "Umei3d Hello",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-10T04:10:21.786000+00:00"
-      },
-      {
-        "id": 111940645,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-09T23:05:09.691000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-10T11:18:30.376Z",
+    "gorgiasUpdated": "2026-08-10T12:28:11.989Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
