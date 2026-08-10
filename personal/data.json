@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T16:07:52.815Z",
+  "lastUpdated": "2026-08-10T16:27:39.969Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112038382,
+        "subject": "Your latest benchmarks are in. Did you make moves last month?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-10T16:13:02.672000+00:00"
+      },
+      {
+        "id": 112026646,
+        "subject": "[UMEI Store] Order #1787 placed by OLGA KYSHKA",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-10T15:45:42+00:00"
+      },
+      {
+        "id": 112025989,
+        "subject": "Learn the workflows behind standout design",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-10T15:42:15+00:00"
+      },
+      {
+        "id": 112022816,
+        "subject": "Learn what a PayPal Business Loan can do for your business",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-10T15:24:29+00:00"
+      },
+      {
         "id": 112017772,
         "subject": "umei_3d, Get More 2,000 Instagram Followers and 1,000 Likes here",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-10T14:59:41+00:00"
-      },
-      {
-        "id": 112016344,
-        "subject": "Primetime TV Awards Red Carpet Swag bag",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-10T14:51:42+00:00"
-      },
-      {
-        "id": 111992505,
-        "subject": "Missing License for TT Norms Pro on umeistore.com website",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-10T12:03:41+00:00"
-      },
-      {
-        "id": 111986579,
-        "subject": "Umei3d Hello",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-10T10:45:28+00:00"
-      },
-      {
-        "id": 111980709,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-10T08:55:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-10T15:12:43.441Z",
+    "gorgiasUpdated": "2026-08-10T16:27:39.443Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
