@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T15:11:45.566Z",
+  "lastUpdated": "2026-08-10T15:12:43.623Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112017772,
+        "subject": "umei_3d, Get More 2,000 Instagram Followers and 1,000 Likes here",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-10T14:59:41+00:00"
+      },
+      {
+        "id": 112016344,
+        "subject": "Primetime TV Awards Red Carpet Swag bag",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-10T14:51:42+00:00"
+      },
+      {
         "id": 111992505,
         "subject": "Missing License for TT Norms Pro on umeistore.com website",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-10T08:55:12+00:00"
-      },
-      {
-        "id": 111965073,
-        "subject": "Tai Huynh recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-10T04:16:02+00:00"
-      },
-      {
-        "id": 111964729,
-        "subject": "[ALERT] You've reached 75% of your monthly limit.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-10T04:10:21.786000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-10T14:02:13.618Z",
+    "gorgiasUpdated": "2026-08-10T15:12:43.441Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
