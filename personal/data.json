@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T17:04:04.563Z",
+  "lastUpdated": "2026-08-10T17:31:40.507Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112055656,
+        "subject": "Your Week In Reviews For UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-10T17:02:27+00:00"
+      },
+      {
         "id": 112038382,
         "subject": "Your latest benchmarks are in. Did you make moves last month?",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-10T15:24:29+00:00"
-      },
-      {
-        "id": 112017772,
-        "subject": "umei_3d, Get More 2,000 Instagram Followers and 1,000 Likes here",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-10T14:59:41+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-10T16:27:39.443Z",
+    "gorgiasUpdated": "2026-08-10T17:31:40.196Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
