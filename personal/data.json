@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T19:58:51.451Z",
+  "lastUpdated": "2026-08-10T20:20:24.201Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112102030,
+        "subject": "ZapConnect 2026: Explore the agenda",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-10T20:17:22+00:00"
+      },
+      {
         "id": 112093456,
         "subject": "Your FBA removal request is complete (RkCnEQ5tLn)",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-10T17:02:27+00:00"
-      },
-      {
-        "id": 112038382,
-        "subject": "Your latest benchmarks are in. Did you make moves last month?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-10T16:13:02.672000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-10T19:37:11.260Z",
+    "gorgiasUpdated": "2026-08-10T20:20:23.977Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
