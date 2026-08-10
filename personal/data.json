@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T04:15:49.102Z",
+  "lastUpdated": "2026-08-10T04:16:19.222Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 111965073,
+        "subject": "Tai Huynh recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-10T04:16:02+00:00"
+      },
+      {
+        "id": 111964729,
+        "subject": "[ALERT] You've reached 75% of your monthly limit.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-10T04:10:21.786000+00:00"
+      },
+      {
         "id": 111940645,
         "subject": "Direct message with an Instagram user",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-09T17:03:38.907000+00:00"
-      },
-      {
-        "id": 111894918,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-09T14:40:06.301000+00:00"
-      },
-      {
-        "id": 111888666,
-        "subject": "Your next-level Accelerate agenda is here—early-bird ends this week!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-09T13:44:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-09T23:42:50.782Z",
+    "gorgiasUpdated": "2026-08-10T04:16:19.052Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
