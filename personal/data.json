@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T18:29:41.740Z",
+  "lastUpdated": "2026-08-11T18:30:01.682Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112251118,
+        "subject": "Product Update: Review Your Target-Based Bid Strategy Settings",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-11T17:40:03+00:00"
+      },
+      {
         "id": 112248459,
         "subject": "You've got $23,630 waiting",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-11T16:37:06+00:00"
-      },
-      {
-        "id": 112236284,
-        "subject": "Plan ahead with a PayPal Business Loan",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-11T16:20:56+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-11T17:34:58.910Z",
+    "gorgiasUpdated": "2026-08-11T18:30:01.274Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
