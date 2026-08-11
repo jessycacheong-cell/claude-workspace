@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T02:22:26.253Z",
+  "lastUpdated": "2026-08-11T02:23:00.524Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112151813,
+        "subject": "👤 UMEI, add Angus Leung",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-11T02:16:03+00:00"
+      },
+      {
+        "id": 112139884,
+        "subject": "Refund Initiated for Order 113-8051287-8741841",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-11T00:30:57+00:00"
+      },
+      {
         "id": 112125318,
         "subject": "Your 20% UMEI code 🎉",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-10T20:17:22+00:00"
-      },
-      {
-        "id": 112093456,
-        "subject": "Your FBA removal request is complete (RkCnEQ5tLn)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-10T19:28:33+00:00"
-      },
-      {
-        "id": 112089166,
-        "subject": "Apply for a term loan with no interest or credit check",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-10T19:03:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-11T00:04:16.524Z",
+    "gorgiasUpdated": "2026-08-11T02:23:00.344Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
