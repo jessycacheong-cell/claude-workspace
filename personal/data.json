@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T16:29:17.488Z",
+  "lastUpdated": "2026-08-11T16:29:46.734Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112236284,
+        "subject": "Plan ahead with a PayPal Business Loan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-11T16:20:56+00:00"
+      },
+      {
+        "id": 112233545,
+        "subject": "Share your New Seller Central feedback",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-11T16:06:41+00:00"
+      },
+      {
         "id": 112218547,
         "subject": "Direct message with nomadic.fishing",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-11T14:54:08+00:00"
-      },
-      {
-        "id": 112196180,
-        "subject": "Mary Beth Westmoreland invites you to Amazon Accelerate 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-11T12:36:51+00:00"
-      },
-      {
-        "id": 112193210,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-11T11:54:54.356000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-11T15:13:08.459Z",
+    "gorgiasUpdated": "2026-08-11T16:29:46.540Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
