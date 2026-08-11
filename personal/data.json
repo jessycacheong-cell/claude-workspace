@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T06:30:57.725Z",
+  "lastUpdated": "2026-08-11T06:31:25.108Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112170630,
+        "subject": "Passkeys by default and retirement of Microsoft-provided SMS and voice authentication",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-11T06:23:13+00:00"
+      },
+      {
         "id": 112151813,
         "subject": "👤 UMEI, add Angus Leung",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-10T22:07:50.204000+00:00"
-      },
-      {
-        "id": 112102030,
-        "subject": "ZapConnect 2026: Explore the agenda",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-10T20:17:22+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-11T05:18:42.961Z",
+    "gorgiasUpdated": "2026-08-11T06:31:24.776Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
