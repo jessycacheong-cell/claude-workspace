@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T11:52:28.881Z",
+  "lastUpdated": "2026-08-11T12:26:50.240Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112193210,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-11T11:54:54.356000+00:00"
+      },
+      {
         "id": 112188053,
         "subject": "UMEI Store still booking studio days?",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-11T06:23:13+00:00"
-      },
-      {
-        "id": 112151813,
-        "subject": "👤 UMEI, add Angus Leung",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-11T02:16:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-11T11:25:44.500Z",
+    "gorgiasUpdated": "2026-08-11T12:26:50.059Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
