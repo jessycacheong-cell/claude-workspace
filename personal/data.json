@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T17:34:23.426Z",
+  "lastUpdated": "2026-08-11T17:34:59.430Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112248459,
+        "subject": "You've got $23,630 waiting",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-11T17:26:15.345000+00:00"
+      },
+      {
+        "id": 112246388,
+        "subject": "Weekly CX Boost for Umeistore",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-11T17:15:08+00:00"
+      },
+      {
+        "id": 112245398,
+        "subject": "Your go-to business products—now 25% off",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-11T17:03:55+00:00"
+      },
+      {
+        "id": 112240057,
+        "subject": "See how Zoho Campaigns and Bigin can boost your sales",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-11T16:37:06+00:00"
+      },
+      {
         "id": 112236284,
         "subject": "Plan ahead with a PayPal Business Loan",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-11T16:20:56+00:00"
-      },
-      {
-        "id": 112233545,
-        "subject": "Share your New Seller Central feedback",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-11T16:06:41+00:00"
-      },
-      {
-        "id": 112218547,
-        "subject": "Direct message with nomadic.fishing",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-11T14:58:36.891000+00:00"
-      },
-      {
-        "id": 112218056,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-11T14:55:42+00:00"
-      },
-      {
-        "id": 112217810,
-        "subject": "[For Shopify Store] A visitor spent 3 seconds on your listing page — then scrolled away.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-11T14:54:08+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-11T16:29:46.540Z",
+    "gorgiasUpdated": "2026-08-11T17:34:58.910Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
