@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T06:31:25.108Z",
+  "lastUpdated": "2026-08-11T07:50:07.750Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112174726,
+        "subject": "Passkey added to your account",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-11T07:25:13+00:00"
+      },
+      {
+        "id": 112173618,
+        "subject": "Aug 11, 2026 bill for UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-11T07:13:32+00:00"
+      },
+      {
         "id": 112170630,
         "subject": "Passkeys by default and retirement of Microsoft-provided SMS and voice authentication",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-11T00:30:57+00:00"
-      },
-      {
-        "id": 112125318,
-        "subject": "Your 20% UMEI code 🎉",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-10T22:41:37+00:00"
-      },
-      {
-        "id": 112120475,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-10T22:07:50.204000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-11T06:31:24.776Z",
+    "gorgiasUpdated": "2026-08-11T07:50:07.494Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
