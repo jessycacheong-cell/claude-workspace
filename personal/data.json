@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T20:19:36.775Z",
+  "lastUpdated": "2026-08-12T20:58:34.896Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112440261,
+        "subject": "Enhance Your Insights: Google & YouTube App Update for Google Analytics",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-12T20:22:40+00:00"
+      },
+      {
+        "id": 112437200,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-12T20:03:38.805000+00:00"
+      },
+      {
         "id": 112428256,
         "subject": "New customer message on August 12, 2026 at 12:07 pm",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-12T17:22:46+00:00"
-      },
-      {
-        "id": 112403341,
-        "subject": "Astra Update | New SDR to HDR model",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-12T16:45:13+00:00"
-      },
-      {
-        "id": 112390091,
-        "subject": "Two weeks until Glean:GO",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-12T15:31:35+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-12T19:43:51.414Z",
+    "gorgiasUpdated": "2026-08-12T20:58:34.732Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
