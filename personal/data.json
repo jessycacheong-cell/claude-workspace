@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T03:07:51.370Z",
+  "lastUpdated": "2026-08-12T04:26:38.952Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112333758,
+        "subject": "Tai Huynh - Founder CEO reacted to this post: Prototyping is fun. Building…",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-12T04:16:02+00:00"
+      },
+      {
         "id": 112325374,
         "subject": "(No subject)",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-11T22:13:53.146000+00:00"
-      },
-      {
-        "id": 112295007,
-        "subject": "Direct message with chrey_a",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-11T22:09:54.057000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-12T02:39:19.688Z",
+    "gorgiasUpdated": "2026-08-12T04:26:38.776Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
