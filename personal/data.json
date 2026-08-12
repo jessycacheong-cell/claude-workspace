@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T14:02:54.705Z",
+  "lastUpdated": "2026-08-12T14:03:42.894Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112373537,
+        "subject": "Last call: 42% higher AOV from loyalty members (tomorrow, 2pm EST)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-12T13:51:05+00:00"
+      },
+      {
+        "id": 112367535,
+        "subject": "Hear from sellers who've been to Accelerate—92.9% of sellers said it was worth it",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-12T13:05:35+00:00"
+      },
+      {
+        "id": 112365243,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-12T12:48:23.112000+00:00"
+      },
+      {
         "id": 112333758,
         "subject": "Tai Huynh - Founder CEO reacted to this post: Prototyping is fun. Building…",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-12T02:33:02+00:00"
-      },
-      {
-        "id": 112318624,
-        "subject": "Your receipt from Photo App",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-12T01:25:10+00:00"
-      },
-      {
-        "id": 112295857,
-        "subject": "Direct message with adventureequalslife",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-11T22:16:03.688000+00:00"
-      },
-      {
-        "id": 112295567,
-        "subject": "Direct message with luca.magnani",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-11T22:13:53.146000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-12T12:28:41.834Z",
+    "gorgiasUpdated": "2026-08-12T14:03:42.665Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
