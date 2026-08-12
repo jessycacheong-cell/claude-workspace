@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T21:24:25.448Z",
+  "lastUpdated": "2026-08-12T21:58:10.966Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112448016,
+        "subject": "Sketchfab is joining KitBash",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-12T21:15:30+00:00"
+      },
+      {
         "id": 112440261,
         "subject": "Enhance Your Insights: Google & YouTube App Update for Google Analytics",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-12T17:31:05.998000+00:00"
-      },
-      {
-        "id": 112410415,
-        "subject": "Understand why you’re not the Featured Offer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-12T17:22:46+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-12T20:58:34.732Z",
+    "gorgiasUpdated": "2026-08-12T21:58:10.786Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
