@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T16:07:05.545Z",
+  "lastUpdated": "2026-08-12T16:31:07.902Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112390091,
+        "subject": "Two weeks until Glean:GO",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-12T15:31:35+00:00"
+      },
+      {
+        "id": 112389004,
+        "subject": "You can get ahead with a PayPal Business Loan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-12T15:24:33+00:00"
+      },
+      {
         "id": 112373537,
         "subject": "Last call: 42% higher AOV from loyalty members (tomorrow, 2pm EST)",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-12T12:48:23.112000+00:00"
-      },
-      {
-        "id": 112333758,
-        "subject": "Tai Huynh - Founder CEO reacted to this post: Prototyping is fun. Building…",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-12T04:16:02+00:00"
-      },
-      {
-        "id": 112325374,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-12T02:33:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-12T15:10:23.087Z",
+    "gorgiasUpdated": "2026-08-12T16:31:07.723Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
