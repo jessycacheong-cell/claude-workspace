@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T17:07:23.902Z",
+  "lastUpdated": "2026-08-12T17:36:17.373Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112411772,
+        "subject": "How does a handmade jewelry brand hit $100K GMV in One Single TikTok LIVE?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-12T17:31:05.998000+00:00"
+      },
+      {
+        "id": 112410415,
+        "subject": "Understand why you’re not the Featured Offer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-12T17:22:46+00:00"
+      },
+      {
+        "id": 112403341,
+        "subject": "Astra Update | New SDR to HDR model",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-12T16:45:13+00:00"
+      },
+      {
         "id": 112390091,
         "subject": "Two weeks until Glean:GO",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-12T15:24:33+00:00"
-      },
-      {
-        "id": 112373537,
-        "subject": "Last call: 42% higher AOV from loyalty members (tomorrow, 2pm EST)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-12T13:51:05+00:00"
-      },
-      {
-        "id": 112367535,
-        "subject": "Hear from sellers who've been to Accelerate—92.9% of sellers said it was worth it",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-12T13:05:35+00:00"
-      },
-      {
-        "id": 112365243,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-12T12:48:23.112000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-12T16:31:07.723Z",
+    "gorgiasUpdated": "2026-08-12T17:36:17.205Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
