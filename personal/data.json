@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-12T00:39:03.414Z",
+  "lastUpdated": "2026-08-12T02:39:19.965Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112325374,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-12T02:33:02+00:00"
+      },
+      {
+        "id": 112318624,
+        "subject": "Your receipt from Photo App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-12T01:25:10+00:00"
+      },
+      {
         "id": 112295857,
         "subject": "Direct message with adventureequalslife",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-11T22:09:54.057000+00:00"
-      },
-      {
-        "id": 112291867,
-        "subject": "Direct message with atlratpackruns",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-11T21:49:07.711000+00:00"
-      },
-      {
-        "id": 112291506,
-        "subject": "Direct message with tmk_aquarist",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-11T21:46:38.148000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-11T23:54:20.874Z",
+    "gorgiasUpdated": "2026-08-12T02:39:19.688Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
