@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T13:38:53.989Z",
+  "lastUpdated": "2026-08-13T13:39:33.955Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112528080,
+        "subject": "Did you catch Mary Beth's message? Early-bird extension ends August 29",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-13T13:19:56+00:00"
+      },
+      {
+        "id": 112526090,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-13T13:06:33.068000+00:00"
+      },
+      {
         "id": 112516705,
         "subject": "Direct message with an Instagram user",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-13T09:50:40+00:00"
-      },
-      {
-        "id": 112477466,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-13T01:20:09.310000+00:00"
-      },
-      {
-        "id": 112471838,
-        "subject": "Gorgeous space!",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-13T00:26:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-13T11:57:39.245Z",
+    "gorgiasUpdated": "2026-08-13T13:39:33.778Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
