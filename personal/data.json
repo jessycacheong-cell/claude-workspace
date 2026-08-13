@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T23:21:12.781Z",
+  "lastUpdated": "2026-08-13T23:53:38.328Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112629093,
+        "subject": "Refund Initiated for Order 114-2012262-5061059",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-13T23:37:52+00:00"
+      },
+      {
         "id": 112603847,
         "subject": "ACCS — get earnings directly to your local bank, no foreign bank account required",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-13T17:47:59.838000+00:00"
-      },
-      {
-        "id": 112553855,
-        "subject": "Know exactly what you'll pay every week, no surprises",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-13T15:51:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-13T22:57:39.135Z",
+    "gorgiasUpdated": "2026-08-13T23:53:38.134Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
