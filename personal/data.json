@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T11:08:35.663Z",
+  "lastUpdated": "2026-08-13T11:08:39.951Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112513993,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-13T10:51:06+00:00"
+      },
+      {
+        "id": 112510537,
+        "subject": "Lucky Orange is moving into your Shopify admin",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-13T09:50:40+00:00"
+      },
+      {
         "id": 112477466,
         "subject": "Direct message with an Instagram user",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-12T23:55:27+00:00"
-      },
-      {
-        "id": 112461877,
-        "subject": "Smarter tools for everyday life",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-12T23:01:33+00:00"
-      },
-      {
-        "id": 112448016,
-        "subject": "Sketchfab is joining KitBash",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-12T21:15:30+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-13T09:45:47.071Z",
+    "gorgiasUpdated": "2026-08-13T11:08:39.352Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
