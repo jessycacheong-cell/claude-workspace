@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T19:39:24.187Z",
+  "lastUpdated": "2026-08-13T20:08:22.310Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112597755,
+        "subject": "9 orders a day to 421",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-13T20:03:50+00:00"
+      },
+      {
         "id": 112574913,
         "subject": "Holiday season prep starts now",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-13T13:19:56+00:00"
-      },
-      {
-        "id": 112526090,
-        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-13T13:06:33.068000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-13T19:16:07.768Z",
+    "gorgiasUpdated": "2026-08-13T20:08:22.115Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
