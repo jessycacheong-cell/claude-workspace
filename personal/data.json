@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-13T17:49:58.461Z",
+  "lastUpdated": "2026-08-13T18:05:24.613Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112574913,
+        "subject": "Holiday season prep starts now",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-13T17:47:59.838000+00:00"
+      },
+      {
         "id": 112553855,
         "subject": "Know exactly what you'll pay every week, no surprises",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-13T13:06:33.068000+00:00"
-      },
-      {
-        "id": 112516705,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-13T11:30:08.863000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-13T17:08:47.054Z",
+    "gorgiasUpdated": "2026-08-13T18:05:24.439Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
