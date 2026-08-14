@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T13:58:49.983Z",
+  "lastUpdated": "2026-08-14T13:59:35.705Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112693192,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-14T13:38:42+00:00"
+      },
+      {
         "id": 112682766,
         "subject": "How to get on PR box lists as a new creator 📦",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-14T04:16:03+00:00"
-      },
-      {
-        "id": 112654996,
-        "subject": "Amazon Listing Created - UMEI-4M-U-S11-9-26",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-14T04:00:19+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-14T12:26:21.411Z",
+    "gorgiasUpdated": "2026-08-14T13:59:35.525Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
