@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T03:10:50.268Z",
+  "lastUpdated": "2026-08-14T04:27:48.212Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 112629093,
-        "subject": "Refund Initiated for Order 114-2012262-5061059",
+        "id": 112656250,
+        "subject": "Tai Huynh recently posted",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-13T23:37:52+00:00"
+        "timestamp": "2026-08-14T04:16:03+00:00"
       },
       {
-        "id": 112603847,
-        "subject": "ACCS — get earnings directly to your local bank, no foreign bank account required",
+        "id": 112654996,
+        "subject": "Amazon Listing Created - UMEI-4M-U-S11-9-26",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-13T20:32:15+00:00"
+        "timestamp": "2026-08-14T04:00:19+00:00"
       },
       {
-        "id": 112601433,
-        "subject": "Join our webinar: ChatGPT Ads, a new channel for marketers",
+        "id": 112654994,
+        "subject": "Amazon Listing Created - UMEI-4C-W-S7-26",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-13T20:18:56.127000+00:00"
+        "timestamp": "2026-08-14T04:00:18+00:00"
       },
       {
-        "id": 112597755,
-        "subject": "9 orders a day to 421",
+        "id": 112654991,
+        "subject": "Amazon Listing Created - UMEI-4M-U-S12-10-26",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-13T20:03:50+00:00"
+        "status": "closed",
+        "timestamp": "2026-08-14T04:00:14+00:00"
       },
       {
-        "id": 112574913,
-        "subject": "Holiday season prep starts now",
+        "id": 112654987,
+        "subject": "Amazon Listing Created - UMEI-4M-W-S6-26",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-13T17:47:59.838000+00:00"
+        "status": "closed",
+        "timestamp": "2026-08-14T04:00:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-14T02:40:03.640Z",
+    "gorgiasUpdated": "2026-08-14T04:27:47.997Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
