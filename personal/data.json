@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T18:00:29.968Z",
+  "lastUpdated": "2026-08-14T18:03:09.165Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112731668,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-14T17:31:38.464000+00:00"
+      },
+      {
+        "id": 112730166,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-14T17:24:58.645000+00:00"
+      },
+      {
         "id": 112720892,
         "subject": "Adobe eLearning News – August 2026",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-14T13:38:42+00:00"
-      },
-      {
-        "id": 112682766,
-        "subject": "How to get on PR box lists as a new creator 📦",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-14T12:07:08+00:00"
-      },
-      {
-        "id": 112664535,
-        "subject": "Auto-Enrollment in Amazon Manufacturer Support - Respond in 30 Days",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-14T06:53:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-14T17:06:28.342Z",
+    "gorgiasUpdated": "2026-08-14T18:03:08.992Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
