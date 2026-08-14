@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T20:39:54.335Z",
+  "lastUpdated": "2026-08-14T20:41:05.728Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112767262,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-14T20:39:42.428000+00:00"
+      },
+      {
         "id": 112745408,
         "subject": "one question",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-14T17:24:58.645000+00:00"
-      },
-      {
-        "id": 112720892,
-        "subject": "Adobe eLearning News – August 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-14T16:30:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-14T19:54:41.052Z",
+    "gorgiasUpdated": "2026-08-14T20:41:05.554Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
