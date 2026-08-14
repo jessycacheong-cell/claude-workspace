@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T12:26:07.769Z",
+  "lastUpdated": "2026-08-14T12:26:21.602Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112682766,
+        "subject": "How to get on PR box lists as a new creator 📦",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-14T12:07:08+00:00"
+      },
+      {
         "id": 112664535,
         "subject": "Auto-Enrollment in Amazon Manufacturer Support - Respond in 30 Days",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-14T04:00:19+00:00"
-      },
-      {
-        "id": 112654994,
-        "subject": "Amazon Listing Created - UMEI-4C-W-S7-26",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-14T04:00:18+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-14T11:24:16.047Z",
+    "gorgiasUpdated": "2026-08-14T12:26:21.411Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
