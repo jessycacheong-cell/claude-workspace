@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T19:08:37.253Z",
+  "lastUpdated": "2026-08-14T19:08:57.384Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112745408,
+        "subject": "one question",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-14T18:42:17+00:00"
+      },
+      {
+        "id": 112742821,
+        "subject": "Would you consider selling umeistore.com...?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-14T18:30:32.770000+00:00"
+      },
+      {
         "id": 112731668,
         "subject": "Direct message with an Instagram user",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-14T16:30:45+00:00"
-      },
-      {
-        "id": 112702835,
-        "subject": "Good news this week—early-bird pricing for Accelerate extended through 8/29",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-14T14:41:59+00:00"
-      },
-      {
-        "id": 112693192,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-14T13:38:42+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-14T18:03:08.992Z",
+    "gorgiasUpdated": "2026-08-14T19:08:57.210Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
