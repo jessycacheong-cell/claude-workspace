@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T17:05:32.829Z",
+  "lastUpdated": "2026-08-14T17:06:28.557Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112720892,
+        "subject": "Adobe eLearning News – August 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-14T16:30:45+00:00"
+      },
+      {
         "id": 112702835,
         "subject": "Good news this week—early-bird pricing for Accelerate extended through 8/29",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-14T06:53:24+00:00"
-      },
-      {
-        "id": 112659062,
-        "subject": "UMEI Store, enable your store ratings",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-14T05:04:16+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-14T16:01:58.589Z",
+    "gorgiasUpdated": "2026-08-14T17:06:28.342Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
