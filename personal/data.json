@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T04:58:57.101Z",
+  "lastUpdated": "2026-08-14T06:03:04.427Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112659062,
+        "subject": "UMEI Store, enable your store ratings",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-14T05:04:16+00:00"
+      },
+      {
         "id": 112656250,
         "subject": "Tai Huynh recently posted",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-14T04:00:14+00:00"
-      },
-      {
-        "id": 112654987,
-        "subject": "Amazon Listing Created - UMEI-4M-W-S6-26",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-14T04:00:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-14T04:27:47.997Z",
+    "gorgiasUpdated": "2026-08-14T06:03:04.260Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
