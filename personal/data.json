@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T22:33:39.864Z",
+  "lastUpdated": "2026-08-15T22:33:47.304Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112885901,
+        "subject": "Order number 1774",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-15T22:01:40+00:00"
+      },
+      {
         "id": 112873880,
         "subject": "Love this",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-14T20:39:42.428000+00:00"
-      },
-      {
-        "id": 112745408,
-        "subject": "one question",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-14T18:42:17+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-15T21:53:00.845Z",
+    "gorgiasUpdated": "2026-08-15T22:33:47.107Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
