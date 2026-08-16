@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T09:36:54.690Z",
+  "lastUpdated": "2026-08-16T09:36:57.920Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112918951,
+        "subject": "FBA reimbursement notification",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-16T09:18:11+00:00"
+      },
+      {
         "id": 112900465,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-15T17:48:38.200000+00:00"
-      },
-      {
-        "id": 112802202,
-        "subject": "UMEI, add Angus Leung - Design and Testing Engineer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-15T02:16:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-16T08:43:08.639Z",
+    "gorgiasUpdated": "2026-08-16T09:36:57.681Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
