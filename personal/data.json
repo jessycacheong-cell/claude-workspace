@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T11:52:16.229Z",
+  "lastUpdated": "2026-08-16T11:53:04.188Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112924248,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-16T11:50:43.510000+00:00"
+      },
+      {
         "id": 112918951,
         "subject": "FBA reimbursement notification",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-15T19:42:57+00:00"
-      },
-      {
-        "id": 112862836,
-        "subject": "Built-in discovery beats paid ads",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-15T17:48:38.200000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-16T11:30:37.432Z",
+    "gorgiasUpdated": "2026-08-16T11:53:04.031Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
