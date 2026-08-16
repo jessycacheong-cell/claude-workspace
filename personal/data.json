@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T14:54:52.717Z",
+  "lastUpdated": "2026-08-16T14:55:29.862Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 112935749,
+        "subject": "Direct message with speedlumatech",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-16T14:40:31.620000+00:00"
+      },
+      {
         "id": 112924248,
         "subject": "Direct message with an Instagram user",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-15T22:01:40+00:00"
-      },
-      {
-        "id": 112873880,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-15T19:42:57+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-16T14:34:58.137Z",
+    "gorgiasUpdated": "2026-08-16T14:55:29.689Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
