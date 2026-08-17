@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T04:53:32.192Z",
+  "lastUpdated": "2026-08-17T04:54:03.910Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113004950,
+        "subject": "[UMEI Store] Order #1790 placed by Austin Thedieck",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-17T04:30:33+00:00"
+      },
+      {
+        "id": 113004130,
+        "subject": "HiveWatch recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-17T04:16:24+00:00"
+      },
+      {
         "id": 113001839,
         "subject": "Your Topaz Labs renewal order from August 16, 2026 is complete",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-17T01:44:25+00:00"
-      },
-      {
-        "id": 112935749,
-        "subject": "Direct message with speedlumatech",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-16T14:40:31.620000+00:00"
-      },
-      {
-        "id": 112924248,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-16T11:50:43.510000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-17T04:00:36.976Z",
+    "gorgiasUpdated": "2026-08-17T04:54:03.728Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
