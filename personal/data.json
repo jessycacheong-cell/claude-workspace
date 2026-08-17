@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T03:58:01.242Z",
+  "lastUpdated": "2026-08-17T04:00:37.223Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113001839,
+        "subject": "Your Topaz Labs renewal order from August 16, 2026 is complete",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-17T03:40:04+00:00"
+      },
+      {
+        "id": 113001198,
+        "subject": "Refund Initiated for Order 111-4899234-8747439",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-17T03:29:10+00:00"
+      },
+      {
         "id": 112993413,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-16T11:50:43.510000+00:00"
-      },
-      {
-        "id": 112918951,
-        "subject": "FBA reimbursement notification",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-16T09:18:11+00:00"
-      },
-      {
-        "id": 112900465,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-16T01:39:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-17T03:09:13.869Z",
+    "gorgiasUpdated": "2026-08-17T04:00:36.976Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
