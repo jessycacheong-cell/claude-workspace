@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T17:59:34.677Z",
+  "lastUpdated": "2026-08-17T18:01:20.507Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113091751,
+        "subject": "Direct message with jakebshepherd",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-17T17:57:26.570000+00:00"
+      },
+      {
         "id": 113084941,
         "subject": "UMEI Store, you're now eligible for an exclusive offer through Shopify Capital",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-17T16:22:09.743000+00:00"
-      },
-      {
-        "id": 113062308,
-        "subject": "Fund more business purchases with a loan from PayPal",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-17T15:26:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-17T17:38:32.010Z",
+    "gorgiasUpdated": "2026-08-17T18:01:20.338Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
