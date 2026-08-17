@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T23:32:27.311Z",
+  "lastUpdated": "2026-08-17T23:33:13.311Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113142717,
+        "subject": "Direct message with adventureequalslife",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-17T23:05:27.957000+00:00"
+      },
+      {
         "id": 113126032,
         "subject": "umei_3d, Get More 2,000 Instagram Followers and 1,000 Youtube Subscribers here",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-17T18:52:54+00:00"
-      },
-      {
-        "id": 113100749,
-        "subject": "The bigger conversation around AI",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-17T18:46:01+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-17T22:57:31.122Z",
+    "gorgiasUpdated": "2026-08-17T23:33:13.105Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
