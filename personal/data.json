@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T13:01:55.980Z",
+  "lastUpdated": "2026-08-17T13:02:21.412Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113036515,
+        "subject": "More time to save $100: Amazon Accelerate early-bird pricing extended",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-17T12:56:44+00:00"
+      },
+      {
+        "id": 113033659,
+        "subject": "Get 30 days of free storage with Global Warehousing and Distribution",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-17T12:30:05+00:00"
+      },
+      {
         "id": 113028092,
         "subject": "Confirm the right to use TT Norms Pro on the umeistore.com website",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-17T04:16:24+00:00"
-      },
-      {
-        "id": 113001839,
-        "subject": "Your Topaz Labs renewal order from August 16, 2026 is complete",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-17T03:40:04+00:00"
-      },
-      {
-        "id": 113001198,
-        "subject": "Refund Initiated for Order 111-4899234-8747439",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-17T03:29:10+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-17T11:55:49.504Z",
+    "gorgiasUpdated": "2026-08-17T13:02:21.227Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
