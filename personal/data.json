@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T21:35:29.689Z",
+  "lastUpdated": "2026-08-17T21:35:57.527Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113126032,
+        "subject": "umei_3d, Get More 2,000 Instagram Followers and 1,000 Youtube Subscribers here",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-17T21:11:15+00:00"
+      },
+      {
         "id": 113106179,
         "subject": "Hi Umei3d",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-17T18:46:01+00:00"
-      },
-      {
-        "id": 113095054,
-        "subject": "Yuri Bejarano, Business Development Manager and Marketing, is popular in your network",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-17T18:16:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-17T21:01:00.147Z",
+    "gorgiasUpdated": "2026-08-17T21:35:57.286Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
