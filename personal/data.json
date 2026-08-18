@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T10:41:10.645Z",
+  "lastUpdated": "2026-08-18T10:42:55.770Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113193062,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-18T09:45:44+00:00"
+      },
+      {
         "id": 113184964,
         "subject": "Direct message with tonyystromboli",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-17T23:05:27.957000+00:00"
-      },
-      {
-        "id": 113126032,
-        "subject": "umei_3d, Get More 2,000 Instagram Followers and 1,000 Youtube Subscribers here",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-17T21:11:15+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-18T09:44:59.863Z",
+    "gorgiasUpdated": "2026-08-18T10:42:55.327Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
