@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T17:37:37.610Z",
+  "lastUpdated": "2026-08-18T17:38:22.272Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113254597,
+        "subject": "Direct message with an Instagram user",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-18T17:19:36.056000+00:00"
+      },
+      {
+        "id": 113253360,
+        "subject": "Content drives everything",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-18T17:12:36.503000+00:00"
+      },
+      {
+        "id": 113252747,
+        "subject": "Act now: 25% off your business reorder",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-18T17:04:04+00:00"
+      },
+      {
+        "id": 113248253,
+        "subject": "Shipping destination",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-18T16:45:28+00:00"
+      },
+      {
         "id": 113242214,
         "subject": "Help achieve your business goals with a PayPal Business Loan",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-18T16:12:43+00:00"
-      },
-      {
-        "id": 113236779,
-        "subject": "Start upscaling with the new Starlight",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-18T15:45:37+00:00"
-      },
-      {
-        "id": 113236690,
-        "subject": "Your first AI-built dashboard, two steps away",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-18T15:45:02+00:00"
-      },
-      {
-        "id": 113227865,
-        "subject": "You should know what your competitors are doing",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-18T14:58:54+00:00"
-      },
-      {
-        "id": 113202190,
-        "subject": "Live at Accelerate 2026: Mary Beth Westmoreland and Amit Agarwal fireside chat",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-18T12:02:39+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-18T16:45:13.035Z",
+    "gorgiasUpdated": "2026-08-18T17:38:22.090Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
