@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T16:44:49.590Z",
+  "lastUpdated": "2026-08-18T16:45:13.210Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113242214,
+        "subject": "Help achieve your business goals with a PayPal Business Loan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-18T16:12:43+00:00"
+      },
+      {
+        "id": 113236779,
+        "subject": "Start upscaling with the new Starlight",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-18T15:45:37+00:00"
+      },
+      {
+        "id": 113236690,
+        "subject": "Your first AI-built dashboard, two steps away",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-18T15:45:02+00:00"
+      },
+      {
         "id": 113227865,
         "subject": "You should know what your competitors are doing",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-18T12:02:39+00:00"
-      },
-      {
-        "id": 113193062,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-18T09:45:44+00:00"
-      },
-      {
-        "id": 113184964,
-        "subject": "Direct message with tonyystromboli",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-18T07:15:06.269000+00:00"
-      },
-      {
-        "id": 113163975,
-        "subject": "UMEI, add Leo Jansen - Team Manager",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-18T02:16:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-18T15:42:31.508Z",
+    "gorgiasUpdated": "2026-08-18T16:45:13.035Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
