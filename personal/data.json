@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T04:46:54.619Z",
+  "lastUpdated": "2026-08-18T04:47:26.887Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -107,7 +107,7 @@
         "id": 113142717,
         "subject": "Direct message with adventureequalslife",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-08-17T23:05:27.957000+00:00"
       },
       {
@@ -125,7 +125,7 @@
         "timestamp": "2026-08-17T19:17:32+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-18T03:53:38.809Z",
+    "gorgiasUpdated": "2026-08-18T04:47:26.692Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
