@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T17:57:54.359Z",
+  "lastUpdated": "2026-08-18T18:00:09.945Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113259270,
+        "subject": "Boston is calling, see you at KBOS 2026? ",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-18T17:45:59+00:00"
+      },
+      {
         "id": 113254597,
         "subject": "Direct message with an Instagram user",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-18T16:45:28+00:00"
-      },
-      {
-        "id": 113242214,
-        "subject": "Help achieve your business goals with a PayPal Business Loan",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-18T16:12:43+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-18T17:38:22.090Z",
+    "gorgiasUpdated": "2026-08-18T18:00:09.767Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
