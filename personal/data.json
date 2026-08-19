@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T14:47:46.286Z",
+  "lastUpdated": "2026-08-19T14:48:25.241Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113380142,
+        "subject": "Glamnetic doubled automation rate. Their CSAT didn’t suffer.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-19T14:01:59+00:00"
+      },
+      {
         "id": 113342578,
         "subject": "[Action may be Required] Amazon EC2 Maintenance: Instance scheduled for reboot [AWS Account ID: 381492252471]",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-19T00:16:17.613000+00:00"
-      },
-      {
-        "id": 113278188,
-        "subject": "Partnership Inquiry – UMEI x LIFT Management",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-18T19:34:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-19T13:53:27.559Z",
+    "gorgiasUpdated": "2026-08-19T14:48:25.070Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
