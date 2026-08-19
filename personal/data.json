@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T01:48:55.238Z",
+  "lastUpdated": "2026-08-19T01:49:15.218Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113324191,
+        "subject": "Your receipt from Photo App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-19T01:25:08+00:00"
+      },
+      {
+        "id": 113317176,
+        "subject": "Direct message with nomadic.fishing",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-19T00:16:17.613000+00:00"
+      },
+      {
         "id": 113278188,
         "subject": "Partnership Inquiry – UMEI x LIFT Management",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-18T17:45:59+00:00"
-      },
-      {
-        "id": 113254597,
-        "subject": "Direct message with an Instagram user",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-18T17:19:36.056000+00:00"
-      },
-      {
-        "id": 113253360,
-        "subject": "Content drives everything",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-18T17:12:36.503000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-18T23:54:31.141Z",
+    "gorgiasUpdated": "2026-08-19T01:49:15.030Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
