@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T15:41:05.948Z",
+  "lastUpdated": "2026-08-19T15:42:10.786Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113395808,
+        "subject": "New at Glean:GO: OpenAI, NVIDIA, and Snowflake",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-19T15:31:56+00:00"
+      },
+      {
+        "id": 113394619,
+        "subject": "You're eligible to apply for a PayPal Business Loan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-19T15:24:32+00:00"
+      },
+      {
+        "id": 113388229,
+        "subject": "You're exactly who Accelerate was designed for",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-19T14:50:11+00:00"
+      },
+      {
         "id": 113380142,
         "subject": "Glamnetic doubled automation rate. Their CSAT didn’t suffer.",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-19T05:22:00+00:00"
-      },
-      {
-        "id": 113328871,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-19T02:14:06+00:00"
-      },
-      {
-        "id": 113324191,
-        "subject": "Your receipt from Photo App",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-19T01:25:08+00:00"
-      },
-      {
-        "id": 113317176,
-        "subject": "Direct message with nomadic.fishing",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-19T00:16:17.613000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-19T14:48:25.070Z",
+    "gorgiasUpdated": "2026-08-19T15:42:10.618Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
