@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T18:49:28.692Z",
+  "lastUpdated": "2026-08-19T18:50:03.740Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113429175,
+        "subject": "Introducing Cash Back for Okendo Loyalty ✅",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-19T18:34:44+00:00"
+      },
+      {
         "id": 113407755,
         "subject": "Refund Initiated for Order 112-0557701-3850631",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-19T15:43:14+00:00"
-      },
-      {
-        "id": 113395808,
-        "subject": "New at Glean:GO: OpenAI, NVIDIA, and Snowflake",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-19T15:31:56+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-19T17:56:50.773Z",
+    "gorgiasUpdated": "2026-08-19T18:50:03.560Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
