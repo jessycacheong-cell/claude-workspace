@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-19T16:42:48.638Z",
+  "lastUpdated": "2026-08-19T16:43:06.124Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113407755,
+        "subject": "Refund Initiated for Order 112-0557701-3850631",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-19T16:34:41+00:00"
+      },
+      {
+        "id": 113405695,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-19T16:23:35.432000+00:00"
+      },
+      {
+        "id": 113399025,
+        "subject": "New customer message on August 19, 2026 at 8:48 am",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-19T15:48:29+00:00"
+      },
+      {
+        "id": 113397969,
+        "subject": "Your campaigns bring visitors in. Does your website hold on to them?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-19T15:43:14+00:00"
+      },
+      {
         "id": 113395808,
         "subject": "New at Glean:GO: OpenAI, NVIDIA, and Snowflake",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-19T15:31:56+00:00"
-      },
-      {
-        "id": 113394619,
-        "subject": "You're eligible to apply for a PayPal Business Loan",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-19T15:24:32+00:00"
-      },
-      {
-        "id": 113388229,
-        "subject": "You're exactly who Accelerate was designed for",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-19T14:50:11+00:00"
-      },
-      {
-        "id": 113380142,
-        "subject": "Glamnetic doubled automation rate. Their CSAT didn’t suffer.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-19T14:01:59+00:00"
-      },
-      {
-        "id": 113342578,
-        "subject": "[Action may be Required] Amazon EC2 Maintenance: Instance scheduled for reboot [AWS Account ID: 381492252471]",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-19T05:22:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-19T15:42:10.618Z",
+    "gorgiasUpdated": "2026-08-19T16:43:05.940Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
