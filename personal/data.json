@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T03:54:18.134Z",
+  "lastUpdated": "2026-08-20T03:55:49.044Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113495254,
+        "subject": "Message from Carla Fernandez Guillem",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-20T03:11:23.870000+00:00"
+      },
+      {
         "id": 113429175,
         "subject": "Introducing Cash Back for Okendo Loyalty ✅",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-19T15:48:29+00:00"
-      },
-      {
-        "id": 113397969,
-        "subject": "Your campaigns bring visitors in. Does your website hold on to them?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-19T15:43:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-20T03:06:48.601Z",
+    "gorgiasUpdated": "2026-08-20T03:55:48.838Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
