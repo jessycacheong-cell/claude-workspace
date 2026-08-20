@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T21:37:56.618Z",
+  "lastUpdated": "2026-08-20T21:38:05.581Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113618315,
+        "subject": "Direct message with storied_worlds",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-20T21:19:46.763000+00:00"
+      },
+      {
         "id": 113603166,
         "subject": "Rewards for every milestone you hit",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-20T16:32:23.891000+00:00"
-      },
-      {
-        "id": 113560325,
-        "subject": "Up to $200,000 ready to put to work in your business",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-20T15:52:38+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-20T20:41:35.399Z",
+    "gorgiasUpdated": "2026-08-20T21:38:05.353Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
