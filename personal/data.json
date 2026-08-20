@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T19:39:07.608Z",
+  "lastUpdated": "2026-08-20T19:40:23.226Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113597857,
+        "subject": "Direct message with therealets_",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-20T19:15:52.996000+00:00"
+      },
+      {
         "id": 113586133,
         "subject": "Re: 421 orders a day, no ads",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-20T14:29:07+00:00"
-      },
-      {
-        "id": 113541756,
-        "subject": "New at Gorgias: Actions in Skills, BFCM, and more",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-20T14:05:10+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-20T18:55:16.421Z",
+    "gorgiasUpdated": "2026-08-20T19:40:23.001Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
