@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T13:54:56.609Z",
+  "lastUpdated": "2026-08-20T13:56:52.624Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113538190,
+        "subject": "Zoho Campaigns for Administrators (virtual classroom training) | Aug 24-25, 2026 | CDT",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-20T13:41:14+00:00"
+      },
+      {
+        "id": 113533746,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-20T13:08:50.570000+00:00"
+      },
+      {
         "id": 113532899,
         "subject": "Amazon Business Pulse: Introducing passkeys",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-20T12:14:57+00:00"
-      },
-      {
-        "id": 113525679,
-        "subject": "Re: Email_Reply?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-20T12:00:01+00:00"
-      },
-      {
-        "id": 113505078,
-        "subject": "Formnext Fair visiting invitation",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-20T05:55:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-20T13:07:28.513Z",
+    "gorgiasUpdated": "2026-08-20T13:56:52.399Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
