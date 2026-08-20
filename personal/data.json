@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T13:07:03.731Z",
+  "lastUpdated": "2026-08-20T13:07:28.783Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113532899,
+        "subject": "Amazon Business Pulse: Introducing passkeys",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-20T13:04:03+00:00"
+      },
+      {
+        "id": 113531082,
+        "subject": "Turn one-time buyers into recurring revenue 🔄",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-20T12:49:34+00:00"
+      },
+      {
+        "id": 113527294,
+        "subject": "The fireside chat we teased is here. Early-bird pricing ends next week.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-20T12:14:57+00:00"
+      },
+      {
+        "id": 113525679,
+        "subject": "Re: Email_Reply?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-20T12:00:01+00:00"
+      },
+      {
         "id": 113505078,
         "subject": "Formnext Fair visiting invitation",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-20T05:55:45+00:00"
-      },
-      {
-        "id": 113495254,
-        "subject": "Message from Carla Fernandez Guillem",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-20T03:11:23.870000+00:00"
-      },
-      {
-        "id": 113429175,
-        "subject": "Introducing Cash Back for Okendo Loyalty ✅",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-19T18:34:44+00:00"
-      },
-      {
-        "id": 113407755,
-        "subject": "Refund Initiated for Order 112-0557701-3850631",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-19T16:34:41+00:00"
-      },
-      {
-        "id": 113405695,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-19T16:23:35.432000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-20T11:58:33.591Z",
+    "gorgiasUpdated": "2026-08-20T13:07:28.513Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
