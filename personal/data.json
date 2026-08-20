@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T16:47:16.656Z",
+  "lastUpdated": "2026-08-20T16:47:43.144Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113567696,
+        "subject": "Improve those email benchmarks in 1 hour",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-20T16:32:23.891000+00:00"
+      },
+      {
+        "id": 113560325,
+        "subject": "Up to $200,000 ready to put to work in your business",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-20T15:52:38+00:00"
+      },
+      {
         "id": 113545417,
         "subject": "[Webinar] How to actually use AI across your Shopify stack",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-20T13:41:14+00:00"
-      },
-      {
-        "id": 113533746,
-        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-20T13:08:50.570000+00:00"
-      },
-      {
-        "id": 113532899,
-        "subject": "Amazon Business Pulse: Introducing passkeys",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-20T13:04:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-20T15:45:20.807Z",
+    "gorgiasUpdated": "2026-08-20T16:47:42.882Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
