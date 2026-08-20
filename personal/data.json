@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T07:01:42.679Z",
+  "lastUpdated": "2026-08-20T07:01:55.956Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113505078,
+        "subject": "Formnext Fair visiting invitation",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-20T05:55:45+00:00"
+      },
+      {
         "id": 113495254,
         "subject": "Message from Carla Fernandez Guillem",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-19T16:23:35.432000+00:00"
-      },
-      {
-        "id": 113399025,
-        "subject": "New customer message on August 19, 2026 at 8:48 am",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-19T15:48:29+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-20T05:42:36.918Z",
+    "gorgiasUpdated": "2026-08-20T07:01:55.792Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
