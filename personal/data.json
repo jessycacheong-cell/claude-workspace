@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T11:35:40.325Z",
+  "lastUpdated": "2026-08-21T11:36:17.399Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113687931,
+        "subject": "ABC Name change to Cadex Receivables Control Corporation",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-21T10:51:24.370000+00:00"
+      },
+      {
+        "id": 113687769,
+        "subject": "you should hear this",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-21T10:47:45+00:00"
+      },
+      {
         "id": 113683477,
         "subject": "UMEI Store, we reverse-engineered your competitors' best ads",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-20T21:19:46.763000+00:00"
-      },
-      {
-        "id": 113603166,
-        "subject": "Rewards for every milestone you hit",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-20T19:48:07.390000+00:00"
-      },
-      {
-        "id": 113597857,
-        "subject": "Direct message with therealets_",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-20T19:15:52.996000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-21T10:43:12.570Z",
+    "gorgiasUpdated": "2026-08-21T11:36:17.243Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
