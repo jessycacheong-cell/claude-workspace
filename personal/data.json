@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T15:44:05.238Z",
+  "lastUpdated": "2026-08-21T15:44:41.126Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113715903,
+        "subject": "A framework for knowing when (and when not) to use AI",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-21T14:52:04+00:00"
+      },
+      {
         "id": 113715101,
         "subject": "New customer message on August 21, 2026 at 7:47 am",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-21T12:37:12+00:00"
-      },
-      {
-        "id": 113687931,
-        "subject": "ABC Name change to Cadex Receivables Control Corporation",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-21T10:51:24.370000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-21T14:49:16.978Z",
+    "gorgiasUpdated": "2026-08-21T15:44:40.948Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
