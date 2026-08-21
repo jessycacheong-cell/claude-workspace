@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T13:05:55.611Z",
+  "lastUpdated": "2026-08-21T13:06:42.587Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113696912,
+        "subject": "Early-bird pricing ends Saturday, Aug. 29—Save $100 before it's full price",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-21T12:37:12+00:00"
+      },
+      {
         "id": 113687931,
         "subject": "ABC Name change to Cadex Receivables Control Corporation",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-21T01:18:01+00:00"
-      },
-      {
-        "id": 113618315,
-        "subject": "Direct message with storied_worlds",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-20T21:19:46.763000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-21T11:58:36.572Z",
+    "gorgiasUpdated": "2026-08-21T13:06:42.389Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
