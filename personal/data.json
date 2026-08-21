@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T14:48:42.363Z",
+  "lastUpdated": "2026-08-21T14:49:17.195Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113715101,
+        "subject": "New customer message on August 21, 2026 at 7:47 am",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-21T14:47:16+00:00"
+      },
+      {
+        "id": 113709576,
+        "subject": "It’s here: Lucky Orange now in your Shopify Admin 🎉",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-21T14:11:46+00:00"
+      },
+      {
         "id": 113705478,
         "subject": "Direct message with muhsin0zarpa",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-21T10:51:24.370000+00:00"
-      },
-      {
-        "id": 113687769,
-        "subject": "you should hear this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-21T10:47:45+00:00"
-      },
-      {
-        "id": 113683477,
-        "subject": "UMEI Store, we reverse-engineered your competitors' best ads",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-21T09:39:44+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-21T13:55:23.439Z",
+    "gorgiasUpdated": "2026-08-21T14:49:16.978Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
