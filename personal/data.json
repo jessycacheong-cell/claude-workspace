@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-21T17:38:59.129Z",
+  "lastUpdated": "2026-08-21T17:40:05.316Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113743023,
+        "subject": "Zoho Campaigns Subscription - Payment Renewal Ahead!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-21T17:28:40+00:00"
+      },
+      {
+        "id": 113738618,
+        "subject": "Direct message with sanjeevjagransksgmail.com9",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-21T17:02:33.466000+00:00"
+      },
+      {
         "id": 113715903,
         "subject": "A framework for knowing when (and when not) to use AI",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-21T14:11:46+00:00"
-      },
-      {
-        "id": 113705478,
-        "subject": "Direct message with muhsin0zarpa",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-21T13:44:07.792000+00:00"
-      },
-      {
-        "id": 113696912,
-        "subject": "Early-bird pricing ends Saturday, Aug. 29—Save $100 before it's full price",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-21T12:37:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-21T16:47:52.383Z",
+    "gorgiasUpdated": "2026-08-21T17:40:05.146Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
