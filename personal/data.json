@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T22:34:06.427Z",
+  "lastUpdated": "2026-08-22T22:34:34.467Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,10 +90,17 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113899693,
+        "subject": "Awww",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-22T22:14:04+00:00"
+      },
+      {
         "id": 113893360,
         "subject": "Direct message with atlratpackruns",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-08-22T20:57:25.566000+00:00"
       },
       {
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-22T20:51:14.351000+00:00"
-      },
-      {
-        "id": 113892608,
-        "subject": "Direct message with nomadic.fishing",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-22T20:48:42.766000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-22T21:54:07.769Z",
+    "gorgiasUpdated": "2026-08-22T22:34:34.295Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
