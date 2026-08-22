@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T04:43:58.082Z",
+  "lastUpdated": "2026-08-22T04:44:53.281Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113820432,
+        "subject": "[UMEI Store] Order #1795 placed by George Riggs",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-22T04:32:56+00:00"
+      },
+      {
+        "id": 113819623,
+        "subject": "Tai Huynh posted: Alignment should happen automatically, not through skill.  If two parts need… 💡",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-22T04:15:59+00:00"
+      },
+      {
         "id": 113812714,
         "subject": "UMEI, add Angus Leung - Design and Testing Engineer",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-21T18:10:07.842000+00:00"
-      },
-      {
-        "id": 113743023,
-        "subject": "Zoho Campaigns Subscription - Payment Renewal Ahead!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-21T17:28:40+00:00"
-      },
-      {
-        "id": 113738618,
-        "subject": "Direct message with sanjeevjagransksgmail.com9",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-21T17:02:33.466000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-22T03:52:08.080Z",
+    "gorgiasUpdated": "2026-08-22T04:44:53.116Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
