@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T21:31:44.577Z",
+  "lastUpdated": "2026-08-22T21:32:22.886Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113893360,
+        "subject": "Direct message with atlratpackruns",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-22T20:57:25.566000+00:00"
+      },
+      {
         "id": 113893125,
         "subject": "Direct message with adventureequalslife",
         "customer": "Unknown",
@@ -107,7 +114,7 @@
         "id": 113892832,
         "subject": "Direct message with christycharlot",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-08-22T20:51:14.351000+00:00"
       },
       {
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-22T20:48:42.766000+00:00"
-      },
-      {
-        "id": 113877148,
-        "subject": "170 million+ shoppers in one place",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-22T18:08:15.498000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-22T20:55:44.946Z",
+    "gorgiasUpdated": "2026-08-22T21:32:22.679Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
