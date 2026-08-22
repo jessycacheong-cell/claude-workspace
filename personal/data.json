@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T03:03:33.025Z",
+  "lastUpdated": "2026-08-22T03:04:16.657Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113812714,
+        "subject": "UMEI, add Angus Leung - Design and Testing Engineer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-22T02:16:01+00:00"
+      },
+      {
         "id": 113798365,
         "subject": "Your Klaviyo Inc subscription will renew soon",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-21T17:02:33.466000+00:00"
-      },
-      {
-        "id": 113715903,
-        "subject": "A framework for knowing when (and when not) to use AI",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-21T14:52:04+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-22T01:46:36.101Z",
+    "gorgiasUpdated": "2026-08-22T03:04:16.488Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
