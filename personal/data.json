@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T03:58:24.888Z",
+  "lastUpdated": "2026-08-23T04:19:52.836Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113921902,
+        "subject": "Your Shopify store, now with 3 AI agents",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-23T03:57:50+00:00"
+      },
+      {
         "id": 113913066,
         "subject": "Refund Initiated for Order 114-8886408-8769825",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-22T20:57:25.566000+00:00"
-      },
-      {
-        "id": 113893125,
-        "subject": "Direct message with adventureequalslife",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-22T20:54:37.093000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-23T03:12:13.772Z",
+    "gorgiasUpdated": "2026-08-23T04:19:52.665Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
