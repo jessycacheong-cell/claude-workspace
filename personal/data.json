@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T01:56:10.837Z",
+  "lastUpdated": "2026-08-23T01:56:31.436Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113913066,
+        "subject": "Refund Initiated for Order 114-8886408-8769825",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-23T01:13:48+00:00"
+      },
+      {
+        "id": 113908843,
+        "subject": "There’s still time to review your order",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-23T00:12:38+00:00"
+      },
+      {
         "id": 113899693,
         "subject": "Awww",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-22T20:54:37.093000+00:00"
-      },
-      {
-        "id": 113893016,
-        "subject": "Direct message with eddy_palermo",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-22T20:53:00.172000+00:00"
-      },
-      {
-        "id": 113892832,
-        "subject": "Direct message with christycharlot",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-22T20:51:14.351000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-22T23:53:36.901Z",
+    "gorgiasUpdated": "2026-08-23T01:56:31.271Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
