@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T18:44:19.719Z",
+  "lastUpdated": "2026-08-23T18:44:48.056Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113970781,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-23T18:18:35+00:00"
+      },
+      {
         "id": 113951479,
         "subject": "Direct message with culvercatherine",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-23T00:12:38+00:00"
-      },
-      {
-        "id": 113899693,
-        "subject": "Awww",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-22T22:14:04+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-23T17:52:47.451Z",
+    "gorgiasUpdated": "2026-08-23T18:44:47.840Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
