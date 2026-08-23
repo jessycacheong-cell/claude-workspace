@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T22:33:48.335Z",
+  "lastUpdated": "2026-08-23T22:34:26.596Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113992171,
+        "subject": "Your voice deserves a face (here’s how to add one)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-23T22:25:22+00:00"
+      },
+      {
         "id": 113979023,
         "subject": "Login to Descript",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-23T03:57:50+00:00"
-      },
-      {
-        "id": 113913066,
-        "subject": "Refund Initiated for Order 114-8886408-8769825",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-23T01:13:48+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-23T21:53:38.578Z",
+    "gorgiasUpdated": "2026-08-23T22:34:26.431Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
