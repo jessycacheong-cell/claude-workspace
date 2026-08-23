@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T14:55:52.534Z",
+  "lastUpdated": "2026-08-23T14:56:20.283Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 113951479,
+        "subject": "Direct message with culvercatherine",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-23T14:55:35.729000+00:00"
+      },
+      {
         "id": 113921902,
         "subject": "Your Shopify store, now with 3 AI agents",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-22T22:14:04+00:00"
-      },
-      {
-        "id": 113893360,
-        "subject": "Direct message with atlratpackruns",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-22T20:57:25.566000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-23T14:35:26.574Z",
+    "gorgiasUpdated": "2026-08-23T14:56:20.120Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
