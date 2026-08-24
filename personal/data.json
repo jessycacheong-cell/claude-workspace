@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T04:25:09.942Z",
+  "lastUpdated": "2026-08-24T04:25:26.547Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114019671,
+        "subject": "Tai Huynh just posted new content",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-24T04:15:58+00:00"
+      },
+      {
         "id": 114015209,
         "subject": "Refund Initiated for Order 112-2517481-5497825",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-23T22:25:22+00:00"
-      },
-      {
-        "id": 113979023,
-        "subject": "Login to Descript",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-23T19:52:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-24T03:12:57.844Z",
+    "gorgiasUpdated": "2026-08-24T04:25:26.370Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
