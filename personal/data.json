@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T14:54:20.500Z",
+  "lastUpdated": "2026-08-24T14:55:37.587Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114069644,
+        "subject": "Why Cash Back actually works",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-24T14:47:02+00:00"
+      },
+      {
         "id": 114059906,
         "subject": "Labor Day Sale: August 24-September 8",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-24T08:02:53+00:00"
-      },
-      {
-        "id": 114032025,
-        "subject": "One team, zero chasing, real workflow change",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-24T07:54:32+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-24T14:01:13.607Z",
+    "gorgiasUpdated": "2026-08-24T14:55:37.397Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
