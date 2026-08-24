@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T21:38:52.594Z",
+  "lastUpdated": "2026-08-24T21:40:13.859Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114146594,
+        "subject": "Security alert for adaugh718@gmail.com",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-24T21:34:48+00:00"
+      },
+      {
+        "id": 114142419,
+        "subject": "Security alert",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-24T21:10:01+00:00"
+      },
+      {
         "id": 114131379,
         "subject": "Midjourney V8.2 is Here!",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-24T17:52:40+00:00"
-      },
-      {
-        "id": 114100003,
-        "subject": "Don't miss out on this limited-time funding offer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-24T17:20:42.029000+00:00"
-      },
-      {
-        "id": 114098540,
-        "subject": "Alleged TypeType copyright infringement by umeistore.com.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-24T17:12:49+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-24T20:44:19.162Z",
+    "gorgiasUpdated": "2026-08-24T21:40:13.656Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
