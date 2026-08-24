@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T08:23:03.021Z",
+  "lastUpdated": "2026-08-24T08:23:35.021Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114032513,
+        "subject": "Zoho Campaigns - Your subscription is renewed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-24T08:02:53+00:00"
+      },
+      {
+        "id": 114032025,
+        "subject": "One team, zero chasing, real workflow change",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-24T07:54:32+00:00"
+      },
+      {
         "id": 114019671,
         "subject": "Tai Huynh just posted new content",
         "customer": "Unknown",
@@ -100,7 +114,7 @@
         "id": 114015209,
         "subject": "Refund Initiated for Order 112-2517481-5497825",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-08-24T03:03:26+00:00"
       },
       {
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-24T00:58:29.578000+00:00"
-      },
-      {
-        "id": 114004292,
-        "subject": "Hi Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-24T00:45:43+00:00"
-      },
-      {
-        "id": 113992171,
-        "subject": "Your voice deserves a face (here’s how to add one)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-23T22:25:22+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-24T07:17:07.242Z",
+    "gorgiasUpdated": "2026-08-24T08:23:34.845Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
