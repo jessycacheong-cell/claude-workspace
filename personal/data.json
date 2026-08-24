@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T15:50:59.336Z",
+  "lastUpdated": "2026-08-24T15:56:26.302Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114082222,
+        "subject": "Better tools for the way you create",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-24T15:50:13+00:00"
+      },
+      {
+        "id": 114074933,
+        "subject": "samples",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-24T15:13:53+00:00"
+      },
+      {
         "id": 114069644,
         "subject": "Why Cash Back actually works",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-24T13:24:48+00:00"
-      },
-      {
-        "id": 114050992,
-        "subject": "Early-bird pricing ends August 29. Save $100 now",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-24T12:48:17+00:00"
-      },
-      {
-        "id": 114032513,
-        "subject": "Zoho Campaigns - Your subscription is renewed",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-24T08:02:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-24T14:55:37.397Z",
+    "gorgiasUpdated": "2026-08-24T15:56:26.100Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
