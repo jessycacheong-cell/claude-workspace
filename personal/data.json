@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T20:43:35.843Z",
+  "lastUpdated": "2026-08-24T20:44:19.371Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114131379,
+        "subject": "Midjourney V8.2 is Here!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-24T20:11:45.158000+00:00"
+      },
+      {
         "id": 114116085,
         "subject": "Mirakl Legal Terms update notice",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-24T17:12:49+00:00"
-      },
-      {
-        "id": 114096420,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-24T17:02:26+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-24T20:01:30.524Z",
+    "gorgiasUpdated": "2026-08-24T20:44:19.162Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
