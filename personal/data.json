@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T03:12:35.517Z",
+  "lastUpdated": "2026-08-24T03:12:58.026Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114015209,
+        "subject": "Refund Initiated for Order 112-2517481-5497825",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-24T03:03:26+00:00"
+      },
+      {
         "id": 114005294,
         "subject": "Direct message with austinthephilosurfer",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-23T19:52:03+00:00"
-      },
-      {
-        "id": 113970781,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-23T18:18:35+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-24T01:54:03.408Z",
+    "gorgiasUpdated": "2026-08-24T03:12:57.844Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
