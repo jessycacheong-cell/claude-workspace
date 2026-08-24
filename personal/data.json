@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T18:54:40.689Z",
+  "lastUpdated": "2026-08-24T18:55:04.655Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114116085,
+        "subject": "Mirakl Legal Terms update notice",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-24T18:46:56+00:00"
+      },
+      {
+        "id": 114106095,
+        "subject": "The 11 most popular influencer niches 😎",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-24T17:52:40+00:00"
+      },
+      {
         "id": 114100003,
         "subject": "Don't miss out on this limited-time funding offer",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-24T17:02:26+00:00"
-      },
-      {
-        "id": 114082222,
-        "subject": "Better tools for the way you create",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-24T15:50:13+00:00"
-      },
-      {
-        "id": 114074933,
-        "subject": "samples",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-24T15:13:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-24T17:41:14.755Z",
+    "gorgiasUpdated": "2026-08-24T18:55:04.425Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
