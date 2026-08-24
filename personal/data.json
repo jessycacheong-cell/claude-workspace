@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T13:08:38.609Z",
+  "lastUpdated": "2026-08-24T13:09:39.342Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114050992,
+        "subject": "Early-bird pricing ends August 29. Save $100 now",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-24T12:48:17+00:00"
+      },
+      {
         "id": 114032513,
         "subject": "Zoho Campaigns - Your subscription is renewed",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-24T03:03:26+00:00"
-      },
-      {
-        "id": 114005294,
-        "subject": "Direct message with austinthephilosurfer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-24T00:58:29.578000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-24T12:00:47.751Z",
+    "gorgiasUpdated": "2026-08-24T13:09:39.173Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
