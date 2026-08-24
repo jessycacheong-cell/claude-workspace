@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T01:53:54.069Z",
+  "lastUpdated": "2026-08-24T01:54:03.589Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114005294,
+        "subject": "Direct message with austinthephilosurfer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-24T00:58:29.578000+00:00"
+      },
+      {
+        "id": 114004292,
+        "subject": "Hi Umei3d",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-24T00:45:43+00:00"
+      },
+      {
         "id": 113992171,
         "subject": "Your voice deserves a face (here’s how to add one)",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-23T18:18:35+00:00"
-      },
-      {
-        "id": 113951479,
-        "subject": "Direct message with culvercatherine",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-23T14:55:35.729000+00:00"
-      },
-      {
-        "id": 113921902,
-        "subject": "Your Shopify store, now with 3 AI agents",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-23T03:57:50+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-23T23:53:32.111Z",
+    "gorgiasUpdated": "2026-08-24T01:54:03.408Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
