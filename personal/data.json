@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T01:47:45.608Z",
+  "lastUpdated": "2026-08-25T01:48:35.635Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114175252,
+        "subject": "Klaviyo Invoice",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-25T01:17:02.714000+00:00"
+      },
+      {
+        "id": 114173732,
+        "subject": "Direct message with artouyj",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-25T01:03:18.998000+00:00"
+      },
+      {
+        "id": 114169571,
+        "subject": "Your receipt from Klaviyo Inc #****-****-7762",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-25T00:26:37+00:00"
+      },
+      {
         "id": 114146594,
         "subject": "Security alert for adaugh718@gmail.com",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-24T21:10:01+00:00"
-      },
-      {
-        "id": 114131379,
-        "subject": "Midjourney V8.2 is Here!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-24T20:11:45.158000+00:00"
-      },
-      {
-        "id": 114116085,
-        "subject": "Mirakl Legal Terms update notice",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-24T18:46:56+00:00"
-      },
-      {
-        "id": 114106095,
-        "subject": "The 11 most popular influencer niches 😎",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-24T17:52:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-24T23:53:54.513Z",
+    "gorgiasUpdated": "2026-08-25T01:48:35.446Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
