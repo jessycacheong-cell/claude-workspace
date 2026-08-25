@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T11:58:40.907Z",
+  "lastUpdated": "2026-08-25T12:00:45.803Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114220027,
+        "subject": "Direct message with alid1222",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-25T11:58:21.282000+00:00"
+      },
+      {
         "id": 114197234,
         "subject": "[ALERT] You've reached 75% of your monthly limit.",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-25T02:16:03+00:00"
-      },
-      {
-        "id": 114175252,
-        "subject": "Klaviyo Invoice",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-25T01:17:02.714000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-25T11:37:47.201Z",
+    "gorgiasUpdated": "2026-08-25T12:00:45.631Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
