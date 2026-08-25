@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T20:40:21.915Z",
+  "lastUpdated": "2026-08-25T20:41:35.196Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114314305,
+        "subject": "Five BFCM sessions. Pick the ones that fit your business.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-25T20:30:13+00:00"
+      },
+      {
         "id": 114303595,
         "subject": "The first-timer's guide to ZapConnect 2026",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-25T17:03:53+00:00"
-      },
-      {
-        "id": 114243324,
-        "subject": "[Webinar] 3 things Vets Love Pets did differently with loyalty",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-25T14:29:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-25T19:41:36.980Z",
+    "gorgiasUpdated": "2026-08-25T20:41:34.878Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
