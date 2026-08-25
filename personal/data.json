@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T21:38:14.539Z",
+  "lastUpdated": "2026-08-25T21:38:36.446Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114324675,
+        "subject": "借助亚马逊广告合作伙伴拓展您的业务",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-25T21:34:50+00:00"
+      },
+      {
+        "id": 114322921,
+        "subject": "Your Google Analytics performance report is in for July 29th - August 25th",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-25T21:24:03+00:00"
+      },
+      {
         "id": 114314305,
         "subject": "Five BFCM sessions. Pick the ones that fit your business.",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-25T18:02:46.710000+00:00"
-      },
-      {
-        "id": 114277633,
-        "subject": "Weekly CX Boost for Umeistore",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-25T17:15:09+00:00"
-      },
-      {
-        "id": 114276110,
-        "subject": "Your exclusive returning-customer discount",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-25T17:03:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-25T20:41:34.878Z",
+    "gorgiasUpdated": "2026-08-25T21:38:36.271Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
