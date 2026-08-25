@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T18:53:14.006Z",
+  "lastUpdated": "2026-08-25T18:53:40.364Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114287357,
+        "subject": "Upto $23,630 in Ads Credit + free creators + discovery",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-25T18:02:46.710000+00:00"
+      },
+      {
         "id": 114277633,
         "subject": "Weekly CX Boost for Umeistore",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-25T13:37:20+00:00"
-      },
-      {
-        "id": 114220027,
-        "subject": "Direct message with alid1222",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-25T11:58:21.282000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-25T17:41:16.766Z",
+    "gorgiasUpdated": "2026-08-25T18:53:40.185Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
