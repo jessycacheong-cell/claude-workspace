@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T03:08:24.883Z",
+  "lastUpdated": "2026-08-25T03:08:48.621Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114182531,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-25T02:29:30+00:00"
+      },
+      {
+        "id": 114181274,
+        "subject": "UMEI, add Joey Canning",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-25T02:16:03+00:00"
+      },
+      {
         "id": 114175252,
         "subject": "Klaviyo Invoice",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-25T00:26:37+00:00"
-      },
-      {
-        "id": 114146594,
-        "subject": "Security alert for adaugh718@gmail.com",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-24T21:34:48+00:00"
-      },
-      {
-        "id": 114142419,
-        "subject": "Security alert",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-24T21:10:01+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-25T01:48:35.446Z",
+    "gorgiasUpdated": "2026-08-25T03:08:48.419Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
