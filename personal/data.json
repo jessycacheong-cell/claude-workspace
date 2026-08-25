@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T19:40:48.383Z",
+  "lastUpdated": "2026-08-25T19:41:37.163Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114303595,
+        "subject": "The first-timer's guide to ZapConnect 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-25T19:27:31+00:00"
+      },
+      {
         "id": 114287357,
         "subject": "Upto $23,630 in Ads Credit + free creators + discovery",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-25T14:29:59+00:00"
-      },
-      {
-        "id": 114233576,
-        "subject": "Act today & improve Sales on Excess Inventory",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-25T13:37:20+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-25T18:53:40.185Z",
+    "gorgiasUpdated": "2026-08-25T19:41:36.980Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
