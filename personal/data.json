@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T07:03:48.269Z",
+  "lastUpdated": "2026-08-25T07:04:34.861Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114197234,
+        "subject": "[ALERT] You've reached 75% of your monthly limit.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-25T05:46:36.842000+00:00"
+      },
+      {
         "id": 114194806,
         "subject": "Important: Data API — more accurate HTTP status codes for error responses",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-25T01:17:02.714000+00:00"
-      },
-      {
-        "id": 114173732,
-        "subject": "Direct message with artouyj",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-25T01:03:18.998000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-25T05:43:12.444Z",
+    "gorgiasUpdated": "2026-08-25T07:04:34.667Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
