@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T07:03:58.985Z",
+  "lastUpdated": "2026-08-26T07:04:36.935Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -121,11 +121,11 @@
         "id": 114365373,
         "subject": "Direct message with zerolovetennis",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-08-26T03:40:27.567000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-26T05:48:47.261Z",
+    "gorgiasUpdated": "2026-08-26T07:04:36.759Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
