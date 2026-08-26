@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T10:47:49.220Z",
+  "lastUpdated": "2026-08-26T10:48:14.778Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114387385,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-26T10:20:56+00:00"
+      },
+      {
         "id": 114380119,
         "subject": "Welcome to Whatnot, UMEI",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-26T04:04:16.309000+00:00"
-      },
-      {
-        "id": 114367044,
-        "subject": "[Notification] Auto-upgrade disabled for your email subscription",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-26T04:04:15.166000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-26T09:53:23.454Z",
+    "gorgiasUpdated": "2026-08-26T10:48:14.603Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
