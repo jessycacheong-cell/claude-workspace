@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T01:53:53.493Z",
+  "lastUpdated": "2026-08-26T01:54:35.011Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114352603,
+        "subject": "Payment confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-26T01:25:07+00:00"
+      },
+      {
         "id": 114324675,
         "subject": "借助亚马逊广告合作伙伴拓展您的业务",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-25T19:27:31+00:00"
-      },
-      {
-        "id": 114287357,
-        "subject": "Upto $23,630 in Ads Credit + free creators + discovery",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-25T18:02:46.710000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-25T23:55:45.217Z",
+    "gorgiasUpdated": "2026-08-26T01:54:34.805Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
