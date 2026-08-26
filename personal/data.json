@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T03:14:38.906Z",
+  "lastUpdated": "2026-08-26T03:15:04.553Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114363158,
+        "subject": "You shared some Google Account data with Whatnot",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-26T03:12:31+00:00"
+      },
+      {
         "id": 114352603,
         "subject": "Payment confirmed",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-25T20:30:13+00:00"
-      },
-      {
-        "id": 114303595,
-        "subject": "The first-timer's guide to ZapConnect 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-25T19:27:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-26T01:54:34.805Z",
+    "gorgiasUpdated": "2026-08-26T03:15:04.388Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
