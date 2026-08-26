@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T04:19:56.866Z",
+  "lastUpdated": "2026-08-26T04:20:37.758Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114367747,
+        "subject": "Tai Huynh - Founder CEO reacted to this post: CUT LOOSE is starting to grow…",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-26T04:15:59+00:00"
+      },
+      {
+        "id": 114367048,
+        "subject": "UMEI3D’s Klaviyo email plan cancellation is scheduled",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-26T04:04:16.309000+00:00"
+      },
+      {
+        "id": 114367044,
+        "subject": "[Notification] Auto-upgrade disabled for your email subscription",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-26T04:04:15.166000+00:00"
+      },
+      {
+        "id": 114365373,
+        "subject": "Direct message with zerolovetennis",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-26T03:40:27.567000+00:00"
+      },
+      {
         "id": 114363158,
         "subject": "You shared some Google Account data with Whatnot",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-26T03:12:31+00:00"
-      },
-      {
-        "id": 114352603,
-        "subject": "Payment confirmed",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-26T01:25:07+00:00"
-      },
-      {
-        "id": 114324675,
-        "subject": "借助亚马逊广告合作伙伴拓展您的业务",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-25T21:34:50+00:00"
-      },
-      {
-        "id": 114322921,
-        "subject": "Your Google Analytics performance report is in for July 29th - August 25th",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-25T21:24:03+00:00"
-      },
-      {
-        "id": 114314305,
-        "subject": "Five BFCM sessions. Pick the ones that fit your business.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-25T20:30:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-26T03:15:04.388Z",
+    "gorgiasUpdated": "2026-08-26T04:20:37.577Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
