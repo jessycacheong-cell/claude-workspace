@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T14:02:10.750Z",
+  "lastUpdated": "2026-08-26T14:21:55.764Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114403302,
+        "subject": "Prepare shipping templates for new automated transit times",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-26T13:12:11+00:00"
+      },
+      {
         "id": 114400009,
         "subject": "?",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-26T08:00:39.157000+00:00"
-      },
-      {
-        "id": 114372932,
-        "subject": "Your Google Play Order Receipt from Aug 25, 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-26T05:44:20+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-26T13:11:52.878Z",
+    "gorgiasUpdated": "2026-08-26T14:21:55.455Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
