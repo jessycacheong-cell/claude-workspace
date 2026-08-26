@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T13:11:26.964Z",
+  "lastUpdated": "2026-08-26T13:11:53.066Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114400009,
+        "subject": "?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-26T12:50:28+00:00"
+      },
+      {
+        "id": 114397621,
+        "subject": "Sellers called this one of the highlights of Accelerate",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-26T12:27:41+00:00"
+      },
+      {
         "id": 114387385,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-26T05:44:20+00:00"
-      },
-      {
-        "id": 114367747,
-        "subject": "Tai Huynh - Founder CEO reacted to this post: CUT LOOSE is starting to grow…",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-26T04:15:59+00:00"
-      },
-      {
-        "id": 114367048,
-        "subject": "UMEI3D’s Klaviyo email plan cancellation is scheduled",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-26T04:04:16.309000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-26T12:02:10.359Z",
+    "gorgiasUpdated": "2026-08-26T13:11:52.878Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
