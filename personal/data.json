@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T14:57:19.588Z",
+  "lastUpdated": "2026-08-26T16:03:22.689Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114426015,
+        "subject": "Glean:GO starts in one hour",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-26T15:05:54+00:00"
+      },
+      {
+        "id": 114417296,
+        "subject": "Your open and click rates look great. But do they turn into results?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-26T14:16:40+00:00"
+      },
+      {
+        "id": 114417635,
+        "subject": "The Review: August updates from Okendo",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-26T14:05:17+00:00"
+      },
+      {
         "id": 114403302,
         "subject": "Prepare shipping templates for new automated transit times",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-26T12:50:28+00:00"
-      },
-      {
-        "id": 114397621,
-        "subject": "Sellers called this one of the highlights of Accelerate",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-26T12:27:41+00:00"
-      },
-      {
-        "id": 114387385,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-26T10:20:56+00:00"
-      },
-      {
-        "id": 114380119,
-        "subject": "Welcome to Whatnot, UMEI",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-26T08:00:39.157000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-26T14:21:55.455Z",
+    "gorgiasUpdated": "2026-08-26T16:03:22.511Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
