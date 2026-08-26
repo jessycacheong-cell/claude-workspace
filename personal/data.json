@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T21:10:33.141Z",
+  "lastUpdated": "2026-08-26T22:29:26.595Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114498756,
+        "subject": "Direct message with jetz05",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-26T21:24:11.520000+00:00"
+      },
+      {
+        "id": 114486758,
+        "subject": "Direct message with adventureequalslife",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-26T20:19:14.723000+00:00"
+      },
+      {
         "id": 114449271,
         "subject": "Gear up for what you love",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-26T16:05:03+00:00"
-      },
-      {
-        "id": 114426015,
-        "subject": "Glean:GO starts in one hour",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-26T15:05:54+00:00"
-      },
-      {
-        "id": 114417296,
-        "subject": "Your open and click rates look great. But do they turn into results?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-26T14:16:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-26T19:16:36.023Z",
+    "gorgiasUpdated": "2026-08-26T22:29:26.419Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
