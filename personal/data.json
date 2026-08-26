@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26T16:31:51.554Z",
+  "lastUpdated": "2026-08-26T16:55:37.298Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114438238,
+        "subject": "Re: Return Request. Order 1772",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-26T16:05:03+00:00"
+      },
+      {
         "id": 114426015,
         "subject": "Glean:GO starts in one hour",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-26T13:12:11+00:00"
-      },
-      {
-        "id": 114400009,
-        "subject": "?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-26T12:50:28+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-26T16:03:22.511Z",
+    "gorgiasUpdated": "2026-08-26T16:55:37.121Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
