@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:59:54.090Z",
+  "lastUpdated": "2026-08-27T23:58:11.010Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 114591330,
-        "subject": "Your K:BOS'26 agenda packed with value — start here!",
+        "id": 114655108,
+        "subject": "NEW: Shopify Sidekick + Discovery AI",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-27T13:42:08+00:00"
+        "timestamp": "2026-08-27T19:44:00+00:00"
       },
       {
-        "id": 114580552,
-        "subject": "Out of stock ≠ lost sale",
+        "id": 114648744,
+        "subject": "Don’t miss out on triple cash back",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-27T12:20:35+00:00"
+        "timestamp": "2026-08-27T19:07:53+00:00"
       },
       {
-        "id": 114571033,
-        "subject": "Final Call: Early-bird pricing ends this Saturday, 8/29—Register now",
+        "id": 114647008,
+        "subject": "Hey Brandon sorry for the string of emails. The size 9 grey Moonwalker slides are available through our Shopify link in link tree.",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-27T10:27:03+00:00"
+        "status": "open",
+        "timestamp": "2026-08-27T18:59:38+00:00"
       },
       {
-        "id": 114564918,
-        "subject": "Resolution for CaseID: 21768384861",
+        "id": 114645880,
+        "subject": "New! ChatGPT MCP, Artlist Flows, and more",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-27T08:30:14+00:00"
+        "timestamp": "2026-08-27T18:20:44+00:00"
       },
       {
-        "id": 114562008,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 114636116,
+        "subject": "Your first product could sell this week",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-27T07:38:13+00:00"
+        "status": "open",
+        "timestamp": "2026-08-27T17:56:43.796000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-27T14:37:02.255Z",
+    "gorgiasUpdated": "2026-08-27T23:58:10.848Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
