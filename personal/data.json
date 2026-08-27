@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T11:09:05.972Z",
+  "lastUpdated": "2026-08-27T14:37:02.470Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 114498756,
-        "subject": "Direct message with jetz05",
+        "id": 114591330,
+        "subject": "Your K:BOS'26 agenda packed with value — start here!",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-26T21:24:11.520000+00:00"
+        "timestamp": "2026-08-27T13:42:08+00:00"
       },
       {
-        "id": 114486758,
-        "subject": "Direct message with adventureequalslife",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-26T20:19:14.723000+00:00"
-      },
-      {
-        "id": 114449271,
-        "subject": "Gear up for what you love",
+        "id": 114580552,
+        "subject": "Out of stock ≠ lost sale",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-26T17:01:29+00:00"
+        "timestamp": "2026-08-27T12:20:35+00:00"
       },
       {
-        "id": 114448990,
-        "subject": "UMEI, your top shows in Sneakers - August 26 👟",
+        "id": 114571033,
+        "subject": "Final Call: Early-bird pricing ends this Saturday, 8/29—Register now",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-26T17:00:11.975000+00:00"
+        "timestamp": "2026-08-27T10:27:03+00:00"
       },
       {
-        "id": 114438238,
-        "subject": "Re: Return Request. Order 1772",
+        "id": 114564918,
+        "subject": "Resolution for CaseID: 21768384861",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-26T16:05:03+00:00"
+        "status": "closed",
+        "timestamp": "2026-08-27T08:30:14+00:00"
+      },
+      {
+        "id": 114562008,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-27T07:38:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-27T03:32:22.808Z",
+    "gorgiasUpdated": "2026-08-27T14:37:02.255Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
