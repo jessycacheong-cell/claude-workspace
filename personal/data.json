@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T05:19:36.637Z",
+  "lastUpdated": "2026-08-28T11:17:39.147Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 114655108,
-        "subject": "NEW: Shopify Sidekick + Discovery AI",
+        "id": 114736101,
+        "subject": "Early-bird pricing ends this Saturday—Register now",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-27T19:44:00+00:00"
+        "timestamp": "2026-08-28T10:29:10+00:00"
       },
       {
-        "id": 114648744,
-        "subject": "Don’t miss out on triple cash back",
+        "id": 114727762,
+        "subject": "Aug 28, 2026 bill for My Store",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-27T19:07:53+00:00"
+        "timestamp": "2026-08-28T07:49:07.373000+00:00"
       },
       {
-        "id": 114647008,
-        "subject": "Hey Brandon sorry for the string of emails. The size 9 grey Moonwalker slides are available through our Shopify link in link tree.",
+        "id": 114719450,
+        "subject": "A chargeback was opened for order #1753",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-28T05:18:57+00:00"
+      },
+      {
+        "id": 114716542,
+        "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-08-27T18:59:38+00:00"
+        "timestamp": "2026-08-28T04:25:38+00:00"
       },
       {
-        "id": 114645880,
-        "subject": "New! ChatGPT MCP, Artlist Flows, and more",
+        "id": 114715943,
+        "subject": "Charles Wu - SEAP - Apprentice reacted to this post: The Irvine Chinese School…",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-27T18:20:44+00:00"
-      },
-      {
-        "id": 114636116,
-        "subject": "Your first product could sell this week",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-27T17:56:43.796000+00:00"
+        "timestamp": "2026-08-28T04:15:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-27T23:58:10.848Z",
+    "gorgiasUpdated": "2026-08-28T11:17:38.958Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
