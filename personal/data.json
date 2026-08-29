@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T01:08:55.523Z",
+  "lastUpdated": "2026-08-29T03:22:03.726Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114864857,
+        "subject": "Get the free Shopify App",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-29T02:44:54+00:00"
+      },
+      {
+        "id": 114842354,
+        "subject": "Reminder: moving business off Fiverr risks your account",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-28T22:31:08.466000+00:00"
+      },
+      {
         "id": 114792926,
         "subject": "Direct message with lt_shinysides7",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-28T16:46:48+00:00"
-      },
-      {
-        "id": 114776931,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-28T15:52:27+00:00"
-      },
-      {
-        "id": 114776432,
-        "subject": "Great news! A custom offer, just for you",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-28T15:49:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-28T21:30:26.800Z",
+    "gorgiasUpdated": "2026-08-29T03:22:03.549Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
