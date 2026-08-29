@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T07:49:39.739Z",
+  "lastUpdated": "2026-08-29T10:24:08.208Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114884591,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-29T09:46:56.071000+00:00"
+      },
+      {
+        "id": 114874788,
+        "subject": "Your FBA capacity limits for September",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-29T05:50:42+00:00"
+      },
+      {
         "id": 114864857,
         "subject": "Get the free Shopify App",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-28T17:22:26.917000+00:00"
-      },
-      {
-        "id": 114789178,
-        "subject": "UMEI, your top shows in Sneakers - August 28 👟",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-28T17:01:13.689000+00:00"
-      },
-      {
-        "id": 114786711,
-        "subject": "We asked CX leaders their biggest BFCM fear. Here's what they said.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-28T16:46:48+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-29T03:22:03.549Z",
+    "gorgiasUpdated": "2026-08-29T10:24:08.048Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
