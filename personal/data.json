@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T13:48:15.132Z",
+  "lastUpdated": "2026-08-29T15:17:37.113Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114887130,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-29T10:52:16+00:00"
+      },
+      {
+        "id": 114886721,
+        "subject": "Just days left on early-bird pricing—ends this Saturday, 8/29",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-29T10:42:05+00:00"
+      },
+      {
         "id": 114884591,
         "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-29T02:44:54+00:00"
-      },
-      {
-        "id": 114842354,
-        "subject": "Reminder: moving business off Fiverr risks your account",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-28T22:31:08.466000+00:00"
-      },
-      {
-        "id": 114792926,
-        "subject": "Direct message with lt_shinysides7",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-28T17:22:26.917000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-29T10:24:08.048Z",
+    "gorgiasUpdated": "2026-08-29T15:17:36.899Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
