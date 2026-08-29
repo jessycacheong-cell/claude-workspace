@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T17:41:32.425Z",
+  "lastUpdated": "2026-08-29T18:49:26.672Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114930713,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-29T18:05:39+00:00"
+      },
+      {
+        "id": 114928430,
+        "subject": "The busiest season is approaching",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-29T17:44:56.079000+00:00"
+      },
+      {
         "id": 114887130,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-29T09:46:56.071000+00:00"
-      },
-      {
-        "id": 114874788,
-        "subject": "Your FBA capacity limits for September",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-29T05:50:42+00:00"
-      },
-      {
-        "id": 114864857,
-        "subject": "Get the free Shopify App",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-29T02:44:54+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-29T15:17:36.899Z",
+    "gorgiasUpdated": "2026-08-29T18:49:26.501Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
