@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T11:49:37.540Z",
+  "lastUpdated": "2026-08-30T11:50:12.989Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114987159,
+        "subject": "We've updated our privacy and data policies",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-30T08:30:13+00:00"
+      },
+      {
         "id": 114977772,
         "subject": "Direct message with swift.f1is",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-29T21:31:34.700000+00:00"
-      },
-      {
-        "id": 114945721,
-        "subject": "Direct message with atlratpackruns",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-29T20:38:25.512000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-30T05:46:14.085Z",
+    "gorgiasUpdated": "2026-08-30T11:50:12.821Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
