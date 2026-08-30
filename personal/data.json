@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T22:01:58.457Z",
+  "lastUpdated": "2026-08-30T22:02:12.173Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115036056,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-30T19:55:56+00:00"
+      },
+      {
         "id": 115019426,
         "subject": "UMEI, your top shows in Sneakers - August 30 👟",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-30T01:03:20+00:00"
-      },
-      {
-        "id": 114953270,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-29T22:05:49+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-30T19:26:00.252Z",
+    "gorgiasUpdated": "2026-08-30T22:02:11.985Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
