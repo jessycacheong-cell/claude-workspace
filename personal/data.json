@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T00:38:55.926Z",
+  "lastUpdated": "2026-08-30T05:46:14.271Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 114977772,
+        "subject": "Direct message with swift.f1is",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-30T04:33:06.988000+00:00"
+      },
+      {
+        "id": 114966351,
+        "subject": "Payout for Aug 31, 2026 (-$228.80 USD)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-30T01:03:20+00:00"
+      },
+      {
         "id": 114953270,
         "subject": "Love this",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-29T20:38:25.512000+00:00"
-      },
-      {
-        "id": 114930713,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-29T18:05:39+00:00"
-      },
-      {
-        "id": 114928430,
-        "subject": "The busiest season is approaching",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-29T17:44:56.079000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-30T00:15:15.547Z",
+    "gorgiasUpdated": "2026-08-30T05:46:14.085Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
