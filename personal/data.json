@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T00:28:59.768Z",
+  "lastUpdated": "2026-08-31T00:30:47.979Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115059203,
+        "subject": "Refund Initiated for Order 114-4952303-8136222",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-31T00:11:13+00:00"
+      },
+      {
         "id": 115036056,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-30T04:33:06.988000+00:00"
-      },
-      {
-        "id": 114966351,
-        "subject": "Payout for Aug 31, 2026 (-$228.80 USD)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-30T01:03:20+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-30T22:02:11.985Z",
+    "gorgiasUpdated": "2026-08-31T00:30:47.815Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
