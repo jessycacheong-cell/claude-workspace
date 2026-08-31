@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T19:37:03.346Z",
+  "lastUpdated": "2026-08-31T19:38:46.841Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 115107590,
-        "subject": "Your reviews are now readable by AI",
+        "id": 115179846,
+        "subject": "Website building looks very different now. Are you ready?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-31T19:03:13+00:00"
+      },
+      {
+        "id": 115173199,
+        "subject": "3% Commission Fee for TikTok Shop LIVE Auction - Limited Time Offer",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-08-31T12:30:23+00:00"
+        "timestamp": "2026-08-31T18:27:29.612000+00:00"
       },
       {
-        "id": 115078934,
-        "subject": "Tai Huynh posted: You need a patent before you can start developing your product.  Often… 💡",
+        "id": 115168497,
+        "subject": "Labor Day Sale: Now until September 8",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-31T04:16:01+00:00"
+        "timestamp": "2026-08-31T18:01:53+00:00"
       },
       {
-        "id": 115065359,
-        "subject": "Hi! I was wondering if you ship to Oregon, or is your delivery service limited to certain locations? Also, how long does shipping usually take?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-31T01:20:50+00:00"
-      },
-      {
-        "id": 115065327,
-        "subject": "Refund Initiated for Order 114-7161927-8479420",
+        "id": 115164173,
+        "subject": "Direct message with eunsounghwang",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-31T01:20:31+00:00"
+        "timestamp": "2026-08-31T17:40:17.487000+00:00"
       },
       {
-        "id": 115059203,
-        "subject": "Refund Initiated for Order 114-4952303-8136222",
+        "id": 115156421,
+        "subject": "Your Week In Reviews For UMEI Store",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-31T00:11:13+00:00"
+        "timestamp": "2026-08-31T17:02:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-31T13:36:46.573Z",
+    "gorgiasUpdated": "2026-08-31T19:38:46.671Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
