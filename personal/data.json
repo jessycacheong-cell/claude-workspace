@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T06:03:33.139Z",
+  "lastUpdated": "2026-08-31T06:04:43.574Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115078934,
+        "subject": "Tai Huynh posted: You need a patent before you can start developing your product.  Often… 💡",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-31T04:16:01+00:00"
+      },
+      {
+        "id": 115065359,
+        "subject": "Hi! I was wondering if you ship to Oregon, or is your delivery service limited to certain locations? Also, how long does shipping usually take?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-31T01:20:50+00:00"
+      },
+      {
+        "id": 115065327,
+        "subject": "Refund Initiated for Order 114-7161927-8479420",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-31T01:20:31+00:00"
+      },
+      {
         "id": 115059203,
         "subject": "Refund Initiated for Order 114-4952303-8136222",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-08-30T19:55:56+00:00"
-      },
-      {
-        "id": 115019426,
-        "subject": "UMEI, your top shows in Sneakers - August 30 👟",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-30T17:02:09.648000+00:00"
-      },
-      {
-        "id": 114987159,
-        "subject": "We've updated our privacy and data policies",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-30T08:30:13+00:00"
-      },
-      {
-        "id": 114977772,
-        "subject": "Direct message with swift.f1is",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-30T04:33:06.988000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-31T00:30:47.815Z",
+    "gorgiasUpdated": "2026-08-31T06:04:43.396Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
