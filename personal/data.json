@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T23:20:06.866Z",
+  "lastUpdated": "2026-08-31T23:23:46.808Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115193499,
+        "subject": "Balance paid on your Amazon seller account",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-08-31T20:15:08+00:00"
+      },
+      {
         "id": 115179846,
         "subject": "Website building looks very different now. Are you ready?",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-31T17:40:17.487000+00:00"
-      },
-      {
-        "id": 115156421,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-08-31T17:02:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-31T19:38:46.671Z",
+    "gorgiasUpdated": "2026-08-31T23:23:46.622Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
