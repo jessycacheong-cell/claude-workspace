@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-31T13:35:27.258Z",
+  "lastUpdated": "2026-08-31T13:36:46.781Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115107590,
+        "subject": "Your reviews are now readable by AI",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-08-31T12:30:23+00:00"
+      },
+      {
         "id": 115078934,
         "subject": "Tai Huynh posted: You need a patent before you can start developing your product.  Often… 💡",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-08-31T00:11:13+00:00"
-      },
-      {
-        "id": 115036056,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-30T19:55:56+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-31T06:04:43.396Z",
+    "gorgiasUpdated": "2026-08-31T13:36:46.573Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
