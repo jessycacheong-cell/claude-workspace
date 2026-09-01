@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T07:43:57.516Z",
+  "lastUpdated": "2026-09-01T07:44:26.234Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 115193499,
-        "subject": "Balance paid on your Amazon seller account",
+        "id": 115263292,
+        "subject": "Google Ads: Control how often you're charged",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-31T20:15:08+00:00"
+        "timestamp": "2026-09-01T07:01:23+00:00"
       },
       {
-        "id": 115179846,
-        "subject": "Website building looks very different now. Are you ready?",
+        "id": 115248961,
+        "subject": "Your receipt from Auth0 by Okta #2573-3993",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-31T19:03:13+00:00"
+        "timestamp": "2026-09-01T03:14:29+00:00"
       },
       {
-        "id": 115173199,
-        "subject": "3% Commission Fee for TikTok Shop LIVE Auction - Limited Time Offer",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-08-31T18:27:29.612000+00:00"
-      },
-      {
-        "id": 115168497,
-        "subject": "Labor Day Sale: Now until September 8",
+        "id": 115243571,
+        "subject": "👤 Someone at Hog Slat, Incorporated | Georgia Poultry Equipment Company you may know",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-31T18:01:53+00:00"
+        "timestamp": "2026-09-01T02:15:59+00:00"
       },
       {
-        "id": 115164173,
-        "subject": "Direct message with eunsounghwang",
+        "id": 115241168,
+        "subject": "Have you checked your $1,400 Shopify Capital offer?",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-08-31T17:40:17.487000+00:00"
+        "timestamp": "2026-09-01T01:51:34.876000+00:00"
+      },
+      {
+        "id": 115239238,
+        "subject": "View your US Q3-2026 CSBA fee rate",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-01T01:33:48+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-08-31T23:23:46.622Z",
+    "gorgiasUpdated": "2026-09-01T07:44:26.075Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
