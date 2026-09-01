@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T20:08:13.617Z",
+  "lastUpdated": "2026-09-01T20:08:18.625Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 115274908,
-        "subject": "Your new Shopify Capital flex account offer is ready",
+        "id": 115357323,
+        "subject": "Last call: 64% more orders per member (tomorrow, 4pm AEST)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-01T10:18:53.582000+00:00"
+        "timestamp": "2026-09-01T19:17:23+00:00"
       },
       {
-        "id": 115263292,
-        "subject": "Google Ads: Control how often you're charged",
+        "id": 115352732,
+        "subject": "This is where Gen Z buys now",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-01T07:01:23+00:00"
+        "status": "open",
+        "timestamp": "2026-09-01T18:51:03.935000+00:00"
       },
       {
-        "id": 115248961,
-        "subject": "Your receipt from Auth0 by Okta #2573-3993",
+        "id": 115343318,
+        "subject": "Create exclusive deals for Amazon Business customers",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-01T03:14:29+00:00"
+        "timestamp": "2026-09-01T17:59:31+00:00"
       },
       {
-        "id": 115243571,
-        "subject": "👤 Someone at Hog Slat, Incorporated | Georgia Poultry Equipment Company you may know",
+        "id": 115335216,
+        "subject": "Weekly CX Boost for Umeistore",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-01T02:15:59+00:00"
+        "timestamp": "2026-09-01T17:15:05+00:00"
       },
       {
-        "id": 115241168,
-        "subject": "Have you checked your $1,400 Shopify Capital offer?",
+        "id": 115333853,
+        "subject": "Enjoy 25% off—just for returning customers",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-01T01:51:34.876000+00:00"
+        "timestamp": "2026-09-01T17:03:46+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-01T13:27:48.487Z",
+    "gorgiasUpdated": "2026-09-01T20:08:18.453Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
