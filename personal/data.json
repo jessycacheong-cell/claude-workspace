@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T13:27:20.543Z",
+  "lastUpdated": "2026-09-01T13:27:48.685Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115274908,
+        "subject": "Your new Shopify Capital flex account offer is ready",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-01T10:18:53.582000+00:00"
+      },
+      {
         "id": 115263292,
         "subject": "Google Ads: Control how often you're charged",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-01T01:51:34.876000+00:00"
-      },
-      {
-        "id": 115239238,
-        "subject": "View your US Q3-2026 CSBA fee rate",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-01T01:33:48+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-01T07:44:26.075Z",
+    "gorgiasUpdated": "2026-09-01T13:27:48.487Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
