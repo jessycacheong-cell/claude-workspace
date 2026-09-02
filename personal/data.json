@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T17:51:26.119Z",
+  "lastUpdated": "2026-09-02T17:51:59.760Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115509081,
+        "subject": "Update | Video in Topaz for Web",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-02T17:30:25+00:00"
+      },
+      {
+        "id": 115500952,
+        "subject": "💥 Spline V2 just launched",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-02T16:47:11+00:00"
+      },
+      {
+        "id": 115499007,
+        "subject": "What if your team could rehearse difficult conversations?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-02T16:35:34+00:00"
+      },
+      {
+        "id": 115478224,
+        "subject": "Incident identified 🕵️",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-02T14:51:17+00:00"
+      },
+      {
         "id": 115458874,
         "subject": "Find the right tech for your business",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-02T12:52:50+00:00"
-      },
-      {
-        "id": 115455048,
-        "subject": "New in September: Your reviews inside ChatGPT and Claude",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-02T12:15:16+00:00"
-      },
-      {
-        "id": 115437137,
-        "subject": "You hit your monthly sessions limit",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-02T07:43:11+00:00"
-      },
-      {
-        "id": 115432277,
-        "subject": "Tai Huynh - Founder CEO reacted to this post: Does this happen to anyone…",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-02T06:16:00+00:00"
-      },
-      {
-        "id": 115410914,
-        "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-02T01:31:35+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-02T13:50:36.193Z",
+    "gorgiasUpdated": "2026-09-02T17:51:59.598Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
