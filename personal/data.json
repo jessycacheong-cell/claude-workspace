@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T20:58:18.287Z",
+  "lastUpdated": "2026-09-02T20:58:34.643Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115528193,
+        "subject": "Incident resolved ✅",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-02T19:14:34+00:00"
+      },
+      {
+        "id": 115527112,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-02T19:09:05+00:00"
+      },
+      {
+        "id": 115520650,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-02T18:32:14+00:00"
+      },
+      {
         "id": 115509081,
         "subject": "Update | Video in Topaz for Web",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-02T16:47:11+00:00"
-      },
-      {
-        "id": 115499007,
-        "subject": "What if your team could rehearse difficult conversations?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-02T16:35:34+00:00"
-      },
-      {
-        "id": 115478224,
-        "subject": "Incident identified 🕵️",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-02T14:51:17+00:00"
-      },
-      {
-        "id": 115458874,
-        "subject": "Find the right tech for your business",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-02T12:52:50+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-02T17:51:59.598Z",
+    "gorgiasUpdated": "2026-09-02T20:58:34.486Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
