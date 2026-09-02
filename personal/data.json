@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T09:31:36.127Z",
+  "lastUpdated": "2026-09-02T09:32:25.332Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115437137,
+        "subject": "You hit your monthly sessions limit",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-02T07:43:11+00:00"
+      },
+      {
+        "id": 115432277,
+        "subject": "Tai Huynh - Founder CEO reacted to this post: Does this happen to anyone…",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-02T06:16:00+00:00"
+      },
+      {
         "id": 115410914,
         "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-02T01:03:53.744000+00:00"
-      },
-      {
-        "id": 115383608,
-        "subject": "Delta Galil asked Gaia to clean up 400+ guidances. Here's how.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-01T22:02:29+00:00"
-      },
-      {
-        "id": 115375980,
-        "subject": "How to Fund Your Idea: A Complete Guide for Creators",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-01T21:10:29+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-02T05:01:50.259Z",
+    "gorgiasUpdated": "2026-09-02T09:32:25.081Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
