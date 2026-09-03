@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T18:35:06.100Z",
+  "lastUpdated": "2026-09-03T19:24:50.778Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115702810,
+        "subject": "A competitor of yours, 9 to 400 orders a day!",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-03T19:03:38+00:00"
+      },
+      {
+        "id": 115700744,
+        "subject": "6 reasons you'll want to join ZapConnect live on Sept. 23",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-03T18:52:31+00:00"
+      },
+      {
+        "id": 115688205,
+        "subject": "55 clips from one video. Watch how HubSpot built it.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-03T17:44:48+00:00"
+      },
+      {
+        "id": 115676798,
+        "subject": "UMEI, your top shows in Sneakers - September 3 👟",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-03T17:02:35.025000+00:00"
+      },
+      {
         "id": 115662204,
         "subject": "A note from Katie Scott: Your spot at Amazon Accelerate 2026 is waiting",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-03T15:49:18+00:00"
-      },
-      {
-        "id": 115659000,
-        "subject": "September insights: Glean:GO 2026, now on demand",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-03T15:32:53+00:00"
-      },
-      {
-        "id": 115643224,
-        "subject": "Take 25% off top security products",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-03T14:02:10+00:00"
-      },
-      {
-        "id": 115639575,
-        "subject": "Introducing Perks Programs for Okendo Loyalty",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-03T13:53:02+00:00"
-      },
-      {
-        "id": 115591249,
-        "subject": "Your Shopify store, now with 3 AI agents",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-03T03:00:27+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-03T16:21:24.023Z",
+    "gorgiasUpdated": "2026-09-03T19:24:50.595Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
