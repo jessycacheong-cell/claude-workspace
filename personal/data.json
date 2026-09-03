@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T01:24:49.393Z",
+  "lastUpdated": "2026-09-03T01:25:17.085Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115569647,
+        "subject": "Quick question for Umeid",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-02T23:43:41+00:00"
+      },
+      {
         "id": 115528193,
         "subject": "Incident resolved ✅",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-02T17:30:25+00:00"
-      },
-      {
-        "id": 115500952,
-        "subject": "💥 Spline V2 just launched",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-02T16:47:11+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-02T23:16:33.910Z",
+    "gorgiasUpdated": "2026-09-03T01:25:16.914Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
