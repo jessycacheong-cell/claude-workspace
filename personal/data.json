@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T06:27:29.963Z",
+  "lastUpdated": "2026-09-03T06:27:37.120Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 115569647,
-        "subject": "Quick question for Umeid",
+        "id": 115591249,
+        "subject": "Your Shopify store, now with 3 AI agents",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-02T23:43:41+00:00"
+        "timestamp": "2026-09-03T03:00:27+00:00"
       },
       {
-        "id": 115528193,
-        "subject": "Incident resolved ✅",
+        "id": 115590683,
+        "subject": "Here's your invoice for 2026-09-03",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-03T02:54:32+00:00"
+      },
+      {
+        "id": 115590680,
+        "subject": "Your order is confirmed — Order #FO1150CE1F245",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-03T02:54:31+00:00"
+      },
+      {
+        "id": 115584717,
+        "subject": "SF’s next independent theater",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-02T19:14:34+00:00"
+        "timestamp": "2026-09-03T01:50:49+00:00"
       },
       {
-        "id": 115527112,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 115584640,
+        "subject": "[UMEI Store] Order #1800 placed by Mark D. Lorich",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-02T19:09:05+00:00"
-      },
-      {
-        "id": 115520650,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-02T18:32:14+00:00"
-      },
-      {
-        "id": 115509081,
-        "subject": "Update | Video in Topaz for Web",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-02T17:30:25+00:00"
+        "timestamp": "2026-09-03T01:50:04+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-03T01:25:16.914Z",
+    "gorgiasUpdated": "2026-09-03T06:27:36.975Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
