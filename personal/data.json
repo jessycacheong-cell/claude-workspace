@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T21:17:58.615Z",
+  "lastUpdated": "2026-09-03T21:52:11.477Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115733805,
+        "subject": "Direct message with atlantaresetbasketball",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-03T21:42:24.581000+00:00"
+      },
+      {
+        "id": 115731160,
+        "subject": "Direct message with atlratpackruns",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-03T21:31:01.669000+00:00"
+      },
+      {
+        "id": 115714125,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-03T20:09:13+00:00"
+      },
+      {
         "id": 115702810,
         "subject": "A competitor of yours, 9 to 400 orders a day!",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-03T18:52:31+00:00"
-      },
-      {
-        "id": 115688205,
-        "subject": "55 clips from one video. Watch how HubSpot built it.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-03T17:44:48+00:00"
-      },
-      {
-        "id": 115676798,
-        "subject": "UMEI, your top shows in Sneakers - September 3 👟",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-03T17:02:35.025000+00:00"
-      },
-      {
-        "id": 115662204,
-        "subject": "A note from Katie Scott: Your spot at Amazon Accelerate 2026 is waiting",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-03T15:49:18+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-03T19:24:50.595Z",
+    "gorgiasUpdated": "2026-09-03T21:52:11.275Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
