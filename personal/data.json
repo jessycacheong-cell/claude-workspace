@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T06:30:32.383Z",
+  "lastUpdated": "2026-09-04T09:01:43.141Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,11 +90,25 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115783932,
+        "subject": "👤 Someone at Hog Slat, Incorporated | Georgia Poultry Equipment Company you may know",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-04T06:15:59+00:00"
+      },
+      {
         "id": 115777212,
         "subject": "HiveWatch posted: Corporate espionage didn't end with the Cold War. It just got a LinkedIn… 💡",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-04T04:16:59+00:00"
+      },
+      {
+        "id": 115792393,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-03T22:47:52.737000+00:00"
       },
       {
         "id": 115733805,
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-03T21:31:01.669000+00:00"
-      },
-      {
-        "id": 115714125,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-03T20:09:13+00:00"
-      },
-      {
-        "id": 115702810,
-        "subject": "A competitor of yours, 9 to 400 orders a day!",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-03T19:03:38+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-04T04:23:14.736Z",
+    "gorgiasUpdated": "2026-09-04T09:01:42.963Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
