@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T01:19:48.690Z",
+  "lastUpdated": "2026-09-04T04:23:14.895Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115777212,
+        "subject": "HiveWatch posted: Corporate espionage didn't end with the Cold War. It just got a LinkedIn… 💡",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-04T04:16:59+00:00"
+      },
+      {
         "id": 115733805,
         "subject": "Direct message with atlantaresetbasketball",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-03T19:03:38+00:00"
-      },
-      {
-        "id": 115700744,
-        "subject": "6 reasons you'll want to join ZapConnect live on Sept. 23",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-03T18:52:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-04T00:01:10.355Z",
+    "gorgiasUpdated": "2026-09-04T04:23:14.736Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
