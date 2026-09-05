@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T01:21:34.545Z",
+  "lastUpdated": "2026-09-05T04:18:38.443Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 115934952,
+        "subject": "TikTok Shop account new user login",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-05T01:50:25.083000+00:00"
+      },
+      {
+        "id": 115934914,
+        "subject": "265365 is your verification code",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-05T01:49:43.093000+00:00"
+      },
+      {
+        "id": 115934714,
+        "subject": "731298 is your 6-digit code",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-05T01:46:59.629000+00:00"
+      },
+      {
         "id": 115870466,
         "subject": "adventureequalslife replied to your story",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-04T16:59:13+00:00"
-      },
-      {
-        "id": 115844566,
-        "subject": "biwerfamily replied to your story",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-04T15:50:55.412000+00:00"
-      },
-      {
-        "id": 115839713,
-        "subject": "Access funding without a long wait",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-04T15:26:48+00:00"
-      },
-      {
-        "id": 115805857,
-        "subject": "How to become a UGC creator (ft. TikToker Danielle Ryan)🤳",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-04T12:04:51+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-04T23:59:44.824Z",
+    "gorgiasUpdated": "2026-09-05T04:18:38.269Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
