@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T16:46:55.256Z",
+  "lastUpdated": "2026-09-05T17:18:58.504Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116001997,
+        "subject": "UMEI, your top shows in Men's Fashion - September 5 👕",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-05T17:02:45.121000+00:00"
+      },
+      {
         "id": 115979346,
         "subject": "Direct message with 29.053140",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-05T01:46:59.629000+00:00"
-      },
-      {
-        "id": 115870466,
-        "subject": "adventureequalslife replied to your story",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-04T18:06:11.070000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-05T15:07:40.506Z",
+    "gorgiasUpdated": "2026-09-05T17:18:58.275Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
