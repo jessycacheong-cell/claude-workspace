@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T14:07:27.907Z",
+  "lastUpdated": "2026-09-06T16:11:46.967Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116098001,
+        "subject": "Automated unfulfillable FBA inventory removal notification",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-06T15:47:20+00:00"
+      },
+      {
+        "id": 116095701,
+        "subject": "Your business loan offer is waiting. Apply in minutes.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-06T15:23:16+00:00"
+      },
+      {
         "id": 116012633,
         "subject": "Your Gen Z customers are shopping here",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-05T14:10:24.543000+00:00"
-      },
-      {
-        "id": 115934952,
-        "subject": "TikTok Shop account new user login",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-05T01:50:25.083000+00:00"
-      },
-      {
-        "id": 115934914,
-        "subject": "265365 is your verification code",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-05T01:49:43.093000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-06T12:51:10.738Z",
+    "gorgiasUpdated": "2026-09-06T16:11:46.752Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
