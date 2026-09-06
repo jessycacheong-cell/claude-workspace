@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T16:11:46.967Z",
+  "lastUpdated": "2026-09-06T16:57:44.067Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -234,6 +234,6 @@
   "agendaSummary": "",
   "gantt": {
     "tasks": [],
-    "updatedAt": "2026-09-06T14:07:27.907Z"
+    "updatedAt": "2026-09-06T16:57:44.067Z"
   }
 }
