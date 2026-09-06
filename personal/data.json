@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T16:57:44.067Z",
+  "lastUpdated": "2026-09-06T18:36:46.778Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -93,7 +93,7 @@
         "id": 116098001,
         "subject": "Automated unfulfillable FBA inventory removal notification",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-09-06T15:47:20+00:00"
       },
       {
@@ -125,7 +125,7 @@
         "timestamp": "2026-09-05T14:10:24.543000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-06T16:11:46.752Z",
+    "gorgiasUpdated": "2026-09-06T18:36:46.535Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
