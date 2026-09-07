@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T00:55:50.160Z",
+  "lastUpdated": "2026-09-07T00:56:51.160Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 116098001,
-        "subject": "Automated unfulfillable FBA inventory removal notification",
+        "id": 116149635,
+        "subject": "Love this",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-06T15:47:20+00:00"
+        "timestamp": "2026-09-07T00:41:05+00:00"
       },
       {
-        "id": 116095701,
-        "subject": "Your business loan offer is waiting. Apply in minutes.",
+        "id": 116149293,
+        "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-06T15:23:16+00:00"
+        "timestamp": "2026-09-07T00:37:20+00:00"
       },
       {
-        "id": 116012633,
-        "subject": "Your Gen Z customers are shopping here",
+        "id": 116146750,
+        "subject": "Send me This Post",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-05T18:28:55.618000+00:00"
+        "timestamp": "2026-09-07T00:09:05+00:00"
       },
       {
-        "id": 116001997,
-        "subject": "UMEI, your top shows in Men's Fashion - September 5 👕",
+        "id": 116145298,
+        "subject": "Direct message with austinthephilosurfer",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-05T17:02:45.121000+00:00"
+        "timestamp": "2026-09-06T23:53:12.176000+00:00"
       },
       {
-        "id": 115979346,
-        "subject": "Direct message with 29.053140",
+        "id": 116145128,
+        "subject": "Direct message with atlratpackruns",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-05T14:10:24.543000+00:00"
+        "status": "open",
+        "timestamp": "2026-09-06T23:50:51.791000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-06T22:52:06.478Z",
+    "gorgiasUpdated": "2026-09-07T00:56:50.930Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
