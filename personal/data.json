@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T21:27:25.682Z",
+  "lastUpdated": "2026-09-07T21:27:53.406Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 116166874,
-        "subject": "Tai Huynh - Founder CEO reacted to this post: Hello, everyone   I’m looking…",
+        "id": 116260180,
+        "subject": "Your Gorgias Inc receipt [#1825-3444]",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-07T04:15:59+00:00"
+        "timestamp": "2026-09-07T19:45:09+00:00"
       },
       {
-        "id": 116149635,
-        "subject": "Love this",
+        "id": 116260049,
+        "subject": "Thank you for your payment",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-07T00:41:05+00:00"
+        "timestamp": "2026-09-07T19:43:53+00:00"
       },
       {
-        "id": 116149293,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-07T00:37:20+00:00"
-      },
-      {
-        "id": 116146750,
-        "subject": "Send me This Post",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-07T00:09:05+00:00"
-      },
-      {
-        "id": 116145298,
-        "subject": "Direct message with austinthephilosurfer",
+        "id": 116238851,
+        "subject": "Grow your Amazon business this September—$200 off registration",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-06T23:53:12.176000+00:00"
+        "timestamp": "2026-09-07T17:13:42+00:00"
+      },
+      {
+        "id": 116237056,
+        "subject": "UMEI, your top shows in Men's Fashion - September 7 👕",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-07T17:02:55.582000+00:00"
+      },
+      {
+        "id": 116236942,
+        "subject": "Your Week In Reviews For UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-07T17:02:22+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-07T12:21:28.524Z",
+    "gorgiasUpdated": "2026-09-07T21:27:53.200Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
