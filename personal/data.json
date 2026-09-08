@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T20:13:45.476Z",
+  "lastUpdated": "2026-09-08T22:57:01.838Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116452287,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-08T21:26:02+00:00"
+      },
+      {
         "id": 116427292,
         "subject": "We grade your returns. You recover the value.",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-08T17:03:55+00:00"
-      },
-      {
-        "id": 116392169,
-        "subject": "Give blurry assets a sharper finish",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-08T16:11:11+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-08T20:13:45.320Z",
+    "gorgiasUpdated": "2026-09-08T22:57:01.666Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
