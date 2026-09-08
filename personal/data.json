@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T20:12:58.563Z",
+  "lastUpdated": "2026-09-08T20:13:45.476Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116427292,
+        "subject": "We grade your returns. You recover the value.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-08T19:05:58+00:00"
+      },
+      {
+        "id": 116421102,
+        "subject": "It's time. TikTok Shop. This week.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-08T18:34:27.075000+00:00"
+      },
+      {
+        "id": 116409703,
+        "subject": "How does a handmade jewelry brand hit $100K GMV in One Single TikTok LIVE?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-08T17:37:09.806000+00:00"
+      },
+      {
         "id": 116403827,
         "subject": "Your go-to business products—now 25% off",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-08T16:11:11+00:00"
-      },
-      {
-        "id": 116390409,
-        "subject": "Tomorrow: See connected enterprise AI in action",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-08T16:04:50+00:00"
-      },
-      {
-        "id": 116375970,
-        "subject": "New sessions on AI, brand building, and account health",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-08T14:58:06+00:00"
-      },
-      {
-        "id": 116363191,
-        "subject": "Why Perks Programs drive retention",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-08T13:50:08+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-08T17:27:39.480Z",
+    "gorgiasUpdated": "2026-09-08T20:13:45.320Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
