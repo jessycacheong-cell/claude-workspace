@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T21:55:43.922Z",
+  "lastUpdated": "2026-09-09T21:56:17.244Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116631442,
+        "subject": "Smaller footprint, bigger capability",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-09T21:31:09+00:00"
+      },
+      {
+        "id": 116625608,
+        "subject": "Direct message with petesparadise305",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-09T20:53:45.274000+00:00"
+      },
+      {
+        "id": 116625032,
+        "subject": "Your FBA removal request is complete (cVhEqifnNI)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-09T20:50:27+00:00"
+      },
+      {
         "id": 116576787,
         "subject": "Direct message with erikag.240774",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-09T15:30:40+00:00"
-      },
-      {
-        "id": 116556269,
-        "subject": "A personal invite from Katie + your exclusive Accelerate rate",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-09T14:46:48+00:00"
-      },
-      {
-        "id": 116551802,
-        "subject": "[Webinar] How TUSHY turns \"I'll try it\" into \"I'm obsessed\"",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-09T14:16:32+00:00"
-      },
-      {
-        "id": 116546565,
-        "subject": "Store inventory in Ningbo, ship to US FBA",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-09T13:51:41+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-09T19:27:56.768Z",
+    "gorgiasUpdated": "2026-09-09T21:56:17.080Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
