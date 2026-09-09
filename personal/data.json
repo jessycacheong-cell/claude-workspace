@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T06:37:53.990Z",
+  "lastUpdated": "2026-09-09T06:38:30.680Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116492182,
+        "subject": "Umei",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-09T02:16:49+00:00"
+      },
+      {
+        "id": 116486686,
+        "subject": "Payment confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-09T01:25:09+00:00"
+      },
+      {
         "id": 116467182,
         "subject": "Your products are live in Meta's new personal AI agent",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-08T19:05:58+00:00"
-      },
-      {
-        "id": 116421102,
-        "subject": "It's time. TikTok Shop. This week.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-08T18:34:27.075000+00:00"
-      },
-      {
-        "id": 116409703,
-        "subject": "How does a handmade jewelry brand hit $100K GMV in One Single TikTok LIVE?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-08T17:37:09.806000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-09T01:12:49.630Z",
+    "gorgiasUpdated": "2026-09-09T06:38:30.481Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
