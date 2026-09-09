@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T01:12:33.224Z",
+  "lastUpdated": "2026-09-09T01:12:49.797Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116467182,
+        "subject": "Your products are live in Meta's new personal AI agent",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-08T23:05:35.345000+00:00"
+      },
+      {
         "id": 116452287,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-08T17:37:09.806000+00:00"
-      },
-      {
-        "id": 116403827,
-        "subject": "Your go-to business products—now 25% off",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-08T17:03:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-08T22:57:01.666Z",
+    "gorgiasUpdated": "2026-09-09T01:12:49.630Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
