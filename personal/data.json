@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T09:07:53.271Z",
+  "lastUpdated": "2026-09-10T09:38:08.273Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116693481,
+        "subject": "Zoho Campaigns - Terms of Service Update",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-10T09:00:51+00:00"
+      },
+      {
+        "id": 116688650,
+        "subject": "Sep 10, 2026 bill for UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-10T07:24:51+00:00"
+      },
+      {
+        "id": 116681484,
+        "subject": "Direct message with jacerauman",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-10T05:17:16.945000+00:00"
+      },
+      {
+        "id": 116679699,
+        "subject": "Stop paying to get back what you can't resell",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-10T04:45:32+00:00"
+      },
+      {
         "id": 116673352,
         "subject": "Direct message with jessiannwilliams2001",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-10T03:13:03.042000+00:00"
-      },
-      {
-        "id": 116670463,
-        "subject": "Your FBA removal request is complete (2VMcKRalUX)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-10T02:41:16+00:00"
-      },
-      {
-        "id": 116656517,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-10T00:35:14+00:00"
-      },
-      {
-        "id": 116656282,
-        "subject": "👏👏🔥🔥",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-10T00:33:12+00:00"
-      },
-      {
-        "id": 116631442,
-        "subject": "Smaller footprint, bigger capability",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-09T21:31:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-10T04:40:18.699Z",
+    "gorgiasUpdated": "2026-09-10T09:38:08.077Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
