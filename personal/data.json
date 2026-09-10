@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T04:33:26.522Z",
+  "lastUpdated": "2026-09-10T04:40:18.884Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116673352,
+        "subject": "Direct message with jessiannwilliams2001",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-10T03:13:03.042000+00:00"
+      },
+      {
+        "id": 116670463,
+        "subject": "Your FBA removal request is complete (2VMcKRalUX)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-10T02:41:16+00:00"
+      },
+      {
+        "id": 116656517,
+        "subject": "Love this",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-10T00:35:14+00:00"
+      },
+      {
+        "id": 116656282,
+        "subject": "👏👏🔥🔥",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-10T00:33:12+00:00"
+      },
+      {
         "id": 116631442,
         "subject": "Smaller footprint, bigger capability",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-09T21:31:09+00:00"
-      },
-      {
-        "id": 116625608,
-        "subject": "Direct message with petesparadise305",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-09T20:53:45.274000+00:00"
-      },
-      {
-        "id": 116625032,
-        "subject": "Your FBA removal request is complete (cVhEqifnNI)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-09T20:50:27+00:00"
-      },
-      {
-        "id": 116576787,
-        "subject": "Direct message with erikag.240774",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-09T16:32:15.827000+00:00"
-      },
-      {
-        "id": 116565096,
-        "subject": "Access your PayPal funds instantly",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-09T15:30:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-10T00:09:22.975Z",
+    "gorgiasUpdated": "2026-09-10T04:40:18.699Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
