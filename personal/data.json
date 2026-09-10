@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T21:50:30.388Z",
+  "lastUpdated": "2026-09-10T22:31:06.098Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116815017,
+        "subject": "RE: Your pair is on its way.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-10T22:10:03+00:00"
+      },
+      {
+        "id": 116811649,
+        "subject": "Your discount expires in 60 minutes",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-10T21:47:46+00:00"
+      },
+      {
         "id": 116782204,
         "subject": "Hold PayPal USD to earn 4% in annual rewards.",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-10T18:08:14.261000+00:00"
-      },
-      {
-        "id": 116766145,
-        "subject": "Learn How a Latina Founder Built a Sellout LIVE Business 🚀",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-10T17:34:07.606000+00:00"
-      },
-      {
-        "id": 116752973,
-        "subject": "New customer message on September 10, 2026 at 9:29 am",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-10T16:29:57.646000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-10T20:01:07.486Z",
+    "gorgiasUpdated": "2026-09-10T22:31:05.903Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
