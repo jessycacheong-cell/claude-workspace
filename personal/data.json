@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T19:37:37.598Z",
+  "lastUpdated": "2026-09-10T20:01:07.722Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116782204,
+        "subject": "Hold PayPal USD to earn 4% in annual rewards.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-10T18:52:08+00:00"
+      },
+      {
+        "id": 116781284,
+        "subject": "Welcome to Higgsfield. Pro features unlocked for the next 3 hours!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-10T18:47:43+00:00"
+      },
+      {
+        "id": 116773193,
+        "subject": "Creators sell. You get paid.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-10T18:08:14.261000+00:00"
+      },
+      {
         "id": 116766145,
         "subject": "Learn How a Latina Founder Built a Sellout LIVE Business 🚀",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-10T16:29:57.646000+00:00"
-      },
-      {
-        "id": 116750375,
-        "subject": "August at Zoho was a month of big moves! 📰 ",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-10T16:15:33+00:00"
-      },
-      {
-        "id": 116748205,
-        "subject": "Your latest benchmarks are in. Did you make moves last month?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-10T16:06:48.598000+00:00"
-      },
-      {
-        "id": 116738869,
-        "subject": "Still time to grab the BFCM playbook (free)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-10T15:19:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-10T17:39:29.894Z",
+    "gorgiasUpdated": "2026-09-10T20:01:07.486Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
