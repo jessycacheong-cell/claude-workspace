@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-10T17:08:59.830Z",
+  "lastUpdated": "2026-09-10T17:39:30.090Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 116714547,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 116766145,
+        "subject": "Learn How a Latina Founder Built a Sellout LIVE Business 🚀",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-10T17:34:07.606000+00:00"
+      },
+      {
+        "id": 116752973,
+        "subject": "New customer message on September 10, 2026 at 9:29 am",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-10T13:05:56+00:00"
+        "timestamp": "2026-09-10T16:29:57.646000+00:00"
       },
       {
-        "id": 116712429,
-        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "id": 116750375,
+        "subject": "August at Zoho was a month of big moves! 📰 ",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-10T12:13:30.260000+00:00"
+        "timestamp": "2026-09-10T16:15:33+00:00"
       },
       {
-        "id": 116697903,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-10T10:16:31+00:00"
-      },
-      {
-        "id": 116695781,
-        "subject": "🎉 Run by Apify hits SF in November, MCP upgrade to v2, and a smarter CLI",
+        "id": 116748205,
+        "subject": "Your latest benchmarks are in. Did you make moves last month?",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-10T09:45:37+00:00"
+        "timestamp": "2026-09-10T16:06:48.598000+00:00"
       },
       {
-        "id": 116693481,
-        "subject": "Zoho Campaigns - Terms of Service Update",
+        "id": 116738869,
+        "subject": "Still time to grab the BFCM playbook (free)",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-10T09:00:51+00:00"
+        "status": "closed",
+        "timestamp": "2026-09-10T15:19:12+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-10T13:48:39.058Z",
+    "gorgiasUpdated": "2026-09-10T17:39:29.894Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
