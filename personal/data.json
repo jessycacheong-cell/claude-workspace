@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T13:29:28.666Z",
+  "lastUpdated": "2026-09-11T14:22:59.550Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116881112,
+        "subject": "He speedran 0 to 600k Instagram followers in 6 weeks 🏃",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-11T12:06:03+00:00"
+      },
+      {
+        "id": 116880038,
+        "subject": "Re: Web-Site AUDIT.REPORT- SEOs!",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-11T11:55:39+00:00"
+      },
+      {
+        "id": 116872425,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-11T10:05:38+00:00"
+      },
+      {
         "id": 116854745,
         "subject": "Hi please is this Umei3d",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-11T04:17:06+00:00"
-      },
-      {
-        "id": 116844771,
-        "subject": "Refund Initiated for Order 114-7369527-6000223",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-11T02:23:02+00:00"
-      },
-      {
-        "id": 116844106,
-        "subject": "👤 Someone at STEM Racing Team Ascent you may know",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-11T02:16:03+00:00"
-      },
-      {
-        "id": 116843278,
-        "subject": "Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-11T02:07:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-11T09:58:55.152Z",
+    "gorgiasUpdated": "2026-09-11T14:22:59.345Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
