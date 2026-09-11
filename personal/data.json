@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T04:30:13.825Z",
+  "lastUpdated": "2026-09-11T05:11:52.295Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 116819860,
-        "subject": "Direct message with feet_sock_guy",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-10T22:46:23.563000+00:00"
-      },
-      {
-        "id": 116819116,
-        "subject": "Critical security alert for adaugh718@gmail.com",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-10T22:41:22+00:00"
-      },
-      {
-        "id": 116815017,
-        "subject": "RE: Your pair is on its way.",
+        "id": 116854745,
+        "subject": "Hi please is this Umei3d",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-10T22:10:03+00:00"
+        "timestamp": "2026-09-11T04:22:12+00:00"
       },
       {
-        "id": 116811649,
-        "subject": "Your discount expires in 60 minutes",
+        "id": 116854433,
+        "subject": "HiveWatch just posted new content",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-10T21:47:46+00:00"
+        "timestamp": "2026-09-11T04:17:06+00:00"
       },
       {
-        "id": 116782204,
-        "subject": "Hold PayPal USD to earn 4% in annual rewards.",
+        "id": 116844771,
+        "subject": "Refund Initiated for Order 114-7369527-6000223",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-10T18:52:08+00:00"
+        "timestamp": "2026-09-11T02:23:02+00:00"
+      },
+      {
+        "id": 116844106,
+        "subject": "👤 Someone at STEM Racing Team Ascent you may know",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-11T02:16:03+00:00"
+      },
+      {
+        "id": 116843278,
+        "subject": "Umei3d",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-11T02:07:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-11T00:30:33.906Z",
+    "gorgiasUpdated": "2026-09-11T05:11:52.169Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
