@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T00:04:04.478Z",
+  "lastUpdated": "2026-09-11T00:30:34.067Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116819860,
+        "subject": "Direct message with feet_sock_guy",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-10T22:46:23.563000+00:00"
+      },
+      {
+        "id": 116819116,
+        "subject": "Critical security alert for adaugh718@gmail.com",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-10T22:41:22+00:00"
+      },
+      {
         "id": 116815017,
         "subject": "RE: Your pair is on its way.",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-10T18:52:08+00:00"
-      },
-      {
-        "id": 116781284,
-        "subject": "Welcome to Higgsfield. Pro features unlocked for the next 3 hours!",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-10T18:47:43+00:00"
-      },
-      {
-        "id": 116773193,
-        "subject": "Creators sell. You get paid.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-10T18:08:14.261000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-10T22:31:05.903Z",
+    "gorgiasUpdated": "2026-09-11T00:30:33.906Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
