@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T17:10:11.923Z",
+  "lastUpdated": "2026-09-11T17:52:33.148Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 116911207,
+        "subject": "Plan ahead with a PayPal Business Loan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-11T15:27:25+00:00"
+      },
+      {
+        "id": 116903714,
+        "subject": "Discover sessions built for growing businesses, and save $200",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-11T14:46:03+00:00"
+      },
+      {
         "id": 116881112,
         "subject": "He speedran 0 to 600k Instagram followers in 6 weeks 🏃",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-11T10:05:38+00:00"
-      },
-      {
-        "id": 116854745,
-        "subject": "Hi please is this Umei3d",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-11T04:22:12+00:00"
-      },
-      {
-        "id": 116854433,
-        "subject": "HiveWatch just posted new content",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-11T04:17:06+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-11T14:22:59.345Z",
+    "gorgiasUpdated": "2026-09-11T17:52:32.975Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
