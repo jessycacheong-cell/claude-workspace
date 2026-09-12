@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T04:57:48.780Z",
+  "lastUpdated": "2026-09-12T06:28:10.057Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 117005367,
+        "subject": "Direct message with sanjeevjagransks123",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-12T03:54:08.458000+00:00"
+      },
+      {
+        "id": 117002441,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-12T03:03:16+00:00"
+      },
+      {
         "id": 116969808,
         "subject": "(No subject)",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-11T19:59:42.392000+00:00"
-      },
-      {
-        "id": 116957401,
-        "subject": "Update to Klaviyo’s Sub-Processor List",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-11T19:54:56.242000+00:00"
-      },
-      {
-        "id": 116946383,
-        "subject": "Your discount expired - here is how to unlock it again",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-11T18:47:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-12T01:30:51.340Z",
+    "gorgiasUpdated": "2026-09-12T06:28:09.865Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
