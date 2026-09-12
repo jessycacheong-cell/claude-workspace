@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T13:05:37.065Z",
+  "lastUpdated": "2026-09-12T14:20:46.327Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 117025714,
+        "subject": "studio day costs",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-12T12:01:52+00:00"
+      },
+      {
         "id": 117005367,
         "subject": "Direct message with sanjeevjagransks123",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-11T20:25:10+00:00"
-      },
-      {
-        "id": 116958144,
-        "subject": "Update to Klaviyo’s Data Processing Agreement",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-11T19:59:42.392000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-12T11:13:36.623Z",
+    "gorgiasUpdated": "2026-09-12T14:20:46.131Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
