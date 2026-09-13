@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T12:41:26.216Z",
+  "lastUpdated": "2026-09-13T12:41:33.161Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 117134443,
+        "subject": "Direct message with clbutler75",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-13T12:09:52.660000+00:00"
+      },
+      {
         "id": 117072432,
         "subject": "Black Friday is closer than you think",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-12T15:55:56.424000+00:00"
-      },
-      {
-        "id": 117025714,
-        "subject": "studio day costs",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-12T12:01:52+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-13T06:44:35.613Z",
+    "gorgiasUpdated": "2026-09-13T12:41:32.998Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
