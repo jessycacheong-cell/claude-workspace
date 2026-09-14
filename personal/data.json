@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T13:56:21.367Z",
+  "lastUpdated": "2026-09-14T13:57:50.547Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 117257815,
+        "subject": "Your personal invitation to join me at Amazon Accelerate 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-14T13:31:41+00:00"
+      },
+      {
+        "id": 117233078,
+        "subject": "Direct message with seven_paco",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-14T08:28:52.181000+00:00"
+      },
+      {
         "id": 117221189,
         "subject": "Direct message with markusdressel",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-14T02:56:02.687000+00:00"
-      },
-      {
-        "id": 117184506,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-13T21:11:26+00:00"
-      },
-      {
-        "id": 117170358,
-        "subject": "We got a better offer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-13T18:47:48+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-14T07:03:27.294Z",
+    "gorgiasUpdated": "2026-09-14T13:57:50.345Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
