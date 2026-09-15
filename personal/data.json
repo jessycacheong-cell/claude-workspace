@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T12:04:09.751Z",
+  "lastUpdated": "2026-09-15T12:07:26.095Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 117436588,
+        "subject": "Sync your reviews to Walmart, Target, Best Buy, and more",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-15T12:00:47+00:00"
+      },
+      {
+        "id": 117420174,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-15T07:57:25+00:00"
+      },
+      {
+        "id": 117418918,
+        "subject": "Thanks for choosing Allure - support team are here to help",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-15T07:26:21+00:00"
+      },
+      {
         "id": 117410480,
         "subject": "Important Update: Changes to Zoom Scheduler Basic",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-15T03:09:09+00:00"
-      },
-      {
-        "id": 117400266,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-15T02:40:53+00:00"
-      },
-      {
-        "id": 117397480,
-        "subject": "👤 Someone at Team Saturn you may know",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-15T02:16:01+00:00"
-      },
-      {
-        "id": 117392371,
-        "subject": "Umei3d?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-15T01:32:16+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-15T06:38:53.007Z",
+    "gorgiasUpdated": "2026-09-15T12:07:25.876Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
