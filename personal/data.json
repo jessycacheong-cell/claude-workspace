@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T16:51:49.568Z",
+  "lastUpdated": "2026-09-15T16:54:55.399Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 117436588,
-        "subject": "Sync your reviews to Walmart, Target, Best Buy, and more",
+        "id": 117484067,
+        "subject": "利用关键词匹配类型，助力扩大受众触达",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-15T12:00:47+00:00"
+        "timestamp": "2026-09-15T16:29:30+00:00"
       },
       {
-        "id": 117420174,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 117483849,
+        "subject": "您的销售额有待提升 - 方法如下",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-15T07:57:25+00:00"
+        "timestamp": "2026-09-15T16:28:15+00:00"
       },
       {
-        "id": 117418918,
-        "subject": "Thanks for choosing Allure - support team are here to help",
+        "id": 117481162,
+        "subject": "Your 5 lowest-performing metrics",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-15T07:26:21+00:00"
+        "timestamp": "2026-09-15T16:17:06.508000+00:00"
       },
       {
-        "id": 117410480,
-        "subject": "Important Update: Changes to Zoom Scheduler Basic",
+        "id": 117480647,
+        "subject": "利用品牌推广提升销售额",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-15T04:52:46.397000+00:00"
+        "timestamp": "2026-09-15T16:15:04+00:00"
       },
       {
-        "id": 117403239,
-        "subject": "(No subject)",
+        "id": 117471974,
+        "subject": "Webinar tomorrow: Turn recurring work into AI agents",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-15T03:09:09+00:00"
+        "status": "closed",
+        "timestamp": "2026-09-15T15:32:28+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-15T12:07:25.876Z",
+    "gorgiasUpdated": "2026-09-15T16:54:55.242Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
