@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T06:38:38.038Z",
+  "lastUpdated": "2026-09-15T06:38:53.185Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 117380607,
-        "subject": "Direct message with prolifiq.nil",
+        "id": 117410480,
+        "subject": "Important Update: Changes to Zoom Scheduler Basic",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-15T04:52:46.397000+00:00"
+      },
+      {
+        "id": 117403239,
+        "subject": "(No subject)",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-14T23:57:53.991000+00:00"
+        "timestamp": "2026-09-15T03:09:09+00:00"
       },
       {
-        "id": 117369594,
-        "subject": "Refund Initiated for Order 114-3922317-6076215",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-14T22:42:17+00:00"
-      },
-      {
-        "id": 117347251,
-        "subject": "Balance paid on your Amazon seller account",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-14T20:35:33+00:00"
-      },
-      {
-        "id": 117347182,
-        "subject": "🚀 Unlock Your Next Sales Channel. See How Crocs Did It.",
+        "id": 117400266,
+        "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-14T20:34:58.472000+00:00"
+        "timestamp": "2026-09-15T02:40:53+00:00"
       },
       {
-        "id": 117325069,
-        "subject": "Refund Initiated for Order 113-4604441-1525005",
+        "id": 117397480,
+        "subject": "👤 Someone at Team Saturn you may know",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-14T18:52:08+00:00"
+        "timestamp": "2026-09-15T02:16:01+00:00"
+      },
+      {
+        "id": 117392371,
+        "subject": "Umei3d?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-15T01:32:16+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-15T01:23:31.909Z",
+    "gorgiasUpdated": "2026-09-15T06:38:53.007Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
