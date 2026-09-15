@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T20:11:30.846Z",
+  "lastUpdated": "2026-09-15T20:12:38.043Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 117484067,
-        "subject": "利用关键词匹配类型，助力扩大受众触达",
+        "id": 117516368,
+        "subject": "Turn more Shopify traffic into sales with 3 AI Agents working together",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-15T16:29:30+00:00"
+        "status": "open",
+        "timestamp": "2026-09-15T18:55:50+00:00"
       },
       {
-        "id": 117483849,
-        "subject": "您的销售额有待提升 - 方法如下",
+        "id": 117514618,
+        "subject": "Mention in therealets_'s story",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-15T16:28:15+00:00"
+        "timestamp": "2026-09-15T18:46:21.954000+00:00"
       },
       {
-        "id": 117481162,
-        "subject": "Your 5 lowest-performing metrics",
+        "id": 117511117,
+        "subject": "The Diamond Store sells £3,000 rings over live chat. Here's how.",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-15T16:17:06.508000+00:00"
+        "timestamp": "2026-09-15T18:29:04+00:00"
       },
       {
-        "id": 117480647,
-        "subject": "利用品牌推广提升销售额",
+        "id": 117504745,
+        "subject": "Your competitors are moving",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-15T16:15:04+00:00"
+        "status": "open",
+        "timestamp": "2026-09-15T18:00:22.298000+00:00"
       },
       {
-        "id": 117471974,
-        "subject": "Webinar tomorrow: Turn recurring work into AI agents",
+        "id": 117492205,
+        "subject": "Act now: 25% off your business reorder",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-15T15:32:28+00:00"
+        "timestamp": "2026-09-15T17:03:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-15T16:54:55.242Z",
+    "gorgiasUpdated": "2026-09-15T20:12:37.844Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
