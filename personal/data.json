@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T06:40:46.846Z",
+  "lastUpdated": "2026-09-16T06:42:00.467Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 117578163,
+        "subject": "Payment confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-16T01:25:08+00:00"
+      },
+      {
         "id": 117516368,
         "subject": "Turn more Shopify traffic into sales with 3 AI Agents working together",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-15T18:00:22.298000+00:00"
-      },
-      {
-        "id": 117492205,
-        "subject": "Act now: 25% off your business reorder",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-15T17:03:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-16T01:23:54.987Z",
+    "gorgiasUpdated": "2026-09-16T06:42:00.239Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
