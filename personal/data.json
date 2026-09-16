@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T16:46:22.543Z",
+  "lastUpdated": "2026-09-16T17:15:37.959Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 117621468,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "id": 117666230,
+        "subject": "帮助您借助热门商品与顾客互动",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-16T12:09:50.544000+00:00"
+        "timestamp": "2026-09-16T16:31:11+00:00"
       },
       {
-        "id": 117578163,
-        "subject": "Payment confirmed",
+        "id": 117665298,
+        "subject": "启动全流域广告活动，赢取 $500*",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-16T01:25:08+00:00"
+        "timestamp": "2026-09-16T16:26:24+00:00"
       },
       {
-        "id": 117516368,
-        "subject": "Turn more Shopify traffic into sales with 3 AI Agents working together",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-15T18:55:50+00:00"
-      },
-      {
-        "id": 117514618,
-        "subject": "Mention in therealets_'s story",
+        "id": 117661339,
+        "subject": "Pay Later can help boost sales. Add it now.",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-15T18:46:21.954000+00:00"
+        "timestamp": "2026-09-16T16:06:26+00:00"
       },
       {
-        "id": 117511117,
-        "subject": "The Diamond Store sells £3,000 rings over live chat. Here's how.",
+        "id": 117654422,
+        "subject": "Use your PayPal Balance wherever you shop",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-15T18:29:04+00:00"
+        "timestamp": "2026-09-16T15:33:42+00:00"
+      },
+      {
+        "id": 117647291,
+        "subject": "Prime Big Deal Days is coming",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-16T14:57:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-16T12:34:04.715Z",
+    "gorgiasUpdated": "2026-09-16T17:15:37.782Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
