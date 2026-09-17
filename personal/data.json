@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T01:19:43.434Z",
+  "lastUpdated": "2026-09-17T01:39:54.821Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 117744358,
+        "subject": "Request for store access from LIKHON ON FIRE",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-17T00:24:27.815000+00:00"
+      },
+      {
+        "id": 117743962,
+        "subject": "Have a great weekend guys",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-17T00:20:23+00:00"
+      },
+      {
+        "id": 117743893,
+        "subject": "Love it",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-17T00:19:46+00:00"
+      },
+      {
+        "id": 117742920,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-17T00:10:52+00:00"
+      },
+      {
         "id": 117723058,
         "subject": "Two questions about your Amex Merchant Relationship",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-16T21:39:04+00:00"
-      },
-      {
-        "id": 117722289,
-        "subject": "Direct message with austinthephilosurfer",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-16T21:33:06.402000+00:00"
-      },
-      {
-        "id": 117719942,
-        "subject": "New: Eligible Placements on TikTok Ads Manager",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-16T21:18:24.185000+00:00"
-      },
-      {
-        "id": 117716375,
-        "subject": "Voice Message from 15613529884",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-16T20:56:03+00:00"
-      },
-      {
-        "id": 117708597,
-        "subject": "umeid",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-16T20:06:47+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-16T23:13:55.192Z",
+    "gorgiasUpdated": "2026-09-17T01:39:54.653Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
