@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T23:03:30.022Z",
+  "lastUpdated": "2026-09-17T23:04:03.822Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 117899303,
+        "subject": "Re: It's been a while...",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-17T21:57:23+00:00"
+      },
+      {
         "id": 117875127,
         "subject": "👀 What if Creators Drove 80% of Your Sales?",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-17T17:31:25+00:00"
-      },
-      {
-        "id": 117855224,
-        "subject": "How to push Seedance 2.5 further",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-17T15:15:29+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-17T20:16:14.024Z",
+    "gorgiasUpdated": "2026-09-17T23:04:03.647Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
