@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T20:14:56.731Z",
+  "lastUpdated": "2026-09-17T20:16:14.188Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 117823484,
-        "subject": "Let's update your apps",
+        "id": 117875127,
+        "subject": "👀 What if Creators Drove 80% of Your Sales?",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-17T15:09:46+00:00"
+        "status": "open",
+        "timestamp": "2026-09-17T19:27:31.623000+00:00"
       },
       {
-        "id": 117824325,
-        "subject": "Join our webinar: Set up your ChatGPT Ads for success",
+        "id": 117859659,
+        "subject": "The session we've been waiting all year to share with you",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-17T14:01:50.324000+00:00"
+        "timestamp": "2026-09-17T18:05:27+00:00"
       },
       {
-        "id": 117809198,
-        "subject": "New at Gorgias: AI Agent on WhatsApp, SMS Actions, and more",
+        "id": 117858215,
+        "subject": "👀 Before anyone else: an early look at Campaign Monitor",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-17T14:01:41+00:00"
+        "timestamp": "2026-09-17T18:00:01+00:00"
       },
       {
-        "id": 117798004,
-        "subject": "Final spots left—registration closes tomorrow",
+        "id": 117852423,
+        "subject": "[webinar] Barrel is auditing one brand's site live before BFCM 🕹️",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-17T12:48:34+00:00"
+        "timestamp": "2026-09-17T17:31:25+00:00"
       },
       {
-        "id": 117794964,
-        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "id": 117855224,
+        "subject": "How to push Seedance 2.5 further",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-17T12:19:05.027000+00:00"
+        "status": "open",
+        "timestamp": "2026-09-17T15:15:29+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-17T16:54:24.374Z",
+    "gorgiasUpdated": "2026-09-17T20:16:14.024Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
