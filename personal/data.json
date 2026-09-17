@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T06:36:41.442Z",
+  "lastUpdated": "2026-09-17T06:39:19.704Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 117744358,
-        "subject": "Request for store access from LIKHON ON FIRE",
+        "id": 117766819,
+        "subject": "Fewer boxes back. Less work for your team.",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-17T00:24:27.815000+00:00"
+        "timestamp": "2026-09-17T04:45:09+00:00"
       },
       {
-        "id": 117743962,
-        "subject": "Have a great weekend guys",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-17T00:20:23+00:00"
-      },
-      {
-        "id": 117743893,
-        "subject": "Love it",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-17T00:19:46+00:00"
-      },
-      {
-        "id": 117742920,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-17T00:10:52+00:00"
-      },
-      {
-        "id": 117723058,
-        "subject": "Two questions about your Amex Merchant Relationship",
+        "id": 117765287,
+        "subject": "HiveWatch just posted new content",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-16T21:39:04+00:00"
+        "timestamp": "2026-09-17T04:16:59+00:00"
+      },
+      {
+        "id": 117762689,
+        "subject": "Your Topaz Labs renewal order from September 16, 2026 is complete",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-17T03:40:08+00:00"
+      },
+      {
+        "id": 117754839,
+        "subject": "Refund Initiated for Order 113-6007058-1285002",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-17T02:07:53+00:00"
+      },
+      {
+        "id": 117753850,
+        "subject": "[UMEI Store] Order #1816 placed by FAISAL ALTAMIMI",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-17T01:58:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-17T01:39:54.653Z",
+    "gorgiasUpdated": "2026-09-17T06:39:19.537Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
