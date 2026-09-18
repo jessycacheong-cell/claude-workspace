@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T06:35:49.663Z",
+  "lastUpdated": "2026-09-18T06:36:43.563Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 117937997,
+        "subject": "HiveWatch just posted new content",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-18T04:16:02+00:00"
+      },
+      {
+        "id": 117929105,
+        "subject": "👤 Someone at Team Saturn you may know",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-18T02:16:01+00:00"
+      },
+      {
         "id": 117899303,
         "subject": "Re: It's been a while...",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-17T18:05:27+00:00"
-      },
-      {
-        "id": 117858215,
-        "subject": "👀 Before anyone else: an early look at Campaign Monitor",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-17T18:00:01+00:00"
-      },
-      {
-        "id": 117852423,
-        "subject": "[webinar] Barrel is auditing one brand's site live before BFCM 🕹️",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-17T17:31:25+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-18T01:14:52.823Z",
+    "gorgiasUpdated": "2026-09-18T06:36:43.404Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
