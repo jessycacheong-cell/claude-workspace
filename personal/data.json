@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T16:19:40.292Z",
+  "lastUpdated": "2026-09-18T16:20:12.416Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 117997073,
+        "subject": "Help achieve your business goals with a PayPal Business Loan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-18T15:29:32+00:00"
+      },
+      {
+        "id": 117975861,
+        "subject": "Your exclusive Prime Big Deal Days offer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-18T13:27:51+00:00"
+      },
+      {
+        "id": 117967816,
+        "subject": "Your personal invitation to join me at Amazon Accelerate 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-18T12:27:58+00:00"
+      },
+      {
+        "id": 117965877,
+        "subject": "Content Creator vs. Influencer: What's the difference, and... does it even matter?🤳",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-18T12:07:26+00:00"
+      },
+      {
         "id": 117954095,
         "subject": "Resolution for CaseID: 22135203851",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-18T09:31:28+00:00"
-      },
-      {
-        "id": 117937997,
-        "subject": "HiveWatch just posted new content",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-18T04:16:02+00:00"
-      },
-      {
-        "id": 117929105,
-        "subject": "👤 Someone at Team Saturn you may know",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-18T02:16:01+00:00"
-      },
-      {
-        "id": 117899303,
-        "subject": "Re: It's been a while...",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-17T21:57:23+00:00"
-      },
-      {
-        "id": 117875127,
-        "subject": "👀 What if Creators Drove 80% of Your Sales?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-17T19:27:31.623000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-18T11:47:09.568Z",
+    "gorgiasUpdated": "2026-09-18T16:20:12.008Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
