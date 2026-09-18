@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T11:45:16.370Z",
+  "lastUpdated": "2026-09-18T11:47:09.757Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 117954095,
+        "subject": "Resolution for CaseID: 22135203851",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-18T09:31:28+00:00"
+      },
+      {
         "id": 117937997,
         "subject": "HiveWatch just posted new content",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-17T19:27:31.623000+00:00"
-      },
-      {
-        "id": 117859659,
-        "subject": "The session we've been waiting all year to share with you",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-17T18:05:27+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-18T06:36:43.404Z",
+    "gorgiasUpdated": "2026-09-18T11:47:09.568Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
