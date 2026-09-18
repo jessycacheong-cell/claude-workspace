@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T21:37:46.829Z",
+  "lastUpdated": "2026-09-18T21:40:40.086Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118055077,
+        "subject": "Add or update a List Price to your listings",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-18T20:11:05+00:00"
+      },
+      {
         "id": 118037915,
         "subject": "The 3 models that changed AI generation this year",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-18T16:32:51+00:00"
-      },
-      {
-        "id": 117997073,
-        "subject": "Help achieve your business goals with a PayPal Business Loan",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-18T15:29:32+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-18T19:09:59.407Z",
+    "gorgiasUpdated": "2026-09-18T21:40:39.745Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
