@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T01:32:31.215Z",
+  "lastUpdated": "2026-09-19T04:59:55.887Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118099241,
+        "subject": "Live Thursday: what to ask ChatGPT once Descript is connected",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-19T03:32:50+00:00"
+      },
+      {
         "id": 118079012,
         "subject": "New customer message on September 18, 2026 at 4:15 pm",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-18T18:47:49+00:00"
-      },
-      {
-        "id": 118021306,
-        "subject": "the schema warnings sitting in your Search Console",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-18T17:22:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-19T00:15:06.661Z",
+    "gorgiasUpdated": "2026-09-19T04:59:55.716Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
