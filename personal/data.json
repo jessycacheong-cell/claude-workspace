@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T19:04:30.670Z",
+  "lastUpdated": "2026-09-19T19:17:46.330Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 118135416,
-        "subject": "Re: Order #1813 confirmed",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-19T14:42:31+00:00"
-      },
-      {
-        "id": 118131816,
-        "subject": "Re: Order #1815 confirmed",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-19T14:08:25+00:00"
-      },
-      {
-        "id": 118099241,
-        "subject": "Live Thursday: what to ask ChatGPT once Descript is connected",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-19T03:32:50+00:00"
-      },
-      {
-        "id": 118079012,
-        "subject": "New customer message on September 18, 2026 at 4:15 pm",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-18T23:15:00.614000+00:00"
-      },
-      {
-        "id": 118075966,
-        "subject": "Direct message with anet2u2002",
+        "id": 118165449,
+        "subject": "🔥🔥🔥🔥🔥",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-18T22:49:33.932000+00:00"
+        "timestamp": "2026-09-19T18:35:01+00:00"
+      },
+      {
+        "id": 118161567,
+        "subject": "Love this",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-19T17:59:06+00:00"
+      },
+      {
+        "id": 118154608,
+        "subject": "Refund Initiated for Order 112-4205463-5145030",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-19T17:14:58+00:00"
+      },
+      {
+        "id": 118152639,
+        "subject": "Small Issues found on your websites ?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-19T17:08:15+00:00"
+      },
+      {
+        "id": 118152097,
+        "subject": "Mention in gotsole's story",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-19T17:06:22.022000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-19T16:47:08.524Z",
+    "gorgiasUpdated": "2026-09-19T19:17:46.060Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
