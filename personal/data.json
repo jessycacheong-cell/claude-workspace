@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T14:44:48.740Z",
+  "lastUpdated": "2026-09-19T16:47:08.657Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118135416,
+        "subject": "Re: Order #1813 confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-19T14:42:31+00:00"
+      },
+      {
+        "id": 118131816,
+        "subject": "Re: Order #1815 confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-19T14:08:25+00:00"
+      },
+      {
         "id": 118099241,
         "subject": "Live Thursday: what to ask ChatGPT once Descript is connected",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-18T22:49:33.932000+00:00"
-      },
-      {
-        "id": 118055077,
-        "subject": "Add or update a List Price to your listings",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-18T20:11:05+00:00"
-      },
-      {
-        "id": 118037915,
-        "subject": "The 3 models that changed AI generation this year",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-18T18:47:49+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-19T13:22:33.014Z",
+    "gorgiasUpdated": "2026-09-19T16:47:08.524Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
