@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T23:33:07.111Z",
+  "lastUpdated": "2026-09-19T00:15:06.829Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118079012,
+        "subject": "New customer message on September 18, 2026 at 4:15 pm",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-18T23:15:00.614000+00:00"
+      },
+      {
+        "id": 118075966,
+        "subject": "Direct message with anet2u2002",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-18T22:49:33.932000+00:00"
+      },
+      {
         "id": 118055077,
         "subject": "Add or update a List Price to your listings",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-18T17:22:55+00:00"
-      },
-      {
-        "id": 118010465,
-        "subject": "Ready to design emails that actually convert?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-18T16:42:11.610000+00:00"
-      },
-      {
-        "id": 118008673,
-        "subject": "通过否定投放优化广告",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-18T16:32:51+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-18T21:40:39.745Z",
+    "gorgiasUpdated": "2026-09-19T00:15:06.661Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
