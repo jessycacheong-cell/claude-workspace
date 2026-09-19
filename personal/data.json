@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T20:33:27.550Z",
+  "lastUpdated": "2026-09-19T21:43:08.993Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118181845,
+        "subject": "Direct message with iam.jcook",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-19T21:26:25.601000+00:00"
+      },
+      {
+        "id": 118173124,
+        "subject": "Direct message with byanymeansbyallmeans",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-19T19:51:46.836000+00:00"
+      },
+      {
         "id": 118165449,
         "subject": "🔥🔥🔥🔥🔥",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-19T17:14:58+00:00"
-      },
-      {
-        "id": 118152639,
-        "subject": "Small Issues found on your websites ?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-19T17:08:15+00:00"
-      },
-      {
-        "id": 118152097,
-        "subject": "Mention in gotsole's story",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-19T17:06:22.022000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-19T19:17:46.060Z",
+    "gorgiasUpdated": "2026-09-19T21:43:08.836Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
