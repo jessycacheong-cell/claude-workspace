@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T22:27:52.679Z",
+  "lastUpdated": "2026-09-20T00:07:12.712Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 118181845,
-        "subject": "Direct message with iam.jcook",
+        "id": 118191409,
+        "subject": "Direct message with jaccobalopez",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-19T21:26:25.601000+00:00"
+        "timestamp": "2026-09-19T23:36:33.211000+00:00"
       },
       {
-        "id": 118173124,
-        "subject": "Direct message with byanymeansbyallmeans",
+        "id": 118186848,
+        "subject": "Direct message with bobbyaz24",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-19T19:51:46.836000+00:00"
+        "timestamp": "2026-09-19T22:33:20.992000+00:00"
       },
       {
-        "id": 118165449,
-        "subject": "🔥🔥🔥🔥🔥",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-19T18:35:01+00:00"
-      },
-      {
-        "id": 118161567,
-        "subject": "Love this",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-19T17:59:06+00:00"
-      },
-      {
-        "id": 118154608,
-        "subject": "Refund Initiated for Order 112-4205463-5145030",
+        "id": 118185756,
+        "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-19T17:14:58+00:00"
+        "timestamp": "2026-09-19T22:18:15+00:00"
+      },
+      {
+        "id": 118185010,
+        "subject": "Direct message with deva_.sh559",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-19T22:08:50.648000+00:00"
+      },
+      {
+        "id": 118183768,
+        "subject": "Re: Order #1798 confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-19T21:52:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-19T21:43:08.836Z",
+    "gorgiasUpdated": "2026-09-20T00:07:12.505Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
