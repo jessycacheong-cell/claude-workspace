@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T00:21:02.584Z",
+  "lastUpdated": "2026-09-20T04:49:18.379Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118201875,
+        "subject": "jessiannwilliams2001 replied to your story",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-20T02:22:53.791000+00:00"
+      },
+      {
+        "id": 118201066,
+        "subject": "jessycarcher replied to your story",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-20T02:08:57.448000+00:00"
+      },
+      {
+        "id": 118194018,
+        "subject": "Direct message with outofstateant",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-20T00:14:59.670000+00:00"
+      },
+      {
         "id": 118191409,
         "subject": "Direct message with jaccobalopez",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-19T22:33:20.992000+00:00"
-      },
-      {
-        "id": 118185756,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-19T22:18:15+00:00"
-      },
-      {
-        "id": 118185010,
-        "subject": "Direct message with deva_.sh559",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-19T22:08:50.648000+00:00"
-      },
-      {
-        "id": 118183768,
-        "subject": "Re: Order #1798 confirmed",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-19T21:52:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-20T00:07:12.505Z",
+    "gorgiasUpdated": "2026-09-20T04:49:18.221Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
