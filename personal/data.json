@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T17:26:45.861Z",
+  "lastUpdated": "2026-09-20T17:39:01.249Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118241621,
+        "subject": "Up to $200,000 ready to put to work in your business",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-20T15:23:52+00:00"
+      },
+      {
         "id": 118201875,
         "subject": "jessiannwilliams2001 replied to your story",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-19T23:36:33.211000+00:00"
-      },
-      {
-        "id": 118186848,
-        "subject": "Direct message with bobbyaz24",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-19T22:33:20.992000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-20T14:10:48.592Z",
+    "gorgiasUpdated": "2026-09-20T17:39:01.135Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
