@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T21:49:51.692Z",
+  "lastUpdated": "2026-09-20T22:23:29.318Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118268977,
+        "subject": "dms",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-20T20:11:03+00:00"
+      },
+      {
         "id": 118241621,
         "subject": "Up to $200,000 ready to put to work in your business",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-20T00:14:59.670000+00:00"
-      },
-      {
-        "id": 118191409,
-        "subject": "Direct message with jaccobalopez",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-19T23:36:33.211000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-20T19:43:37.812Z",
+    "gorgiasUpdated": "2026-09-20T22:23:29.117Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
