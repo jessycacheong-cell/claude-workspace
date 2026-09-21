@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T10:37:34.348Z",
+  "lastUpdated": "2026-09-21T11:04:07.456Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118323459,
+        "subject": "Millions of shoppers are within reach",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-21T08:45:47.070000+00:00"
+      },
+      {
+        "id": 118322207,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-21T08:24:27+00:00"
+      },
+      {
         "id": 118308747,
         "subject": "Tai Huynh recently posted",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-20T20:11:03+00:00"
-      },
-      {
-        "id": 118241621,
-        "subject": "Up to $200,000 ready to put to work in your business",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-20T15:23:52+00:00"
-      },
-      {
-        "id": 118201875,
-        "subject": "jessiannwilliams2001 replied to your story",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-20T02:22:53.791000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-21T05:25:18.552Z",
+    "gorgiasUpdated": "2026-09-21T11:04:07.244Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
