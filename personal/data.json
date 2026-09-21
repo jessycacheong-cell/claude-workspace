@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T16:34:24.673Z",
+  "lastUpdated": "2026-09-21T16:59:40.104Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 118323459,
-        "subject": "Millions of shoppers are within reach",
+        "id": 118386574,
+        "subject": "Yumei, the creativity on Behance will amaze you",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-21T08:45:47.070000+00:00"
+        "timestamp": "2026-09-21T16:55:57+00:00"
       },
       {
-        "id": 118322207,
-        "subject": "Amazon has shipped your sold item(s)",
+        "id": 118377363,
+        "subject": "利用否定关键词，助力提升广告相关性",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-21T08:24:27+00:00"
+        "timestamp": "2026-09-21T16:10:39+00:00"
       },
       {
-        "id": 118308747,
-        "subject": "Tai Huynh recently posted",
+        "id": 118355557,
+        "subject": "Direct message with aidannix_",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-21T04:15:59+00:00"
+        "timestamp": "2026-09-21T14:18:30.984000+00:00"
       },
       {
-        "id": 118296341,
-        "subject": "Supermetrics Invoice txn_3UHvrL2mjH4XVMmx1ywrE8HU",
+        "id": 118347990,
+        "subject": "Last chance to register for Amazon Accelerate 2026",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-21T01:17:39+00:00"
+        "timestamp": "2026-09-21T13:32:26+00:00"
       },
       {
-        "id": 118268977,
-        "subject": "dms",
+        "id": 118343026,
+        "subject": "Your UMEI Shopify Store Audit is Attached (from a Shopify Select Partner)",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-20T20:11:03+00:00"
+        "status": "closed",
+        "timestamp": "2026-09-21T13:00:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-21T11:04:07.244Z",
+    "gorgiasUpdated": "2026-09-21T16:59:39.913Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
