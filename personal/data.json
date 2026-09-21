@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T20:41:55.514Z",
+  "lastUpdated": "2026-09-21T21:00:58.321Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118413675,
+        "subject": "Meet Your Next Customers + Up to $1,700 in Seller Credits",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-21T19:18:20.973000+00:00"
+      },
+      {
+        "id": 118408202,
+        "subject": "100 generations on the most aesthetic model — SOUL V2",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-21T18:47:53+00:00"
+      },
+      {
+        "id": 118394769,
+        "subject": "ZUG Meetup - Build Smart Automation with Zia Agents",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-21T17:35:46+00:00"
+      },
+      {
+        "id": 118387967,
+        "subject": "Your Week In Reviews For UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-21T17:02:54+00:00"
+      },
+      {
         "id": 118386574,
         "subject": "Yumei, the creativity on Behance will amaze you",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-21T16:55:57+00:00"
-      },
-      {
-        "id": 118377363,
-        "subject": "利用否定关键词，助力提升广告相关性",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-21T16:10:39+00:00"
-      },
-      {
-        "id": 118355557,
-        "subject": "Direct message with aidannix_",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-21T14:18:30.984000+00:00"
-      },
-      {
-        "id": 118347990,
-        "subject": "Last chance to register for Amazon Accelerate 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-21T13:32:26+00:00"
-      },
-      {
-        "id": 118343026,
-        "subject": "Your UMEI Shopify Store Audit is Attached (from a Shopify Select Partner)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-21T13:00:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-21T16:59:39.913Z",
+    "gorgiasUpdated": "2026-09-21T21:00:58.145Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
