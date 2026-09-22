@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T23:33:03.094Z",
+  "lastUpdated": "2026-09-22T00:02:37.698Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118453592,
+        "subject": "Your Klaviyo Inc subscription will renew soon",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-21T23:29:24+00:00"
+      },
+      {
+        "id": 118445686,
+        "subject": "FBA Grade and Resell is now Sell as Used and includes refurbished items",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-21T22:28:54+00:00"
+      },
+      {
+        "id": 118439994,
+        "subject": "Mention in parkiteric's story",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-21T21:51:15.364000+00:00"
+      },
+      {
+        "id": 118432647,
+        "subject": "Get your payouts within 24 hours, at no cost",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-21T21:03:51+00:00"
+      },
+      {
         "id": 118413675,
         "subject": "Meet Your Next Customers + Up to $1,700 in Seller Credits",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-21T19:18:20.973000+00:00"
-      },
-      {
-        "id": 118408202,
-        "subject": "100 generations on the most aesthetic model — SOUL V2",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-21T18:47:53+00:00"
-      },
-      {
-        "id": 118394769,
-        "subject": "ZUG Meetup - Build Smart Automation with Zia Agents",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-21T17:35:46+00:00"
-      },
-      {
-        "id": 118387967,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-21T17:02:54+00:00"
-      },
-      {
-        "id": 118386574,
-        "subject": "Yumei, the creativity on Behance will amaze you",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-21T16:55:57+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-21T21:00:58.145Z",
+    "gorgiasUpdated": "2026-09-22T00:02:37.518Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
