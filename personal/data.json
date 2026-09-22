@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T12:48:54.099Z",
+  "lastUpdated": "2026-09-22T14:47:05.306Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118533531,
+        "subject": "[Webinar] Loyalty without discounts , here's how TUSHY pulls it off",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-22T14:19:23+00:00"
+      },
+      {
+        "id": 118529667,
+        "subject": "Get authentic video reviews from Reviewers you select",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-22T14:00:22+00:00"
+      },
+      {
+        "id": 118510594,
+        "subject": "Direct message with pickleballfreakshow",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-22T11:31:56.355000+00:00"
+      },
+      {
         "id": 118498206,
         "subject": "RE: Your pair is on its way.",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-22T05:36:05+00:00"
-      },
-      {
-        "id": 118472868,
-        "subject": "👤 Someone at Team Saturn you may know",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-22T02:17:01+00:00"
-      },
-      {
-        "id": 118472428,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-22T02:12:07+00:00"
-      },
-      {
-        "id": 118469905,
-        "subject": "Live Thursday: what to ask ChatGPT once Descript is connected",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-22T01:47:17+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-22T09:53:22.624Z",
+    "gorgiasUpdated": "2026-09-22T14:47:05.124Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
