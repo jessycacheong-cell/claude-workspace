@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T07:39:18.324Z",
+  "lastUpdated": "2026-09-22T09:53:22.794Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118498206,
+        "subject": "RE: Your pair is on its way.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-22T08:17:34+00:00"
+      },
+      {
+        "id": 118487800,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-22T05:36:05+00:00"
+      },
+      {
         "id": 118472868,
         "subject": "👤 Someone at Team Saturn you may know",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-22T01:47:17+00:00"
-      },
-      {
-        "id": 118453592,
-        "subject": "Your Klaviyo Inc subscription will renew soon",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-21T23:29:24+00:00"
-      },
-      {
-        "id": 118445686,
-        "subject": "FBA Grade and Resell is now Sell as Used and includes refurbished items",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-21T22:28:54+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-22T04:47:08.350Z",
+    "gorgiasUpdated": "2026-09-22T09:53:22.624Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
