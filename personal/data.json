@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T01:48:58.183Z",
+  "lastUpdated": "2026-09-22T04:47:08.497Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118472868,
+        "subject": "👤 Someone at Team Saturn you may know",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-22T02:17:01+00:00"
+      },
+      {
+        "id": 118472428,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-22T02:12:07+00:00"
+      },
+      {
+        "id": 118469905,
+        "subject": "Live Thursday: what to ask ChatGPT once Descript is connected",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-22T01:47:17+00:00"
+      },
+      {
         "id": 118453592,
         "subject": "Your Klaviyo Inc subscription will renew soon",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-21T22:28:54+00:00"
-      },
-      {
-        "id": 118439994,
-        "subject": "Mention in parkiteric's story",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-21T21:51:15.364000+00:00"
-      },
-      {
-        "id": 118432647,
-        "subject": "Get your payouts within 24 hours, at no cost",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-21T21:03:51+00:00"
-      },
-      {
-        "id": 118413675,
-        "subject": "Meet Your Next Customers + Up to $1,700 in Seller Credits",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-21T19:18:20.973000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-22T00:02:37.518Z",
+    "gorgiasUpdated": "2026-09-22T04:47:08.350Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
