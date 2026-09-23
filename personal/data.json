@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T12:59:48.924Z",
+  "lastUpdated": "2026-09-23T14:57:43.734Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118708450,
+        "subject": "Prime Big Deal Days arrive soon",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-23T14:27:47+00:00"
+      },
+      {
+        "id": 118705823,
+        "subject": "The Review: September updates from Okendo",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-23T14:01:02+00:00"
+      },
+      {
+        "id": 118689542,
+        "subject": "Meet the September 2026 US Top Voices: Experts, leaders and creators to follow",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-23T12:17:52+00:00"
+      },
+      {
+        "id": 118688575,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-23T12:08:12.705000+00:00"
+      },
+      {
         "id": 118658179,
         "subject": "Tai Huynh - Founder CEO reacted to this post: The market opportunity is…",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-23T04:16:00+00:00"
-      },
-      {
-        "id": 118654439,
-        "subject": "You already have 16 customer photos",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-23T03:24:41+00:00"
-      },
-      {
-        "id": 118643530,
-        "subject": "Direct message with _darrell.miller",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-23T01:29:53.684000+00:00"
-      },
-      {
-        "id": 118642949,
-        "subject": "Payment confirmed",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-23T01:25:08+00:00"
-      },
-      {
-        "id": 118613142,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-22T21:27:06+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-23T09:56:25.785Z",
+    "gorgiasUpdated": "2026-09-23T14:57:43.561Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
