@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T01:44:09.774Z",
+  "lastUpdated": "2026-09-23T05:07:51.667Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118658179,
+        "subject": "Tai Huynh - Founder CEO reacted to this post: The market opportunity is…",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-23T04:16:00+00:00"
+      },
+      {
+        "id": 118654439,
+        "subject": "You already have 16 customer photos",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-23T03:24:41+00:00"
+      },
+      {
+        "id": 118643530,
+        "subject": "Direct message with _darrell.miller",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-23T01:29:53.684000+00:00"
+      },
+      {
+        "id": 118642949,
+        "subject": "Payment confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-23T01:25:08+00:00"
+      },
+      {
         "id": 118613142,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-22T21:27:06+00:00"
-      },
-      {
-        "id": 118612850,
-        "subject": "Tech Meets Couture x LA TECH WEEK- UMEI 3D",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-22T21:25:24+00:00"
-      },
-      {
-        "id": 118612683,
-        "subject": "Your Google Analytics performance report is in for August 26th - September 22nd",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-22T21:24:20+00:00"
-      },
-      {
-        "id": 118604962,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-22T20:35:46+00:00"
-      },
-      {
-        "id": 118585919,
-        "subject": "It's not too late: Join us at ZapConnect 2026 tomorrow",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-22T18:46:48+00:00"
+        "timestamp": "2026-09-22T21:27:06+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-23T00:25:15.895Z",
+    "gorgiasUpdated": "2026-09-23T05:07:51.466Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
