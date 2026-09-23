@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T21:26:48.033Z",
+  "lastUpdated": "2026-09-23T22:14:24.894Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118781704,
+        "subject": "Explore Finance Workspace in new Seller Central",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-23T20:54:19+00:00"
+      },
+      {
+        "id": 118762483,
+        "subject": "the schema warnings sitting in your Search Console",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-23T19:06:38+00:00"
+      },
+      {
         "id": 118734138,
         "subject": "[Action May be Required] Amazon RDS snapshot storage charges will be reported at per-snapshot granularity starting November 1, 2026 [AWS Account: 381492252471]",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-23T14:27:47+00:00"
-      },
-      {
-        "id": 118705823,
-        "subject": "The Review: September updates from Okendo",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-23T14:01:02+00:00"
-      },
-      {
-        "id": 118689542,
-        "subject": "Meet the September 2026 US Top Voices: Experts, leaders and creators to follow",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-23T12:17:52+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-23T19:00:53.201Z",
+    "gorgiasUpdated": "2026-09-23T22:14:24.715Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
