@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T14:23:13.980Z",
+  "lastUpdated": "2026-09-24T15:55:03.324Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 118844715,
-        "subject": "Zoho Campaigns - Your subscription is renewed",
+        "id": 118887536,
+        "subject": "Four new ways Gaia works for team",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-24T08:11:34+00:00"
+        "timestamp": "2026-09-24T15:05:29+00:00"
       },
       {
-        "id": 118838896,
-        "subject": "Great news: Your order is ready",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-24T06:23:27+00:00"
-      },
-      {
-        "id": 118836413,
-        "subject": "Your ability to schedule Zoom meetings isn’t changing",
+        "id": 118883263,
+        "subject": "Seller News: September 2026",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-24T05:35:05.931000+00:00"
+        "timestamp": "2026-09-24T14:44:22+00:00"
       },
       {
-        "id": 118833702,
-        "subject": "Manage returns with rules, not one-offs",
+        "id": 118878128,
+        "subject": "Invoice - 50102558614 from ZOHO Corporation.",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-24T04:48:05+00:00"
+        "timestamp": "2026-09-24T14:14:44+00:00"
       },
       {
-        "id": 118833311,
-        "subject": "Direct message with jaydapenny",
+        "id": 118875894,
+        "subject": "Product Update: 106 new features",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-24T04:39:54.465000+00:00"
+        "timestamp": "2026-09-24T14:02:20+00:00"
+      },
+      {
+        "id": 118867815,
+        "subject": "Celebrate Hispanic Heritage",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-24T13:08:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-24T11:39:54.216Z",
+    "gorgiasUpdated": "2026-09-24T15:55:03.081Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
