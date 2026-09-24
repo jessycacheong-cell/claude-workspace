@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-23T23:55:33.973Z",
+  "lastUpdated": "2026-09-24T00:51:35.184Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118807381,
+        "subject": "Skills are here: Teach the agent to design like you and your team",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-24T00:02:01+00:00"
+      },
+      {
+        "id": 118804383,
+        "subject": "Turn more Shopify traffic into sales with 4 AI Agents working together",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-23T23:37:12+00:00"
+      },
+      {
         "id": 118781704,
         "subject": "Explore Finance Workspace in new Seller Central",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-23T16:43:52+00:00"
-      },
-      {
-        "id": 118729787,
-        "subject": "🎉 ZapConnect is happening now and there's still time to register",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-23T16:08:14+00:00"
-      },
-      {
-        "id": 118708450,
-        "subject": "Prime Big Deal Days arrive soon",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-23T14:27:47+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-23T22:14:24.715Z",
+    "gorgiasUpdated": "2026-09-24T00:51:35.024Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
