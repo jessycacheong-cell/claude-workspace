@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T09:30:06.290Z",
+  "lastUpdated": "2026-09-24T11:39:54.434Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118844715,
+        "subject": "Zoho Campaigns - Your subscription is renewed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-24T08:11:34+00:00"
+      },
+      {
+        "id": 118838896,
+        "subject": "Great news: Your order is ready",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-24T06:23:27+00:00"
+      },
+      {
         "id": 118836413,
         "subject": "Your ability to schedule Zoom meetings isn’t changing",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-24T04:39:54.465000+00:00"
-      },
-      {
-        "id": 118831140,
-        "subject": "Direct message with mitchhmatchh",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-24T04:01:50.929000+00:00"
-      },
-      {
-        "id": 118828789,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-24T03:28:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-24T06:07:30.274Z",
+    "gorgiasUpdated": "2026-09-24T11:39:54.216Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
