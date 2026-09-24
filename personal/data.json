@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T04:38:36.813Z",
+  "lastUpdated": "2026-09-24T06:07:30.470Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 118807381,
-        "subject": "Skills are here: Teach the agent to design like you and your team",
+        "id": 118836413,
+        "subject": "Your ability to schedule Zoom meetings isn’t changing",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-24T00:02:01+00:00"
+        "timestamp": "2026-09-24T05:35:05.931000+00:00"
       },
       {
-        "id": 118804383,
-        "subject": "Turn more Shopify traffic into sales with 4 AI Agents working together",
+        "id": 118833702,
+        "subject": "Manage returns with rules, not one-offs",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-24T04:48:05+00:00"
+      },
+      {
+        "id": 118833311,
+        "subject": "Direct message with jaydapenny",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-24T04:39:54.465000+00:00"
+      },
+      {
+        "id": 118831140,
+        "subject": "Direct message with mitchhmatchh",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-24T04:01:50.929000+00:00"
+      },
+      {
+        "id": 118828789,
+        "subject": "(No subject)",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-23T23:37:12+00:00"
-      },
-      {
-        "id": 118781704,
-        "subject": "Explore Finance Workspace in new Seller Central",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-23T20:54:19+00:00"
-      },
-      {
-        "id": 118762483,
-        "subject": "the schema warnings sitting in your Search Console",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-23T19:06:38+00:00"
-      },
-      {
-        "id": 118734138,
-        "subject": "[Action May be Required] Amazon RDS snapshot storage charges will be reported at per-snapshot granularity starting November 1, 2026 [AWS Account: 381492252471]",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-23T16:43:52+00:00"
+        "timestamp": "2026-09-24T03:28:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-24T00:51:35.024Z",
+    "gorgiasUpdated": "2026-09-24T06:07:30.274Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
