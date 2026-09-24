@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T18:38:14.975Z",
+  "lastUpdated": "2026-09-24T19:57:48.086Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 118887536,
-        "subject": "Four new ways Gaia works for team",
+        "id": 118939911,
+        "subject": "AB, quick demo tomorrow?",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-24T15:05:29+00:00"
+        "status": "open",
+        "timestamp": "2026-09-24T19:49:30+00:00"
       },
       {
-        "id": 118883263,
-        "subject": "Seller News: September 2026",
+        "id": 118929080,
+        "subject": "Final notice: Your last chance to get into Higgsfield with the lowest price",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-24T14:44:22+00:00"
+        "timestamp": "2026-09-24T18:47:56+00:00"
       },
       {
-        "id": 118878128,
-        "subject": "Invoice - 50102558614 from ZOHO Corporation.",
+        "id": 118927978,
+        "subject": "Export of your payment transactions",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-24T14:14:44+00:00"
+        "status": "open",
+        "timestamp": "2026-09-24T18:41:33+00:00"
       },
       {
-        "id": 118875894,
-        "subject": "Product Update: 106 new features",
+        "id": 118925073,
+        "subject": "New sign-in to your Shopify account",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-24T14:02:20+00:00"
+        "timestamp": "2026-09-24T18:24:33+00:00"
       },
       {
-        "id": 118867815,
-        "subject": "Celebrate Hispanic Heritage",
+        "id": 118912199,
+        "subject": "Yumei, Share your thoughts: chance to win $500",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-24T13:08:33+00:00"
+        "timestamp": "2026-09-24T17:01:18+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-24T15:55:03.081Z",
+    "gorgiasUpdated": "2026-09-24T19:57:47.862Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
