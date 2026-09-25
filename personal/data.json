@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T20:10:45.352Z",
+  "lastUpdated": "2026-09-25T21:48:18.338Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 119033883,
-        "subject": "Amazon Business Pulse: Prime Big Deal Days ahead",
+        "id": 119123952,
+        "subject": "Direct message with malvo___",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-25T12:55:52+00:00"
+        "timestamp": "2026-09-25T21:26:23.987000+00:00"
       },
       {
-        "id": 119029143,
-        "subject": "What's an Instagram like worth? ❤️ We did the math for you",
+        "id": 119110635,
+        "subject": "Shop Pay Installments for cross-border sales coming soon",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-25T12:09:16+00:00"
+        "timestamp": "2026-09-25T20:02:22+00:00"
       },
       {
-        "id": 119014481,
-        "subject": "Refund Initiated for Order 114-7005479-3473832",
+        "id": 119110480,
+        "subject": "Direct message with austinthephilosurfer",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-25T08:52:22+00:00"
+        "timestamp": "2026-09-25T20:01:23.104000+00:00"
       },
       {
-        "id": 119005459,
-        "subject": "Direct message with thestoikmike",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-25T05:56:40.150000+00:00"
-      },
-      {
-        "id": 119005428,
-        "subject": "Direct message with prolifiq.nil",
+        "id": 119106366,
+        "subject": "Your Forums digest: What's working for sellers right now",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-25T05:56:04.866000+00:00"
+        "timestamp": "2026-09-25T19:40:33+00:00"
+      },
+      {
+        "id": 119099502,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-25T19:08:27+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-25T18:31:42.131Z",
+    "gorgiasUpdated": "2026-09-25T21:48:18.177Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
