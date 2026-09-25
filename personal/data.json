@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T10:31:26.198Z",
+  "lastUpdated": "2026-09-25T13:40:57.510Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 119033883,
+        "subject": "Amazon Business Pulse: Prime Big Deal Days ahead",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-25T12:55:52+00:00"
+      },
+      {
+        "id": 119029143,
+        "subject": "What's an Instagram like worth? ❤️ We did the math for you",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-25T12:09:16+00:00"
+      },
+      {
+        "id": 119014481,
+        "subject": "Refund Initiated for Order 114-7005479-3473832",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-25T08:52:22+00:00"
+      },
+      {
         "id": 119005459,
         "subject": "Direct message with thestoikmike",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-25T05:56:04.866000+00:00"
-      },
-      {
-        "id": 119005364,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-25T05:55:03+00:00"
-      },
-      {
-        "id": 119000433,
-        "subject": "Tai Huynh recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-25T04:16:00+00:00"
-      },
-      {
-        "id": 119000274,
-        "subject": "Direct message with parkiteric",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-25T04:13:15.492000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-25T07:42:10.817Z",
+    "gorgiasUpdated": "2026-09-25T13:40:57.293Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
