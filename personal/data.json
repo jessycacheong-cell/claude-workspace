@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-25T00:30:25.143Z",
+  "lastUpdated": "2026-09-25T01:52:24.203Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 118983014,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-25T00:46:02+00:00"
+      },
+      {
+        "id": 118975566,
+        "subject": "Direct message with gotsole",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-24T23:39:00.780000+00:00"
+      },
+      {
         "id": 118969354,
         "subject": "You have successfully canceled a Klaviyo plan for UMEI3D ( Y7Vj79 )",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-24T19:49:30+00:00"
-      },
-      {
-        "id": 118929080,
-        "subject": "Final notice: Your last chance to get into Higgsfield with the lowest price",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-24T18:47:56+00:00"
-      },
-      {
-        "id": 118927978,
-        "subject": "Export of your payment transactions",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-24T18:41:33+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-24T23:10:32.804Z",
+    "gorgiasUpdated": "2026-09-25T01:52:23.966Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
