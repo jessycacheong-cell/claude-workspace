@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T06:34:54.143Z",
+  "lastUpdated": "2026-09-26T10:13:06.940Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 119161101,
-        "subject": "Direct message with rockcartier",
+        "id": 119175379,
+        "subject": "Direct message with nickwillmakeit_",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-26T04:35:11.601000+00:00"
+        "timestamp": "2026-09-26T10:05:14.122000+00:00"
       },
       {
-        "id": 119160703,
-        "subject": "Direct message with chrome_and_paint94",
+        "id": 119173623,
+        "subject": "Direct message with frizzz_5",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-26T04:25:50.534000+00:00"
+        "timestamp": "2026-09-26T09:15:47.559000+00:00"
       },
       {
-        "id": 119159635,
-        "subject": "Direct message with yourbitchaintshit32",
+        "id": 119171607,
+        "subject": "Direct message with drhealthyfeet",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-26T04:04:26.085000+00:00"
+        "timestamp": "2026-09-26T08:39:08.459000+00:00"
       },
       {
-        "id": 119159206,
-        "subject": "Direct message with ovr.cme",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-26T03:57:15.532000+00:00"
-      },
-      {
-        "id": 119158124,
-        "subject": "Privately rate your recent order",
+        "id": 119167841,
+        "subject": "🔥🔥🔥🔥",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-26T03:42:19+00:00"
+        "timestamp": "2026-09-26T07:17:13+00:00"
+      },
+      {
+        "id": 119167469,
+        "subject": "Direct message with water.patch",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-26T07:12:21.679000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-26T05:25:18.269Z",
+    "gorgiasUpdated": "2026-09-26T10:13:06.766Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
