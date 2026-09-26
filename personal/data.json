@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T16:17:28.713Z",
+  "lastUpdated": "2026-09-26T18:33:01.484Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 119195142,
-        "subject": "Direct message with marxott404",
+        "id": 119229188,
+        "subject": "Direct message with kayy.la_xx",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-26T14:30:58.611000+00:00"
+        "timestamp": "2026-09-26T18:27:18.449000+00:00"
       },
       {
-        "id": 119194545,
-        "subject": "Direct message with j_raquet",
+        "id": 119226947,
+        "subject": "Direct message with roll_avery.44",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-26T14:25:48.657000+00:00"
+        "timestamp": "2026-09-26T18:06:47.736000+00:00"
       },
       {
-        "id": 119193277,
-        "subject": "Direct message with ryyyaannnnnnn",
+        "id": 119226075,
+        "subject": "Direct message with njc091778",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-26T14:16:32.383000+00:00"
+        "timestamp": "2026-09-26T18:01:09.733000+00:00"
       },
       {
-        "id": 119190248,
-        "subject": "Direct message with u___evolve",
+        "id": 119217440,
+        "subject": "Direct message with dylan_dolezal",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-26T13:55:40.924000+00:00"
+        "timestamp": "2026-09-26T17:12:56.442000+00:00"
       },
       {
-        "id": 119188696,
-        "subject": "Direct message with mikegalexy",
+        "id": 119216854,
+        "subject": "Direct message with dessdadon24",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-26T13:37:53.865000+00:00"
+        "timestamp": "2026-09-26T17:11:08.608000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-26T14:42:40.726Z",
+    "gorgiasUpdated": "2026-09-26T18:33:01.301Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
