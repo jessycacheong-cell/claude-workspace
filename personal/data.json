@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T15:37:26.101Z",
+  "lastUpdated": "2026-09-27T15:37:40.194Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 119285295,
-        "subject": "Direct message with under___construction2027",
+        "id": 119306822,
+        "subject": "Direct message with _spuntaneous",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-27T09:05:59.736000+00:00"
+        "status": "open",
+        "timestamp": "2026-09-27T15:12:10.491000+00:00"
       },
       {
-        "id": 119284634,
-        "subject": "Build an unforgettable store on Shop",
+        "id": 119306416,
+        "subject": "Direct message with _darionlamar",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-27T08:45:49+00:00"
+        "timestamp": "2026-09-27T15:07:32.548000+00:00"
       },
       {
-        "id": 119283677,
-        "subject": "Sep 27, 2026 bill for My Store",
+        "id": 119305418,
+        "subject": "Direct message with juliruiz10.jr",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-27T08:20:14+00:00"
+        "timestamp": "2026-09-27T14:58:25.949000+00:00"
       },
       {
-        "id": 119275413,
-        "subject": "Direct message with bulls_horn11",
+        "id": 119303853,
+        "subject": "Direct message with annonhacked",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-27T04:49:59.362000+00:00"
+        "timestamp": "2026-09-27T14:39:39.972000+00:00"
       },
       {
-        "id": 119275390,
-        "subject": "Direct message with mattfontana55",
+        "id": 119298026,
+        "subject": "Direct message with iamricomontana_",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-27T04:49:14.402000+00:00"
+        "timestamp": "2026-09-27T13:26:30.960000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-27T10:42:55.903Z",
+    "gorgiasUpdated": "2026-09-27T15:37:39.988Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
