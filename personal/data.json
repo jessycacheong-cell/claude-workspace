@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T05:40:47.936Z",
+  "lastUpdated": "2026-09-27T10:42:56.060Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 119285295,
+        "subject": "Direct message with under___construction2027",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-27T09:05:59.736000+00:00"
+      },
+      {
+        "id": 119284634,
+        "subject": "Build an unforgettable store on Shop",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-27T08:45:49+00:00"
+      },
+      {
+        "id": 119283677,
+        "subject": "Sep 27, 2026 bill for My Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-27T08:20:14+00:00"
+      },
+      {
         "id": 119275413,
         "subject": "Direct message with bulls_horn11",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-27T04:49:14.402000+00:00"
-      },
-      {
-        "id": 119275166,
-        "subject": "Direct message with whoismattttt",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-27T04:43:16.888000+00:00"
-      },
-      {
-        "id": 119274938,
-        "subject": "Direct message with since_82",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-27T04:36:47.471000+00:00"
-      },
-      {
-        "id": 119274700,
-        "subject": "Direct message with stickydeeen",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-27T04:29:53.368000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-27T05:12:18.947Z",
+    "gorgiasUpdated": "2026-09-27T10:42:55.903Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
