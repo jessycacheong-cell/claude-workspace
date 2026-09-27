@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T19:14:38.005Z",
+  "lastUpdated": "2026-09-27T19:15:26.331Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 119331645,
+        "subject": "Direct message with twin50z_",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-27T18:54:18.050000+00:00"
+      },
+      {
+        "id": 119324547,
+        "subject": "Direct message with munikidsgolf",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-27T17:38:11.827000+00:00"
+      },
+      {
+        "id": 119311470,
+        "subject": "Direct message with marcusamurphy",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-27T16:03:52.841000+00:00"
+      },
+      {
         "id": 119306822,
         "subject": "Direct message with _spuntaneous",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-27T15:07:32.548000+00:00"
-      },
-      {
-        "id": 119305418,
-        "subject": "Direct message with juliruiz10.jr",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-27T14:58:25.949000+00:00"
-      },
-      {
-        "id": 119303853,
-        "subject": "Direct message with annonhacked",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-27T14:39:39.972000+00:00"
-      },
-      {
-        "id": 119298026,
-        "subject": "Direct message with iamricomontana_",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-27T13:26:30.960000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-27T15:37:39.988Z",
+    "gorgiasUpdated": "2026-09-27T19:15:26.117Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
