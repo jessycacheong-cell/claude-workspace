@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T22:32:11.967Z",
+  "lastUpdated": "2026-09-27T22:32:56.101Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 119334017,
+        "subject": "Direct message with ssanbann",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-27T19:18:17.997000+00:00"
+      },
+      {
         "id": 119331645,
         "subject": "Direct message with twin50z_",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-27T15:12:10.491000+00:00"
-      },
-      {
-        "id": 119306416,
-        "subject": "Direct message with _darionlamar",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-27T15:07:32.548000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-27T19:15:26.117Z",
+    "gorgiasUpdated": "2026-09-27T22:32:55.920Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
