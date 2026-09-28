@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-28T21:21:31.890Z",
+  "lastUpdated": "2026-09-28T21:21:49.386Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 119432703,
-        "subject": "Re: A dedicated VA for umeistore.com?",
+        "id": 119502898,
+        "subject": "Balance paid on your Amazon seller account",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-28T14:37:28+00:00"
+        "timestamp": "2026-09-28T20:37:23+00:00"
       },
       {
-        "id": 119423906,
-        "subject": "Last call: TUSHY loyalty webinar + your shot at $100 for your first TUSHY! ",
+        "id": 119497195,
+        "subject": "RE: Your pair is on its way.",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-28T13:47:46+00:00"
+        "status": "open",
+        "timestamp": "2026-09-28T20:05:02+00:00"
       },
       {
-        "id": 119380776,
-        "subject": "Nike Corporate Historian recently posted",
+        "id": 119486087,
+        "subject": "Update | Starlight Fast 3 + Speed Boost",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-28T04:16:00+00:00"
+        "timestamp": "2026-09-28T19:02:37+00:00"
       },
       {
-        "id": 119334017,
-        "subject": "Direct message with ssanbann",
+        "id": 119471503,
+        "subject": "Direct message with therealmonalissa",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-27T19:18:17.997000+00:00"
+        "status": "open",
+        "timestamp": "2026-09-28T17:48:38.640000+00:00"
       },
       {
-        "id": 119331645,
-        "subject": "Direct message with twin50z_",
+        "id": 119462148,
+        "subject": "Your Week In Reviews For UMEI Store",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-27T18:54:18.050000+00:00"
+        "timestamp": "2026-09-28T17:03:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-28T15:21:24.084Z",
+    "gorgiasUpdated": "2026-09-28T21:21:49.197Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
