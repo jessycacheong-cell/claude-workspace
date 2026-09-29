@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T07:28:17.487Z",
+  "lastUpdated": "2026-09-29T07:28:41.531Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 119564496,
+        "subject": "Direct message with austinthephilosurfer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-29T06:26:48.975000+00:00"
+      },
+      {
+        "id": 119547392,
+        "subject": "👤 Someone at Team Saturn you may know",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-29T02:16:04+00:00"
+      },
+      {
         "id": 119521483,
         "subject": "🔥🔥🔥🔥",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-28T20:37:23+00:00"
-      },
-      {
-        "id": 119497195,
-        "subject": "RE: Your pair is on its way.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-28T20:05:02+00:00"
-      },
-      {
-        "id": 119486087,
-        "subject": "Update | Starlight Fast 3 + Speed Boost",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-28T19:02:37+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-29T01:14:11.036Z",
+    "gorgiasUpdated": "2026-09-29T07:28:41.348Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
