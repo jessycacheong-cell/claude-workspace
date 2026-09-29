@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T19:36:30.157Z",
+  "lastUpdated": "2026-09-29T19:36:44.187Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 119603610,
+        "id": 119638271,
         "subject": "(No subject)",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-09-29T14:13:13+00:00"
+        "timestamp": "2026-09-29T17:19:43+00:00"
       },
       {
-        "id": 119585179,
-        "subject": "sourcing",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-29T12:02:54+00:00"
-      },
-      {
-        "id": 119584891,
-        "subject": "We analyzed 166,000 BFCM reviews",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-29T12:00:54+00:00"
-      },
-      {
-        "id": 119564496,
-        "subject": "Direct message with austinthephilosurfer",
+        "id": 119638169,
+        "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-29T06:26:48.975000+00:00"
+        "timestamp": "2026-09-29T17:19:00+00:00"
       },
       {
-        "id": 119547392,
-        "subject": "👤 Someone at Team Saturn you may know",
+        "id": 119636473,
+        "subject": "Enjoy 25% off—just for returning customers",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-29T02:16:04+00:00"
+        "timestamp": "2026-09-29T17:03:42+00:00"
+      },
+      {
+        "id": 119623264,
+        "subject": "Adobe eLearning News – September 2026",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-29T16:01:07+00:00"
+      },
+      {
+        "id": 119622446,
+        "subject": "Free Educational Webinars Available in October!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-29T15:56:19+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-29T14:19:23.789Z",
+    "gorgiasUpdated": "2026-09-29T19:36:43.989Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
