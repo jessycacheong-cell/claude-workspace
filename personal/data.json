@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T14:18:49.352Z",
+  "lastUpdated": "2026-09-29T14:19:23.975Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 119603610,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-29T14:13:13+00:00"
+      },
+      {
+        "id": 119585179,
+        "subject": "sourcing",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-29T12:02:54+00:00"
+      },
+      {
+        "id": 119584891,
+        "subject": "We analyzed 166,000 BFCM reviews",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-29T12:00:54+00:00"
+      },
+      {
         "id": 119564496,
         "subject": "Direct message with austinthephilosurfer",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-29T02:16:04+00:00"
-      },
-      {
-        "id": 119521483,
-        "subject": "🔥🔥🔥🔥",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-28T22:33:27+00:00"
-      },
-      {
-        "id": 119521314,
-        "subject": "Love this 💡📸🎬",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-28T22:32:14+00:00"
-      },
-      {
-        "id": 119502898,
-        "subject": "Balance paid on your Amazon seller account",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-28T20:37:23+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-29T07:28:41.348Z",
+    "gorgiasUpdated": "2026-09-29T14:19:23.789Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
