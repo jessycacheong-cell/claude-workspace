@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-29T01:13:37.273Z",
+  "lastUpdated": "2026-09-29T01:14:11.205Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 119521483,
+        "subject": "🔥🔥🔥🔥",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-28T22:33:27+00:00"
+      },
+      {
+        "id": 119521314,
+        "subject": "Love this 💡📸🎬",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-28T22:32:14+00:00"
+      },
+      {
         "id": 119502898,
         "subject": "Balance paid on your Amazon seller account",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-28T19:02:37+00:00"
-      },
-      {
-        "id": 119471503,
-        "subject": "Direct message with therealmonalissa",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-28T17:48:38.640000+00:00"
-      },
-      {
-        "id": 119462148,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-28T17:03:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-28T21:21:49.197Z",
+    "gorgiasUpdated": "2026-09-29T01:14:11.036Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
