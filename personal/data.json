@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T15:14:43.474Z",
+  "lastUpdated": "2026-09-30T15:52:46.941Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 119789237,
+        "subject": "Webinar: Get started with Shopify workflows in Claude",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-30T15:06:36.539000+00:00"
+      },
+      {
+        "id": 119787315,
+        "subject": "Direct message with _darrell.miller",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-30T14:56:49.761000+00:00"
+      },
+      {
+        "id": 119751747,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-09-30T12:02:07.676000+00:00"
+      },
+      {
         "id": 119738171,
         "subject": "59.0% of your customers use Shop to track orders",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-09-30T01:25:08+00:00"
-      },
-      {
-        "id": 119699585,
-        "subject": "Your FBA capacity limits for October",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-30T00:08:40+00:00"
-      },
-      {
-        "id": 119638271,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-29T17:19:43+00:00"
-      },
-      {
-        "id": 119638169,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-29T17:19:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-30T08:58:49.545Z",
+    "gorgiasUpdated": "2026-09-30T15:52:46.769Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
