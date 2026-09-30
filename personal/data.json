@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T20:16:34.898Z",
+  "lastUpdated": "2026-09-30T20:45:56.831Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 119789237,
-        "subject": "Webinar: Get started with Shopify workflows in Claude",
+        "id": 119838497,
+        "subject": "Re: Order #1798 confirmed",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-30T15:06:36.539000+00:00"
+        "timestamp": "2026-09-30T19:29:49+00:00"
       },
       {
-        "id": 119787315,
-        "subject": "Direct message with _darrell.miller",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-30T14:56:49.761000+00:00"
-      },
-      {
-        "id": 119751747,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-09-30T12:02:07.676000+00:00"
-      },
-      {
-        "id": 119738171,
-        "subject": "59.0% of your customers use Shop to track orders",
+        "id": 119833876,
+        "subject": "AI builds fast, does it matter if it builds right...",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-30T08:45:52+00:00"
+        "timestamp": "2026-09-30T19:04:29+00:00"
       },
       {
-        "id": 119708586,
-        "subject": "Payment confirmed",
+        "id": 119827686,
+        "subject": "Creative reward ideas for your next project",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-30T01:25:08+00:00"
+        "timestamp": "2026-09-30T18:31:06+00:00"
+      },
+      {
+        "id": 119816476,
+        "subject": "New chargeback for order #1807",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-30T17:33:02+00:00"
+      },
+      {
+        "id": 119810342,
+        "subject": "What does leading with intention mean in customer experience?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-30T17:01:27+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-30T15:52:46.769Z",
+    "gorgiasUpdated": "2026-09-30T20:45:56.629Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
