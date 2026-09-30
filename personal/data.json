@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T08:24:29.638Z",
+  "lastUpdated": "2026-09-30T08:58:49.730Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 119738171,
+        "subject": "59.0% of your customers use Shop to track orders",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-09-30T08:45:52+00:00"
+      },
+      {
         "id": 119708586,
         "subject": "Payment confirmed",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-09-29T17:19:00+00:00"
-      },
-      {
-        "id": 119636473,
-        "subject": "Enjoy 25% off—just for returning customers",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-09-29T17:03:42+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-09-30T02:20:46.588Z",
+    "gorgiasUpdated": "2026-09-30T08:58:49.545Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
