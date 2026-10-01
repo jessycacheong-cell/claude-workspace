@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T23:07:16.211Z",
+  "lastUpdated": "2026-10-01T23:23:41.715Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120040300,
+        "subject": "Direct message with therealmonalissa",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-01T22:51:37.806000+00:00"
+      },
+      {
+        "id": 120034052,
+        "subject": "Yumei, Share your thoughts: chance to win $500 (Reminder)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-01T22:01:08+00:00"
+      },
+      {
+        "id": 120032792,
+        "subject": "Direct message with parkiteric",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-01T21:51:20.791000+00:00"
+      },
+      {
+        "id": 120012036,
+        "subject": "What's new at Essential Apps 👉",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-01T19:32:39+00:00"
+      },
+      {
         "id": 120008014,
         "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-01T19:08:51+00:00"
-      },
-      {
-        "id": 119981721,
-        "subject": "Don’t miss out on triple cash back",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-01T16:43:21+00:00"
-      },
-      {
-        "id": 119979182,
-        "subject": "[Webinar] The Community Era of Loyalty ",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-01T16:08:03+00:00"
-      },
-      {
-        "id": 119974302,
-        "subject": "October Insights: Balancing AI Quality, Cost, and Control",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-01T16:05:18+00:00"
-      },
-      {
-        "id": 119955783,
-        "subject": "Zoho Campaigns for Administrators (virtual classroom training) | CST/ CDT  | Upcoming schedules",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-01T14:24:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-01T19:29:37.492Z",
+    "gorgiasUpdated": "2026-10-01T23:23:41.539Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
