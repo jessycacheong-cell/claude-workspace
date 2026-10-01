@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T13:03:08.190Z",
+  "lastUpdated": "2026-10-01T13:51:22.781Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 119936638,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-01T12:12:38.078000+00:00"
+      },
+      {
+        "id": 119920409,
+        "subject": "Security alert for adaugh718@gmail.com",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-01T07:57:50+00:00"
+      },
+      {
         "id": 119910435,
         "subject": "A returns experience customers actually like",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-01T04:13:25+00:00"
-      },
-      {
-        "id": 119906348,
-        "subject": "Your receipt from Auth0 by Okta #2924-0635",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-01T03:48:25+00:00"
-      },
-      {
-        "id": 119903266,
-        "subject": "We’ve updated our Terms of Service",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-01T03:03:57+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-01T06:30:07.226Z",
+    "gorgiasUpdated": "2026-10-01T13:51:22.587Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
