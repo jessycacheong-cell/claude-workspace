@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T18:49:20.546Z",
+  "lastUpdated": "2026-10-01T19:29:37.673Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 119936638,
-        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "id": 120008014,
+        "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-01T19:08:51+00:00"
+      },
+      {
+        "id": 119981721,
+        "subject": "Don’t miss out on triple cash back",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-01T16:43:21+00:00"
+      },
+      {
+        "id": 119979182,
+        "subject": "[Webinar] The Community Era of Loyalty ",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-01T16:08:03+00:00"
+      },
+      {
+        "id": 119974302,
+        "subject": "October Insights: Balancing AI Quality, Cost, and Control",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-01T16:05:18+00:00"
+      },
+      {
+        "id": 119955783,
+        "subject": "Zoho Campaigns for Administrators (virtual classroom training) | CST/ CDT  | Upcoming schedules",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-10-01T12:12:38.078000+00:00"
-      },
-      {
-        "id": 119920409,
-        "subject": "Security alert for adaugh718@gmail.com",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-01T07:57:50+00:00"
-      },
-      {
-        "id": 119910435,
-        "subject": "A returns experience customers actually like",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-01T04:58:21+00:00"
-      },
-      {
-        "id": 119908041,
-        "subject": "Tai Huynh - Founder CEO reacted to this post: During a mission trip to…",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-01T04:15:59+00:00"
-      },
-      {
-        "id": 119907893,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-01T04:13:25+00:00"
+        "timestamp": "2026-10-01T14:24:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-01T13:51:22.587Z",
+    "gorgiasUpdated": "2026-10-01T19:29:37.492Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
