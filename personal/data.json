@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T05:44:20.239Z",
+  "lastUpdated": "2026-10-01T06:30:07.385Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 119838497,
-        "subject": "Re: Order #1798 confirmed",
+        "id": 119910435,
+        "subject": "A returns experience customers actually like",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-30T19:29:49+00:00"
+        "timestamp": "2026-10-01T04:58:21+00:00"
       },
       {
-        "id": 119833876,
-        "subject": "AI builds fast, does it matter if it builds right...",
+        "id": 119908041,
+        "subject": "Tai Huynh - Founder CEO reacted to this post: During a mission trip to…",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-30T19:04:29+00:00"
+        "timestamp": "2026-10-01T04:15:59+00:00"
       },
       {
-        "id": 119827686,
-        "subject": "Creative reward ideas for your next project",
+        "id": 119907893,
+        "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-30T18:31:06+00:00"
+        "timestamp": "2026-10-01T04:13:25+00:00"
       },
       {
-        "id": 119816476,
-        "subject": "New chargeback for order #1807",
+        "id": 119906348,
+        "subject": "Your receipt from Auth0 by Okta #2924-0635",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-30T17:33:02+00:00"
+        "timestamp": "2026-10-01T03:48:25+00:00"
       },
       {
-        "id": 119810342,
-        "subject": "What does leading with intention mean in customer experience?",
+        "id": 119903266,
+        "subject": "We’ve updated our Terms of Service",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-09-30T17:01:27+00:00"
+        "timestamp": "2026-10-01T03:03:57+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-01T00:30:53.485Z",
+    "gorgiasUpdated": "2026-10-01T06:30:07.226Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
