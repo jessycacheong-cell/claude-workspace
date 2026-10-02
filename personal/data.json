@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T19:54:30.491Z",
+  "lastUpdated": "2026-10-02T20:40:07.283Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120149155,
+        "subject": "A better Helpdesk Analytics experience arrives October 13",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-02T18:01:13+00:00"
+      },
+      {
+        "id": 120148278,
+        "subject": "[Webinar] After the Rush: The Post-Holiday Retention Playbook  ",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-02T17:55:32+00:00"
+      },
+      {
+        "id": 120128845,
+        "subject": "Order #81242137 - Your Monthly Monitoring Report",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-02T15:58:51+00:00"
+      },
+      {
         "id": 120119472,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-02T12:24:31+00:00"
-      },
-      {
-        "id": 120096903,
-        "subject": "We put a creator on a Times Square billboard. Watch the unveiling. 👀",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-02T12:10:36+00:00"
-      },
-      {
-        "id": 120070117,
-        "subject": "Michael Krause recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-02T04:26:57+00:00"
-      },
-      {
-        "id": 120067670,
-        "subject": "Is this your store?",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-02T03:44:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-02T15:44:16.726Z",
+    "gorgiasUpdated": "2026-10-02T20:40:07.105Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
