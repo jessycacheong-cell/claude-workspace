@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T02:09:14.180Z",
+  "lastUpdated": "2026-10-02T02:33:12.621Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120060950,
+        "subject": "👤 Someone at ascent you may know",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-02T02:16:00+00:00"
+      },
+      {
+        "id": 120060079,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-02T02:05:44+00:00"
+      },
+      {
         "id": 120040300,
         "subject": "Direct message with therealmonalissa",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-01T21:51:20.791000+00:00"
-      },
-      {
-        "id": 120012036,
-        "subject": "What's new at Essential Apps 👉",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-01T19:32:39+00:00"
-      },
-      {
-        "id": 120008014,
-        "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-01T19:08:51+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-01T23:23:41.539Z",
+    "gorgiasUpdated": "2026-10-02T02:33:12.448Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
