@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-02T08:25:22.997Z",
+  "lastUpdated": "2026-10-02T08:58:23.188Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120070117,
+        "subject": "Michael Krause recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-02T04:26:57+00:00"
+      },
+      {
+        "id": 120067670,
+        "subject": "Is this your store?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-02T03:44:59+00:00"
+      },
+      {
         "id": 120060950,
         "subject": "👤 Someone at ascent you may know",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-01T22:51:37.806000+00:00"
-      },
-      {
-        "id": 120034052,
-        "subject": "Yumei, Share your thoughts: chance to win $500 (Reminder)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-01T22:01:08+00:00"
-      },
-      {
-        "id": 120032792,
-        "subject": "Direct message with parkiteric",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-01T21:51:20.791000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-02T02:33:12.448Z",
+    "gorgiasUpdated": "2026-10-02T08:58:22.983Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
