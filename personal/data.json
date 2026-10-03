@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T10:22:17.820Z",
+  "lastUpdated": "2026-10-03T10:34:53.480Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120226289,
+        "subject": "Shoppers aren't seeing your discounts",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-03T08:45:54+00:00"
+      },
+      {
         "id": 120210773,
         "subject": "Direct message with sanjeevkumarsingh6569",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-02T15:58:51+00:00"
-      },
-      {
-        "id": 120119472,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-02T15:06:51+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-03T05:10:54.566Z",
+    "gorgiasUpdated": "2026-10-03T10:34:53.267Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
