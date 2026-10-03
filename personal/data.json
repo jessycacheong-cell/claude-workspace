@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-03T05:10:02.251Z",
+  "lastUpdated": "2026-10-03T05:10:54.737Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120210773,
+        "subject": "Direct message with sanjeevkumarsingh6569",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-03T02:37:44.494000+00:00"
+      },
+      {
         "id": 120149155,
         "subject": "A better Helpdesk Analytics experience arrives October 13",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-02T15:06:51+00:00"
-      },
-      {
-        "id": 120096308,
-        "subject": "Up to $50 back for Prime Big Deal Days",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-02T12:24:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-02T23:59:39.272Z",
+    "gorgiasUpdated": "2026-10-03T05:10:54.566Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
