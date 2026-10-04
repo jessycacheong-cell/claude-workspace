@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T06:16:58.181Z",
+  "lastUpdated": "2026-10-04T06:18:06.942Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 120299423,
-        "subject": "Direct message with jessiannwilliams2001",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-03T22:59:10.408000+00:00"
-      },
-      {
-        "id": 120296604,
-        "subject": "I’ve been wearing mine everyday since I got my wave clogs and i absolutely love them",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-03T22:21:01+00:00"
-      },
-      {
-        "id": 120296420,
-        "subject": "Love this ❤️",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-03T22:18:10+00:00"
-      },
-      {
-        "id": 120226289,
-        "subject": "Shoppers aren't seeing your discounts",
+        "id": 120321505,
+        "subject": "Direct message with vwsportgti76",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-03T08:45:54+00:00"
+        "timestamp": "2026-10-04T06:17:39.446000+00:00"
       },
       {
-        "id": 120210773,
-        "subject": "Direct message with sanjeevkumarsingh6569",
+        "id": 120310925,
+        "subject": "Direct message with tjgfield",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-03T02:37:44.494000+00:00"
+        "timestamp": "2026-10-04T01:52:48.726000+00:00"
+      },
+      {
+        "id": 120309296,
+        "subject": "Direct message with lilspankzilla",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-04T01:22:22.609000+00:00"
+      },
+      {
+        "id": 120309174,
+        "subject": "Direct message with xmurphslaw",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-04T01:20:15.596000+00:00"
+      },
+      {
+        "id": 120308479,
+        "subject": "Direct message with _michaelfernandez",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-04T01:08:18.826000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-04T00:33:19.475Z",
+    "gorgiasUpdated": "2026-10-04T06:18:06.783Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
