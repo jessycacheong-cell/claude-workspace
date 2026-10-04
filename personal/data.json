@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T12:49:32.689Z",
+  "lastUpdated": "2026-10-04T12:49:49.527Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120328968,
+        "subject": "Direct message with iksteezy",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-04T09:36:16.216000+00:00"
+      },
+      {
+        "id": 120327151,
+        "subject": "Direct message with moody_nastynate19",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-04T08:46:37.679000+00:00"
+      },
+      {
+        "id": 120324741,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-04T07:42:36+00:00"
+      },
+      {
+        "id": 120323576,
+        "subject": "Direct message with johnwaynez__",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-04T07:13:13.243000+00:00"
+      },
+      {
         "id": 120321505,
         "subject": "Direct message with vwsportgti76",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-04T06:17:39.446000+00:00"
-      },
-      {
-        "id": 120310925,
-        "subject": "Direct message with tjgfield",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-04T01:52:48.726000+00:00"
-      },
-      {
-        "id": 120309296,
-        "subject": "Direct message with lilspankzilla",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-04T01:22:22.609000+00:00"
-      },
-      {
-        "id": 120309174,
-        "subject": "Direct message with xmurphslaw",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-04T01:20:15.596000+00:00"
-      },
-      {
-        "id": 120308479,
-        "subject": "Direct message with _michaelfernandez",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-04T01:08:18.826000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-04T06:18:06.783Z",
+    "gorgiasUpdated": "2026-10-04T12:49:49.359Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
