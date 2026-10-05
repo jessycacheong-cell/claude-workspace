@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T09:34:34.630Z",
+  "lastUpdated": "2026-10-05T09:34:50.765Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 120406424,
-        "subject": "Direct message with dantewopo",
+        "id": 120423253,
+        "subject": "Direct message with ian.ebarb",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-05T02:16:53.829000+00:00"
+        "timestamp": "2026-10-05T07:50:06.768000+00:00"
       },
       {
-        "id": 120404824,
-        "subject": "Direct message with bikelif247",
+        "id": 120417964,
+        "subject": "Direct message with stinkyboy920",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-05T01:52:42.519000+00:00"
+        "timestamp": "2026-10-05T06:07:00.834000+00:00"
       },
       {
-        "id": 120402777,
-        "subject": "Direct message with theglobowski",
+        "id": 120417015,
+        "subject": "Direct message with kris.fralich",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-05T01:23:31.420000+00:00"
+        "status": "open",
+        "timestamp": "2026-10-05T05:44:23.705000+00:00"
       },
       {
-        "id": 120398950,
-        "subject": "Direct message with doesyourmommaknow",
+        "id": 120416837,
+        "subject": "You hit your monthly sessions limit",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-05T00:34:50.393000+00:00"
+        "timestamp": "2026-10-05T05:39:44+00:00"
       },
       {
-        "id": 120397974,
-        "subject": "Direct message with mule_rix",
+        "id": 120416127,
+        "subject": "Direct message with cleanmcbean4",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-05T00:23:21.617000+00:00"
+        "timestamp": "2026-10-05T05:23:38.935000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-05T02:21:43.350Z",
+    "gorgiasUpdated": "2026-10-05T09:34:50.605Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
