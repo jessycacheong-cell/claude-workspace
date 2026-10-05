@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T18:48:13.057Z",
+  "lastUpdated": "2026-10-05T18:48:31.012Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 120423253,
-        "subject": "Direct message with ian.ebarb",
+        "id": 120510539,
+        "subject": "Free webinar: the Black Friday framework behind 8 and 9 figure brands",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-05T07:50:06.768000+00:00"
+        "timestamp": "2026-10-05T18:31:11+00:00"
       },
       {
-        "id": 120417964,
-        "subject": "Direct message with stinkyboy920",
+        "id": 120498740,
+        "subject": "Direct message with don_the_jeweler",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-05T06:07:00.834000+00:00"
+        "timestamp": "2026-10-05T17:26:33.362000+00:00"
       },
       {
-        "id": 120417015,
-        "subject": "Direct message with kris.fralich",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-05T05:44:23.705000+00:00"
-      },
-      {
-        "id": 120416837,
-        "subject": "You hit your monthly sessions limit",
+        "id": 120490044,
+        "subject": "Your Week In Reviews For UMEI Store",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-05T05:39:44+00:00"
+        "timestamp": "2026-10-05T17:02:32+00:00"
       },
       {
-        "id": 120416127,
-        "subject": "Direct message with cleanmcbean4",
+        "id": 120487372,
+        "subject": "Direct message with evanjacavonee",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-05T05:23:38.935000+00:00"
+        "timestamp": "2026-10-05T16:47:40.136000+00:00"
+      },
+      {
+        "id": 120487278,
+        "subject": "Direct message with therealgbalderas",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-05T16:47:10.968000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-05T09:34:50.605Z",
+    "gorgiasUpdated": "2026-10-05T18:48:30.841Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
