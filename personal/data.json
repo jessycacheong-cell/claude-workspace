@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T07:29:32.914Z",
+  "lastUpdated": "2026-10-06T07:29:55.538Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120590509,
+        "subject": "Direct message with hanselaquino",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-06T06:40:45.659000+00:00"
+      },
+      {
+        "id": 120587722,
+        "subject": "Hello Umei3d",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-06T05:39:22+00:00"
+      },
+      {
+        "id": 120583557,
+        "subject": "Tai Huynh - Founder CEO reacted to this post: This is for inventors and…",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-06T04:16:02+00:00"
+      },
+      {
+        "id": 120574312,
+        "subject": "👤 Someone at Team Saturn you may know",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-06T02:17:02+00:00"
+      },
+      {
         "id": 120555335,
         "subject": "Framer Monthly",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-05T23:19:56+00:00"
-      },
-      {
-        "id": 120553542,
-        "subject": "Refund Initiated for Order 111-4490999-5215442",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-05T23:05:45+00:00"
-      },
-      {
-        "id": 120551291,
-        "subject": "Message from Usadoby HZ Usadoby HZ",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-05T22:47:57.609000+00:00"
-      },
-      {
-        "id": 120547827,
-        "subject": "Direct message with ty.base6",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-05T22:18:25.837000+00:00"
-      },
-      {
-        "id": 120543999,
-        "subject": "Direct message with 0_ontfromhere",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-05T21:51:03.622000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-06T00:45:38.645Z",
+    "gorgiasUpdated": "2026-10-06T07:29:55.350Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
