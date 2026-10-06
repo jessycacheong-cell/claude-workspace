@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T23:45:19.053Z",
+  "lastUpdated": "2026-10-06T23:45:35.722Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120702820,
+        "subject": "RE: Your pair is on its way.",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-06T21:00:39+00:00"
+      },
+      {
+        "id": 120694307,
+        "subject": "Participate in an Instagram Research Study about advertising | 10/20 - 10/22",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-06T20:09:17+00:00"
+      },
+      {
         "id": 120662534,
         "subject": "Your go-to business products—now 25% off",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-06T15:46:23+00:00"
-      },
-      {
-        "id": 120605131,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-06T10:46:12+00:00"
-      },
-      {
-        "id": 120590509,
-        "subject": "Direct message with hanselaquino",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-06T06:40:45.659000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-06T19:47:41.753Z",
+    "gorgiasUpdated": "2026-10-06T23:45:35.534Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
