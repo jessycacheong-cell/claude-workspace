@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T14:26:10.271Z",
+  "lastUpdated": "2026-10-06T14:26:36.144Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120605131,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-06T10:46:12+00:00"
+      },
+      {
         "id": 120590509,
         "subject": "Direct message with hanselaquino",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-06T02:17:02+00:00"
-      },
-      {
-        "id": 120555335,
-        "subject": "Framer Monthly",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-05T23:19:56+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-06T07:29:55.350Z",
+    "gorgiasUpdated": "2026-10-06T14:26:35.955Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
