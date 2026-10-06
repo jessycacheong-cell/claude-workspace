@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T00:45:23.249Z",
+  "lastUpdated": "2026-10-06T00:45:38.803Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 120510539,
-        "subject": "Free webinar: the Black Friday framework behind 8 and 9 figure brands",
+        "id": 120555335,
+        "subject": "Framer Monthly",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-05T18:31:11+00:00"
+        "timestamp": "2026-10-05T23:19:56+00:00"
       },
       {
-        "id": 120498740,
-        "subject": "Direct message with don_the_jeweler",
+        "id": 120553542,
+        "subject": "Refund Initiated for Order 111-4490999-5215442",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-05T17:26:33.362000+00:00"
+        "timestamp": "2026-10-05T23:05:45+00:00"
       },
       {
-        "id": 120490044,
-        "subject": "Your Week In Reviews For UMEI Store",
+        "id": 120551291,
+        "subject": "Message from Usadoby HZ Usadoby HZ",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-05T17:02:32+00:00"
+        "status": "open",
+        "timestamp": "2026-10-05T22:47:57.609000+00:00"
       },
       {
-        "id": 120487372,
-        "subject": "Direct message with evanjacavonee",
+        "id": 120547827,
+        "subject": "Direct message with ty.base6",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-05T16:47:40.136000+00:00"
+        "timestamp": "2026-10-05T22:18:25.837000+00:00"
       },
       {
-        "id": 120487278,
-        "subject": "Direct message with therealgbalderas",
+        "id": 120543999,
+        "subject": "Direct message with 0_ontfromhere",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-05T16:47:10.968000+00:00"
+        "status": "open",
+        "timestamp": "2026-10-05T21:51:03.622000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-05T18:48:30.841Z",
+    "gorgiasUpdated": "2026-10-06T00:45:38.645Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
