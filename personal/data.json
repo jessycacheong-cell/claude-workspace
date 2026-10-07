@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T19:29:49.633Z",
+  "lastUpdated": "2026-10-07T19:30:20.599Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120820928,
+        "subject": "Upcoming webinar: Get started with Shopify workflows in Claude",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-07T17:02:51+00:00"
+      },
+      {
+        "id": 120811820,
+        "subject": "Grow your Amazon business with a QuickBooks Term Loan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-07T16:09:15+00:00"
+      },
+      {
+        "id": 120797437,
+        "subject": "Your business loan offer is waiting. Apply in minutes.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-07T14:48:14+00:00"
+      },
+      {
+        "id": 120784545,
+        "subject": "[Webinar] Why Nutrition Warehouse bet on community over coupons",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-07T13:13:54+00:00"
+      },
+      {
         "id": 120777483,
         "subject": "A first look at smart filters, plus 4 new updates",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-07T12:30:20+00:00"
-      },
-      {
-        "id": 120774025,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-07T11:56:45.663000+00:00"
-      },
-      {
-        "id": 120769930,
-        "subject": "Run your BFCM campaigns on schedule with Rollouts",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-07T11:02:52.690000+00:00"
-      },
-      {
-        "id": 120748416,
-        "subject": "Tai Huynh - Founder CEO reacted to this post: Don't work with me, I destroy…",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-07T04:16:03+00:00"
-      },
-      {
-        "id": 120735127,
-        "subject": "Payment confirmed",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-07T01:25:08+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-07T13:13:51.477Z",
+    "gorgiasUpdated": "2026-10-07T19:30:20.414Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
