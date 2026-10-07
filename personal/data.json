@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T05:48:33.439Z",
+  "lastUpdated": "2026-10-07T05:49:35.469Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120748416,
+        "subject": "Tai Huynh - Founder CEO reacted to this post: Don't work with me, I destroy…",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-07T04:16:03+00:00"
+      },
+      {
+        "id": 120735127,
+        "subject": "Payment confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-07T01:25:08+00:00"
+      },
+      {
+        "id": 120734297,
+        "subject": "Let Other Shopify Stores Sell Your Products",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-07T01:15:47+00:00"
+      },
+      {
+        "id": 120732111,
+        "subject": "Umei3d✅",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-07T00:53:52+00:00"
+      },
+      {
         "id": 120702820,
         "subject": "RE: Your pair is on its way.",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-06T21:00:39+00:00"
-      },
-      {
-        "id": 120694307,
-        "subject": "Participate in an Instagram Research Study about advertising | 10/20 - 10/22",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-06T20:09:17+00:00"
-      },
-      {
-        "id": 120662534,
-        "subject": "Your go-to business products—now 25% off",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-06T17:03:58+00:00"
-      },
-      {
-        "id": 120658119,
-        "subject": "Your AI Agent guidance is now running as Skills",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-06T16:45:56+00:00"
-      },
-      {
-        "id": 120646782,
-        "subject": "Prime Big Deal Days now until October 7",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-06T15:46:23+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-06T23:45:35.534Z",
+    "gorgiasUpdated": "2026-10-07T05:49:35.272Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
