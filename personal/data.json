@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T13:12:46.009Z",
+  "lastUpdated": "2026-10-07T13:13:51.679Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120777483,
+        "subject": "A first look at smart filters, plus 4 new updates",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-07T12:30:20+00:00"
+      },
+      {
+        "id": 120774025,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-07T11:56:45.663000+00:00"
+      },
+      {
+        "id": 120769930,
+        "subject": "Run your BFCM campaigns on schedule with Rollouts",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-07T11:02:52.690000+00:00"
+      },
+      {
         "id": 120748416,
         "subject": "Tai Huynh - Founder CEO reacted to this post: Don't work with me, I destroy…",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-07T01:25:08+00:00"
-      },
-      {
-        "id": 120734297,
-        "subject": "Let Other Shopify Stores Sell Your Products",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-07T01:15:47+00:00"
-      },
-      {
-        "id": 120732111,
-        "subject": "Umei3d✅",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-07T00:53:52+00:00"
-      },
-      {
-        "id": 120702820,
-        "subject": "RE: Your pair is on its way.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-06T21:00:39+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-07T05:49:35.272Z",
+    "gorgiasUpdated": "2026-10-07T13:13:51.477Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
