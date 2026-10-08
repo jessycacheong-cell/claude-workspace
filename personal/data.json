@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T19:24:05.998Z",
+  "lastUpdated": "2026-10-08T19:24:32.157Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 120941347,
-        "subject": "5 cart fixes to make before Black Friday",
+        "id": 121002385,
+        "subject": "Direct message with rellfrm860",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-08T12:49:52+00:00"
+        "timestamp": "2026-10-08T18:34:12.914000+00:00"
       },
       {
-        "id": 120936982,
-        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-08T12:02:38.516000+00:00"
-      },
-      {
-        "id": 120907777,
-        "subject": "Direct message with je.wavy",
+        "id": 120993394,
+        "subject": "AI Transformation sessions we think you'll enjoy from ZapConnect",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-08T03:47:57.605000+00:00"
+        "timestamp": "2026-10-08T17:40:27+00:00"
       },
       {
-        "id": 120902594,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-08T02:39:51+00:00"
-      },
-      {
-        "id": 120876375,
-        "subject": "Refund Initiated for Order 114-2369800-7915452",
+        "id": 120992935,
+        "subject": "Direct message with cleoisneatlyluvbruh",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-07T22:44:41+00:00"
+        "timestamp": "2026-10-08T17:37:44.916000+00:00"
+      },
+      {
+        "id": 120981238,
+        "subject": "Direct message with rubenramirezzz_",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-08T16:37:34.013000+00:00"
+      },
+      {
+        "id": 120977259,
+        "subject": "通过手动投放优化广告方案",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-08T16:16:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-08T13:20:14.195Z",
+    "gorgiasUpdated": "2026-10-08T19:24:31.966Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
