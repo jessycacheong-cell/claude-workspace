@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T05:53:43.040Z",
+  "lastUpdated": "2026-10-08T05:54:37.218Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 120907777,
+        "subject": "Direct message with je.wavy",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-08T03:47:57.605000+00:00"
+      },
+      {
+        "id": 120902594,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-08T02:39:51+00:00"
+      },
+      {
         "id": 120876375,
         "subject": "Refund Initiated for Order 114-2369800-7915452",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-07T20:04:01+00:00"
-      },
-      {
-        "id": 120849112,
-        "subject": "Your Gorgias Inc receipt [#1584-2280]",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-07T19:45:11+00:00"
-      },
-      {
-        "id": 120848937,
-        "subject": "Thank you for your payment",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-07T19:43:52+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-07T23:47:01.334Z",
+    "gorgiasUpdated": "2026-10-08T05:54:37.012Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
