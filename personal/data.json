@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T18:46:00.377Z",
+  "lastUpdated": "2026-10-09T18:47:52.955Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 121094517,
-        "subject": "Understand these 4 things to land more brand deals 🤝",
+        "id": 121144990,
+        "subject": "Direct message with zerolovetennis",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-09T12:12:39+00:00"
+        "timestamp": "2026-10-09T17:46:45.326000+00:00"
       },
       {
-        "id": 121089745,
-        "subject": "Direct message with caliphallen",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-09T11:11:43.722000+00:00"
-      },
-      {
-        "id": 121082511,
-        "subject": "Direct message with watchthis_1962",
+        "id": 121121020,
+        "subject": "Direct message with drop_9_swm",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-10-09T09:18:49.239000+00:00"
+        "timestamp": "2026-10-09T15:18:51.713000+00:00"
       },
       {
-        "id": 121059166,
-        "subject": "👤 Someone at Unity racing you may know",
+        "id": 121115029,
+        "subject": "[Webinar] Inside ALPAKA's loyalty playbook",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-09T02:17:01+00:00"
+        "timestamp": "2026-10-09T14:46:11+00:00"
       },
       {
-        "id": 121002385,
-        "subject": "Direct message with rellfrm860",
+        "id": 121112575,
+        "subject": "a raw acoustic song i wanted to send you",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-09T14:29:16+00:00"
+      },
+      {
+        "id": 121108340,
+        "subject": "Direct message with eric.mikell.12",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-08T18:34:12.914000+00:00"
+        "timestamp": "2026-10-09T14:03:00.918000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-09T13:08:38.216Z",
+    "gorgiasUpdated": "2026-10-09T18:47:52.761Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
