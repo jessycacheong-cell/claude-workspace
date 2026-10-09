@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T13:07:33.903Z",
+  "lastUpdated": "2026-10-09T13:08:38.456Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 121094517,
+        "subject": "Understand these 4 things to land more brand deals 🤝",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-09T12:12:39+00:00"
+      },
+      {
+        "id": 121089745,
+        "subject": "Direct message with caliphallen",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-09T11:11:43.722000+00:00"
+      },
+      {
+        "id": 121082511,
+        "subject": "Direct message with watchthis_1962",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-09T09:18:49.239000+00:00"
+      },
+      {
         "id": 121059166,
         "subject": "👤 Someone at Unity racing you may know",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-08T18:34:12.914000+00:00"
-      },
-      {
-        "id": 120993394,
-        "subject": "AI Transformation sessions we think you'll enjoy from ZapConnect",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-08T17:40:27+00:00"
-      },
-      {
-        "id": 120992935,
-        "subject": "Direct message with cleoisneatlyluvbruh",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-08T17:37:44.916000+00:00"
-      },
-      {
-        "id": 120981238,
-        "subject": "Direct message with rubenramirezzz_",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-08T16:37:34.013000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-09T06:00:53.056Z",
+    "gorgiasUpdated": "2026-10-09T13:08:38.216Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
