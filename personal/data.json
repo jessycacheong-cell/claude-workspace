@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T05:59:41.369Z",
+  "lastUpdated": "2026-10-09T06:00:53.234Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 121059166,
+        "subject": "👤 Someone at Unity racing you may know",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-09T02:17:01+00:00"
+      },
+      {
         "id": 121002385,
         "subject": "Direct message with rellfrm860",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-08T16:37:34.013000+00:00"
-      },
-      {
-        "id": 120977259,
-        "subject": "通过手动投放优化广告方案",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-08T16:16:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-08T23:55:54.649Z",
+    "gorgiasUpdated": "2026-10-09T06:00:53.056Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
