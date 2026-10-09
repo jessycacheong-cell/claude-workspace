@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T23:11:10.637Z",
+  "lastUpdated": "2026-10-09T23:12:02.337Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,10 +90,31 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 121185678,
+        "subject": "Direct message with hewhofilms",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-09T22:07:45.989000+00:00"
+      },
+      {
+        "id": 121180867,
+        "subject": "Yumei, Share your thoughts: chance to win $500 (Reminder)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-09T21:30:58+00:00"
+      },
+      {
+        "id": 121179832,
+        "subject": "Direct message with kanyewest",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-09T21:23:56.324000+00:00"
+      },
+      {
         "id": 121144990,
         "subject": "Direct message with zerolovetennis",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-10-09T17:46:45.326000+00:00"
       },
       {
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-09T15:18:51.713000+00:00"
-      },
-      {
-        "id": 121115029,
-        "subject": "[Webinar] Inside ALPAKA's loyalty playbook",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-09T14:46:11+00:00"
-      },
-      {
-        "id": 121112575,
-        "subject": "a raw acoustic song i wanted to send you",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-09T14:29:16+00:00"
-      },
-      {
-        "id": 121108340,
-        "subject": "Direct message with eric.mikell.12",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-09T14:03:00.918000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-09T18:47:52.761Z",
+    "gorgiasUpdated": "2026-10-09T23:12:02.104Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
