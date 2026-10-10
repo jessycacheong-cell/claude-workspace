@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T22:53:43.360Z",
+  "lastUpdated": "2026-10-10T23:29:56.751Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 121304656,
+        "subject": "Direct message with joel_campo",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-10T23:25:28.942000+00:00"
+      },
+      {
+        "id": 121301877,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-10T22:46:58+00:00"
+      },
+      {
         "id": 121251560,
         "subject": "(No subject)",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-10T07:22:54.772000+00:00"
-      },
-      {
-        "id": 121215482,
-        "subject": "Direct message with ricky_redbeard",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-10T04:20:08.071000+00:00"
-      },
-      {
-        "id": 121215333,
-        "subject": "adidas Director Head Office & Internal Communication recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-10T04:17:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-10T20:01:10.295Z",
+    "gorgiasUpdated": "2026-10-10T23:29:56.358Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
