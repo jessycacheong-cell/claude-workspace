@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T15:17:14.080Z",
+  "lastUpdated": "2026-10-10T15:50:46.642Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 121251560,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-10T14:50:05+00:00"
+      },
+      {
+        "id": 121246878,
+        "subject": "Umei",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-10T14:04:03+00:00"
+      },
+      {
         "id": 121223569,
         "subject": "Oct 10, 2026 bill for UMEI Store",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-10T04:17:00+00:00"
-      },
-      {
-        "id": 121185678,
-        "subject": "Direct message with hewhofilms",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-09T22:07:45.989000+00:00"
-      },
-      {
-        "id": 121180867,
-        "subject": "Yumei, Share your thoughts: chance to win $500 (Reminder)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-09T21:30:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-10T09:44:20.773Z",
+    "gorgiasUpdated": "2026-10-10T15:50:46.464Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
