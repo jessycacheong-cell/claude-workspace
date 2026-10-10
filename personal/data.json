@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T08:55:56.203Z",
+  "lastUpdated": "2026-10-10T09:44:20.947Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 121223569,
+        "subject": "Oct 10, 2026 bill for UMEI Store",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-10T07:22:54.772000+00:00"
+      },
+      {
+        "id": 121215482,
+        "subject": "Direct message with ricky_redbeard",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-10T04:20:08.071000+00:00"
+      },
+      {
+        "id": 121215333,
+        "subject": "adidas Director Head Office & Internal Communication recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-10T04:17:00+00:00"
+      },
+      {
         "id": 121185678,
         "subject": "Direct message with hewhofilms",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-09T21:30:58+00:00"
-      },
-      {
-        "id": 121179832,
-        "subject": "Direct message with kanyewest",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-09T21:23:56.324000+00:00"
-      },
-      {
-        "id": 121144990,
-        "subject": "Direct message with zerolovetennis",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-09T17:46:45.326000+00:00"
-      },
-      {
-        "id": 121121020,
-        "subject": "Direct message with drop_9_swm",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-09T15:18:51.713000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-10T02:42:51.379Z",
+    "gorgiasUpdated": "2026-10-10T09:44:20.773Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
