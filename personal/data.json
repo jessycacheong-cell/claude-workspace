@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T19:41:12.275Z",
+  "lastUpdated": "2026-10-11T19:42:01.952Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 121358283,
+        "subject": "添加更多手动关键词投放广告活动",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-11T16:14:43+00:00"
+      },
+      {
         "id": 121318519,
         "subject": "🔥🔥",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-10T23:25:28.942000+00:00"
-      },
-      {
-        "id": 121301877,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-10T22:46:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-11T15:35:56.707Z",
+    "gorgiasUpdated": "2026-10-11T19:42:01.770Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
