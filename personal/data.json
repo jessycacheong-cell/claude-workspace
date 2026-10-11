@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T01:48:33.121Z",
+  "lastUpdated": "2026-10-11T02:09:21.337Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 121310298,
+        "subject": "Direct message with _darrell.miller",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-11T00:50:21.414000+00:00"
+      },
+      {
+        "id": 121309256,
+        "subject": "SeNd Me THis pOST",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-11T00:34:15+00:00"
+      },
+      {
         "id": 121304656,
         "subject": "Direct message with joel_campo",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-10T14:50:05+00:00"
-      },
-      {
-        "id": 121246878,
-        "subject": "Umei",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-10T14:04:03+00:00"
-      },
-      {
-        "id": 121223569,
-        "subject": "Oct 10, 2026 bill for UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-10T07:22:54.772000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-10T23:29:56.358Z",
+    "gorgiasUpdated": "2026-10-11T02:09:21.146Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
