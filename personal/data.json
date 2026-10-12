@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T02:19:08.731Z",
+  "lastUpdated": "2026-10-12T02:38:33.039Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 121409322,
+        "subject": "试用卖家助手，赢取 $100 亚马逊礼品卡的机会",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-12T02:17:54+00:00"
+      },
+      {
         "id": 121358283,
         "subject": "添加更多手动关键词投放广告活动",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-11T00:34:15+00:00"
-      },
-      {
-        "id": 121304656,
-        "subject": "Direct message with joel_campo",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-10T23:25:28.942000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-11T23:37:17.175Z",
+    "gorgiasUpdated": "2026-10-12T02:38:32.868Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
