@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T09:19:28.111Z",
+  "lastUpdated": "2026-10-13T09:19:56.037Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 121583628,
+        "subject": "Tai Huynh just posted new content",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-13T04:16:02+00:00"
+      },
+      {
+        "id": 121581033,
+        "subject": "Selling Privileges Under Review",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-13T03:39:21+00:00"
+      },
+      {
+        "id": 121577204,
+        "subject": "Direct message with shannondixon1160",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-13T02:55:25.649000+00:00"
+      },
+      {
+        "id": 121573721,
+        "subject": "👤 Someone at Avinya Racing you may know",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-13T02:16:01+00:00"
+      },
+      {
         "id": 121531392,
         "subject": "UMEI, your posts got 5 impressions last week",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-12T20:39:01+00:00"
-      },
-      {
-        "id": 121527710,
-        "subject": "Balance paid on your Amazon seller account",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-12T20:16:43+00:00"
-      },
-      {
-        "id": 121525354,
-        "subject": "Direct message with jessiannwilliams2002",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-12T20:02:39.073000+00:00"
-      },
-      {
-        "id": 121513230,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-12T18:59:22+00:00"
-      },
-      {
-        "id": 121502942,
-        "subject": "Crossroads Home Shared A secured document with you",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-12T18:01:39+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-13T01:58:48.037Z",
+    "gorgiasUpdated": "2026-10-13T09:19:55.826Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
