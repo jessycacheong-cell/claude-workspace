@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T17:03:22.948Z",
+  "lastUpdated": "2026-10-14T17:34:18.448Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 121775715,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-14T11:29:51.229000+00:00"
-      },
-      {
-        "id": 121756734,
-        "subject": "Ask the Amazon Quick team live on October 20",
+        "id": 121817446,
+        "subject": "在广告活动中添加商品投放",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-14T05:36:30+00:00"
+        "timestamp": "2026-10-14T16:10:35+00:00"
       },
       {
-        "id": 121755064,
-        "subject": "Set your own grading criteria for FBA returns",
+        "id": 121807340,
+        "subject": "Find the right tech for your business",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-14T05:03:25+00:00"
+        "timestamp": "2026-10-14T15:16:50+00:00"
       },
       {
-        "id": 121750613,
-        "subject": "A $100 Amazon.com gift card* for the holidays",
+        "id": 121803997,
+        "subject": "Your Sheets report, as a live dashboard",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-14T03:45:08.757000+00:00"
+        "timestamp": "2026-10-14T15:00:02+00:00"
       },
       {
-        "id": 121749407,
-        "subject": "Add or update a List Price to your listings",
+        "id": 121802211,
+        "subject": "Know exactly what you'll pay every week, no surprises",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-14T03:28:18+00:00"
+        "timestamp": "2026-10-14T14:49:22+00:00"
+      },
+      {
+        "id": 121801228,
+        "subject": "Your AI Agent is ready for Instagram, Messenger, and WhatsApp",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-14T14:45:11+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-14T12:23:35.707Z",
+    "gorgiasUpdated": "2026-10-14T17:34:18.258Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
