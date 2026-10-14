@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T11:43:08.258Z",
+  "lastUpdated": "2026-10-14T12:23:35.885Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 121775715,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-14T11:29:51.229000+00:00"
+      },
+      {
         "id": 121756734,
         "subject": "Ask the Amazon Quick team live on October 20",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-14T03:28:18+00:00"
-      },
-      {
-        "id": 121739361,
-        "subject": "Direct message with nmkldnsr",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-14T01:34:53.422000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-14T06:40:10.921Z",
+    "gorgiasUpdated": "2026-10-14T12:23:35.707Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
