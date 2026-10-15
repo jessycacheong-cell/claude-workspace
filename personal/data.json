@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T01:47:00.299Z",
+  "lastUpdated": "2026-10-15T04:28:37.186Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 121895292,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-15T01:02:31+00:00"
+      },
+      {
         "id": 121866847,
         "subject": "Refund Initiated for Order 113-4937441-1299434",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-14T15:16:50+00:00"
-      },
-      {
-        "id": 121803997,
-        "subject": "Your Sheets report, as a live dashboard",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-14T15:00:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-14T23:53:26.138Z",
+    "gorgiasUpdated": "2026-10-15T04:28:37.006Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
