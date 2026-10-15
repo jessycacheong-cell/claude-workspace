@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T12:49:44.246Z",
+  "lastUpdated": "2026-10-15T14:22:46.557Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 121944053,
+        "subject": "Umei Store before Black Friday",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-15T13:00:30+00:00"
+      },
+      {
+        "id": 121941096,
+        "subject": "Essential Loyalty is now a Judge.me partner 🎉",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-15T12:36:38+00:00"
+      },
+      {
+        "id": 121939673,
+        "subject": "Updates to Google Play Terms of Service",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-15T12:24:32+00:00"
+      },
+      {
+        "id": 121935305,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-15T11:39:05.310000+00:00"
+      },
+      {
         "id": 121895292,
         "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-15T01:02:31+00:00"
-      },
-      {
-        "id": 121866847,
-        "subject": "Refund Initiated for Order 113-4937441-1299434",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-14T21:01:25+00:00"
-      },
-      {
-        "id": 121845611,
-        "subject": "Follow up",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-14T18:47:43+00:00"
-      },
-      {
-        "id": 121817446,
-        "subject": "在广告活动中添加商品投放",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-14T16:10:35+00:00"
-      },
-      {
-        "id": 121807340,
-        "subject": "Find the right tech for your business",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-14T15:16:50+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-15T09:23:02.298Z",
+    "gorgiasUpdated": "2026-10-15T14:22:46.334Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
