@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T23:48:43.786Z",
+  "lastUpdated": "2026-10-16T00:20:25.343Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122042372,
+        "subject": "Correction regarding a recent Amazon Quick message",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-15T22:46:39+00:00"
+      },
+      {
         "id": 122021333,
         "subject": "Bloom is now Rainbrand",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-15T13:00:30+00:00"
-      },
-      {
-        "id": 121941096,
-        "subject": "Essential Loyalty is now a Judge.me partner 🎉",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-15T12:36:38+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-15T21:44:54.999Z",
+    "gorgiasUpdated": "2026-10-16T00:20:25.164Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
