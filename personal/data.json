@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T04:22:35.706Z",
+  "lastUpdated": "2026-10-16T04:57:21.286Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122071306,
+        "subject": "Nike Senior Brand Marketing Director - Nike France recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-16T04:16:02+00:00"
+      },
+      {
+        "id": 122062738,
+        "subject": "👤 Someone at Unity racing you may know",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-16T02:16:00+00:00"
+      },
+      {
+        "id": 122058404,
+        "subject": "Earn new Business Discount badge for always-on visibility",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-16T01:29:27+00:00"
+      },
+      {
         "id": 122042372,
         "subject": "Correction regarding a recent Amazon Quick message",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-15T20:10:05+00:00"
-      },
-      {
-        "id": 122012466,
-        "subject": "Support Hispanic-owned businesses",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-15T19:15:47+00:00"
-      },
-      {
-        "id": 121967888,
-        "subject": "您的 $500 广告折扣券即将到期*",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-15T15:11:01+00:00"
-      },
-      {
-        "id": 121944053,
-        "subject": "Umei Store before Black Friday",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-15T13:00:30+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-16T00:20:25.164Z",
+    "gorgiasUpdated": "2026-10-16T04:57:21.080Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
