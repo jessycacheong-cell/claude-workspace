@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T18:01:24.601Z",
+  "lastUpdated": "2026-10-16T18:45:52.297Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122159215,
+        "subject": "Direct message with _spuntaneous",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-16T18:27:49.191000+00:00"
+      },
+      {
+        "id": 122154685,
+        "subject": "Direct message with therealmonalissa",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-16T18:06:58.284000+00:00"
+      },
+      {
+        "id": 122129413,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-16T15:44:09+00:00"
+      },
+      {
         "id": 122111611,
         "subject": "Marketers ZUG - Free webinar on Zoho TouchPoint",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-16T13:03:02+00:00"
-      },
-      {
-        "id": 122097945,
-        "subject": "You don't own your audience — fix that with Manychat 🔨",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-16T12:14:07+00:00"
-      },
-      {
-        "id": 122079347,
-        "subject": "Chargeback evidence submitted for order #1807",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-16T07:00:16+00:00"
-      },
-      {
-        "id": 122071306,
-        "subject": "Nike Senior Brand Marketing Director - Nike France recently posted",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-16T04:16:02+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-16T14:47:14.077Z",
+    "gorgiasUpdated": "2026-10-16T18:45:52.101Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
