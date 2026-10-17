@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-16T23:30:54.883Z",
+  "lastUpdated": "2026-10-17T00:23:51.058Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -107,7 +107,7 @@
         "id": 122159215,
         "subject": "Direct message with _spuntaneous",
         "customer": "Unknown",
-        "status": "open",
+        "status": "closed",
         "timestamp": "2026-10-16T18:27:49.191000+00:00"
       },
       {
@@ -125,7 +125,7 @@
         "timestamp": "2026-10-16T15:44:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-16T22:02:15.162Z",
+    "gorgiasUpdated": "2026-10-17T00:23:50.848Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
