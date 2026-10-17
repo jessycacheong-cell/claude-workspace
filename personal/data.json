@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T01:30:12.909Z",
+  "lastUpdated": "2026-10-17T04:57:10.704Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122218713,
+        "subject": "Your Topaz Labs renewal order from October 16, 2026 is complete",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-17T03:40:30+00:00"
+      },
+      {
         "id": 122191743,
         "subject": "Improvements to Your Data Manager Experience",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-16T18:06:58.284000+00:00"
-      },
-      {
-        "id": 122129413,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-16T15:44:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-17T00:23:50.848Z",
+    "gorgiasUpdated": "2026-10-17T04:57:10.533Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
