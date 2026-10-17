@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T13:53:35.871Z",
+  "lastUpdated": "2026-10-17T16:23:45.793Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122262823,
+        "subject": "Shipping to Singapore?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-17T16:09:33+00:00"
+      },
+      {
         "id": 122218713,
         "subject": "Your Topaz Labs renewal order from October 16, 2026 is complete",
         "customer": "Unknown",
@@ -114,18 +121,11 @@
         "id": 122159215,
         "subject": "Direct message with _spuntaneous",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-16T18:27:49.191000+00:00"
-      },
-      {
-        "id": 122154685,
-        "subject": "Direct message with therealmonalissa",
-        "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-10-16T18:06:58.284000+00:00"
+        "timestamp": "2026-10-16T18:27:49.191000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-17T13:09:44.324Z",
+    "gorgiasUpdated": "2026-10-17T16:23:45.601Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
