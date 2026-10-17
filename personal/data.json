@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T19:17:31.591Z",
+  "lastUpdated": "2026-10-17T21:24:17.465Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122294777,
+        "subject": "Direct message with austinthephilosurfer",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-17T21:16:35.902000+00:00"
+      },
+      {
+        "id": 122293295,
+        "subject": "Direct message with cvx420",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-17T20:57:50.741000+00:00"
+      },
+      {
+        "id": 122288617,
+        "subject": "Direct message with los.aki",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-17T20:03:10.860000+00:00"
+      },
+      {
+        "id": 122284167,
+        "subject": "Lets gooo 👑👑💯",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-17T19:14:41+00:00"
+      },
+      {
         "id": 122277747,
         "subject": "Direct message with longliverichhh",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-17T18:04:32.670000+00:00"
-      },
-      {
-        "id": 122262823,
-        "subject": "Shipping to Singapore?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-17T16:09:33+00:00"
-      },
-      {
-        "id": 122218713,
-        "subject": "Your Topaz Labs renewal order from October 16, 2026 is complete",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-17T03:40:30+00:00"
-      },
-      {
-        "id": 122191743,
-        "subject": "Improvements to Your Data Manager Experience",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-16T22:00:23+00:00"
-      },
-      {
-        "id": 122174407,
-        "subject": "🔥 Start Selling on TikTok Shop Today",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-16T19:53:40.323000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-17T18:47:54.847Z",
+    "gorgiasUpdated": "2026-10-17T21:24:17.281Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
