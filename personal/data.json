@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T13:11:59.075Z",
+  "lastUpdated": "2026-10-18T14:50:01.319Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122342828,
+        "subject": "Direct message with adam50j",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-18T13:32:06.864000+00:00"
+      },
+      {
+        "id": 122338556,
+        "subject": "Direct message with beliciayvdworman",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-18T12:27:27.482000+00:00"
+      },
+      {
         "id": 122325051,
         "subject": "Quick question about Umei",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-18T05:36:27+00:00"
-      },
-      {
-        "id": 122323163,
-        "subject": "Direct message with _demiera",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-18T05:31:44.697000+00:00"
-      },
-      {
-        "id": 122318450,
-        "subject": "See more of the conversions you're already driving",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-18T03:31:39+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-18T11:40:05.793Z",
+    "gorgiasUpdated": "2026-10-18T14:50:01.076Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
