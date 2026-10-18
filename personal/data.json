@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-17T23:59:15.794Z",
+  "lastUpdated": "2026-10-18T01:29:55.210Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122310710,
+        "subject": "Love it",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-18T01:02:04+00:00"
+      },
+      {
+        "id": 122310582,
+        "subject": "Direct message with heat_archive",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-18T00:59:50.376000+00:00"
+      },
+      {
         "id": 122302247,
         "subject": "Direct message with hanselaquino",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-17T20:57:50.741000+00:00"
-      },
-      {
-        "id": 122288617,
-        "subject": "Direct message with los.aki",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-17T20:03:10.860000+00:00"
-      },
-      {
-        "id": 122284167,
-        "subject": "Lets gooo 👑👑💯",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-17T19:14:41+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-17T23:22:38.069Z",
+    "gorgiasUpdated": "2026-10-18T01:29:55.044Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
