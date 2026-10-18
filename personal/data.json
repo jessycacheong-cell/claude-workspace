@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T16:30:14.041Z",
+  "lastUpdated": "2026-10-18T18:02:27.890Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122357870,
+        "subject": "🔥🔥",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-18T16:26:09+00:00"
+      },
+      {
         "id": 122342828,
         "subject": "Direct message with adam50j",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-18T06:08:56.801000+00:00"
-      },
-      {
-        "id": 122323307,
-        "subject": "🙏",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-18T05:36:27+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-18T14:50:01.076Z",
+    "gorgiasUpdated": "2026-10-18T18:02:27.746Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
