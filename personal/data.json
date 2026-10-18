@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T04:21:01.786Z",
+  "lastUpdated": "2026-10-18T06:33:39.900Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 122310710,
-        "subject": "Love it",
+        "id": 122324276,
+        "subject": "Direct message with nicola.ader",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-10-18T01:02:04+00:00"
+        "timestamp": "2026-10-18T06:08:56.801000+00:00"
       },
       {
-        "id": 122310582,
-        "subject": "Direct message with heat_archive",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-18T00:59:50.376000+00:00"
-      },
-      {
-        "id": 122302247,
-        "subject": "Direct message with hanselaquino",
+        "id": 122323307,
+        "subject": "🙏",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-10-17T22:53:15.352000+00:00"
+        "timestamp": "2026-10-18T05:36:27+00:00"
       },
       {
-        "id": 122294777,
-        "subject": "Direct message with austinthephilosurfer",
+        "id": 122323163,
+        "subject": "Direct message with _demiera",
         "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-17T21:16:35.902000+00:00"
+        "status": "open",
+        "timestamp": "2026-10-18T05:31:44.697000+00:00"
       },
       {
-        "id": 122293295,
-        "subject": "Direct message with cvx420",
+        "id": 122318450,
+        "subject": "See more of the conversions you're already driving",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-17T20:57:50.741000+00:00"
+        "timestamp": "2026-10-18T03:31:39+00:00"
+      },
+      {
+        "id": 122315417,
+        "subject": "Voice Message from 19164103135",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-18T02:27:01+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-18T01:29:55.044Z",
+    "gorgiasUpdated": "2026-10-18T06:33:39.713Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
