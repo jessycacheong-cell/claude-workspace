@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T14:36:27.455Z",
+  "lastUpdated": "2026-10-19T17:44:42.850Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 122424802,
-        "subject": "Customised Grading now available for your FBA returns",
+        "id": 122488733,
+        "subject": "Your Week In Reviews For UMEI Store",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-19T07:52:34+00:00"
+        "timestamp": "2026-10-19T17:02:37+00:00"
       },
       {
-        "id": 122416489,
-        "subject": "Direct message with pilotandco.catalog",
+        "id": 122479629,
+        "subject": "Mention in _darrell.miller's story",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-19T05:12:38.513000+00:00"
+        "timestamp": "2026-10-19T16:13:39.154000+00:00"
       },
       {
-        "id": 122406335,
-        "subject": "🙌",
+        "id": 122462994,
+        "subject": "Help achieve your business goals with a PayPal Business Loan",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-19T02:07:56+00:00"
+        "status": "closed",
+        "timestamp": "2026-10-19T14:47:37+00:00"
       },
       {
-        "id": 122401644,
-        "subject": "(No subject)",
+        "id": 122459381,
+        "subject": "Smart Filters are live",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-19T01:05:15+00:00"
+        "status": "closed",
+        "timestamp": "2026-10-19T14:27:55+00:00"
       },
       {
-        "id": 122397900,
-        "subject": "Direct message with designsbyleaf",
+        "id": 122456292,
+        "subject": "Business gifting made easy",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-19T00:16:38.630000+00:00"
+        "status": "closed",
+        "timestamp": "2026-10-19T14:10:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-19T11:13:06.270Z",
+    "gorgiasUpdated": "2026-10-19T17:44:42.615Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
