@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T21:17:39.043Z",
+  "lastUpdated": "2026-10-19T22:17:30.001Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122535214,
+        "subject": "Direct message with skrilla_gang37",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-19T21:01:36.797000+00:00"
+      },
+      {
+        "id": 122527839,
+        "subject": "🚀 Sell on TikTok Shop Before Holiday Season",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-19T20:27:55.761000+00:00"
+      },
+      {
+        "id": 122502568,
+        "subject": "Direct message with kris.fralich",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-19T18:18:07.958000+00:00"
+      },
+      {
         "id": 122488733,
         "subject": "Your Week In Reviews For UMEI Store",
         "customer": "Unknown",
@@ -100,32 +121,11 @@
         "id": 122479629,
         "subject": "Mention in _darrell.miller's story",
         "customer": "Unknown",
-        "status": "closed",
+        "status": "open",
         "timestamp": "2026-10-19T16:13:39.154000+00:00"
-      },
-      {
-        "id": 122462994,
-        "subject": "Help achieve your business goals with a PayPal Business Loan",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-19T14:47:37+00:00"
-      },
-      {
-        "id": 122459381,
-        "subject": "Smart Filters are live",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-19T14:27:55+00:00"
-      },
-      {
-        "id": 122456292,
-        "subject": "Business gifting made easy",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-19T14:10:31+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-19T17:44:42.615Z",
+    "gorgiasUpdated": "2026-10-19T22:17:29.833Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
