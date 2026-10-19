@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T23:36:08.921Z",
+  "lastUpdated": "2026-10-19T00:27:17.085Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 122382404,
-        "subject": "Direct message with jacobriver198",
+        "id": 122397900,
+        "subject": "Direct message with designsbyleaf",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-19T00:16:38.630000+00:00"
+      },
+      {
+        "id": 122396259,
+        "subject": "Direct message with karim_mskini",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-18T21:01:52.244000+00:00"
+        "timestamp": "2026-10-18T23:58:46.095000+00:00"
       },
       {
-        "id": 122380693,
-        "subject": "🔥",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-18T20:43:38+00:00"
-      },
-      {
-        "id": 122371278,
-        "subject": "Re: Return Order #1686",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-18T18:57:42+00:00"
-      },
-      {
-        "id": 122369108,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-18T18:30:10+00:00"
-      },
-      {
-        "id": 122368371,
-        "subject": "Send ( Price list )\"",
+        "id": 122395984,
+        "subject": "Direct message with shimmyshimmyya_",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-18T18:21:36+00:00"
+        "timestamp": "2026-10-18T23:54:45.843000+00:00"
+      },
+      {
+        "id": 122393303,
+        "subject": "Item shared with you: \"Umei 3D - what makes a good recovery sandal.mp4\"",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-18T23:17:53+00:00"
+      },
+      {
+        "id": 122393249,
+        "subject": "Direct message with zerolovetennis",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-18T23:16:52.064000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-18T22:34:36.378Z",
+    "gorgiasUpdated": "2026-10-19T00:27:16.870Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
