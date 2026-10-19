@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T06:44:50.273Z",
+  "lastUpdated": "2026-10-19T11:13:06.471Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122424802,
+        "subject": "Customised Grading now available for your FBA returns",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-19T07:52:34+00:00"
+      },
+      {
         "id": 122416489,
         "subject": "Direct message with pilotandco.catalog",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-19T00:16:38.630000+00:00"
-      },
-      {
-        "id": 122396259,
-        "subject": "Direct message with karim_mskini",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-18T23:58:46.095000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-19T05:16:23.782Z",
+    "gorgiasUpdated": "2026-10-19T11:13:06.270Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
