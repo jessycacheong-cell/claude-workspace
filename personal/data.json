@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T12:56:11.904Z",
+  "lastUpdated": "2026-10-20T16:55:31.346Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122653436,
+        "subject": "Member benefit: Save 25% on Pixel 11 series phones",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-20T16:43:45+00:00"
+      },
+      {
+        "id": 122649530,
+        "subject": "Case Study | Story-first filmmaking",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-20T16:15:36+00:00"
+      },
+      {
+        "id": 122636679,
+        "subject": "Marketers ZUG - Free webinar on Zoho TouchPoint",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-20T15:03:01+00:00"
+      },
+      {
         "id": 122595615,
         "subject": "Direct message with justt_gap",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-20T04:16:02+00:00"
-      },
-      {
-        "id": 122573081,
-        "subject": "⏰ 卖家论坛活动即将结束！试用卖家助手，赢取 $100",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-20T02:28:57+00:00"
-      },
-      {
-        "id": 122571908,
-        "subject": "👤 Someone at STEM Racing USA you may know",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-20T02:16:02+00:00"
-      },
-      {
-        "id": 122566428,
-        "subject": "A $100 Amazon.com gift card, yours to spend",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-20T01:15:06.443000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-20T12:05:59.031Z",
+    "gorgiasUpdated": "2026-10-20T16:55:31.176Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
