@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-19T23:34:28.544Z",
+  "lastUpdated": "2026-10-20T01:14:06.608Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122562110,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-20T00:32:40+00:00"
+      },
+      {
+        "id": 122561480,
+        "subject": "My favorite camera man",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-20T00:25:58+00:00"
+      },
+      {
+        "id": 122549053,
+        "subject": "Direct message with largefather1904",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-19T22:35:15.778000+00:00"
+      },
+      {
         "id": 122535214,
         "subject": "Direct message with skrilla_gang37",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-19T20:27:55.761000+00:00"
-      },
-      {
-        "id": 122502568,
-        "subject": "Direct message with kris.fralich",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-19T18:18:07.958000+00:00"
-      },
-      {
-        "id": 122488733,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-19T17:02:37+00:00"
-      },
-      {
-        "id": 122479629,
-        "subject": "Mention in _darrell.miller's story",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-19T16:13:39.154000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-19T22:17:29.833Z",
+    "gorgiasUpdated": "2026-10-20T01:14:06.416Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
