@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T02:02:26.268Z",
+  "lastUpdated": "2026-10-20T06:33:27.370Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122580665,
+        "subject": "HiveWatch recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-20T04:16:02+00:00"
+      },
+      {
+        "id": 122573081,
+        "subject": "⏰ 卖家论坛活动即将结束！试用卖家助手，赢取 $100",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-20T02:28:57+00:00"
+      },
+      {
+        "id": 122571908,
+        "subject": "👤 Someone at STEM Racing USA you may know",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-20T02:16:02+00:00"
+      },
+      {
+        "id": 122566428,
+        "subject": "A $100 Amazon.com gift card, yours to spend",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-20T01:15:06.443000+00:00"
+      },
+      {
         "id": 122562110,
         "subject": "(No subject)",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-20T00:32:40+00:00"
-      },
-      {
-        "id": 122561480,
-        "subject": "My favorite camera man",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-20T00:25:58+00:00"
-      },
-      {
-        "id": 122549053,
-        "subject": "Direct message with largefather1904",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-19T22:35:15.778000+00:00"
-      },
-      {
-        "id": 122535214,
-        "subject": "Direct message with skrilla_gang37",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-19T21:01:36.797000+00:00"
-      },
-      {
-        "id": 122527839,
-        "subject": "🚀 Sell on TikTok Shop Before Holiday Season",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-19T20:27:55.761000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-20T01:14:06.416Z",
+    "gorgiasUpdated": "2026-10-20T06:33:27.143Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
