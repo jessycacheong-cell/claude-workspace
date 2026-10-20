@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T21:32:39.979Z",
+  "lastUpdated": "2026-10-20T23:22:03.781Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 122694131,
-        "subject": "Direct message with mydudekyle",
+        "id": 122702282,
+        "subject": "Your Google Analytics performance report is in for September 23rd - October 20th",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-20T20:29:34.017000+00:00"
+        "timestamp": "2026-10-20T21:24:07+00:00"
       },
       {
-        "id": 122690036,
-        "subject": "Love this",
+        "id": 122701721,
+        "subject": "Direct message with giorgiobatt1974",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-10-20T20:05:24+00:00"
+        "timestamp": "2026-10-20T21:20:13.420000+00:00"
       },
       {
-        "id": 122689183,
-        "subject": "Direct message with lj_ruffin",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-20T20:00:18.828000+00:00"
-      },
-      {
-        "id": 122688924,
-        "subject": "Direct message with esk8unity",
+        "id": 122699941,
+        "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-20T19:58:51.732000+00:00"
+        "timestamp": "2026-10-20T21:07:19+00:00"
       },
       {
-        "id": 122688923,
-        "subject": "Direct message with esk8unity",
+        "id": 122697847,
+        "subject": "Direct message with ju2tinr",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-20T20:53:12.507000+00:00"
+      },
+      {
+        "id": 122696778,
+        "subject": "(No subject)",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-10-20T19:58:50.278000+00:00"
+        "timestamp": "2026-10-20T20:46:10+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-20T20:32:07.611Z",
+    "gorgiasUpdated": "2026-10-20T23:22:03.414Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
