@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T20:12:29.169Z",
+  "lastUpdated": "2026-10-20T20:32:07.826Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 122653436,
-        "subject": "Member benefit: Save 25% on Pixel 11 series phones",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-20T16:43:45+00:00"
-      },
-      {
-        "id": 122649530,
-        "subject": "Case Study | Story-first filmmaking",
+        "id": 122694131,
+        "subject": "Direct message with mydudekyle",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-20T16:15:36+00:00"
+        "timestamp": "2026-10-20T20:29:34.017000+00:00"
       },
       {
-        "id": 122636679,
-        "subject": "Marketers ZUG - Free webinar on Zoho TouchPoint",
+        "id": 122690036,
+        "subject": "Love this",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-10-20T15:03:01+00:00"
+        "timestamp": "2026-10-20T20:05:24+00:00"
       },
       {
-        "id": 122595615,
-        "subject": "Direct message with justt_gap",
+        "id": 122689183,
+        "subject": "Direct message with lj_ruffin",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-10-20T09:06:21.236000+00:00"
+        "timestamp": "2026-10-20T20:00:18.828000+00:00"
       },
       {
-        "id": 122580665,
-        "subject": "HiveWatch recently posted",
+        "id": 122688924,
+        "subject": "Direct message with esk8unity",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-20T04:16:02+00:00"
+        "timestamp": "2026-10-20T19:58:51.732000+00:00"
+      },
+      {
+        "id": 122688923,
+        "subject": "Direct message with esk8unity",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-20T19:58:50.278000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-20T16:55:31.176Z",
+    "gorgiasUpdated": "2026-10-20T20:32:07.611Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
