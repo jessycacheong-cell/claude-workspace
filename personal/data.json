@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T20:24:20.697Z",
+  "lastUpdated": "2026-10-21T21:57:58.578Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122839228,
+        "subject": "Start Growing on TikTok Shop in Minutes",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-21T19:22:07.431000+00:00"
+      },
+      {
+        "id": 122837864,
+        "subject": "Amazon has shipped your sold item(s)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-21T19:13:23+00:00"
+      },
+      {
+        "id": 122835920,
+        "subject": "Share your thoughts for a chance to win $100!",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-21T19:01:48.682000+00:00"
+      },
+      {
         "id": 122819440,
         "subject": "Automated unfulfillable FBA inventory removal notification",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-21T17:04:40+00:00"
-      },
-      {
-        "id": 122798052,
-        "subject": "Three creative shortcuts to polished design",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-21T15:29:38+00:00"
-      },
-      {
-        "id": 122809965,
-        "subject": "Kling 4.0 is here: direct every frame",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-21T15:25:59+00:00"
-      },
-      {
-        "id": 122790940,
-        "subject": "Up to $200,000 ready to put to work in your business",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-21T14:47:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-21T18:14:27.543Z",
+    "gorgiasUpdated": "2026-10-21T21:57:58.387Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
