@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T14:37:50.856Z",
+  "lastUpdated": "2026-10-21T18:14:27.730Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 122767555,
-        "subject": "Top deals for business: Yumei, save with limited-time deals",
+        "id": 122819440,
+        "subject": "Automated unfulfillable FBA inventory removal notification",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-21T12:03:31+00:00"
+        "timestamp": "2026-10-21T17:26:28+00:00"
       },
       {
-        "id": 122765095,
-        "subject": "You lost the chargeback for order #1807",
+        "id": 122815421,
+        "subject": "Zoho Campaigns Subscription - Payment Renewal Ahead!",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-21T11:33:28+00:00"
+        "timestamp": "2026-10-21T17:04:40+00:00"
       },
       {
-        "id": 122764785,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "id": 122798052,
+        "subject": "Three creative shortcuts to polished design",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-21T11:29:53.264000+00:00"
+        "status": "closed",
+        "timestamp": "2026-10-21T15:29:38+00:00"
       },
       {
-        "id": 122757873,
-        "subject": "Direct message with sneaker.com101101",
+        "id": 122809965,
+        "subject": "Kling 4.0 is here: direct every frame",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-21T09:35:40.780000+00:00"
+        "status": "closed",
+        "timestamp": "2026-10-21T15:25:59+00:00"
       },
       {
-        "id": 122754408,
-        "subject": "Direct message with kyreewalker1",
+        "id": 122790940,
+        "subject": "Up to $200,000 ready to put to work in your business",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-21T08:23:43.135000+00:00"
+        "status": "closed",
+        "timestamp": "2026-10-21T14:47:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-21T13:11:30.734Z",
+    "gorgiasUpdated": "2026-10-21T18:14:27.543Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
