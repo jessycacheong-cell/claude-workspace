@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T09:34:34.346Z",
+  "lastUpdated": "2026-10-21T13:11:30.951Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 122736186,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-21T02:44:02+00:00"
-      },
-      {
-        "id": 122730292,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-21T01:34:39+00:00"
-      },
-      {
-        "id": 122729423,
-        "subject": "Payment confirmed",
+        "id": 122767555,
+        "subject": "Top deals for business: Yumei, save with limited-time deals",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-21T01:25:07+00:00"
+        "timestamp": "2026-10-21T12:03:31+00:00"
       },
       {
-        "id": 122702282,
-        "subject": "Your Google Analytics performance report is in for September 23rd - October 20th",
+        "id": 122765095,
+        "subject": "You lost the chargeback for order #1807",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-20T21:24:07+00:00"
+        "timestamp": "2026-10-21T11:33:28+00:00"
       },
       {
-        "id": 122701721,
-        "subject": "Direct message with giorgiobatt1974",
+        "id": 122764785,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-10-20T21:20:13.420000+00:00"
+        "timestamp": "2026-10-21T11:29:53.264000+00:00"
+      },
+      {
+        "id": 122757873,
+        "subject": "Direct message with sneaker.com101101",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-21T09:35:40.780000+00:00"
+      },
+      {
+        "id": 122754408,
+        "subject": "Direct message with kyreewalker1",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-21T08:23:43.135000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-21T07:30:27.128Z",
+    "gorgiasUpdated": "2026-10-21T13:11:30.734Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
