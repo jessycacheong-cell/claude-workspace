@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T00:06:07.302Z",
+  "lastUpdated": "2026-10-21T01:58:43.161Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122730292,
+        "subject": "(No subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-21T01:34:39+00:00"
+      },
+      {
+        "id": 122729423,
+        "subject": "Payment confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-21T01:25:07+00:00"
+      },
+      {
         "id": 122702282,
         "subject": "Your Google Analytics performance report is in for September 23rd - October 20th",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-20T21:07:19+00:00"
-      },
-      {
-        "id": 122697847,
-        "subject": "Direct message with ju2tinr",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-20T20:53:12.507000+00:00"
-      },
-      {
-        "id": 122696778,
-        "subject": "(No subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-20T20:46:10+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-20T23:22:03.414Z",
+    "gorgiasUpdated": "2026-10-21T01:58:42.994Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
