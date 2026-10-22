@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T11:41:37.140Z",
+  "lastUpdated": "2026-10-22T15:37:36.389Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122953388,
+        "subject": "Gorgias Product Updates: AI Agent just got a lot more social",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-22T15:02:51+00:00"
+      },
+      {
+        "id": 122935166,
+        "subject": "[Webinar] ALPAKA's secret to a following discounts can't buy",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-22T13:17:26+00:00"
+      },
+      {
+        "id": 122928688,
+        "subject": "Get your store ready for Black Friday 👉",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-22T12:35:50+00:00"
+      },
+      {
+        "id": 122922993,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-22T11:40:38.247000+00:00"
+      },
+      {
         "id": 122885102,
         "subject": "What's new in Airtable this fall",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-22T01:38:59+00:00"
-      },
-      {
-        "id": 122872676,
-        "subject": "[UMEI Store] Order #1825 placed by Mariaeliza Agustin",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-21T23:29:20+00:00"
-      },
-      {
-        "id": 122867126,
-        "subject": "Wait, that's a thing now?",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-21T22:40:29+00:00"
-      },
-      {
-        "id": 122839228,
-        "subject": "Start Growing on TikTok Shop in Minutes",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-21T19:22:07.431000+00:00"
-      },
-      {
-        "id": 122837864,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-21T19:13:23+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-22T10:36:07.109Z",
+    "gorgiasUpdated": "2026-10-22T15:37:36.197Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
