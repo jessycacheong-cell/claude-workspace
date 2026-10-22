@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-22T16:00:47.189Z",
+  "lastUpdated": "2026-10-22T19:28:48.758Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 122988028,
+        "subject": "You’ll soon need a passkey for Merchant Center",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-22T18:12:42+00:00"
+      },
+      {
         "id": 122953388,
         "subject": "Gorgias Product Updates: AI Agent just got a lot more social",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-22T11:40:38.247000+00:00"
-      },
-      {
-        "id": 122885102,
-        "subject": "What's new in Airtable this fall",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-22T01:38:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-22T15:37:36.197Z",
+    "gorgiasUpdated": "2026-10-22T19:28:48.582Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
