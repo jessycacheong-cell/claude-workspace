@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T20:08:37.866Z",
+  "lastUpdated": "2026-10-23T20:23:07.539Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123180894,
+        "subject": "How does a beauty and haircare brand generate $1M+ in LIVE GMV through consistent daily TikTok Shop LIVE sessions?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-23T18:59:50.347000+00:00"
+      },
+      {
+        "id": 123164203,
+        "subject": "TrustShop is patched against the PHP security issue",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-23T17:57:04+00:00"
+      },
+      {
         "id": 123144508,
         "subject": "Adobe eLearning News – October 2026",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-23T13:03:31+00:00"
-      },
-      {
-        "id": 123088004,
-        "subject": "How 3.1M views changed everything for this creator  👀",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-23T12:09:22+00:00"
-      },
-      {
-        "id": 123067747,
-        "subject": "Direct message with therealmonalissa",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-23T07:20:34.367000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-23T16:59:41.915Z",
+    "gorgiasUpdated": "2026-10-23T20:23:07.379Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
