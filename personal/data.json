@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T07:23:31.153Z",
+  "lastUpdated": "2026-10-23T12:02:38.236Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123067747,
+        "subject": "Direct message with therealmonalissa",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-23T07:20:34.367000+00:00"
+      },
+      {
         "id": 123062676,
         "subject": "Refund Initiated for Order 112-7953057-8797015",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-23T00:37:48+00:00"
-      },
-      {
-        "id": 123040788,
-        "subject": "Amazon has shipped your sold item(s)",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-23T00:27:53+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-23T06:27:05.031Z",
+    "gorgiasUpdated": "2026-10-23T12:02:38.004Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
