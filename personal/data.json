@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T21:50:44.137Z",
+  "lastUpdated": "2026-10-24T23:40:40.205Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123421478,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-24T22:16:09+00:00"
+      },
+      {
         "id": 123414723,
         "subject": "Direct message with coreyborner24",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-24T07:59:24+00:00"
-      },
-      {
-        "id": 123290693,
-        "subject": "See how your prices compare with competitors, every day",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-24T05:37:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-24T21:33:39.099Z",
+    "gorgiasUpdated": "2026-10-24T23:40:40.044Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
