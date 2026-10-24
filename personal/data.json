@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T13:15:51.540Z",
+  "lastUpdated": "2026-10-24T16:13:01.075Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123372370,
+        "subject": "Invoice - 50102684792 from ZOHO Corporation.",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-24T14:29:35+00:00"
+      },
+      {
         "id": 123306996,
         "subject": "Zoho Campaigns - Your subscription is renewed",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-24T02:26:17+00:00"
-      },
-      {
-        "id": 123259679,
-        "subject": "Direct message with lj_ruffin",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-24T01:44:28.742000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-24T12:12:18.059Z",
+    "gorgiasUpdated": "2026-10-24T16:13:00.921Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
