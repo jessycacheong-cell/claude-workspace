@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T16:54:50.272Z",
+  "lastUpdated": "2026-10-24T18:58:21.612Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123393980,
+        "subject": "Re: Order #1824 confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-24T17:47:14+00:00"
+      },
+      {
         "id": 123372370,
         "subject": "Invoice - 50102684792 from ZOHO Corporation.",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-24T04:16:01+00:00"
-      },
-      {
-        "id": 123266078,
-        "subject": "Refund Initiated for Order 111-4335192-8604236",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-24T02:26:17+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-24T16:13:00.921Z",
+    "gorgiasUpdated": "2026-10-24T18:58:21.394Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
