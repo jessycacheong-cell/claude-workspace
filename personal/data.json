@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T09:04:50.801Z",
+  "lastUpdated": "2026-10-24T12:12:18.325Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123306996,
+        "subject": "Zoho Campaigns - Your subscription is renewed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-24T07:59:24+00:00"
+      },
+      {
         "id": 123290693,
         "subject": "See how your prices compare with competitors, every day",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-24T01:44:28.742000+00:00"
-      },
-      {
-        "id": 123225940,
-        "subject": "Why he defy him like that tho",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-23T22:28:06+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-24T07:13:36.765Z",
+    "gorgiasUpdated": "2026-10-24T12:12:18.059Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
