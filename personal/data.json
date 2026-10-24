@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-23T23:57:53.629Z",
+  "lastUpdated": "2026-10-24T01:55:58.997Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123259679,
+        "subject": "Direct message with lj_ruffin",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-24T01:44:28.742000+00:00"
+      },
+      {
         "id": 123225940,
         "subject": "Why he defy him like that tho",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-23T16:30:51+00:00"
-      },
-      {
-        "id": 123101511,
-        "subject": "[Reminder] Review your European Union political ads declaration",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-23T13:23:10+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-23T23:28:05.341Z",
+    "gorgiasUpdated": "2026-10-24T01:55:58.810Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
