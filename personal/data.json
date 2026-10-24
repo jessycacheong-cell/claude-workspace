@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-24T19:26:32.106Z",
+  "lastUpdated": "2026-10-24T21:33:39.561Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123414723,
+        "subject": "Direct message with coreyborner24",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-24T20:56:30.310000+00:00"
+      },
+      {
         "id": 123393980,
         "subject": "Re: Order #1824 confirmed",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-24T05:37:24+00:00"
-      },
-      {
-        "id": 123280813,
-        "subject": "HiveWatch just posted new content",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-24T04:16:01+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-24T18:58:21.394Z",
+    "gorgiasUpdated": "2026-10-24T21:33:39.099Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
