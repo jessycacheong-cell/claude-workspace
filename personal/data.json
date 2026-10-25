@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T20:44:58.219Z",
+  "lastUpdated": "2026-10-25T22:30:17.554Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123535368,
+        "subject": "Sweet i love it",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-25T21:53:37+00:00"
+      },
+      {
         "id": 123455965,
         "subject": "(no subject)",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-25T00:32:30.857000+00:00"
-      },
-      {
-        "id": 123430627,
-        "subject": "Direct message with kris.fralich",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-25T00:25:10.397000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-25T19:56:05.353Z",
+    "gorgiasUpdated": "2026-10-25T22:30:17.336Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
