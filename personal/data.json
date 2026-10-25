@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T10:06:00.017Z",
+  "lastUpdated": "2026-10-25T13:53:48.620Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123455965,
+        "subject": "(no subject)",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-25T10:07:03+00:00"
+      },
+      {
         "id": 123433179,
         "subject": "Refund Initiated for Order 112-9002822-2467409",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-25T00:25:10.397000+00:00"
-      },
-      {
-        "id": 123421478,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-24T22:16:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-25T09:22:13.684Z",
+    "gorgiasUpdated": "2026-10-25T13:53:48.370Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
