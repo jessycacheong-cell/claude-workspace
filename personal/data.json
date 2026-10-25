@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T00:16:30.680Z",
+  "lastUpdated": "2026-10-25T04:32:14.910Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123433179,
+        "subject": "Refund Initiated for Order 112-9002822-2467409",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-25T01:05:30+00:00"
+      },
+      {
+        "id": 123432056,
+        "subject": "Direct message with adventureequalslife",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-25T00:48:23.092000+00:00"
+      },
+      {
+        "id": 123431111,
+        "subject": "Direct message with urmanfritzy",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-25T00:32:30.857000+00:00"
+      },
+      {
+        "id": 123430627,
+        "subject": "Direct message with kris.fralich",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-25T00:25:10.397000+00:00"
+      },
+      {
         "id": 123421478,
         "subject": "You’ve got new messages from Likhon Acharjya",
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-24T22:16:09+00:00"
-      },
-      {
-        "id": 123414723,
-        "subject": "Direct message with coreyborner24",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-24T20:56:30.310000+00:00"
-      },
-      {
-        "id": 123393980,
-        "subject": "Re: Order #1824 confirmed",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-24T17:47:14+00:00"
-      },
-      {
-        "id": 123372370,
-        "subject": "Invoice - 50102684792 from ZOHO Corporation.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-24T14:29:35+00:00"
-      },
-      {
-        "id": 123306996,
-        "subject": "Zoho Campaigns - Your subscription is renewed",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-24T07:59:24+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-24T23:40:40.044Z",
+    "gorgiasUpdated": "2026-10-25T04:32:14.694Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
