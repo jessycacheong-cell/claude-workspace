@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T06:03:42.778Z",
+  "lastUpdated": "2026-10-26T06:05:09.504Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 123535368,
-        "subject": "Sweet i love it",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-25T21:53:37+00:00"
-      },
-      {
-        "id": 123455965,
-        "subject": "(no subject)",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-25T10:07:03+00:00"
-      },
-      {
-        "id": 123433179,
-        "subject": "Refund Initiated for Order 112-9002822-2467409",
+        "id": 123565996,
+        "subject": "Your Google Play Order Receipt from Oct 25, 2026",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-25T01:05:30+00:00"
+        "timestamp": "2026-10-26T05:44:20+00:00"
       },
       {
-        "id": 123432056,
-        "subject": "Direct message with adventureequalslife",
+        "id": 123564408,
+        "subject": "Direct message with lt_shinysides7",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-10-25T00:48:23.092000+00:00"
+        "timestamp": "2026-10-26T05:07:57.854000+00:00"
       },
       {
-        "id": 123431111,
-        "subject": "Direct message with urmanfritzy",
+        "id": 123562376,
+        "subject": "Your FBA removal request is complete (elmarKQalp)",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-26T04:19:49+00:00"
+      },
+      {
+        "id": 123562172,
+        "subject": "adidas just posted new content",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-26T04:16:00+00:00"
+      },
+      {
+        "id": 123558652,
+        "subject": "Extra orders for your Shopify store. No orders, no fees.",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-10-25T00:32:30.857000+00:00"
+        "timestamp": "2026-10-26T03:15:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-26T00:41:57.801Z",
+    "gorgiasUpdated": "2026-10-26T06:05:09.325Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
