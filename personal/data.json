@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T23:18:08.918Z",
+  "lastUpdated": "2026-10-26T23:18:25.190Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123685405,
+        "subject": "Add a backup payment to avoid order disruptions",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-26T20:50:19+00:00"
+      },
+      {
+        "id": 123676660,
+        "subject": "Balance paid on your Amazon seller account",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-26T20:04:40+00:00"
+      },
+      {
+        "id": 123672992,
+        "subject": "🔥🔥🔥🔥🔥",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-26T19:44:21+00:00"
+      },
+      {
+        "id": 123669158,
+        "subject": "Message from Usadoby HZ Usadoby HZ",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-26T19:22:24.948000+00:00"
+      },
+      {
         "id": 123666127,
         "subject": "Seller News: October 2026",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-26T19:06:09+00:00"
-      },
-      {
-        "id": 123656396,
-        "subject": "Start Growing on TikTok Shop in Minutes",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-26T18:14:25.721000+00:00"
-      },
-      {
-        "id": 123649346,
-        "subject": "Optimize UMEI Store’s Product Page To Get More Traffic",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-26T17:39:05+00:00"
-      },
-      {
-        "id": 123648072,
-        "subject": "[Webinar] Last chance to join ALPAKA tomorrow",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-26T17:33:23+00:00"
-      },
-      {
-        "id": 123641714,
-        "subject": "Your Week In Reviews For UMEI Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-26T17:02:34+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-26T19:13:11.202Z",
+    "gorgiasUpdated": "2026-10-26T23:18:25.017Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
