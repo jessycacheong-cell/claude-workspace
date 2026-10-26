@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T12:49:32.043Z",
+  "lastUpdated": "2026-10-26T12:50:15.630Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123572665,
+        "subject": "Set your own grading criteria for your FBA returns",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-26T07:56:08+00:00"
+      },
+      {
         "id": 123565996,
         "subject": "Your Google Play Order Receipt from Oct 25, 2026",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-26T04:16:00+00:00"
-      },
-      {
-        "id": 123558652,
-        "subject": "Extra orders for your Shopify store. No orders, no fees.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-26T03:15:55+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-26T06:05:09.325Z",
+    "gorgiasUpdated": "2026-10-26T12:50:15.446Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
