@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T02:23:14.181Z",
+  "lastUpdated": "2026-10-27T02:23:55.457Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123726213,
+        "subject": "👤 Someone at Avinya Racing you may know",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-27T02:16:02+00:00"
+      },
+      {
+        "id": 123720277,
+        "subject": "Get a $100 gift card for your next big order",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-27T01:15:04.858000+00:00"
+      },
+      {
         "id": 123685405,
         "subject": "Add a backup payment to avoid order disruptions",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-26T19:44:21+00:00"
-      },
-      {
-        "id": 123669158,
-        "subject": "Message from Usadoby HZ Usadoby HZ",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-26T19:22:24.948000+00:00"
-      },
-      {
-        "id": 123666127,
-        "subject": "Seller News: October 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-26T19:06:09+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-26T23:18:25.017Z",
+    "gorgiasUpdated": "2026-10-27T02:23:55.283Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
