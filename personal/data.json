@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T14:53:03.074Z",
+  "lastUpdated": "2026-10-27T20:01:04.833Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123840187,
+        "subject": "🚀 Sell on TikTok Shop Before Holiday Season",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-27T19:50:39.791000+00:00"
+      },
+      {
+        "id": 123821310,
+        "subject": "The money hiding in your damaged-order tickets",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-27T18:04:10+00:00"
+      },
+      {
+        "id": 123811189,
+        "subject": "Enjoy 25% off—just for returning customers",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-27T17:03:47+00:00"
+      },
+      {
         "id": 123744889,
         "subject": "Oct 27, 2026 bill for My Store",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-27T02:16:02+00:00"
-      },
-      {
-        "id": 123720277,
-        "subject": "Get a $100 gift card for your next big order",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-27T01:15:04.858000+00:00"
-      },
-      {
-        "id": 123685405,
-        "subject": "Add a backup payment to avoid order disruptions",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-26T20:50:19+00:00"
-      },
-      {
-        "id": 123676660,
-        "subject": "Balance paid on your Amazon seller account",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-26T20:04:40+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-27T14:53:02.843Z",
+    "gorgiasUpdated": "2026-10-27T20:01:04.601Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
