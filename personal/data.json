@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T05:29:28.037Z",
+  "lastUpdated": "2026-10-28T05:30:31.153Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 123895803,
+        "subject": "New Balance Brand President & Chief Marketing Officer recently posted",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-28T04:15:59+00:00"
+      },
+      {
+        "id": 123890760,
+        "subject": "Direct message with thabaconmanisback",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-28T03:01:07.994000+00:00"
+      },
+      {
+        "id": 123882599,
+        "subject": "Payment confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-28T01:25:07+00:00"
+      },
+      {
         "id": 123858506,
         "subject": "Would Umei3d like to ?",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-27T19:50:39.791000+00:00"
-      },
-      {
-        "id": 123821310,
-        "subject": "The money hiding in your damaged-order tickets",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-27T18:04:10+00:00"
-      },
-      {
-        "id": 123811189,
-        "subject": "Enjoy 25% off—just for returning customers",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-27T17:03:47+00:00"
-      },
-      {
-        "id": 123744889,
-        "subject": "Oct 27, 2026 bill for My Store",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-27T07:51:51+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-27T23:43:34.511Z",
+    "gorgiasUpdated": "2026-10-28T05:30:30.987Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
