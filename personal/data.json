@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T11:34:58.923Z",
+  "lastUpdated": "2026-10-28T11:35:49.507Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 123895803,
-        "subject": "New Balance Brand President & Chief Marketing Officer recently posted",
+        "id": 123918005,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-28T11:28:01.215000+00:00"
+      },
+      {
+        "id": 123913622,
+        "subject": "You’ve got new messages from Likhon Acharjya",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-28T10:21:03+00:00"
+      },
+      {
+        "id": 123911122,
+        "subject": "FBA reimbursement notification",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-28T04:15:59+00:00"
+        "timestamp": "2026-10-28T09:31:22+00:00"
       },
       {
-        "id": 123890760,
-        "subject": "Direct message with thabaconmanisback",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-28T03:01:07.994000+00:00"
-      },
-      {
-        "id": 123882599,
-        "subject": "Payment confirmed",
+        "id": 123909081,
+        "subject": "Brighten their day with a text",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-28T01:25:07+00:00"
+        "timestamp": "2026-10-28T08:55:18+00:00"
       },
       {
-        "id": 123858506,
-        "subject": "Would Umei3d like to ?",
+        "id": 123905077,
+        "subject": "48 hours left: your 30% off ends Friday",
         "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-27T21:46:34+00:00"
-      },
-      {
-        "id": 123840187,
-        "subject": "🚀 Sell on TikTok Shop Before Holiday Season",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-27T19:50:39.791000+00:00"
+        "status": "closed",
+        "timestamp": "2026-10-28T07:27:19+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-28T05:30:30.987Z",
+    "gorgiasUpdated": "2026-10-28T11:35:49.303Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
