@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T17:20:07.980Z",
+  "lastUpdated": "2026-10-28T17:20:56.195Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 123918005,
-        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-28T11:28:01.215000+00:00"
-      },
-      {
-        "id": 123913622,
-        "subject": "You’ve got new messages from Likhon Acharjya",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-28T10:21:03+00:00"
-      },
-      {
-        "id": 123911122,
-        "subject": "FBA reimbursement notification",
+        "id": 123966857,
+        "subject": "Re: Partnership Inquiry – UMEI x LIFT Management",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-28T09:31:22+00:00"
+        "timestamp": "2026-10-28T16:55:03+00:00"
       },
       {
-        "id": 123909081,
-        "subject": "Brighten their day with a text",
+        "id": 123962729,
+        "subject": "Your Forums digest: What's working for sellers right now",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-28T08:55:18+00:00"
+        "timestamp": "2026-10-28T16:31:43+00:00"
       },
       {
-        "id": 123905077,
-        "subject": "48 hours left: your 30% off ends Friday",
+        "id": 123960489,
+        "subject": "Your 20% UMEI code 🎉",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-10-28T07:27:19+00:00"
+        "timestamp": "2026-10-28T16:19:09+00:00"
+      },
+      {
+        "id": 123940010,
+        "subject": "The Review: October updates from Okendo",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-28T14:05:12+00:00"
+      },
+      {
+        "id": 123934565,
+        "subject": "We've updated our Terms of Service and privacy policies",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-28T13:52:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-28T11:35:49.303Z",
+    "gorgiasUpdated": "2026-10-28T17:20:55.995Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
