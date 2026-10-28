@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-28T21:52:44.768Z",
+  "lastUpdated": "2026-10-28T21:52:52.170Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 124009947,
+        "subject": "ondre8 replied to your story",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-28T21:13:10.270000+00:00"
+      },
+      {
+        "id": 123993220,
+        "subject": "Size 10 🥲",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-28T19:27:26+00:00"
+      },
+      {
+        "id": 123982038,
+        "subject": "Fall ’26 Edition just dropped",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-28T18:21:25+00:00"
+      },
+      {
         "id": 123966857,
         "subject": "Re: Partnership Inquiry – UMEI x LIFT Management",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-28T16:31:43+00:00"
-      },
-      {
-        "id": 123960489,
-        "subject": "Your 20% UMEI code 🎉",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-28T16:19:09+00:00"
-      },
-      {
-        "id": 123940010,
-        "subject": "The Review: October updates from Okendo",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-28T14:05:12+00:00"
-      },
-      {
-        "id": 123934565,
-        "subject": "We've updated our Terms of Service and privacy policies",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-28T13:52:14+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-28T17:20:55.995Z",
+    "gorgiasUpdated": "2026-10-28T21:52:51.986Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
