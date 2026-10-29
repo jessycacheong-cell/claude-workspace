@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T20:31:31.340Z",
+  "lastUpdated": "2026-10-29T20:32:40.897Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 124130689,
+        "subject": "BFCM offer: AI-Powered free for 30 days",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-29T17:57:11+00:00"
+      },
+      {
         "id": 124071565,
         "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-28T21:13:10.270000+00:00"
-      },
-      {
-        "id": 123993220,
-        "subject": "Size 10 🥲",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-28T19:27:26+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-29T15:30:44.948Z",
+    "gorgiasUpdated": "2026-10-29T20:32:40.703Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
