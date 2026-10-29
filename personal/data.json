@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T01:45:17.469Z",
+  "lastUpdated": "2026-10-29T01:45:50.181Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 124032286,
+        "subject": "Direct message with therealmonalissa",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-29T00:31:39.841000+00:00"
+      },
+      {
+        "id": 124015369,
+        "subject": "[UMEI Store] Order #1826 placed by Dang Nguyen",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-28T21:57:48+00:00"
+      },
+      {
         "id": 124009947,
         "subject": "ondre8 replied to your story",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-28T18:21:25+00:00"
-      },
-      {
-        "id": 123966857,
-        "subject": "Re: Partnership Inquiry – UMEI x LIFT Management",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-28T16:55:03+00:00"
-      },
-      {
-        "id": 123962729,
-        "subject": "Your Forums digest: What's working for sellers right now",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-28T16:31:43+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-28T21:52:51.986Z",
+    "gorgiasUpdated": "2026-10-29T01:45:50.000Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
