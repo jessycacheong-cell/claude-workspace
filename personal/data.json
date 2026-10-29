@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T15:30:13.781Z",
+  "lastUpdated": "2026-10-29T15:30:45.113Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 124071565,
+        "subject": "Google Workspace  AC, ynjcgfdc.com, Balance Due Reminder ABC File 3394439",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-29T11:35:25.270000+00:00"
+      },
+      {
         "id": 124032286,
         "subject": "Direct message with therealmonalissa",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-28T19:27:26+00:00"
-      },
-      {
-        "id": 123982038,
-        "subject": "Fall ’26 Edition just dropped",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-28T18:21:25+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-29T08:23:06.611Z",
+    "gorgiasUpdated": "2026-10-29T15:30:44.948Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
