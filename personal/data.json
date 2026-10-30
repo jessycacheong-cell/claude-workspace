@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T22:55:50.043Z",
+  "lastUpdated": "2026-10-30T22:56:14.718Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 124310432,
+        "subject": "Your TikTok Shop is one click away",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-30T20:30:17.148000+00:00"
+      },
+      {
+        "id": 124301714,
+        "subject": "Your FBA capacity limits for November",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-30T19:26:59+00:00"
+      },
+      {
         "id": 124275083,
         "subject": "Temporary peak season extensions for international FBA shipments",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-30T13:04:32+00:00"
-      },
-      {
-        "id": 124232572,
-        "subject": "How to gain 100k followers in 10 days... and keep them 😎",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-30T12:06:54+00:00"
-      },
-      {
-        "id": 124226131,
-        "subject": "Extra orders for your Shopify store. No orders, no fees.",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-30T10:34:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-30T18:49:18.107Z",
+    "gorgiasUpdated": "2026-10-30T22:56:14.565Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
