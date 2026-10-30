@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T00:16:40.332Z",
+  "lastUpdated": "2026-10-30T00:17:43.322Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 124175670,
+        "subject": "You've got 𝕏 Money",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-29T21:58:42+00:00"
+      },
+      {
+        "id": 124167506,
+        "subject": "🔥 Start Selling on TikTok Shop Today",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-29T21:05:56.684000+00:00"
+      },
+      {
+        "id": 124163145,
+        "subject": "Refund Initiated for Order 113-3662617-7144224",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-29T20:39:54+00:00"
+      },
+      {
         "id": 124130689,
         "subject": "BFCM offer: AI-Powered free for 30 days",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-29T11:35:25.270000+00:00"
-      },
-      {
-        "id": 124032286,
-        "subject": "Direct message with therealmonalissa",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-29T00:31:39.841000+00:00"
-      },
-      {
-        "id": 124015369,
-        "subject": "[UMEI Store] Order #1826 placed by Dang Nguyen",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-28T21:57:48+00:00"
-      },
-      {
-        "id": 124009947,
-        "subject": "ondre8 replied to your story",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-28T21:13:10.270000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-29T20:32:40.703Z",
+    "gorgiasUpdated": "2026-10-30T00:17:43.122Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
