@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-30T18:48:44.882Z",
+  "lastUpdated": "2026-10-30T18:49:18.281Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 124275083,
+        "subject": "Temporary peak season extensions for international FBA shipments",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-10-30T16:37:55+00:00"
+      },
+      {
+        "id": 124270527,
+        "subject": "Direct message with coreyborner24",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-10-30T16:09:21.732000+00:00"
+      },
+      {
         "id": 124240368,
         "subject": "Umei3d Llc, we miss you. Save 25%!",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "open",
         "timestamp": "2026-10-30T10:34:03+00:00"
-      },
-      {
-        "id": 124214830,
-        "subject": "Direct message with justt_gap",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-30T06:58:50.463000+00:00"
-      },
-      {
-        "id": 124208374,
-        "subject": "adidas just posted new content",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-30T04:16:00+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-10-30T13:29:37.026Z",
+    "gorgiasUpdated": "2026-10-30T18:49:18.107Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
