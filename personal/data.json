@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T20:26:47.413Z",
+  "lastUpdated": "2026-11-01T20:27:02.386Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 124486249,
+        "subject": "Congrats! You're now eligible to apply for a PayPal Business Loan",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-11-01T17:44:53+00:00"
+      },
+      {
+        "id": 124482759,
+        "subject": "与您相似的卖家推广的商品",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-11-01T17:07:49+00:00"
+      },
+      {
         "id": 124439946,
         "subject": "Your receipt from Auth0 by Okta #2218-0824",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-10-31T06:12:55.237000+00:00"
-      },
-      {
-        "id": 124310432,
-        "subject": "Your TikTok Shop is one click away",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-10-30T20:30:17.148000+00:00"
-      },
-      {
-        "id": 124301714,
-        "subject": "Your FBA capacity limits for November",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-10-30T19:26:59+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-11-01T16:00:36.891Z",
+    "gorgiasUpdated": "2026-11-01T20:27:02.243Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
