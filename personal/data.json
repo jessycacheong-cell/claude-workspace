@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-02T23:11:51.873Z",
+  "lastUpdated": "2026-11-02T23:12:19.819Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 124541226,
-        "subject": "New Balance just posted new content",
+        "id": 124657478,
+        "subject": "Direct message with maelagusan",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-11-02T04:16:02+00:00"
+        "timestamp": "2026-11-02T21:02:24.916000+00:00"
       },
       {
-        "id": 124534857,
-        "subject": "Updates to Link’s Terms of Service and Privacy Policy",
+        "id": 124657313,
+        "subject": "Direct message with therealmonalissa",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-11-02T02:36:58+00:00"
+        "timestamp": "2026-11-02T21:01:45.042000+00:00"
       },
       {
-        "id": 124519440,
-        "subject": "Inside: your launch plan, a webinar, an ebook, and more",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-01T23:43:32+00:00"
-      },
-      {
-        "id": 124506807,
-        "subject": "Direct message with kris.fralich",
+        "id": 124657013,
+        "subject": "Direct message with shotbygvo",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-11-01T21:15:50.364000+00:00"
+        "timestamp": "2026-11-02T21:00:03.638000+00:00"
       },
       {
-        "id": 124504915,
-        "subject": "Amazon Web Services Billing Statement Available [Account: 381492252471]",
+        "id": 124647449,
+        "subject": "Direct message with _darrell.miller",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-11-02T20:03:12.821000+00:00"
+      },
+      {
+        "id": 124629974,
+        "subject": "Gorgias: Update to our Data Sub-Processors",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-11-01T20:54:25+00:00"
+        "timestamp": "2026-11-02T18:29:03+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-11-02T15:39:05.327Z",
+    "gorgiasUpdated": "2026-11-02T23:12:19.650Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
