@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03T03:54:58.816Z",
+  "lastUpdated": "2026-11-03T04:00:07.808Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 124657478,
-        "subject": "Direct message with maelagusan",
+        "id": 124697790,
+        "subject": "Love it",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-11-03T02:32:52+00:00"
+      },
+      {
+        "id": 124696333,
+        "subject": "👤 Someone at Team Saturn you may know",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-11-02T21:02:24.916000+00:00"
+        "timestamp": "2026-11-03T02:16:01+00:00"
       },
       {
-        "id": 124657313,
-        "subject": "Direct message with therealmonalissa",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-11-02T21:01:45.042000+00:00"
-      },
-      {
-        "id": 124657013,
-        "subject": "Direct message with shotbygvo",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-11-02T21:00:03.638000+00:00"
-      },
-      {
-        "id": 124647449,
-        "subject": "Direct message with _darrell.miller",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-11-02T20:03:12.821000+00:00"
-      },
-      {
-        "id": 124629974,
-        "subject": "Gorgias: Update to our Data Sub-Processors",
+        "id": 124693439,
+        "subject": "(No subject)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-11-02T18:29:03+00:00"
+        "timestamp": "2026-11-03T01:43:47+00:00"
+      },
+      {
+        "id": 124693022,
+        "subject": "Direct message with alexjschulze",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-11-03T01:39:41.171000+00:00"
+      },
+      {
+        "id": 124690498,
+        "subject": "Mention in shimmyshimmyya_'s story",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-11-03T01:16:10.398000+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-11-02T23:12:19.650Z",
+    "gorgiasUpdated": "2026-11-03T04:00:07.627Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
