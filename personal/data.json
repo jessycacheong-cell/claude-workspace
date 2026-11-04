@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T14:22:53.321Z",
+  "lastUpdated": "2026-11-04T15:21:07.693Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 124865986,
-        "subject": "umei_3d, Get More 2,000 Instagram Followers and 2,000 Youtube Views here",
+        "id": 124890409,
+        "subject": "UniTel Voice Notice: New Invoice 838705",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-11-04T12:59:48+00:00"
+      },
+      {
+        "id": 124888303,
+        "subject": "Google Workspace  AC, ajedrezenvivo.com, Balance Due Reminder ABC File 3406095",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-11-04T05:34:31+00:00"
+        "timestamp": "2026-11-04T12:33:52.678000+00:00"
       },
       {
-        "id": 124849025,
-        "subject": "Payment confirmed",
+        "id": 124881716,
+        "subject": "Amazon has shipped your sold item(s)",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-11-04T01:25:07+00:00"
+        "timestamp": "2026-11-04T10:51:49+00:00"
       },
       {
-        "id": 124834536,
-        "subject": "hanselaquino replied to your story",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-11-03T23:02:52.707000+00:00"
-      },
-      {
-        "id": 124826296,
-        "subject": "Join Shopify and OpenAI for a free webinar: Reach holiday shoppers with ChatGPT Ads",
+        "id": 124881053,
+        "subject": "You're nearing your monthly sessions limit",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-11-03T22:04:02.741000+00:00"
+        "timestamp": "2026-11-04T10:38:41+00:00"
       },
       {
-        "id": 124810576,
-        "subject": "See how shoppers discover UMEI Store through AI",
+        "id": 124878966,
+        "subject": "Expand your reach and boost your engagement with SMS",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-11-03T20:21:00+00:00"
+        "timestamp": "2026-11-04T09:57:58+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-11-04T06:56:58.578Z",
+    "gorgiasUpdated": "2026-11-04T15:21:07.528Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
