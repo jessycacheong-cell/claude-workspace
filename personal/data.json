@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T00:10:39.926Z",
+  "lastUpdated": "2026-11-04T00:10:42.173Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 124834536,
+        "subject": "hanselaquino replied to your story",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-11-03T23:02:52.707000+00:00"
+      },
+      {
+        "id": 124826296,
+        "subject": "Join Shopify and OpenAI for a free webinar: Reach holiday shoppers with ChatGPT Ads",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-11-03T22:04:02.741000+00:00"
+      },
+      {
+        "id": 124810576,
+        "subject": "See how shoppers discover UMEI Store through AI",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-11-03T20:21:00+00:00"
+      },
+      {
         "id": 124796688,
         "subject": "New in TrustShop: upsells, referrals, photos",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-11-03T18:03:45+00:00"
-      },
-      {
-        "id": 124784360,
-        "subject": "You're eligible. See your loan options.",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-03T17:47:14+00:00"
-      },
-      {
-        "id": 124783243,
-        "subject": "Don’t miss out on triple cash back",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-03T17:40:12+00:00"
-      },
-      {
-        "id": 124771193,
-        "subject": "A new way to browse Apify Store, plus your agent builds Actors now",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-03T16:35:05+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-11-03T19:27:13.858Z",
+    "gorgiasUpdated": "2026-11-04T00:10:42.007Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
