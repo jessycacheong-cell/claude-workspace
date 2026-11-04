@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T06:08:21.142Z",
+  "lastUpdated": "2026-11-04T06:56:58.781Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,20 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 124865986,
+        "subject": "umei_3d, Get More 2,000 Instagram Followers and 2,000 Youtube Views here",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-11-04T05:34:31+00:00"
+      },
+      {
+        "id": 124849025,
+        "subject": "Payment confirmed",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-11-04T01:25:07+00:00"
+      },
+      {
         "id": 124834536,
         "subject": "hanselaquino replied to your story",
         "customer": "Unknown",
@@ -109,23 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-11-03T20:21:00+00:00"
-      },
-      {
-        "id": 124796688,
-        "subject": "New in TrustShop: upsells, referrals, photos",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-11-03T18:57:15+00:00"
-      },
-      {
-        "id": 124788901,
-        "subject": "Your go-to business products—now 25% off",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-03T18:03:45+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-11-04T00:10:42.007Z",
+    "gorgiasUpdated": "2026-11-04T06:56:58.578Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
