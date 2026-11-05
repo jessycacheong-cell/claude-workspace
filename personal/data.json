@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T22:38:51.738Z",
+  "lastUpdated": "2026-11-05T22:49:47.330Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 125128239,
+        "subject": "2027 Updates to US Referral and Fulfillment by Amazon fees",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-11-05T21:02:46+00:00"
+      },
+      {
+        "id": 125122738,
+        "subject": "Fewer tabs, more video: what’s new in Descript",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-11-05T20:25:13+00:00"
+      },
+      {
+        "id": 125120469,
+        "subject": "🌊🌊",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-11-05T20:09:56+00:00"
+      },
+      {
+        "id": 125109179,
+        "subject": "Is your website getting better or just getting more?",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-11-05T19:03:25+00:00"
+      },
+      {
         "id": 125085758,
         "subject": "Order #81242137 - Your Monthly Monitoring Report",
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-11-05T16:46:57+00:00"
-      },
-      {
-        "id": 125083937,
-        "subject": "Help Us Shape the Future of SurveyMonkey Audience",
-        "customer": "Unknown",
-        "status": "open",
-        "timestamp": "2026-11-05T16:36:19+00:00"
-      },
-      {
-        "id": 125082994,
-        "subject": "Adobe eLearning News – November 2026",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-05T16:31:07+00:00"
-      },
-      {
-        "id": 125073251,
-        "subject": "Fast-track growth with 150+ updates",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-05T15:39:22+00:00"
-      },
-      {
-        "id": 125061759,
-        "subject": "n8n Cloud's access to your Google Account data will expire soon",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-05T14:35:57+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-11-05T17:36:51.093Z",
+    "gorgiasUpdated": "2026-11-05T22:49:47.203Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
