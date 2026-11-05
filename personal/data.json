@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T01:26:04.283Z",
+  "lastUpdated": "2026-11-05T01:45:30.016Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,27 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 125000383,
+        "subject": "The traffic is coming. Are you ready for it?",
+        "customer": "Unknown",
+        "status": "open",
+        "timestamp": "2026-11-05T01:00:03+00:00"
+      },
+      {
+        "id": 124990387,
+        "subject": "20% off: reach your exact audience today",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-11-04T23:25:00+00:00"
+      },
+      {
+        "id": 124976299,
+        "subject": "Designed to surprise",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-11-04T21:45:47+00:00"
+      },
+      {
         "id": 124952441,
         "subject": "通过创作者展示的商品推广活动相关更新",
         "customer": "Unknown",
@@ -102,30 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-11-04T19:04:13+00:00"
-      },
-      {
-        "id": 124947021,
-        "subject": "You hit your monthly sessions limit",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-04T18:46:57+00:00"
-      },
-      {
-        "id": 124943917,
-        "subject": "You might not recognize Klaviyo anymore",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-04T18:29:51+00:00"
-      },
-      {
-        "id": 124942167,
-        "subject": "Enroll in New Selection Program by March 31, 2027",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-04T18:20:54+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-11-04T21:28:18.282Z",
+    "gorgiasUpdated": "2026-11-05T01:45:29.834Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
