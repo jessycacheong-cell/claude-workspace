@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T08:27:53.480Z",
+  "lastUpdated": "2026-11-05T09:22:54.838Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,6 +90,13 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
+        "id": 125027929,
+        "subject": "Thank you for reviewing     WEILOONG Thai-Style Sour... on Amazon",
+        "customer": "Unknown",
+        "status": "closed",
+        "timestamp": "2026-11-05T07:25:17+00:00"
+      },
+      {
         "id": 125000383,
         "subject": "The traffic is coming. Are you ready for it?",
         "customer": "Unknown",
@@ -116,16 +123,9 @@
         "customer": "Unknown",
         "status": "closed",
         "timestamp": "2026-11-04T19:17:02+00:00"
-      },
-      {
-        "id": 124950086,
-        "subject": "November Insights: The context behind better AI, data, and work",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-04T19:04:13+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-11-05T01:45:29.834Z",
+    "gorgiasUpdated": "2026-11-05T09:22:54.669Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
