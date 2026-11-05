@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T16:46:12.795Z",
+  "lastUpdated": "2026-11-05T17:36:51.316Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -90,42 +90,42 @@
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
     "gorgias": [
       {
-        "id": 125027929,
-        "subject": "Thank you for reviewing     WEILOONG Thai-Style Sour... on Amazon",
+        "id": 125085758,
+        "subject": "Order #81242137 - Your Monthly Monitoring Report",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-11-05T07:25:17+00:00"
+        "timestamp": "2026-11-05T16:46:57+00:00"
       },
       {
-        "id": 125000383,
-        "subject": "The traffic is coming. Are you ready for it?",
+        "id": 125083937,
+        "subject": "Help Us Shape the Future of SurveyMonkey Audience",
         "customer": "Unknown",
         "status": "open",
-        "timestamp": "2026-11-05T01:00:03+00:00"
+        "timestamp": "2026-11-05T16:36:19+00:00"
       },
       {
-        "id": 124990387,
-        "subject": "20% off: reach your exact audience today",
+        "id": 125082994,
+        "subject": "Adobe eLearning News – November 2026",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-11-04T23:25:00+00:00"
+        "timestamp": "2026-11-05T16:31:07+00:00"
       },
       {
-        "id": 124976299,
-        "subject": "Designed to surprise",
+        "id": 125073251,
+        "subject": "Fast-track growth with 150+ updates",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-11-04T21:45:47+00:00"
+        "timestamp": "2026-11-05T15:39:22+00:00"
       },
       {
-        "id": 124952441,
-        "subject": "通过创作者展示的商品推广活动相关更新",
+        "id": 125061759,
+        "subject": "n8n Cloud's access to your Google Account data will expire soon",
         "customer": "Unknown",
         "status": "closed",
-        "timestamp": "2026-11-04T19:17:02+00:00"
+        "timestamp": "2026-11-05T14:35:57+00:00"
       }
     ],
-    "gorgiasUpdated": "2026-11-05T09:22:54.669Z",
+    "gorgiasUpdated": "2026-11-05T17:36:51.093Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
