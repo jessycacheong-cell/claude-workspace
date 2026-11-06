@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T17:54:25.440Z",
+  "lastUpdated": "2026-11-06T18:24:03.493Z",
   "stats": {
     "mcpAgents": 6,
     "automationsRunning": 4,
@@ -88,44 +88,8 @@
       }
     ],
     "gmailUpdated": "2026-05-10T01:50:00.000Z",
-    "gorgias": [
-      {
-        "id": 125181160,
-        "subject": "HiveWatch just posted something that might be of interest to you",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-06T06:16:02+00:00"
-      },
-      {
-        "id": 125176256,
-        "subject": "Direct message with kategraceholland",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-06T04:38:28.780000+00:00"
-      },
-      {
-        "id": 125175712,
-        "subject": "Framer Monthly",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-06T04:28:44+00:00"
-      },
-      {
-        "id": 125174947,
-        "subject": "I want to connect",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-06T04:16:03+00:00"
-      },
-      {
-        "id": 125165704,
-        "subject": "👤 Someone at Team Saturn you may know",
-        "customer": "Unknown",
-        "status": "closed",
-        "timestamp": "2026-11-06T02:16:02+00:00"
-      }
-    ],
-    "gorgiasUpdated": "2026-11-06T11:26:49.802Z",
+    "gorgias": [],
+    "gorgiasUpdated": "2026-11-06T18:24:03.283Z",
     "gorgiasSummary": "",
     "gmailSummary": "",
     "outlook": [
